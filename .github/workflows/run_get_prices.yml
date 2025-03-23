@@ -31,6 +31,10 @@ jobs:
         run: |
           pip install -r requirements.txt  # 如果有依赖项的话
 
+      - name: Run get_ownedby.py
+        run: |
+          python get_ownedby.py
+
       - name: Run get_prices.py
         env:
           SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
@@ -51,7 +55,7 @@ jobs:
           commit_messages=("Update prices: ⏰" "Refresh data: 🔄" "Renew JSON files: 🌟" "Revise prices: 📝")
           random_msg=${commit_messages[$RANDOM % ${#commit_messages[@]}]}
 
-          git add oneapi_prices.json siliconflow_models.json
+          git add oneapi_prices.json siliconflow_models.json siliconflow_prices.json ownedby.json
           git commit -m "$random_msg - $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit."
 
       - name: Push Changes
