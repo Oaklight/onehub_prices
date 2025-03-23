@@ -4,7 +4,7 @@
 
 1. **oneapi_prices.json**: 适用于 one-hub 的完整价格表，包含所有供应商
 2. **siliconflow_prices.json**: 来自 siliconflow 官方的原始价格数据
-3. **onehub_only_prices.json** (即将推出): 仅包含供应商 id <= 1000 的核心供应商价格表
+3. **onehub_only_prices.json**: 仅包含供应商 id <= 1000 的核心供应商价格表
 
 所有价格数据每日自动更新，确保信息及时准确。
 
@@ -20,7 +20,7 @@ python merge_prices.py
 - `siliconflow_models.json`: 来自 siliconflow 官方的原始模型数据
 - `oneapi_prices.json`: 适用于 one-hub 的完整价格表
 - `siliconflow_prices.json`: 来自 siliconflow 官方的原始价格数据
-- `onehub_only_prices.json`: 仅包含供应商 id <= 1000 的核心供应商价格表 (即将推出)
+- `onehub_only_prices.json`: 仅包含供应商 id <= 1000 的核心供应商价格表
 - `manual_prices.yaml`: 手工维护的价格表
 - `manual_prices/`目录: 包含各供应商的独立价格文件，包括：
   - 阿里云百炼
