@@ -39,6 +39,9 @@ python merge_prices.py
 3. 点击`获取数据`
 4. 按需选择`覆盖数据`或`仅添加新增`
 
+**注意**：如需使用除了onehub默认定义的供应商之外的价格，则需关注你的`模型归属`页面，确保与自定义的供应商id与本项目的版本一致：见[ownedby.json](https://oaklight.github.io/onehub_prices/ownedby.json)
+
+
 ## 更新说明
 
 从提交 6bcde110295e7d0a4bca69a0ec6c9381318f1e0d 之后的更新包括：
