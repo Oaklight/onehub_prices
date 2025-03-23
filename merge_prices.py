@@ -219,8 +219,26 @@ if __name__ == "__main__":
     # 集成 provider 的价格，确保手动价格优先
     final_prices = integrate_prices(integrated_prices, provider_prices)
 
+    def filter_onehub_only_prices(prices):
+        """Filter prices to only include suppliers with id <= 1000"""
+        return {
+            "data": [
+                item
+                for item in prices["data"]
+                if isinstance(item["channel_type"], int)
+                and item["channel_type"] <= 1000
+            ]
+        }
+
     # 将集成后的价格数据保存到 oneapi_prices.json 文件
     with open("oneapi_prices.json", "w", encoding="utf-8") as file:
         json.dump(final_prices, file, indent=2, ensure_ascii=False)
 
-    print("已将集成后的价格数据保存到 oneapi_prices.json 文件。")
+    # 生成 onehub_only_prices.json 文件
+    onehub_only_prices = filter_onehub_only_prices(final_prices)
+    with open("onehub_only_prices.json", "w", encoding="utf-8") as file:
+        json.dump(onehub_only_prices, file, indent=2, ensure_ascii=False)
+
+    print(
+        "已将集成后的价格数据保存到 oneapi_prices.json 和 onehub_only_prices.json 文件。"
+    )

@@ -55,7 +55,7 @@ jobs:
           commit_messages=("Update prices: ⏰" "Refresh data: 🔄" "Renew JSON files: 🌟" "Revise prices: 📝")
           random_msg=${commit_messages[$RANDOM % ${#commit_messages[@]}]}
 
-          git add oneapi_prices.json siliconflow_models.json siliconflow_prices.json ownedby.json
+          git add oneapi_prices.json siliconflow_models.json siliconflow_prices.json ownedby.json onehub_only_prices.json
           git commit -m "$random_msg - $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit."
 
       - name: Push Changes
