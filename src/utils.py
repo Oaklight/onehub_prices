@@ -169,7 +169,10 @@ def yaml_to_json(directory_path, file_name=None):
 
             # 如果存在别名，则为每个别名添加条目
             if "aliases" in model_info:
-                aliases = model_info["aliases"].split(", ")
+                aliases = model_info["aliases"]
+                # 兼容旧格式（逗号分隔字符串）和新格式（列表）
+                if isinstance(aliases, str):
+                    aliases = [alias.strip() for alias in aliases.split(",")]
                 for alias in aliases:
                     json_data["data"].append(
                         create_model_entry(
