@@ -1,5 +1,439 @@
 [
     {
+        "modelId": "17885302725",
+        "modelName": "Pro/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+        "mf": "deepseek-ai",
+        "desc": "DeepSeek-R1-Distill-Qwen-1.5B 是基于 Qwen2.5-Math-1.5B 通过知识蒸馏得到的模型。该模型使用 DeepSeek-R1 生成的 80 万个精选样本进行微调，在多个基准测试中展现出不错的性能。作为一个轻量级模型，在 MATH-500 上达到了 83.9% 的准确率，在 AIME 2024 上达到了 28.9% 的通过率，在 CodeForces 上获得了 954 的评分，显示出超出其参数规模的推理能力",
+        "tags": [
+            "推理模型",
+            "1.5B",
+            "32K",
+            "Math"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DeepSeek.svg",
+        "publishTime": {
+            "seconds": 1737302400
+        },
+        "size": 2,
+        "contextLen": 32768,
+        "price": "0.14",
+        "currency": "¥",
+        "operationLabel": [
+            "New"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "DeepSeek-R1-Distill-Qwen-1.5B (Pro)",
+        "sort": 250,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 80000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1200,
+                "TPM": 120000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 2000,
+                "TPM": 160000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 4000,
+                "TPM": 320000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 8000,
+                "TPM": 1000000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 10000,
+                "TPM": 5000000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": true,
+        "functionCallSupport": true,
+        "fimCompletionSupport": true,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+        "deprecatedTime": {},
+        "filling": "{\"属地\":\"北京市\",\"模型名称\":\"求索对话DeepSeek Chat\",\"备案单位\":\"北京深度求索人工智能基础技术研究有限公司\",\"备案号\":\"Beijing-DeepseekChat-202404280016\",\"备案时间\":\"2024/5/13\"}"
+    },
+    {
+        "modelId": "17885302726",
+        "modelName": "Pro/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        "mf": "deepseek-ai",
+        "desc": "DeepSeek-R1-Distill-Qwen-7B 是基于 Qwen2.5-Math-7B 通过知识蒸馏得到的模型。该模型使用 DeepSeek-R1 生成的 80 万个精选样本进行微调，展现出优秀的推理能力。在多个基准测试中表现出色，其中在 MATH-500 上达到了 92.8% 的准确率，在 AIME 2024 上达到了 55.5% 的通过率，在 CodeForces 上获得了 1189 的评分，作为 7B 规模的模型展示了较强的数学和编程能力",
+        "tags": [
+            "推理模型",
+            "7B",
+            "32K",
+            "Math"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DeepSeek.svg",
+        "publishTime": {
+            "seconds": 1737302400
+        },
+        "size": 7,
+        "contextLen": 32768,
+        "price": "0.35",
+        "currency": "¥",
+        "operationLabel": [
+            "New"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "DeepSeek-R1-Distill-Qwen-7B (Pro)",
+        "sort": 260,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 80000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1200,
+                "TPM": 120000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 2000,
+                "TPM": 160000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 4000,
+                "TPM": 320000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 8000,
+                "TPM": 1000000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 10000,
+                "TPM": 5000000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": true,
+        "functionCallSupport": true,
+        "fimCompletionSupport": true,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        "deprecatedTime": {},
+        "filling": "{\"属地\":\"北京市\",\"模型名称\":\"求索对话DeepSeek Chat\",\"备案单位\":\"北京深度求索人工智能基础技术研究有限公司\",\"备案号\":\"Beijing-DeepseekChat-202404280016\",\"备案时间\":\"2024/5/13\"}"
+    },
+    {
+        "modelId": "17885302734",
+        "modelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+        "mf": "deepseek-ai",
+        "desc": "DeepSeek-R1-Distill-Qwen-1.5B 是基于 Qwen2.5-Math-1.5B 通过知识蒸馏得到的模型。该模型使用 DeepSeek-R1 生成的 80 万个精选样本进行微调，在多个基准测试中展现出不错的性能。作为一个轻量级模型，在 MATH-500 上达到了 83.9% 的准确率，在 AIME 2024 上达到了 28.9% 的通过率，在 CodeForces 上获得了 954 的评分，显示出超出其参数规模的推理能力",
+        "tags": [
+            "推理模型",
+            "1.5B",
+            "32K",
+            "Math"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DeepSeek.svg",
+        "publishTime": {
+            "seconds": 1737302400
+        },
+        "size": 2,
+        "contextLen": 32768,
+        "price": "0",
+        "currency": "¥",
+        "operationLabel": [
+            "New"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "DeepSeek-R1-Distill-Qwen-1.5B (Free)",
+        "sort": 4110,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": true,
+        "functionCallSupport": true,
+        "fimCompletionSupport": true,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+        "deprecatedTime": {},
+        "filling": "{\"属地\":\"北京市\",\"模型名称\":\"求索对话DeepSeek Chat\",\"备案单位\":\"北京深度求索人工智能基础技术研究有限公司\",\"备案号\":\"Beijing-DeepseekChat-202404280016\",\"备案时间\":\"2024/5/13\"}"
+    },
+    {
+        "modelId": "17885302736",
+        "modelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        "mf": "deepseek-ai",
+        "desc": "DeepSeek-R1-Distill-Qwen-7B 是基于 Qwen2.5-Math-7B 通过知识蒸馏得到的模型。该模型使用 DeepSeek-R1 生成的 80 万个精选样本进行微调，展现出优秀的推理能力。在多个基准测试中表现出色，其中在 MATH-500 上达到了 92.8% 的准确率，在 AIME 2024 上达到了 55.5% 的通过率，在 CodeForces 上获得了 1189 的评分，作为 7B 规模的模型展示了较强的数学和编程能力",
+        "tags": [
+            "推理模型",
+            "7B",
+            "32K",
+            "Math"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DeepSeek.svg",
+        "publishTime": {
+            "seconds": 1737302400
+        },
+        "size": 7,
+        "contextLen": 32768,
+        "price": "0",
+        "currency": "¥",
+        "operationLabel": [
+            "New"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "DeepSeek-R1-Distill-Qwen-7B (Free)",
+        "sort": 4150,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": true,
+        "functionCallSupport": true,
+        "fimCompletionSupport": true,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        "deprecatedTime": {},
+        "filling": "{\"属地\":\"北京市\",\"模型名称\":\"求索对话DeepSeek Chat\",\"备案单位\":\"北京深度求索人工智能基础技术研究有限公司\",\"备案号\":\"Beijing-DeepseekChat-202404280016\",\"备案时间\":\"2024/5/13\"}"
+    },
+    {
+        "modelId": "17885302729",
+        "modelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+        "mf": "deepseek-ai",
+        "desc": "DeepSeek-R1-Distill-Qwen-32B 是基于 Qwen2.5-32B 通过知识蒸馏得到的模型。该模型使用 DeepSeek-R1 生成的 80 万个精选样本进行微调，在数学、编程和推理等多个领域展现出卓越的性能。在 AIME 2024、MATH-500、GPQA Diamond 等多个基准测试中都取得了优异成绩，其中在 MATH-500 上达到了 94.3% 的准确率，展现出强大的数学推理能力",
+        "tags": [
+            "推理模型",
+            "32B",
+            "32K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DeepSeek.svg",
+        "publishTime": {
+            "seconds": 1737302400
+        },
+        "size": 32,
+        "contextLen": 32768,
+        "price": "1.26",
+        "currency": "¥",
+        "operationLabel": [
+            "New"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "DeepSeek-R1-Distill-Qwen-32B",
+        "sort": 4170,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 40000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1200,
+                "TPM": 60000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 2000,
+                "TPM": 80000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 4000,
+                "TPM": 160000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 8000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 10000,
+                "TPM": 2000000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": true,
+        "functionCallSupport": true,
+        "fimCompletionSupport": true,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+        "deprecatedTime": {},
+        "filling": "{\"属地\":\"北京市\",\"模型名称\":\"求索对话DeepSeek Chat\",\"备案单位\":\"北京深度求索人工智能基础技术研究有限公司\",\"备案号\":\"Beijing-DeepseekChat-202404280016\",\"备案时间\":\"2024/5/13\"}"
+    },
+    {
         "modelId": "17885302728",
         "modelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
         "mf": "deepseek-ai",
@@ -2869,440 +3303,6 @@
         "targetModelName": "Qwen/QVQ-72B-Preview",
         "deprecatedTime": {},
         "filling": "{\"属地\": \"浙江省\", \"模型名称\": \"通义千问大模型\", \"备案单位\": \"阿里巴巴达摩院（杭州）科技有限公司\", \"备案号\": \"ZheJiang-TongYiQianWen-20230901\", \"备案时间\": \"2023/9/12\"}"
-    },
-    {
-        "modelId": "17885302734",
-        "modelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-        "mf": "deepseek-ai",
-        "desc": "DeepSeek-R1-Distill-Qwen-1.5B 是基于 Qwen2.5-Math-1.5B 通过知识蒸馏得到的模型。该模型使用 DeepSeek-R1 生成的 80 万个精选样本进行微调，在多个基准测试中展现出不错的性能。作为一个轻量级模型，在 MATH-500 上达到了 83.9% 的准确率，在 AIME 2024 上达到了 28.9% 的通过率，在 CodeForces 上获得了 954 的评分，显示出超出其参数规模的推理能力",
-        "tags": [
-            "推理模型",
-            "1.5B",
-            "32K",
-            "Math"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DeepSeek.svg",
-        "publishTime": {
-            "seconds": 1737302400
-        },
-        "size": 2,
-        "contextLen": 32768,
-        "price": "0",
-        "currency": "¥",
-        "operationLabel": [
-            "New"
-        ],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "DeepSeek-R1-Distill-Qwen-1.5B (Free)",
-        "sort": 4110,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-        "deprecatedTime": {},
-        "filling": "{\"属地\": \"北京市\", \"模型名称\": \"求索对话DeepSeek Chat\", \"备案单位\": \"北京深度求索人工智能基础技术研究有限公司\", \"备案号\": \"Beijing-DeepseekChat-202404280016\", \"备案时间\": \"2024/5/13\"}"
-    },
-    {
-        "modelId": "17885302726",
-        "modelName": "Pro/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-        "mf": "deepseek-ai",
-        "desc": "DeepSeek-R1-Distill-Qwen-7B 是基于 Qwen2.5-Math-7B 通过知识蒸馏得到的模型。该模型使用 DeepSeek-R1 生成的 80 万个精选样本进行微调，展现出优秀的推理能力。在多个基准测试中表现出色，其中在 MATH-500 上达到了 92.8% 的准确率，在 AIME 2024 上达到了 55.5% 的通过率，在 CodeForces 上获得了 1189 的评分，作为 7B 规模的模型展示了较强的数学和编程能力",
-        "tags": [
-            "推理模型",
-            "7B",
-            "32K",
-            "Math"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DeepSeek.svg",
-        "publishTime": {
-            "seconds": 1737302400
-        },
-        "size": 7,
-        "contextLen": 32768,
-        "price": "0.35",
-        "currency": "¥",
-        "operationLabel": [
-            "New"
-        ],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "DeepSeek-R1-Distill-Qwen-7B (Pro)",
-        "sort": 260,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 80000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1200,
-                "TPM": 120000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 2000,
-                "TPM": 160000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 4000,
-                "TPM": 320000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 8000,
-                "TPM": 1000000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 10000,
-                "TPM": 5000000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-        "deprecatedTime": {},
-        "filling": "{\"属地\": \"北京市\", \"模型名称\": \"求索对话DeepSeek Chat\", \"备案单位\": \"北京深度求索人工智能基础技术研究有限公司\", \"备案号\": \"Beijing-DeepseekChat-202404280016\", \"备案时间\": \"2024/5/13\"}"
-    },
-    {
-        "modelId": "17885302725",
-        "modelName": "Pro/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-        "mf": "deepseek-ai",
-        "desc": "DeepSeek-R1-Distill-Qwen-1.5B 是基于 Qwen2.5-Math-1.5B 通过知识蒸馏得到的模型。该模型使用 DeepSeek-R1 生成的 80 万个精选样本进行微调，在多个基准测试中展现出不错的性能。作为一个轻量级模型，在 MATH-500 上达到了 83.9% 的准确率，在 AIME 2024 上达到了 28.9% 的通过率，在 CodeForces 上获得了 954 的评分，显示出超出其参数规模的推理能力",
-        "tags": [
-            "推理模型",
-            "1.5B",
-            "32K",
-            "Math"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DeepSeek.svg",
-        "publishTime": {
-            "seconds": 1737302400
-        },
-        "size": 2,
-        "contextLen": 32768,
-        "price": "0.14",
-        "currency": "¥",
-        "operationLabel": [
-            "New"
-        ],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "DeepSeek-R1-Distill-Qwen-1.5B (Pro)",
-        "sort": 250,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 80000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1200,
-                "TPM": 120000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 2000,
-                "TPM": 160000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 4000,
-                "TPM": 320000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 8000,
-                "TPM": 1000000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 10000,
-                "TPM": 5000000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-        "deprecatedTime": {},
-        "filling": "{\"属地\": \"北京市\", \"模型名称\": \"求索对话DeepSeek Chat\", \"备案单位\": \"北京深度求索人工智能基础技术研究有限公司\", \"备案号\": \"Beijing-DeepseekChat-202404280016\", \"备案时间\": \"2024/5/13\"}"
-    },
-    {
-        "modelId": "17885302729",
-        "modelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
-        "mf": "deepseek-ai",
-        "desc": "DeepSeek-R1-Distill-Qwen-32B 是基于 Qwen2.5-32B 通过知识蒸馏得到的模型。该模型使用 DeepSeek-R1 生成的 80 万个精选样本进行微调，在数学、编程和推理等多个领域展现出卓越的性能。在 AIME 2024、MATH-500、GPQA Diamond 等多个基准测试中都取得了优异成绩，其中在 MATH-500 上达到了 94.3% 的准确率，展现出强大的数学推理能力",
-        "tags": [
-            "推理模型",
-            "32B",
-            "32K"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DeepSeek.svg",
-        "publishTime": {
-            "seconds": 1737302400
-        },
-        "size": 32,
-        "contextLen": 32768,
-        "price": "1.26",
-        "currency": "¥",
-        "operationLabel": [
-            "New"
-        ],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "DeepSeek-R1-Distill-Qwen-32B",
-        "sort": 4170,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 40000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1200,
-                "TPM": 60000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 2000,
-                "TPM": 80000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 4000,
-                "TPM": 160000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 8000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 10000,
-                "TPM": 2000000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
-        "deprecatedTime": {},
-        "filling": "{\"属地\": \"北京市\", \"模型名称\": \"求索对话DeepSeek Chat\", \"备案单位\": \"北京深度求索人工智能基础技术研究有限公司\", \"备案号\": \"Beijing-DeepseekChat-202404280016\", \"备案时间\": \"2024/5/13\"}"
-    },
-    {
-        "modelId": "17885302736",
-        "modelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-        "mf": "deepseek-ai",
-        "desc": "DeepSeek-R1-Distill-Qwen-7B 是基于 Qwen2.5-Math-7B 通过知识蒸馏得到的模型。该模型使用 DeepSeek-R1 生成的 80 万个精选样本进行微调，展现出优秀的推理能力。在多个基准测试中表现出色，其中在 MATH-500 上达到了 92.8% 的准确率，在 AIME 2024 上达到了 55.5% 的通过率，在 CodeForces 上获得了 1189 的评分，作为 7B 规模的模型展示了较强的数学和编程能力",
-        "tags": [
-            "推理模型",
-            "7B",
-            "32K",
-            "Math"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DeepSeek.svg",
-        "publishTime": {
-            "seconds": 1737302400
-        },
-        "size": 7,
-        "contextLen": 32768,
-        "price": "0",
-        "currency": "¥",
-        "operationLabel": [
-            "New"
-        ],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "DeepSeek-R1-Distill-Qwen-7B (Free)",
-        "sort": 4150,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-        "deprecatedTime": {},
-        "filling": "{\"属地\": \"北京市\", \"模型名称\": \"求索对话DeepSeek Chat\", \"备案单位\": \"北京深度求索人工智能基础技术研究有限公司\", \"备案号\": \"Beijing-DeepseekChat-202404280016\", \"备案时间\": \"2024/5/13\"}"
     },
     {
         "modelId": "17885302689",
