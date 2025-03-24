@@ -21,6 +21,9 @@ print(response.status)
 body = response.read().decode("utf-8")
 model_json = json.loads(body)["data"]["models"]
 
+# Sort models by modelName to maintain consistent ordering
+model_json = sorted(model_json, key=lambda x: x["modelName"])
+
 with open("siliconflow_models.json", "w", encoding="utf-8") as f:
     json.dump(model_json, f, ensure_ascii=False, indent=4)
 
