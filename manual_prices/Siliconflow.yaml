@@ -4,3 +4,21 @@ models:
     AIDC-AI/Marco-o1:
       input: 0
       output: 0
+    # deepseek @ 硅基流动
+    deepseek-v3-siliconflow:
+      aliases: Pro/deepseek-ai/DeepSeek-V3, deepseek-ai/DeepSeek-V3
+      input: 2 rmb / M
+      output: 8 rmb / M
+    deepseek-r1-siliconflow:
+      aliases: Pro/deepseek-ai/DeepSeek-R1, deepseek-ai/DeepSeek-R1
+      input: 4 rmb / M
+      output: 16 rmb / M
+    deepseek-r1-distill-qwen-7b-siliconflow:
+      input: 0.35 rmb / M
+      output: 0.35 rmb / M
+    deepseek-r1-distill-qwen-32b-siliconflow:
+      input: 1.26 rmb / M
+      output: 1.26 rmb / M
+    deepseek-r1-distill-qwen-1.5b-siliconflow:
+      input: 0 rmb / M
+      output: 0 rmb / M

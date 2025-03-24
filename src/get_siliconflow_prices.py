@@ -1,6 +1,7 @@
 import http.client
 import json
 import os
+from utils import yaml_to_json, integrate_prices
 
 api_key = os.getenv("SILICONFLOW_API_KEY")
 assert api_key is not None, "SILICONFLOW_API_KEY is not set"
@@ -51,5 +52,12 @@ for model in model_json:
     siliconflow_price_json.append(price_data)
     print("-" * 40)
 
+# 加载并转换 manual_prices/Siliconflow.yaml
+manual_prices = yaml_to_json("manual_prices", "Siliconflow.yaml")
+
+# 集成手动价格和 siliconflow_prices
+integrated_prices = integrate_prices(manual_prices, {"data": siliconflow_price_json})
+
+# 保存集成后的价格数据
 with open("siliconflow_prices.json", "w", encoding="utf-8") as f:
-    json.dump({"data": siliconflow_price_json}, f, ensure_ascii=False, indent=2)
+    json.dump(integrated_prices, f, ensure_ascii=False, indent=2)

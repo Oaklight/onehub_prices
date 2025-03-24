@@ -33,17 +33,17 @@ jobs:
 
       - name: Run get_ownedby.py
         run: |
-          python get_ownedby.py
+          python src/get_ownedby.py
 
       - name: Run get_prices.py
         env:
           SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
         run: |
-          python get_prices.py
+          python src/get_siliconflow_prices.py
 
       - name: Run merge_prices.py
         run: |
-          python merge_prices.py
+          python src/merge_prices.py
 
       - name: Set up Git Configuration
         run: |
