@@ -14,16 +14,26 @@ if __name__ == "__main__":
     # 加载所有手工定价表格
     yaml_dir_path = "manual_prices"
     integrated_manual_prices = yaml_to_json(yaml_dir_path)
-    # 读取 siliconflow_prices.json 文件
+
+    # 加载所有自动定价表格
+    # 读取 siliconflow_prices.json 和 openrouter_prices.json 文件
     try:
         with open("siliconflow_prices.json", "r", encoding="utf-8") as file:
             siliconflow_prices = json.load(file)
     except FileNotFoundError:
-        print("未找到 siliconflow_prices.json 文件，将使用手动价格作为最终结果。")
+        print("未找到 siliconflow_prices.json 文件，将跳过 siliconflow 价格。")
         siliconflow_prices = {"data": []}
 
-    # 集成手动价格和 siliconflow_prices
+    try:
+        with open("openrouter_prices.json", "r", encoding="utf-8") as file:
+            openrouter_prices = json.load(file)
+    except FileNotFoundError:
+        print("未找到 openrouter_prices.json 文件，将跳过 openrouter 价格。")
+        openrouter_prices = {"data": []}
+
+    # 集成手动价格、siliconflow_prices 和 openrouter_prices
     integrated_prices = integrate_prices(integrated_manual_prices, siliconflow_prices)
+    integrated_prices = integrate_prices(integrated_prices, openrouter_prices)
 
     # 获取 provider 的价格
     try:
@@ -31,13 +41,13 @@ if __name__ == "__main__":
             "https://raw.githubusercontent.com/MartialBE/one-api/prices/prices.json"
         )
         response.raise_for_status()
-        provider_prices = {"data": response.json()}
+        upstream_martialbe_onehub_prices = {"data": response.json()}
     except requests.RequestException as e:
         print(f"获取 provider 价格出错: {e}")
-        provider_prices = {"data": []}
+        upstream_martialbe_onehub_prices = {"data": []}
 
     # 集成 provider 的价格，确保手动价格优先
-    final_prices = integrate_prices(integrated_prices, provider_prices)
+    final_prices = integrate_prices(integrated_prices, upstream_martialbe_onehub_prices)
 
     def filter_onehub_only_prices(prices):
         """Filter prices to only include suppliers with id <= 1000"""
