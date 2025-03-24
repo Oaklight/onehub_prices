@@ -1,62 +1,80 @@
 models:
   OpenAI:
     gpt-4.5-preview:
-      aliases: gpt-4.5-preview-2025-02-27
+      aliases:
+        - gpt-4.5-preview-2025-02-27
       input: 75 usd / M
       output: 150 usd / M
     gpt-4o:
-      aliases: gpt-4o-2024-11-20, gpt-4o-2024-08-06
+      aliases:
+        - gpt-4o-2024-11-20
+        - gpt-4o-2024-08-06
       input: 2.5 usd / M
       output: 10 usd / M
     gpt-4o-2024-05-13:
       input: 5 usd / M
       output: 15 usd / M
     gpt-4o-audio-preview:
-      aliases: gpt-4o-audio-preview-2024-12-17, gpt-4o-audio-preview-2024-10-01
+      aliases:
+        - gpt-4o-audio-preview-2024-12-17
+        - gpt-4o-audio-preview-2024-10-01
       input: 2.5 usd / M
       output: 10 usd / M
     gpt-4o-realtime-preview:
-      aliases: gpt-4o-realtime-preview-2024-12-17, gpt-4o-realtime-preview-2024-10-01
+      aliases:
+        - gpt-4o-realtime-preview-2024-12-17
+        - gpt-4o-realtime-preview-2024-10-01
       input: 5 usd / M
       output: 20 usd / M
     gpt-4o-mini:
-      aliases: gpt-4o-mini-2024-07-18
+      aliases:
+        - gpt-4o-mini-2024-07-18
       input: 0.15 usd / M
       output: 0.6 usd / M
     gpt-4o-mini-audio-preview:
-      aliases: gpt-4o-mini-audio-preview-2024-12-17
+      aliases:
+        - gpt-4o-mini-audio-preview-2024-12-17
       input: 0.15 usd / M
       output: 0.6 usd / M
     gpt-4o-mini-realtime-preview:
-      aliases: gpt-4o-mini-realtime-preview-2024-12-17
+      aliases:
+        - gpt-4o-mini-realtime-preview-2024-12-17
       input: 0.6 usd / M
       output: 2.4 usd / M
     o1:
-      aliases: o1-2024-12-17, o1-preview-2024-09-12
+      aliases:
+        - o1-2024-12-17
+        - o1-preview-2024-09-12
       input: 15 usd / M
       output: 60 usd / M
     o1-pro:
-      aliases: o1-pro-2025-03-19
+      aliases:
+        - o1-pro-2025-03-19
       input: 150 usd / M
       output: 600 usd / M
     o3-mini:
-      aliases: o3-mini-2025-01-31
+      aliases:
+        - o3-mini-2025-01-31
       input: 1.1 usd / M
       output: 4.4 usd / M
     o1-mini:
-      aliases: o1-mini-2024-09-12
+      aliases:
+        - o1-mini-2024-09-12
       input: 1.1 usd / M
       output: 4.4 usd / M
     gpt-4o-mini-search-preview:
-      aliases: gpt-4o-mini-search-preview-2025-03-11
+      aliases:
+        - gpt-4o-mini-search-preview-2025-03-11
       input: 0.15 usd / M
       output: 0.6 usd / M
     gpt-4o-search-preview:
-      aliases: gpt-4o-search-preview-2025-03-11
+      aliases:
+        - gpt-4o-search-preview-2025-03-11
       input: 2.5 usd / M
       output: 10 usd / M
     computer-use-preview:
-      aliases: computer-use-preview-2025-03-11
+      aliases:
+        - computer-use-preview-2025-03-11
       input: 3 usd / M
       output: 12 usd / M
     gpt-4o-mini-tts:
@@ -85,25 +103,33 @@ models:
       input: 5 usd / M
       output: 15 usd / M
     gpt-4-turbo:
-      aliases: gpt-4-turbo-2024-04-09, gpt-4-0125-preview, gpt-4-1106-preview, gpt-4-1106-vision-preview
+      aliases:
+        - gpt-4-turbo-2024-04-09
+        - gpt-4-0125-preview
+        - gpt-4-1106-preview
+        - gpt-4-1106-vision-preview
       input: 10 usd / M
       output: 30 usd / M
     gpt-4:
-      aliases: gpt-4-0613, gpt-4-0314
+      aliases:
+        - gpt-4-0613
+        - gpt-4-0314
       input: 30 usd / M
       output: 60 usd / M
     gpt-4-32k:
       input: 60 usd / M
       output: 120 usd / M
     gpt-3.5-turbo:
-      aliases: gpt-3.5-turbo-0125
+      aliases:
+        - gpt-3.5-turbo-0125
       input: 0.5 usd / M
       output: 1.5 usd / M
     gpt-3.5-turbo-1106:
       input: 1 usd / M
       output: 2 usd / M
     gpt-3.5-turbo-0613:
-      aliases: gpt-3.5-turbo-0301
+      aliases:
+        - gpt-3.5-turbo-0301
       input: 1.5 usd / M
       output: 2 usd / M
     gpt-3.5-turbo-instruct:
