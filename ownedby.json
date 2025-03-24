@@ -13,7 +13,7 @@
     "1002": {
       "id": 1002,
       "name": "字节火山引擎",
-      "icon": "https://portal.volccdn.com/obj/volcfe/bee_prod/biz_950/tos_c35960bdc9467f9eb39f3df3aef7acf7.svg"
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/1.42.0/files/icons/doubao-color.svg"
     },
     "1003": {
       "id": 1003,
@@ -27,23 +27,28 @@
     },
     "1005": {
       "id": 1005,
-      "name": "stepfun",
-      "icon": "https://www.stepfun.com/step-ai.svg"
+      "name": "阶跃星辰",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/1.42.0/files/icons/stepfun-color.svg"
     },
     "1006": {
       "id": 1006,
       "name": "OpenRouter",
-      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/openrouter.png"
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/1.42.0/files/icons/openrouter.svg"
     },
     "1007": {
       "id": 1007,
       "name": "Pollinations.AI",
-      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/pollinations.png"
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/1.42.0/files/icons/pollinations.svg"
     },
     "1008": {
       "id": 1008,
       "name": "Coreshub",
       "icon": "https://coreshub.cn/favicon.svg"
+    },
+    "1009": {
+      "id": 1009,
+      "name": "xAI",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/1.42.0/files/icons/grok.svg"
     },
     "11": {
       "id": 11,
