@@ -15,6 +15,20 @@
       "output": 7.5
     },
     {
+      "model": "computer-use-preview",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.5,
+      "output": 6.0
+    },
+    {
+      "model": "computer-use-preview-2025-03-11",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.5,
+      "output": 6.0
+    },
+    {
       "model": "dall-e-2",
       "type": "tokens",
       "channel_type": 1,
@@ -32,8 +46,8 @@
       "model": "davinci-002",
       "type": "tokens",
       "channel_type": 1,
-      "input": 1,
-      "output": 1
+      "input": 1.0,
+      "output": 1.0
     },
     {
       "model": "gpt-3.5-turbo",
@@ -54,21 +68,21 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 0.75,
-      "output": 1
+      "output": 1.0
     },
     {
       "model": "gpt-3.5-turbo-0613",
       "type": "tokens",
       "channel_type": 1,
       "input": 0.75,
-      "output": 1
+      "output": 1.0
     },
     {
       "model": "gpt-3.5-turbo-1106",
       "type": "tokens",
       "channel_type": 1,
       "input": 0.5,
-      "output": 1
+      "output": 1.0
     },
     {
       "model": "gpt-3.5-turbo-16k",
@@ -82,56 +96,63 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 1.5,
-      "output": 2
+      "output": 2.0
     },
     {
       "model": "gpt-3.5-turbo-instruct",
       "type": "tokens",
       "channel_type": 1,
       "input": 0.75,
-      "output": 1
+      "output": 1.0
     },
     {
       "model": "gpt-4",
       "type": "tokens",
       "channel_type": 1,
-      "input": 15,
-      "output": 30
+      "input": 15.0,
+      "output": 30.0
     },
     {
       "model": "gpt-4-0125-preview",
       "type": "tokens",
       "channel_type": 1,
-      "input": 5,
-      "output": 15
+      "input": 5.0,
+      "output": 15.0
     },
     {
       "model": "gpt-4-0314",
       "type": "tokens",
       "channel_type": 1,
-      "input": 15,
-      "output": 30
+      "input": 15.0,
+      "output": 30.0
     },
     {
       "model": "gpt-4-0613",
       "type": "tokens",
       "channel_type": 1,
-      "input": 15,
-      "output": 30
+      "input": 15.0,
+      "output": 30.0
     },
     {
       "model": "gpt-4-1106-preview",
       "type": "tokens",
       "channel_type": 1,
-      "input": 5,
-      "output": 15
+      "input": 5.0,
+      "output": 15.0
+    },
+    {
+      "model": "gpt-4-1106-vision-preview",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 5.0,
+      "output": 15.0
     },
     {
       "model": "gpt-4-32k",
       "type": "tokens",
       "channel_type": 1,
-      "input": 30,
-      "output": 60
+      "input": 30.0,
+      "output": 60.0
     },
     {
       "model": "gpt-4-32k-0314",
@@ -158,15 +179,15 @@
       "model": "gpt-4-turbo",
       "type": "tokens",
       "channel_type": 1,
-      "input": 5,
-      "output": 15
+      "input": 5.0,
+      "output": 15.0
     },
     {
       "model": "gpt-4-turbo-2024-04-09",
       "type": "tokens",
       "channel_type": 1,
-      "input": 5,
-      "output": 15
+      "input": 5.0,
+      "output": 15.0
     },
     {
       "model": "gpt-4-turbo-preview",
@@ -183,11 +204,25 @@
       "output": 15
     },
     {
+      "model": "gpt-4.5-preview",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 37.5,
+      "output": 75.0
+    },
+    {
+      "model": "gpt-4.5-preview-2025-02-27",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 37.5,
+      "output": 75.0
+    },
+    {
       "model": "gpt-4o",
       "type": "tokens",
       "channel_type": 1,
-      "input": 2.5,
-      "output": 7.5
+      "input": 1.25,
+      "output": 5.0
     },
     {
       "model": "gpt-4o-2024-05-13",
@@ -201,21 +236,35 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 1.25,
-      "output": 5
+      "output": 5.0
+    },
+    {
+      "model": "gpt-4o-2024-11-20",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.25,
+      "output": 5.0
     },
     {
       "model": "gpt-4o-audio-preview",
       "type": "tokens",
       "channel_type": 1,
       "input": 1.25,
-      "output": 5
+      "output": 5.0
     },
     {
       "model": "gpt-4o-audio-preview-2024-10-01",
       "type": "tokens",
       "channel_type": 1,
       "input": 1.25,
-      "output": 5
+      "output": 5.0
+    },
+    {
+      "model": "gpt-4o-audio-preview-2024-12-17",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.25,
+      "output": 5.0
     },
     {
       "model": "gpt-4o-mini",
@@ -232,32 +281,130 @@
       "output": 0.3
     },
     {
+      "model": "gpt-4o-mini-audio-preview",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.075,
+      "output": 0.3
+    },
+    {
+      "model": "gpt-4o-mini-audio-preview-2024-12-17",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.075,
+      "output": 0.3
+    },
+    {
+      "model": "gpt-4o-mini-realtime-preview",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.3,
+      "output": 1.2
+    },
+    {
+      "model": "gpt-4o-mini-realtime-preview-2024-12-17",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.3,
+      "output": 1.2
+    },
+    {
+      "model": "gpt-4o-mini-search-preview",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.075,
+      "output": 0.3
+    },
+    {
+      "model": "gpt-4o-mini-search-preview-2025-03-11",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.075,
+      "output": 0.3
+    },
+    {
+      "model": "gpt-4o-mini-transcribe",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.625,
+      "output": 2.5
+    },
+    {
+      "model": "gpt-4o-mini-tts",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.3,
+      "output": 0.0
+    },
+    {
       "model": "gpt-4o-realtime-preview",
       "type": "tokens",
       "channel_type": 1,
       "input": 2.5,
-      "output": 10
+      "output": 10.0
     },
     {
       "model": "gpt-4o-realtime-preview-2024-10-01",
       "type": "tokens",
       "channel_type": 1,
       "input": 2.5,
-      "output": 10
+      "output": 10.0
+    },
+    {
+      "model": "gpt-4o-realtime-preview-2024-12-17",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 2.5,
+      "output": 10.0
+    },
+    {
+      "model": "gpt-4o-search-preview",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.25,
+      "output": 5.0
+    },
+    {
+      "model": "gpt-4o-search-preview-2025-03-11",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.25,
+      "output": 5.0
+    },
+    {
+      "model": "gpt-4o-transcribe",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.25,
+      "output": 5.0
+    },
+    {
+      "model": "o1",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 7.5,
+      "output": 30.0
+    },
+    {
+      "model": "o1-2024-12-17",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 7.5,
+      "output": 30.0
     },
     {
       "model": "o1-mini",
       "type": "tokens",
       "channel_type": 1,
-      "input": 1.5,
-      "output": 6
+      "input": 0.55,
+      "output": 2.2
     },
     {
       "model": "o1-mini-2024-09-12",
       "type": "tokens",
       "channel_type": 1,
-      "input": 1.5,
-      "output": 6
+      "input": 0.55,
+      "output": 2.2
     },
     {
       "model": "o1-preview",
@@ -271,28 +418,56 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 7.5,
-      "output": 30
+      "output": 30.0
+    },
+    {
+      "model": "o1-pro",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 75.0,
+      "output": 300.0
+    },
+    {
+      "model": "o1-pro-2025-03-19",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 75.0,
+      "output": 300.0
+    },
+    {
+      "model": "o3-mini",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.55,
+      "output": 2.2
+    },
+    {
+      "model": "o3-mini-2025-01-31",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.55,
+      "output": 2.2
     },
     {
       "model": "text-embedding-3-large",
       "type": "tokens",
       "channel_type": 1,
       "input": 0.065,
-      "output": 0.065
+      "output": 0.0
     },
     {
       "model": "text-embedding-3-small",
       "type": "tokens",
       "channel_type": 1,
       "input": 0.01,
-      "output": 0.01
+      "output": 0.0
     },
     {
       "model": "text-embedding-ada-002",
       "type": "tokens",
       "channel_type": 1,
       "input": 0.05,
-      "output": 0.05
+      "output": 0.0
     },
     {
       "model": "text-moderation-latest",
