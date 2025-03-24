@@ -1,0 +1,23 @@
+models:
+  xAI:
+    # current models
+    grok-2:
+      aliases:
+        - grok-2-1212
+        - grok-2-latest
+      input: 2 usd / M
+      output: 10 usd / M
+    grok-2-vision:
+      aliases:
+        - grok-2-vision-1212
+        - grok-2-vision-latest
+      input: 2 usd / M
+      output: 10 usd / M
+
+    # past models
+    grok-beta:
+      input: 5 usd / M
+      output: 15 usd / M
+    grok-vision-beta:
+      input: 5 usd / M
+      output: 15 usd / M
