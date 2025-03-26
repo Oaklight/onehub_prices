@@ -1619,7 +1619,7 @@
         "type": "text",
         "subType": "chat",
         "DisplayName": "Qwen2.5-VL-7B-Instruct (Pro)",
-        "sort": 6500,
+        "sort": 4800,
         "sameSeries": [],
         "language": [],
         "modelInfo": [
@@ -2193,6 +2193,92 @@
         "filling": "{\"属地\":\"北京市\",\"模型名称\":\"求索对话DeepSeek Chat\",\"备案单位\":\"北京深度求索人工智能基础技术研究有限公司\",\"备案号\":\"Beijing-DeepseekChat-202404280016\",\"备案时间\":\"2024/5/13\"}"
     },
     {
+        "modelId": "17885302801",
+        "modelName": "Pro/deepseek-ai/DeepSeek-V3-1226",
+        "mf": "deepseek-ai",
+        "desc": "DeepSeek-V3 是一款拥有 6710 亿参数的混合专家（MoE）语言模型，采用多头潜在注意力（MLA）和 DeepSeekMoE 架构，结合无辅助损失的负载平衡策略，优化推理和训练效率。通过在 14.8 万亿高质量tokens上预训练，并进行监督微调和强化学习，DeepSeek-V3 在性能上超越其他开源模型，接近领先闭源模型。",
+        "tags": [
+            "MoE",
+            "671B",
+            "64K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/deepseek-st.svg",
+        "publishTime": {
+            "seconds": 1735142400
+        },
+        "size": 671,
+        "contextLen": 65536,
+        "price": "8",
+        "currency": "¥",
+        "operationLabel": [
+            "华为云昇腾云服务"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "DeepSeek-V3-1226 (Pro)",
+        "sort": 5450,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 1000000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1000,
+                "TPM": 1000000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 1000,
+                "TPM": 1000000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 1000,
+                "TPM": 1000000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 1000,
+                "TPM": 1000000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 1000,
+                "TPM": 1000000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": true,
+        "functionCallSupport": true,
+        "fimCompletionSupport": true,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": true,
+        "supportFT": false,
+        "targetModelName": "deepseek-ai/DeepSeek-V3-1226",
+        "deprecatedTime": {},
+        "filling": "{\"属地\":\"北京市\",\"模型名称\":\"求索对话DeepSeek Chat\",\"备案单位\":\"北京深度求索人工智能基础技术研究有限公司\",\"备案号\":\"Beijing-DeepseekChat-202404280016\",\"备案时间\":\"2024/5/13\"}"
+    },
+    {
         "modelId": "17885302546",
         "modelName": "Pro/internlm/internlm2_5-7b-chat",
         "mf": "internlm",
@@ -2386,7 +2472,7 @@
         "type": "text",
         "subType": "chat",
         "DisplayName": "QwQ-32B",
-        "sort": 5700,
+        "sort": 5000,
         "sameSeries": [],
         "language": [],
         "modelInfo": [
@@ -4065,7 +4151,7 @@
         "type": "text",
         "subType": "chat",
         "DisplayName": "Qwen2.5-VL-72B-Instruct",
-        "sort": 6600,
+        "sort": 4900,
         "sameSeries": [],
         "language": [],
         "modelInfo": [
@@ -4812,10 +4898,10 @@
         },
         "size": 14,
         "contextLen": 0,
-        "price": "1",
+        "price": "2",
         "currency": "¥",
         "operationLabel": [
-            "首周五折"
+            "New"
         ],
         "needAuth": false,
         "onlineDemo": true,
@@ -4896,10 +4982,10 @@
         },
         "size": 14,
         "contextLen": 0,
-        "price": "0.75",
+        "price": "1.5",
         "currency": "¥",
         "operationLabel": [
-            "首周五折"
+            "New"
         ],
         "needAuth": false,
         "onlineDemo": true,

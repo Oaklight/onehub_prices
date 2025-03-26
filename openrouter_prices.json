@@ -512,6 +512,13 @@
       "output": 0.35
     },
     {
+      "model": "featherless/qwerky-72b:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "google/gemini-2.0-flash-001",
       "type": "tokens",
       "channel_type": 1006,
@@ -561,7 +568,7 @@
       "output": 0.0
     },
     {
-      "model": "google/gemini-exp-1206:free",
+      "model": "google/gemini-2.5-pro-exp-03-25:free",
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.0,
@@ -648,8 +655,8 @@
       "model": "google/gemma-3-27b-it",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.15,
-      "output": 0.25
+      "input": 0.05,
+      "output": 0.1
     },
     {
       "model": "google/gemma-3-27b-it:free",

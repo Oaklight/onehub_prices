@@ -190,6 +190,13 @@
       "output": 0.5714285714285714
     },
     {
+      "model": "Pro/deepseek-ai/DeepSeek-V3-1226",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.5714285714285714,
+      "output": 0.5714285714285714
+    },
+    {
       "model": "Pro/internlm/internlm2_5-7b-chat",
       "type": "tokens",
       "channel_type": 45,
@@ -410,15 +417,15 @@
       "model": "Wan-AI/Wan2.1-T2V-14B",
       "type": "times",
       "channel_type": 45,
-      "input": 1.0,
-      "output": 1.0
+      "input": 2.0,
+      "output": 2.0
     },
     {
       "model": "Wan-AI/Wan2.1-T2V-14B-Turbo",
       "type": "times",
       "channel_type": 45,
-      "input": 0.75,
-      "output": 0.75
+      "input": 1.5,
+      "output": 1.5
     },
     {
       "model": "deepseek-ai/DeepSeek-Coder-V2-Instruct",
