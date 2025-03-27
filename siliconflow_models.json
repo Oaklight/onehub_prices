@@ -5829,7 +5829,7 @@
         "modelId": "17885302723",
         "modelName": "deepseek-ai/DeepSeek-V3",
         "mf": "deepseek-ai",
-        "desc": "DeepSeek-V3 是一款拥有 6710 亿参数的混合专家（MoE）语言模型，采用多头潜在注意力（MLA）和 DeepSeekMoE 架构，结合无辅助损失的负载平衡策略，优化推理和训练效率。通过在 14.8 万亿高质量tokens上预训练，并进行监督微调和强化学习，DeepSeek-V3 在性能上超越其他开源模型，接近领先闭源模型。",
+        "desc": "新版 DeepSeek-V3 （DeepSeek-V3-0324）与之前的 DeepSeek-V3-1226 使用同样的 base 模型，仅改进了后训练方法。新版 V3 模型借鉴 DeepSeek-R1 模型训练过程中所使用的强化学习技术，大幅提高了在推理类任务上的表现水平，在数学、代码类相关评测集上取得了超过 GPT-4.5 的得分成绩。此外该模型在工具调用、角色扮演、问答闲聊等方面也得到了一定幅度的能力提升。",
         "tags": [
             "MoE",
             "671B",
@@ -5844,14 +5844,14 @@
         "price": "8",
         "currency": "¥",
         "operationLabel": [
-            "华为云昇腾云服务"
+            "DeepSeek-V3-0324 X 华为云昇腾云服务"
         ],
         "needAuth": false,
         "onlineDemo": true,
         "type": "text",
         "subType": "chat",
         "DisplayName": "DeepSeek-V3",
-        "sort": 5200,
+        "sort": 6990,
         "sameSeries": [],
         "language": [],
         "modelInfo": [

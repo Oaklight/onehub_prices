@@ -2731,6 +2731,13 @@
       "output": 0.5714285714285714
     },
     {
+      "model": "deepseek-v3-250324",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.14285714285714285,
+      "output": 0.5714285714285714
+    },
+    {
       "model": "deepseek-v3-volcengine",
       "type": "tokens",
       "channel_type": 1002,
