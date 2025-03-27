@@ -1530,8 +1530,8 @@
       "model": "kimi-latest",
       "type": "tokens",
       "channel_type": 29,
-      "input": 1.2857142857142856,
-      "output": 1.2857142857142856
+      "input": 1.7142857142857142,
+      "output": 1.7142857142857142
     },
     {
       "model": "kimi-latest-128k",
@@ -1600,8 +1600,8 @@
       "model": "moonshot-v1-auto",
       "type": "tokens",
       "channel_type": 29,
-      "input": 1.2857142857142856,
-      "output": 1.2857142857142856
+      "input": 1.7142857142857142,
+      "output": 1.7142857142857142
     },
     {
       "model": "mistral-embed",
