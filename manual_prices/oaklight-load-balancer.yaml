@@ -117,7 +117,9 @@ models:
   字节火山引擎:
     # deepseek @ 字节火山引擎
     deepseek-v3-volcengine:
-      aliases: deepseek-v3-241226
+      aliases: 
+        - deepseek-v3-241226
+        - deepseek-v3-250324
       input: 0.002 rmb / K
       output: 0.008 rmb / K
     deepseek-r1-volcengine:
