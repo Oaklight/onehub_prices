@@ -6,3 +6,7 @@ models:
     CosyVoice-300M:
       input: 0
       output: 0
+      
+    nomic-embed-text-v2-moe:
+      input: 0.0002 rmb / K
+      output: 0
