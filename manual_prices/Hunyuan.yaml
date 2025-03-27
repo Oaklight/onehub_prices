@@ -1,0 +1,60 @@
+models:
+  Hunyuan:
+    hunyuan-t1:
+      aliases:
+        - hunyuan-t1-latest
+        - hunyuan-t1-20250321
+      input: 1 rmb / M
+      output: 4 rmb / M
+    hunyuan-turbos:
+      aliases:
+        - hunyuan-turbos-latest
+        - hunyuan-turbos-20250313
+        - hunyuan-turbos-20250226
+      input: 0.8 rmb / M
+      output: 2 rmb / M
+    hunyuan-turbo:
+      aliases:
+        - hunyuan-turbo-latest
+        - hunyuan-turbo-20241223
+      input: 2.4 rmb / M
+      output: 9.6 rmb / M
+    hunyuan-large:
+      input: 4 rmb / M
+      output: 12 rmb / M
+    hunyuan-large-longcontext:
+      input: 6 rmb / M
+      output: 18 rmb / M
+    hunyuan-standard:
+      input: 0.8 rmb / M
+      output: 2 rmb / M
+    hunyuan-standard-256K:
+      input: 0.5 rmb / M
+      output: 2 rmb / M
+    hunyuan-translation:
+      input: 15 rmb / M
+      output: 45 rmb / M
+    hunyuan-translation-lite:
+      input: 1 rmb / M
+      output: 3 rmb / M
+    hunyuan-role:
+      input: 4 rmb / M
+      output: 8 rmb / M
+    hunyuan-functioncall:
+      input: 4 rmb / M
+      output: 8 rmb / M
+    hunyuan-code:
+      input: 3.5 rmb / M
+      output: 7 rmb / M
+    hunyuan-turbo-vision:
+      input: 80 rmb / M
+      output: 80 rmb / M
+    hunyuan-vision:
+      input: 18 rmb / M
+      output: 18 rmb / M
+    hunyuan-embedding:
+      input: 0.7 rmb / M
+      output: 0.7 rmb / M
+    腾讯元器:
+      input: 100 rmb / M
+      output: 100 rmb / M
