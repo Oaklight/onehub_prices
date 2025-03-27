@@ -1996,6 +1996,41 @@
       "output": 0
     },
     {
+      "model": "hunyuan-code",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.25,
+      "output": 0.5
+    },
+    {
+      "model": "hunyuan-embedding",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.049999999999999996,
+      "output": 0.049999999999999996
+    },
+    {
+      "model": "hunyuan-functioncall",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.2857142857142857,
+      "output": 0.5714285714285714
+    },
+    {
+      "model": "hunyuan-large",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.2857142857142857,
+      "output": 0.8571428571428571
+    },
+    {
+      "model": "hunyuan-large-longcontext",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.42857142857142855,
+      "output": 1.2857142857142856
+    },
+    {
       "model": "hunyuan-lite",
       "type": "tokens",
       "channel_type": 40,
@@ -2003,11 +2038,25 @@
       "output": 0
     },
     {
+      "model": "hunyuan-role",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.2857142857142857,
+      "output": 0.5714285714285714
+    },
+    {
       "model": "hunyuan-standard",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.3214,
-      "output": 0.3571
+      "input": 0.05714285714285714,
+      "output": 0.14285714285714285
+    },
+    {
+      "model": "hunyuan-standard-256K",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.03571428571428571,
+      "output": 0.14285714285714285
     },
     {
       "model": "hunyuan-standard-256k",
@@ -2015,6 +2064,111 @@
       "channel_type": 40,
       "input": 1.0714,
       "output": 4.2857
+    },
+    {
+      "model": "hunyuan-t1",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.07142857142857142,
+      "output": 0.2857142857142857
+    },
+    {
+      "model": "hunyuan-t1-20250321",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.07142857142857142,
+      "output": 0.2857142857142857
+    },
+    {
+      "model": "hunyuan-t1-latest",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.07142857142857142,
+      "output": 0.2857142857142857
+    },
+    {
+      "model": "hunyuan-translation",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 1.0714285714285714,
+      "output": 3.214285714285714
+    },
+    {
+      "model": "hunyuan-translation-lite",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.07142857142857142,
+      "output": 0.21428571428571427
+    },
+    {
+      "model": "hunyuan-turbo",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.1714285714285714,
+      "output": 0.6857142857142856
+    },
+    {
+      "model": "hunyuan-turbo-20241223",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.1714285714285714,
+      "output": 0.6857142857142856
+    },
+    {
+      "model": "hunyuan-turbo-latest",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.1714285714285714,
+      "output": 0.6857142857142856
+    },
+    {
+      "model": "hunyuan-turbo-vision",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 5.714285714285714,
+      "output": 5.714285714285714
+    },
+    {
+      "model": "hunyuan-turbos",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.05714285714285714,
+      "output": 0.14285714285714285
+    },
+    {
+      "model": "hunyuan-turbos-20250226",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.05714285714285714,
+      "output": 0.14285714285714285
+    },
+    {
+      "model": "hunyuan-turbos-20250313",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.05714285714285714,
+      "output": 0.14285714285714285
+    },
+    {
+      "model": "hunyuan-turbos-latest",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.05714285714285714,
+      "output": 0.14285714285714285
+    },
+    {
+      "model": "hunyuan-vision",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 1.2857142857142856,
+      "output": 1.2857142857142856
+    },
+    {
+      "model": "腾讯元器",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 7.142857142857143,
+      "output": 7.142857142857143
     },
     {
       "model": "01-ai/Yi-1.5-34B-Chat-16K",
