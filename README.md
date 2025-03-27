@@ -53,7 +53,7 @@ python merge_prices.py
    - 适用于需要完整价格数据的场景
    - 地址:
      - GitHub Pages: [`https://oaklight.github.io/onehub_prices/oneapi_prices.json`](https://oaklight.github.io/onehub_prices/oneapi_prices.json)
-     - Raw GitHub: [`https://raw.githubusercontent.com/Oaklight/onehub_prices/main/oneapi_prices.json`](https://raw.githubusercontent.com/Oaklight/onehub_prices/main/oneapi_prices.json)
+     - Raw GitHub: [`https://raw.githubusercontent.com/Oaklight/onehub_prices/refs/heads/master/oneapi_prices.json`](https://raw.githubusercontent.com/Oaklight/onehub_prices/refs/heads/master/oneapi_prices.json)
 
 2. **核心供应商价格表** (onehub_only_prices.json)
 
@@ -61,7 +61,7 @@ python merge_prices.py
    - 适用于只需要核心供应商价格的场景
    - 地址:
      - GitHub Pages: [`https://oaklight.github.io/onehub_prices/onehub_only_prices.json`](https://oaklight.github.io/onehub_prices/onehub_only_prices.json)
-     - Raw GitHub: [`https://raw.githubusercontent.com/Oaklight/onehub_prices/main/onehub_only_prices.json`](https://raw.githubusercontent.com/Oaklight/onehub_prices/main/onehub_only_prices.json)
+     - Raw GitHub: [`https://raw.githubusercontent.com/Oaklight/onehub_prices/refs/heads/master/onehub_only_prices.json`](https://raw.githubusercontent.com/Oaklight/onehub_prices/refs/heads/master/onehub_only_prices.json)
 
 3. **Siliconflow 原始价格表** (siliconflow_prices.json)
 
@@ -69,14 +69,14 @@ python merge_prices.py
    - 适用于需要原始价格数据的场景
    - 地址:
      - GitHub Pages: [`https://oaklight.github.io/onehub_prices/siliconflow_prices.json`](https://oaklight.github.io/onehub_prices/siliconflow_prices.json)
-     - Raw GitHub: [`https://raw.githubusercontent.com/Oaklight/onehub_prices/main/siliconflow_prices.json`](https://raw.githubusercontent.com/Oaklight/onehub_prices/main/siliconflow_prices.json)
+     - Raw GitHub: [`https://raw.githubusercontent.com/Oaklight/onehub_prices/refs/heads/master/siliconflow_prices.json`](https://raw.githubusercontent.com/Oaklight/onehub_prices/refs/heads/master/siliconflow_prices.json)
 
 4. **OpenRouter 原始价格表** (openrouter_prices.json)
    - 来自 OpenRouter 官方的原始价格数据
    - 适用于需要原始价格数据的场景
    - 地址:
      - GitHub Pages: [`https://oaklight.github.io/onehub_prices/openrouter_prices.json`](https://oaklight.github.io/onehub_prices/openrouter_prices.json)
-     - Raw GitHub: [`https://raw.githubusercontent.com/Oaklight/onehub_prices/main/openrouter_prices.json`](https://raw.githubusercontent.com/Oaklight/onehub_prices/main/openrouter_prices.json)
+     - Raw GitHub: [`https://raw.githubusercontent.com/Oaklight/onehub_prices/refs/heads/master/openrouter_prices.json`](https://raw.githubusercontent.com/Oaklight/onehub_prices/main/openrouter_prices.json)
 
 **使用步骤**：
 
