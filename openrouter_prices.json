@@ -78,6 +78,13 @@
       "output": 5.0
     },
     {
+      "model": "allenai/molmo-7b-d:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "allenai/olmo-2-0325-32b-instruct",
       "type": "tokens",
       "channel_type": 1006,
@@ -293,6 +300,13 @@
       "channel_type": 1006,
       "input": 1.5,
       "output": 7.5
+    },
+    {
+      "model": "bytedance-research/ui-tars-72b:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "cognitivecomputations/dolphin-mixtral-8x22b",
@@ -1730,6 +1744,13 @@
       "output": 0.1
     },
     {
+      "model": "qwen/qwen-2.5-vl-7b-instruct:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "qwen/qwen-max",
       "type": "tokens",
       "channel_type": 1006,
@@ -1773,6 +1794,13 @@
     },
     {
       "model": "qwen/qwen2.5-vl-32b-instruct:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "qwen/qwen2.5-vl-3b-instruct:free",
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.0,
@@ -1909,7 +1937,7 @@
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.4,
-      "output": 0.4
+      "output": 0.5
     },
     {
       "model": "thedrummer/rocinante-12b",
