@@ -35,6 +35,7 @@ python merge_prices.py
   - OpenRouter
   - Pollinations.AI
   - Zhipu
+  - 腾讯混元
   - 等
 
 ## 使用说明
