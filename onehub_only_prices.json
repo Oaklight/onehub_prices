@@ -1331,6 +1331,13 @@
       "output": 0.0
     },
     {
+      "model": "gemini-2.5-pro-exp-03-25",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "gemini-embedding-exp-03-07",
       "type": "tokens",
       "channel_type": 25,
