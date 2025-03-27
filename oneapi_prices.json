@@ -5363,6 +5363,13 @@
       "output": 0.0
     },
     {
+      "model": "nomic-embed-text-v2-moe",
+      "type": "tokens",
+      "channel_type": 1008,
+      "input": 0.014285714285714285,
+      "output": 0.0
+    },
+    {
       "model": "grok-2",
       "type": "tokens",
       "channel_type": 1009,
