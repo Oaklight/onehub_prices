@@ -1,64 +1,51 @@
 models:
   阿里云百炼:
+    # 推理模型
+    qwq-plus:
+      input: 0.0016 rmb / K
+      output: 0.004 rmb / K
+
     # 全模态系列
     qwen-omni-turbo:
-      input: 0.0004 rmb / K
-      output: 0.0016 rmb / K
-    qwen-omni-turbo-latest:
+      aliases: qwen-omni-turbo-latest
       input: 0.0004 rmb / K
       output: 0.0016 rmb / K
 
     # 大模型系列
     qwen-turbo:
-      input: 0.0003 rmb / K
-      output: 0.0006 rmb / K
-    qwen-turbo-latest:
+      aliases: qwen-turbo-latest
       input: 0.0003 rmb / K
       output: 0.0006 rmb / K
     qwen-plus:
-      input: 0.0008 rmb / K
-      output: 0.002 rmb / K
-    qwen-plus-latest:
+      aliases: qwen-plus-latest
       input: 0.0008 rmb / K
       output: 0.002 rmb / K
     qwen-max:
-      input: 0.0024 rmb / K
-      output: 0.0096 rmb / K
-    qwen-max-latest:
+      aliases: qwen-max-latest
       input: 0.0024 rmb / K
       output: 0.0096 rmb / K
 
     # 视觉模型系列
     qwen-vl-plus:
-      input: 0.0015 rmb / K
-      output: 0.0045 rmb / K
-    qwen-vl-plus-latest:
+      aliases: qwen-vl-plus-latest
       input: 0.0015 rmb / K
       output: 0.0045 rmb / K
     qwen-vl-max:
-      input: 0.003 rmb / K
-      output: 0.009 rmb / K
-    qwen-vl-max-latest:
+      aliases: qwen-vl-max-latest
       input: 0.003 rmb / K
       output: 0.009 rmb / K
     qwen-vl-ocr:
-      input: 0.005 rmb / K
-      output: 0
-    qwen-vl-ocr-latest:
+      aliases: qwen-vl-ocr-latest
       input: 0.005 rmb / K
       output: 0
 
     # 代码模型
     qwen-coder-plus:
-      input: 0.0035 rmb / K
-      output: 0.007 rmb / K
-    qwen-coder-plus-latest:
+      aliases: qwen-coder-plus-latest
       input: 0.0035 rmb / K
       output: 0.007 rmb / K
     qwen-coder-turbo:
-      input: 0.002 rmb / K
-      output: 0.006 rmb / K
-    qwen-coder-turbo-latest:
+      aliases: qwen-coder-turbo-latest
       input: 0.002 rmb / K
       output: 0.006 rmb / K
 
@@ -75,17 +62,10 @@ models:
 
     # audio, asr, tts
     qwen-audio-turbo:
-      input: 0
-      output: 0
-    qwen-audio-turbo-latest:
+      aliases: qwen-audio-turbo-latest
       input: 0
       output: 0
     qwen-audio-asr:
+      aliases: qwen-audio-asr-latest
       input: 0
       output: 0
-    qwen-audio-asr-latest:
-      input: 0
-      output: 0
-    qwq-plus:
-      input: 0.0016 rmb / K
-      output: 0.004 rmb / K
