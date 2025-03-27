@@ -1,6 +1,9 @@
 models:
   Google Gemini:
     # experimental models
+    gemini-2.5-pro-exp-03-25:
+      input: 0
+      output: 0
     gemini-2.0-flash-thinking-exp-01-21:
       input: 0
       output: 0
