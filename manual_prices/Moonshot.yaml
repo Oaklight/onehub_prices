@@ -4,14 +4,12 @@ models:
       input: 60 rmb / M
       output: 60 rmb / M
     moonshot-v1-32k:
+      aliases: moonshot-v1-auto
       input: 24 rmb / M
       output: 24 rmb / M
     moonshot-v1-8k:
       input: 12 rmb / M
       output: 12 rmb / M
-    moonshot-v1-auto: # 暂定吧
-      input: 18 rmb / M
-      output: 18 rmb / M
 
     moonshot-v1-8k-vision-preview:
       input: 12 rmb / M
@@ -27,11 +25,9 @@ models:
       input: 60 rmb / M
       output: 60 rmb / M
     kimi-latest-32k:
+      aliases: kimi-latest
       input: 24 rmb / M
       output: 24 rmb / M
     kimi-latest-8k:
       input: 12 rmb / M
       output: 12 rmb / M
-    kimi-latest: # 暂定吧
-      input: 18 rmb / M
-      output: 18 rmb / M
