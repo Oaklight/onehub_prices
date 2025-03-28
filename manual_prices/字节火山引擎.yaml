@@ -2,23 +2,30 @@ models:
   字节火山引擎:
     # 豆包大模型 @ 字节火山引擎
     doubao-1.5-lite-32k:
+      aliases: doubao-1-5-lite-32k-250115
       input: 0.0003 rmb / K
       output: 0.0006 rmb / K
     doubao-1.5-pro-32k:
+      aliases: doubao-1-5-pro-32k-250115, doubao-1-5-pro-32k-character-250228
       input: 0.0008 rmb / K
       output: 0.0020 rmb / K
     doubao-1.5-pro-256k:
+      aliases: doubao-1-5-pro-256k-250115
       input: 0.0050 rmb / K
       output: 0.0090 rmb / K
     doubao-1.5-vision-pro-32k:
+      aliases: doubao-1-5-vision-pro-32k-250115
       input: 0.003 rmb / K
       output: 0.009 rmb / K
     doubao-embedding-vision:
+      aliases: doubao-embedding-vision-241215
       input: 0.0007 rmb / K # image input 0.0018 rmb / K
       output: 0
     doubao-embedding-large:
+      aliases: doubao-embedding-large-text-240915
       input: 0.0007 rmb / K
       output: 0
     doubao-embedding:
+      aliases: doubao-embedding-text-240715, doubao-embedding-text-240515
       input: 0.0005 rmb / K
       output: 0
