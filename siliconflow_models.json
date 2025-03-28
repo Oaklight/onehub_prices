@@ -4482,11 +4482,11 @@
         "currency": "¥",
         "operationLabel": [],
         "needAuth": false,
-        "onlineDemo": true,
+        "onlineDemo": false,
         "type": "text",
         "subType": "chat",
         "DisplayName": "TeleChat2",
-        "sort": 2199,
+        "sort": 3,
         "sameSeries": [],
         "language": [],
         "modelInfo": [
@@ -4543,8 +4543,10 @@
         "onlyByChargeBalance": false,
         "supportFT": false,
         "targetModelName": "TeleAI/TeleChat2",
-        "deprecatedTime": {},
-        "filling": "{\"属地\": \"北京市\", \"模型名称\": \"星辰语义大模型\", \"备案单位\": \"中电信人工智能科技（北京）有限公司\", \"备案号\": \"Beijing-XingChen-202404280001\", \"备案时间\": \"2024/5/13\"}"
+        "deprecatedTime": {
+            "seconds": 1743350400
+        },
+        "filling": "{\"属地\":\"北京市\",\"模型名称\":\"星辰语义大模型\",\"备案单位\":\"中电信人工智能科技（北京）有限公司\",\"备案号\":\"Beijing-XingChen-202404280001\",\"备案时间\":\"2024/5/13\"}"
     },
     {
         "modelId": "17885302619",
