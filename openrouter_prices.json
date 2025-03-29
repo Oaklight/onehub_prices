@@ -652,6 +652,13 @@
       "output": 0.0
     },
     {
+      "model": "google/gemma-3-12b-it",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.025,
+      "output": 0.05
+    },
+    {
       "model": "google/gemma-3-12b-it:free",
       "type": "tokens",
       "channel_type": 1006,
@@ -678,6 +685,13 @@
       "channel_type": 1006,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "google/gemma-3-4b-it",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.01,
+      "output": 0.02
     },
     {
       "model": "google/gemma-3-4b-it:free",
@@ -1903,6 +1917,20 @@
       "channel_type": 1006,
       "input": 0.35,
       "output": 0.4
+    },
+    {
+      "model": "scb10x/llama3.1-typhoon2-70b-instruct",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.44,
+      "output": 0.44
+    },
+    {
+      "model": "scb10x/llama3.1-typhoon2-8b-instruct",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.09,
+      "output": 0.09
     },
     {
       "model": "sophosympatheia/midnight-rose-70b",
