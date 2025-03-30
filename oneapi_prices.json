@@ -2587,15 +2587,15 @@
       "model": "Wan-AI/Wan2.1-I2V-14B-720P",
       "type": "times",
       "channel_type": 45,
-      "input": 1.0,
-      "output": 1.0
+      "input": 2.0,
+      "output": 2.0
     },
     {
       "model": "Wan-AI/Wan2.1-I2V-14B-720P-Turbo",
       "type": "times",
       "channel_type": 45,
-      "input": 0.75,
-      "output": 0.75
+      "input": 1.5,
+      "output": 1.5
     },
     {
       "model": "Wan-AI/Wan2.1-T2V-14B",
@@ -3837,6 +3837,13 @@
       "output": 0.0
     },
     {
+      "model": "deepseek/deepseek-v3-base:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "eva-unit-01/eva-llama-3.33-70b",
       "type": "tokens",
       "channel_type": 1006,
@@ -3884,13 +3891,6 @@
       "channel_type": 1006,
       "input": 0.038,
       "output": 0.15
-    },
-    {
-      "model": "google/gemini-2.0-flash-lite-preview-02-05:free",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "google/gemini-2.0-flash-thinking-exp-1219:free",
