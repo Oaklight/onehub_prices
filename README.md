@@ -6,24 +6,17 @@
 2. **siliconflow_prices.json**: 来自 siliconflow 官方的原始价格数据
 3. **onehub_only_prices.json**: 仅包含供应商 id <= 1000 的核心供应商价格表
 
-所有价格数据每日自动更新，确保信息及时准确。
+所有价格数据每日自动更新，确保信息及时准确。请关注价格表最末尾的更新时间提示图标。
 
 项目维护者：[Oaklight](https://github.com/Oaklight)
 
-```bash
-SILICONFLOW_API_KEY="sk-xxxxx" python get_prices.py
-python merge_prices.py
-```
-
 ## 主要文件说明
 
-- `siliconflow_models.json`: 来自 siliconflow 官方的原始模型数据
-- `oneapi_prices.json`: 适用于 one-hub 的完整价格表
-- `siliconflow_prices.json`: 来自 siliconflow 官方的原始价格数据
-- `openrouter_prices.json`: 来自 OpenRouter 官方的原始价格数据
-- `onehub_only_prices.json`: 仅包含供应商 id <= 1000 的核心供应商价格表
-- `manual_prices.yaml`: 手工维护的价格表
-- `manual_prices/`目录: 包含各供应商的独立价格文件，包括：
+- `oneapi_prices.json`: 适用于 one-hub 的完整价格表 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Oaklight/onehub_prices/master?path=oneapi_prices.json&display_timestamp=author&style=flat-square)
+- `onehub_only_prices.json`: 仅包含供应商 id <= 1000 的核心供应商价格表 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Oaklight/onehub_prices/master?path=onehub_only_prices.json&display_timestamp=author&style=flat-square)
+- `openrouter_prices.json`: 来自 OpenRouter 官方的原始价格数据 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Oaklight/onehub_prices/master?path=openrouter_prices.json&display_timestamp=author&style=flat-square)
+- `siliconflow_prices.json`: 来自 siliconflow 官方的原始价格数据 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Oaklight/onehub_prices/master?path=siliconflow_prices.json&display_timestamp=author&style=flat-square)
+- `manual_prices/`目录: 包含各供应商的独立价格文件，包括：![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Oaklight/onehub_prices/master?path=manual_prices&display_timestamp=author&style=flat-square)
   - 阿里云百炼
   - 零一万物
   - 字节火山引擎
