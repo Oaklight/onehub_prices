@@ -15,7 +15,7 @@
 
 ### 环境准备
 
-1. 最低要求 Python 3.6+
+1. 最低要求 Python 3.6+ （github action需要更高版本，目前使用3.12）
 2. 安装依赖: `pip install -r ../requirements.txt`
 
 ### 手动执行流程
