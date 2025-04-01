@@ -4376,6 +4376,13 @@
       "output": 0.55
     },
     {
+      "model": "mistral/ministral-8b",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.05,
+      "output": 0.05
+    },
+    {
       "model": "mistralai/codestral-2501",
       "type": "tokens",
       "channel_type": 1006,
