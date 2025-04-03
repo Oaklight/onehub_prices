@@ -3403,6 +3403,13 @@
       "output": 0.1
     },
     {
+      "model": "all-hands/openhands-lm-32b-v0.1",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 1.2,
+      "output": 1.8
+    },
+    {
       "model": "allenai/molmo-7b-d:free",
       "type": "tokens",
       "channel_type": 1006,
@@ -3665,8 +3672,8 @@
       "model": "cohere/command",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.475,
-      "output": 0.95
+      "input": 0.5,
+      "output": 1.0
     },
     {
       "model": "cohere/command-a",
@@ -3679,43 +3686,43 @@
       "model": "cohere/command-r",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.238,
-      "output": 0.712
+      "input": 0.25,
+      "output": 0.75
     },
     {
       "model": "cohere/command-r-03-2024",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.238,
-      "output": 0.712
+      "input": 0.25,
+      "output": 0.75
     },
     {
       "model": "cohere/command-r-08-2024",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.071,
-      "output": 0.285
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "cohere/command-r-plus",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 1.425,
-      "output": 7.125
+      "input": 1.5,
+      "output": 7.5
     },
     {
       "model": "cohere/command-r-plus-04-2024",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 1.425,
-      "output": 7.125
+      "input": 1.5,
+      "output": 7.5
     },
     {
       "model": "cohere/command-r-plus-08-2024",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 1.188,
-      "output": 4.75
+      "input": 1.25,
+      "output": 5.0
     },
     {
       "model": "cohere/command-r7b-12-2024",
@@ -3959,15 +3966,15 @@
       "model": "google/gemma-2-27b-it",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.135,
-      "output": 0.135
+      "input": 0.4,
+      "output": 0.4
     },
     {
       "model": "google/gemma-2-9b-it",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.015,
-      "output": 0.03
+      "input": 0.035,
+      "output": 0.035
     },
     {
       "model": "google/gemma-2-9b-it:free",
@@ -4026,13 +4033,6 @@
       "output": 0.0
     },
     {
-      "model": "google/gemma-7b-it",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.075,
-      "output": 0.075
-    },
-    {
       "model": "google/learnlm-1.5-pro-experimental:free",
       "type": "tokens",
       "channel_type": 1006,
@@ -4073,13 +4073,6 @@
       "channel_type": 1006,
       "input": 0.032,
       "output": 0.032
-    },
-    {
-      "model": "gryphe/mythomax-l2-13b:free",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "huggingfaceh4/zephyr-7b-beta:free",
@@ -4178,13 +4171,6 @@
       "channel_type": 1006,
       "input": 0.015,
       "output": 0.03
-    },
-    {
-      "model": "meta-llama/llama-3-8b-instruct:free",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "meta-llama/llama-3.1-405b",
@@ -4918,8 +4904,8 @@
       "model": "openchat/openchat-7b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.028,
-      "output": 0.028
+      "input": 0.03,
+      "output": 0.03
     },
     {
       "model": "openchat/openchat-7b:free",
@@ -5219,15 +5205,15 @@
       "model": "sao10k/l3-euryale-70b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.35,
-      "output": 0.4
+      "input": 0.74,
+      "output": 0.74
     },
     {
       "model": "sao10k/l3-lunaris-8b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.015,
-      "output": 0.03
+      "input": 0.025,
+      "output": 0.025
     },
     {
       "model": "sao10k/l3.1-70b-hanami-x1",
