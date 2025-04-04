@@ -3406,8 +3406,8 @@
       "model": "all-hands/openhands-lm-32b-v0.1",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 1.2,
-      "output": 1.8
+      "input": 1.3,
+      "output": 1.7
     },
     {
       "model": "allenai/molmo-7b-d:free",
@@ -4904,11 +4904,18 @@
       "model": "openchat/openchat-7b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.03,
-      "output": 0.03
+      "input": 0.035,
+      "output": 0.035
     },
     {
       "model": "openchat/openchat-7b:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "openrouter/quasar-alpha",
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.0,
@@ -5011,20 +5018,6 @@
       "channel_type": 1006,
       "input": 0.45,
       "output": 0.45
-    },
-    {
-      "model": "qwen/qwen-2-7b-instruct",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.027,
-      "output": 0.027
-    },
-    {
-      "model": "qwen/qwen-2-7b-instruct:free",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "qwen/qwen-2.5-72b-instruct",
@@ -5270,13 +5263,6 @@
       "channel_type": 1006,
       "input": 0.35,
       "output": 0.35
-    },
-    {
-      "model": "teknium/openhermes-2.5-mistral-7b",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.085,
-      "output": 0.085
     },
     {
       "model": "thedrummer/anubis-pro-105b-v1",
