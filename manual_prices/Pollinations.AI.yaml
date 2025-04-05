@@ -6,13 +6,16 @@ models:
     pl:gpt-4o:
       input: 0
       output: 0
-    pl:gpt-o1-mini:
+    pl:gpt-o3-mini:
+      input: 0
+      output: 0
+    pl:gpt-4o-audio-preview:
+      input: 0
+      output: 0
+    pl:searchgpt:
       input: 0
       output: 0
     pl:llama-3.3-70b:
-      input: 0
-      output: 0
-    pl:mistral-nemo:
       input: 0
       output: 0
     pl:mistral-unity:
@@ -27,3 +30,19 @@ models:
     pl:deepseek-r1:
       input: 0
       output: 0
+    pl:midijourney:
+      input: 0
+      output: 0
+    pl:gemini-2.0-flash:
+      input: 0
+      output: 0
+    pl:gemini-2.0-flash-thinking:
+      input: 0
+      output: 0
+    pl:qwq-32b:
+      input: 0
+      output: 0
+    pl:*:
+      input: 0
+      output: 0
+    
