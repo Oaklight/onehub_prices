@@ -3,3 +3,22 @@ models:
     ernie-4.5-8k-preview:
       input: 0.004 rmb / K
       output: 0.016 rmb / K
+    ernie-x1-32k-preview:
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    ernie-4.0-turbo-*:
+      aliases:
+        - ernie-4.0-turbo-128k
+        - ernie-4.0-turbo-8k
+        - ernie-4.0-turbo-8k-preview
+        - ernie-4.0-turbo-8k-latest
+        - ernie-4.0-turbo-8k-0628        
+      input: 0.003 rmb / K
+      output: 0.009 rmb / K
+    ernie-speed-128k:
+      aliases:
+        - ernie-speed-8k
+        - ernie-lite-8k
+        - ernie-tiny-8k
+      input: 0
+      output: 0
