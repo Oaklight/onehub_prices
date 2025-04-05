@@ -3861,8 +3861,8 @@
       "model": "eva-unit-01/eva-qwen-2.5-72b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.35,
-      "output": 0.35
+      "input": 0.45,
+      "output": 0.6
     },
     {
       "model": "featherless/qwerky-72b:free",
@@ -3919,6 +3919,13 @@
       "channel_type": 1006,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "google/gemini-2.5-pro-preview-03-25",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.625,
+      "output": 5.0
     },
     {
       "model": "google/gemini-flash-1.5",
@@ -4113,8 +4120,8 @@
       "model": "latitudegames/wayfarer-large-70b-llama-3.3",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.35,
-      "output": 0.35
+      "input": 0.4,
+      "output": 0.45
     },
     {
       "model": "liquid/lfm-3b",
@@ -5041,6 +5048,13 @@
       "output": 0.025
     },
     {
+      "model": "qwen/qwen-2.5-7b-instruct:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "qwen/qwen-2.5-coder-32b-instruct",
       "type": "tokens",
       "channel_type": 1006,
@@ -5149,8 +5163,8 @@
       "model": "qwen/qwq-32b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.06,
-      "output": 0.09
+      "input": 0.075,
+      "output": 0.1
     },
     {
       "model": "qwen/qwq-32b-preview",
@@ -5262,7 +5276,7 @@
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.35,
-      "output": 0.35
+      "output": 0.475
     },
     {
       "model": "thedrummer/anubis-pro-105b-v1",
@@ -5283,7 +5297,7 @@
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.25,
-      "output": 0.25
+      "output": 0.4
     },
     {
       "model": "thedrummer/unslopnemo-12b",
@@ -5356,6 +5370,13 @@
       "output": 1.875
     },
     {
+      "model": "pl:*",
+      "type": "tokens",
+      "channel_type": 1007,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "pl:deepseek-r1",
       "type": "tokens",
       "channel_type": 1007,
@@ -5377,7 +5398,28 @@
       "output": 0.0
     },
     {
+      "model": "pl:gemini-2.0-flash",
+      "type": "tokens",
+      "channel_type": 1007,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "pl:gemini-2.0-flash-thinking",
+      "type": "tokens",
+      "channel_type": 1007,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "pl:gpt-4o",
+      "type": "tokens",
+      "channel_type": 1007,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "pl:gpt-4o-audio-preview",
       "type": "tokens",
       "channel_type": 1007,
       "input": 0.0,
@@ -5391,7 +5433,7 @@
       "output": 0.0
     },
     {
-      "model": "pl:gpt-o1-mini",
+      "model": "pl:gpt-o3-mini",
       "type": "tokens",
       "channel_type": 1007,
       "input": 0.0,
@@ -5405,7 +5447,7 @@
       "output": 0.0
     },
     {
-      "model": "pl:mistral-nemo",
+      "model": "pl:midijourney",
       "type": "tokens",
       "channel_type": 1007,
       "input": 0.0,
@@ -5413,6 +5455,20 @@
     },
     {
       "model": "pl:mistral-unity",
+      "type": "tokens",
+      "channel_type": 1007,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "pl:qwq-32b",
+      "type": "tokens",
+      "channel_type": 1007,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "pl:searchgpt",
       "type": "tokens",
       "channel_type": 1007,
       "input": 0.0,
