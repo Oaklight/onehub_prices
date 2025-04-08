@@ -5706,14 +5706,14 @@
       "output": 0.0
     },
     {
-      "model": "argo:gpt-o1-mini",
+      "model": "argo:gpt-o1",
       "type": "tokens",
       "channel_type": 2002,
       "input": 0.0,
       "output": 0.0
     },
     {
-      "model": "argo:gpt-o1-preview",
+      "model": "argo:gpt-o1-mini",
       "type": "tokens",
       "channel_type": 2002,
       "input": 0.0,
