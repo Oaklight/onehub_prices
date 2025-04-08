@@ -1,0 +1,244 @@
+{
+  "data": {
+    "1": {
+      "id": 1,
+      "name": "OpenAI",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai.svg"
+    },
+    "11": {
+      "id": 11,
+      "name": "Google PaLM",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/gemini-color.svg"
+    },
+    "14": {
+      "id": 14,
+      "name": "Anthropic",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/claude-color.svg"
+    },
+    "15": {
+      "id": 15,
+      "name": "Baidu",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/wenxin-color.svg"
+    },
+    "16": {
+      "id": 16,
+      "name": "Zhipu",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/zhipu-color.svg"
+    },
+    "17": {
+      "id": 17,
+      "name": "阿里云百炼",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/qwen-color.svg"
+    },
+    "18": {
+      "id": 18,
+      "name": "Spark",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/spark-color.svg"
+    },
+    "19": {
+      "id": 19,
+      "name": "360",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/ai360-color.svg"
+    },
+    "23": {
+      "id": 23,
+      "name": "Tencent",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/hunyuan-color.svg"
+    },
+    "25": {
+      "id": 25,
+      "name": "Google Gemini",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/gemini-color.svg"
+    },
+    "26": {
+      "id": 26,
+      "name": "Baichuan",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/baichuan-color.svg"
+    },
+    "27": {
+      "id": 27,
+      "name": "MiniMax",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/minimax-color.svg"
+    },
+    "28": {
+      "id": 28,
+      "name": "Deepseek",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/deepseek-color.svg"
+    },
+    "29": {
+      "id": 29,
+      "name": "Moonshot",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/moonshot.svg"
+    },
+    "30": {
+      "id": 30,
+      "name": "Mistral",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/mistral-color.svg"
+    },
+    "31": {
+      "id": 31,
+      "name": "Groq",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/groq.svg"
+    },
+    "33": {
+      "id": 33,
+      "name": "零一万物",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/yi-color.svg"
+    },
+    "34": {
+      "id": 34,
+      "name": "Midjourney",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/midjourney.svg"
+    },
+    "35": {
+      "id": 35,
+      "name": "Cloudflare AI",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/cloudflare-color.svg"
+    },
+    "36": {
+      "id": 36,
+      "name": "Cohere",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/cohere-color.svg"
+    },
+    "37": {
+      "id": 37,
+      "name": "Stability AI",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/stability-color.svg"
+    },
+    "38": {
+      "id": 38,
+      "name": "Coze",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/coze.svg"
+    },
+    "39": {
+      "id": 39,
+      "name": "Ollama",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/ollama.svg"
+    },
+    "40": {
+      "id": 40,
+      "name": "Hunyuan",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/hunyuan-color.svg"
+    },
+    "41": {
+      "id": 41,
+      "name": "Suno",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/suno.svg"
+    },
+    "43": {
+      "id": 43,
+      "name": "Meta",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/meta-color.svg"
+    },
+    "44": {
+      "id": 44,
+      "name": "Ideogram",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/ideogram.svg"
+    },
+    "45": {
+      "id": 45,
+      "name": "Siliconflow",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/siliconcloud-color.svg"
+    },
+    "46": {
+      "id": 46,
+      "name": "Flux",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/flux.svg"
+    },
+    "47": {
+      "id": 47,
+      "name": "Jina",
+      "icon": "https://jina.ai/icons/favicon-128x128.png"
+    },
+    "48": {
+      "id": 48,
+      "name": "Rerank",
+      "icon": ""
+    },
+    "51": {
+      "id": 51,
+      "name": "RecraftAI",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/recraft.svg"
+    },
+    "53": {
+      "id": 53,
+      "name": "Kling",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/kling-color.svg"
+    },
+    "1001": {
+      "id": 1001,
+      "name": "InternLM",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/internlm-color.svg"
+    },
+    "1002": {
+      "id": 1002,
+      "name": "字节火山引擎",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/doubao-color.svg"
+    },
+    "1003": {
+      "id": 1003,
+      "name": "Voyage",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/voyage-color.svg"
+    },
+    "1004": {
+      "id": 1004,
+      "name": "Together.AI",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/together-color.svg"
+    },
+    "1005": {
+      "id": 1005,
+      "name": "阶跃星辰",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/stepfun-color.svg"
+    },
+    "1006": {
+      "id": 1006,
+      "name": "OpenRouter",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openrouter.svg"
+    },
+    "1007": {
+      "id": 1007,
+      "name": "Pollinations.AI",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/pollinations.svg"
+    },
+    "1008": {
+      "id": 1008,
+      "name": "Coreshub",
+      "icon": "https://coreshub.cn/favicon.svg"
+    },
+    "1009": {
+      "id": 1009,
+      "name": "xAI",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/grok.svg"
+    },
+    "1010": {
+      "id": 1010,
+      "name": "无问芯穹",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/infinigence-color.svg"
+    },
+    "1011": {
+      "id": 1011,
+      "name": "AI21",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/ai21.svg"
+    },
+    "2001": {
+      "id": 2001,
+      "name": "oaklight-load-balancer",
+      "icon": "https://www.svgrepo.com/show/374660/environment-hub.svg"
+    },
+    "2002": {
+      "id": 2002,
+      "name": "argo-proxy",
+      "icon": "https://i.111666.best/image/wgp6hAUArNq2O6pICMRRvj.png"
+    },
+    "2003": {
+      "id": 2003,
+      "name": "Xinference",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/xinference-color.svg"
+    },
+    "2004": {
+      "id": 2004,
+      "name": "vllm",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/vllm-color.svg"
+    }
+  }
+}
