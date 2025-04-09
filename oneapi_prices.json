@@ -3546,7 +3546,7 @@
       "model": "deepseek/deepseek-chat",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.2,
+      "input": 0.19,
       "output": 0.445
     },
     {
