@@ -2112,7 +2112,7 @@
       "type": "tokens",
       "channel_type": 40,
       "input": 0.42857142857142855,
-      "output": 1.2857142857142856
+      "output": 1.2857142857142858
     },
     {
       "model": "hunyuan-lite",
@@ -2132,7 +2132,7 @@
       "model": "hunyuan-standard",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.05714285714285714,
+      "input": 0.05714285714285715,
       "output": 0.14285714285714285
     },
     {
@@ -2175,7 +2175,7 @@
       "type": "tokens",
       "channel_type": 40,
       "input": 1.0714285714285714,
-      "output": 3.214285714285714
+      "output": 3.2142857142857144
     },
     {
       "model": "hunyuan-translation-lite",
@@ -2188,22 +2188,22 @@
       "model": "hunyuan-turbo",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.1714285714285714,
-      "output": 0.6857142857142856
+      "input": 0.17142857142857143,
+      "output": 0.6857142857142857
     },
     {
       "model": "hunyuan-turbo-20241223",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.1714285714285714,
-      "output": 0.6857142857142856
+      "input": 0.17142857142857143,
+      "output": 0.6857142857142857
     },
     {
       "model": "hunyuan-turbo-latest",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.1714285714285714,
-      "output": 0.6857142857142856
+      "input": 0.17142857142857143,
+      "output": 0.6857142857142857
     },
     {
       "model": "hunyuan-turbo-vision",
@@ -2216,36 +2216,36 @@
       "model": "hunyuan-turbos",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.05714285714285714,
+      "input": 0.05714285714285715,
       "output": 0.14285714285714285
     },
     {
       "model": "hunyuan-turbos-20250226",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.05714285714285714,
+      "input": 0.05714285714285715,
       "output": 0.14285714285714285
     },
     {
       "model": "hunyuan-turbos-20250313",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.05714285714285714,
+      "input": 0.05714285714285715,
       "output": 0.14285714285714285
     },
     {
       "model": "hunyuan-turbos-latest",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.05714285714285714,
+      "input": 0.05714285714285715,
       "output": 0.14285714285714285
     },
     {
       "model": "hunyuan-vision",
       "type": "tokens",
       "channel_type": 40,
-      "input": 1.2857142857142856,
-      "output": 1.2857142857142856
+      "input": 1.2857142857142858,
+      "output": 1.2857142857142858
     },
     {
       "model": "腾讯元器",
@@ -3126,14 +3126,14 @@
       "model": "step-2-16k",
       "type": "tokens",
       "channel_type": 1005,
-      "input": 2.714285714285714,
+      "input": 2.7142857142857144,
       "output": 8.571428571428571
     },
     {
       "model": "step-2-16k-exp",
       "type": "tokens",
       "channel_type": 1005,
-      "input": 2.714285714285714,
+      "input": 2.7142857142857144,
       "output": 8.571428571428571
     },
     {
@@ -5363,6 +5363,34 @@
       "output": 5.0
     },
     {
+      "model": "grok-2-image",
+      "type": "times",
+      "channel_type": 1009,
+      "input": 0,
+      "output": 35.0
+    },
+    {
+      "model": "grok-2-image",
+      "type": "times",
+      "channel_type": 1009,
+      "input": 0,
+      "output": 35.0
+    },
+    {
+      "model": "grok-2-image-1212",
+      "type": "times",
+      "channel_type": 1009,
+      "input": 0,
+      "output": 35.0
+    },
+    {
+      "model": "grok-2-image-latest",
+      "type": "times",
+      "channel_type": 1009,
+      "input": 0,
+      "output": 35.0
+    },
+    {
       "model": "grok-2-latest",
       "type": "tokens",
       "channel_type": 1009,
@@ -5389,6 +5417,118 @@
       "channel_type": 1009,
       "input": 1.0,
       "output": 5.0
+    },
+    {
+      "model": "grok-3",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "grok-3",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "grok-3-beta",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "grok-3-fast",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
+      "model": "grok-3-fast",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
+      "model": "grok-3-fast-beta",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
+      "model": "grok-3-fast-latest",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
+      "model": "grok-3-latest",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "grok-3-mini",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 0.15,
+      "output": 0.25
+    },
+    {
+      "model": "grok-3-mini",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 0.15,
+      "output": 0.25
+    },
+    {
+      "model": "grok-3-mini-beta",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 0.15,
+      "output": 0.25
+    },
+    {
+      "model": "grok-3-mini-fast",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 0.3,
+      "output": 2.0
+    },
+    {
+      "model": "grok-3-mini-fast",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 0.3,
+      "output": 2.0
+    },
+    {
+      "model": "grok-3-mini-fast-beta",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 0.3,
+      "output": 2.0
+    },
+    {
+      "model": "grok-3-mini-fast-latest",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 0.3,
+      "output": 2.0
+    },
+    {
+      "model": "grok-3-mini-latest",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 0.15,
+      "output": 0.25
     },
     {
       "model": "grok-beta",
