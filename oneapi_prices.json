@@ -4376,6 +4376,13 @@
       "output": 3.0
     },
     {
+      "model": "moonshotai/kimi-vl-a3b-thinking:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "moonshotai/moonlight-16b-a3b-instruct:free",
       "type": "tokens",
       "channel_type": 1006,
