@@ -5594,76 +5594,6 @@
       "output": 4.0
     },
     {
-      "model": "deepseek-r1-ppio",
-      "type": "tokens",
-      "channel_type": 1012,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
-    },
-    {
-      "model": "deepseek-r1-ppio-turbo",
-      "type": "tokens",
-      "channel_type": 1012,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
-    },
-    {
-      "model": "deepseek-v3-ppio",
-      "type": "tokens",
-      "channel_type": 1012,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
-    },
-    {
-      "model": "deepseek-v3-ppio-turbo",
-      "type": "tokens",
-      "channel_type": 1012,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
-    },
-    {
-      "model": "llama-4-maverick",
-      "type": "tokens",
-      "channel_type": 1012,
-      "input": 0.10357142857142856,
-      "output": 0.4428571428571429
-    },
-    {
-      "model": "llama-4-maverick-ppio",
-      "type": "tokens",
-      "channel_type": 1012,
-      "input": 0.10357142857142856,
-      "output": 0.4428571428571429
-    },
-    {
-      "model": "llama-4-scout",
-      "type": "tokens",
-      "channel_type": 1012,
-      "input": 0.05178571428571428,
-      "output": 0.2571428571428572
-    },
-    {
-      "model": "llama-4-scout-ppio",
-      "type": "tokens",
-      "channel_type": 1012,
-      "input": 0.05178571428571428,
-      "output": 0.2571428571428572
-    },
-    {
-      "model": "meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
-      "type": "tokens",
-      "channel_type": 1012,
-      "input": 0.10357142857142856,
-      "output": 0.4428571428571429
-    },
-    {
-      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-      "type": "tokens",
-      "channel_type": 1012,
-      "input": 0.05178571428571428,
-      "output": 0.2571428571428572
-    },
-    {
       "model": "bge-m3",
       "type": "tokens",
       "channel_type": 2001,
@@ -5783,6 +5713,20 @@
       "output": 0.0
     },
     {
+      "model": "deepseek-r1-ppio",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.2857142857142857,
+      "output": 1.1428571428571428
+    },
+    {
+      "model": "deepseek-r1-ppio-turbo",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.2857142857142857,
+      "output": 1.1428571428571428
+    },
+    {
       "model": "deepseek-r1-sensecore",
       "type": "tokens",
       "channel_type": 2001,
@@ -5865,6 +5809,20 @@
       "channel_type": 2001,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "deepseek-v3-ppio",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.14285714285714285,
+      "output": 0.5714285714285714
+    },
+    {
+      "model": "deepseek-v3-ppio-turbo",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.14285714285714285,
+      "output": 0.5714285714285714
     },
     {
       "model": "deepseek-v3-sensecore",
