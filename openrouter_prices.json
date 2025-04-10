@@ -2045,6 +2045,20 @@
       "output": 5.0
     },
     {
+      "model": "x-ai/grok-3-beta",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "x-ai/grok-3-mini-beta",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.15,
+      "output": 0.25
+    },
+    {
       "model": "x-ai/grok-beta",
       "type": "tokens",
       "channel_type": 1006,
