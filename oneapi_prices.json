@@ -3095,6 +3095,13 @@
       "output": 2.5
     },
     {
+      "model": "step-1o-audio",
+      "type": "tokens",
+      "channel_type": 1005,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "step-1o-turbo-vision",
       "type": "tokens",
       "channel_type": 1005,
