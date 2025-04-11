@@ -5114,7 +5114,7 @@
       "model": "sao10k/l3-lunaris-8b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.025,
+      "input": 0.01,
       "output": 0.025
     },
     {
