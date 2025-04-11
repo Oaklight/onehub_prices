@@ -3123,6 +3123,13 @@
       "output": 1.4285714285714286
     },
     {
+      "model": "step-1x-medium",
+      "type": "times",
+      "channel_type": 1005,
+      "input": 0,
+      "output": 7.142857142857143
+    },
+    {
       "model": "step-2-16k",
       "type": "tokens",
       "channel_type": 1005,
@@ -3142,6 +3149,13 @@
       "channel_type": 1005,
       "input": 0.07142857142857142,
       "output": 0.14285714285714285
+    },
+    {
+      "model": "step-r1-v-mini",
+      "type": "tokens",
+      "channel_type": 1005,
+      "input": 0.17857142857142858,
+      "output": 0.5714285714285714
     },
     {
       "model": "01-ai/yi-large",
