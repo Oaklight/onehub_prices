@@ -3263,6 +3263,13 @@
       "output": 0.6
     },
     {
+      "model": "agentica-org/deepcoder-14b-preview:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "ai21/jamba-1-5-large",
       "type": "tokens",
       "channel_type": 1006,
@@ -3541,6 +3548,13 @@
       "channel_type": 1006,
       "input": 1.5,
       "output": 7.5
+    },
+    {
+      "model": "arliai/qwq-32b-arliai-rpr-v1:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "bytedance-research/ui-tars-72b:free",
