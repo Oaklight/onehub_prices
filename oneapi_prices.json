@@ -2872,49 +2872,49 @@
     },
     {
       "model": "jina-*",
-      "type": "times",
+      "type": "tokens",
       "channel_type": 47,
       "input": 0.01,
       "output": 0
     },
     {
       "model": "jina-clip-v2",
-      "type": "times",
+      "type": "tokens",
       "channel_type": 47,
       "input": 0.01,
       "output": 0
     },
     {
       "model": "jina-colbert-v2",
-      "type": "times",
+      "type": "tokens",
       "channel_type": 47,
       "input": 0.01,
       "output": 0
     },
     {
       "model": "jina-embeddings-v2-base-code",
-      "type": "times",
+      "type": "tokens",
       "channel_type": 47,
       "input": 0.01,
       "output": 0
     },
     {
       "model": "jina-embeddings-v3",
-      "type": "times",
+      "type": "tokens",
       "channel_type": 47,
       "input": 0.01,
       "output": 0
     },
     {
       "model": "jina-reranker-m0",
-      "type": "times",
+      "type": "tokens",
       "channel_type": 47,
       "input": 0.01,
       "output": 0
     },
     {
       "model": "jina-reranker-v2-base-multilingual",
-      "type": "times",
+      "type": "tokens",
       "channel_type": 47,
       "input": 0.01,
       "output": 0
