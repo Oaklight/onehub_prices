@@ -2869,6 +2869,55 @@
       "channel_type": 45,
       "input": 2.8,
       "output": 2.8
+    },
+    {
+      "model": "jina-*",
+      "type": "times",
+      "channel_type": 47,
+      "input": 0.01,
+      "output": 0
+    },
+    {
+      "model": "jina-clip-v2",
+      "type": "times",
+      "channel_type": 47,
+      "input": 0.01,
+      "output": 0
+    },
+    {
+      "model": "jina-colbert-v2",
+      "type": "times",
+      "channel_type": 47,
+      "input": 0.01,
+      "output": 0
+    },
+    {
+      "model": "jina-embeddings-v2-base-code",
+      "type": "times",
+      "channel_type": 47,
+      "input": 0.01,
+      "output": 0
+    },
+    {
+      "model": "jina-embeddings-v3",
+      "type": "times",
+      "channel_type": 47,
+      "input": 0.01,
+      "output": 0
+    },
+    {
+      "model": "jina-reranker-m0",
+      "type": "times",
+      "channel_type": 47,
+      "input": 0.01,
+      "output": 0
+    },
+    {
+      "model": "jina-reranker-v2-base-multilingual",
+      "type": "times",
+      "channel_type": 47,
+      "input": 0.01,
+      "output": 0
     }
   ]
 }
