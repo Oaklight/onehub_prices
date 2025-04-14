@@ -445,7 +445,7 @@
       "model": "deepseek/deepseek-r1-distill-llama-70b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.085,
+      "input": 0.05,
       "output": 0.2
     },
     {
