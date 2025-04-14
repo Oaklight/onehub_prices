@@ -1499,6 +1499,27 @@
       "output": 15.0
     },
     {
+      "model": "openai/gpt-4.1",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 1.0,
+      "output": 4.0
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.2,
+      "output": 0.8
+    },
+    {
+      "model": "openai/gpt-4.1-nano",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.05,
+      "output": 0.2
+    },
+    {
       "model": "openai/gpt-4.5-preview",
       "type": "tokens",
       "channel_type": 1006,
@@ -1630,13 +1651,6 @@
       "channel_type": 1006,
       "input": 0.035,
       "output": 0.035
-    },
-    {
-      "model": "openrouter/optimus-alpha",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "or:microsoft/wizardlm-2-8x22b",
