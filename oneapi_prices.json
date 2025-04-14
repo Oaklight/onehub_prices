@@ -5772,43 +5772,43 @@
       "model": "jamba-large",
       "type": "tokens",
       "channel_type": 1011,
-      "input": 0.1,
-      "output": 0.2
+      "input": 1.0,
+      "output": 4.0
     },
     {
       "model": "jamba-large-1.6",
       "type": "tokens",
       "channel_type": 1011,
-      "input": 0.1,
-      "output": 0.2
+      "input": 1.0,
+      "output": 4.0
     },
     {
       "model": "jamba-large-1.6-2025-03",
       "type": "tokens",
       "channel_type": 1011,
-      "input": 0.1,
-      "output": 0.2
+      "input": 1.0,
+      "output": 4.0
     },
     {
       "model": "jamba-mini",
       "type": "tokens",
       "channel_type": 1011,
-      "input": 1.0,
-      "output": 4.0
+      "input": 0.1,
+      "output": 0.2
     },
     {
       "model": "jamba-mini-1.6",
       "type": "tokens",
       "channel_type": 1011,
-      "input": 1.0,
-      "output": 4.0
+      "input": 0.1,
+      "output": 0.2
     },
     {
       "model": "jamba-mini-1.6-2025-03",
       "type": "tokens",
       "channel_type": 1011,
-      "input": 1.0,
-      "output": 4.0
+      "input": 0.1,
+      "output": 0.2
     },
     {
       "model": "bge-m3",
