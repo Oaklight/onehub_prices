@@ -1422,6 +1422,13 @@
       "output": 0.25
     },
     {
+      "model": "gemini-2.0-flash-live-001",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.175,
+      "output": 0.75
+    },
+    {
       "model": "gemini-2.0-flash-thinking-exp-01-21",
       "type": "tokens",
       "channel_type": 25,
@@ -1448,6 +1455,13 @@
       "channel_type": 25,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "gemini-2.5-pro-preview-03-25",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.625,
+      "output": 5.0
     },
     {
       "model": "gemini-embedding-exp-03-07",
@@ -1506,6 +1520,20 @@
       "output": 0.0
     },
     {
+      "model": "imagen-3.0-generate-002",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0,
+      "output": 15.0
+    },
+    {
+      "model": "imagen3",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0,
+      "output": 15.0
+    },
+    {
       "model": "learnlm-1.5-pro-experimental",
       "type": "tokens",
       "channel_type": 25,
@@ -1518,6 +1546,20 @@
       "channel_type": 25,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "veo-2.0-generate-001",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0,
+      "output": 174.99999999999997
+    },
+    {
+      "model": "veo2",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0,
+      "output": 174.99999999999997
     },
     {
       "model": "Baichuan-Text-Embedding",
