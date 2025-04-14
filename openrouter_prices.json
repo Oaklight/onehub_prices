@@ -1849,13 +1849,6 @@
       "output": 0.315
     },
     {
-      "model": "qwen/qwen2.5-32b-instruct",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.395,
-      "output": 0.395
-    },
-    {
       "model": "qwen/qwen2.5-vl-32b-instruct",
       "type": "tokens",
       "channel_type": 1006,
