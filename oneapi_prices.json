@@ -3368,6 +3368,13 @@
       "output": 0.1
     },
     {
+      "model": "alfredpros/codellama-7b-instruct-solidity",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.4,
+      "output": 0.6
+    },
+    {
       "model": "all-hands/openhands-lm-32b-v0.1",
       "type": "tokens",
       "channel_type": 1006,
@@ -3807,6 +3814,13 @@
       "channel_type": 1006,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "eleutherai/llemma_7b",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.4,
+      "output": 0.6
     },
     {
       "model": "eva-unit-01/eva-llama-3.33-70b",
