@@ -2822,6 +2822,34 @@
       "output": 0.295
     },
     {
+      "model": "THUDM/GLM-4-32B-0414",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.03571428571428571,
+      "output": 0.03571428571428571
+    },
+    {
+      "model": "THUDM/GLM-4-9B-0414",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "THUDM/GLM-Z1-32B-0414",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.03571428571428571,
+      "output": 0.03571428571428571
+    },
+    {
+      "model": "THUDM/GLM-Z1-9B-0414",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "THUDM/chatglm3-6b",
       "type": "tokens",
       "channel_type": 45,

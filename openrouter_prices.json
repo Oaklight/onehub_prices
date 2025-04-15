@@ -2031,13 +2031,6 @@
       "output": 0.25
     },
     {
-      "model": "tokyotech-llm/llama-3.1-swallow-70b-instruct-v0.3",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.3,
-      "output": 0.6
-    },
-    {
       "model": "tokyotech-llm/llama-3.1-swallow-8b-instruct-v0.3",
       "type": "tokens",
       "channel_type": 1006,

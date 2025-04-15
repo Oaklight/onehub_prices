@@ -2822,6 +2822,34 @@
       "output": 0.295
     },
     {
+      "model": "THUDM/GLM-4-32B-0414",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.03571428571428571,
+      "output": 0.03571428571428571
+    },
+    {
+      "model": "THUDM/GLM-4-9B-0414",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "THUDM/GLM-Z1-32B-0414",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.03571428571428571,
+      "output": 0.03571428571428571
+    },
+    {
+      "model": "THUDM/GLM-Z1-9B-0414",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "THUDM/chatglm3-6b",
       "type": "tokens",
       "channel_type": 45,
@@ -5445,13 +5473,6 @@
       "channel_type": 1006,
       "input": 0.25,
       "output": 0.25
-    },
-    {
-      "model": "tokyotech-llm/llama-3.1-swallow-70b-instruct-v0.3",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.3,
-      "output": 0.6
     },
     {
       "model": "tokyotech-llm/llama-3.1-swallow-8b-instruct-v0.3",
