@@ -820,11 +820,32 @@
       "output": 0.5714285714285714
     },
     {
+      "model": "charglm-4",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.07142857142857142,
+      "output": 0.07142857142857142
+    },
+    {
       "model": "codegeex-4",
       "type": "tokens",
       "channel_type": 16,
       "input": 0.007142857142857143,
       "output": 0.007142857142857143
+    },
+    {
+      "model": "cogvideox",
+      "type": "times",
+      "channel_type": 16,
+      "input": 0,
+      "output": 35.714285714285715
+    },
+    {
+      "model": "cogvideox-2",
+      "type": "times",
+      "channel_type": 16,
+      "input": 0,
+      "output": 35.714285714285715
     },
     {
       "model": "cogvideox-flash",
@@ -835,10 +856,10 @@
     },
     {
       "model": "cogview-3",
-      "type": "tokens",
+      "type": "times",
       "channel_type": 16,
-      "input": 17.8571,
-      "output": 17.8571
+      "input": 0,
+      "output": 7.142857142857143
     },
     {
       "model": "cogview-3-flash",
@@ -846,6 +867,20 @@
       "channel_type": 16,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "cogview-3-plus",
+      "type": "times",
+      "channel_type": 16,
+      "input": 0,
+      "output": 4.285714285714286
+    },
+    {
+      "model": "cogview-4",
+      "type": "times",
+      "channel_type": 16,
+      "input": 0,
+      "output": 4.285714285714286
     },
     {
       "model": "embedding-2",
@@ -862,28 +897,42 @@
       "output": 0.0
     },
     {
+      "model": "emohaa",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 1.0714285714285714,
+      "output": 1.0714285714285714
+    },
+    {
       "model": "glm-3-turbo",
       "type": "tokens",
       "channel_type": 16,
-      "input": 0.0714,
-      "output": 0.0714
+      "input": 0.07142857142857142,
+      "output": 0.07142857142857142
     },
     {
       "model": "glm-4",
       "type": "tokens",
       "channel_type": 16,
-      "input": 7.143,
-      "output": 7.143
+      "input": 7.142857142857143,
+      "output": 7.142857142857143
     },
     {
       "model": "glm-4-0520",
       "type": "tokens",
       "channel_type": 16,
-      "input": 7.1429,
-      "output": 7.1429
+      "input": 7.142857142857143,
+      "output": 7.142857142857143
     },
     {
       "model": "glm-4-air",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.03571428571428571,
+      "output": 0.03571428571428571
+    },
+    {
+      "model": "glm-4-air-250414",
       "type": "tokens",
       "channel_type": 16,
       "input": 0.03571428571428571,
@@ -900,11 +949,18 @@
       "model": "glm-4-alltools",
       "type": "tokens",
       "channel_type": 16,
-      "input": 7.1429,
-      "output": 7.1429
+      "input": 7.142857142857143,
+      "output": 7.142857142857143
     },
     {
       "model": "glm-4-flash",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "glm-4-flash-250414",
       "type": "tokens",
       "channel_type": 16,
       "input": 0.0,
@@ -942,8 +998,8 @@
       "model": "glm-4v",
       "type": "tokens",
       "channel_type": 16,
-      "input": 7.143,
-      "output": 7.143
+      "input": 3.5714285714285716,
+      "output": 3.5714285714285716
     },
     {
       "model": "glm-4v-flash",
@@ -953,6 +1009,13 @@
       "output": 0.0
     },
     {
+      "model": "glm-4v-plus",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.2857142857142857,
+      "output": 0.2857142857142857
+    },
+    {
       "model": "glm-4v-plus-0111",
       "type": "tokens",
       "channel_type": 16,
@@ -960,11 +1023,32 @@
       "output": 0.2857142857142857
     },
     {
-      "model": "glm-zero-preview",
+      "model": "glm-z1-air",
       "type": "tokens",
       "channel_type": 16,
-      "input": 0.7142857142857143,
-      "output": 0.7142857142857143
+      "input": 0.03571428571428571,
+      "output": 0.03571428571428571
+    },
+    {
+      "model": "glm-z1-airx",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.35714285714285715,
+      "output": 0.35714285714285715
+    },
+    {
+      "model": "glm-z1-flash",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "rerank",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.05714285714285714,
+      "output": 0
     },
     {
       "model": "deepseek-r1-aliyun",
