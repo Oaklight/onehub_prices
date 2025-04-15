@@ -1989,6 +1989,13 @@
       "output": 0.09
     },
     {
+      "model": "shisa-ai/shisa-v2-llama3.3-70b:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "sophosympatheia/midnight-rose-70b",
       "type": "tokens",
       "channel_type": 1006,
@@ -2036,13 +2043,6 @@
       "channel_type": 1006,
       "input": 0.25,
       "output": 0.25
-    },
-    {
-      "model": "tokyotech-llm/llama-3.1-swallow-8b-instruct-v0.3",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.05,
-      "output": 0.1
     },
     {
       "model": "undi95/remm-slerp-l2-13b",
