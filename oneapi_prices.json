@@ -5090,6 +5090,13 @@
       "output": 300.0
     },
     {
+      "model": "openai/o3",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 5.0,
+      "output": 20.0
+    },
+    {
       "model": "openai/o3-mini",
       "type": "tokens",
       "channel_type": 1006,
@@ -5098,6 +5105,20 @@
     },
     {
       "model": "openai/o3-mini-high",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.55,
+      "output": 2.2
+    },
+    {
+      "model": "openai/o4-mini",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.55,
+      "output": 2.2
+    },
+    {
+      "model": "openai/o4-mini-high",
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.55,
