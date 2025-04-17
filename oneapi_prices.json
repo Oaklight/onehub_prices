@@ -3291,6 +3291,34 @@
       "output": 0.14285714285714285
     },
     {
+      "model": "doubao-1-5-thinking-pro",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.2857142857142857,
+      "output": 1.1428571428571428
+    },
+    {
+      "model": "doubao-1-5-thinking-pro-250415",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.2857142857142857,
+      "output": 1.1428571428571428
+    },
+    {
+      "model": "doubao-1-5-thinking-pro-vision",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.2857142857142857,
+      "output": 1.1428571428571428
+    },
+    {
+      "model": "doubao-1-5-thinking-pro-vision-250415",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.2857142857142857,
+      "output": 1.1428571428571428
+    },
+    {
       "model": "doubao-1-5-vision-pro-32k-250115",
       "type": "tokens",
       "channel_type": 1002,
@@ -3305,6 +3333,13 @@
       "output": 0.04285714285714285
     },
     {
+      "model": "doubao-1.5-pro",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.05714285714285714,
+      "output": 0.14285714285714285
+    },
+    {
       "model": "doubao-1.5-pro-256k",
       "type": "tokens",
       "channel_type": 1002,
@@ -3317,6 +3352,48 @@
       "channel_type": 1002,
       "input": 0.05714285714285714,
       "output": 0.14285714285714285
+    },
+    {
+      "model": "doubao-1.5-ui-tars",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.25,
+      "output": 0.8571428571428571
+    },
+    {
+      "model": "doubao-1.5-ui-tars-250328",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.25,
+      "output": 0.8571428571428571
+    },
+    {
+      "model": "doubao-1.5-vision-lite",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.10714285714285714,
+      "output": 0.3214285714285714
+    },
+    {
+      "model": "doubao-1.5-vision-lite-250315",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.10714285714285714,
+      "output": 0.3214285714285714
+    },
+    {
+      "model": "doubao-1.5-vision-pro",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.21428571428571427,
+      "output": 0.6428571428571428
+    },
+    {
+      "model": "doubao-1.5-vision-pro-250328",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.21428571428571427,
+      "output": 0.6428571428571428
     },
     {
       "model": "doubao-1.5-vision-pro-32k",
