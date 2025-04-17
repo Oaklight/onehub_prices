@@ -3326,6 +3326,13 @@
       "output": 0.6428571428571428
     },
     {
+      "model": "doubao-1.5-lite",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.021428571428571425,
+      "output": 0.04285714285714285
+    },
+    {
       "model": "doubao-1.5-lite-32k",
       "type": "tokens",
       "channel_type": 1002,
