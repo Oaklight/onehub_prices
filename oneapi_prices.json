@@ -4166,6 +4166,20 @@
       "output": 0.0
     },
     {
+      "model": "google/gemini-2.5-flash-preview",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.075,
+      "output": 0.3
+    },
+    {
+      "model": "google/gemini-2.5-flash-preview:thinking",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.075,
+      "output": 1.75
+    },
+    {
       "model": "google/gemini-2.5-pro-exp-03-25:free",
       "type": "tokens",
       "channel_type": 1006,
