@@ -5643,21 +5643,14 @@
       "output": 0.0
     },
     {
-      "model": "pl:gemini-2.0-flash",
+      "model": "pl:gpt-4.1-mini",
       "type": "tokens",
       "channel_type": 1007,
       "input": 0.0,
       "output": 0.0
     },
     {
-      "model": "pl:gemini-2.0-flash-thinking",
-      "type": "tokens",
-      "channel_type": 1007,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "pl:gpt-4o",
+      "model": "pl:gpt-4.1-nano",
       "type": "tokens",
       "channel_type": 1007,
       "input": 0.0,
@@ -5671,21 +5664,14 @@
       "output": 0.0
     },
     {
-      "model": "pl:gpt-4o-mini",
-      "type": "tokens",
-      "channel_type": 1007,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "pl:gpt-o3-mini",
-      "type": "tokens",
-      "channel_type": 1007,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "pl:llama-3.3-70b",
+      "type": "tokens",
+      "channel_type": 1007,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "pl:llama-4-scout",
       "type": "tokens",
       "channel_type": 1007,
       "input": 0.0,
@@ -5700,13 +5686,6 @@
     },
     {
       "model": "pl:mistral-unity",
-      "type": "tokens",
-      "channel_type": 1007,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "pl:qwq-32b",
       "type": "tokens",
       "channel_type": 1007,
       "input": 0.0,
