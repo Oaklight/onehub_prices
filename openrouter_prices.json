@@ -956,8 +956,8 @@
       "model": "meta-llama/llama-3.2-90b-vision-instruct",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.4,
-      "output": 0.8
+      "input": 0.45,
+      "output": 0.45
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct",
@@ -1987,13 +1987,6 @@
       "channel_type": 1006,
       "input": 0.01,
       "output": 0.025
-    },
-    {
-      "model": "sao10k/l3.1-70b-hanami-x1",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 1.5,
-      "output": 1.5
     },
     {
       "model": "sao10k/l3.1-euryale-70b",
