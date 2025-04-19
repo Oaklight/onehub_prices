@@ -1012,8 +1012,8 @@
       "model": "meta-llama/llama-guard-3-8b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.1,
-      "output": 0.1
+      "input": 0.05,
+      "output": 0.05
     },
     {
       "model": "microsoft/phi-3-medium-128k-instruct",
