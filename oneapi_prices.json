@@ -6427,6 +6427,34 @@
       "output": 0.0
     },
     {
+      "model": "argo:o1",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:o1-mini",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:o1-preview",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:o3-mini",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "argo:text-embedding-3-large",
       "type": "tokens",
       "channel_type": 2002,
