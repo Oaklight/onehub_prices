@@ -4488,6 +4488,13 @@
       "output": 0.4
     },
     {
+      "model": "meta-llama/llama-3.1-405b:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "meta-llama/llama-3.1-70b-instruct",
       "type": "tokens",
       "channel_type": 1006,
