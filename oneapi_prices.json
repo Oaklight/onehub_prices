@@ -4617,8 +4617,15 @@
       "model": "meta-llama/llama-guard-3-8b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.05,
-      "output": 0.05
+      "input": 0.028,
+      "output": 0.028
+    },
+    {
+      "model": "microsoft/mai-ds-r1:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "microsoft/phi-3-medium-128k-instruct",
