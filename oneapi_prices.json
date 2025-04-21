@@ -3707,8 +3707,8 @@
       "model": "alpindale/magnum-72b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.75,
-      "output": 1.125
+      "input": 2.0,
+      "output": 3.0
     },
     {
       "model": "amazon/nova-lite-v1",
@@ -4883,8 +4883,8 @@
       "model": "neversleep/llama-3-lumimaid-70b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 1.688,
-      "output": 2.25
+      "input": 2.0,
+      "output": 3.0
     },
     {
       "model": "neversleep/llama-3-lumimaid-8b",
@@ -5746,13 +5746,6 @@
       "channel_type": 1006,
       "input": 2.5,
       "output": 7.5
-    },
-    {
-      "model": "xwin-lm/xwin-lm-70b",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 1.875,
-      "output": 1.875
     },
     {
       "model": "pl:*",
