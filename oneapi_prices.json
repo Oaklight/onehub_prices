@@ -4498,8 +4498,8 @@
       "model": "meta-llama/llama-3.1-70b-instruct",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.06,
-      "output": 0.195
+      "input": 0.05,
+      "output": 0.14
     },
     {
       "model": "meta-llama/llama-3.1-8b-instruct",
@@ -4723,7 +4723,7 @@
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.014,
-      "output": 0.03
+      "output": 0.028
     },
     {
       "model": "mistralai/mistral-7b-instruct-v0.1",
@@ -4744,7 +4744,7 @@
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.014,
-      "output": 0.03
+      "output": 0.028
     },
     {
       "model": "mistralai/mistral-7b-instruct:free",
