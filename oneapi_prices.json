@@ -4180,20 +4180,6 @@
       "output": 0.15
     },
     {
-      "model": "google/gemini-2.0-flash-thinking-exp-1219:free",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "google/gemini-2.0-flash-thinking-exp:free",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "google/gemini-2.5-flash-preview",
       "type": "tokens",
       "channel_type": 1006,
