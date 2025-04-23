@@ -631,13 +631,6 @@
       "output": 0.0
     },
     {
-      "model": "google/gemini-pro",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.25,
-      "output": 0.75
-    },
-    {
       "model": "google/gemini-pro-1.5",
       "type": "tokens",
       "channel_type": 1006,
