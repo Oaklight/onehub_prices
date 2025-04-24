@@ -1975,18 +1975,39 @@
       "output": 1.4285714285714286
     },
     {
-      "model": "mistral-embed",
+      "model": "codestral-latest",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.15,
+      "output": 0.45
+    },
+    {
+      "model": "ministral-3b-latest",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.02,
+      "output": 0.02
+    },
+    {
+      "model": "ministral-8b-latest",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.05,
       "output": 0.05
     },
     {
+      "model": "mistral-embed",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.05,
+      "output": 0
+    },
+    {
       "model": "mistral-large-latest",
       "type": "tokens",
       "channel_type": 30,
-      "input": 4,
-      "output": 12
+      "input": 1.0,
+      "output": 3.0
     },
     {
       "model": "mistral-medium-latest",
@@ -1996,11 +2017,32 @@
       "output": 4.05
     },
     {
+      "model": "mistral-moderation-latest",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.05,
+      "output": 0
+    },
+    {
+      "model": "mistral-nemo",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.075,
+      "output": 0.075
+    },
+    {
+      "model": "mistral-saba-latest",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.1,
+      "output": 0.3
+    },
+    {
       "model": "mistral-small-latest",
       "type": "tokens",
       "channel_type": 30,
-      "input": 1,
-      "output": 3
+      "input": 0.05,
+      "output": 0.15
     },
     {
       "model": "open-mistral-7b",
@@ -2013,8 +2055,8 @@
       "model": "open-mixtral-8x22b",
       "type": "tokens",
       "channel_type": 30,
-      "input": 4,
-      "output": 12
+      "input": 1.0,
+      "output": 3.0
     },
     {
       "model": "open-mixtral-8x7b",
@@ -2022,6 +2064,20 @@
       "channel_type": 30,
       "input": 0.35,
       "output": 0.35
+    },
+    {
+      "model": "pixtral-12b",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.075,
+      "output": 0.075
+    },
+    {
+      "model": "pixtral-large-latest",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 1.0,
+      "output": 3.0
     },
     {
       "model": "gemma-7b-it",
