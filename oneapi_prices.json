@@ -421,6 +421,13 @@
       "output": 5.0
     },
     {
+      "model": "gpt-image-1",
+      "type": "times",
+      "channel_type": 1,
+      "input": 2500.0,
+      "output": 0
+    },
+    {
       "model": "o1",
       "type": "tokens",
       "channel_type": 1,
