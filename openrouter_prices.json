@@ -830,8 +830,8 @@
       "model": "meta-llama/llama-2-13b-chat",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.11,
-      "output": 0.11
+      "input": 0.15,
+      "output": 0.15
     },
     {
       "model": "meta-llama/llama-2-70b-chat",
