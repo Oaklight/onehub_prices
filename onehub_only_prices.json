@@ -1415,6 +1415,27 @@
       "output": 0.3214285714285714
     },
     {
+      "model": "qwen2.5-coder-14b-instruct",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.14285714285714285,
+      "output": 0.42857142857142855
+    },
+    {
+      "model": "qwen2.5-coder-32b-instruct",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.14285714285714285,
+      "output": 0.42857142857142855
+    },
+    {
+      "model": "qwen2.5-coder-7b-instruct",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.07142857142857142,
+      "output": 0.14285714285714285
+    },
+    {
       "model": "qwq-plus",
       "type": "tokens",
       "channel_type": 17,
