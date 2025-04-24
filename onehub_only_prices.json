@@ -1184,6 +1184,20 @@
       "output": 0.0
     },
     {
+      "model": "qvq-max",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.5714285714285714,
+      "output": 2.2857142857142856
+    },
+    {
+      "model": "qvq-max-latest",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.5714285714285714,
+      "output": 2.2857142857142856
+    },
+    {
       "model": "qwen-audio-asr",
       "type": "tokens",
       "channel_type": 17,
@@ -1243,8 +1257,43 @@
       "model": "qwen-long",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.0357,
-      "output": 0.1429
+      "input": 0.03571428571428571,
+      "output": 0.14285714285714285
+    },
+    {
+      "model": "qwen-long-latest",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.03571428571428571,
+      "output": 0.14285714285714285
+    },
+    {
+      "model": "qwen-math-plus",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.2857142857142857,
+      "output": 0.8571428571428571
+    },
+    {
+      "model": "qwen-math-plus-latest",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.2857142857142857,
+      "output": 0.8571428571428571
+    },
+    {
+      "model": "qwen-math-turbo",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.14285714285714285,
+      "output": 0.42857142857142855
+    },
+    {
+      "model": "qwen-math-turbo-latest",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.14285714285714285,
+      "output": 0.42857142857142855
     },
     {
       "model": "qwen-max",
@@ -1266,6 +1315,20 @@
       "channel_type": 17,
       "input": 2.8571,
       "output": 8.5714
+    },
+    {
+      "model": "qwen-mt-plus",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 1.0714285714285714,
+      "output": 3.214285714285714
+    },
+    {
+      "model": "qwen-mt-turbo",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.07142857142857142,
+      "output": 0.21428571428571427
     },
     {
       "model": "qwen-omni-turbo",
@@ -1353,6 +1416,13 @@
     },
     {
       "model": "qwq-plus",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.11428571428571428,
+      "output": 0.2857142857142857
+    },
+    {
+      "model": "qwq-plus-latest",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.11428571428571428,
