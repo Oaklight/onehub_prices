@@ -2059,11 +2059,25 @@
       "output": 0.25
     },
     {
+      "model": "thudm/glm-4-32b",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.12,
+      "output": 0.12
+    },
+    {
       "model": "thudm/glm-4-32b:free",
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "thudm/glm-z1-32b",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.12,
+      "output": 0.12
     },
     {
       "model": "thudm/glm-z1-32b:free",
