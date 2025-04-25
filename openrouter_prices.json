@@ -596,6 +596,13 @@
       "output": 1.75
     },
     {
+      "model": "google/gemini-2.5-pro-exp-03-25",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "google/gemini-2.5-pro-exp-03-25:free",
       "type": "tokens",
       "channel_type": 1006,
@@ -2073,6 +2080,13 @@
       "output": 0.0
     },
     {
+      "model": "thudm/glm-4-9b:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "thudm/glm-z1-32b",
       "type": "tokens",
       "channel_type": 1006,
@@ -2085,6 +2099,20 @@
       "channel_type": 1006,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "thudm/glm-z1-9b:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "thudm/glm-z1-rumination-32b",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.12,
+      "output": 0.12
     },
     {
       "model": "undi95/remm-slerp-l2-13b",
