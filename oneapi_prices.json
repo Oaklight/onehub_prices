@@ -4460,13 +4460,6 @@
       "output": 0.0
     },
     {
-      "model": "google/gemini-2.5-pro-exp-03-25:free",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "google/gemini-2.5-pro-preview-03-25",
       "type": "tokens",
       "channel_type": 1006,
@@ -5734,13 +5727,6 @@
       "output": 0.315
     },
     {
-      "model": "qwen/qwen2.5-coder-7b-instruct",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.1,
-      "output": 0.1
-    },
-    {
       "model": "qwen/qwen2.5-vl-32b-instruct",
       "type": "tokens",
       "channel_type": 1006,
@@ -5919,8 +5905,8 @@
       "model": "thedrummer/unslopnemo-12b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.25,
-      "output": 0.25
+      "input": 0.225,
+      "output": 0.225
     },
     {
       "model": "thudm/glm-4-32b",
