@@ -827,6 +827,48 @@
       "output": 1.1428571428571428
     },
     {
+      "model": "ernie-4.5-turbo",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.05714285714285714,
+      "output": 0.22857142857142856
+    },
+    {
+      "model": "ernie-4.5-turbo-128k",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.05714285714285714,
+      "output": 0.22857142857142856
+    },
+    {
+      "model": "ernie-4.5-turbo-32k",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.05714285714285714,
+      "output": 0.22857142857142856
+    },
+    {
+      "model": "ernie-4.5-turbo-vl",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.05714285714285714,
+      "output": 0.22857142857142856
+    },
+    {
+      "model": "ernie-4.5-turbo-vl-32k",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.05714285714285714,
+      "output": 0.22857142857142856
+    },
+    {
+      "model": "ernie-lite-128k-0722",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "ernie-lite-8k",
       "type": "tokens",
       "channel_type": 15,
@@ -855,6 +897,13 @@
       "output": 0.0
     },
     {
+      "model": "ernie-tiny-128k-0929",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "ernie-tiny-8k",
       "type": "tokens",
       "channel_type": 15,
@@ -869,18 +918,53 @@
       "output": 0.5714285714285714
     },
     {
-      "model": "ernie-x1-32k",
+      "model": "ernie-x1-32k-preview",
       "type": "tokens",
       "channel_type": 15,
       "input": 0.14285714285714285,
       "output": 0.5714285714285714
     },
     {
-      "model": "ernie-x1-32k-preview",
+      "model": "ernie-x1-turbo",
       "type": "tokens",
       "channel_type": 15,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
+      "input": 0.07142857142857142,
+      "output": 0.2857142857142857
+    },
+    {
+      "model": "ernie-x1-turbo-32k",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.07142857142857142,
+      "output": 0.2857142857142857
+    },
+    {
+      "model": "llama-4-maverick",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.5,
+      "output": 1.5
+    },
+    {
+      "model": "llama-4-maverick-17b-128e-instruct",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.5,
+      "output": 1.5
+    },
+    {
+      "model": "llama-4-scout",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.42857142857142855,
+      "output": 1.2857142857142856
+    },
+    {
+      "model": "llama-4-scout-17b-16e-instruct",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.42857142857142855,
+      "output": 1.2857142857142856
     },
     {
       "model": "charglm-4",
