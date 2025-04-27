@@ -1366,13 +1366,6 @@
       "output": 0.15
     },
     {
-      "model": "nvidia/llama-3.1-nemotron-nano-8b-v1:free",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
       "type": "tokens",
       "channel_type": 1006,
