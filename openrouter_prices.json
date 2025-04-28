@@ -330,13 +330,6 @@
       "output": 0.45
     },
     {
-      "model": "cognitivecomputations/dolphin-mixtral-8x7b",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.25,
-      "output": 0.25
-    },
-    {
       "model": "cognitivecomputations/dolphin3.0-mistral-24b:free",
       "type": "tokens",
       "channel_type": 1006,
@@ -655,8 +648,8 @@
       "model": "google/gemma-2-9b-it",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.035,
-      "output": 0.035
+      "input": 0.04,
+      "output": 0.04
     },
     {
       "model": "google/gemma-2-9b-it:free",
@@ -825,13 +818,6 @@
       "channel_type": 1006,
       "input": 0.562,
       "output": 0.562
-    },
-    {
-      "model": "meta-llama/llama-2-13b-chat",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.15,
-      "output": 0.15
     },
     {
       "model": "meta-llama/llama-2-70b-chat",
@@ -1042,13 +1028,6 @@
       "channel_type": 1006,
       "input": 0.025,
       "output": 0.05
-    },
-    {
-      "model": "microsoft/wizardlm-2-7b",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.035,
-      "output": 0.035
     },
     {
       "model": "microsoft/wizardlm-2-8x22b",
@@ -1345,13 +1324,6 @@
       "output": 0.3
     },
     {
-      "model": "nousresearch/nous-hermes-llama2-13b",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.09,
-      "output": 0.09
-    },
-    {
       "model": "nvidia/llama-3.1-nemotron-70b-instruct",
       "type": "tokens",
       "channel_type": 1006,
@@ -1644,13 +1616,6 @@
       "channel_type": 1006,
       "input": 0.55,
       "output": 2.2
-    },
-    {
-      "model": "openchat/openchat-7b",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.035,
-      "output": 0.035
     },
     {
       "model": "or:microsoft/wizardlm-2-8x22b",
@@ -2092,13 +2057,6 @@
       "channel_type": 1006,
       "input": 0.281,
       "output": 0.562
-    },
-    {
-      "model": "undi95/toppy-m-7b",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.035,
-      "output": 0.035
     },
     {
       "model": "x-ai/grok-2-1212",
