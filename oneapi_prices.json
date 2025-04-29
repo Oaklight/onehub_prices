@@ -3473,13 +3473,6 @@
       "output": 0.0
     },
     {
-      "model": "internvl-latest",
-      "type": "tokens",
-      "channel_type": 1001,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "internvl2.5-78b",
       "type": "tokens",
       "channel_type": 1001,
@@ -3488,6 +3481,20 @@
     },
     {
       "model": "internvl2.5-latest",
+      "type": "tokens",
+      "channel_type": 1001,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "internvl3-78b",
+      "type": "tokens",
+      "channel_type": 1001,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "internvl3-latest",
       "type": "tokens",
       "channel_type": 1001,
       "input": 0.0,
