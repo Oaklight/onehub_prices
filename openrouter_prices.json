@@ -1856,6 +1856,13 @@
       "output": 0.0
     },
     {
+      "model": "qwen/qwen3-14b",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.04,
+      "output": 0.12
+    },
+    {
       "model": "qwen/qwen3-14b:free",
       "type": "tokens",
       "channel_type": 1006,
@@ -1867,7 +1874,7 @@
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.1,
-      "output": 0.425
+      "output": 0.3
     },
     {
       "model": "qwen/qwen3-235b-a22b:free",
@@ -1881,7 +1888,7 @@
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.05,
-      "output": 0.25
+      "output": 0.15
     },
     {
       "model": "qwen/qwen3-30b-a3b:free",
@@ -1895,7 +1902,7 @@
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.05,
-      "output": 0.25
+      "output": 0.15
     },
     {
       "model": "qwen/qwen3-32b:free",
