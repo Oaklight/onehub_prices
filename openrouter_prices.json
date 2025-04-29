@@ -2024,13 +2024,6 @@
       "output": 0.4
     },
     {
-      "model": "sophosympatheia/rogue-rose-103b-v0.2:free",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "steelskull/l3.3-electra-r1-70b",
       "type": "tokens",
       "channel_type": 1006,
