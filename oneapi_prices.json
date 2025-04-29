@@ -3144,6 +3144,34 @@
       "output": 0.295
     },
     {
+      "model": "Qwen/Qwen3-14B",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.07142857142857142,
+      "output": 0.07142857142857142
+    },
+    {
+      "model": "Qwen/Qwen3-30B-A3B",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.09999999999999999,
+      "output": 0.09999999999999999
+    },
+    {
+      "model": "Qwen/Qwen3-32B",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.14285714285714285,
+      "output": 0.14285714285714285
+    },
+    {
+      "model": "Qwen/Qwen3-8B",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "THUDM/GLM-4-32B-0414",
       "type": "tokens",
       "channel_type": 45,
