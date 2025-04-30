@@ -4652,8 +4652,8 @@
       "model": "google/gemma-2-27b-it",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.4,
-      "output": 0.4
+      "input": 0.05,
+      "output": 0.15
     },
     {
       "model": "google/gemma-2-9b-it",
@@ -4932,8 +4932,8 @@
       "model": "meta-llama/llama-3.2-3b-instruct",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.007,
-      "output": 0.012
+      "input": 0.005,
+      "output": 0.01
     },
     {
       "model": "meta-llama/llama-3.2-3b-instruct:free",
@@ -5023,8 +5023,8 @@
       "model": "microsoft/phi-3-medium-128k-instruct",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.5,
-      "output": 0.5
+      "input": 0.05,
+      "output": 0.15
     },
     {
       "model": "microsoft/phi-3-mini-128k-instruct",
@@ -5037,8 +5037,8 @@
       "model": "microsoft/phi-3.5-mini-128k-instruct",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.05,
-      "output": 0.05
+      "input": 0.015,
+      "output": 0.045
     },
     {
       "model": "microsoft/phi-4",
@@ -5800,8 +5800,8 @@
       "model": "qwen/qwen-2.5-coder-32b-instruct",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.035,
-      "output": 0.075
+      "input": 0.03,
+      "output": 0.09
     },
     {
       "model": "qwen/qwen-2.5-coder-32b-instruct:free",
@@ -5909,6 +5909,13 @@
       "output": 0.0
     },
     {
+      "model": "qwen/qwen3-0.6b-04-28:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "qwen/qwen3-1.7b:free",
       "type": "tokens",
       "channel_type": 1006,
@@ -5933,8 +5940,8 @@
       "model": "qwen/qwen3-235b-a22b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.1,
-      "output": 0.3
+      "input": 0.075,
+      "output": 1.0
     },
     {
       "model": "qwen/qwen3-235b-a22b:free",
