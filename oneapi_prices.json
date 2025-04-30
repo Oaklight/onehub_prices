@@ -6462,6 +6462,41 @@
       "output": 7.5
     },
     {
+      "model": "qwen3-14b",
+      "type": "tokens",
+      "channel_type": 1010,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "qwen3-235b-a22b",
+      "type": "tokens",
+      "channel_type": 1010,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "qwen3-30b-a3b",
+      "type": "tokens",
+      "channel_type": 1010,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "qwen3-32b",
+      "type": "tokens",
+      "channel_type": 1010,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "qwen3-8b",
+      "type": "tokens",
+      "channel_type": 1010,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "jamba-large",
       "type": "tokens",
       "channel_type": 1011,
