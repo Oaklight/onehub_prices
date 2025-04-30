@@ -4964,6 +4964,13 @@
       "output": 0.028
     },
     {
+      "model": "meta-llama/llama-guard-4-12b",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.025,
+      "output": 0.025
+    },
+    {
       "model": "microsoft/mai-ds-r1:free",
       "type": "tokens",
       "channel_type": 1006,
