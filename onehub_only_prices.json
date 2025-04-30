@@ -3151,13 +3151,6 @@
       "output": 0.07142857142857142
     },
     {
-      "model": "Qwen/Qwen3-235B-A22B",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.35714285714285715,
-      "output": 0.35714285714285715
-    },
-    {
       "model": "Qwen/Qwen3-30B-A3B",
       "type": "tokens",
       "channel_type": 45,
