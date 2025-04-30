@@ -736,13 +736,6 @@
       "output": 0.0
     },
     {
-      "model": "google/gemma-7b-it",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.075,
-      "output": 0.075
-    },
-    {
       "model": "google/learnlm-1.5-pro-experimental:free",
       "type": "tokens",
       "channel_type": 1006,
@@ -790,6 +783,13 @@
       "channel_type": 1006,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "inception/mercury-coder-small-beta",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.125,
+      "output": 0.5
     },
     {
       "model": "infermatic/mn-inferor-12b",
@@ -1926,11 +1926,18 @@
       "output": 0.0
     },
     {
+      "model": "qwen/qwen3-1.7b:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "qwen/qwen3-14b",
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.035,
-      "output": 0.138
+      "output": 0.12
     },
     {
       "model": "qwen/qwen3-14b:free",
@@ -1943,8 +1950,8 @@
       "model": "qwen/qwen3-235b-a22b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.1,
+      "output": 0.3
     },
     {
       "model": "qwen/qwen3-235b-a22b:free",
@@ -1957,8 +1964,8 @@
       "model": "qwen/qwen3-30b-a3b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.05,
+      "output": 0.15
     },
     {
       "model": "qwen/qwen3-30b-a3b:free",
@@ -1976,6 +1983,13 @@
     },
     {
       "model": "qwen/qwen3-32b:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "qwen/qwen3-4b:free",
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.0,
