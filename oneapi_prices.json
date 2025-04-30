@@ -6504,6 +6504,34 @@
       "output": 0.2
     },
     {
+      "model": "deepseek/deepseek-prover-v2-671b",
+      "type": "tokens",
+      "channel_type": 1012,
+      "input": 0.2857142857142857,
+      "output": 1.1428571428571428
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-fp8",
+      "type": "tokens",
+      "channel_type": 1012,
+      "input": 0.10357142857142856,
+      "output": 0.41428571428571426
+    },
+    {
+      "model": "qwen/qwen3-30b-a3b-fp8",
+      "type": "tokens",
+      "channel_type": 1012,
+      "input": 0.05142857142857143,
+      "output": 0.23285714285714285
+    },
+    {
+      "model": "qwen/qwen3-32b-fp8",
+      "type": "tokens",
+      "channel_type": 1012,
+      "input": 0.05142857142857143,
+      "output": 0.23285714285714285
+    },
+    {
       "model": "bge-m3",
       "type": "tokens",
       "channel_type": 2001,
@@ -6512,6 +6540,13 @@
     },
     {
       "model": "bge-m3-infinigence",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "bge-m3-ppio",
       "type": "tokens",
       "channel_type": 2001,
       "input": 0.0,
