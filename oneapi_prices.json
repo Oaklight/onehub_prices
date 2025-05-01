@@ -4939,8 +4939,8 @@
       "model": "meta-llama/llama-3.2-90b-vision-instruct",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.45,
-      "output": 0.45
+      "input": 0.6,
+      "output": 0.6
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct",
