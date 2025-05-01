@@ -4429,7 +4429,7 @@
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.35,
-      "output": 1.25
+      "output": 1.09
     },
     {
       "model": "deepseek/deepseek-prover-v2:free",
