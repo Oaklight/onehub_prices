@@ -2081,7 +2081,10 @@
       "type": "tokens",
       "channel_type": 28,
       "input": 0.14285714285714285,
-      "output": 0.5714285714285714
+      "output": 0.5714285714285714,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "deepseek-coder",
@@ -2102,7 +2105,10 @@
       "type": "tokens",
       "channel_type": 28,
       "input": 0.2857142857142857,
-      "output": 1.1428571428571428
+      "output": 1.1428571428571428,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "deepseek-v3-deepseek",
