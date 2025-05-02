@@ -195,9 +195,9 @@ def process_extra_ratios(extra_ratios: list, input_price: float) -> dict:
             if isinstance(value, str) and (
                 "usd" in value.lower() or "rmb" in value.lower()
             ):
-                # 带单位的情况，计算比率
-                numeric_value, _ = split_price_string(value)
-                ratio = numeric_value / input_price
+                # 带单位的情况，先convert_price再计算比率
+                normalized_price, _ = convert_price(value)
+                ratio = normalized_price / input_price
             else:
                 # 不带单位的情况，直接使用
                 ratio = float(value)
