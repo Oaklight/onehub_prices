@@ -1971,8 +1971,8 @@
       "model": "qwen/qwen3-235b-a22b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.075,
-      "output": 1.0
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "qwen/qwen3-235b-a22b:free",
