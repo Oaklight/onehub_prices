@@ -1575,6 +1575,62 @@
       "output": 0.14285714285714285
     },
     {
+      "model": "qwen3-0.6b",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.021428571428571425,
+      "output": 0.0857142857142857
+    },
+    {
+      "model": "qwen3-1.7b",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.021428571428571425,
+      "output": 0.0857142857142857
+    },
+    {
+      "model": "qwen3-14b",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.07142857142857142,
+      "output": 0.2857142857142857
+    },
+    {
+      "model": "qwen3-235b-a22b",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.2857142857142857,
+      "output": 0.8571428571428571
+    },
+    {
+      "model": "qwen3-30b-a3b",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.10714285714285714,
+      "output": 0.42857142857142855
+    },
+    {
+      "model": "qwen3-32b",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.14285714285714285,
+      "output": 0.5714285714285714
+    },
+    {
+      "model": "qwen3-4b",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.021428571428571425,
+      "output": 0.0857142857142857
+    },
+    {
+      "model": "qwen3-8b",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.03571428571428571,
+      "output": 0.14285714285714285
+    },
+    {
       "model": "qwq-plus",
       "type": "tokens",
       "channel_type": 17,
@@ -1719,7 +1775,10 @@
       "type": "tokens",
       "channel_type": 25,
       "input": 0.0375,
-      "output": 0.15
+      "output": 0.15,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "gemini-1.5-flash-001",
@@ -1740,7 +1799,10 @@
       "type": "tokens",
       "channel_type": 25,
       "input": 0.01875,
-      "output": 0.075
+      "output": 0.075,
+      "extra_ratios": {
+        "cached_tokens": 0.26666666666666666
+      }
     },
     {
       "model": "gemini-1.5-flash-8b-exp-0827",
@@ -1768,7 +1830,10 @@
       "type": "tokens",
       "channel_type": 25,
       "input": 0.625,
-      "output": 2.5
+      "output": 2.5,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "gemini-1.5-pro-001",
@@ -1810,7 +1875,12 @@
       "type": "tokens",
       "channel_type": 25,
       "input": 0.05,
-      "output": 0.2
+      "output": 0.2,
+      "extra_ratios": {
+        "cached_tokens": 0.25,
+        "input_image_tokens": 1.0,
+        "input_audio_tokens": 6.999999999999999
+      }
     },
     {
       "model": "gemini-2.0-flash-exp",
@@ -1845,7 +1915,12 @@
       "type": "tokens",
       "channel_type": 25,
       "input": 0.175,
-      "output": 0.75
+      "output": 0.75,
+      "extra_ratios": {
+        "input_image_tokens": 6.000000000000001,
+        "input_audio_tokens": 6.000000000000001,
+        "output_audio_tokens": 5.666666666666667
+      }
     },
     {
       "model": "gemini-2.0-flash-thinking-exp-01-21",
@@ -1873,7 +1948,11 @@
       "type": "tokens",
       "channel_type": 25,
       "input": 0.075,
-      "output": 0.3
+      "output": 0.3,
+      "extra_ratios": {
+        "input_image_tokens": 1.0,
+        "input_audio_tokens": 6.666666666666667
+      }
     },
     {
       "model": "gemini-2.5-flash-preview-04-17",
@@ -1901,7 +1980,10 @@
       "type": "tokens",
       "channel_type": 25,
       "input": 0.625,
-      "output": 5.0
+      "output": 5.0,
+      "extra_ratios": {
+        "cached_tokens": 0.248
+      }
     },
     {
       "model": "gemini-2.5-pro-preview-03-25",
@@ -2145,28 +2227,40 @@
       "type": "tokens",
       "channel_type": 29,
       "input": 0.7142857142857143,
-      "output": 2.142857142857143
+      "output": 2.142857142857143,
+      "extra_ratios": {
+        "cached_tokens": 0.09999999999999999
+      }
     },
     {
       "model": "kimi-latest-32k",
       "type": "tokens",
       "channel_type": 29,
       "input": 0.35714285714285715,
-      "output": 1.4285714285714286
+      "output": 1.4285714285714286,
+      "extra_ratios": {
+        "cached_tokens": 0.19999999999999998
+      }
     },
     {
       "model": "kimi-latest-8k",
       "type": "tokens",
       "channel_type": 29,
       "input": 0.14285714285714285,
-      "output": 0.7142857142857143
+      "output": 0.7142857142857143,
+      "extra_ratios": {
+        "cached_tokens": 0.5
+      }
     },
     {
       "model": "moonshot-v1-128k",
       "type": "tokens",
       "channel_type": 29,
       "input": 0.7142857142857143,
-      "output": 2.142857142857143
+      "output": 2.142857142857143,
+      "extra_ratios": {
+        "cached_tokens": 0.0
+      }
     },
     {
       "model": "moonshot-v1-128k-vision-preview",
@@ -2180,7 +2274,10 @@
       "type": "tokens",
       "channel_type": 29,
       "input": 0.35714285714285715,
-      "output": 1.4285714285714286
+      "output": 1.4285714285714286,
+      "extra_ratios": {
+        "cached_tokens": 0.0
+      }
     },
     {
       "model": "moonshot-v1-32k-vision-preview",
@@ -2194,7 +2291,10 @@
       "type": "tokens",
       "channel_type": 29,
       "input": 0.14285714285714285,
-      "output": 0.7142857142857143
+      "output": 0.7142857142857143,
+      "extra_ratios": {
+        "cached_tokens": 0.0
+      }
     },
     {
       "model": "moonshot-v1-8k-vision-preview",
@@ -3933,46 +4033,44 @@
       "output": 0.0
     },
     {
-      "model": "step-1-128k",
-      "type": "tokens",
-      "channel_type": 1005,
-      "input": 2.857142857142857,
-      "output": 14.285714285714286
-    },
-    {
       "model": "step-1-256k",
       "type": "tokens",
       "channel_type": 1005,
       "input": 6.785714285714286,
-      "output": 21.428571428571427
+      "output": 21.428571428571427,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "step-1-32k",
       "type": "tokens",
       "channel_type": 1005,
       "input": 1.0714285714285714,
-      "output": 5.0
+      "output": 5.0,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "step-1-8k",
       "type": "tokens",
       "channel_type": 1005,
       "input": 0.35714285714285715,
-      "output": 1.4285714285714286
-    },
-    {
-      "model": "step-1-flash",
-      "type": "tokens",
-      "channel_type": 1005,
-      "input": 0.07142857142857142,
-      "output": 0.2857142857142857
+      "output": 1.4285714285714286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "step-1.5v-mini",
       "type": "tokens",
       "channel_type": 1005,
       "input": 0.5714285714285714,
-      "output": 2.5
+      "output": 2.5,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "step-1o-audio",
@@ -4000,14 +4098,20 @@
       "type": "tokens",
       "channel_type": 1005,
       "input": 1.0714285714285714,
-      "output": 5.0
+      "output": 5.0,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "step-1v-8k",
       "type": "tokens",
       "channel_type": 1005,
       "input": 0.35714285714285715,
-      "output": 1.4285714285714286
+      "output": 1.4285714285714286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "step-1x-medium",
@@ -4021,21 +4125,30 @@
       "type": "tokens",
       "channel_type": 1005,
       "input": 2.7142857142857144,
-      "output": 8.571428571428571
+      "output": 8.571428571428571,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "step-2-16k-exp",
       "type": "tokens",
       "channel_type": 1005,
       "input": 2.7142857142857144,
-      "output": 8.571428571428571
+      "output": 8.571428571428571,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "step-2-mini",
       "type": "tokens",
       "channel_type": 1005,
       "input": 0.07142857142857142,
-      "output": 0.14285714285714285
+      "output": 0.14285714285714285,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "step-r1-v-mini",
