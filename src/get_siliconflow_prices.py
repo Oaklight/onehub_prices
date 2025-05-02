@@ -1,7 +1,12 @@
 import http.client
 import json
 import os
-from utils import yaml_to_json, integrate_prices
+
+import dotenv
+
+from utils import integrate_prices, yaml_to_json
+
+dotenv.load_dotenv()  # Load environment variables from .env file
 
 api_key: str = os.getenv("SILICONFLOW_API_KEY")
 assert api_key is not None, "SILICONFLOW_API_KEY is not set"
