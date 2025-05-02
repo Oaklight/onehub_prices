@@ -208,7 +208,10 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 1.0,
-      "output": 4.0
+      "output": 4.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "gpt-4.1-2025-04-14",
@@ -222,7 +225,10 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 0.2,
-      "output": 0.8
+      "output": 0.8,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "gpt-4.1-mini-2025-04-14",
@@ -236,7 +242,10 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 0.05,
-      "output": 0.2
+      "output": 0.2,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "gpt-4.1-nano-2025-04-14",
@@ -250,7 +259,10 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 37.5,
-      "output": 75.0
+      "output": 75.0,
+      "extra_ratios": {
+        "cached_tokens": 0.5
+      }
     },
     {
       "model": "gpt-4.5-preview-2025-02-27",
@@ -264,7 +276,10 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 1.25,
-      "output": 5.0
+      "output": 5.0,
+      "extra_ratios": {
+        "cached_tokens": 0.5
+      }
     },
     {
       "model": "gpt-4o-2024-05-13",
@@ -313,7 +328,10 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 0.075,
-      "output": 0.3
+      "output": 0.3,
+      "extra_ratios": {
+        "cached_tokens": 0.5
+      }
     },
     {
       "model": "gpt-4o-mini-2024-07-18",
@@ -341,7 +359,10 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 0.3,
-      "output": 1.2
+      "output": 1.2,
+      "extra_ratios": {
+        "cached_tokens": 0.5
+      }
     },
     {
       "model": "gpt-4o-mini-realtime-preview-2024-12-17",
@@ -383,7 +404,10 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 2.5,
-      "output": 10.0
+      "output": 10.0,
+      "extra_ratios": {
+        "cached_tokens": 0.5
+      }
     },
     {
       "model": "gpt-4o-realtime-preview-2024-10-01",
@@ -432,7 +456,10 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 7.5,
-      "output": 30.0
+      "output": 30.0,
+      "extra_ratios": {
+        "cached_tokens": 0.5
+      }
     },
     {
       "model": "o1-2024-12-17",
@@ -446,7 +473,10 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 0.55,
-      "output": 2.2
+      "output": 2.2,
+      "extra_ratios": {
+        "cached_tokens": 0.5
+      }
     },
     {
       "model": "o1-mini-2024-09-12",
@@ -488,7 +518,10 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 5.0,
-      "output": 20.0
+      "output": 20.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "o3-2025-04-16",
@@ -502,7 +535,10 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 0.55,
-      "output": 2.2
+      "output": 2.2,
+      "extra_ratios": {
+        "cached_tokens": 0.5
+      }
     },
     {
       "model": "o3-mini-2025-01-31",
@@ -516,7 +552,10 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 0.55,
-      "output": 2.2
+      "output": 2.2,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "o4-mini-2025-04-16",
