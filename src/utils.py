@@ -177,6 +177,50 @@ def convert_price(price_str: str) -> Tuple[float, str]:
     return (normalized_price, price_type)
 
 
+def process_extra_ratios(extra_ratios: list, input_price: float) -> dict:
+    """
+    处理extra_ratios字段，转换为指定格式的字典
+
+    Args:
+        extra_ratios: YAML中的extra_ratios列表
+        input_price: 模型的input价格(用于计算比率)
+
+    Returns:
+        转换后的extra_ratios字典
+    """
+    result = {}
+    for item in extra_ratios:
+        for key, value in item.items():
+            # 判断是否有单位
+            if isinstance(value, str) and (
+                "usd" in value.lower() or "rmb" in value.lower()
+            ):
+                # 带单位的情况，计算比率
+                numeric_value, _ = split_price_string(value)
+                ratio = numeric_value / input_price
+            else:
+                # 不带单位的情况，直接使用
+                ratio = float(value)
+            result[key] = ratio
+    return result
+
+
+def create_model_entry(
+    model_name, model_type, channel_type, input_price, output_price, extra_ratios=None
+):
+    """创建模型条目字典。"""
+    entry = {
+        "model": model_name,
+        "type": model_type,
+        "channel_type": channel_type,
+        "input": input_price,
+        "output": output_price,
+    }
+    if extra_ratios:
+        entry["extra_ratios"] = process_extra_ratios(extra_ratios, input_price)
+    return entry
+
+
 def yaml_to_json(directory_path: str, file_name: str = None) -> dict:
     """
     Convert YAML data in a directory to JSON format, handling aliases and price conversion.
@@ -189,18 +233,6 @@ def yaml_to_json(directory_path: str, file_name: str = None) -> dict:
     Returns:
         dict: Converted JSON data.
     """
-
-    def create_model_entry(
-        model_name, model_type, channel_type, input_price, output_price
-    ):
-        """创建模型条目字典。"""
-        return {
-            "model": model_name,
-            "type": model_type,
-            "channel_type": channel_type,
-            "input": input_price,
-            "output": output_price,
-        }
 
     # 根据 file_name 参数加载 YAML 数据
     yaml_data = load_yaml_from_directory(directory_path, file_name)
@@ -243,7 +275,12 @@ def yaml_to_json(directory_path: str, file_name: str = None) -> dict:
             # 添加主模型条目
             json_data["data"].append(
                 create_model_entry(
-                    model_name, model_type, new_channel_type, input_price, output_price
+                    model_name,
+                    model_type,
+                    new_channel_type,
+                    input_price,
+                    output_price,
+                    model_info.get("extra_ratios", None),
                 )
             )
 
