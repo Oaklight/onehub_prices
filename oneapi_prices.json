@@ -4763,8 +4763,8 @@
       "model": "eva-unit-01/eva-qwen-2.5-72b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.45,
-      "output": 0.6
+      "input": 2.0,
+      "output": 3.0
     },
     {
       "model": "featherless/qwerky-72b:free",
@@ -5010,13 +5010,6 @@
       "channel_type": 1006,
       "input": 0.25,
       "output": 0.25
-    },
-    {
-      "model": "latitudegames/wayfarer-large-70b-llama-3.3",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.4,
-      "output": 0.45
     },
     {
       "model": "liquid/lfm-3b",
@@ -6333,13 +6326,6 @@
       "channel_type": 1006,
       "input": 0.4,
       "output": 0.4
-    },
-    {
-      "model": "steelskull/l3.3-electra-r1-70b",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.35,
-      "output": 0.475
     },
     {
       "model": "thedrummer/anubis-pro-105b-v1",
