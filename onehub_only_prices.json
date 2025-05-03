@@ -2997,13 +2997,6 @@
       "output": 0.0
     },
     {
-      "model": "AIDC-AI/Marco-o1",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "BAAI/bge-large-en-v1.5",
       "type": "tokens",
       "channel_type": 45,
@@ -3168,7 +3161,7 @@
       "model": "Pro/deepseek-ai/DeepSeek-V3-1226",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.5714285714285714,
+      "input": 0.14285714285714285,
       "output": 0.5714285714285714
     },
     {
@@ -3343,28 +3336,28 @@
       "model": "Qwen/Qwen3-14B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.07142857142857142,
-      "output": 0.07142857142857142
+      "input": 0.03571428571428571,
+      "output": 0.14285714285714285
     },
     {
       "model": "Qwen/Qwen3-235B-A22B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.35714285714285715,
-      "output": 0.35714285714285715
+      "input": 0.17857142857142858,
+      "output": 0.7142857142857143
     },
     {
       "model": "Qwen/Qwen3-30B-A3B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.09999999999999999,
-      "output": 0.09999999999999999
+      "input": 0.049999999999999996,
+      "output": 0.19999999999999998
     },
     {
       "model": "Qwen/Qwen3-32B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.14285714285714285,
+      "input": 0.07142857142857142,
       "output": 0.14285714285714285
     },
     {
