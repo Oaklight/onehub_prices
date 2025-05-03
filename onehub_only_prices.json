@@ -1439,7 +1439,10 @@
       "type": "tokens",
       "channel_type": 17,
       "input": 0.1714285714285714,
-      "output": 0.6857142857142856
+      "output": 0.6857142857142856,
+      "extra_ratios": {
+        "cached_tokens": 0.4
+      }
     },
     {
       "model": "qwen-max-latest",
@@ -1488,7 +1491,11 @@
       "type": "tokens",
       "channel_type": 17,
       "input": 0.05714285714285714,
-      "output": 0.14285714285714285
+      "output": 0.14285714285714285,
+      "extra_ratios": {
+        "reasoning_tokens": 20.0,
+        "cached_tokens": 0.4
+      }
     },
     {
       "model": "qwen-plus-latest",
@@ -1502,7 +1509,11 @@
       "type": "tokens",
       "channel_type": 17,
       "input": 0.021428571428571425,
-      "output": 0.04285714285714285
+      "output": 0.04285714285714285,
+      "extra_ratios": {
+        "reasoning_tokens": 20.000000000000004,
+        "cached_tokens": 0.4
+      }
     },
     {
       "model": "qwen-turbo-latest",
@@ -1516,7 +1527,10 @@
       "type": "tokens",
       "channel_type": 17,
       "input": 0.21428571428571427,
-      "output": 0.6428571428571428
+      "output": 0.6428571428571428,
+      "extra_ratios": {
+        "cached_tokens": 0.4
+      }
     },
     {
       "model": "qwen-vl-max-latest",
@@ -1544,7 +1558,10 @@
       "type": "tokens",
       "channel_type": 17,
       "input": 0.10714285714285714,
-      "output": 0.3214285714285714
+      "output": 0.3214285714285714,
+      "extra_ratios": {
+        "cached_tokens": 0.4
+      }
     },
     {
       "model": "qwen-vl-plus-latest",
@@ -1593,42 +1610,60 @@
       "type": "tokens",
       "channel_type": 17,
       "input": 0.07142857142857142,
-      "output": 0.2857142857142857
+      "output": 0.2857142857142857,
+      "extra_ratios": {
+        "reasoning_tokens": 10.0
+      }
     },
     {
       "model": "qwen3-235b-a22b",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.2857142857142857,
-      "output": 0.8571428571428571
+      "output": 0.8571428571428571,
+      "extra_ratios": {
+        "reasoning_tokens": 10.0
+      }
     },
     {
       "model": "qwen3-30b-a3b",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.10714285714285714,
-      "output": 0.42857142857142855
+      "output": 0.42857142857142855,
+      "extra_ratios": {
+        "reasoning_tokens": 10.0
+      }
     },
     {
       "model": "qwen3-32b",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.14285714285714285,
-      "output": 0.5714285714285714
+      "output": 0.5714285714285714,
+      "extra_ratios": {
+        "reasoning_tokens": 10.0
+      }
     },
     {
       "model": "qwen3-4b",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.021428571428571425,
-      "output": 0.0857142857142857
+      "output": 0.0857142857142857,
+      "extra_ratios": {
+        "reasoning_tokens": 10.000000000000002
+      }
     },
     {
       "model": "qwen3-8b",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.03571428571428571,
-      "output": 0.14285714285714285
+      "output": 0.14285714285714285,
+      "extra_ratios": {
+        "reasoning_tokens": 10.0
+      }
     },
     {
       "model": "qwq-plus",
