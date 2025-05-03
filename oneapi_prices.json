@@ -7098,6 +7098,36 @@
       "output": 0.0
     },
     {
+      "model": "qwen3",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.2857142857142857,
+      "output": 0.8571428571428571,
+      "extra_ratios": {
+        "reasoning_tokens": 10.0
+      }
+    },
+    {
+      "model": "qwen3-mini",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.14285714285714285,
+      "output": 0.5714285714285714,
+      "extra_ratios": {
+        "reasoning_tokens": 10.0
+      }
+    },
+    {
+      "model": "qwen3-nano",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.03571428571428571,
+      "output": 0.14285714285714285,
+      "extra_ratios": {
+        "reasoning_tokens": 10.0
+      }
+    },
+    {
       "model": "argo:*",
       "type": "tokens",
       "channel_type": 2002,
