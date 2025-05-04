@@ -7114,10 +7114,10 @@
       "model": "qwen3-nano",
       "type": "tokens",
       "channel_type": 2001,
-      "input": 0.021428571428571425,
-      "output": 0.0857142857142857,
+      "input": 0.03571428571428571,
+      "output": 0.14285714285714285,
       "extra_ratios": {
-        "reasoning_tokens": 10.000000000000002
+        "reasoning_tokens": 10.0
       }
     },
     {
