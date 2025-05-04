@@ -7104,8 +7104,8 @@
       "model": "qwen3-mini",
       "type": "tokens",
       "channel_type": 2001,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714,
+      "input": 0.10714285714285714,
+      "output": 0.42857142857142855,
       "extra_ratios": {
         "reasoning_tokens": 10.0
       }
@@ -7114,10 +7114,10 @@
       "model": "qwen3-nano",
       "type": "tokens",
       "channel_type": 2001,
-      "input": 0.03571428571428571,
-      "output": 0.14285714285714285,
+      "input": 0.021428571428571425,
+      "output": 0.0857142857142857,
       "extra_ratios": {
-        "reasoning_tokens": 10.0
+        "reasoning_tokens": 10.000000000000002
       }
     },
     {
