@@ -316,6 +316,13 @@
       "output": 7.5
     },
     {
+      "model": "arcee-ai/arcee-blitz",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.225,
+      "output": 0.375
+    },
+    {
       "model": "arliai/qwq-32b-arliai-rpr-v1:free",
       "type": "tokens",
       "channel_type": 1006,
