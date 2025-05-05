@@ -6762,6 +6762,55 @@
       "output": 7.5
     },
     {
+      "model": "chutes:*",
+      "type": "tokens",
+      "channel_type": 1010,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "chutes:deepseek-prover-v2",
+      "type": "tokens",
+      "channel_type": 1010,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "chutes:deepseek-r1",
+      "type": "tokens",
+      "channel_type": 1010,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "chutes:deepseek-v3",
+      "type": "tokens",
+      "channel_type": 1010,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "chutes:qwen3",
+      "type": "tokens",
+      "channel_type": 1010,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "chutes:qwen3-mini",
+      "type": "tokens",
+      "channel_type": 1010,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "chutes:qwen3-nano",
+      "type": "tokens",
+      "channel_type": 1010,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "jamba-large",
       "type": "tokens",
       "channel_type": 1011,
