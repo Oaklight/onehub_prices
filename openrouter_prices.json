@@ -323,6 +323,41 @@
       "output": 0.375
     },
     {
+      "model": "arcee-ai/coder-large",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.25,
+      "output": 0.4
+    },
+    {
+      "model": "arcee-ai/maestro-reasoning",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.45,
+      "output": 1.65
+    },
+    {
+      "model": "arcee-ai/spotlight",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.09,
+      "output": 0.09
+    },
+    {
+      "model": "arcee-ai/virtuoso-large",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.375,
+      "output": 0.6
+    },
+    {
+      "model": "arcee-ai/virtuoso-medium-v2",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.25,
+      "output": 0.4
+    },
+    {
       "model": "arliai/qwq-32b-arliai-rpr-v1:free",
       "type": "tokens",
       "channel_type": 1006,
