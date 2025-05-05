@@ -4928,34 +4928,6 @@
       "output": 0.0
     },
     {
-      "model": "google/palm-2-chat-bison",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.5,
-      "output": 1.0
-    },
-    {
-      "model": "google/palm-2-chat-bison-32k",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.5,
-      "output": 1.0
-    },
-    {
-      "model": "google/palm-2-codechat-bison",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.5,
-      "output": 1.0
-    },
-    {
-      "model": "google/palm-2-codechat-bison-32k",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.5,
-      "output": 1.0
-    },
-    {
       "model": "gryphe/mythomax-l2-13b",
       "type": "tokens",
       "channel_type": 1006,
