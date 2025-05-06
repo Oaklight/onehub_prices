@@ -6181,13 +6181,6 @@
       "output": 0.05
     },
     {
-      "model": "qwen/qwen3-235b-a22b:free",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "qwen/qwen3-30b-a3b",
       "type": "tokens",
       "channel_type": 1006,
