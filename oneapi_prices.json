@@ -4508,6 +4508,13 @@
       "output": 0.375
     },
     {
+      "model": "arcee-ai/caller-large",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.275,
+      "output": 0.425
+    },
+    {
       "model": "arcee-ai/coder-large",
       "type": "tokens",
       "channel_type": 1006,
