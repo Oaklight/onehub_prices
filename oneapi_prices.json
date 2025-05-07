@@ -5404,6 +5404,13 @@
       "output": 4.05
     },
     {
+      "model": "mistralai/mistral-medium-3",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.2,
+      "output": 1.0
+    },
+    {
       "model": "mistralai/mistral-nemo",
       "type": "tokens",
       "channel_type": 1006,
