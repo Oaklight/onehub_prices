@@ -6038,7 +6038,7 @@
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.03,
-      "output": 0.09
+      "output": 0.075
     },
     {
       "model": "qwen/qwen-2.5-coder-32b-instruct:free",
