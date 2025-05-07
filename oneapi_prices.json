@@ -4658,8 +4658,8 @@
       "model": "deepseek/deepseek-chat-v3-0324",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.135,
-      "output": 0.55
+      "input": 0.15,
+      "output": 0.44
     },
     {
       "model": "deepseek/deepseek-chat-v3-0324:free",
@@ -7188,6 +7188,16 @@
       "output": 0.14285714285714285,
       "extra_ratios": {
         "reasoning_tokens": 10.0
+      }
+    },
+    {
+      "model": "qwen3-pico",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.021428571428571425,
+      "output": 0.0857142857142857,
+      "extra_ratios": {
+        "reasoning_tokens": 10.000000000000002
       }
     },
     {
