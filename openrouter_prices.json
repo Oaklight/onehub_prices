@@ -694,13 +694,6 @@
       "output": 2.5
     },
     {
-      "model": "google/gemini-pro-vision",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.25,
-      "output": 0.75
-    },
-    {
       "model": "google/gemma-2-27b-it",
       "type": "tokens",
       "channel_type": 1006,
