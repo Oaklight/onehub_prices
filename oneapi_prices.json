@@ -2021,13 +2021,6 @@
       }
     },
     {
-      "model": "gemini-2.5-pro-preview-03-25",
-      "type": "tokens",
-      "channel_type": 25,
-      "input": 0.625,
-      "output": 5.0
-    },
-    {
       "model": "gemini-2.5-pro-preview-05-06",
       "type": "tokens",
       "channel_type": 25,
