@@ -956,8 +956,8 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.05,
-      "output": 0.125
+      "input": 0.045,
+      "output": 0.175
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct:free",
@@ -1971,8 +1971,8 @@
       "model": "qwen/qwen3-235b-a22b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.07,
+      "output": 1.0
     },
     {
       "model": "qwen/qwen3-235b-a22b:free",
