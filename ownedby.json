@@ -40,6 +40,11 @@
       "name": "360",
       "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/ai360-color.svg"
     },
+    "20": {
+      "id": 20,
+      "name": "OpenRouter",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openrouter.svg"
+    },
     "23": {
       "id": 23,
       "name": "Tencent",
@@ -189,11 +194,6 @@
       "id": 1005,
       "name": "阶跃星辰",
       "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/stepfun-color.svg"
-    },
-    "1006": {
-      "id": 1006,
-      "name": "OpenRouter",
-      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openrouter.svg"
     },
     "1007": {
       "id": 1007,

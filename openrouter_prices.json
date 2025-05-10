@@ -1,6 +1,62 @@
 {
   "data": [
     {
+      "model": "microsoft/wizardlm-2-8x22b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.25,
+      "output": 0.25
+    },
+    {
+      "model": "minimax/minimax-01",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.55
+    },
+    {
+      "model": "mistralai/mistral-small-24b-instruct-2501",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.035,
+      "output": 0.07
+    },
+    {
+      "model": "nousresearch/hermes-3-llama-3.1-405b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.4,
+      "output": 0.4
+    },
+    {
+      "model": "or:microsoft/wizardlm-2-8x22b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.25,
+      "output": 0.25
+    },
+    {
+      "model": "or:minimax/minimax-01",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.55
+    },
+    {
+      "model": "or:mistralai/mistral-small-24b-instruct-2501",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.035,
+      "output": 0.07
+    },
+    {
+      "model": "or:nousresearch/hermes-3-llama-3.1-405b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.4,
+      "output": 0.4
+    },
+    {
       "model": "01-ai/yi-large",
       "type": "tokens",
       "channel_type": 1006,
@@ -1229,8 +1285,8 @@
       "model": "mistralai/mistral-small-24b-instruct-2501",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.035,
-      "output": 0.07
+      "input": 0.03,
+      "output": 0.06
     },
     {
       "model": "mistralai/mistral-small-24b-instruct-2501:free",
@@ -1707,34 +1763,6 @@
       "channel_type": 1006,
       "input": 0.0,
       "output": 0.0
-    },
-    {
-      "model": "or:microsoft/wizardlm-2-8x22b",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.25,
-      "output": 0.25
-    },
-    {
-      "model": "or:minimax/minimax-01",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.1,
-      "output": 0.55
-    },
-    {
-      "model": "or:mistralai/mistral-small-24b-instruct-2501",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.035,
-      "output": 0.07
-    },
-    {
-      "model": "or:nousresearch/hermes-3-llama-3.1-405b",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.4,
-      "output": 0.4
     },
     {
       "model": "perplexity/llama-3.1-sonar-large-128k-online",
