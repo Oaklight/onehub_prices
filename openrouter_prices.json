@@ -1359,6 +1359,13 @@
       "output": 0.0
     },
     {
+      "model": "nousresearch/deephermes-3-mistral-24b-preview:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "nousresearch/hermes-2-pro-llama-3-8b",
       "type": "tokens",
       "channel_type": 1006,
