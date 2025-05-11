@@ -2344,6 +2344,13 @@
       }
     },
     {
+      "model": "kimi-thinking-preview",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 14.285714285714286,
+      "output": 14.285714285714286
+    },
+    {
       "model": "moonshot-v1-128k",
       "type": "tokens",
       "channel_type": 29,
