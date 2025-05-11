@@ -4735,7 +4735,7 @@
       "model": "deepseek/deepseek-prover-v2",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.25,
+      "input": 0.35,
       "output": 1.09
     },
     {
