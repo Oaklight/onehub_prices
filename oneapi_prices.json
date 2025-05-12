@@ -4333,13 +4333,6 @@
       "output": 1.7
     },
     {
-      "model": "allenai/molmo-7b-d:free",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "allenai/olmo-7b-instruct",
       "type": "tokens",
       "channel_type": 1006,
