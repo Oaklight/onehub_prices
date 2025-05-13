@@ -4928,13 +4928,6 @@
       "output": 0.075
     },
     {
-      "model": "google/gemini-flash-1.5-8b-exp",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "google/gemini-pro-1.5",
       "type": "tokens",
       "channel_type": 1006,
@@ -5205,7 +5198,7 @@
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.045,
-      "output": 0.175
+      "output": 0.125
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct:free",
