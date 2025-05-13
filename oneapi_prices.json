@@ -6958,6 +6958,13 @@
       "output": 0.0
     },
     {
+      "model": "deepseek-prover-v2",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.2857142857142857,
+      "output": 1.1428571428571428
+    },
+    {
       "model": "deepseek-r1",
       "type": "tokens",
       "channel_type": 2001,
