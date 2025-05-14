@@ -998,8 +998,8 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.04,
-      "output": 0.125
+      "input": 0.035,
+      "output": 0.165
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct:free",
@@ -1243,7 +1243,7 @@
       "model": "mistralai/mistral-nemo",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.015,
+      "input": 0.012,
       "output": 0.035
     },
     {
