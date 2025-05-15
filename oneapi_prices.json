@@ -4343,7 +4343,7 @@
       "model": "alpindale/goliath-120b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 3.281,
+      "input": 3.75,
       "output": 4.688
     },
     {
@@ -4385,7 +4385,7 @@
       "model": "anthracite-org/magnum-v4-72b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.75,
+      "input": 0.938,
       "output": 1.125
     },
     {
@@ -5554,35 +5554,35 @@
       "model": "neversleep/llama-3-lumimaid-8b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.047,
-      "output": 0.375
+      "input": 0.075,
+      "output": 0.469
     },
     {
       "model": "neversleep/llama-3-lumimaid-8b:extended",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.047,
-      "output": 0.375
+      "input": 0.075,
+      "output": 0.469
     },
     {
       "model": "neversleep/llama-3.1-lumimaid-70b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.75,
+      "input": 0.938,
       "output": 1.125
     },
     {
       "model": "neversleep/llama-3.1-lumimaid-8b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.047,
-      "output": 0.375
+      "input": 0.075,
+      "output": 0.469
     },
     {
       "model": "neversleep/noromaid-20b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.375,
+      "input": 0.469,
       "output": 0.75
     },
     {
@@ -6437,7 +6437,7 @@
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.281,
-      "output": 0.562
+      "output": 0.422
     },
     {
       "model": "undi95/toppy-m-7b",
