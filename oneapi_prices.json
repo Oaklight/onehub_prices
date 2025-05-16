@@ -5005,13 +5005,6 @@
       "output": 0.0
     },
     {
-      "model": "google/learnlm-1.5-pro-experimental:free",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "gryphe/mythomax-l2-13b",
       "type": "tokens",
       "channel_type": 1006,
@@ -5202,6 +5195,13 @@
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct:free",
+      "type": "tokens",
+      "channel_type": 1006,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "meta-llama/llama-3.3-8b-instruct:free",
       "type": "tokens",
       "channel_type": 1006,
       "input": 0.0,
@@ -6256,13 +6256,6 @@
       "channel_type": 1006,
       "input": 0.045,
       "output": 0.135
-    },
-    {
-      "model": "qwen/qwq-32b-preview:free",
-      "type": "tokens",
-      "channel_type": 1006,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "qwen/qwq-32b:free",
