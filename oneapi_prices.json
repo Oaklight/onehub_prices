@@ -6009,7 +6009,7 @@
       "model": "pygmalionai/mythalion-13b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.281,
+      "input": 0.375,
       "output": 0.562
     },
     {
@@ -6429,8 +6429,8 @@
       "model": "undi95/remm-slerp-l2-13b",
       "type": "tokens",
       "channel_type": 1006,
-      "input": 0.281,
-      "output": 0.422
+      "input": 0.375,
+      "output": 0.562
     },
     {
       "model": "undi95/toppy-m-7b",
