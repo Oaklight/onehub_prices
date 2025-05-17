@@ -1837,8 +1837,8 @@
       "model": "alpindale/goliath-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 3.75,
-      "output": 4.688
+      "input": 5.0,
+      "output": 6.25
     },
     {
       "model": "alpindale/magnum-72b",
@@ -1879,8 +1879,8 @@
       "model": "anthracite-org/magnum-v4-72b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.938,
-      "output": 1.125
+      "input": 1.25,
+      "output": 1.5
     },
     {
       "model": "anthropic/claude-2",
@@ -2565,8 +2565,8 @@
       "model": "mancer/weaver",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.562,
-      "output": 0.562
+      "input": 0.75,
+      "output": 0.75
     },
     {
       "model": "meta-llama/llama-2-70b-chat",
@@ -3041,36 +3041,36 @@
       "model": "neversleep/llama-3-lumimaid-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.469
+      "input": 0.1,
+      "output": 0.625
     },
     {
       "model": "neversleep/llama-3-lumimaid-8b:extended",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.469
+      "input": 0.1,
+      "output": 0.625
     },
     {
       "model": "neversleep/llama-3.1-lumimaid-70b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.938,
-      "output": 1.125
+      "input": 1.25,
+      "output": 1.5
     },
     {
       "model": "neversleep/llama-3.1-lumimaid-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.469
+      "input": 0.1,
+      "output": 0.625
     },
     {
       "model": "neversleep/noromaid-20b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.469,
-      "output": 0.75
+      "input": 0.625,
+      "output": 1.0
     },
     {
       "model": "nothingiisreal/mn-celeste-12b",
@@ -3531,8 +3531,8 @@
       "model": "pygmalionai/mythalion-13b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.375,
-      "output": 0.562
+      "input": 0.4,
+      "output": 0.6
     },
     {
       "model": "qwen/qwen-2-72b-instruct",
@@ -3720,8 +3720,8 @@
       "model": "qwen/qwen3-30b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.15
+      "input": 0.04,
+      "output": 0.145
     },
     {
       "model": "qwen/qwen3-30b-a3b:free",
@@ -3951,8 +3951,8 @@
       "model": "undi95/remm-slerp-l2-13b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.375,
-      "output": 0.562
+      "input": 0.4,
+      "output": 0.6
     },
     {
       "model": "undi95/toppy-m-7b",
