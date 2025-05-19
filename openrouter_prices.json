@@ -351,13 +351,6 @@
       "output": 0.0
     },
     {
-      "model": "bytedance-research/ui-tars-72b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "cognitivecomputations/dolphin-mixtral-8x22b",
       "type": "tokens",
       "channel_type": 20,
