@@ -2426,6 +2426,20 @@
       "output": 0.3
     },
     {
+      "model": "google/gemini-2.5-flash-preview-05-20",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.075,
+      "output": 0.3
+    },
+    {
+      "model": "google/gemini-2.5-flash-preview-05-20:thinking",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.075,
+      "output": 1.75
+    },
+    {
       "model": "google/gemini-2.5-flash-preview:thinking",
       "type": "tokens",
       "channel_type": 20,
@@ -2968,7 +2982,7 @@
       "model": "mistralai/mistral-nemo",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.012,
+      "input": 0.01,
       "output": 0.035
     },
     {
