@@ -1309,11 +1309,11 @@
       "output": 0.5714285714285714
     },
     {
-      "model": "gte-rerank",
+      "model": "gte-rerank-v2",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.05714285714285714,
+      "output": 0
     },
     {
       "model": "multimodal-embedding-v1",
@@ -1477,7 +1477,13 @@
       "type": "tokens",
       "channel_type": 17,
       "input": 0.02857142857142857,
-      "output": 0.11428571428571428
+      "output": 0.11428571428571428,
+      "extra_ratios": {
+        "input_audio_tokens": 62.50000000000001,
+        "input_image_tokens": 3.75,
+        "output_audio_tokens": 31.250000000000004,
+        "output_text_tokens": 2.8125
+      }
     },
     {
       "model": "qwen-omni-turbo-latest",
@@ -1485,6 +1491,25 @@
       "channel_type": 17,
       "input": 0.02857142857142857,
       "output": 0.11428571428571428
+    },
+    {
+      "model": "qwen-omni-turbo-realtime",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.11428571428571428,
+      "output": 0.45714285714285713,
+      "extra_ratios": {
+        "input_audio_tokens": 15.625000000000002,
+        "output_audio_tokens": 7.812500000000001,
+        "output_text_tokens": 2.8125
+      }
+    },
+    {
+      "model": "qwen-omni-turbo-realtime-latest",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.11428571428571428,
+      "output": 0.45714285714285713
     },
     {
       "model": "qwen-plus",
@@ -1544,14 +1569,14 @@
       "type": "tokens",
       "channel_type": 17,
       "input": 0.35714285714285715,
-      "output": 0.0
+      "output": 0.35714285714285715
     },
     {
       "model": "qwen-vl-ocr-latest",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.35714285714285715,
-      "output": 0.0
+      "output": 0.35714285714285715
     },
     {
       "model": "qwen-vl-plus",
@@ -1571,6 +1596,20 @@
       "output": 0.3214285714285714
     },
     {
+      "model": "qwen2.5-coder-0.5b-instruct",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "qwen2.5-coder-1.5b-instruct",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "qwen2.5-coder-14b-instruct",
       "type": "tokens",
       "channel_type": 17,
@@ -1583,6 +1622,13 @@
       "channel_type": 17,
       "input": 0.14285714285714285,
       "output": 0.42857142857142855
+    },
+    {
+      "model": "qwen2.5-coder-3b-instruct",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "qwen2.5-coder-7b-instruct",
@@ -1619,8 +1665,8 @@
       "model": "qwen3-235b-a22b",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.2857142857142857,
-      "output": 0.8571428571428571,
+      "input": 0.14285714285714285,
+      "output": 0.5714285714285714,
       "extra_ratios": {
         "reasoning_tokens": 10.0
       }
@@ -1629,8 +1675,8 @@
       "model": "qwen3-30b-a3b",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.10714285714285714,
-      "output": 0.42857142857142855,
+      "input": 0.05357142857142857,
+      "output": 0.21428571428571427,
       "extra_ratios": {
         "reasoning_tokens": 10.0
       }
@@ -1690,8 +1736,8 @@
       "model": "text-embedding-v3",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.049999999999999996,
-      "output": 0.0
+      "input": 0.03571428571428571,
+      "output": 0
     },
     {
       "model": "SparkDesk-v1.1",
@@ -5619,7 +5665,7 @@
       "type": "tokens",
       "channel_type": 45,
       "input": 0.07142857142857142,
-      "output": 0.14285714285714285
+      "output": 0.2857142857142857
     },
     {
       "model": "Qwen/Qwen3-8B",
@@ -7137,19 +7183,19 @@
       "type": "tokens",
       "channel_type": 2001,
       "input": 0.2857142857142857,
-      "output": 0.8571428571428571,
+      "output": 0.5714285714285714,
       "extra_ratios": {
-        "reasoning_tokens": 10.0
+        "reasoning_tokens": 5.0
       }
     },
     {
       "model": "qwen3-mini",
       "type": "tokens",
       "channel_type": 2001,
-      "input": 0.10714285714285714,
-      "output": 0.42857142857142855,
+      "input": 0.05357142857142857,
+      "output": 0.21428571428571427,
       "extra_ratios": {
-        "reasoning_tokens": 10.0
+        "reasoning_tokens": 1.0
       }
     },
     {
