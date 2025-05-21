@@ -2888,6 +2888,13 @@
       "output": 0.125
     },
     {
+      "model": "mistralai/devstral-small",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.15
+    },
+    {
       "model": "mistralai/ministral-3b",
       "type": "tokens",
       "channel_type": 20,
