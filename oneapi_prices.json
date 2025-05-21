@@ -2552,6 +2552,13 @@
       "output": 0.0
     },
     {
+      "model": "google/gemma-3n-e4b-it:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "gryphe/mythomax-l2-13b",
       "type": "tokens",
       "channel_type": 20,
