@@ -1831,13 +1831,6 @@
       "output": 0.2
     },
     {
-      "model": "ai21/jamba-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.25,
-      "output": 0.35
-    },
-    {
       "model": "aion-labs/aion-1.0",
       "type": "tokens",
       "channel_type": 20,
@@ -2592,13 +2585,6 @@
       "channel_type": 20,
       "input": 1.25,
       "output": 5.0
-    },
-    {
-      "model": "jondurbin/airoboros-l2-70b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.25,
-      "output": 0.25
     },
     {
       "model": "liquid/lfm-3b",
