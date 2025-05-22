@@ -1940,20 +1940,6 @@
       "output": 0.0
     },
     {
-      "model": "qwen/qwen3-0.6b-04-28:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "qwen/qwen3-1.7b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "qwen/qwen3-14b",
       "type": "tokens",
       "channel_type": 20,
