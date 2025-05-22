@@ -288,6 +288,20 @@
       "output": 7.5
     },
     {
+      "model": "anthropic/claude-opus-4",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 7.5,
+      "output": 37.5
+    },
+    {
+      "model": "anthropic/claude-sonnet-4",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
       "model": "arcee-ai/arcee-blitz",
       "type": "tokens",
       "channel_type": 20,
@@ -1096,8 +1110,8 @@
       "model": "mistralai/devstral-small",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.15
+      "input": 0.035,
+      "output": 0.05
     },
     {
       "model": "mistralai/devstral-small:free",
