@@ -2891,8 +2891,15 @@
       "model": "mistralai/devstral-small",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
+      "input": 0.045,
       "output": 0.15
+    },
+    {
+      "model": "mistralai/devstral-small:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "mistralai/ministral-3b",
