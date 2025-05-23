@@ -4667,21 +4667,70 @@
       "output": 1.4285714285714286
     },
     {
-      "model": "codestral-latest",
+      "model": "codestral",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.15,
       "output": 0.45
     },
     {
-      "model": "ministral-3b-latest",
+      "model": "codestral-*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.15,
+      "output": 0.45
+    },
+    {
+      "model": "codestral-mamba",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.125,
+      "output": 0.125
+    },
+    {
+      "model": "codestral-mamba-*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.125,
+      "output": 0.125
+    },
+    {
+      "model": "devstral-small",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.05,
+      "output": 0.15
+    },
+    {
+      "model": "devstral-small-*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.05,
+      "output": 0.15
+    },
+    {
+      "model": "ministral-3b",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.02,
       "output": 0.02
     },
     {
-      "model": "ministral-8b-latest",
+      "model": "ministral-3b-*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.02,
+      "output": 0.02
+    },
+    {
+      "model": "ministral-8b",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.05,
+      "output": 0.05
+    },
+    {
+      "model": "ministral-8b-*",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.05,
@@ -4695,11 +4744,39 @@
       "output": 0
     },
     {
-      "model": "mistral-large-latest",
+      "model": "mistral-large",
       "type": "tokens",
       "channel_type": 30,
       "input": 1.0,
       "output": 3.0
+    },
+    {
+      "model": "mistral-large-*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 1.0,
+      "output": 3.0
+    },
+    {
+      "model": "mistral-large-latest",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 4,
+      "output": 12
+    },
+    {
+      "model": "mistral-medium",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.2,
+      "output": 1.0
+    },
+    {
+      "model": "mistral-medium-*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.2,
+      "output": 1.0
     },
     {
       "model": "mistral-medium-latest",
@@ -4709,7 +4786,14 @@
       "output": 4.05
     },
     {
-      "model": "mistral-moderation-latest",
+      "model": "mistral-moderation",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.05,
+      "output": 0
+    },
+    {
+      "model": "mistral-moderation-*",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.05,
@@ -4723,18 +4807,46 @@
       "output": 0.075
     },
     {
-      "model": "mistral-saba-latest",
+      "model": "mistral-nemo-*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.075,
+      "output": 0.075
+    },
+    {
+      "model": "mistral-saba",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.1,
       "output": 0.3
     },
     {
-      "model": "mistral-small-latest",
+      "model": "mistral-saba-*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.1,
+      "output": 0.3
+    },
+    {
+      "model": "mistral-small",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.05,
       "output": 0.15
+    },
+    {
+      "model": "mistral-small-*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.05,
+      "output": 0.15
+    },
+    {
+      "model": "mistral-small-latest",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 1,
+      "output": 3
     },
     {
       "model": "open-mistral-7b",
@@ -4765,7 +4877,21 @@
       "output": 0.075
     },
     {
-      "model": "pixtral-large-latest",
+      "model": "pixtral-12b-*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.075,
+      "output": 0.075
+    },
+    {
+      "model": "pixtral-large",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 1.0,
+      "output": 3.0
+    },
+    {
+      "model": "pixtral-large-*",
       "type": "tokens",
       "channel_type": 30,
       "input": 1.0,
@@ -6387,6 +6513,20 @@
       "channel_type": 1002,
       "input": 0.049999999999999996,
       "output": 0.0
+    },
+    {
+      "model": "doubao-seedream-3",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0,
+      "output": 18.5
+    },
+    {
+      "model": "doubao-seedream-3-0-t2i-250415",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0,
+      "output": 18.5
     },
     {
       "model": "step-1-256k",
