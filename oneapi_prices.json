@@ -3889,6 +3889,13 @@
       "output": 0.4
     },
     {
+      "model": "sarvamai/sarvam-m",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.125,
+      "output": 0.375
+    },
+    {
       "model": "scb10x/llama3.1-typhoon2-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
