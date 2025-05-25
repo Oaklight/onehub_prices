@@ -6668,6 +6668,13 @@
       "output": 0.0
     },
     {
+      "model": "pl:gpt-4.1",
+      "type": "tokens",
+      "channel_type": 1007,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "pl:gpt-4.1-mini",
       "type": "tokens",
       "channel_type": 1007,
