@@ -1922,8 +1922,8 @@
       "model": "qwen/qwen2.5-vl-32b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4,
-      "output": 0.4
+      "input": 0.45,
+      "output": 0.45
     },
     {
       "model": "qwen/qwen2.5-vl-32b-instruct:free",
