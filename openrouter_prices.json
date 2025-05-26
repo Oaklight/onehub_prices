@@ -1324,13 +1324,6 @@
       "output": 0.625
     },
     {
-      "model": "neversleep/llama-3-lumimaid-8b:extended",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.625
-    },
-    {
       "model": "neversleep/llama-3.1-lumimaid-70b",
       "type": "tokens",
       "channel_type": 20,
