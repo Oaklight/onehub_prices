@@ -2076,13 +2076,6 @@
       "output": 7.5
     },
     {
-      "model": "anthropic/claude-3.7-sonnet:thinking",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.5,
-      "output": 7.5
-    },
-    {
       "model": "anthropic/claude-opus-4",
       "type": "tokens",
       "channel_type": 20,
@@ -2499,8 +2492,8 @@
       "model": "google/gemma-2-9b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01,
-      "output": 0.03
+      "input": 0.04,
+      "output": 0.04
     },
     {
       "model": "google/gemma-2-9b-it:free",
@@ -3196,6 +3189,13 @@
       "output": 0.15
     },
     {
+      "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.3,
+      "output": 0.9
+    },
+    {
       "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
       "type": "tokens",
       "channel_type": 20,
@@ -3710,8 +3710,8 @@
       "model": "qwen/qwen2.5-vl-32b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4,
-      "output": 0.4
+      "input": 0.45,
+      "output": 0.45
     },
     {
       "model": "qwen/qwen2.5-vl-32b-instruct:free",
