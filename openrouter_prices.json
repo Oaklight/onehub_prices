@@ -473,8 +473,22 @@
       "model": "deepseek/deepseek-r1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.09
+      "input": 0.225,
+      "output": 1.35
+    },
+    {
+      "model": "deepseek/deepseek-r1-0528",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.975,
+      "output": 2.5
+    },
+    {
+      "model": "deepseek/deepseek-r1-0528:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "deepseek/deepseek-r1-distill-llama-70b",
@@ -692,6 +706,13 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "google/gemma-2b-it",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.05
     },
     {
       "model": "google/gemma-3-12b-it",
@@ -2071,6 +2092,13 @@
       "channel_type": 20,
       "input": 0.125,
       "output": 0.375
+    },
+    {
+      "model": "sarvamai/sarvam-m:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "scb10x/llama3.1-typhoon2-70b-instruct",
