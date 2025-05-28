@@ -71,13 +71,6 @@
       "output": 1.7
     },
     {
-      "model": "allenai/olmo-7b-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.04,
-      "output": 0.12
-    },
-    {
       "model": "alpindale/goliath-120b",
       "type": "tokens",
       "channel_type": 20,
@@ -463,13 +456,6 @@
       "output": 0.0
     },
     {
-      "model": "deepseek/deepseek-coder",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.02,
-      "output": 0.06
-    },
-    {
       "model": "deepseek/deepseek-prover-v2",
       "type": "tokens",
       "channel_type": 20,
@@ -690,15 +676,15 @@
       "model": "google/gemma-2-27b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.15
+      "input": 0.4,
+      "output": 0.4
     },
     {
       "model": "google/gemma-2-9b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01,
-      "output": 0.03
+      "input": 0.04,
+      "output": 0.04
     },
     {
       "model": "google/gemma-2-9b-it:free",
@@ -1019,8 +1005,8 @@
       "model": "microsoft/phi-3-medium-128k-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.15
+      "input": 0.5,
+      "output": 0.5
     },
     {
       "model": "microsoft/phi-3-mini-128k-instruct",
@@ -1033,8 +1019,8 @@
       "model": "microsoft/phi-3.5-mini-128k-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.015,
-      "output": 0.045
+      "input": 0.05,
+      "output": 0.05
     },
     {
       "model": "microsoft/phi-4",
@@ -1264,8 +1250,8 @@
       "model": "mistralai/mixtral-8x22b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.6
+      "input": 0.45,
+      "output": 0.45
     },
     {
       "model": "mistralai/mixtral-8x7b-instruct",
@@ -1905,13 +1891,6 @@
       "output": 0.315
     },
     {
-      "model": "qwen/qwen2.5-coder-7b-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.005,
-      "output": 0.015
-    },
-    {
       "model": "qwen/qwen2.5-vl-32b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -2027,8 +2006,8 @@
       "model": "qwen/qwq-32b-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.135
+      "input": 0.1,
+      "output": 0.1
     },
     {
       "model": "qwen/qwq-32b:free",
