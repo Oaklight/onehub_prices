@@ -6315,6 +6315,13 @@
       "output": 1.1428571428571428
     },
     {
+      "model": "deepseek-r1-250528",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.2857142857142857,
+      "output": 1.1428571428571428
+    },
+    {
       "model": "deepseek-r1-distill-qwen-32b-250120",
       "type": "tokens",
       "channel_type": 1002,
