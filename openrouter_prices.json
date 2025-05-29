@@ -697,8 +697,8 @@
       "model": "google/gemma-2-9b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.04
+      "input": 0.1,
+      "output": 0.1
     },
     {
       "model": "google/gemma-2-9b-it:free",
