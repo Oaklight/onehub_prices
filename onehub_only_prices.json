@@ -2364,14 +2364,14 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.225,
-      "output": 1.35
+      "output": 1.09
     },
     {
       "model": "deepseek/deepseek-r1-0528",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.975,
-      "output": 2.5
+      "input": 0.25,
+      "output": 1.09
     },
     {
       "model": "deepseek/deepseek-r1-0528:free",
