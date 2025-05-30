@@ -568,6 +568,13 @@
       "output": 0.0
     },
     {
+      "model": "deepseek/deepseek-r1-distill-qwen-7b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.1
+    },
+    {
       "model": "deepseek/deepseek-r1-zero:free",
       "type": "tokens",
       "channel_type": 20,
