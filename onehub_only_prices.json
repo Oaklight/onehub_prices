@@ -2888,8 +2888,8 @@
       "model": "meta-llama/llama-4-maverick",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.08,
-      "output": 0.3
+      "input": 0.075,
+      "output": 0.425
     },
     {
       "model": "meta-llama/llama-4-maverick:free",
