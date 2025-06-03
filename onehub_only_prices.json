@@ -2335,8 +2335,8 @@
       "model": "deepseek/deepseek-chat-v3-0324",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.65
+      "input": 0.15,
+      "output": 0.44
     },
     {
       "model": "deepseek/deepseek-chat-v3-0324:free",
@@ -3875,8 +3875,8 @@
       "model": "qwen/qwen3-235b-a22b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
-      "output": 0.3
+      "input": 0.065,
+      "output": 0.425
     },
     {
       "model": "qwen/qwen3-235b-a22b:free",
