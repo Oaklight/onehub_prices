@@ -2377,8 +2377,8 @@
       "model": "deepseek/deepseek-r1-0528",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.075
+      "input": 0.2,
+      "output": 0.45
     },
     {
       "model": "deepseek/deepseek-r1-0528-qwen3-8b",
@@ -4024,6 +4024,13 @@
       "channel_type": 20,
       "input": 0.09,
       "output": 0.09
+    },
+    {
+      "model": "sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.1
     },
     {
       "model": "shisa-ai/shisa-v2-llama3.3-70b:free",
