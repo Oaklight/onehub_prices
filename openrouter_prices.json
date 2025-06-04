@@ -1229,8 +1229,8 @@
       "model": "mistralai/mistral-nemo",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01,
-      "output": 0.035
+      "input": 0.005,
+      "output": 0.03
     },
     {
       "model": "mistralai/mistral-nemo:free",
