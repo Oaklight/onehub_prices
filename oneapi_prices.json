@@ -5702,7 +5702,7 @@
       "model": "Pro/deepseek-ai/DeepSeek-R1-0120",
       "type": "tokens",
       "channel_type": 45,
-      "input": 1.1428571428571428,
+      "input": 0.2857142857142857,
       "output": 1.1428571428571428
     },
     {
@@ -5744,7 +5744,7 @@
       "model": "Qwen/QwQ-32B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.2857142857142857,
+      "input": 0.07142857142857142,
       "output": 0.2857142857142857
     },
     {
@@ -5940,7 +5940,7 @@
       "model": "THUDM/GLM-Z1-32B-0414",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.2857142857142857,
+      "input": 0.07142857142857142,
       "output": 0.2857142857142857
     },
     {
@@ -5954,7 +5954,7 @@
       "model": "THUDM/GLM-Z1-Rumination-32B-0414",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.2857142857142857,
+      "input": 0.07142857142857142,
       "output": 0.2857142857142857
     },
     {
@@ -5989,7 +5989,7 @@
       "model": "Tongyi-Zhiwen/QwenLong-L1-32B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.2857142857142857,
+      "input": 0.07142857142857142,
       "output": 0.2857142857142857
     },
     {

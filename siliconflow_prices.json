@@ -158,7 +158,7 @@
       "model": "Pro/deepseek-ai/DeepSeek-R1-0120",
       "type": "tokens",
       "channel_type": 45,
-      "input": 1.1428571428571428,
+      "input": 0.2857142857142857,
       "output": 1.1428571428571428
     },
     {
@@ -200,7 +200,7 @@
       "model": "Qwen/QwQ-32B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.2857142857142857,
+      "input": 0.07142857142857142,
       "output": 0.2857142857142857
     },
     {
@@ -396,7 +396,7 @@
       "model": "THUDM/GLM-Z1-32B-0414",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.2857142857142857,
+      "input": 0.07142857142857142,
       "output": 0.2857142857142857
     },
     {
@@ -410,7 +410,7 @@
       "model": "THUDM/GLM-Z1-Rumination-32B-0414",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.2857142857142857,
+      "input": 0.07142857142857142,
       "output": 0.2857142857142857
     },
     {
@@ -445,7 +445,7 @@
       "model": "Tongyi-Zhiwen/QwenLong-L1-32B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.2857142857142857,
+      "input": 0.07142857142857142,
       "output": 0.2857142857142857
     },
     {
@@ -559,41 +559,6 @@
       "channel_type": 45,
       "input": 0.07071428571428572,
       "output": 0.07071428571428572
-    },
-    {
-      "model": "deepseek-r1-distill-qwen-1.5b-siliconflow",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "deepseek-r1-distill-qwen-32b-siliconflow",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.09,
-      "output": 0.09
-    },
-    {
-      "model": "deepseek-r1-distill-qwen-7b-siliconflow",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.024999999999999998,
-      "output": 0.024999999999999998
-    },
-    {
-      "model": "deepseek-r1-siliconflow",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
-    },
-    {
-      "model": "deepseek-v3-siliconflow",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
     },
     {
       "model": "internlm/internlm2_5-7b-chat",
