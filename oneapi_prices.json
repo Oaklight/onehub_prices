@@ -2384,8 +2384,8 @@
       "model": "deepseek/deepseek-r1-0528-qwen3-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
-      "output": 0.045
+      "input": 0.025,
+      "output": 0.05
     },
     {
       "model": "deepseek/deepseek-r1-0528-qwen3-8b:free",
@@ -2578,6 +2578,13 @@
     },
     {
       "model": "google/gemini-2.5-pro-preview",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.625,
+      "output": 5.0
+    },
+    {
+      "model": "google/gemini-2.5-pro-preview-05-06",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.625,
@@ -3120,7 +3127,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.005,
-      "output": 0.025
+      "output": 0.015
     },
     {
       "model": "mistralai/mistral-nemo:free",
@@ -3422,20 +3429,6 @@
       "channel_type": 20,
       "input": 5.0,
       "output": 15.0
-    },
-    {
-      "model": "openai/gpt-4-32k",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 30.0,
-      "output": 60.0
-    },
-    {
-      "model": "openai/gpt-4-32k-0314",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 30.0,
-      "output": 60.0
     },
     {
       "model": "openai/gpt-4-turbo",
@@ -3861,8 +3854,8 @@
       "model": "qwen/qwen3-14b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.035,
-      "output": 0.12
+      "input": 0.03,
+      "output": 0.125
     },
     {
       "model": "qwen/qwen3-14b:free",
