@@ -1937,7 +1937,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.03,
-      "output": 0.125
+      "output": 0.12
     },
     {
       "model": "qwen/qwen3-14b:free",
