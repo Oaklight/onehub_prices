@@ -53,8 +53,8 @@
       "model": "FunAudioLLM/CosyVoice2-0.5B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 3.5714285714285716,
-      "output": 3.5714285714285716
+      "input": 3.571,
+      "output": 3.571
     },
     {
       "model": "FunAudioLLM/SenseVoiceSmall",
@@ -74,15 +74,15 @@
       "model": "Pro/01-ai/Yi-1.5-6B-Chat",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.024999999999999998,
-      "output": 0.024999999999999998
+      "input": 0.025,
+      "output": 0.025
     },
     {
       "model": "Pro/01-ai/Yi-1.5-9B-Chat-16K",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.029999999999999995,
-      "output": 0.029999999999999995
+      "input": 0.03,
+      "output": 0.03
     },
     {
       "model": "Pro/BAAI/bge-m3",
@@ -102,106 +102,106 @@
       "model": "Pro/Qwen/Qwen1.5-7B-Chat",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.024999999999999998,
-      "output": 0.024999999999999998
+      "input": 0.025,
+      "output": 0.025
     },
     {
       "model": "Pro/Qwen/Qwen2-7B-Instruct",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.024999999999999998,
-      "output": 0.024999999999999998
+      "input": 0.025,
+      "output": 0.025
     },
     {
       "model": "Pro/Qwen/Qwen2.5-7B-Instruct",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.024999999999999998,
-      "output": 0.024999999999999998
+      "input": 0.025,
+      "output": 0.025
     },
     {
       "model": "Pro/Qwen/Qwen2.5-Coder-7B-Instruct",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.024999999999999998,
-      "output": 0.024999999999999998
+      "input": 0.025,
+      "output": 0.025
     },
     {
       "model": "Pro/Qwen/Qwen2.5-VL-7B-Instruct",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.024999999999999998,
-      "output": 0.024999999999999998
+      "input": 0.025,
+      "output": 0.025
     },
     {
       "model": "Pro/THUDM/chatglm3-6b",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.024999999999999998,
-      "output": 0.024999999999999998
+      "input": 0.025,
+      "output": 0.025
     },
     {
       "model": "Pro/THUDM/glm-4-9b-chat",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.04285714285714285,
-      "output": 0.04285714285714285
+      "input": 0.043,
+      "output": 0.043
     },
     {
       "model": "Pro/deepseek-ai/DeepSeek-R1",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
+      "input": 0.286,
+      "output": 1.143
     },
     {
       "model": "Pro/deepseek-ai/DeepSeek-R1-0120",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
+      "input": 0.286,
+      "output": 1.143
     },
     {
       "model": "Pro/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.024999999999999998,
-      "output": 0.024999999999999998
+      "input": 0.025,
+      "output": 0.025
     },
     {
       "model": "Pro/deepseek-ai/DeepSeek-V3",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
+      "input": 0.143,
+      "output": 0.571
     },
     {
       "model": "Pro/deepseek-ai/DeepSeek-V3-1226",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
+      "input": 0.143,
+      "output": 0.571
     },
     {
       "model": "Pro/internlm/internlm2_5-7b-chat",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.024999999999999998,
-      "output": 0.024999999999999998
+      "input": 0.025,
+      "output": 0.025
     },
     {
       "model": "Qwen/QVQ-72B-Preview",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.7071428571428572,
-      "output": 0.7071428571428572
+      "input": 0.707,
+      "output": 0.707
     },
     {
       "model": "Qwen/QwQ-32B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.07142857142857142,
-      "output": 0.2857142857142857
+      "input": 0.071,
+      "output": 0.286
     },
     {
       "model": "Qwen/QwQ-32B-Preview",
@@ -221,8 +221,8 @@
       "model": "Qwen/Qwen1.5-14B-Chat",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.049999999999999996,
-      "output": 0.049999999999999996
+      "input": 0.05,
+      "output": 0.05
     },
     {
       "model": "Qwen/Qwen1.5-32B-Chat",
@@ -277,8 +277,8 @@
       "model": "Qwen/Qwen2.5-14B-Instruct",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.049999999999999996,
-      "output": 0.049999999999999996
+      "input": 0.05,
+      "output": 0.05
     },
     {
       "model": "Qwen/Qwen2.5-32B-Instruct",
@@ -347,29 +347,29 @@
       "model": "Qwen/Qwen3-14B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.03571428571428571,
-      "output": 0.14285714285714285
+      "input": 0.036,
+      "output": 0.143
     },
     {
       "model": "Qwen/Qwen3-235B-A22B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.17857142857142858,
-      "output": 0.7142857142857143
+      "input": 0.179,
+      "output": 0.714
     },
     {
       "model": "Qwen/Qwen3-30B-A3B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.049999999999999996,
-      "output": 0.19999999999999998
+      "input": 0.05,
+      "output": 0.2
     },
     {
       "model": "Qwen/Qwen3-32B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.07142857142857142,
-      "output": 0.2857142857142857
+      "input": 0.071,
+      "output": 0.286
     },
     {
       "model": "Qwen/Qwen3-8B",
@@ -396,8 +396,8 @@
       "model": "THUDM/GLM-Z1-32B-0414",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.07142857142857142,
-      "output": 0.2857142857142857
+      "input": 0.071,
+      "output": 0.286
     },
     {
       "model": "THUDM/GLM-Z1-9B-0414",
@@ -410,8 +410,8 @@
       "model": "THUDM/GLM-Z1-Rumination-32B-0414",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.07142857142857142,
-      "output": 0.2857142857142857
+      "input": 0.071,
+      "output": 0.286
     },
     {
       "model": "THUDM/glm-4-9b-chat",
@@ -445,22 +445,22 @@
       "model": "Tongyi-Zhiwen/QwenLong-L1-32B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.07142857142857142,
-      "output": 0.2857142857142857
+      "input": 0.071,
+      "output": 0.286
     },
     {
       "model": "Vendor-A/Qwen/Qwen2-72B-Instruct",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.07142857142857142,
-      "output": 0.07142857142857142
+      "input": 0.071,
+      "output": 0.071
     },
     {
       "model": "Vendor-A/Qwen/Qwen2.5-72B-Instruct",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.07142857142857142,
-      "output": 0.07142857142857142
+      "input": 0.071,
+      "output": 0.071
     },
     {
       "model": "Wan-AI/Wan2.1-I2V-14B-720P",
@@ -501,8 +501,8 @@
       "model": "deepseek-ai/DeepSeek-R1",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
+      "input": 0.286,
+      "output": 1.143
     },
     {
       "model": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
@@ -515,8 +515,8 @@
       "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.049999999999999996,
-      "output": 0.049999999999999996
+      "input": 0.05,
+      "output": 0.05
     },
     {
       "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
@@ -550,15 +550,15 @@
       "model": "deepseek-ai/DeepSeek-V3",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
+      "input": 0.143,
+      "output": 0.571
     },
     {
       "model": "deepseek-ai/deepseek-vl2",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.07071428571428572,
-      "output": 0.07071428571428572
+      "input": 0.071,
+      "output": 0.071
     },
     {
       "model": "internlm/internlm2_5-7b-chat",
