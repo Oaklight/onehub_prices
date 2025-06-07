@@ -3984,13 +3984,6 @@
       "output": 0.44
     },
     {
-      "model": "scb10x/llama3.1-typhoon2-8b-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.09,
-      "output": 0.09
-    },
-    {
       "model": "sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b",
       "type": "tokens",
       "channel_type": 20,
