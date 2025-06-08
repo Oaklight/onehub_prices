@@ -3963,13 +3963,6 @@
       "output": 0.4
     },
     {
-      "model": "sarvamai/sarvam-m",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.125,
-      "output": 0.375
-    },
-    {
       "model": "sarvamai/sarvam-m:free",
       "type": "tokens",
       "channel_type": 20,
