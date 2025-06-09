@@ -2633,13 +2633,6 @@
       "output": 0.0
     },
     {
-      "model": "google/gemma-2b-it",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.05,
-      "output": 0.05
-    },
-    {
       "model": "google/gemma-3-12b-it",
       "type": "tokens",
       "channel_type": 20,
@@ -3155,7 +3148,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.025,
-      "output": 0.055
+      "output": 0.05
     },
     {
       "model": "mistralai/mistral-small-24b-instruct-2501:free",
