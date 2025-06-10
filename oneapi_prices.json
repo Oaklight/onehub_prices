@@ -1835,6 +1835,13 @@
       "output": 0.0
     },
     {
+      "model": "text-embedding-v4",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.036,
+      "output": 0.0
+    },
+    {
       "model": "SparkDesk-v1.1",
       "type": "tokens",
       "channel_type": 18,
@@ -6327,53 +6334,11 @@
       "output": 0.571
     },
     {
-      "model": "doubao-1-5-lite-32k-250115",
+      "model": "doubao-1-5-ui-tars-250428",
       "type": "tokens",
       "channel_type": 1002,
-      "input": 0.021,
-      "output": 0.043
-    },
-    {
-      "model": "doubao-1-5-pro-256k-250115",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.357,
-      "output": 0.643
-    },
-    {
-      "model": "doubao-1-5-pro-32k-250115",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.057,
-      "output": 0.143
-    },
-    {
-      "model": "doubao-1-5-pro-32k-character-250228",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.057,
-      "output": 0.143
-    },
-    {
-      "model": "doubao-1-5-thinking-pro-250415",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.286,
-      "output": 1.143
-    },
-    {
-      "model": "doubao-1-5-thinking-pro-m-250415",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.286,
-      "output": 1.143
-    },
-    {
-      "model": "doubao-1-5-vision-pro-32k-250115",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.214,
-      "output": 0.643
+      "input": 0.25,
+      "output": 0.857
     },
     {
       "model": "doubao-1.5-lite",
@@ -6481,11 +6446,25 @@
       "output": 1.143
     },
     {
-      "model": "doubao-1.5-thinking-pro-vision",
+      "model": "doubao-1.5-thinking-pro-m-250428",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.286,
       "output": 1.143
+    },
+    {
+      "model": "doubao-1.5-thinking-vision-pro",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.214,
+      "output": 0.643
+    },
+    {
+      "model": "doubao-1.5-thinking-vision-pro-250428",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.214,
+      "output": 0.643
     },
     {
       "model": "doubao-1.5-ui-tars",
@@ -6517,13 +6496,6 @@
     },
     {
       "model": "doubao-1.5-vision-pro",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.214,
-      "output": 0.643
-    },
-    {
-      "model": "doubao-1.5-vision-pro-128k",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.214,
@@ -6572,6 +6544,13 @@
       "output": 0.0
     },
     {
+      "model": "doubao-embedding-large-text-250515",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.05,
+      "output": 0.0
+    },
+    {
       "model": "doubao-embedding-text-240515",
       "type": "tokens",
       "channel_type": 1002,
@@ -6590,24 +6569,82 @@
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.05,
-      "output": 0.0
+      "output": 0.0,
+      "extra_ratios": {
+        "input_image_tokens": 2.571
+      }
     },
     {
       "model": "doubao-embedding-vision-241215",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.05,
-      "output": 0.0
+      "output": 0.0,
+      "extra_ratios": {
+        "input_image_tokens": 2.571
+      }
     },
     {
-      "model": "doubao-seedream-3",
+      "model": "doubao-embedding-vision-250328",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.05,
+      "output": 0.0,
+      "extra_ratios": {
+        "input_image_tokens": 2.571
+      }
+    },
+    {
+      "model": "doubao-seaweed",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 2.143,
+      "output": 2.143
+    },
+    {
+      "model": "doubao-seedance-1-0-lite-i2v",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.714,
+      "output": 0.714
+    },
+    {
+      "model": "doubao-seedance-1-0-lite-i2v-250428",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.714,
+      "output": 0.714
+    },
+    {
+      "model": "doubao-seedance-1-0-lite-t2v",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.714,
+      "output": 0.714
+    },
+    {
+      "model": "doubao-seedance-1-0-lite-t2v-250428",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.714,
+      "output": 0.714
+    },
+    {
+      "model": "doubao-seedance-1.0-lite",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.714,
+      "output": 0.714
+    },
+    {
+      "model": "doubao-seedream-3.0",
       "type": "times",
       "channel_type": 1002,
       "input": 0.0,
       "output": 18.5
     },
     {
-      "model": "doubao-seedream-3-0-t2i-250415",
+      "model": "doubao-seedream-3.0-t2i-250415",
       "type": "times",
       "channel_type": 1002,
       "input": 0.0,

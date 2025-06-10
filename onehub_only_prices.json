@@ -1835,6 +1835,13 @@
       "output": 0.0
     },
     {
+      "model": "text-embedding-v4",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.036,
+      "output": 0.0
+    },
+    {
       "model": "SparkDesk-v1.1",
       "type": "tokens",
       "channel_type": 18,
