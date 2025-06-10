@@ -1142,6 +1142,20 @@
       "output": 0.0
     },
     {
+      "model": "mistralai/magistral-medium-2506",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 2.5
+    },
+    {
+      "model": "mistralai/magistral-medium-2506:thinking",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 2.5
+    },
+    {
       "model": "mistralai/ministral-3b",
       "type": "tokens",
       "channel_type": 20,
@@ -1684,8 +1698,8 @@
       "model": "openai/o3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 5.0,
-      "output": 20.0
+      "input": 1.0,
+      "output": 4.0
     },
     {
       "model": "openai/o3-mini",
