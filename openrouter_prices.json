@@ -1156,6 +1156,13 @@
       "output": 2.5
     },
     {
+      "model": "mistralai/magistral-small-2506",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.25,
+      "output": 0.75
+    },
+    {
       "model": "mistralai/ministral-3b",
       "type": "tokens",
       "channel_type": 20,
@@ -1714,6 +1721,13 @@
       "channel_type": 20,
       "input": 0.55,
       "output": 2.2
+    },
+    {
+      "model": "openai/o3-pro",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 10.0,
+      "output": 40.0
     },
     {
       "model": "openai/o4-mini",
