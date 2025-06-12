@@ -6348,28 +6348,77 @@
       "output": 0.571
     },
     {
-      "model": "doubao-1-5-ui-tars-250428",
+      "model": "doubao-1-5-lite*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.021,
+      "output": 0.043
+    },
+    {
+      "model": "doubao-1-5-pro-256k*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.357,
+      "output": 0.643
+    },
+    {
+      "model": "doubao-1-5-pro-32k*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.057,
+      "output": 0.143
+    },
+    {
+      "model": "doubao-1-5-pro-character",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.057,
+      "output": 0.143
+    },
+    {
+      "model": "doubao-1-5-thinking-pro*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.286,
+      "output": 1.143
+    },
+    {
+      "model": "doubao-1-5-thinking-vision-pro*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.214,
+      "output": 0.643
+    },
+    {
+      "model": "doubao-1-5-ui-tars*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.25,
       "output": 0.857
     },
     {
-      "model": "doubao-1.5-lite",
+      "model": "doubao-1-5-vision-lite*",
       "type": "tokens",
       "channel_type": 1002,
-      "input": 0.021,
-      "output": 0.043
+      "input": 0.107,
+      "output": 0.321
     },
     {
-      "model": "doubao-1.5-lite-32k",
+      "model": "doubao-1-5-vision-lite*",
       "type": "tokens",
       "channel_type": 1002,
-      "input": 0.021,
-      "output": 0.043
+      "input": 0.107,
+      "output": 0.321
     },
     {
-      "model": "doubao-1.5-lite-32k-250115",
+      "model": "doubao-1-5-vision-pro*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.214,
+      "output": 0.643
+    },
+    {
+      "model": "doubao-1.5-lite*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.021,
@@ -6383,42 +6432,14 @@
       "output": 0.143
     },
     {
-      "model": "doubao-1.5-pro-256k",
+      "model": "doubao-1.5-pro-256k*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.357,
       "output": 0.643
     },
     {
-      "model": "doubao-1.5-pro-256k-250115",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.357,
-      "output": 0.643
-    },
-    {
-      "model": "doubao-1.5-pro-32k",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.057,
-      "output": 0.143
-    },
-    {
-      "model": "doubao-1.5-pro-32k-250115",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.057,
-      "output": 0.143
-    },
-    {
-      "model": "doubao-1.5-pro-32k-character",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.057,
-      "output": 0.143
-    },
-    {
-      "model": "doubao-1.5-pro-32k-character-250228",
+      "model": "doubao-1.5-pro-32k*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.057,
@@ -6432,174 +6453,49 @@
       "output": 0.143
     },
     {
-      "model": "doubao-1.5-thinking-pro",
+      "model": "doubao-1.5-thinking-pro*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.286,
       "output": 1.143
     },
     {
-      "model": "doubao-1.5-thinking-pro-250415",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.286,
-      "output": 1.143
-    },
-    {
-      "model": "doubao-1.5-thinking-pro-m",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.286,
-      "output": 1.143
-    },
-    {
-      "model": "doubao-1.5-thinking-pro-m-250415",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.286,
-      "output": 1.143
-    },
-    {
-      "model": "doubao-1.5-thinking-pro-m-250428",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.286,
-      "output": 1.143
-    },
-    {
-      "model": "doubao-1.5-thinking-vision-pro",
+      "model": "doubao-1.5-thinking-vision-pro*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.214,
       "output": 0.643
     },
     {
-      "model": "doubao-1.5-thinking-vision-pro-250428",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.214,
-      "output": 0.643
-    },
-    {
-      "model": "doubao-1.5-ui-tars",
+      "model": "doubao-1.5-ui-tars*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.25,
       "output": 0.857
     },
     {
-      "model": "doubao-1.5-ui-tars-250328",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.25,
-      "output": 0.857
-    },
-    {
-      "model": "doubao-1.5-vision-lite",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.107,
-      "output": 0.321
-    },
-    {
-      "model": "doubao-1.5-vision-lite-250315",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.107,
-      "output": 0.321
-    },
-    {
-      "model": "doubao-1.5-vision-pro",
+      "model": "doubao-1.5-vision-pro*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.214,
       "output": 0.643
     },
     {
-      "model": "doubao-1.5-vision-pro-250328",
+      "model": "doubao-embedding-large-text*",
       "type": "tokens",
       "channel_type": 1002,
-      "input": 0.214,
-      "output": 0.643
+      "input": 0.05,
+      "output": 0.0
     },
     {
-      "model": "doubao-1.5-vision-pro-32k",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.214,
-      "output": 0.643
-    },
-    {
-      "model": "doubao-1.5-vision-pro-32k-250115",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.214,
-      "output": 0.643
-    },
-    {
-      "model": "doubao-embedding",
+      "model": "doubao-embedding-text*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.036,
       "output": 0.0
     },
     {
-      "model": "doubao-embedding-large",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.05,
-      "output": 0.0
-    },
-    {
-      "model": "doubao-embedding-large-text-240915",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.05,
-      "output": 0.0
-    },
-    {
-      "model": "doubao-embedding-large-text-250515",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.05,
-      "output": 0.0
-    },
-    {
-      "model": "doubao-embedding-text-240515",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.036,
-      "output": 0.0
-    },
-    {
-      "model": "doubao-embedding-text-240715",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.036,
-      "output": 0.0
-    },
-    {
-      "model": "doubao-embedding-vision",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.05,
-      "output": 0.0,
-      "extra_ratios": {
-        "input_image_tokens": 2.571
-      }
-    },
-    {
-      "model": "doubao-embedding-vision-241215",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.05,
-      "output": 0.0,
-      "extra_ratios": {
-        "input_image_tokens": 2.571
-      }
-    },
-    {
-      "model": "doubao-embedding-vision-250328",
+      "model": "doubao-embedding-vision*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.05,
@@ -6724,14 +6620,7 @@
       "output": 1.071
     },
     {
-      "model": "doubao-seedream-3.0",
-      "type": "times",
-      "channel_type": 1002,
-      "input": 0.0,
-      "output": 18.5
-    },
-    {
-      "model": "doubao-seedream-3.0-t2i-250415",
+      "model": "doubao-seedream-3.0*",
       "type": "times",
       "channel_type": 1002,
       "input": 0.0,
