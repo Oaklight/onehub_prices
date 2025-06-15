@@ -4794,70 +4794,56 @@
       }
     },
     {
-      "model": "codestral",
+      "model": "codestral*",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.15,
       "output": 0.45
     },
     {
-      "model": "codestral-*",
+      "model": "codestral-embed*",
       "type": "tokens",
       "channel_type": 30,
-      "input": 0.15,
-      "output": 0.45
+      "input": 0.075,
+      "output": 0.0
     },
     {
-      "model": "codestral-mamba",
-      "type": "tokens",
-      "channel_type": 30,
-      "input": 0.125,
-      "output": 0.125
-    },
-    {
-      "model": "codestral-mamba-*",
+      "model": "codestral-mamba*",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.125,
       "output": 0.125
     },
     {
-      "model": "devstral-small",
+      "model": "devstral-small*",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.05,
       "output": 0.15
     },
     {
-      "model": "devstral-small-*",
+      "model": "magistral-medium*",
       "type": "tokens",
       "channel_type": 30,
-      "input": 0.05,
-      "output": 0.15
+      "input": 1.0,
+      "output": 2.5
     },
     {
-      "model": "ministral-3b",
+      "model": "magistral-small*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.25,
+      "output": 0.75
+    },
+    {
+      "model": "ministral-3b*",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.02,
       "output": 0.02
     },
     {
-      "model": "ministral-3b-*",
-      "type": "tokens",
-      "channel_type": 30,
-      "input": 0.02,
-      "output": 0.02
-    },
-    {
-      "model": "ministral-8b",
-      "type": "tokens",
-      "channel_type": 30,
-      "input": 0.05,
-      "output": 0.05
-    },
-    {
-      "model": "ministral-8b-*",
+      "model": "ministral-8b*",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.05,
@@ -4871,14 +4857,7 @@
       "output": 0.0
     },
     {
-      "model": "mistral-large",
-      "type": "tokens",
-      "channel_type": 30,
-      "input": 1.0,
-      "output": 3.0
-    },
-    {
-      "model": "mistral-large-*",
+      "model": "mistral-large*",
       "type": "tokens",
       "channel_type": 30,
       "input": 1.0,
@@ -4892,14 +4871,7 @@
       "output": 12
     },
     {
-      "model": "mistral-medium",
-      "type": "tokens",
-      "channel_type": 30,
-      "input": 0.2,
-      "output": 1.0
-    },
-    {
-      "model": "mistral-medium-*",
+      "model": "mistral-medium*",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.2,
@@ -4913,56 +4885,28 @@
       "output": 4.05
     },
     {
-      "model": "mistral-moderation",
+      "model": "mistral-moderation*",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.05,
       "output": 0.0
     },
     {
-      "model": "mistral-moderation-*",
-      "type": "tokens",
-      "channel_type": 30,
-      "input": 0.05,
-      "output": 0.0
-    },
-    {
-      "model": "mistral-nemo",
+      "model": "mistral-nemo*",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.075,
       "output": 0.075
     },
     {
-      "model": "mistral-nemo-*",
-      "type": "tokens",
-      "channel_type": 30,
-      "input": 0.075,
-      "output": 0.075
-    },
-    {
-      "model": "mistral-saba",
+      "model": "mistral-saba*",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.1,
       "output": 0.3
     },
     {
-      "model": "mistral-saba-*",
-      "type": "tokens",
-      "channel_type": 30,
-      "input": 0.1,
-      "output": 0.3
-    },
-    {
-      "model": "mistral-small",
-      "type": "tokens",
-      "channel_type": 30,
-      "input": 0.05,
-      "output": 0.15
-    },
-    {
-      "model": "mistral-small-*",
+      "model": "mistral-small*",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.05,
@@ -4997,28 +4941,14 @@
       "output": 0.35
     },
     {
-      "model": "pixtral-12b",
+      "model": "pixtral-12b*",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.075,
       "output": 0.075
     },
     {
-      "model": "pixtral-12b-*",
-      "type": "tokens",
-      "channel_type": 30,
-      "input": 0.075,
-      "output": 0.075
-    },
-    {
-      "model": "pixtral-large",
-      "type": "tokens",
-      "channel_type": 30,
-      "input": 1.0,
-      "output": 3.0
-    },
-    {
-      "model": "pixtral-large-*",
+      "model": "pixtral-large*",
       "type": "tokens",
       "channel_type": 30,
       "input": 1.0,
