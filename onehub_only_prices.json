@@ -2472,13 +2472,6 @@
       "output": 0.1
     },
     {
-      "model": "deepseek/deepseek-r1-zero:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "deepseek/deepseek-r1:free",
       "type": "tokens",
       "channel_type": 20,
@@ -2549,6 +2542,20 @@
       "output": 0.15
     },
     {
+      "model": "google/gemini-2.5-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 1.25
+    },
+    {
+      "model": "google/gemini-2.5-flash-lite-preview-06-17",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.2
+    },
+    {
       "model": "google/gemini-2.5-flash-preview",
       "type": "tokens",
       "channel_type": 20,
@@ -2575,6 +2582,13 @@
       "channel_type": 20,
       "input": 0.075,
       "output": 1.75
+    },
+    {
+      "model": "google/gemini-2.5-pro",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.625,
+      "output": 5.0
     },
     {
       "model": "google/gemini-2.5-pro-exp-03-25",
@@ -2785,13 +2799,6 @@
       "channel_type": 20,
       "input": 0.4,
       "output": 0.4
-    },
-    {
-      "model": "meta-llama/llama-3.1-405b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "meta-llama/llama-3.1-70b-instruct",
@@ -3737,13 +3744,6 @@
       "channel_type": 20,
       "input": 0.02,
       "output": 0.05
-    },
-    {
-      "model": "qwen/qwen-2.5-7b-instruct:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "qwen/qwen-2.5-coder-32b-instruct",
