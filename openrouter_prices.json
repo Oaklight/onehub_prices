@@ -470,13 +470,6 @@
       "output": 1.09
     },
     {
-      "model": "deepseek/deepseek-prover-v2:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "deepseek/deepseek-r1",
       "type": "tokens",
       "channel_type": 20,
@@ -978,7 +971,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.025,
-      "output": 0.15
+      "output": 0.125
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct:free",
@@ -1119,6 +1112,20 @@
       "channel_type": 20,
       "input": 0.1,
       "output": 0.55
+    },
+    {
+      "model": "minimax/minimax-m1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 0.825
+    },
+    {
+      "model": "minimax/minimax-m1:extended",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.275,
+      "output": 1.1
     },
     {
       "model": "mistralai/codestral-2501",
