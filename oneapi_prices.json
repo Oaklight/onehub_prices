@@ -4372,27 +4372,36 @@
       "output": 0.0
     },
     {
-      "model": "gemini-2.5-flash-preview",
+      "model": "gemini-2.5-flash",
       "type": "tokens",
       "channel_type": 25,
-      "input": 0.075,
-      "output": 0.3,
+      "input": 0.15,
+      "output": 1.25,
       "extra_ratios": {
         "input_image_tokens": 1.0,
-        "input_audio_tokens": 6.667,
-        "reasoning_tokens": 23.333
+        "input_audio_tokens": 3.333
       }
     },
     {
-      "model": "gemini-2.5-flash-preview-05-20",
+      "model": "gemini-2.5-flash-lite-preview",
       "type": "tokens",
       "channel_type": 25,
-      "input": 0.075,
-      "output": 0.3,
+      "input": 0.05,
+      "output": 0.2,
       "extra_ratios": {
-        "input_image_tokens": 1.0,
-        "input_audio_tokens": 6.667,
-        "reasoning_tokens": 23.333
+        "input_audio_tokens": 5.0,
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "gemini-2.5-flash-lite-preview-06-17",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.05,
+      "output": 0.2,
+      "extra_ratios": {
+        "input_audio_tokens": 5.0,
+        "cached_tokens": 0.25
       }
     },
     {
@@ -4415,17 +4424,7 @@
       "output": 5.0
     },
     {
-      "model": "gemini-2.5-pro-preview",
-      "type": "tokens",
-      "channel_type": 25,
-      "input": 0.625,
-      "output": 5.0,
-      "extra_ratios": {
-        "cached_tokens": 0.248
-      }
-    },
-    {
-      "model": "gemini-2.5-pro-preview-06-05",
+      "model": "gemini-2.5-pro",
       "type": "tokens",
       "channel_type": 25,
       "input": 0.625,
