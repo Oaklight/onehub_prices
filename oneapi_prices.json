@@ -3155,7 +3155,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.005,
-      "output": 0.011
+      "output": 0.01
     },
     {
       "model": "mistralai/mistral-nemo:free",
@@ -4588,6 +4588,13 @@
       "output": 1.143
     },
     {
+      "model": "MiniMax-M1",
+      "type": "tokens",
+      "channel_type": 27,
+      "input": 0.086,
+      "output": 1.143
+    },
+    {
       "model": "MiniMax-Text-01",
       "type": "tokens",
       "channel_type": 27,
@@ -4633,8 +4640,8 @@
       "model": "abab6.5s-chat",
       "type": "tokens",
       "channel_type": 27,
-      "input": 0.071,
-      "output": 0.071
+      "input": 0.7143,
+      "output": 0.7143
     },
     {
       "model": "embo-01",
