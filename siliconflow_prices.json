@@ -386,6 +386,27 @@
       "output": 0.0
     },
     {
+      "model": "Qwen/Qwen3-Embedding-0.6B",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.005,
+      "output": 0.005
+    },
+    {
+      "model": "Qwen/Qwen3-Embedding-4B",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.01,
+      "output": 0.01
+    },
+    {
+      "model": "Qwen/Qwen3-Embedding-8B",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.02,
+      "output": 0.02
+    },
+    {
       "model": "THUDM/GLM-4-32B-0414",
       "type": "tokens",
       "channel_type": 45,
