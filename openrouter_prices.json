@@ -908,7 +908,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.008,
-      "output": 0.015
+      "output": 0.014
     },
     {
       "model": "meta-llama/llama-3.1-8b-instruct:free",
@@ -971,7 +971,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.025,
-      "output": 0.125
+      "output": 0.12
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct:free",
@@ -2227,11 +2227,25 @@
       "output": 5.0
     },
     {
+      "model": "x-ai/grok-3",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
       "model": "x-ai/grok-3-beta",
       "type": "tokens",
       "channel_type": 20,
       "input": 1.5,
       "output": 7.5
+    },
+    {
+      "model": "x-ai/grok-3-mini",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 0.25
     },
     {
       "model": "x-ai/grok-3-mini-beta",
