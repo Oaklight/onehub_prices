@@ -1303,6 +1303,13 @@
       "output": 0.0
     },
     {
+      "model": "mistralai/mistral-small-3.2-24b-instruct:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "mistralai/mistral-tiny",
       "type": "tokens",
       "channel_type": 20,
@@ -2162,6 +2169,13 @@
       "channel_type": 20,
       "input": 0.12,
       "output": 0.12
+    },
+    {
+      "model": "tngtech/deepseek-r1t-chimera:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "undi95/remm-slerp-l2-13b",
