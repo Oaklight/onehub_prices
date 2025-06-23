@@ -2665,7 +2665,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.05,
-      "output": 0.1
+      "output": 0.095
     },
     {
       "model": "google/gemma-3-27b-it:free",
@@ -2861,7 +2861,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.025,
-      "output": 0.12
+      "output": 0.115
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct:free",
@@ -3148,7 +3148,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.005,
-      "output": 0.01
+      "output": 0.009
     },
     {
       "model": "mistralai/mistral-nemo:free",
