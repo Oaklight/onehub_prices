@@ -445,8 +445,8 @@
       "model": "deepseek/deepseek-chat-v3-0324",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.44
+      "input": 0.14,
+      "output": 0.575
     },
     {
       "model": "deepseek/deepseek-chat-v3-0324:free",
@@ -1117,8 +1117,8 @@
       "model": "minimax/minimax-m1:extended",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.275,
-      "output": 1.1
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "mistralai/codestral-2501",
@@ -1301,6 +1301,13 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.15
     },
     {
       "model": "mistralai/mistral-small-3.2-24b-instruct:free",
