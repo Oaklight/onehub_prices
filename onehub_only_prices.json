@@ -2871,13 +2871,6 @@
       "output": 0.0
     },
     {
-      "model": "meta-llama/llama-3.3-8b-instruct:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "meta-llama/llama-4-maverick",
       "type": "tokens",
       "channel_type": 20,
@@ -3203,8 +3196,8 @@
       "model": "mistralai/mistral-small-3.2-24b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.15
+      "input": 0.025,
+      "output": 0.05
     },
     {
       "model": "mistralai/mistral-small-3.2-24b-instruct:free",
@@ -3389,28 +3382,7 @@
       "output": 3.0
     },
     {
-      "model": "openai/gpt-3.5-turbo",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.25,
-      "output": 0.75
-    },
-    {
-      "model": "openai/gpt-3.5-turbo-0125",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.25,
-      "output": 0.75
-    },
-    {
       "model": "openai/gpt-3.5-turbo-0613",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.5,
-      "output": 1.0
-    },
-    {
-      "model": "openai/gpt-3.5-turbo-1106",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.5,
