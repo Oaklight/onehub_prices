@@ -487,8 +487,8 @@
       "model": "deepseek/deepseek-r1-0528-qwen3-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.05
+      "input": 0.005,
+      "output": 0.01
     },
     {
       "model": "deepseek/deepseek-r1-0528-qwen3-8b:free",
@@ -550,15 +550,8 @@
       "model": "deepseek/deepseek-r1-distill-qwen-32b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
-      "output": 0.09
-    },
-    {
-      "model": "deepseek/deepseek-r1-distill-qwen-32b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.038,
+      "output": 0.075
     },
     {
       "model": "deepseek/deepseek-r1-distill-qwen-7b",
@@ -942,15 +935,8 @@
       "model": "meta-llama/llama-3.2-3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.005,
-      "output": 0.01
-    },
-    {
-      "model": "meta-llama/llama-3.2-3b-instruct:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.002,
+      "output": 0.003
     },
     {
       "model": "meta-llama/llama-3.2-90b-vision-instruct",
@@ -1070,20 +1056,6 @@
       "channel_type": 20,
       "input": 0.035,
       "output": 0.175
-    },
-    {
-      "model": "microsoft/phi-4-reasoning-plus:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "microsoft/phi-4-reasoning:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "microsoft/wizardlm-2-8x22b",
@@ -1716,18 +1688,18 @@
       "output": 2.2
     },
     {
-      "model": "opengvlab/internvl3-14b:free",
+      "model": "opengvlab/internvl3-14b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.1,
+      "output": 0.2
     },
     {
-      "model": "opengvlab/internvl3-2b:free",
+      "model": "opengvlab/internvl3-2b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.025,
+      "output": 0.05
     },
     {
       "model": "perplexity/llama-3.1-sonar-large-128k-online",
@@ -1978,8 +1950,8 @@
       "model": "qwen/qwq-32b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.1
+      "input": 0.038,
+      "output": 0.075
     },
     {
       "model": "qwen/qwq-32b-preview",
