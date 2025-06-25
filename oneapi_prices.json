@@ -2798,7 +2798,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.008,
-      "output": 0.012
+      "output": 0.011
     },
     {
       "model": "meta-llama/llama-3.1-8b-instruct:free",
@@ -2861,7 +2861,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.025,
-      "output": 0.095
+      "output": 0.09
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct:free",
@@ -3141,7 +3141,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.005,
-      "output": 0.007
+      "output": 0.006
     },
     {
       "model": "mistralai/mistral-nemo:free",
@@ -5560,7 +5560,7 @@
       "type": "tokens",
       "channel_type": 45,
       "input": 0.005,
-      "output": 0.005
+      "output": 0.0
     },
     {
       "model": "Pro/Qwen/Qwen1.5-7B-Chat",
@@ -5847,42 +5847,42 @@
       "type": "tokens",
       "channel_type": 45,
       "input": 0.005,
-      "output": 0.005
+      "output": 0.0
     },
     {
       "model": "Qwen/Qwen3-Embedding-4B",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.01,
-      "output": 0.01
+      "output": 0.0
     },
     {
       "model": "Qwen/Qwen3-Embedding-8B",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.02,
-      "output": 0.02
+      "output": 0.0
     },
     {
       "model": "Qwen/Qwen3-Reranker-0.6B",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.005,
-      "output": 0.005
+      "output": 0.0
     },
     {
       "model": "Qwen/Qwen3-Reranker-4B",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.01,
-      "output": 0.01
+      "output": 0.0
     },
     {
       "model": "Qwen/Qwen3-Reranker-8B",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.02,
-      "output": 0.02
+      "output": 0.0
     },
     {
       "model": "THUDM/GLM-4-32B-0414",
