@@ -1971,8 +1971,8 @@
       "model": "alpindale/goliath-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 5.0,
-      "output": 6.25
+      "input": 4.5,
+      "output": 5.5
     },
     {
       "model": "alpindale/magnum-72b",
@@ -3931,15 +3931,15 @@
       "model": "sao10k/l3.1-euryale-70b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.35,
-      "output": 0.4
+      "input": 0.325,
+      "output": 0.375
     },
     {
       "model": "sao10k/l3.3-euryale-70b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.35,
-      "output": 0.4
+      "input": 0.325,
+      "output": 0.375
     },
     {
       "model": "sarvamai/sarvam-m:free",
@@ -3987,7 +3987,7 @@
       "model": "thedrummer/rocinante-12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
+      "input": 0.1,
       "output": 0.25
     },
     {
@@ -4001,8 +4001,8 @@
       "model": "thedrummer/unslopnemo-12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.225,
-      "output": 0.225
+      "input": 0.2,
+      "output": 0.2
     },
     {
       "model": "thedrummer/valkyrie-49b-v1",
