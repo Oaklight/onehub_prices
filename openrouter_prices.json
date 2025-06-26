@@ -1198,13 +1198,6 @@
       "output": 3.0
     },
     {
-      "model": "mistralai/mistral-medium",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.375,
-      "output": 4.05
-    },
-    {
       "model": "mistralai/mistral-medium-3",
       "type": "tokens",
       "channel_type": 20,
