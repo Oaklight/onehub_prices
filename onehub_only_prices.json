@@ -2703,6 +2703,13 @@
       "output": 0.032
     },
     {
+      "model": "inception/mercury",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 5.0,
+      "output": 5.0
+    },
+    {
       "model": "inception/mercury-coder-small-beta",
       "type": "tokens",
       "channel_type": 20,
