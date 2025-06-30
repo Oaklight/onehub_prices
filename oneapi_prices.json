@@ -2706,8 +2706,8 @@
       "model": "inception/mercury",
       "type": "tokens",
       "channel_type": 20,
-      "input": 5.0,
-      "output": 5.0
+      "input": 0.125,
+      "output": 0.5
     },
     {
       "model": "inception/mercury-coder-small-beta",
@@ -3960,6 +3960,13 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.4,
+      "output": 0.4
+    },
+    {
+      "model": "thedrummer/anubis-70b-v1.1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
       "output": 0.4
     },
     {
@@ -6114,6 +6121,13 @@
       "channel_type": 45,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "tencent/Hunyuan-A13B-Instruct",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.071,
+      "output": 0.286
     },
     {
       "model": "tencent/HunyuanVideo",
