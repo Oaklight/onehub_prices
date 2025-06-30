@@ -351,6 +351,13 @@
       "output": 0.0
     },
     {
+      "model": "baidu/ernie-4.5-300b-a47b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 0.5
+    },
+    {
       "model": "cognitivecomputations/dolphin-mixtral-8x22b",
       "type": "tokens",
       "channel_type": 20,
