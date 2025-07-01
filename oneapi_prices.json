@@ -2997,13 +2997,6 @@
       "output": 0.825
     },
     {
-      "model": "minimax/minimax-m1:extended",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "mistralai/codestral-2501",
       "type": "tokens",
       "channel_type": 20,
@@ -3947,13 +3940,6 @@
       "channel_type": 20,
       "input": 0.44,
       "output": 0.44
-    },
-    {
-      "model": "sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.1
     },
     {
       "model": "shisa-ai/shisa-v2-llama3.3-70b:free",
@@ -6030,6 +6016,13 @@
       "channel_type": 45,
       "input": 1.5,
       "output": 1.5
+    },
+    {
+      "model": "baidu/ERNIE-4.5-300B-A47B",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.143,
+      "output": 0.571
     },
     {
       "model": "deepseek-ai/DeepSeek-Coder-V2-Instruct",

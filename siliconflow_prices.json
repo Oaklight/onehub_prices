@@ -575,6 +575,13 @@
       "output": 1.5
     },
     {
+      "model": "baidu/ERNIE-4.5-300B-A47B",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.143,
+      "output": 0.571
+    },
+    {
       "model": "deepseek-ai/DeepSeek-Coder-V2-Instruct",
       "type": "tokens",
       "channel_type": 45,
