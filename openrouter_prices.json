@@ -767,8 +767,8 @@
       "model": "google/gemma-3-27b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.09
+      "input": 0.045,
+      "output": 0.085
     },
     {
       "model": "google/gemma-3-27b-it:free",
@@ -1714,6 +1714,13 @@
       "channel_type": 20,
       "input": 0.025,
       "output": 0.05
+    },
+    {
+      "model": "openrouter/cypher-alpha:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "perplexity/llama-3.1-sonar-large-128k-online",
