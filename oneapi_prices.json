@@ -936,6 +936,20 @@
       "output": 1.143
     },
     {
+      "model": "ernie-4.5-0.3b",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "ernie-4.5-21b-a3b",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "ernie-4.5-8k-preview",
       "type": "tokens",
       "channel_type": 15,
@@ -976,6 +990,13 @@
       "channel_type": 15,
       "input": 0.214,
       "output": 0.643
+    },
+    {
+      "model": "ernie-4.5-vl-28b-a3b",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "ernie-lite-128k-0722",
