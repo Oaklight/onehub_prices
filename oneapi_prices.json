@@ -2836,13 +2836,6 @@
       "output": 0.01
     },
     {
-      "model": "meta-llama/llama-3.1-8b-instruct:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "meta-llama/llama-3.2-11b-vision-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -2862,13 +2855,6 @@
       "channel_type": 20,
       "input": 0.002,
       "output": 0.005
-    },
-    {
-      "model": "meta-llama/llama-3.2-1b-instruct:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "meta-llama/llama-3.2-3b-instruct",
