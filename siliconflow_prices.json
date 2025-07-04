@@ -470,6 +470,13 @@
       "output": 0.0
     },
     {
+      "model": "THUDM/GLM-4.1V-9B-Thinking",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "THUDM/GLM-Z1-32B-0414",
       "type": "tokens",
       "channel_type": 45,
