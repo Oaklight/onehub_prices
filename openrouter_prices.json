@@ -2192,13 +2192,6 @@
       "output": 0.25
     },
     {
-      "model": "x-ai/grok-beta",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 2.5,
-      "output": 7.5
-    },
-    {
       "model": "x-ai/grok-vision-beta",
       "type": "tokens",
       "channel_type": 20,
