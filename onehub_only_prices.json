@@ -5605,6 +5605,13 @@
       "output": 0.025
     },
     {
+      "model": "Pro/THUDM/GLM-4.1V-9B-Thinking",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.018,
+      "output": 0.071
+    },
+    {
       "model": "Pro/THUDM/chatglm3-6b",
       "type": "tokens",
       "channel_type": 45,
