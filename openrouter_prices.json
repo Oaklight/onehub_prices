@@ -914,7 +914,7 @@
       "model": "meta-llama/llama-3.1-8b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.008,
+      "input": 0.007,
       "output": 0.01
     },
     {
@@ -956,7 +956,7 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
+      "input": 0.019,
       "output": 0.06
     },
     {
@@ -1237,7 +1237,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.025,
-      "output": 0.045
+      "output": 0.04
     },
     {
       "model": "mistralai/mistral-small-24b-instruct-2501:free",
@@ -1695,13 +1695,6 @@
       "output": 0.2
     },
     {
-      "model": "opengvlab/internvl3-2b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.025,
-      "output": 0.05
-    },
-    {
       "model": "openrouter/cypher-alpha:free",
       "type": "tokens",
       "channel_type": 20,
@@ -2108,25 +2101,11 @@
       "output": 0.0
     },
     {
-      "model": "thudm/glm-z1-32b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.12,
-      "output": 0.12
-    },
-    {
       "model": "thudm/glm-z1-32b:free",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
-    },
-    {
-      "model": "thudm/glm-z1-rumination-32b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.12,
-      "output": 0.12
     },
     {
       "model": "tngtech/deepseek-r1t-chimera:free",
