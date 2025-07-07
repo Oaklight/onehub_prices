@@ -1317,6 +1317,20 @@
       "output": 1.35
     },
     {
+      "model": "morph/morph-v3-fast",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.6,
+      "output": 1.35
+    },
+    {
+      "model": "morph/morph-v3-large",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.6,
+      "output": 1.35
+    },
+    {
       "model": "neversleep/llama-3-lumimaid-70b",
       "type": "tokens",
       "channel_type": 20,
@@ -1327,15 +1341,8 @@
       "model": "neversleep/llama-3-lumimaid-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.625
-    },
-    {
-      "model": "neversleep/llama-3.1-lumimaid-70b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.25,
-      "output": 1.5
+      "input": 0.4,
+      "output": 0.6
     },
     {
       "model": "neversleep/llama-3.1-lumimaid-8b",
