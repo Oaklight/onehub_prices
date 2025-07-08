@@ -3945,14 +3945,14 @@
       "model": "thedrummer/anubis-70b-v1.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
+      "input": 0.25,
       "output": 0.4
     },
     {
       "model": "thedrummer/anubis-pro-105b-v1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4,
+      "input": 0.25,
       "output": 0.5
     },
     {
@@ -3980,8 +3980,8 @@
       "model": "thedrummer/valkyrie-49b-v1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 0.4
+      "input": 0.325,
+      "output": 0.5
     },
     {
       "model": "thudm/glm-4-32b",
