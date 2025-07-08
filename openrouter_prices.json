@@ -2024,6 +2024,13 @@
       "output": 0.4
     },
     {
+      "model": "tencent/hunyuan-a13b-instruct:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "thedrummer/anubis-70b-v1.1",
       "type": "tokens",
       "channel_type": 20,
@@ -2088,6 +2095,13 @@
     },
     {
       "model": "tngtech/deepseek-r1t-chimera:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "tngtech/deepseek-r1t2-chimera:free",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0,
