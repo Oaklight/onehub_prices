@@ -3028,8 +3028,8 @@
       "model": "mistralai/magistral-small-2506",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 0.75
+      "input": 0.05,
+      "output": 0.15
     },
     {
       "model": "mistralai/ministral-3b",
