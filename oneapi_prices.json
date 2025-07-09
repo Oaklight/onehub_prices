@@ -6004,6 +6004,13 @@
       "output": 1.5
     },
     {
+      "model": "ascend-tribe/pangu-pro-moe",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.071,
+      "output": 0.286
+    },
+    {
       "model": "baidu/ERNIE-4.5-300B-A47B",
       "type": "tokens",
       "channel_type": 45,
