@@ -897,6 +897,13 @@
       "output": 0.4
     },
     {
+      "model": "meta-llama/llama-3.1-405b-instruct:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "meta-llama/llama-3.1-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -937,6 +944,13 @@
       "channel_type": 20,
       "input": 0.002,
       "output": 0.003
+    },
+    {
+      "model": "meta-llama/llama-3.2-3b-instruct:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "meta-llama/llama-3.2-90b-vision-instruct",
@@ -1912,6 +1926,13 @@
       "output": 0.0
     },
     {
+      "model": "qwen/qwen3-4b:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "qwen/qwen3-8b",
       "type": "tokens",
       "channel_type": 20,
@@ -2122,6 +2143,13 @@
       "output": 0.6
     },
     {
+      "model": "venice/uncensored:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "x-ai/grok-2-1212",
       "type": "tokens",
       "channel_type": 20,
@@ -2162,6 +2190,13 @@
       "channel_type": 20,
       "input": 0.15,
       "output": 0.25
+    },
+    {
+      "model": "x-ai/grok-4",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.5,
+      "output": 7.5
     },
     {
       "model": "x-ai/grok-vision-beta",
