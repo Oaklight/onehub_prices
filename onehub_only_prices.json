@@ -2269,6 +2269,13 @@
       "output": 0.55
     },
     {
+      "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "cognitivecomputations/dolphin-mixtral-8x22b",
       "type": "tokens",
       "channel_type": 20,
@@ -3018,14 +3025,28 @@
       "output": 0.45
     },
     {
+      "model": "mistralai/devstral-medium",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.2,
+      "output": 1.0
+    },
+    {
       "model": "mistralai/devstral-small",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.15
+    },
+    {
+      "model": "mistralai/devstral-small-2505",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.03,
       "output": 0.06
     },
     {
-      "model": "mistralai/devstral-small:free",
+      "model": "mistralai/devstral-small-2505:free",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0,
@@ -4059,13 +4080,6 @@
       "channel_type": 20,
       "input": 0.4,
       "output": 0.6
-    },
-    {
-      "model": "venice/uncensored:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "x-ai/grok-2-1212",
