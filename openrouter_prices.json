@@ -1383,8 +1383,8 @@
       "model": "neversleep/llama-3.1-lumimaid-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.625
+      "input": 0.09,
+      "output": 0.5
     },
     {
       "model": "neversleep/noromaid-20b",
@@ -2097,8 +2097,8 @@
       "model": "thedrummer/skyfall-36b-v2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 0.4
+      "input": 0.2,
+      "output": 0.35
     },
     {
       "model": "thedrummer/unslopnemo-12b",
@@ -2111,8 +2111,8 @@
       "model": "thedrummer/valkyrie-49b-v1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.325,
-      "output": 0.5
+      "input": 0.3,
+      "output": 0.4
     },
     {
       "model": "thudm/glm-4-32b",
