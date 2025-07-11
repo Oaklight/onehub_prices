@@ -3035,7 +3035,7 @@
       "model": "mistralai/devstral-small",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
+      "input": 0.045,
       "output": 0.15
     },
     {
@@ -4045,6 +4045,13 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "thudm/glm-4.1v-9b-thinking",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.018,
+      "output": 0.069
     },
     {
       "model": "thudm/glm-z1-32b:free",
