@@ -3263,6 +3263,13 @@
       "output": 0.0
     },
     {
+      "model": "moonshotai/kimi-k2",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.285,
+      "output": 1.15
+    },
+    {
       "model": "moonshotai/kimi-vl-a3b-thinking:free",
       "type": "tokens",
       "channel_type": 20,
@@ -3982,6 +3989,13 @@
       "channel_type": 20,
       "input": 0.4,
       "output": 0.4
+    },
+    {
+      "model": "switchpoint/router",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.425,
+      "output": 1.7
     },
     {
       "model": "tencent/hunyuan-a13b-instruct:free",
