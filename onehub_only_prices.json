@@ -971,6 +971,13 @@
       "output": 0.229
     },
     {
+      "model": "ernie-4.5-turbo-128k-preview",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.057,
+      "output": 0.229
+    },
+    {
       "model": "ernie-4.5-turbo-32k",
       "type": "tokens",
       "channel_type": 15,
@@ -986,6 +993,13 @@
     },
     {
       "model": "ernie-4.5-turbo-vl-32k",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.214,
+      "output": 0.643
+    },
+    {
+      "model": "ernie-4.5-turbo-vl-32k-preview",
       "type": "tokens",
       "channel_type": 15,
       "input": 0.214,
@@ -1076,6 +1090,13 @@
       "output": 0.286
     },
     {
+      "model": "ernie-x1-turbo-32k-preview",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.071,
+      "output": 0.286
+    },
+    {
       "model": "llama-4-maverick",
       "type": "tokens",
       "channel_type": 15,
@@ -1118,13 +1139,6 @@
       "output": 0.007
     },
     {
-      "model": "cogvideox",
-      "type": "times",
-      "channel_type": 16,
-      "input": 0.0,
-      "output": 35.714
-    },
-    {
       "model": "cogvideox-2",
       "type": "times",
       "channel_type": 16,
@@ -1140,10 +1154,10 @@
     },
     {
       "model": "cogview-3",
-      "type": "times",
+      "type": "tokens",
       "channel_type": 16,
-      "input": 0.0,
-      "output": 7.143
+      "input": 17.8571,
+      "output": 17.8571
     },
     {
       "model": "cogview-3-flash",
@@ -1151,13 +1165,6 @@
       "channel_type": 16,
       "input": 0.0,
       "output": 0.0
-    },
-    {
-      "model": "cogview-3-plus",
-      "type": "times",
-      "channel_type": 16,
-      "input": 0.0,
-      "output": 4.286
     },
     {
       "model": "cogview-4",
@@ -1191,8 +1198,8 @@
       "model": "glm-3-turbo",
       "type": "tokens",
       "channel_type": 16,
-      "input": 0.071,
-      "output": 0.071
+      "input": 0.0714,
+      "output": 0.0714
     },
     {
       "model": "glm-4",
@@ -1205,15 +1212,15 @@
       "model": "glm-4-0520",
       "type": "tokens",
       "channel_type": 16,
-      "input": 7.143,
-      "output": 7.143
+      "input": 7.1429,
+      "output": 7.1429
     },
     {
       "model": "glm-4-air",
       "type": "tokens",
       "channel_type": 16,
-      "input": 0.036,
-      "output": 0.036
+      "input": 0.0714,
+      "output": 0.0714
     },
     {
       "model": "glm-4-air-250414",
@@ -1233,15 +1240,22 @@
       "model": "glm-4-alltools",
       "type": "tokens",
       "channel_type": 16,
-      "input": 7.143,
-      "output": 7.143
+      "input": 7.1429,
+      "output": 7.1429
+    },
+    {
+      "model": "glm-4-assistant",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.357,
+      "output": 0.357
     },
     {
       "model": "glm-4-flash",
       "type": "tokens",
       "channel_type": 16,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0,
+      "output": 0
     },
     {
       "model": "glm-4-flash-250414",
@@ -1251,7 +1265,7 @@
       "output": 0.0
     },
     {
-      "model": "glm-4-flashx",
+      "model": "glm-4-flashx-250414",
       "type": "tokens",
       "channel_type": 16,
       "input": 0.007,
@@ -1268,8 +1282,8 @@
       "model": "glm-4-plus",
       "type": "tokens",
       "channel_type": 16,
-      "input": 3.571,
-      "output": 3.571
+      "input": 0.357,
+      "output": 0.357
     },
     {
       "model": "glm-4-voice",
@@ -1279,11 +1293,25 @@
       "output": 5.714
     },
     {
+      "model": "glm-4.1v-thinking-flash",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "glm-4.1v-thinking-flashx",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.143,
+      "output": 0.143
+    },
+    {
       "model": "glm-4v",
       "type": "tokens",
       "channel_type": 16,
-      "input": 3.571,
-      "output": 3.571
+      "input": 7.143,
+      "output": 7.143
     },
     {
       "model": "glm-4v-flash",
@@ -1293,18 +1321,18 @@
       "output": 0.0
     },
     {
-      "model": "glm-4v-plus",
+      "model": "glm-4v-plus-0111",
       "type": "tokens",
       "channel_type": 16,
       "input": 0.286,
       "output": 0.286
     },
     {
-      "model": "glm-4v-plus-0111",
+      "model": "glm-realtime",
       "type": "tokens",
       "channel_type": 16,
-      "input": 0.286,
-      "output": 0.286
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "glm-z1-air",
@@ -1328,11 +1356,60 @@
       "output": 0.0
     },
     {
+      "model": "glm-z1-flashx",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.007,
+      "output": 0.007
+    },
+    {
       "model": "rerank",
       "type": "tokens",
       "channel_type": 16,
       "input": 0.057,
       "output": 0.0
+    },
+    {
+      "model": "vidu2-image",
+      "type": "times",
+      "channel_type": 16,
+      "input": 0.0,
+      "output": 89.286
+    },
+    {
+      "model": "vidu2-reference",
+      "type": "times",
+      "channel_type": 16,
+      "input": 0.0,
+      "output": 178.571
+    },
+    {
+      "model": "vidu2-start-end",
+      "type": "times",
+      "channel_type": 16,
+      "input": 0.0,
+      "output": 89.286
+    },
+    {
+      "model": "viduq1-image",
+      "type": "times",
+      "channel_type": 16,
+      "input": 0.0,
+      "output": 223.214
+    },
+    {
+      "model": "viduq1-start-end",
+      "type": "times",
+      "channel_type": 16,
+      "input": 0.0,
+      "output": 223.214
+    },
+    {
+      "model": "viduq1-text",
+      "type": "times",
+      "channel_type": 16,
+      "input": 0.0,
+      "output": 267.857
     },
     {
       "model": "deepseek-r1-aliyun",
@@ -4699,6 +4776,26 @@
       "output": 0.571
     },
     {
+      "model": "kimi-k2",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 0.286,
+      "output": 1.143,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "kimi-k2-0711-preview",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 0.286,
+      "output": 1.143,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
       "model": "kimi-latest",
       "type": "tokens",
       "channel_type": 29,
@@ -4760,7 +4857,10 @@
       "type": "tokens",
       "channel_type": 29,
       "input": 0.714,
-      "output": 2.143
+      "output": 2.143,
+      "extra_ratios": {
+        "cached_tokens": 0.0
+      }
     },
     {
       "model": "moonshot-v1-32k",
@@ -4777,7 +4877,10 @@
       "type": "tokens",
       "channel_type": 29,
       "input": 0.357,
-      "output": 1.429
+      "output": 1.429,
+      "extra_ratios": {
+        "cached_tokens": 0.0
+      }
     },
     {
       "model": "moonshot-v1-8k",
@@ -4794,7 +4897,10 @@
       "type": "tokens",
       "channel_type": 29,
       "input": 0.143,
-      "output": 0.714
+      "output": 0.714,
+      "extra_ratios": {
+        "cached_tokens": 0.0
+      }
     },
     {
       "model": "moonshot-v1-auto",
@@ -6292,6 +6398,13 @@
     },
     {
       "model": "jina-embeddings-v3",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.01,
+      "output": 0.0
+    },
+    {
+      "model": "jina-embeddings-v4",
       "type": "tokens",
       "channel_type": 47,
       "input": 0.01,
