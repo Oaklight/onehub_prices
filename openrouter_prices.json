@@ -809,8 +809,8 @@
       "model": "gryphe/mythomax-l2-13b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.032,
-      "output": 0.032
+      "input": 0.03,
+      "output": 0.03
     },
     {
       "model": "inception/mercury",
@@ -1237,7 +1237,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.004,
-      "output": 0.001
+      "output": 0.025
     },
     {
       "model": "mistralai/mistral-nemo:free",
@@ -1576,13 +1576,6 @@
       "output": 0.2
     },
     {
-      "model": "openai/gpt-4.5-preview",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 37.5,
-      "output": 75.0
-    },
-    {
       "model": "openai/gpt-4o",
       "type": "tokens",
       "channel_type": 20,
@@ -1735,13 +1728,6 @@
       "channel_type": 20,
       "input": 0.1,
       "output": 0.2
-    },
-    {
-      "model": "openrouter/cypher-alpha:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "perplexity/r1-1776",
@@ -2181,8 +2167,8 @@
       "model": "undi95/remm-slerp-l2-13b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4,
-      "output": 0.6
+      "input": 0.35,
+      "output": 0.5
     },
     {
       "model": "undi95/toppy-m-7b",
