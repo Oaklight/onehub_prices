@@ -687,6 +687,13 @@
       "output": 0.071
     },
     {
+      "model": "fnlp/MOSS-TTSD-v0.5",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 3.571,
+      "output": 3.571
+    },
+    {
       "model": "internlm/internlm2_5-20b-chat",
       "type": "tokens",
       "channel_type": 45,
