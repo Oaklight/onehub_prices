@@ -120,48 +120,6 @@
       "output": 1.5
     },
     {
-      "model": "anthropic/claude-2",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 4.0,
-      "output": 12.0
-    },
-    {
-      "model": "anthropic/claude-2.0",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 4.0,
-      "output": 12.0
-    },
-    {
-      "model": "anthropic/claude-2.0:beta",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 4.0,
-      "output": 12.0
-    },
-    {
-      "model": "anthropic/claude-2.1",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 4.0,
-      "output": 12.0
-    },
-    {
-      "model": "anthropic/claude-2.1:beta",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 4.0,
-      "output": 12.0
-    },
-    {
-      "model": "anthropic/claude-2:beta",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 4.0,
-      "output": 12.0
-    },
-    {
       "model": "anthropic/claude-3-haiku",
       "type": "tokens",
       "channel_type": 20,
@@ -191,13 +149,6 @@
     },
     {
       "model": "anthropic/claude-3-sonnet",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.5,
-      "output": 7.5
-    },
-    {
-      "model": "anthropic/claude-3-sonnet:beta",
       "type": "tokens",
       "channel_type": 20,
       "input": 1.5,
