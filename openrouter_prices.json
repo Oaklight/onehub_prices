@@ -316,6 +316,13 @@
       "output": 0.55
     },
     {
+      "model": "bytedance/ui-tars-1.5-7b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.1
+    },
+    {
       "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
       "type": "tokens",
       "channel_type": 20,
@@ -594,6 +601,13 @@
       "channel_type": 20,
       "input": 0.15,
       "output": 1.25
+    },
+    {
+      "model": "google/gemini-2.5-flash-lite",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.2
     },
     {
       "model": "google/gemini-2.5-flash-lite-preview-06-17",
@@ -1852,8 +1866,8 @@
       "model": "qwen/qwen3-235b-a22b-07-25",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.425
+      "input": 0.065,
+      "output": 0.3
     },
     {
       "model": "qwen/qwen3-235b-a22b-07-25:free",
