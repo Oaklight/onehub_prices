@@ -1866,8 +1866,8 @@
       "model": "qwen/qwen3-235b-a22b-07-25",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.065,
-      "output": 0.3
+      "input": 0.06,
+      "output": 0.295
     },
     {
       "model": "qwen/qwen3-235b-a22b-07-25:free",
@@ -1924,6 +1924,13 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "qwen/qwen3-coder",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 2.5
     },
     {
       "model": "qwen/qwq-32b",
