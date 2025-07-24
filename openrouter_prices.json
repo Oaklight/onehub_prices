@@ -78,13 +78,6 @@
       "output": 5.5
     },
     {
-      "model": "alpindale/magnum-72b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 2.0,
-      "output": 3.0
-    },
-    {
       "model": "amazon/nova-lite-v1",
       "type": "tokens",
       "channel_type": 20,
@@ -552,13 +545,6 @@
       "channel_type": 20,
       "input": 0.4,
       "output": 0.6
-    },
-    {
-      "model": "eva-unit-01/eva-llama-3.33-70b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 2.0,
-      "output": 3.0
     },
     {
       "model": "eva-unit-01/eva-qwen-2.5-72b",
