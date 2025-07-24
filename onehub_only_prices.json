@@ -2003,13 +2003,6 @@
       "output": 1.5
     },
     {
-      "model": "aetherwiing/mn-starcannon-12b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.4,
-      "output": 0.6
-    },
-    {
       "model": "agentica-org/deepcoder-14b-preview",
       "type": "tokens",
       "channel_type": 20,
@@ -2650,8 +2643,8 @@
       "model": "google/gemma-2-27b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4,
-      "output": 0.4
+      "input": 0.325,
+      "output": 0.325
     },
     {
       "model": "google/gemma-2-9b-it",
@@ -2979,7 +2972,7 @@
       "model": "microsoft/phi-4",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.035,
+      "input": 0.03,
       "output": 0.07
     },
     {
