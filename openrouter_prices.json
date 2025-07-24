@@ -1929,8 +1929,15 @@
       "model": "qwen/qwen3-coder",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5,
-      "output": 2.5
+      "input": 0.151,
+      "output": 0.151
+    },
+    {
+      "model": "qwen/qwen3-coder:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "qwen/qwq-32b",
@@ -2097,8 +2104,8 @@
       "model": "thedrummer/skyfall-36b-v2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.35
+      "input": 0.008,
+      "output": 0.008
     },
     {
       "model": "thedrummer/unslopnemo-12b",
