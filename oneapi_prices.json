@@ -1624,15 +1624,15 @@
       "model": "qwen-mt-plus",
       "type": "tokens",
       "channel_type": 17,
-      "input": 1.071,
-      "output": 3.214
+      "input": 0.129,
+      "output": 0.386
     },
     {
       "model": "qwen-mt-turbo",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.071,
-      "output": 0.214
+      "input": 0.05,
+      "output": 0.139
     },
     {
       "model": "qwen-omni-turbo",
@@ -1865,6 +1865,16 @@
       }
     },
     {
+      "model": "qwen3-235b-a22b-instruct-*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.143,
+      "output": 0.571,
+      "extra_ratios": {
+        "reasoning_tokens": 10.0
+      }
+    },
+    {
       "model": "qwen3-30b-a3b",
       "type": "tokens",
       "channel_type": 17,
@@ -1902,6 +1912,26 @@
       "output": 0.143,
       "extra_ratios": {
         "reasoning_tokens": 10.0
+      }
+    },
+    {
+      "model": "qwen3-coder-plus",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.429,
+      "output": 1.714,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "qwen3-coder-plus-*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.429,
+      "output": 1.714,
+      "extra_ratios": {
+        "cached_tokens": 0.1
       }
     },
     {
