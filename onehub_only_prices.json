@@ -1875,6 +1875,13 @@
       }
     },
     {
+      "model": "qwen3-235b-a22b-thinking*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.143,
+      "output": 1.429
+    },
+    {
       "model": "qwen3-30b-a3b",
       "type": "tokens",
       "channel_type": 17,

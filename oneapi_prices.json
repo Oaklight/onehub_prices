@@ -1875,6 +1875,13 @@
       }
     },
     {
+      "model": "qwen3-235b-a22b-thinking*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.143,
+      "output": 1.429
+    },
+    {
       "model": "qwen3-30b-a3b",
       "type": "tokens",
       "channel_type": 17,
@@ -7751,10 +7758,10 @@
       "model": "qwen3",
       "type": "tokens",
       "channel_type": 2001,
-      "input": 0.286,
+      "input": 0.143,
       "output": 0.571,
       "extra_ratios": {
-        "reasoning_tokens": 5.0
+        "reasoning_tokens": 10.0
       }
     },
     {
@@ -7786,6 +7793,13 @@
       "extra_ratios": {
         "reasoning_tokens": 10.0
       }
+    },
+    {
+      "model": "qwen3-thinking",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.143,
+      "output": 1.429
     },
     {
       "model": "argo:*",
