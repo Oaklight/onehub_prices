@@ -2257,20 +2257,6 @@
       "output": 7.5
     },
     {
-      "model": "arcee-ai/arcee-blitz",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.225,
-      "output": 0.375
-    },
-    {
-      "model": "arcee-ai/caller-large",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.275,
-      "output": 0.425
-    },
-    {
       "model": "arcee-ai/coder-large",
       "type": "tokens",
       "channel_type": 20,
@@ -2297,13 +2283,6 @@
       "channel_type": 20,
       "input": 0.375,
       "output": 0.6
-    },
-    {
-      "model": "arcee-ai/virtuoso-medium-v2",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.25,
-      "output": 0.4
     },
     {
       "model": "arliai/qwq-32b-arliai-rpr-v1",
@@ -2556,6 +2535,13 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "deepseek/deepseek-v3-base",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.151,
+      "output": 0.151
     },
     {
       "model": "eleutherai/llemma_7b",
@@ -3867,18 +3853,25 @@
       "output": 0.3
     },
     {
-      "model": "qwen/qwen3-235b-a22b-07-25",
+      "model": "qwen/qwen3-235b-a22b-2507",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.06,
       "output": 0.295
     },
     {
-      "model": "qwen/qwen3-235b-a22b-07-25:free",
+      "model": "qwen/qwen3-235b-a22b-2507:free",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-thinking-2507",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 1.5
     },
     {
       "model": "qwen/qwen3-235b-a22b:free",
