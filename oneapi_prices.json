@@ -3940,8 +3940,8 @@
       "model": "qwen/qwen3-coder",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.151,
-      "output": 0.151
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "qwen/qwen3-coder:free",
@@ -4257,6 +4257,13 @@
       "channel_type": 20,
       "input": 2.5,
       "output": 7.5
+    },
+    {
+      "model": "z-ai/glm-4-32b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.05
     },
     {
       "model": "ChatPro",
