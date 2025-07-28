@@ -6490,6 +6490,20 @@
       "output": 0.0
     },
     {
+      "model": "intern-latest",
+      "type": "tokens",
+      "channel_type": 1001,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "intern-s1",
+      "type": "tokens",
+      "channel_type": 1001,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "internlm2.5-latest",
       "type": "tokens",
       "channel_type": 1001,
