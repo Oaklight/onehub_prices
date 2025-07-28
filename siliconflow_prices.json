@@ -769,6 +769,20 @@
       "channel_type": 45,
       "input": 2.8,
       "output": 2.8
+    },
+    {
+      "model": "zai-org/GLM-4.5",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.25,
+      "output": 1.0
+    },
+    {
+      "model": "zai-org/GLM-4.5-Air",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.071,
+      "output": 0.429
     }
   ]
 }

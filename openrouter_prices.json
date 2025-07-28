@@ -1,13 +1,6 @@
 {
   "data": [
     {
-      "model": "01-ai/yi-large",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.5,
-      "output": 1.5
-    },
-    {
       "model": "agentica-org/deepcoder-14b-preview",
       "type": "tokens",
       "channel_type": 20,
@@ -1250,8 +1243,8 @@
       "model": "moonshotai/kimi-k2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
-      "output": 1.245
+      "input": 0.065,
+      "output": 0.065
     },
     {
       "model": "moonshotai/kimi-k2:free",
@@ -2225,6 +2218,20 @@
       "channel_type": 20,
       "input": 0.05,
       "output": 0.05
+    },
+    {
+      "model": "z-ai/glm-4.5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.3,
+      "output": 1.1
+    },
+    {
+      "model": "z-ai/glm-4.5-air",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.55
     }
   ]
 }
