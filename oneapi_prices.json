@@ -6042,6 +6042,13 @@
       "output": 0.714
     },
     {
+      "model": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.179,
+      "output": 0.714
+    },
+    {
       "model": "Qwen/Qwen3-30B-A3B",
       "type": "tokens",
       "channel_type": 45,
