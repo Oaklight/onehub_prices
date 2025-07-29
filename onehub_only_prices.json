@@ -2187,13 +2187,6 @@
       "output": 2.0
     },
     {
-      "model": "anthropic/claude-3.5-haiku-20241022:beta",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.4,
-      "output": 2.0
-    },
-    {
       "model": "anthropic/claude-3.5-haiku:beta",
       "type": "tokens",
       "channel_type": 20,
