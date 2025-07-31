@@ -6091,6 +6091,13 @@
       "output": 0.0
     },
     {
+      "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.571,
+      "output": 1.143
+    },
+    {
       "model": "Qwen/Qwen3-Embedding-0.6B",
       "type": "tokens",
       "channel_type": 45,
