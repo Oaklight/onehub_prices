@@ -1292,8 +1292,8 @@
       "model": "neversleep/noromaid-20b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.625,
-      "output": 1.0
+      "input": 0.5,
+      "output": 0.875
     },
     {
       "model": "nothingiisreal/mn-celeste-12b",
@@ -1625,6 +1625,13 @@
       "output": 0.2
     },
     {
+      "model": "openrouter/horizon-alpha",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "perplexity/r1-1776",
       "type": "tokens",
       "channel_type": 20,
@@ -1835,6 +1842,13 @@
       "output": 0.145
     },
     {
+      "model": "qwen/qwen3-30b-a3b-instruct-2507",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.4
+    },
+    {
       "model": "qwen/qwen3-30b-a3b:free",
       "type": "tokens",
       "channel_type": 20,
@@ -2027,8 +2041,8 @@
       "model": "thedrummer/anubis-70b-v1.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 0.4
+      "input": 0.2,
+      "output": 0.35
     },
     {
       "model": "thedrummer/anubis-pro-105b-v1",
@@ -2048,8 +2062,8 @@
       "model": "thedrummer/skyfall-36b-v2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.008,
-      "output": 0.008
+      "input": 0.036,
+      "output": 0.036
     },
     {
       "model": "thedrummer/unslopnemo-12b",
