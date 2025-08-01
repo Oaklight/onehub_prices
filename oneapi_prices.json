@@ -4248,7 +4248,7 @@
       "model": "z-ai/glm-4.5-air",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
+      "input": 0.095,
       "output": 0.55
     },
     {
