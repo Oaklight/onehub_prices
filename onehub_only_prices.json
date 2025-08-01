@@ -3594,20 +3594,6 @@
       "output": 2.2
     },
     {
-      "model": "openai/o1-preview",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 7.5,
-      "output": 30.0
-    },
-    {
-      "model": "openai/o1-preview-2024-09-12",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 7.5,
-      "output": 30.0
-    },
-    {
       "model": "openai/o1-pro",
       "type": "tokens",
       "channel_type": 20,
