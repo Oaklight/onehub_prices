@@ -456,6 +456,13 @@
       "output": 0.0
     },
     {
+      "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.05,
+      "output": 0.2
+    },
+    {
       "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
       "type": "tokens",
       "channel_type": 45,
