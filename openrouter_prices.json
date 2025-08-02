@@ -53,8 +53,8 @@
       "model": "alfredpros/codellama-7b-instruct-solidity",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4,
-      "output": 0.6
+      "input": 0.3,
+      "output": 0.5
     },
     {
       "model": "alpindale/goliath-120b",
@@ -125,13 +125,6 @@
       "channel_type": 20,
       "input": 7.5,
       "output": 37.5
-    },
-    {
-      "model": "anthropic/claude-3-sonnet",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.5,
-      "output": 7.5
     },
     {
       "model": "anthropic/claude-3.5-haiku",
@@ -718,8 +711,8 @@
       "model": "infermatic/mn-inferor-12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4,
-      "output": 0.6
+      "input": 0.3,
+      "output": 0.5
     },
     {
       "model": "inflection/inflection-3-pi",
@@ -982,6 +975,13 @@
     },
     {
       "model": "mistralai/codestral-2501",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 0.45
+    },
+    {
+      "model": "mistralai/codestral-2508",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.15,
@@ -1254,25 +1254,18 @@
       "output": 0.0
     },
     {
-      "model": "morph/morph-v2",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.6,
-      "output": 1.35
-    },
-    {
       "model": "morph/morph-v3-fast",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.6,
-      "output": 1.35
+      "input": 0.45,
+      "output": 0.95
     },
     {
       "model": "morph/morph-v3-large",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.6,
-      "output": 1.35
+      "input": 0.45,
+      "output": 0.95
     },
     {
       "model": "neversleep/llama-3-lumimaid-70b",
@@ -1285,8 +1278,8 @@
       "model": "neversleep/llama-3.1-lumimaid-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.09,
-      "output": 0.5
+      "input": 0.05,
+      "output": 0.45
     },
     {
       "model": "neversleep/noromaid-20b",
@@ -1618,6 +1611,13 @@
       "output": 0.0
     },
     {
+      "model": "openrouter/horizon-beta",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "perplexity/r1-1776",
       "type": "tokens",
       "channel_type": 20,
@@ -1663,8 +1663,8 @@
       "model": "pygmalionai/mythalion-13b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4,
-      "output": 0.6
+      "input": 0.3,
+      "output": 0.5
     },
     {
       "model": "qwen/qwen-2-72b-instruct",
@@ -2041,8 +2041,8 @@
       "model": "thedrummer/rocinante-12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.25
+      "input": 0.095,
+      "output": 0.225
     },
     {
       "model": "thedrummer/skyfall-36b-v2",
