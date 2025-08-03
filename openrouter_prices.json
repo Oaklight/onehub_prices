@@ -1604,13 +1604,6 @@
       "output": 0.2
     },
     {
-      "model": "openrouter/horizon-alpha",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "openrouter/horizon-beta",
       "type": "tokens",
       "channel_type": 20,
