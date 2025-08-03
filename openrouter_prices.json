@@ -1905,13 +1905,6 @@
       "output": 2.25
     },
     {
-      "model": "rekaai/reka-flash-3",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.007,
-      "output": 0.007
-    },
-    {
       "model": "rekaai/reka-flash-3:free",
       "type": "tokens",
       "channel_type": 20,
@@ -1952,13 +1945,6 @@
       "channel_type": 20,
       "input": 0.325,
       "output": 0.375
-    },
-    {
-      "model": "sarvamai/sarvam-m",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.011,
-      "output": 0.011
     },
     {
       "model": "sarvamai/sarvam-m:free",
