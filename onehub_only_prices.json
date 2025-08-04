@@ -4490,24 +4490,24 @@
       "output": 0.0
     },
     {
-      "model": "gemini-2.5-flash-lite-preview",
+      "model": "gemini-2.5-flash-lite",
       "type": "tokens",
       "channel_type": 25,
       "input": 0.05,
       "output": 0.2,
       "extra_ratios": {
-        "input_audio_tokens": 5.0,
+        "input_audio_tokens": 3.0,
         "cached_tokens": 0.25
       }
     },
     {
-      "model": "gemini-2.5-flash-lite-preview-06-17",
+      "model": "gemini-2.5-flash-lite-06-17",
       "type": "tokens",
       "channel_type": 25,
       "input": 0.05,
       "output": 0.2,
       "extra_ratios": {
-        "input_audio_tokens": 5.0,
+        "input_audio_tokens": 3.0,
         "cached_tokens": 0.25
       }
     },
@@ -4548,10 +4548,10 @@
       "output": 10.0
     },
     {
-      "model": "gemini-embedding-exp-03-07",
+      "model": "gemini-embedding-001",
       "type": "tokens",
       "channel_type": 25,
-      "input": 0.0,
+      "input": 0.075,
       "output": 0.0
     },
     {
@@ -4618,11 +4618,32 @@
       "output": 0.0
     },
     {
+      "model": "image4-ultra",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 30.0
+    },
+    {
       "model": "imagen-3.0-generate-002",
       "type": "times",
       "channel_type": 25,
       "input": 0.0,
       "output": 15.0
+    },
+    {
+      "model": "imagen-4.0-generate-preview-*",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 20.0
+    },
+    {
+      "model": "imagen-4.0-ultra-generate-preview-*",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 30.0
     },
     {
       "model": "imagen3",
@@ -4632,14 +4653,14 @@
       "output": 15.0
     },
     {
-      "model": "learnlm-2.0-flash-experimental",
-      "type": "tokens",
+      "model": "imagen4",
+      "type": "times",
       "channel_type": 25,
       "input": 0.0,
-      "output": 0.0
+      "output": 20.0
     },
     {
-      "model": "text-embedding-004",
+      "model": "learnlm-2.0-flash-experimental",
       "type": "tokens",
       "channel_type": 25,
       "input": 0.0,
@@ -4651,6 +4672,34 @@
       "channel_type": 25,
       "input": 0.0,
       "output": 175.0
+    },
+    {
+      "model": "veo-3-fast-preview",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 200.0
+    },
+    {
+      "model": "veo-3-preview",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 375.0
+    },
+    {
+      "model": "veo-3.0-fast-generate-preview",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 200.0
+    },
+    {
+      "model": "veo-3.0-generate-preview",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 375.0
     },
     {
       "model": "veo2",
