@@ -15,6 +15,16 @@
       "output": 7.5
     },
     {
+      "model": "codex-mini-latest",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.75,
+      "output": 3.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
       "model": "computer-use-preview",
       "type": "tokens",
       "channel_type": 1,
@@ -332,7 +342,7 @@
       }
     },
     {
-      "model": "gpt-4o-audio-preview-2024-10-01",
+      "model": "gpt-4o-audio-preview-*",
       "type": "tokens",
       "channel_type": 1,
       "input": 1.25,
@@ -343,15 +353,11 @@
       }
     },
     {
-      "model": "gpt-4o-audio-preview-2024-12-17",
+      "model": "gpt-4o-audio-preview-2024-10-01",
       "type": "tokens",
       "channel_type": 1,
       "input": 1.25,
-      "output": 5.0,
-      "extra_ratios": {
-        "input_audio_tokens": 16.0,
-        "output_audio_tokens": 8.0
-      }
+      "output": 5
     },
     {
       "model": "gpt-4o-mini",
@@ -460,14 +466,7 @@
       }
     },
     {
-      "model": "gpt-4o-realtime-preview-2024-10-01",
-      "type": "tokens",
-      "channel_type": 1,
-      "input": 2.5,
-      "output": 10
-    },
-    {
-      "model": "gpt-4o-realtime-preview-2024-12-17",
+      "model": "gpt-4o-realtime-preview-*",
       "type": "tokens",
       "channel_type": 1,
       "input": 2.5,
@@ -477,6 +476,13 @@
         "input_audio_tokens": 8.0,
         "output_audio_tokens": 4.0
       }
+    },
+    {
+      "model": "gpt-4o-realtime-preview-2024-10-01",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 2.5,
+      "output": 10
     },
     {
       "model": "gpt-4o-search-preview",
@@ -585,6 +591,26 @@
       "model": "o3",
       "type": "tokens",
       "channel_type": 1,
+      "input": 1.0,
+      "output": 4.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "o3-2025-04-16",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.0,
+      "output": 4.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "o3-deep-research",
+      "type": "tokens",
+      "channel_type": 1,
       "input": 5.0,
       "output": 20.0,
       "extra_ratios": {
@@ -592,7 +618,7 @@
       }
     },
     {
-      "model": "o3-2025-04-16",
+      "model": "o3-deep-research-2025-06-26",
       "type": "tokens",
       "channel_type": 1,
       "input": 5.0,
@@ -622,6 +648,20 @@
       }
     },
     {
+      "model": "o3-pro",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 10.0,
+      "output": 40.0
+    },
+    {
+      "model": "o3-pro-2025-06-10",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 10.0,
+      "output": 40.0
+    },
+    {
       "model": "o4-mini",
       "type": "tokens",
       "channel_type": 1,
@@ -637,6 +677,26 @@
       "channel_type": 1,
       "input": 0.55,
       "output": 2.2,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "o4-mini-deep-research",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.0,
+      "output": 4.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "o4-mini-deep-research-2025-06-26",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.0,
+      "output": 4.0,
       "extra_ratios": {
         "cached_tokens": 0.25
       }
@@ -733,18 +793,32 @@
       "output": 12
     },
     {
+      "model": "claude-3-5-haiku",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 0.4,
+      "output": 2.0
+    },
+    {
       "model": "claude-3-5-haiku-20241022",
       "type": "tokens",
       "channel_type": 14,
-      "input": 0.5,
-      "output": 2.5
+      "input": 0.4,
+      "output": 2.0
     },
     {
       "model": "claude-3-5-haiku-latest",
       "type": "tokens",
       "channel_type": 14,
-      "input": 0.5,
-      "output": 2.5
+      "input": 0.4,
+      "output": 2.0
+    },
+    {
+      "model": "claude-3-5-sonnet",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
     },
     {
       "model": "claude-3-5-sonnet-20240620",
@@ -768,6 +842,20 @@
       "output": 7.5
     },
     {
+      "model": "claude-3-5-sonnet-v2",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "claude-3-7-sonnet",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
       "model": "claude-3-7-sonnet-20250219",
       "type": "tokens",
       "channel_type": 14,
@@ -775,11 +863,32 @@
       "output": 7.5
     },
     {
+      "model": "claude-3-7-sonnet-latest",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "claude-3-haiku",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 0.125,
+      "output": 0.625
+    },
+    {
       "model": "claude-3-haiku-20240307",
       "type": "tokens",
       "channel_type": 14,
       "input": 0.125,
       "output": 0.625
+    },
+    {
+      "model": "claude-3-opus",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 7.5,
+      "output": 37.5
     },
     {
       "model": "claude-3-opus-20240229",
@@ -796,11 +905,102 @@
       "output": 7.5
     },
     {
+      "model": "claude-3.5-haiku",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 0.4,
+      "output": 2.0
+    },
+    {
+      "model": "claude-3.5-sonnet",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "claude-3.5-sonnet-v2",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "claude-3.7-sonnet",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
       "model": "claude-instant-1.2",
       "type": "tokens",
       "channel_type": 14,
       "input": 0.4,
       "output": 1.2
+    },
+    {
+      "model": "claude-opus-4",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 7.5,
+      "output": 37.5
+    },
+    {
+      "model": "claude-opus-4-0",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 7.5,
+      "output": 37.5
+    },
+    {
+      "model": "claude-opus-4-1",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 7.5,
+      "output": 37.5
+    },
+    {
+      "model": "claude-opus-4-1-20250805",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 7.5,
+      "output": 37.5
+    },
+    {
+      "model": "claude-opus-4-20250514",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 7.5,
+      "output": 37.5
+    },
+    {
+      "model": "claude-opus-4.1",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 7.5,
+      "output": 37.5
+    },
+    {
+      "model": "claude-sonnet-4",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "claude-sonnet-4-0",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "claude-sonnet-4-20250514",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
     },
     {
       "model": "BLOOMZ-7B",
@@ -6507,6 +6707,13 @@
       "channel_type": 45,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "stepfun-ai/step3",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.286,
+      "output": 0.714
     },
     {
       "model": "tencent/Hunyuan-A13B-Instruct",

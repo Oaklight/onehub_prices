@@ -778,6 +778,13 @@
       "output": 0.0
     },
     {
+      "model": "stepfun-ai/step3",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.286,
+      "output": 0.714
+    },
+    {
       "model": "tencent/Hunyuan-A13B-Instruct",
       "type": "tokens",
       "channel_type": 45,
