@@ -2301,20 +2301,6 @@
       "output": 0.0
     },
     {
-      "model": "ai21/jamba-1.6-large",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.0,
-      "output": 4.0
-    },
-    {
-      "model": "ai21/jamba-1.6-mini",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.2
-    },
-    {
       "model": "aion-labs/aion-1.0",
       "type": "tokens",
       "channel_type": 20,
