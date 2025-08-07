@@ -1523,15 +1523,22 @@
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.25
+      "input": 0.045,
+      "output": 0.225
     },
     {
       "model": "openai/gpt-oss-20b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.1
+      "input": 0.02,
+      "output": 0.08
+    },
+    {
+      "model": "openai/gpt-oss-20b:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "openai/o1",
