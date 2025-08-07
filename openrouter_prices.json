@@ -2066,6 +2066,13 @@
       "output": 0.069
     },
     {
+      "model": "thudm/glm-z1-32b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.015,
+      "output": 0.015
+    },
+    {
       "model": "thudm/glm-z1-32b:free",
       "type": "tokens",
       "channel_type": 20,
