@@ -1618,13 +1618,6 @@
       "output": 0.2
     },
     {
-      "model": "openrouter/horizon-beta",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "perplexity/r1-1776",
       "type": "tokens",
       "channel_type": 20,
@@ -1919,13 +1912,6 @@
       "output": 0.0
     },
     {
-      "model": "sao10k/fimbulvetr-11b-v2",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.4,
-      "output": 0.6
-    },
-    {
       "model": "sao10k/l3-euryale-70b",
       "type": "tokens",
       "channel_type": 20,
@@ -2066,13 +2052,6 @@
       "output": 0.069
     },
     {
-      "model": "thudm/glm-z1-32b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.015,
-      "output": 0.015
-    },
-    {
       "model": "thudm/glm-z1-32b:free",
       "type": "tokens",
       "channel_type": 20,
@@ -2106,13 +2085,6 @@
       "channel_type": 20,
       "input": 0.35,
       "output": 0.5
-    },
-    {
-      "model": "undi95/toppy-m-7b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.4,
-      "output": 0.6
     },
     {
       "model": "x-ai/grok-2-1212",
