@@ -8215,6 +8215,90 @@
       "output": 0.0
     },
     {
+      "model": "argo:claude-3.5-haiku",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-3.5-sonnet-v2",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-3.7-sonnet",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-4-opus",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-4-sonnet",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-haiku-3.5",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-opus-4",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-sonnet-3.5-v2",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-sonnet-3.7",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-sonnet-4",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:gemini-2.5-flash",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:gemini-2.5-pro",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "argo:gpt-3.5-turbo",
       "type": "tokens",
       "channel_type": 2002,
