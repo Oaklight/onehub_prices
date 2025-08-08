@@ -20,6 +20,9 @@ class PriceViewer {
         this.searchBtn = document.getElementById('searchBtn');
         this.clearBtn = document.getElementById('clearBtn');
         this.channelFilter = document.getElementById('channelFilter');
+        this.channelFilterTrigger = this.channelFilter.querySelector('.select-trigger');
+        this.channelFilterOptions = this.channelFilter.querySelector('.select-options');
+        this.channelFilterText = this.channelFilter.querySelector('.select-text');
         this.typeFilter = document.getElementById('typeFilter');
         this.tableBody = document.getElementById('tableBody');
         this.totalModels = document.getElementById('totalModels');
@@ -39,6 +42,9 @@ class PriceViewer {
         this.usdModeBtn = document.getElementById('usdModeBtn');
         this.priceModeButtons = document.querySelectorAll('.price-mode-btn');
         
+        // 自定义下拉组件状态
+        this.selectedChannelValue = '';
+        
         // 帮助页面元素（已移除动态加载逻辑）
     }
     
@@ -51,8 +57,20 @@ class PriceViewer {
             }
         });
         this.searchInput.addEventListener('input', () => this.performSearch());
-        this.channelFilter.addEventListener('change', () => this.performSearch());
         this.typeFilter.addEventListener('change', () => this.performSearch());
+        
+        // 自定义下拉组件事件
+        this.channelFilterTrigger.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this.toggleChannelDropdown();
+        });
+        
+        // 点击外部关闭下拉菜单
+        document.addEventListener('click', (e) => {
+            if (!this.channelFilter.contains(e.target)) {
+                this.closeChannelDropdown();
+            }
+        });
         
         // 标签页事件
         this.tabButtons.forEach(button => {
@@ -169,18 +187,45 @@ class PriceViewer {
     }
     
     populateFilters() {
-        // 填充渠道类型筛选器
+        // 填充渠道类型筛选器（自定义下拉组件）
         const sortedChannelTypes = Array.from(this.channelTypes).sort((a, b) => a - b);
+        
+        // 清空现有选项（保留默认选项）
+        this.channelFilterOptions.innerHTML = `
+            <div class="select-option" data-value="">
+                <span class="option-text">所有渠道类型</span>
+            </div>
+        `;
+        
         sortedChannelTypes.forEach(channelType => {
-            const option = document.createElement('option');
-            option.value = channelType;
-            
-            // 使用 ownedby 数据显示渠道名称
             const channelInfo = this.ownedByData[channelType];
             const displayName = channelInfo ? channelInfo.name : `渠道类型 ${channelType}`;
-            option.textContent = `${displayName} (${channelType})`;
             
-            this.channelFilter.appendChild(option);
+            const optionDiv = document.createElement('div');
+            optionDiv.className = 'select-option';
+            optionDiv.dataset.value = channelType;
+            
+            optionDiv.innerHTML = `
+                ${channelInfo && channelInfo.icon ?
+                    `<img src="${channelInfo.icon}" alt="${displayName}" class="option-icon" onerror="this.style.display='none'">` :
+                    ''
+                }
+                <span class="option-text">${displayName}</span>
+                <span class="option-id">(${channelType})</span>
+            `;
+            
+            // 添加点击事件
+            optionDiv.addEventListener('click', () => {
+                this.selectChannelOption(channelType, displayName, channelInfo);
+            });
+            
+            this.channelFilterOptions.appendChild(optionDiv);
+        });
+        
+        // 为默认选项添加点击事件
+        const defaultOption = this.channelFilterOptions.querySelector('[data-value=""]');
+        defaultOption.addEventListener('click', () => {
+            this.selectChannelOption('', '所有渠道类型', null);
         });
     }
     
@@ -271,27 +316,65 @@ class PriceViewer {
             // 点击卡片切换到价格页面并筛选该渠道
             channelCard.addEventListener('click', () => {
                 this.switchTab('prices');
-                this.channelFilter.value = channelId;
-                this.performSearch();
+                const channelInfo = this.ownedByData[channelId];
+                const displayName = channelInfo ? channelInfo.name : `渠道 ${channelId}`;
+                this.selectChannelOption(channelId, displayName, channelInfo);
             });
             
             this.channelsGrid.appendChild(channelCard);
         });
     }
     
+    // 自定义下拉组件控制方法
+    toggleChannelDropdown() {
+        this.channelFilter.classList.toggle('open');
+    }
+    
+    closeChannelDropdown() {
+        this.channelFilter.classList.remove('open');
+    }
+    
+    selectChannelOption(value, displayName, channelInfo) {
+        this.selectedChannelValue = value;
+        
+        // 更新显示文本
+        if (channelInfo && channelInfo.icon) {
+            this.channelFilterText.innerHTML = `
+                <img src="${channelInfo.icon}" alt="${displayName}" class="option-icon" onerror="this.style.display='none'">
+                <span>${displayName}</span>
+            `;
+        } else {
+            this.channelFilterText.textContent = displayName;
+        }
+        
+        // 更新选中状态
+        this.channelFilterOptions.querySelectorAll('.select-option').forEach(option => {
+            option.classList.remove('selected');
+            if (option.dataset.value === value) {
+                option.classList.add('selected');
+            }
+        });
+        
+        // 关闭下拉菜单
+        this.closeChannelDropdown();
+        
+        // 执行搜索
+        this.performSearch();
+    }
+    
     performSearch() {
         const searchTerm = this.searchInput.value.toLowerCase().trim();
-        const channelFilter = this.channelFilter.value;
+        const channelFilter = this.selectedChannelValue;
         const typeFilter = this.typeFilter.value;
         
         this.filteredData = this.data.filter(item => {
-            const matchesSearch = !searchTerm || 
+            const matchesSearch = !searchTerm ||
                 item.model.toLowerCase().includes(searchTerm);
             
-            const matchesChannel = !channelFilter || 
+            const matchesChannel = !channelFilter ||
                 item.channel_type.toString() === channelFilter;
             
-            const matchesType = !typeFilter || 
+            const matchesType = !typeFilter ||
                 item.type === typeFilter;
             
             return matchesSearch && matchesChannel && matchesType;
@@ -303,7 +386,7 @@ class PriceViewer {
     
     clearFilters() {
         this.searchInput.value = '';
-        this.channelFilter.value = '';
+        this.selectChannelOption('', '所有渠道类型', null);
         this.typeFilter.value = '';
         this.filteredData = [...this.data];
         this.renderTable();

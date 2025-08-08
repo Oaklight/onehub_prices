@@ -174,6 +174,105 @@ header p {
     min-width: 150px;
 }
 
+/* 自定义下拉组件样式 */
+.custom-select-wrapper {
+    position: relative;
+    min-width: 200px;
+}
+
+.custom-select {
+    position: relative;
+    background: white;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.select-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    font-size: 14px;
+    color: #495057;
+}
+
+.custom-select:hover {
+    border-color: #667eea;
+}
+
+.select-arrow {
+    font-size: 12px;
+    color: #6c757d;
+    transition: transform 0.3s ease;
+}
+
+.custom-select.open .select-arrow {
+    transform: rotate(180deg);
+}
+
+.select-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 2px solid #e1e5e9;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+
+.custom-select.open .select-options {
+    display: block;
+}
+
+.select-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+    color: #495057;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.select-option:hover {
+    background-color: #f8f9fa;
+}
+
+.select-option.selected {
+    background-color: #667eea;
+    color: white;
+}
+
+.option-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.option-text {
+    flex: 1;
+}
+
+.option-id {
+    font-size: 12px;
+    color: #6c757d;
+    margin-left: auto;
+}
+
+.select-option.selected .option-id {
+    color: rgba(255, 255, 255, 0.8);
+}
+
 /* 价格显示模式切换样式 */
 .price-mode-section {
     margin-top: 20px;
@@ -404,6 +503,19 @@ tbody tr:hover {
 
     .filters select {
         min-width: auto;
+    }
+
+    .custom-select-wrapper {
+        min-width: auto;
+    }
+
+    .price-mode-section {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .price-mode-buttons {
+        justify-content: center;
     }
 
     .stats {
