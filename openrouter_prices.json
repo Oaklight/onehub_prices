@@ -15,6 +15,20 @@
       "output": 0.0
     },
     {
+      "model": "ai21/jamba-large-1.7",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 4.0
+    },
+    {
+      "model": "ai21/jamba-mini-1.7",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.2
+    },
+    {
       "model": "aion-labs/aion-1.0",
       "type": "tokens",
       "channel_type": 20,
@@ -39,8 +53,8 @@
       "model": "alfredpros/codellama-7b-instruct-solidity",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 0.5
+      "input": 0.35,
+      "output": 0.55
     },
     {
       "model": "alpindale/goliath-120b",
@@ -1278,8 +1292,8 @@
       "model": "neversleep/llama-3.1-lumimaid-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.45
+      "input": 0.085,
+      "output": 0.495
     },
     {
       "model": "neversleep/noromaid-20b",
@@ -1691,8 +1705,8 @@
       "model": "pygmalionai/mythalion-13b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 0.5
+      "input": 0.35,
+      "output": 0.55
     },
     {
       "model": "qwen/qwen-2-72b-instruct",
