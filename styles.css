@@ -326,6 +326,30 @@ header p {
     border-color: #5a6fd8;
 }
 
+.price-mode-notice {
+    margin-top: 12px;
+    padding: 10px 12px;
+    background: #f8f9ff;
+    border: 1px solid #e1e5f2;
+    border-radius: 6px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.notice-icon {
+    font-size: 14px;
+    flex-shrink: 0;
+    margin-top: 1px;
+}
+
+.notice-text {
+    color: #6c757d;
+    flex: 1;
+}
+
 .stats {
     display: flex;
     gap: 20px;
