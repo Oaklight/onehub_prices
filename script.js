@@ -492,17 +492,17 @@ class PriceViewer {
         
         switch (mode) {
             case 'ratio':
-                return price.toFixed(3);
+                return price.toFixed(5);
             case 'cny':
                 // 倍率转换为人民币：倍率 * SCALE_FACTOR_CNY * 1000 (因为原始倍率是基于1K tokens的)
                 const cnyPrice = price * this.SCALE_FACTOR_CNY * 1000;
-                return `¥${cnyPrice.toFixed(4)}`;
+                return `¥${cnyPrice.toFixed(6)}`;
             case 'usd':
                 // 倍率转换为美元：倍率 * SCALE_FACTOR_USD * 1000 (因为原始倍率是基于1K tokens的)
                 const usdPrice = price * this.SCALE_FACTOR_USD * 1000;
-                return `$${usdPrice.toFixed(4)}`;
+                return `$${usdPrice.toFixed(6)}`;
             default:
-                return price.toFixed(3);
+                return price.toFixed(5);
         }
     }
     
