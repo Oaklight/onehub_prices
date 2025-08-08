@@ -451,7 +451,12 @@ class PriceViewer {
             const extraCell = document.createElement('td');
             if (item.extra_ratios) {
                 const ratios = Object.entries(item.extra_ratios)
-                    .map(([key, value]) => `<span class="ratio-item">${key}: ${value}</span>`)
+                    .map(([key, value]) => {
+                        // 计算相对于输入价格的实际费率
+                        const actualRatio = item.input * value;
+                        const formattedRatio = this.formatPrice(actualRatio);
+                        return `<span class="ratio-item">${key}: ${formattedRatio} (${value}x)</span>`;
+                    })
                     .join('');
                 extraCell.innerHTML = `<div class="extra-ratios">${ratios}</div>`;
             } else {
@@ -505,22 +510,28 @@ class PriceViewer {
     updateTableHeaders() {
         const inputHeader = document.querySelector('th:nth-child(4)');
         const outputHeader = document.querySelector('th:nth-child(5)');
+        const extraHeader = document.querySelector('th:nth-child(6)');
         
         if (inputHeader && outputHeader) {
             switch (this.priceMode) {
                 case 'ratio':
-                    inputHeader.textContent = '输入价格';
-                    outputHeader.textContent = '输出价格';
+                    inputHeader.textContent = '输入倍率';
+                    outputHeader.textContent = '输出倍率';
                     break;
                 case 'cny':
-                    inputHeader.textContent = '输入价格 (¥/1K tokens)';
-                    outputHeader.textContent = '输出价格 (¥/1K tokens)';
+                    inputHeader.textContent = '输入价格 (¥/1M tokens)';
+                    outputHeader.textContent = '输出价格 (¥/1M tokens)';
                     break;
                 case 'usd':
-                    inputHeader.textContent = '输入价格 ($/1K tokens)';
-                    outputHeader.textContent = '输出价格 ($/1K tokens)';
+                    inputHeader.textContent = '输入价格 ($/1M tokens)';
+                    outputHeader.textContent = '输出价格 ($/1M tokens)';
                     break;
             }
+        }
+        
+        // 更新额外费率表头，标注相对于输入价格
+        if (extraHeader) {
+            extraHeader.textContent = '额外费率 (相对输入价格)';
         }
     }
     
