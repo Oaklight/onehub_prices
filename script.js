@@ -369,7 +369,7 @@ class PriceViewer {
         
         this.filteredData = this.data.filter(item => {
             const matchesSearch = !searchTerm ||
-                item.model.toLowerCase().includes(searchTerm);
+                this.fuzzyMatch(item.model.toLowerCase(), searchTerm);
             
             const matchesChannel = !channelFilter ||
                 item.channel_type.toString() === channelFilter;
@@ -380,8 +380,183 @@ class PriceViewer {
             return matchesSearch && matchesChannel && matchesType;
         });
         
+        // Sort results by relevance if there's a search term
+        if (searchTerm) {
+            this.filteredData.sort((a, b) => {
+                const scoreA = this.calculateMatchScore(a.model.toLowerCase(), searchTerm);
+                const scoreB = this.calculateMatchScore(b.model.toLowerCase(), searchTerm);
+                return scoreB - scoreA; // Higher score first
+            });
+        }
+        
         this.renderTable();
         this.updateStats();
+    }
+    
+    /**
+     * Fuzzy matching algorithm that supports multiple matching strategies
+     * @param {string} text - The text to search in
+     * @param {string} query - The search query
+     * @returns {boolean} - Whether the query matches the text
+     */
+    fuzzyMatch(text, query) {
+        // Strategy 1: Direct substring match (highest priority)
+        if (text.includes(query)) {
+            return true;
+        }
+        
+        // Strategy 2: Word-based matching
+        const textWords = this.extractWords(text);
+        const queryWords = this.extractWords(query);
+        
+        // Check if all query words have matches in text words
+        const wordMatches = queryWords.every(queryWord => {
+            return textWords.some(textWord => {
+                // Exact word match
+                if (textWord.includes(queryWord)) {
+                    return true;
+                }
+                // Prefix match for abbreviations
+                if (textWord.startsWith(queryWord) && queryWord.length >= 2) {
+                    return true;
+                }
+                // Character sequence match for version numbers
+                if (this.sequenceMatch(textWord, queryWord)) {
+                    return true;
+                }
+                return false;
+            });
+        });
+        
+        if (wordMatches) {
+            return true;
+        }
+        
+        // Strategy 3: Character sequence matching (for cases like "deepseek v3" -> "deepseek-chat-v3")
+        return this.advancedSequenceMatch(text, query);
+    }
+    
+    /**
+     * Extract meaningful words from text, handling various separators
+     * @param {string} text - Input text
+     * @returns {Array<string>} - Array of words
+     */
+    extractWords(text) {
+        // Split by common separators and filter out empty strings
+        return text.split(/[\s\-_\/\.\:]+/)
+                  .filter(word => word.length > 0)
+                  .map(word => word.toLowerCase());
+    }
+    
+    /**
+     * Check if characters in query appear in sequence in text
+     * @param {string} text - Text to search in
+     * @param {string} query - Query string
+     * @returns {boolean} - Whether sequence matches
+     */
+    sequenceMatch(text, query) {
+        if (query.length === 0) return true;
+        if (text.length === 0) return false;
+        
+        let queryIndex = 0;
+        for (let i = 0; i < text.length && queryIndex < query.length; i++) {
+            if (text[i] === query[queryIndex]) {
+                queryIndex++;
+            }
+        }
+        
+        return queryIndex === query.length;
+    }
+    
+    /**
+     * Advanced sequence matching with word boundary awareness
+     * @param {string} text - Text to search in
+     * @param {string} query - Query string
+     * @returns {boolean} - Whether advanced sequence matches
+     */
+    advancedSequenceMatch(text, query) {
+        const queryWords = this.extractWords(query);
+        const textWords = this.extractWords(text);
+        
+        // Try to match query words in order within text words
+        let queryWordIndex = 0;
+        
+        for (let textWord of textWords) {
+            if (queryWordIndex >= queryWords.length) break;
+            
+            const currentQueryWord = queryWords[queryWordIndex];
+            
+            // Check various matching strategies for this word
+            if (textWord.includes(currentQueryWord) ||
+                textWord.startsWith(currentQueryWord) ||
+                this.sequenceMatch(textWord, currentQueryWord)) {
+                queryWordIndex++;
+            }
+        }
+        
+        // Consider it a match if we matched most of the query words
+        return queryWordIndex >= Math.max(1, queryWords.length * 0.7);
+    }
+    
+    /**
+     * Calculate match score for sorting results by relevance
+     * @param {string} text - Text to score
+     * @param {string} query - Query string
+     * @returns {number} - Match score (higher is better)
+     */
+    calculateMatchScore(text, query) {
+        let score = 0;
+        
+        // Exact match gets highest score
+        if (text === query) {
+            return 1000;
+        }
+        
+        // Direct substring match gets high score
+        if (text.includes(query)) {
+            score += 500;
+            // Bonus for match at beginning
+            if (text.startsWith(query)) {
+                score += 200;
+            }
+        }
+        
+        const textWords = this.extractWords(text);
+        const queryWords = this.extractWords(query);
+        
+        // Score based on word matches
+        let wordMatchScore = 0;
+        queryWords.forEach(queryWord => {
+            textWords.forEach(textWord => {
+                if (textWord === queryWord) {
+                    wordMatchScore += 100; // Exact word match
+                } else if (textWord.includes(queryWord)) {
+                    wordMatchScore += 50; // Partial word match
+                } else if (textWord.startsWith(queryWord)) {
+                    wordMatchScore += 30; // Prefix match
+                } else if (this.sequenceMatch(textWord, queryWord)) {
+                    wordMatchScore += 20; // Sequence match
+                }
+            });
+        });
+        
+        score += wordMatchScore;
+        
+        // Bonus for shorter text (more specific matches)
+        score += Math.max(0, 100 - text.length);
+        
+        // Bonus for matching more query words
+        const matchedWords = queryWords.filter(queryWord =>
+            textWords.some(textWord =>
+                textWord.includes(queryWord) ||
+                textWord.startsWith(queryWord) ||
+                this.sequenceMatch(textWord, queryWord)
+            )
+        ).length;
+        
+        score += (matchedWords / queryWords.length) * 100;
+        
+        return score;
     }
     
     clearFilters() {
@@ -411,7 +586,11 @@ class PriceViewer {
             
             // 模型名称
             const modelCell = document.createElement('td');
-            modelCell.innerHTML = `<span class="model-name">${this.escapeHtml(item.model)}</span>`;
+            const searchTerm = this.searchInput.value.toLowerCase().trim();
+            const highlightedModel = searchTerm ?
+                this.highlightMatches(item.model, searchTerm) :
+                this.escapeHtml(item.model);
+            modelCell.innerHTML = `<span class="model-name">${highlightedModel}</span>`;
             row.appendChild(modelCell);
             
             // 类型
@@ -543,6 +722,49 @@ class PriceViewer {
         const div = document.createElement('div');
         div.textContent = text;
         return div.innerHTML;
+    }
+    
+    /**
+     * Highlight matching parts in text based on search query
+     * @param {string} text - Original text
+     * @param {string} query - Search query
+     * @returns {string} - HTML with highlighted matches
+     */
+    highlightMatches(text, query) {
+        if (!query || !text) {
+            return this.escapeHtml(text);
+        }
+        
+        const escapedText = this.escapeHtml(text);
+        const queryWords = this.extractWords(query);
+        
+        let result = escapedText;
+        
+        // Highlight direct substring matches first (highest priority)
+        if (text.toLowerCase().includes(query.toLowerCase())) {
+            const regex = new RegExp(`(${this.escapeRegex(query)})`, 'gi');
+            result = result.replace(regex, '<mark class="search-highlight">$1</mark>');
+            return result;
+        }
+        
+        // Highlight individual word matches
+        queryWords.forEach(queryWord => {
+            if (queryWord.length >= 2) { // Only highlight words with 2+ characters
+                const regex = new RegExp(`\\b(${this.escapeRegex(queryWord)})`, 'gi');
+                result = result.replace(regex, '<mark class="search-highlight">$1</mark>');
+            }
+        });
+        
+        return result;
+    }
+    
+    /**
+     * Escape special regex characters
+     * @param {string} string - String to escape
+     * @returns {string} - Escaped string
+     */
+    escapeRegex(string) {
+        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     }
     
     updateStats() {

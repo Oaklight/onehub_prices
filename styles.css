@@ -433,6 +433,42 @@ tbody tr:hover {
     word-break: break-word;
 }
 
+/* 搜索高亮样式 */
+.search-highlight {
+    background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+    color: #856404;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-weight: 700;
+    border: 1px solid #ffeaa7;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    animation: highlight-pulse 0.6s ease-in-out;
+}
+
+@keyframes highlight-pulse {
+    0% {
+        background: #fff3cd;
+        transform: scale(1);
+    }
+    50% {
+        background: #ffeaa7;
+        transform: scale(1.05);
+    }
+    100% {
+        background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+        transform: scale(1);
+    }
+}
+
+/* 深色主题下的高亮样式 */
+@media (prefers-color-scheme: dark) {
+    .search-highlight {
+        background: linear-gradient(135deg, #4a4a00 0%, #666600 100%);
+        color: #ffff99;
+        border-color: #666600;
+    }
+}
+
 .price {
     font-weight: 600;
     color: #28a745;
