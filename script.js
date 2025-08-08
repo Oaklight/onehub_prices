@@ -45,6 +45,11 @@ class PriceViewer {
         // 自定义下拉组件状态
         this.selectedChannelValue = '';
         
+        // 清空搜索框（页面刷新时）
+        if (this.searchInput) {
+            this.searchInput.value = '';
+        }
+        
         // 帮助页面元素（已移除动态加载逻辑）
     }
     
