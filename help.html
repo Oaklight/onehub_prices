@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneHub 价格同步使用指南</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* 独立页面特定样式 */
+        .standalone-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .standalone-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .standalone-header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+        
+        .back-link:hover {
+            background: rgba(255, 255, 255, 0.3);
+            text-decoration: none;
+        }
+        
+        .standalone-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .help-content {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="standalone-container">
+        <div class="standalone-header">
+            <h1>OneHub 价格同步使用指南</h1>
+            <p>详细的部署和使用说明文档</p>
+            <a href="index.html" class="back-link">
+                ← 返回价格查询主页
+            </a>
+        </div>
+
+        <div class="help-content">
+            <div class="help-section">
+                <h2>项目简介</h2>
+                <p>本项目管理多个 AI 供应商的价格信息，支持自动获取和手动维护多种来源的价格数据。包含以下价格表：</p>
+                <ul>
+                    <li><strong>oneapi_prices.json</strong>: 适用于 one-hub 的完整价格表，包含所有供应商</li>
+                    <li><strong>onehub_only_prices.json</strong>: 仅包含供应商 id ≤ 1000 的核心供应商价格表</li>
+                    <li><strong>siliconflow_prices.json</strong>: 来自 siliconflow 官方的原始价格数据</li>
+                    <li><strong>openrouter_prices.json</strong>: 来自 openrouter 官方的原始价格数据</li>
+                </ul>
+                <p>所有价格数据每 6 小时自动更新，确保信息及时准确。</p>
+            </div>
+
+            <div class="help-section">
+                <h2>主要文件说明</h2>
+                <div class="important-notice">
+                    <h3>⚠️ 重要提示</h3>
+                    <ul>
+                        <li>价格表与供应商 JSON 结果均已迁移至 <strong>prices 分支</strong>，使用前请注意更新 url 路径</li>
+                        <li>使用任何价格表前，请务必检查 <a href="https://raw.githubusercontent.com/Oaklight/onehub_prices/prices/ownedby.json" target="_blank">ownedby.json</a> 以确保供应商 ID 与本项目版本一致</li>
+                        <li>如需使用除了 onehub 默认定义的供应商之外的价格，请确保你的模型归属页面与 ownedby.json 中的定义一致</li>
+                    </ul>
+                </div>
+
+                <h3>价格表选择</h3>
+                <div class="price-tables">
+                    <div class="price-table-item">
+                        <h4>1. 完整价格表 (oneapi_prices.json)</h4>
+                        <p>包含所有供应商的价格信息，适用于需要完整价格数据的场景</p>
+                        <div class="url-list">
+                            <p><strong>地址：</strong></p>
+                            <ul>
+                                <li>GitHub Raw: <code>https://raw.githubusercontent.com/Oaklight/onehub_prices/prices/oneapi_prices.json</code></li>
+                                <li>jsDelivr CDN: <code>https://cdn.jsdelivr.net/gh/Oaklight/onehub_prices@prices/oneapi_prices.json</code></li>
+                                <li>jsDelivr Mirror: <code>https://cdn.jsdmirror.com/gh/Oaklight/onehub_prices@prices/oneapi_prices.json</code></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="price-table-item">
+                        <h4>2. 核心供应商价格表 (onehub_only_prices.json)</h4>
+                        <p>仅包含供应商 id ≤ 1000 的核心供应商，适用于只需要核心供应商价格的场景</p>
+                        <div class="url-list">
+                            <p><strong>地址：</strong></p>
+                            <ul>
+                                <li>GitHub Raw: <code>https://raw.githubusercontent.com/Oaklight/onehub_prices/prices/onehub_only_prices.json</code></li>
+                                <li>jsDelivr CDN: <code>https://cdn.jsdelivr.net/gh/Oaklight/onehub_prices@prices/onehub_only_prices.json</code></li>
+                                <li>jsDelivr Mirror: <code>https://cdn.jsdmirror.com/npm/onehub_prices@prices/onehub_only_prices.json</code></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="help-section">
+                <h2>价格同步指导</h2>
+                
+                <h3>方法一：通过 OneHub 运营界面更新</h3>
+                <div class="method-steps">
+                    <h4>核对模型归属：</h4>
+                    <ol>
+                        <li>进入 <code>运营 → 模型归属</code></li>
+                        <li>对比 <code>ownedby.json</code> 文件，手工增删查改模型归属信息</li>
+                    </ol>
+                    
+                    <h4>更新模型价格：</h4>
+                    <ol>
+                        <li>进入 <code>运营 → 模型价格 → 更新价格</code></li>
+                        <li>根据需求选择上述价格表地址填入</li>
+                        <li>点击 <code>获取数据</code></li>
+                        <li>按需选择 <code>覆盖数据</code> 或 <code>仅添加新增</code></li>
+                    </ol>
+                </div>
+
+                <h3>方法二：通过 OneHub API 脚本更新（推荐）</h3>
+                <div class="method-steps">
+                    <h4>使用步骤：</h4>
+                    <ol>
+                        <li>确保已安装依赖项：
+                            <pre><code>pip install -r requirements.txt</code></pre>
+                        </li>
+                        
+                        <li>运行脚本以同步 ownedby 数据：
+                            <pre><code>python src/sync_ownedby.py [--source_json SOURCE_JSON] [--source_url SOURCE_URL] [--manual_json MANUAL_JSON] [--manual_url MANUAL_URL]</code></pre>
+                            <p>示例：</p>
+                            <pre><code>python src/sync_ownedby.py --source_json=ownedby.json --manual_url=https://cdn.jsdmirror.com/gh/Oaklight/onehub_prices@master/ownedby_manual.json</code></pre>
+                        </li>
+                        
+                        <li>检查生成的 ownedby 表文件是否更新成功</li>
+                        
+                        <li>运行脚本以同步价格数据：
+                            <pre><code>python src/sync_pricing.py [--json_file JSON_FILE] [--json_url JSON_URL]</code></pre>
+                            <p>示例：</p>
+                            <pre><code>python src/sync_pricing.py --json_url=https://cdn.jsdmirror.com/gh/Oaklight/onehub_prices@prices/oneapi_prices.json</code></pre>
+                        </li>
+                        
+                        <li>检查生成的价格表文件是否更新成功</li>
+                    </ol>
+
+                    <h4>环境变量配置：</h4>
+                    <pre><code>export ONEHUB_URL="https://onehub.your.link"  # 仅基础url，不要附带api subpath
+export ONEHUB_ADMIN_TOKEN="your_admin_token"  # 网页管理后台获得
+export SYNC_PRICE_OVERWRITE=True  # 是否覆盖现有价格
+python src/sync_pricing.py [--json_file=./oneapi_prices.json] [--json_url=https://cdn.jsdmirror.com/gh/Oaklight/onehub_prices@prices/oneapi_prices.json]</code></pre>
+                </div>
+
+                <div class="notice">
+                    <h4>注意事项：</h4>
+                    <ul>
+                        <li>请确保网络连接正常，以便脚本能够访问外部 API</li>
+                        <li>如果需要手动调整价格数据，请编辑 <code>manual_prices/</code> 目录中的 YAML 文件</li>
+                        <li>脚本支持通过环境变量进行配置，优先使用 url，其次使用文件</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="help-section">
+                <h2>项目链接</h2>
+                <p>
+                    <a href="https://github.com/Oaklight/onehub_prices" target="_blank" class="github-link">
+                        📚 查看完整文档和源代码
+                    </a>
+                </p>
+                <p>项目维护者：<a href="https://github.com/Oaklight" target="_blank">Oaklight</a></p>
+            </div>
+
+            <div class="help-section">
+                <h2>快速导航</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 20px;">
+                    <a href="index.html" style="display: block; padding: 15px; background: #f8f9fa; border-radius: 8px; text-decoration: none; color: #495057; border: 1px solid #e9ecef; transition: all 0.3s ease;">
+                        <strong>🏠 价格查询主页</strong><br>
+                        <small>查看模型价格和渠道信息</small>
+                    </a>
+                    <a href="https://github.com/Oaklight/onehub_prices" target="_blank" style="display: block; padding: 15px; background: #f8f9fa; border-radius: 8px; text-decoration: none; color: #495057; border: 1px solid #e9ecef; transition: all 0.3s ease;">
+                        <strong>📚 GitHub 仓库</strong><br>
+                        <small>查看源代码和最新更新</small>
+                    </a>
+                    <a href="https://raw.githubusercontent.com/Oaklight/onehub_prices/prices/oneapi_prices.json" target="_blank" style="display: block; padding: 15px; background: #f8f9fa; border-radius: 8px; text-decoration: none; color: #495057; border: 1px solid #e9ecef; transition: all 0.3s ease;">
+                        <strong>💾 完整价格表</strong><br>
+                        <small>下载最新的价格数据</small>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

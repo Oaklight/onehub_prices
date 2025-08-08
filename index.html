@@ -4,21 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OneAPI 价格查询</title>
+    <title>OneHub Prices 价格查询</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div class="container">
         <header>
-            <h1>OneAPI 价格查询</h1>
+            <h1>OneHub Prices 价格查询</h1>
             <p>查询各种 AI 模型的价格信息</p>
         </header>
 
         <!-- 标签页导航 -->
         <div class="tabs">
-            <button class="tab-button active" data-tab="prices">价格</button>
-            <button class="tab-button" data-tab="channels">渠道类型</button>
+            <button class="tab-button active" data-tab="prices">价格列表</button>
+            <button class="tab-button" data-tab="channels">渠道列表</button>
             <button class="tab-button" data-tab="help">使用说明</button>
         </div>
 
@@ -82,22 +82,115 @@
             <div id="noResults" class="no-results" style="display: none;">
                 <p>没有找到匹配的结果</p>
             </div>
-<!-- 使用说明标签页内容 -->
+        </div>
+
+        <!-- 使用说明标签页内容 -->
         <div id="help-tab" class="tab-content" style="display: none;">
             <div class="help-container">
-                <div id="helpLoading" class="loading">
-                    <div class="spinner"></div>
-                    <p>加载使用说明中...</p>
-                </div>
-                <div id="helpContent" class="help-content" style="display: none;">
-                    <!-- README 内容将通过 JavaScript 动态加载 -->
-                </div>
-                <div id="helpError" class="help-error" style="display: none;">
-                    <p>⚠️ 无法加载使用说明</p>
-                    <p>请访问 <a href="https://github.com/Oaklight/onehub_prices" target="_blank">GitHub 仓库</a> 查看完整文档</p>
+                <div class="help-content" style="text-align: center; padding: 60px 40px;">
+                    <h2>📚 使用说明</h2>
+                    <p style="font-size: 1.1rem; color: #6c757d; margin-bottom: 30px;">
+                        详细的部署和使用说明已移至独立页面，提供更好的阅读体验
+                    </p>
+                    
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 30px 0;">
+                        <div style="background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 25px; text-align: center;">
+                            <div style="font-size: 2rem; margin-bottom: 15px;">🚀</div>
+                            <h3 style="margin-bottom: 10px; color: #495057;">快速开始</h3>
+                            <p style="color: #6c757d; font-size: 0.9rem; margin-bottom: 20px;">
+                                查看完整的部署和配置指南
+                            </p>
+                            <a href="help.html" style="display: inline-block; background: #667eea; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 500; transition: background-color 0.3s ease;">
+                                查看使用指南
+                            </a>
+                        </div>
+                        
+                        <div style="background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 20px;">
+                            <div style="text-align: center; margin-bottom: 15px;">
+                                <div style="font-size: 2rem; margin-bottom: 10px;">📋</div>
+                                <h3 style="margin-bottom: 5px; color: #495057;">完整价格表</h3>
+                                <p style="color: #6c757d; font-size: 0.85rem;">包含所有供应商的价格数据</p>
+                            </div>
+                            <div style="display: flex; flex-direction: column; gap: 8px;">
+                                <a href="https://raw.githubusercontent.com/Oaklight/onehub_prices/prices/oneapi_prices.json" target="_blank" style="display: block; background: #28a745; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; text-align: center;">GitHub Raw</a>
+                                <a href="https://cdn.jsdelivr.net/gh/Oaklight/onehub_prices@prices/oneapi_prices.json" target="_blank" style="display: block; background: #17a2b8; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; text-align: center;">jsDelivr CDN</a>
+                                <a href="https://cdn.jsdmirror.com/gh/Oaklight/onehub_prices@prices/oneapi_prices.json" target="_blank" style="display: block; background: #6f42c1; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; text-align: center;">jsDelivr Mirror</a>
+                            </div>
+                        </div>
+                        
+                        <div style="background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 20px;">
+                            <div style="text-align: center; margin-bottom: 15px;">
+                                <div style="font-size: 2rem; margin-bottom: 10px;">🎯</div>
+                                <h3 style="margin-bottom: 5px; color: #495057;">核心供应商</h3>
+                                <p style="color: #6c757d; font-size: 0.85rem;">仅包含 ID ≤ 1000 的核心供应商</p>
+                            </div>
+                            <div style="display: flex; flex-direction: column; gap: 8px;">
+                                <a href="https://raw.githubusercontent.com/Oaklight/onehub_prices/prices/onehub_only_prices.json" target="_blank" style="display: block; background: #28a745; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; text-align: center;">GitHub Raw</a>
+                                <a href="https://cdn.jsdelivr.net/gh/Oaklight/onehub_prices@prices/onehub_only_prices.json" target="_blank" style="display: block; background: #17a2b8; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; text-align: center;">jsDelivr CDN</a>
+                                <a href="https://cdn.jsdmirror.com/npm/onehub_prices@prices/onehub_only_prices.json" target="_blank" style="display: block; background: #6f42c1; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; text-align: center;">jsDelivr Mirror</a>
+                            </div>
+                        </div>
+                        
+                        <div style="background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 20px;">
+                            <div style="text-align: center; margin-bottom: 15px;">
+                                <div style="font-size: 2rem; margin-bottom: 10px;">🔗</div>
+                                <h3 style="margin-bottom: 5px; color: #495057;">供应商归属</h3>
+                                <p style="color: #6c757d; font-size: 0.85rem;">查看供应商 ID 对应关系</p>
+                            </div>
+                            <div style="display: flex; flex-direction: column; gap: 8px;">
+                                <a href="https://raw.githubusercontent.com/Oaklight/onehub_prices/prices/ownedby.json" target="_blank" style="display: block; background: #28a745; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; text-align: center;">GitHub Raw</a>
+                                <a href="https://cdn.jsdelivr.net/gh/Oaklight/onehub_prices@prices/ownedby.json" target="_blank" style="display: block; background: #17a2b8; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; text-align: center;">jsDelivr CDN</a>
+                                <a href="https://cdn.jsdmirror.com/gh/Oaklight/onehub_prices@prices/ownedby.json" target="_blank" style="display: block; background: #6f42c1; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; text-align: center;">jsDelivr Mirror</a>
+                            </div>
+                        </div>
+                        
+                        <div style="background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 20px;">
+                            <div style="text-align: center; margin-bottom: 15px;">
+                                <div style="font-size: 2rem; margin-bottom: 10px;">🌊</div>
+                                <h3 style="margin-bottom: 5px; color: #495057;">SiliconFlow</h3>
+                                <p style="color: #6c757d; font-size: 0.85rem;">SiliconFlow 官方原始价格</p>
+                            </div>
+                            <div style="display: flex; flex-direction: column; gap: 8px;">
+                                <a href="https://raw.githubusercontent.com/Oaklight/onehub_prices/prices/siliconflow_prices.json" target="_blank" style="display: block; background: #28a745; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; text-align: center;">GitHub Raw</a>
+                                <a href="https://cdn.jsdelivr.net/gh/Oaklight/onehub_prices@prices/siliconflow_prices.json" target="_blank" style="display: block; background: #17a2b8; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; text-align: center;">jsDelivr CDN</a>
+                                <a href="https://cdn.jsdmirror.com/gh/Oaklight/onehub_prices@prices/siliconflow_prices.json" target="_blank" style="display: block; background: #6f42c1; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; text-align: center;">jsDelivr Mirror</a>
+                            </div>
+                        </div>
+                        
+                        <div style="background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 20px;">
+                            <div style="text-align: center; margin-bottom: 15px;">
+                                <div style="font-size: 2rem; margin-bottom: 10px;">🛣️</div>
+                                <h3 style="margin-bottom: 5px; color: #495057;">OpenRouter</h3>
+                                <p style="color: #6c757d; font-size: 0.85rem;">OpenRouter 官方原始价格</p>
+                            </div>
+                            <div style="display: flex; flex-direction: column; gap: 8px;">
+                                <a href="https://raw.githubusercontent.com/Oaklight/onehub_prices/prices/openrouter_prices.json" target="_blank" style="display: block; background: #28a745; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; text-align: center;">GitHub Raw</a>
+                                <a href="https://cdn.jsdelivr.net/gh/Oaklight/onehub_prices@prices/openrouter_prices.json" target="_blank" style="display: block; background: #17a2b8; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; text-align: center;">jsDelivr CDN</a>
+                                <a href="https://cdn.jsdmirror.com/gh/Oaklight/onehub_prices@prices/openrouter_prices.json" target="_blank" style="display: block; background: #6f42c1; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; text-align: center;">jsDelivr Mirror</a>
+                            </div>
+                        </div>
+                        
+                        <div style="background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 25px; text-align: center;">
+                            <div style="font-size: 2rem; margin-bottom: 15px;">💻</div>
+                            <h3 style="margin-bottom: 10px; color: #495057;">GitHub 仓库</h3>
+                            <p style="color: #6c757d; font-size: 0.9rem; margin-bottom: 20px;">
+                                查看源代码和最新更新
+                            </p>
+                            <a href="https://github.com/Oaklight/onehub_prices" target="_blank" style="display: inline-block; background: #6c757d; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 500; transition: background-color 0.3s ease;">
+                                访问 GitHub
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 40px; padding: 20px; background: #e7f3ff; border-radius: 8px; border-left: 4px solid #667eea;">
+                        <h4 style="margin-bottom: 10px; color: #495057;">💡 提示</h4>
+                        <p style="color: #6c757d; margin: 0; text-align: left;">
+                            使用说明页面包含了完整的部署指导、API 配置、环境变量设置等详细信息。
+                            建议在开始使用前仔细阅读相关文档。
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
 
         <!-- 渠道类型标签页内容 -->

@@ -607,3 +607,167 @@ tbody tr:hover {
 .help-error a:hover {
     text-decoration: underline;
 }
+
+/* 新增的帮助页面特定样式 */
+.help-section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.help-section:last-child {
+    border-bottom: none;
+}
+
+.important-notice {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.important-notice h3 {
+    color: #856404;
+    margin-top: 0;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.important-notice ul {
+    margin-bottom: 0;
+}
+
+.important-notice li {
+    color: #856404;
+}
+
+.price-tables {
+    display: grid;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.price-table-item {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.price-table-item h4 {
+    color: #495057;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.price-table-item p {
+    margin-bottom: 15px;
+    color: #6c757d;
+}
+
+.url-list {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.url-list p {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #495057;
+}
+
+.url-list ul {
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.url-list li {
+    margin-bottom: 8px;
+    word-break: break-all;
+}
+
+.method-steps {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.method-steps h4 {
+    color: #495057;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.method-steps ol {
+    margin-bottom: 0;
+}
+
+.method-steps li {
+    margin-bottom: 10px;
+}
+
+.notice {
+    background: #d1ecf1;
+    border: 1px solid #bee5eb;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.notice h4 {
+    color: #0c5460;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.notice ul {
+    margin-bottom: 0;
+}
+
+.notice li {
+    color: #0c5460;
+}
+
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #667eea;
+    color: white !important;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.github-link:hover {
+    background: #5a6fd8;
+    text-decoration: none;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .help-container {
+        padding: 15px;
+    }
+    
+    .price-table-item,
+    .method-steps,
+    .important-notice,
+    .notice {
+        padding: 15px;
+    }
+    
+    .url-list {
+        padding: 10px;
+    }
+}

@@ -28,10 +28,7 @@ class PriceViewer {
         this.tabButtons = document.querySelectorAll('.tab-button');
         this.tabContents = document.querySelectorAll('.tab-content');
         
-        // 帮助页面元素
-        this.helpLoading = document.getElementById('helpLoading');
-        this.helpContent = document.getElementById('helpContent');
-        this.helpError = document.getElementById('helpError');
+        // 帮助页面元素（已移除动态加载逻辑）
     }
     
     bindEvents() {
@@ -190,103 +187,10 @@ class PriceViewer {
             }
         });
         
-        // 如果切换到帮助页面，加载 README 内容
-        if (tabName === 'help') {
-            this.loadHelpContent();
-        }
+        // 帮助页面内容已直接嵌入HTML，无需动态加载
     }
     
-    async loadHelpContent() {
-        // 如果已经加载过内容，直接显示
-        if (this.helpContent && this.helpContent.innerHTML.trim() !== '') {
-            this.helpLoading.style.display = 'none';
-            this.helpContent.style.display = 'block';
-            return;
-        }
-        
-        if (!this.helpLoading || !this.helpContent || !this.helpError) {
-            console.warn('帮助页面元素未找到');
-            return;
-        }
-        
-        this.helpLoading.style.display = 'block';
-        this.helpContent.style.display = 'none';
-        this.helpError.style.display = 'none';
-        
-        try {
-            // 首先尝试从本地加载 README
-            let response = await fetch('./README.md');
-            
-            if (!response.ok) {
-                console.log('本地 README 不存在，尝试从 master 分支获取');
-                // 如果本地没有，从 master 分支获取
-                response = await fetch('https://raw.githubusercontent.com/Oaklight/onehub_prices/master/README.md');
-            }
-            
-            if (!response.ok) {
-                throw new Error(`无法获取 README: ${response.status}`);
-            }
-            
-            const markdownContent = await response.text();
-            
-            // 简单的 Markdown 转 HTML
-            const htmlContent = this.markdownToHtml(markdownContent);
-            
-            this.helpContent.innerHTML = htmlContent;
-            this.helpLoading.style.display = 'none';
-            this.helpContent.style.display = 'block';
-            
-        } catch (error) {
-            console.error('加载帮助内容失败:', error);
-            this.helpLoading.style.display = 'none';
-            this.helpError.style.display = 'block';
-        }
-    }
-    
-    markdownToHtml(markdown) {
-        let html = markdown;
-        
-        // 转换标题
-        html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
-        html = html.replace(/^## (.*$)/gim, '<h2>$1</h2>');
-        html = html.replace(/^# (.*$)/gim, '<h1>$1</h1>');
-        
-        // 转换粗体和斜体
-        html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-        html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
-        
-        // 转换代码块
-        html = html.replace(/```([\s\S]*?)```/g, '<pre><code>$1</code></pre>');
-        html = html.replace(/`(.*?)`/g, '<code>$1</code>');
-        
-        // 转换链接
-        html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
-        
-        // 转换列表
-        html = html.replace(/^\* (.*$)/gim, '<li>$1</li>');
-        html = html.replace(/^\d+\. (.*$)/gim, '<li>$1</li>');
-        
-        // 包装列表项
-        html = html.replace(/(<li>.*<\/li>)/gs, (match) => {
-            return '<ul>' + match + '</ul>';
-        });
-        
-        // 转换段落
-        html = html.split('\n\n').map(paragraph => {
-            paragraph = paragraph.trim();
-            if (paragraph === '') return '';
-            if (paragraph.startsWith('<h') || paragraph.startsWith('<ul') || 
-                paragraph.startsWith('<pre') || paragraph.startsWith('<li')) {
-                return paragraph;
-            }
-            return '<p>' + paragraph.replace(/\n/g, '<br>') + '</p>';
-        }).join('\n');
-        
-        // 清理多余的换行
-        html = html.replace(/\n+/g, '\n');
-        
-        return html;
-    }
+    // 移除了 loadHelpContent 和 markdownToHtml 方法，因为帮助内容已直接嵌入HTML
     
     renderChannels() {
         if (!this.channelsGrid) return;
