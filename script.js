@@ -4,6 +4,11 @@ class PriceViewer {
         this.filteredData = [];
         this.channelTypes = new Set();
         this.ownedByData = {};
+        this.priceMode = 'ratio'; // 默认显示倍率模式
+        
+        // 价格转换常量（来自 src/utils.py）
+        this.SCALE_FACTOR_CNY = 0.014;
+        this.SCALE_FACTOR_USD = 0.002;
         
         this.initElements();
         this.bindEvents();
@@ -28,6 +33,12 @@ class PriceViewer {
         this.tabButtons = document.querySelectorAll('.tab-button');
         this.tabContents = document.querySelectorAll('.tab-content');
         
+        // 价格模式切换按钮
+        this.ratioModeBtn = document.getElementById('ratioModeBtn');
+        this.cnyModeBtn = document.getElementById('cnyModeBtn');
+        this.usdModeBtn = document.getElementById('usdModeBtn');
+        this.priceModeButtons = document.querySelectorAll('.price-mode-btn');
+        
         // 帮助页面元素（已移除动态加载逻辑）
     }
     
@@ -46,6 +57,11 @@ class PriceViewer {
         // 标签页事件
         this.tabButtons.forEach(button => {
             button.addEventListener('click', (e) => this.switchTab(e.target.dataset.tab));
+        });
+        
+        // 价格模式切换事件
+        this.priceModeButtons.forEach(button => {
+            button.addEventListener('click', (e) => this.switchPriceMode(e.target.dataset.mode));
         });
     }
     
@@ -302,6 +318,9 @@ class PriceViewer {
         
         this.hideNoResults();
         
+        // 更新表头以显示当前价格模式
+        this.updateTableHeaders();
+        
         this.tableBody.innerHTML = '';
         
         this.filteredData.forEach(item => {
@@ -361,11 +380,69 @@ class PriceViewer {
         });
     }
     
-    formatPrice(price) {
+    // 价格模式切换方法
+    switchPriceMode(mode) {
+        this.priceMode = mode;
+        
+        // 更新按钮状态
+        this.priceModeButtons.forEach(button => {
+            button.classList.remove('active');
+            if (button.dataset.mode === mode) {
+                button.classList.add('active');
+            }
+        });
+        
+        // 重新渲染表格
+        this.renderTable();
+    }
+    
+    // 价格转换方法
+    convertPrice(price, mode) {
         if (price === 0) {
             return '免费';
         }
-        return price.toFixed(3);
+        
+        switch (mode) {
+            case 'ratio':
+                return price.toFixed(3);
+            case 'cny':
+                // 倍率转换为人民币：倍率 * SCALE_FACTOR_CNY * 1000 (因为原始倍率是基于1K tokens的)
+                const cnyPrice = price * this.SCALE_FACTOR_CNY * 1000;
+                return `¥${cnyPrice.toFixed(4)}`;
+            case 'usd':
+                // 倍率转换为美元：倍率 * SCALE_FACTOR_USD * 1000 (因为原始倍率是基于1K tokens的)
+                const usdPrice = price * this.SCALE_FACTOR_USD * 1000;
+                return `$${usdPrice.toFixed(4)}`;
+            default:
+                return price.toFixed(3);
+        }
+    }
+    
+    // 更新表头以显示当前价格模式
+    updateTableHeaders() {
+        const inputHeader = document.querySelector('th:nth-child(4)');
+        const outputHeader = document.querySelector('th:nth-child(5)');
+        
+        if (inputHeader && outputHeader) {
+            switch (this.priceMode) {
+                case 'ratio':
+                    inputHeader.textContent = '输入价格';
+                    outputHeader.textContent = '输出价格';
+                    break;
+                case 'cny':
+                    inputHeader.textContent = '输入价格 (¥/1K tokens)';
+                    outputHeader.textContent = '输出价格 (¥/1K tokens)';
+                    break;
+                case 'usd':
+                    inputHeader.textContent = '输入价格 ($/1K tokens)';
+                    outputHeader.textContent = '输出价格 ($/1K tokens)';
+                    break;
+            }
+        }
+    }
+    
+    formatPrice(price) {
+        return this.convertPrice(price, this.priceMode);
     }
     
     escapeHtml(text) {
