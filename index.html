@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneAPI 价格查询</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>OneAPI 价格查询</h1>
+            <p>查询各种 AI 模型的价格信息</p>
+        </header>
+
+        <!-- 标签页导航 -->
+        <div class="tabs">
+            <button class="tab-button active" data-tab="prices">价格</button>
+            <button class="tab-button" data-tab="channels">渠道类型</button>
+            <button class="tab-button" data-tab="help">使用说明</button>
+        </div>
+
+        <!-- 价格标签页内容 -->
+        <div id="prices-tab" class="tab-content active">
+            <div class="search-section">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="搜索模型名称..." />
+                    <button id="searchBtn">搜索</button>
+                </div>
+
+                <div class="filters">
+                    <select id="channelFilter">
+                        <option value="">所有渠道类型</option>
+                    </select>
+
+                    <select id="typeFilter">
+                        <option value="">所有类型</option>
+                        <option value="tokens">Tokens</option>
+                        <option value="times">Times</option>
+                    </select>
+
+                    <button id="clearBtn">清除筛选</button>
+                </div>
+            </div>
+
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">总模型数:</span>
+                    <span id="totalModels">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">显示结果:</span>
+                    <span id="filteredModels">0</span>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <table id="priceTable">
+                    <thead>
+                        <tr>
+                            <th>模型名称</th>
+                            <th>类型</th>
+                            <th>渠道类型</th>
+                            <th>输入价格</th>
+                            <th>输出价格</th>
+                            <th>额外费率</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <!-- 数据将通过 JavaScript 动态加载 -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>加载数据中...</p>
+            </div>
+
+            <div id="noResults" class="no-results" style="display: none;">
+                <p>没有找到匹配的结果</p>
+            </div>
+<!-- 使用说明标签页内容 -->
+        <div id="help-tab" class="tab-content" style="display: none;">
+            <div class="help-container">
+                <div id="helpLoading" class="loading">
+                    <div class="spinner"></div>
+                    <p>加载使用说明中...</p>
+                </div>
+                <div id="helpContent" class="help-content" style="display: none;">
+                    <!-- README 内容将通过 JavaScript 动态加载 -->
+                </div>
+                <div id="helpError" class="help-error" style="display: none;">
+                    <p>⚠️ 无法加载使用说明</p>
+                    <p>请访问 <a href="https://github.com/Oaklight/onehub_prices" target="_blank">GitHub 仓库</a> 查看完整文档</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- 渠道类型标签页内容 -->
+        <div id="channels-tab" class="tab-content" style="display: none;">
+            <div class="channels-grid" id="channelsGrid">
+                <!-- 渠道类型信息将通过 JavaScript 动态加载 -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
