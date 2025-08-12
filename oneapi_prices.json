@@ -2432,21 +2432,7 @@
       "output": 0.625
     },
     {
-      "model": "anthropic/claude-3-haiku:beta",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.125,
-      "output": 0.625
-    },
-    {
       "model": "anthropic/claude-3-opus",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 7.5,
-      "output": 37.5
-    },
-    {
-      "model": "anthropic/claude-3-opus:beta",
       "type": "tokens",
       "channel_type": 20,
       "input": 7.5,
@@ -2467,13 +2453,6 @@
       "output": 2.0
     },
     {
-      "model": "anthropic/claude-3.5-haiku:beta",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.4,
-      "output": 2.0
-    },
-    {
       "model": "anthropic/claude-3.5-sonnet",
       "type": "tokens",
       "channel_type": 20,
@@ -2482,20 +2461,6 @@
     },
     {
       "model": "anthropic/claude-3.5-sonnet-20240620",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.5,
-      "output": 7.5
-    },
-    {
-      "model": "anthropic/claude-3.5-sonnet-20240620:beta",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.5,
-      "output": 7.5
-    },
-    {
-      "model": "anthropic/claude-3.5-sonnet:beta",
       "type": "tokens",
       "channel_type": 20,
       "input": 1.5,
@@ -3030,8 +2995,8 @@
       "model": "gryphe/mythomax-l2-13b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
-      "output": 0.03
+      "input": 0.036,
+      "output": 0.036
     },
     {
       "model": "inception/mercury",
@@ -3233,8 +3198,8 @@
       "model": "meta-llama/llama-guard-4-12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.025
+      "input": 0.09,
+      "output": 0.09
     },
     {
       "model": "microsoft/mai-ds-r1",
@@ -4241,8 +4206,8 @@
       "model": "qwen/qwen3-coder",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.09996,
-      "output": 0.40003
+      "input": 0.1,
+      "output": 0.4
     },
     {
       "model": "qwen/qwen3-coder:free",
@@ -4402,8 +4367,8 @@
       "model": "thedrummer/unslopnemo-12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.2
+      "input": 0.225,
+      "output": 0.225
     },
     {
       "model": "thedrummer/valkyrie-49b-v1",
@@ -4425,6 +4390,13 @@
       "channel_type": 20,
       "input": 0.0175,
       "output": 0.069
+    },
+    {
+      "model": "thudm/glm-z1-32b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.01,
+      "output": 0.04
     },
     {
       "model": "thudm/glm-z1-32b:free",
