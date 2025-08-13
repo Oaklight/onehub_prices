@@ -60,8 +60,8 @@
       "model": "alpindale/goliath-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 5.0,
-      "output": 6.25
+      "input": 4.5,
+      "output": 5.5
     },
     {
       "model": "amazon/nova-lite-v1",
@@ -291,8 +291,8 @@
       "model": "cohere/command-a",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.25,
-      "output": 5.0
+      "input": 1.0,
+      "output": 4.0
     },
     {
       "model": "cohere/command-r",
@@ -585,8 +585,8 @@
       "model": "google/gemma-2-27b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4,
-      "output": 0.4
+      "input": 0.325,
+      "output": 0.325
     },
     {
       "model": "google/gemma-2-9b-it",
@@ -669,8 +669,8 @@
       "model": "gryphe/mythomax-l2-13b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.036,
-      "output": 0.036
+      "input": 0.03,
+      "output": 0.03
     },
     {
       "model": "inception/mercury",
@@ -914,7 +914,7 @@
       "model": "microsoft/phi-4",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.035,
+      "input": 0.03,
       "output": 0.07
     },
     {
@@ -1264,8 +1264,8 @@
       "model": "neversleep/noromaid-20b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.625,
-      "output": 1.0
+      "input": 0.5,
+      "output": 0.875
     },
     {
       "model": "nousresearch/deephermes-3-llama-3-8b-preview:free",
@@ -2013,8 +2013,8 @@
       "model": "thedrummer/anubis-70b-v1.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 0.4
+      "input": 0.2,
+      "output": 0.35
     },
     {
       "model": "thedrummer/anubis-pro-105b-v1",
@@ -2041,8 +2041,8 @@
       "model": "thedrummer/unslopnemo-12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.225,
-      "output": 0.225
+      "input": 0.2,
+      "output": 0.2
     },
     {
       "model": "thedrummer/valkyrie-49b-v1",
@@ -2097,8 +2097,8 @@
       "model": "undi95/remm-slerp-l2-13b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5,
-      "output": 0.75
+      "input": 0.35,
+      "output": 0.5
     },
     {
       "model": "x-ai/grok-2-1212",
