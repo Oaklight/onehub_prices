@@ -6560,6 +6560,13 @@
       "output": 1.5
     },
     {
+      "model": "Wan-AI/Wan2.2-T2V-A14B",
+      "type": "times",
+      "channel_type": 45,
+      "input": 2.0,
+      "output": 2.0
+    },
+    {
       "model": "ascend-tribe/pangu-pro-moe",
       "type": "tokens",
       "channel_type": 45,
@@ -6771,6 +6778,13 @@
     },
     {
       "model": "zai-org/GLM-4.5-Air",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.07143,
+      "output": 0.42857
+    },
+    {
+      "model": "zai-org/GLM-4.5V",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.07143,
