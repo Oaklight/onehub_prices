@@ -3412,6 +3412,13 @@
       "output": 1.0
     },
     {
+      "model": "mistralai/mistral-medium-3.1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.2,
+      "output": 1.0
+    },
+    {
       "model": "mistralai/mistral-nemo",
       "type": "tokens",
       "channel_type": 20,
