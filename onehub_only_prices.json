@@ -4381,13 +4381,6 @@
       "output": 0.2
     },
     {
-      "model": "thedrummer/valkyrie-49b-v1",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.325,
-      "output": 0.5
-    },
-    {
       "model": "thudm/glm-4-32b",
       "type": "tokens",
       "channel_type": 20,
