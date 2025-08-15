@@ -638,6 +638,13 @@
       "output": 1.5
     },
     {
+      "model": "Wan-AI/Wan2.2-I2V-A14B",
+      "type": "times",
+      "channel_type": 45,
+      "input": 2.0,
+      "output": 2.0
+    },
+    {
       "model": "Wan-AI/Wan2.2-T2V-A14B",
       "type": "times",
       "channel_type": 45,
