@@ -1037,13 +1037,6 @@
       "output": 0.095
     },
     {
-      "model": "mistralai/mistral-7b-instruct-v0.2",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.1
-    },
-    {
       "model": "mistralai/mistral-7b-instruct-v0.3",
       "type": "tokens",
       "channel_type": 20,
