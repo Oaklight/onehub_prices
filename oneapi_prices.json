@@ -2396,8 +2396,8 @@
       "model": "alpindale/goliath-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 4.5,
-      "output": 5.5
+      "input": 2.5,
+      "output": 3.125
     },
     {
       "model": "amazon/nova-lite-v1",
@@ -2431,8 +2431,8 @@
       "model": "anthracite-org/magnum-v4-72b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.25,
-      "output": 1.5
+      "input": 0.625,
+      "output": 0.75
     },
     {
       "model": "anthropic/claude-3-haiku",
@@ -3075,8 +3075,8 @@
       "model": "mancer/weaver",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.75,
-      "output": 0.75
+      "input": 0.375,
+      "output": 0.375
     },
     {
       "model": "meta-llama/llama-3-70b-instruct",
@@ -3600,15 +3600,15 @@
       "model": "neversleep/llama-3.1-lumimaid-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.085,
-      "output": 0.495
+      "input": 0.05,
+      "output": 0.3125
     },
     {
       "model": "neversleep/noromaid-20b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5,
-      "output": 0.875
+      "input": 0.3125,
+      "output": 0.5
     },
     {
       "model": "nousresearch/deephermes-3-llama-3-8b-preview:free",
@@ -4433,8 +4433,8 @@
       "model": "undi95/remm-slerp-l2-13b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.35,
-      "output": 0.5
+      "input": 0.25,
+      "output": 0.375
     },
     {
       "model": "x-ai/grok-2-1212",
