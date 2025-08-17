@@ -1159,8 +1159,8 @@
       "model": "mistralai/mistral-small-3.2-24b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01,
-      "output": 0.04
+      "input": 0.025,
+      "output": 0.05
     },
     {
       "model": "mistralai/mistral-small-3.2-24b-instruct:free",
