@@ -246,6 +246,13 @@
       "output": 0.28
     },
     {
+      "model": "baidu/ernie-4.5-vl-424b-a47b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.21,
+      "output": 0.625
+    },
+    {
       "model": "bytedance/ui-tars-1.5-7b",
       "type": "tokens",
       "channel_type": 20,
