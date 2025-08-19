@@ -148,13 +148,6 @@
       "output": 7.5
     },
     {
-      "model": "anthropic/claude-3.7-sonnet:beta",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.5,
-      "output": 7.5
-    },
-    {
       "model": "anthropic/claude-3.7-sonnet:thinking",
       "type": "tokens",
       "channel_type": 20,
@@ -1544,15 +1537,15 @@
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03628,
-      "output": 0.1452
+      "input": 0.036,
+      "output": 0.14
     },
     {
       "model": "openai/gpt-oss-20b",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.02,
-      "output": 0.08
+      "output": 0.075
     },
     {
       "model": "openai/gpt-oss-20b:free",
