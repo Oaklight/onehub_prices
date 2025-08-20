@@ -722,13 +722,6 @@
       "output": 0.01
     },
     {
-      "model": "liquid/lfm-40b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.075,
-      "output": 0.075
-    },
-    {
       "model": "liquid/lfm-7b",
       "type": "tokens",
       "channel_type": 20,
@@ -1465,6 +1458,13 @@
     },
     {
       "model": "openai/gpt-4o-2024-11-20",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.25,
+      "output": 5.0
+    },
+    {
+      "model": "openai/gpt-4o-audio-preview",
       "type": "tokens",
       "channel_type": 20,
       "input": 1.25,
