@@ -3,12 +3,16 @@ models:
     # 模型定价：https://api-docs.deepseek.com/zh-cn/quick_start/pricing/
 
     deepseek-chat:
-      input: 2 rmb / M
-      output: 8 rmb / M
+      aliases:
+        - deepseek-v3.1
+      input: 4 rmb / M
+      output: 12 rmb / M
       extra_ratios:
         - cached_tokens: 0.5 rmb / M
     deepseek-reasoner:
+      aliases:
+        - deepseek-v3.1
       input: 4 rmb / M
-      output: 16 rmb / M
+      output: 12 rmb / M
       extra_ratios:
-        - cached_tokens: 1 rmb / M
+        - cached_tokens: 0.5 rmb / M
