@@ -5086,10 +5086,10 @@
       "model": "deepseek-chat",
       "type": "tokens",
       "channel_type": 28,
-      "input": 0.14286,
-      "output": 0.57143,
+      "input": 0.28571,
+      "output": 0.85714,
       "extra_ratios": {
-        "cached_tokens": 0.25
+        "cached_tokens": 0.125
       }
     },
     {
@@ -5111,9 +5111,9 @@
       "type": "tokens",
       "channel_type": 28,
       "input": 0.28571,
-      "output": 1.14286,
+      "output": 0.85714,
       "extra_ratios": {
-        "cached_tokens": 0.25
+        "cached_tokens": 0.125
       }
     },
     {
@@ -5122,6 +5122,26 @@
       "channel_type": 28,
       "input": 0.14286,
       "output": 0.57143
+    },
+    {
+      "model": "deepseek-v3.1",
+      "type": "tokens",
+      "channel_type": 28,
+      "input": 0.28571,
+      "output": 0.85714,
+      "extra_ratios": {
+        "cached_tokens": 0.125
+      }
+    },
+    {
+      "model": "deepseek-v3.1",
+      "type": "tokens",
+      "channel_type": 28,
+      "input": 0.28571,
+      "output": 0.85714,
+      "extra_ratios": {
+        "cached_tokens": 0.125
+      }
     },
     {
       "model": "kimi-k2",
