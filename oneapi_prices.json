@@ -2820,6 +2820,13 @@
       "output": 0.40003
     },
     {
+      "model": "deepseek/deepseek-v3.1-base",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.4
+    },
+    {
       "model": "eleutherai/llemma_7b",
       "type": "tokens",
       "channel_type": 20,
