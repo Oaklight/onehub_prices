@@ -379,6 +379,13 @@
       "output": 0.0
     },
     {
+      "model": "deepseek/deepseek-chat-v3.1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.4
+    },
+    {
       "model": "deepseek/deepseek-prover-v2",
       "type": "tokens",
       "channel_type": 20,
