@@ -2,15 +2,20 @@ models:
   oaklight-load-balancer:
     # 负载均衡器
     # generic aliases, used as primary calling id, remapped to specific model ids
-    qwen3: # qwen3-235b-a22b
+    qwen3: # qwen3-235b-a22b-instruct-2507
       input: 0.002 rmb / K
       output: 0.008 rmb / K
       extra_ratios:
         - reasoning_tokens: 0.02 rmb / K
-    qwen3-thinking:
+    qwen3-thinking: # qwen3-30b-a3b-instruct-2507
       input: 0.002 rmb / K
       output: 0.02 rmb / K
-    qwen3-mini: # qwen3-30b-a3b
+    qwen3-mini: # qwen3-30b-a3b-instruct-2507
+      input: 0.00075 rmb / K
+      output: 0.003 rmb / K
+      extra_ratios:
+        - reasoning_tokens: 0.00075 rmb / K
+    qwen3-mini-thinking: # qwen3-30b-a3b-thinking-2507
       input: 0.00075 rmb / K
       output: 0.003 rmb / K
       extra_ratios:

@@ -92,6 +92,8 @@ models:
       output: 0.006 rmb / K
 
     # 代码模型
+
+    # qwen-coder
     qwen-coder-plus:
       aliases: qwen-coder-plus-latest
       input: 0.0035 rmb / K
@@ -100,6 +102,8 @@ models:
       aliases: qwen-coder-turbo-latest
       input: 0.002 rmb / K
       output: 0.006 rmb / K
+
+    # qwen2.5-coder-oss
     qwen2.5-coder-32b-instruct:
       input: 0.002 rmb / K
       output: 0.006 rmb / K
@@ -115,16 +119,33 @@ models:
         - qwen2.5-coder-0.5b-instruct
       input: 0
       output: 0
+
+    # qwen3-coder
     qwen3-coder-plus:
       aliases:
         - qwen3-coder-plus-*
-      input: 6 rmb / M # 32k ~ 128K price
-      output: 24 rmb / M # 32k ~ 128K price
+      # 32k ~ 128K price
+      input: 0.006 rmb / K
+      output: 0.024 rmb / K
       extra_ratios:
         - cached_tokens: 0.1
+    qwen3-coder-flash:
+      aliases:
+        - qwen3-coder-flash-*
+      # 32k ~ 128K price
+      input: 0.0015 rmb / K
+      output: 0.006 rmb / K
+      extra_ratios:
+        - cached_tokens: 0.1
+
+    # qwen3-coder-oss
     qwen3-coder-480b-a35b-instruct:
-          input: 9 rmb / M # 32k ~ 128K price
-          output: 36 rmb / M # 32k ~ 128K price
+      # 32k ~ 128K price
+      input: 0.009 rmb / K
+      output: 0.036 rmb / K
+    qwen3-coder-30b-a3b-instruct:
+      input: 0.00225 rmb / K
+      output: 0.009 rmb / K
 
     # 翻译模型 qwen3-mt series
     qwen-mt-plus:
@@ -156,7 +177,6 @@ models:
       output: 0
 
     # qwen3
-
     qwen3-235b-a22b:
       aliases:
         - qwen3-235b-a22b-instruct-*
@@ -167,16 +187,23 @@ models:
     qwen3-235b-a22b-thinking*:
       input: 0.002 rmb / K
       output: 0.02 rmb / K
+
+    qwen3-30b-a3b:
+      aliases:
+        - qwen3-30b-a3b-instruct-*
+      input: 0.00075 rmb / K
+      output: 0.003 rmb / K
+      extra_ratios:
+        - reasoning_tokens: 0.0075 rmb / K
+    qwen3-30b-a3b-thinking*:
+      input: 0.00075 rmb / K
+      output: 0.0075 rmb / K
+
     qwen3-32b:
       input: 0.002 rmb / K
       output: 0.008 rmb / K
       extra_ratios:
         - reasoning_tokens: 0.02 rmb / K
-    qwen3-30b-a3b:
-      input: 0.00075 rmb / K
-      output: 0.003 rmb / K
-      extra_ratios:
-        - reasoning_tokens: 0.0075 rmb / K
     qwen3-14b:
       input: 0.001 rmb / K
       output: 0.004 rmb / K
