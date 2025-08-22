@@ -1562,13 +1562,6 @@
       "output": 0.075
     },
     {
-      "model": "openai/gpt-oss-20b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "openai/o1",
       "type": "tokens",
       "channel_type": 20,
