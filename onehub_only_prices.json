@@ -2697,15 +2697,15 @@
       "model": "deepseek/deepseek-chat",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.08996,
-      "output": 0.36003
+      "input": 0.09996,
+      "output": 0.40003
     },
     {
       "model": "deepseek/deepseek-chat-v3-0324",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.08996,
-      "output": 0.36003
+      "input": 0.09996,
+      "output": 0.40003
     },
     {
       "model": "deepseek/deepseek-chat-v3-0324:free",
@@ -2739,8 +2739,8 @@
       "model": "deepseek/deepseek-r1-0528",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.08996,
-      "output": 0.36003
+      "input": 0.09996,
+      "output": 0.40003
     },
     {
       "model": "deepseek/deepseek-r1-0528-qwen3-8b",
@@ -3488,8 +3488,8 @@
       "model": "mistralai/mistral-small-3.1-24b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.009,
-      "output": 0.036
+      "input": 0.01,
+      "output": 0.04
     },
     {
       "model": "mistralai/mistral-small-3.1-24b-instruct:free",
@@ -4405,8 +4405,8 @@
       "model": "thudm/glm-4-32b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.12,
-      "output": 0.12
+      "input": 0.275,
+      "output": 0.83
     },
     {
       "model": "thudm/glm-4.1v-9b-thinking",
@@ -4426,8 +4426,8 @@
       "model": "tngtech/deepseek-r1t-chimera",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.08996,
-      "output": 0.36003
+      "input": 0.09996,
+      "output": 0.40003
     },
     {
       "model": "tngtech/deepseek-r1t-chimera:free",
