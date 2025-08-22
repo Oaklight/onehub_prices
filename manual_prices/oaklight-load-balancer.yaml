@@ -44,6 +44,7 @@ models:
       input: 4 rmb / M
       output: 16 rmb / M
     deepseek-v3.1:
+      aliases: deepseek-v3.1-thinking
       input: 4 rmb / M
       output: 12 rmb / M
     deepseek-v3-free:
