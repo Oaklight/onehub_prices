@@ -1716,34 +1716,6 @@
       "output": 1.14286
     },
     {
-      "model": "deepseek-r1-distill-qwen-1.5b",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "deepseek-r1-distill-qwen-1.5b-aliyun",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "deepseek-r1-distill-qwen-32b",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.14286,
-      "output": 0.42857
-    },
-    {
-      "model": "deepseek-r1-distill-qwen-32b-aliyun",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.14286,
-      "output": 0.42857
-    },
-    {
       "model": "deepseek-r1-distill-qwen-7b",
       "type": "tokens",
       "channel_type": 17,
@@ -2189,6 +2161,23 @@
       }
     },
     {
+      "model": "qwen3-30b-a3b-instruct-*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.05357,
+      "output": 0.21429,
+      "extra_ratios": {
+        "reasoning_tokens": 10.0
+      }
+    },
+    {
+      "model": "qwen3-30b-a3b-thinking*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.05357,
+      "output": 0.53571
+    },
+    {
       "model": "qwen3-32b",
       "type": "tokens",
       "channel_type": 17,
@@ -2219,11 +2208,38 @@
       }
     },
     {
+      "model": "qwen3-coder-30b-a3b-instruct",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.16071,
+      "output": 0.64286
+    },
+    {
       "model": "qwen3-coder-480b-a35b-instruct",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.64286,
       "output": 2.57143
+    },
+    {
+      "model": "qwen3-coder-flash",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.10714,
+      "output": 0.42857,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "qwen3-coder-flash-*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.10714,
+      "output": 0.42857,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "qwen3-coder-plus",
@@ -5131,24 +5147,11 @@
       "output": 0.57143
     },
     {
-      "model": "deepseek-v3.1",
+      "model": "deepseek-v3.1-deepseek",
       "type": "tokens",
       "channel_type": 28,
       "input": 0.28571,
-      "output": 0.85714,
-      "extra_ratios": {
-        "cached_tokens": 0.125
-      }
-    },
-    {
-      "model": "deepseek-v3.1",
-      "type": "tokens",
-      "channel_type": 28,
-      "input": 0.28571,
-      "output": 0.85714,
-      "extra_ratios": {
-        "cached_tokens": 0.125
-      }
+      "output": 0.85714
     },
     {
       "model": "kimi-k2",
@@ -6716,27 +6719,6 @@
       "output": 0.07071
     },
     {
-      "model": "deepseek-r1-distill-qwen-1.5b-siliconflow",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "deepseek-r1-distill-qwen-32b-siliconflow",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.09,
-      "output": 0.09
-    },
-    {
-      "model": "deepseek-r1-distill-qwen-7b-siliconflow",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.025,
-      "output": 0.025
-    },
-    {
       "model": "deepseek-r1-siliconflow",
       "type": "tokens",
       "channel_type": 45,
@@ -6982,39 +6964,18 @@
       "output": 1.14286
     },
     {
-      "model": "deepseek-r1-distill-qwen-32b-250120",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.10714,
-      "output": 0.42857
-    },
-    {
-      "model": "deepseek-r1-distill-qwen-32b-volcengine",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.10714,
-      "output": 0.42857
-    },
-    {
-      "model": "deepseek-r1-distill-qwen-7b-250120",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.04286,
-      "output": 0.17143
-    },
-    {
-      "model": "deepseek-r1-distill-qwen-7b-volcengine",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.04286,
-      "output": 0.17143
-    },
-    {
       "model": "deepseek-r1-volcengine",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.28571,
       "output": 1.14286
+    },
+    {
+      "model": "deepseek-v3-1-250821",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.28571,
+      "output": 0.85714
     },
     {
       "model": "deepseek-v3-241226",
@@ -7036,6 +6997,13 @@
       "channel_type": 1002,
       "input": 0.14286,
       "output": 0.57143
+    },
+    {
+      "model": "deepseek-v3.1-volcengine",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.28571,
+      "output": 0.85714
     },
     {
       "model": "doubao-1-5-lite*",
@@ -8205,6 +8173,13 @@
       "output": 0.57143
     },
     {
+      "model": "deepseek-v3.1",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.28571,
+      "output": 0.85714
+    },
+    {
       "model": "openwebui_task_model",
       "type": "tokens",
       "channel_type": 2001,
@@ -8223,6 +8198,16 @@
     },
     {
       "model": "qwen3-mini",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.05357,
+      "output": 0.21429,
+      "extra_ratios": {
+        "reasoning_tokens": 1.0
+      }
+    },
+    {
+      "model": "qwen3-mini-thinking",
       "type": "tokens",
       "channel_type": 2001,
       "input": 0.05357,
