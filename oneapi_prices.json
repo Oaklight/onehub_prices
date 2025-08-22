@@ -8180,6 +8180,13 @@
       "output": 0.85714
     },
     {
+      "model": "deepseek-v3.1-thinking",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.28571,
+      "output": 0.85714
+    },
+    {
       "model": "openwebui_task_model",
       "type": "tokens",
       "channel_type": 2001,
