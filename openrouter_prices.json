@@ -484,13 +484,6 @@
       "output": 0.0
     },
     {
-      "model": "deepseek/deepseek-v3-base",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.09996,
-      "output": 0.40003
-    },
-    {
       "model": "deepseek/deepseek-v3.1-base",
       "type": "tokens",
       "channel_type": 20,
@@ -503,13 +496,6 @@
       "channel_type": 20,
       "input": 0.4,
       "output": 0.6
-    },
-    {
-      "model": "featherless/qwerky-72b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "google/gemini-2.0-flash-001",
