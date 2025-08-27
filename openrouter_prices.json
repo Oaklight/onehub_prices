@@ -526,6 +526,20 @@
       "output": 1.25
     },
     {
+      "model": "google/gemini-2.5-flash-image-preview",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 1.25
+    },
+    {
+      "model": "google/gemini-2.5-flash-image-preview:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "google/gemini-2.5-flash-lite",
       "type": "tokens",
       "channel_type": 20,
@@ -1322,6 +1336,20 @@
       "channel_type": 20,
       "input": 0.05,
       "output": 0.14
+    },
+    {
+      "model": "nousresearch/hermes-4-405b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.09996,
+      "output": 0.40003
+    },
+    {
+      "model": "nousresearch/hermes-4-70b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.04665,
+      "output": 0.18668
     },
     {
       "model": "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
@@ -2169,6 +2197,13 @@
       "channel_type": 20,
       "input": 1.5,
       "output": 7.5
+    },
+    {
+      "model": "x-ai/grok-code-fast-1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.75
     },
     {
       "model": "x-ai/grok-vision-beta",
