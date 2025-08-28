@@ -449,13 +449,6 @@
       "output": 0.02
     },
     {
-      "model": "deepseek/deepseek-r1-distill-qwen-1.5b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.09,
-      "output": 0.09
-    },
-    {
       "model": "deepseek/deepseek-r1-distill-qwen-14b",
       "type": "tokens",
       "channel_type": 20,
@@ -806,13 +799,6 @@
       "output": 0.0245
     },
     {
-      "model": "meta-llama/llama-3.2-11b-vision-instruct:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "meta-llama/llama-3.2-1b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -837,8 +823,8 @@
       "model": "meta-llama/llama-3.2-90b-vision-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.6,
-      "output": 0.6
+      "input": 0.175,
+      "output": 0.2
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct",
