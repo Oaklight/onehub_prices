@@ -386,6 +386,13 @@
       "output": 0.4
     },
     {
+      "model": "deepseek/deepseek-chat-v3.1:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "deepseek/deepseek-prover-v2",
       "type": "tokens",
       "channel_type": 20,
@@ -1716,13 +1723,6 @@
       "output": 0.55
     },
     {
-      "model": "qwen/qwen-2-72b-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.45,
-      "output": 0.45
-    },
-    {
       "model": "qwen/qwen-2.5-72b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -1880,8 +1880,15 @@
       "model": "qwen/qwen3-30b-a3b-instruct-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.15
+      "input": 0.02592,
+      "output": 0.10371
+    },
+    {
+      "model": "qwen/qwen3-30b-a3b-thinking-2507",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.03565,
+      "output": 0.1426
     },
     {
       "model": "qwen/qwen3-30b-a3b:free",
@@ -1924,6 +1931,13 @@
       "channel_type": 20,
       "input": 0.1,
       "output": 0.4
+    },
+    {
+      "model": "qwen/qwen3-coder-30b-a3b-instruct",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0259,
+      "output": 0.1426
     },
     {
       "model": "qwen/qwen3-coder:free",
@@ -2216,8 +2230,8 @@
       "model": "z-ai/glm-4.5-air",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.55
+      "input": 0.07,
+      "output": 0.43
     },
     {
       "model": "z-ai/glm-4.5-air:free",
