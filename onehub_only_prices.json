@@ -4911,6 +4911,13 @@
       }
     },
     {
+      "model": "gemini-2.5-flash-preview-image",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.15,
+      "output": 15.0
+    },
+    {
       "model": "gemini-2.5-flash-preview-native-audio-dialog",
       "type": "tokens",
       "channel_type": 25,
@@ -4951,6 +4958,13 @@
       "type": "tokens",
       "channel_type": 25,
       "input": 0.075,
+      "output": 0.0
+    },
+    {
+      "model": "gemini-embedding-exp-03-07",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.0,
       "output": 0.0
     },
     {
@@ -5017,28 +5031,28 @@
       "output": 0.0
     },
     {
-      "model": "image4-ultra",
-      "type": "times",
-      "channel_type": 25,
-      "input": 0.0,
-      "output": 30.0
-    },
-    {
-      "model": "imagen-3.0-generate-002",
+      "model": "imagen-3.0-generate-*",
       "type": "times",
       "channel_type": 25,
       "input": 0.0,
       "output": 15.0
     },
     {
-      "model": "imagen-4.0-generate-preview-*",
+      "model": "imagen-4.0-fast-generate-*",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 10.0
+    },
+    {
+      "model": "imagen-4.0-generate-*",
       "type": "times",
       "channel_type": 25,
       "input": 0.0,
       "output": 20.0
     },
     {
-      "model": "imagen-4.0-ultra-generate-preview-*",
+      "model": "imagen-4.0-ultra-generate-*",
       "type": "times",
       "channel_type": 25,
       "input": 0.0,
@@ -5057,6 +5071,20 @@
       "channel_type": 25,
       "input": 0.0,
       "output": 20.0
+    },
+    {
+      "model": "imagen4-fast",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 10.0
+    },
+    {
+      "model": "imagen4-ultra",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 30.0
     },
     {
       "model": "learnlm-2.0-flash-experimental",
