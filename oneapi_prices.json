@@ -274,26 +274,6 @@
       }
     },
     {
-      "model": "gpt-4.5-preview",
-      "type": "tokens",
-      "channel_type": 1,
-      "input": 37.5,
-      "output": 75.0,
-      "extra_ratios": {
-        "cached_tokens": 0.5
-      }
-    },
-    {
-      "model": "gpt-4.5-preview-2025-02-27",
-      "type": "tokens",
-      "channel_type": 1,
-      "input": 37.5,
-      "output": 75.0,
-      "extra_ratios": {
-        "cached_tokens": 0.5
-      }
-    },
-    {
       "model": "gpt-4o",
       "type": "tokens",
       "channel_type": 1,
@@ -332,6 +312,17 @@
     },
     {
       "model": "gpt-4o-audio-preview",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.25,
+      "output": 5.0,
+      "extra_ratios": {
+        "input_audio_tokens": 16.0,
+        "output_audio_tokens": 8.0
+      }
+    },
+    {
+      "model": "gpt-4o-audio-preview*",
       "type": "tokens",
       "channel_type": 1,
       "input": 1.25,
@@ -391,7 +382,7 @@
       }
     },
     {
-      "model": "gpt-4o-mini-audio-preview-2024-12-17",
+      "model": "gpt-4o-mini-audio-preview-*",
       "type": "tokens",
       "channel_type": 1,
       "input": 0.075,
@@ -414,7 +405,7 @@
       }
     },
     {
-      "model": "gpt-4o-mini-realtime-preview-2024-12-17",
+      "model": "gpt-4o-mini-realtime-preview-*",
       "type": "tokens",
       "channel_type": 1,
       "input": 0.3,
@@ -444,14 +435,20 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 0.625,
-      "output": 2.5
+      "output": 2.5,
+      "extra_ratios": {
+        "input_audio_tokens": 2.4
+      }
     },
     {
       "model": "gpt-4o-mini-tts",
       "type": "tokens",
       "channel_type": 1,
       "input": 0.3,
-      "output": 0.0
+      "output": 0.0,
+      "extra_ratios": {
+        "input_audio_tokens": 20.0
+      }
     },
     {
       "model": "gpt-4o-realtime-preview",
@@ -503,7 +500,10 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 1.25,
-      "output": 5.0
+      "output": 5.0,
+      "extra_ratios": {
+        "input_audio_tokens": 2.4
+      }
     },
     {
       "model": "gpt-5",
@@ -546,6 +546,17 @@
       }
     },
     {
+      "model": "gpt-audio",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.25,
+      "output": 5.0,
+      "extra_ratios": {
+        "input_audio_tokens": 16.0,
+        "output_audio_tokens": 8.0
+      }
+    },
+    {
       "model": "gpt-image-1",
       "type": "tokens",
       "channel_type": 1,
@@ -554,6 +565,18 @@
       "extra_ratios": {
         "input_image_tokens": 2.0,
         "output_image_tokens": 20.0
+      }
+    },
+    {
+      "model": "gpt-realtime",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 2.0,
+      "output": 8.0,
+      "extra_ratios": {
+        "cached_tokens": 0.125,
+        "input_audio_tokens": 8.0,
+        "output_audio_tokens": 4.0
       }
     },
     {
@@ -742,24 +765,31 @@
       }
     },
     {
+      "model": "omni-moderation",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "text-embedding-3-large",
       "type": "tokens",
       "channel_type": 1,
-      "input": 0.065,
+      "input": 0.0325,
       "output": 0.0
     },
     {
       "model": "text-embedding-3-small",
       "type": "tokens",
       "channel_type": 1,
-      "input": 0.01,
+      "input": 0.005,
       "output": 0.0
     },
     {
       "model": "text-embedding-ada-002",
       "type": "tokens",
       "channel_type": 1,
-      "input": 0.05,
+      "input": 0.025,
       "output": 0.0
     },
     {
@@ -3933,6 +3963,13 @@
       "channel_type": 20,
       "input": 0.036,
       "output": 0.14
+    },
+    {
+      "model": "openai/gpt-oss-120b:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "openai/gpt-oss-20b",
@@ -7848,6 +7885,26 @@
       "output": 7.5,
       "extra_ratios": {
         "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-code",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 0.1,
+      "output": 0.75,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "grok-code-fast-1",
+      "type": "tokens",
+      "channel_type": 1009,
+      "input": 0.1,
+      "output": 0.75,
+      "extra_ratios": {
+        "cached_tokens": 0.1
       }
     },
     {
