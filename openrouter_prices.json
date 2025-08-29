@@ -1936,8 +1936,8 @@
       "model": "qwen/qwen3-coder-30b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0259,
-      "output": 0.1426
+      "input": 0.02592,
+      "output": 0.10371
     },
     {
       "model": "qwen/qwen3-coder:free",
