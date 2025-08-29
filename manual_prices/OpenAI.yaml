@@ -237,6 +237,9 @@ models:
 
     # moderation
     omni-moderation:
+      aliases:
+        - omni-moderation-latest
+        - omni-moderation-2024-09-26
       input: 0
       output: 0
 
