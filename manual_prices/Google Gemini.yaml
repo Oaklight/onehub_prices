@@ -10,6 +10,9 @@ models:
     learnlm-2.0-flash-experimental:
       input: 0
       output: 0
+    gemini-embedding-exp-03-07:
+      input: 0
+      output: 0
 
     # Gemini 2.5 Pro
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro
@@ -49,6 +52,12 @@ models:
         - input_audio_tokens: 3 usd / M
         # - input_video_tokens: 3 usd / M # 暂时没有启用
         - output_audio_tokens: 12 usd / M
+
+    # Gemini 2.5 Flash Image Preview
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-image-preview
+    gemini-2.5-flash-preview-image:
+      input: 0.3 usd / M
+      output: 30 usd / M
 
     # Gemini 2.5 Flash Preview TTS
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-preview-tts
@@ -100,17 +109,21 @@ models:
     # Imagen 4
     # https://ai.google.dev/gemini-api/docs/pricing#imagen-3
     imagen4:
-      aliases: imagen-4.0-generate-preview-*
+      aliases: imagen-4.0-generate-*
       output: 0.04 usd / image
 
-    image4-ultra:
-      aliases: imagen-4.0-ultra-generate-preview-*
+    imagen4-ultra:
+      aliases: imagen-4.0-ultra-generate-*
       output: 0.06 usd / image
+
+    imagen4-fast:
+      aliases: imagen-4.0-fast-generate-*
+      output: 0.02 usd / image
 
     # Imagen 3
     # https://ai.google.dev/gemini-api/docs/pricing#imagen-3
     imagen3:
-      aliases: imagen-3.0-generate-002
+      aliases: imagen-3.0-generate-*
       output: 0.03 usd / image
 
     # Veo 3 Preview
