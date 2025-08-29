@@ -1,6 +1,8 @@
 models:
   OpenAI:
     # 模型价格：https://platform.openai.com/docs/pricing
+
+    # GPT-5
     gpt-5:
       input: 1.25 usd / M
       output: 10 usd / M
@@ -21,6 +23,8 @@ models:
       output: 10 usd / M
       extra_ratios:
         - cached_tokens: 0.125 usd / M
+
+    # GPT-4.1
     gpt-4.1:
       aliases:
         - gpt-4.1-2025-04-14
@@ -42,13 +46,8 @@ models:
       output: 0.4 usd / M
       extra_ratios:
         - cached_tokens: 0.025 usd / M
-    gpt-4.5-preview:
-      aliases:
-        - gpt-4.5-preview-2025-02-27
-      input: 75 usd / M
-      output: 150 usd / M
-      extra_ratios:
-        - cached_tokens: 37.5 usd / M
+
+    # GPT-4o
     gpt-4o:
       aliases:
         - gpt-4o-2024-11-20
@@ -60,14 +59,23 @@ models:
     gpt-4o-2024-05-13:
       input: 5 usd / M
       output: 15 usd / M
-    gpt-4o-audio-preview:
+    gpt-4o-mini:
       aliases:
-        - gpt-4o-audio-preview-*
-      input: 2.5 usd / M
-      output: 10 usd / M
+        - gpt-4o-mini-2024-07-18
+      input: 0.15 usd / M
+      output: 0.6 usd / M
       extra_ratios:
-        - input_audio_tokens: 40 usd / M
-        - output_audio_tokens: 80 usd / M
+        - cached_tokens: 0.075 usd / M
+
+    # Realtime models
+    gpt-realtime:
+      input: 4 usd / M
+      output: 16 usd / M
+      extra_ratios:
+        - cached_tokens: 0.5 usd / M
+        - input_audio_tokens: 32 usd / M
+        - output_audio_tokens: 64 usd / M
+        # - input_audio_cached_tokens: 0.4 usd / M
     gpt-4o-realtime-preview:
       aliases:
         - gpt-4o-realtime-preview-*
@@ -77,30 +85,42 @@ models:
         - cached_tokens: 2.5 usd / M
         - input_audio_tokens: 40 usd / M
         - output_audio_tokens: 80 usd / M
-    gpt-4o-mini:
-      aliases:
-        - gpt-4o-mini-2024-07-18
-      input: 0.15 usd / M
-      output: 0.6 usd / M
-      extra_ratios:
-        - cached_tokens: 0.075 usd / M
-    gpt-4o-mini-audio-preview:
-      aliases:
-        - gpt-4o-mini-audio-preview-2024-12-17
-      input: 0.15 usd / M
-      output: 0.6 usd / M
-      extra_ratios:
-        - input_audio_tokens: 10 usd / M
-        - output_audio_tokens: 20 usd / M
     gpt-4o-mini-realtime-preview:
       aliases:
-        - gpt-4o-mini-realtime-preview-2024-12-17
+        - gpt-4o-mini-realtime-preview-*
       input: 0.6 usd / M
       output: 2.4 usd / M
       extra_ratios:
         - cached_tokens: 0.3 usd / M
         - input_audio_tokens: 10 usd / M
         - output_audio_tokens: 20 usd / M
+
+    # Audio models
+    gpt-audio:
+      aliases:
+        - gpt-4o-audio-preview*
+      input: 2.5 usd / M
+      output: 10 usd / M
+      extra_ratios:
+        - input_audio_tokens: 40 usd / M
+        - output_audio_tokens: 80 usd / M
+    gpt-4o-audio-preview:
+      aliases:
+        - gpt-4o-audio-preview-*
+      input: 2.5 usd / M
+      output: 10 usd / M
+      extra_ratios:
+        - input_audio_tokens: 40 usd / M
+        - output_audio_tokens: 80 usd / M
+    gpt-4o-mini-audio-preview:
+      aliases:
+        - gpt-4o-mini-audio-preview-*
+      input: 0.15 usd / M
+      output: 0.6 usd / M
+      extra_ratios:
+        - input_audio_tokens: 10 usd / M
+        - output_audio_tokens: 20 usd / M
+
     o1:
       aliases:
         - o1-2024-12-17
@@ -191,22 +211,33 @@ models:
     gpt-4o-mini-tts:
       input: 0.6 usd / M
       output: 0
+      extra_ratios:
+        - input_audio_tokens: 12 usd / M
     gpt-4o-transcribe:
       input: 2.5 usd / M
       output: 10 usd / M
+      extra_ratios:
+        - input_audio_tokens: 6 usd / M
     gpt-4o-mini-transcribe:
       input: 1.25 usd / M
       output: 5 usd / M
+      extra_ratios:
+        - input_audio_tokens: 3 usd / M
 
     # embedding models
     text-embedding-3-small:
-      input: 0.02 usd / M
+      input: 0.01 usd / M
       output: 0
     text-embedding-3-large:
-      input: 0.13 usd / M
+      input: 0.065 usd / M
       output: 0
     text-embedding-ada-002:
-      input: 0.1 usd / M
+      input: 0.05 usd / M
+      output: 0
+
+    # moderation
+    omni-moderation:
+      input: 0
       output: 0
 
     # other models
