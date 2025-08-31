@@ -2230,8 +2230,8 @@
       "model": "z-ai/glm-4.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.09996,
-      "output": 0.40003
+      "input": 0.16493,
+      "output": 0.66005
     },
     {
       "model": "z-ai/glm-4.5-air",
