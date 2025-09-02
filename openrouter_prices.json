@@ -358,6 +358,20 @@
       "output": 0.075
     },
     {
+      "model": "deepcogito/cogito-v2-preview-deepseek-671b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.625,
+      "output": 0.625
+    },
+    {
+      "model": "deepcogito/cogito-v2-preview-llama-109b-moe",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.09,
+      "output": 0.295
+    },
+    {
       "model": "deepseek/deepseek-chat",
       "type": "tokens",
       "channel_type": 20,
@@ -2015,20 +2029,6 @@
       "channel_type": 20,
       "input": 0.325,
       "output": 0.375
-    },
-    {
-      "model": "sarvamai/sarvam-m:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "scb10x/llama3.1-typhoon2-70b-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.44,
-      "output": 0.44
     },
     {
       "model": "shisa-ai/shisa-v2-llama3.3-70b",
