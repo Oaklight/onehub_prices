@@ -7022,6 +7022,285 @@
       "output": 0.0
     },
     {
+      "model": "grok-2",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 5.0
+    },
+    {
+      "model": "grok-2-1212",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 5.0
+    },
+    {
+      "model": "grok-2-image",
+      "type": "times",
+      "channel_type": 56,
+      "input": 0.0,
+      "output": 35.0
+    },
+    {
+      "model": "grok-2-image",
+      "type": "times",
+      "channel_type": 56,
+      "input": 0.0,
+      "output": 35.0
+    },
+    {
+      "model": "grok-2-image-1212",
+      "type": "times",
+      "channel_type": 56,
+      "input": 0.0,
+      "output": 35.0
+    },
+    {
+      "model": "grok-2-image-latest",
+      "type": "times",
+      "channel_type": 56,
+      "input": 0.0,
+      "output": 35.0
+    },
+    {
+      "model": "grok-2-latest",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 5.0
+    },
+    {
+      "model": "grok-2-vision",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 5.0,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
+    },
+    {
+      "model": "grok-2-vision-1212",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 5.0,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
+    },
+    {
+      "model": "grok-2-vision-latest",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 5.0,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
+    },
+    {
+      "model": "grok-3",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.5,
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-3",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.5,
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-3-beta",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.5,
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-3-fast",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-3-fast",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-3-fast-beta",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-3-fast-latest",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-3-latest",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.5,
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-3-mini",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.15,
+      "output": 0.25,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-3-mini",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.15,
+      "output": 0.25,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-3-mini-beta",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.15,
+      "output": 0.25,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-3-mini-fast",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.3,
+      "output": 2.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-3-mini-fast",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.3,
+      "output": 2.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-3-mini-fast-beta",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.3,
+      "output": 2.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-3-mini-fast-latest",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.3,
+      "output": 2.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-3-mini-latest",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.15,
+      "output": 0.25,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-4",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.5,
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-4-0709",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.5,
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-code",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.1,
+      "output": 0.75,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "grok-code-fast-1",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.1,
+      "output": 0.75,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "intern-latest",
       "type": "tokens",
       "channel_type": 1001,
@@ -7669,285 +7948,6 @@
       "channel_type": 1008,
       "input": 0.01429,
       "output": 0.0
-    },
-    {
-      "model": "grok-2",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 1.0,
-      "output": 5.0
-    },
-    {
-      "model": "grok-2-1212",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 1.0,
-      "output": 5.0
-    },
-    {
-      "model": "grok-2-image",
-      "type": "times",
-      "channel_type": 1009,
-      "input": 0.0,
-      "output": 35.0
-    },
-    {
-      "model": "grok-2-image",
-      "type": "times",
-      "channel_type": 1009,
-      "input": 0.0,
-      "output": 35.0
-    },
-    {
-      "model": "grok-2-image-1212",
-      "type": "times",
-      "channel_type": 1009,
-      "input": 0.0,
-      "output": 35.0
-    },
-    {
-      "model": "grok-2-image-latest",
-      "type": "times",
-      "channel_type": 1009,
-      "input": 0.0,
-      "output": 35.0
-    },
-    {
-      "model": "grok-2-latest",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 1.0,
-      "output": 5.0
-    },
-    {
-      "model": "grok-2-vision",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 1.0,
-      "output": 5.0,
-      "extra_ratios": {
-        "input_image_tokens": 1.0
-      }
-    },
-    {
-      "model": "grok-2-vision-1212",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 1.0,
-      "output": 5.0,
-      "extra_ratios": {
-        "input_image_tokens": 1.0
-      }
-    },
-    {
-      "model": "grok-2-vision-latest",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 1.0,
-      "output": 5.0,
-      "extra_ratios": {
-        "input_image_tokens": 1.0
-      }
-    },
-    {
-      "model": "grok-3",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 1.5,
-      "output": 7.5,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 1.5,
-      "output": 7.5,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-beta",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 1.5,
-      "output": 7.5,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-fast",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 2.5,
-      "output": 12.5,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-fast",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 2.5,
-      "output": 12.5,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-fast-beta",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 2.5,
-      "output": 12.5,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-fast-latest",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 2.5,
-      "output": 12.5,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-latest",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 1.5,
-      "output": 7.5,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-mini",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 0.15,
-      "output": 0.25,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-mini",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 0.15,
-      "output": 0.25,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-mini-beta",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 0.15,
-      "output": 0.25,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-mini-fast",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 0.3,
-      "output": 2.0,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-mini-fast",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 0.3,
-      "output": 2.0,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-mini-fast-beta",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 0.3,
-      "output": 2.0,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-mini-fast-latest",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 0.3,
-      "output": 2.0,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-mini-latest",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 0.15,
-      "output": 0.25,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-4",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 1.5,
-      "output": 7.5,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-4-0709",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 1.5,
-      "output": 7.5,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-code",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 0.1,
-      "output": 0.75,
-      "extra_ratios": {
-        "cached_tokens": 0.1
-      }
-    },
-    {
-      "model": "grok-code-fast-1",
-      "type": "tokens",
-      "channel_type": 1009,
-      "input": 0.1,
-      "output": 0.75,
-      "extra_ratios": {
-        "cached_tokens": 0.1
-      }
     },
     {
       "model": "chutes:*",

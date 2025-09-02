@@ -170,6 +170,11 @@
       "name": "Kling",
       "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/kling-color.svg"
     },
+    "56": {
+      "id": 56,
+      "name": "xAI",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-webp/1.24.0/files/light/xai.webp"
+    },
     "1001": {
       "id": 1001,
       "name": "InternLM",
@@ -204,11 +209,6 @@
       "id": 1008,
       "name": "Coreshub",
       "icon": "https://coreshub.cn/favicon.svg"
-    },
-    "1009": {
-      "id": 1009,
-      "name": "xAI",
-      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/grok.svg"
     },
     "1010": {
       "id": 1010,
