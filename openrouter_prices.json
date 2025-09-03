@@ -431,8 +431,8 @@
       "model": "deepseek/deepseek-r1-0528-qwen3-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.005,
-      "output": 0.01
+      "input": 0.00852,
+      "output": 0.03408
     },
     {
       "model": "deepseek/deepseek-r1-0528-qwen3-8b:free",
@@ -830,8 +830,8 @@
       "model": "meta-llama/llama-3.2-3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0015,
-      "output": 0.003
+      "input": 0.006,
+      "output": 0.012
     },
     {
       "model": "meta-llama/llama-3.2-3b-instruct:free",
@@ -1138,8 +1138,8 @@
       "model": "mistralai/mistral-nemo",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.00375,
-      "output": 0.025
+      "input": 0.005,
+      "output": 0.02
     },
     {
       "model": "mistralai/mistral-nemo:free",
@@ -1686,13 +1686,6 @@
       "channel_type": 20,
       "input": 0.55,
       "output": 2.2
-    },
-    {
-      "model": "opengvlab/internvl3-14b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.2
     },
     {
       "model": "perplexity/r1-1776",
