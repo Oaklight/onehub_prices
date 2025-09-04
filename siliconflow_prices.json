@@ -50,6 +50,13 @@
       "output": 0.0
     },
     {
+      "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.10714,
+      "output": 0.28571
+    },
+    {
       "model": "FunAudioLLM/CosyVoice2-0.5B",
       "type": "tokens",
       "channel_type": 45,
