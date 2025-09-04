@@ -64,27 +64,6 @@
       "output": 2.75
     },
     {
-      "model": "amazon/nova-lite-v1",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.03,
-      "output": 0.12
-    },
-    {
-      "model": "amazon/nova-micro-v1",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0175,
-      "output": 0.07
-    },
-    {
-      "model": "amazon/nova-pro-v1",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.4,
-      "output": 1.6
-    },
-    {
       "model": "anthracite-org/magnum-v2-72b",
       "type": "tokens",
       "channel_type": 20,
@@ -545,13 +524,6 @@
       "channel_type": 20,
       "input": 0.15,
       "output": 1.25
-    },
-    {
-      "model": "google/gemini-2.5-flash-image-preview:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "google/gemini-2.5-flash-lite",
