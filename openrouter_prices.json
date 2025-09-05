@@ -1254,6 +1254,13 @@
       "output": 1.245
     },
     {
+      "model": "moonshotai/kimi-k2-0905",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.3,
+      "output": 1.25
+    },
+    {
       "model": "moonshotai/kimi-k2:free",
       "type": "tokens",
       "channel_type": 20,
