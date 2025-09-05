@@ -5288,6 +5288,36 @@
       }
     },
     {
+      "model": "kimi-k2-0905-preview",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 0.28571,
+      "output": 1.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "kimi-k2-turbo",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 1.14286,
+      "output": 4.57143,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "kimi-k2-turbo-preview",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 1.14286,
+      "output": 4.57143,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
       "model": "kimi-latest",
       "type": "tokens",
       "channel_type": 29,
