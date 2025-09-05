@@ -14,6 +14,12 @@ models:
       output: 0.032 rmb / K
 
     # 大模型系列
+    qwen3-max:
+      aliases: qwen3-max-preview
+      input: 0.01 rmb / K
+      output: 0.04 rmb / K
+      extra_ratios:
+        - cached_tokens: 0.4
     qwen-max: # 仍旧为qwen2.5
       aliases: qwen-max-latest
       input: 0.0024 rmb / K
