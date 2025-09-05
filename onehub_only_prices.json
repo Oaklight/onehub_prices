@@ -2306,6 +2306,26 @@
       }
     },
     {
+      "model": "qwen3-max",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.71429,
+      "output": 2.85714,
+      "extra_ratios": {
+        "cached_tokens": 0.4
+      }
+    },
+    {
+      "model": "qwen3-max-preview",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.71429,
+      "output": 2.85714,
+      "extra_ratios": {
+        "cached_tokens": 0.4
+      }
+    },
+    {
       "model": "qwq-plus",
       "type": "tokens",
       "channel_type": 17,
