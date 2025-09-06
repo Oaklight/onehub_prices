@@ -246,6 +246,13 @@
       "output": 0.625
     },
     {
+      "model": "bytedance/seed-oss-36b-instruct",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05183,
+      "output": 0.20742
+    },
+    {
       "model": "bytedance/ui-tars-1.5-7b",
       "type": "tokens",
       "channel_type": 20,
@@ -1688,6 +1695,20 @@
       "output": 2.2
     },
     {
+      "model": "openrouter/sonoma-dusk-alpha",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "openrouter/sonoma-sky-alpha",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "perplexity/r1-1776",
       "type": "tokens",
       "channel_type": 20,
@@ -1971,8 +1992,8 @@
       "model": "qwen/qwq-32b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.075
+      "input": 0.075,
+      "output": 0.2
     },
     {
       "model": "qwen/qwq-32b-preview",
@@ -2050,6 +2071,13 @@
       "channel_type": 20,
       "input": 0.4,
       "output": 0.4
+    },
+    {
+      "model": "stepfun-ai/step3",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.285,
+      "output": 0.71
     },
     {
       "model": "switchpoint/router",
