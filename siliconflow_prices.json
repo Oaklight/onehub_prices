@@ -71,6 +71,13 @@
       "output": 0.0
     },
     {
+      "model": "IndexTeam/IndexTTS-2",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 3.57143,
+      "output": 3.57143
+    },
+    {
       "model": "Kwai-Kolors/Kolors",
       "type": "tokens",
       "channel_type": 45,
@@ -776,6 +783,13 @@
       "channel_type": 45,
       "input": 3.57143,
       "output": 3.57143
+    },
+    {
+      "model": "inclusionAI/Ling-mini-2.0",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.03571,
+      "output": 0.14286
     },
     {
       "model": "internlm/internlm2_5-20b-chat",
