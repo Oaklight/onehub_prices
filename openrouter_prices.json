@@ -575,13 +575,6 @@
       "output": 5.0
     },
     {
-      "model": "google/gemini-2.5-pro-exp-03-25",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "google/gemini-2.5-pro-preview",
       "type": "tokens",
       "channel_type": 20,
@@ -1399,6 +1392,13 @@
       "channel_type": 20,
       "input": 0.065,
       "output": 0.2
+    },
+    {
+      "model": "nvidia/nemotron-nano-9b-v2",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "openai/chatgpt-4o-latest",
