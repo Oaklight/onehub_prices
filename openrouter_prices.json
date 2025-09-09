@@ -312,8 +312,8 @@
       "model": "cohere/command-a",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.0,
-      "output": 4.0
+      "input": 1.25,
+      "output": 5.0
     },
     {
       "model": "cohere/command-r",
