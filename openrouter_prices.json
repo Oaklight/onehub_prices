@@ -53,8 +53,8 @@
       "model": "alfredpros/codellama-7b-instruct-solidity",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.35,
-      "output": 0.55
+      "input": 0.4,
+      "output": 0.6
     },
     {
       "model": "allenai/molmo-7b-d",
@@ -729,13 +729,6 @@
       "output": 0.5
     },
     {
-      "model": "infermatic/mn-inferor-12b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.3,
-      "output": 0.5
-    },
-    {
       "model": "inflection/inflection-3-pi",
       "type": "tokens",
       "channel_type": 20,
@@ -769,6 +762,13 @@
       "channel_type": 20,
       "input": 0.5625,
       "output": 0.5625
+    },
+    {
+      "model": "meituan/longcat-flash-chat",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.075,
+      "output": 0.375
     },
     {
       "model": "meta-llama/llama-3-70b-instruct",
@@ -1401,6 +1401,13 @@
       "output": 0.0
     },
     {
+      "model": "nvidia/nemotron-nano-9b-v2",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.02,
+      "output": 0.08
+    },
+    {
       "model": "nvidia/nemotron-nano-9b-v2:free",
       "type": "tokens",
       "channel_type": 20,
@@ -1756,13 +1763,6 @@
       "channel_type": 20,
       "input": 1.0,
       "output": 4.0
-    },
-    {
-      "model": "pygmalionai/mythalion-13b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.35,
-      "output": 0.55
     },
     {
       "model": "qwen/qwen-2.5-72b-instruct",
