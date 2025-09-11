@@ -1996,6 +1996,13 @@
       "output": 3.0
     },
     {
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 0.15
+    },
+    {
       "model": "qwen/qwq-32b",
       "type": "tokens",
       "channel_type": 20,
