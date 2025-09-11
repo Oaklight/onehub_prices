@@ -263,8 +263,8 @@
       "model": "bytedance/seed-oss-36b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05183,
-      "output": 0.20742
+      "input": 0.10033,
+      "output": 0.40134
     },
     {
       "model": "bytedance/ui-tars-1.5-7b",
