@@ -2326,6 +2326,46 @@
       }
     },
     {
+      "model": "qwen3-next",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.07143,
+      "output": 0.28571,
+      "extra_ratios": {
+        "reasoning_tokens": 10.0
+      }
+    },
+    {
+      "model": "qwen3-next-80b-a3b-instruct",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.07143,
+      "output": 0.28571,
+      "extra_ratios": {
+        "reasoning_tokens": 10.0
+      }
+    },
+    {
+      "model": "qwen3-next-80b-a3b-thinking",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.07143,
+      "output": 0.28571,
+      "extra_ratios": {
+        "reasoning_tokens": 10.0
+      }
+    },
+    {
+      "model": "qwen3-next-thinking",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.07143,
+      "output": 0.28571,
+      "extra_ratios": {
+        "reasoning_tokens": 10.0
+      }
+    },
+    {
       "model": "qwq-plus",
       "type": "tokens",
       "channel_type": 17,
@@ -4436,8 +4476,8 @@
       "model": "qwen/qwen3-next-80b-a3b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07337,
-      "output": 0.29348
+      "input": 0.07,
+      "output": 0.7
     },
     {
       "model": "qwen/qwq-32b",
