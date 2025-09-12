@@ -281,6 +281,13 @@
       "output": 0.09
     },
     {
+      "model": "Qwen/Qwen-Image",
+      "type": "times",
+      "channel_type": 45,
+      "input": 0.3,
+      "output": 0.3
+    },
+    {
       "model": "Qwen/Qwen1.5-110B-Chat",
       "type": "tokens",
       "channel_type": 45,
@@ -853,6 +860,13 @@
       "channel_type": 45,
       "input": 0.07143,
       "output": 0.28571
+    },
+    {
+      "model": "tencent/Hunyuan-MT-7B",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "tencent/HunyuanVideo",
