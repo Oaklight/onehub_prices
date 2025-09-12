@@ -182,6 +182,22 @@ models:
       input: 0
       output: 0
 
+    # qwen3 series
+    # qwen3-next
+    qwen3-next:
+      aliases:
+        - qwen3-next-80b-a3b-instruct
+      input: 0.001 rmb / K
+      output: 0.004 rmb / K
+      extra_ratios:
+        - reasoning_tokens: 0.01 rmb / K
+    qwen3-next-thinking:
+      aliases:
+        - qwen3-next-80b-a3b-thinking
+      input: 0.001 rmb / K
+      output: 0.004 rmb / K
+      extra_ratios:
+        - reasoning_tokens: 0.01 rmb / K
     # qwen3
     qwen3-235b-a22b:
       aliases:
