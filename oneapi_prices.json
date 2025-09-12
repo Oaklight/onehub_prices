@@ -2330,40 +2330,28 @@
       "type": "tokens",
       "channel_type": 17,
       "input": 0.07143,
-      "output": 0.28571,
-      "extra_ratios": {
-        "reasoning_tokens": 10.0
-      }
+      "output": 0.28571
     },
     {
       "model": "qwen3-next-80b-a3b-instruct",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.07143,
-      "output": 0.28571,
-      "extra_ratios": {
-        "reasoning_tokens": 10.0
-      }
+      "output": 0.28571
     },
     {
       "model": "qwen3-next-80b-a3b-thinking",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.07143,
-      "output": 0.28571,
-      "extra_ratios": {
-        "reasoning_tokens": 10.0
-      }
+      "output": 0.28571
     },
     {
       "model": "qwen3-next-thinking",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.07143,
-      "output": 0.28571,
-      "extra_ratios": {
-        "reasoning_tokens": 10.0
-      }
+      "output": 0.28571
     },
     {
       "model": "qwq-plus",
