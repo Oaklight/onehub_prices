@@ -508,8 +508,8 @@
       "model": "deepseek/deepseek-r1-distill-qwen-32b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.075
+      "input": 0.135,
+      "output": 0.135
     },
     {
       "model": "deepseek/deepseek-r1:free",
@@ -1355,15 +1355,15 @@
       "model": "nousresearch/hermes-3-llama-3.1-405b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.35,
+      "input": 0.4,
       "output": 0.4
     },
     {
       "model": "nousresearch/hermes-3-llama-3.1-70b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.14
+      "input": 0.06,
+      "output": 0.15
     },
     {
       "model": "nousresearch/hermes-4-405b",
@@ -2013,15 +2013,15 @@
       "model": "qwen/qwen3-next-80b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
-      "output": 0.7
+      "input": 0.04891,
+      "output": 0.19565
     },
     {
       "model": "qwen/qwen3-next-80b-a3b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
-      "output": 0.7
+      "input": 0.04891,
+      "output": 0.19565
     },
     {
       "model": "qwen/qwq-32b",
