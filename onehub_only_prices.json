@@ -3673,8 +3673,8 @@
       "model": "mistralai/mixtral-8x7b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.12
+      "input": 0.2,
+      "output": 0.2
     },
     {
       "model": "mistralai/pixtral-12b",
@@ -3827,8 +3827,8 @@
       "model": "nvidia/llama-3.1-nemotron-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
-      "output": 0.15
+      "input": 0.3,
+      "output": 0.3
     },
     {
       "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
@@ -4513,7 +4513,7 @@
       "model": "sao10k/l3-lunaris-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01,
+      "input": 0.02,
       "output": 0.025
     },
     {
