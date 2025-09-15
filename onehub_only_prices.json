@@ -2725,13 +2725,6 @@
       "output": 0.0
     },
     {
-      "model": "cognitivecomputations/dolphin-mixtral-8x22b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.45,
-      "output": 0.45
-    },
-    {
       "model": "cognitivecomputations/dolphin3.0-mistral-24b",
       "type": "tokens",
       "channel_type": 20,
@@ -4436,8 +4429,8 @@
       "model": "qwen/qwen3-coder-30b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03533,
-      "output": 0.1413
+      "input": 0.035,
+      "output": 0.14
     },
     {
       "model": "qwen/qwen3-coder:free",
@@ -4545,13 +4538,6 @@
       "output": 0.0
     },
     {
-      "model": "sophosympatheia/midnight-rose-70b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.4,
-      "output": 0.4
-    },
-    {
       "model": "stepfun-ai/step3",
       "type": "tokens",
       "channel_type": 20,
@@ -4613,13 +4599,6 @@
       "channel_type": 20,
       "input": 0.2,
       "output": 0.2
-    },
-    {
-      "model": "thudm/glm-4-32b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.275,
-      "output": 0.83
     },
     {
       "model": "thudm/glm-4.1v-9b-thinking",
