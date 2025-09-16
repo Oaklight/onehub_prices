@@ -3274,8 +3274,8 @@
       "model": "meta-llama/llama-3.2-3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.006,
-      "output": 0.012
+      "input": 0.01,
+      "output": 0.01
     },
     {
       "model": "meta-llama/llama-3.2-3b-instruct:free",
