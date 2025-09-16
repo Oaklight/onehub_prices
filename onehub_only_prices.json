@@ -6449,7 +6449,7 @@
       "output": 0.025
     },
     {
-      "model": "Pro/moonshotai/Kimi-K2-Instruct",
+      "model": "Pro/moonshotai/Kimi-K2-Instruct-0711",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.28571,
@@ -6485,6 +6485,13 @@
     },
     {
       "model": "Qwen/Qwen-Image",
+      "type": "times",
+      "channel_type": 45,
+      "input": 0.3,
+      "output": 0.3
+    },
+    {
+      "model": "Qwen/Qwen-Image-Edit",
       "type": "times",
       "channel_type": 45,
       "input": 0.3,
@@ -7037,7 +7044,7 @@
       "output": 0.57143
     },
     {
-      "model": "moonshotai/Kimi-K2-Instruct",
+      "model": "moonshotai/Kimi-K2-Instruct-0711",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.28571,
