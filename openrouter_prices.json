@@ -491,13 +491,6 @@
       "output": 0.075
     },
     {
-      "model": "deepseek/deepseek-r1-distill-qwen-14b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "deepseek/deepseek-r1-distill-qwen-32b",
       "type": "tokens",
       "channel_type": 20,
@@ -851,8 +844,8 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.019,
-      "output": 0.06
+      "input": 0.006,
+      "output": 0.018
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct:free",
@@ -1387,13 +1380,6 @@
       "output": 0.9
     },
     {
-      "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "nvidia/nemotron-nano-9b-v2",
       "type": "tokens",
       "channel_type": 20,
@@ -1700,6 +1686,13 @@
       "channel_type": 20,
       "input": 0.55,
       "output": 2.2
+    },
+    {
+      "model": "opengvlab/internvl3-78b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0163,
+      "output": 0.06522
     },
     {
       "model": "openrouter/sonoma-dusk-alpha",
