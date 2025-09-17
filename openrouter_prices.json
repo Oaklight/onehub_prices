@@ -2045,13 +2045,6 @@
       "output": 2.25
     },
     {
-      "model": "rekaai/reka-flash-3:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "sao10k/l3-euryale-70b",
       "type": "tokens",
       "channel_type": 20,
