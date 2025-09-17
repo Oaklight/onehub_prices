@@ -6722,6 +6722,13 @@
       "output": 0.0
     },
     {
+      "model": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.07143,
+      "output": 0.28571
+    },
+    {
       "model": "Qwen/Qwen3-Reranker-0.6B",
       "type": "tokens",
       "channel_type": 45,
@@ -7000,6 +7007,13 @@
       "channel_type": 45,
       "input": 3.57143,
       "output": 3.57143
+    },
+    {
+      "model": "inclusionAI/Ling-flash-2.0",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.07143,
+      "output": 0.28571
     },
     {
       "model": "inclusionAI/Ling-mini-2.0",
