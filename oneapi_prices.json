@@ -6834,6 +6834,13 @@
       "output": 0.095
     },
     {
+      "model": "TeleAI/TeleSpeechASR",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "Tencent/Hunyuan-A52B-Instruct",
       "type": "tokens",
       "channel_type": 45,
