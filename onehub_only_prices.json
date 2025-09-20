@@ -4153,20 +4153,6 @@
       "output": 0.065
     },
     {
-      "model": "openrouter/sonoma-dusk-alpha",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "openrouter/sonoma-sky-alpha",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "perplexity/r1-1776",
       "type": "tokens",
       "channel_type": 20,
@@ -4690,6 +4676,13 @@
       "channel_type": 20,
       "input": 1.5,
       "output": 7.5
+    },
+    {
+      "model": "x-ai/grok-4-fast:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "x-ai/grok-code-fast-1",
