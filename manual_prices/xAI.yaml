@@ -1,5 +1,14 @@
 models:
   xAI:
+    grok-4-fast:
+      aliases:
+        - grok-4-fast-reasoning
+        - grok-4-fast-non-reasoning
+      input: 0.2 usd / M
+      output: 0.5 usd / M
+      extra_ratios:
+        - cached_tokens: 0.05 usd / M
+
     grok-4:
       aliases:
         - grok-4-0709
