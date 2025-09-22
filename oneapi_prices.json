@@ -7457,6 +7457,36 @@
       }
     },
     {
+      "model": "grok-4-fast",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.1,
+      "output": 0.25,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-4-fast-non-reasoning",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.1,
+      "output": 0.25,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-4-fast-reasoning",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.1,
+      "output": 0.25,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
       "model": "grok-code",
       "type": "tokens",
       "channel_type": 56,
@@ -8505,6 +8535,20 @@
     },
     {
       "model": "deepseek-v3.1",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.28571,
+      "output": 0.85714
+    },
+    {
+      "model": "deepseek-v3.1-terminus",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.28571,
+      "output": 0.85714
+    },
+    {
+      "model": "deepseek-v3.1-terminus-thinking",
       "type": "tokens",
       "channel_type": 2001,
       "input": 0.28571,

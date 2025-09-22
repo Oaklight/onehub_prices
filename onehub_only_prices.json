@@ -7457,6 +7457,36 @@
       }
     },
     {
+      "model": "grok-4-fast",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.1,
+      "output": 0.25,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-4-fast-non-reasoning",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.1,
+      "output": 0.25,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-4-fast-reasoning",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.1,
+      "output": 0.25,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
       "model": "grok-code",
       "type": "tokens",
       "channel_type": 56,
