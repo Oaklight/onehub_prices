@@ -526,6 +526,13 @@
       "output": 0.5
     },
     {
+      "model": "deepseek/deepseek-v3.1-terminus",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.135,
+      "output": 0.5
+    },
+    {
       "model": "eleutherai/llemma_7b",
       "type": "tokens",
       "channel_type": 20,
@@ -797,13 +804,6 @@
       "channel_type": 20,
       "input": 0.4,
       "output": 0.4
-    },
-    {
-      "model": "meta-llama/llama-3.1-405b-instruct:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "meta-llama/llama-3.1-70b-instruct",
@@ -2029,20 +2029,6 @@
       "channel_type": 20,
       "input": 0.075,
       "output": 0.2
-    },
-    {
-      "model": "qwen/qwq-32b-preview",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.1
-    },
-    {
-      "model": "qwen/qwq-32b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "raifle/sorcererlm-8x22b",
