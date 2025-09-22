@@ -7044,6 +7044,13 @@
       "output": 0.14286
     },
     {
+      "model": "inclusionAI/Ring-flash-2.0",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.07143,
+      "output": 0.28571
+    },
+    {
       "model": "internlm/internlm2_5-20b-chat",
       "type": "tokens",
       "channel_type": 45,
