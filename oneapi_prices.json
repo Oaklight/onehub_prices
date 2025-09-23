@@ -4338,8 +4338,8 @@
       "model": "qwen/qwen3-235b-a22b-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.05
+      "input": 0.045,
+      "output": 0.3
     },
     {
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -6723,6 +6723,13 @@
     },
     {
       "model": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.07143,
+      "output": 0.28571
+    },
+    {
+      "model": "Qwen/Qwen3-Next-80B-A3B-Thinking",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.07143,

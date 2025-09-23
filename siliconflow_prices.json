@@ -540,6 +540,13 @@
       "output": 0.28571
     },
     {
+      "model": "Qwen/Qwen3-Next-80B-A3B-Thinking",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.07143,
+      "output": 0.28571
+    },
+    {
       "model": "Qwen/Qwen3-Reranker-0.6B",
       "type": "tokens",
       "channel_type": 45,
