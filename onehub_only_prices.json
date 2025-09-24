@@ -2560,7 +2560,7 @@
       "model": "anthracite-org/magnum-v4-72b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.0,
+      "input": 1.25,
       "output": 2.5
     },
     {
@@ -3995,8 +3995,8 @@
       "model": "openai/gpt-5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3125,
-      "output": 2.5
+      "input": 0.625,
+      "output": 5.0
     },
     {
       "model": "openai/gpt-5-chat",
@@ -4450,15 +4450,15 @@
       "model": "qwen/qwen3-vl-235b-a22b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.35,
-      "output": 1.4
+      "input": 0.15,
+      "output": 0.75
     },
     {
       "model": "qwen/qwen3-vl-235b-a22b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.35,
-      "output": 4.2
+      "input": 0.15,
+      "output": 1.5
     },
     {
       "model": "qwen/qwq-32b",
