@@ -3267,8 +3267,8 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.006,
-      "output": 0.018
+      "input": 0.02,
+      "output": 0.06
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct:free",
@@ -4445,6 +4445,20 @@
       "channel_type": 20,
       "input": 0.05,
       "output": 0.4
+    },
+    {
+      "model": "qwen/qwen3-vl-235b-a22b-instruct",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.35,
+      "output": 1.4
+    },
+    {
+      "model": "qwen/qwen3-vl-235b-a22b-thinking",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.35,
+      "output": 4.2
     },
     {
       "model": "qwen/qwq-32b",
