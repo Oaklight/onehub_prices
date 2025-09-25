@@ -2998,6 +2998,20 @@
       "output": 0.2
     },
     {
+      "model": "google/gemini-2.5-flash-lite-preview-09-2025",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.2
+    },
+    {
+      "model": "google/gemini-2.5-flash-preview-09-2025",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 1.25
+    },
+    {
       "model": "google/gemini-2.5-pro",
       "type": "tokens",
       "channel_type": 20,
@@ -4657,6 +4671,13 @@
       "output": 7.5
     },
     {
+      "model": "x-ai/grok-4-fast",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.25
+    },
+    {
       "model": "x-ai/grok-4-fast:free",
       "type": "tokens",
       "channel_type": 20,
@@ -4681,8 +4702,8 @@
       "model": "z-ai/glm-4.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.205,
-      "output": 0.825
+      "input": 0.2,
+      "output": 0.8
     },
     {
       "model": "z-ai/glm-4.5-air",
