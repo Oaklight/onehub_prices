@@ -61,7 +61,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.045,
-      "output": 0.225
+      "output": 0.2
     },
     {
       "model": "allenai/molmo-7b-d",
@@ -1236,8 +1236,8 @@
       "model": "moonshotai/kimi-k2-0905",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.19,
-      "output": 0.76
+      "input": 0.15,
+      "output": 0.675
     },
     {
       "model": "moonshotai/kimi-k2:free",
@@ -2029,6 +2029,13 @@
       "channel_type": 20,
       "input": 2.25,
       "output": 2.25
+    },
+    {
+      "model": "relace/relace-apply-3",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.425,
+      "output": 0.625
     },
     {
       "model": "sao10k/l3-euryale-70b",
