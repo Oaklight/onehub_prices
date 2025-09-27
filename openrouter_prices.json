@@ -1321,20 +1321,20 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0125,
-      "output": 0.02
+      "output": 0.04
     },
     {
       "model": "nousresearch/hermes-3-llama-3.1-405b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4,
-      "output": 0.4
+      "input": 0.5,
+      "output": 0.5
     },
     {
       "model": "nousresearch/hermes-3-llama-3.1-70b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
+      "input": 0.15,
       "output": 0.15
     },
     {
@@ -2120,6 +2120,13 @@
       "channel_type": 20,
       "input": 0.25,
       "output": 0.5
+    },
+    {
+      "model": "thedrummer/cydonia-24b-v4.1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.075,
+      "output": 0.25
     },
     {
       "model": "thedrummer/rocinante-12b",
