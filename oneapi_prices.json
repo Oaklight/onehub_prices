@@ -4198,8 +4198,8 @@
       "model": "qwen/qwen-2.5-coder-32b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
-      "output": 0.075
+      "input": 0.02,
+      "output": 0.07
     },
     {
       "model": "qwen/qwen-2.5-coder-32b-instruct:free",
