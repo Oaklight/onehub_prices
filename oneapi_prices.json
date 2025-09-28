@@ -3033,13 +3033,6 @@
       "output": 5.0
     },
     {
-      "model": "google/gemini-flash-1.5-8b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.01875,
-      "output": 0.075
-    },
-    {
       "model": "google/gemma-2-27b-it",
       "type": "tokens",
       "channel_type": 20,
