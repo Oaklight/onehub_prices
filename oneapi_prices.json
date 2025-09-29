@@ -2641,6 +2641,13 @@
       "output": 7.5
     },
     {
+      "model": "anthropic/claude-sonnet-4.5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
       "model": "arcee-ai/afm-4.5b",
       "type": "tokens",
       "channel_type": 20,
@@ -2942,6 +2949,13 @@
       "output": 0.5
     },
     {
+      "model": "deepseek/deepseek-v3.2-exp",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.135,
+      "output": 0.205
+    },
+    {
       "model": "eleutherai/llemma_7b",
       "type": "tokens",
       "channel_type": 20,
@@ -3211,8 +3225,8 @@
       "model": "meta-llama/llama-3.1-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.14
+      "input": 0.2,
+      "output": 0.2
     },
     {
       "model": "meta-llama/llama-3.1-8b-instruct",
@@ -3603,8 +3617,8 @@
       "model": "mistralai/mistral-small-3.2-24b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.1
+      "input": 0.03,
+      "output": 0.09
     },
     {
       "model": "mistralai/mistral-small-3.2-24b-instruct:free",
@@ -4023,8 +4037,8 @@
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.125
+      "input": 0.02,
+      "output": 0.2
     },
     {
       "model": "openai/gpt-oss-120b:free",
@@ -4317,8 +4331,8 @@
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.195
+      "input": 0.055,
+      "output": 0.3
     },
     {
       "model": "qwen/qwen3-235b-a22b:free",
@@ -4550,13 +4564,6 @@
       "channel_type": 20,
       "input": 0.2,
       "output": 0.35
-    },
-    {
-      "model": "thedrummer/anubis-pro-105b-v1",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.25,
-      "output": 0.5
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
