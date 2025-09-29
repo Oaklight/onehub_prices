@@ -239,6 +239,13 @@
       "output": 0.85714
     },
     {
+      "model": "Pro/deepseek-ai/DeepSeek-V3.1-Terminus",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.28571,
+      "output": 0.85714
+    },
+    {
       "model": "Pro/internlm/internlm2_5-7b-chat",
       "type": "tokens",
       "channel_type": 45,
@@ -807,6 +814,13 @@
     },
     {
       "model": "deepseek-ai/DeepSeek-V3.1",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.28571,
+      "output": 0.85714
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V3.1-Terminus",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.28571,
