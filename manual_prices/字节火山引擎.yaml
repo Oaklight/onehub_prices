@@ -7,8 +7,6 @@ models:
         - doubao-seed-1-6-thinking*
       input: 1.2 rmb / M # 取32k～128k价格，最为常见
       output: 16 rmb /M # 取32k～128k价格，最为常见
-      extra_ratios:
-        - cached_tokens: 0.1
 
     doubao-seed-1.6: # function call enabled
       aliases:
@@ -17,16 +15,19 @@ models:
         - doubao-seed-1-6-250615
       input: 1.2 rmb / M # 取32k～128k价格，最为常见
       output: 16 rmb /M # 取32k～128k价格，最为常见
-      extra_ratios:
-        - cached_tokens: 0.1
 
     doubao-seed-1.6-flash*: # function call enabled
       aliases:
         - doubao-seed-1-6-flash*
       input: 0.3 rmb / M # 取32k～128k价格，最为常见
       output: 3 rmb /M # 取32k～128k价格，最为常见
-      extra_ratios:
-        - cached_tokens: 0.1
+
+    doubao-seed-1-6-vision*:
+      aliases:
+        - doubao-seed-1.6-vision
+        - doubao-seed-1-6-vision-250815
+      input: 1.2 rmb / M
+      output: 16 rmb / M
 
     doubao-1.5-thinking-pro*: # function call enabled
       aliases:
