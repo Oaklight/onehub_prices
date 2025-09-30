@@ -1669,6 +1669,16 @@
       }
     },
     {
+      "model": "glm-4.6",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.28571,
+      "output": 1.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
       "model": "glm-4v",
       "type": "tokens",
       "channel_type": 16,
