@@ -3,6 +3,11 @@ models:
 
   Zhipu:
     # llm
+    glm-4.6:
+      input: 4 rmb / M # 取32k-128k的价格，最为常用
+      output: 16 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.8 rmb / M
     glm-4.5:
       input: 4 rmb / M # 取32k-128k的价格，最为常用
       output: 16 rmb / M
@@ -63,7 +68,7 @@ models:
 
     # vision
     glm-4.5v:
-      input: 4 rmb / M # use prices for 32~64k tokens 
+      input: 4 rmb / M # use prices for 32~64k tokens
       output: 12 rmb / M
       extra_ratios:
         - cached_tokens: 0.8 rmb / M
