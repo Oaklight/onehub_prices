@@ -3709,7 +3709,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.2,
-      "output": 1.125
+      "output": 1.0
     },
     {
       "model": "moonshotai/kimi-k2:free",
