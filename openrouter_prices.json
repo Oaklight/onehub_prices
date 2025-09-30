@@ -60,8 +60,8 @@
       "model": "alibaba/tongyi-deepresearch-30b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.2
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "allenai/molmo-7b-d",
@@ -501,15 +501,15 @@
       "model": "deepseek/deepseek-v3.1-terminus",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.135,
-      "output": 0.5
+      "input": 0.115,
+      "output": 0.45
     },
     {
       "model": "deepseek/deepseek-v3.2-exp",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.135,
-      "output": 0.205
+      "output": 0.2
     },
     {
       "model": "eleutherai/llemma_7b",
@@ -2281,6 +2281,13 @@
       "channel_type": 20,
       "input": 0.25,
       "output": 0.9
+    },
+    {
+      "model": "z-ai/glm-4.6",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.3,
+      "output": 1.1
     }
   ]
 }
