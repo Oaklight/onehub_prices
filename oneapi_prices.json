@@ -1087,6 +1087,27 @@
       "output": 7.5
     },
     {
+      "model": "claude-sonnet-4-5",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "claude-sonnet-4-5-20250929",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "claude-sonnet-4.5",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
       "model": "BLOOMZ-7B",
       "type": "tokens",
       "channel_type": 15,
@@ -5306,10 +5327,10 @@
       "model": "deepseek-chat",
       "type": "tokens",
       "channel_type": 28,
-      "input": 0.28571,
-      "output": 0.85714,
+      "input": 0.14286,
+      "output": 0.21429,
       "extra_ratios": {
-        "cached_tokens": 0.125
+        "cached_tokens": 0.1
       }
     },
     {
@@ -5330,10 +5351,10 @@
       "model": "deepseek-reasoner",
       "type": "tokens",
       "channel_type": 28,
-      "input": 0.28571,
-      "output": 0.85714,
+      "input": 0.14286,
+      "output": 0.21429,
       "extra_ratios": {
-        "cached_tokens": 0.125
+        "cached_tokens": 0.1
       }
     },
     {
