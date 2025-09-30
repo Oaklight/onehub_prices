@@ -4,6 +4,13 @@ models:
     # 模型价格：https://docs.anthropic.com/en/docs/about-claude/pricing
 
     # Claude 4 系列 - 最新一代模型
+    claude-sonnet-4-5:
+      aliases:
+        - claude-sonnet-4.5
+        - claude-sonnet-4-5-20250929
+      input: 3 usd / M
+      output: 15 usd / M
+
     claude-opus-4-1:
       aliases:
         - claude-opus-4.1
