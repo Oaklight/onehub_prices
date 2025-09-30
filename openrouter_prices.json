@@ -746,8 +746,8 @@
       "model": "meituan/longcat-flash-chat",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
-      "output": 0.3
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "meta-llama/llama-3-70b-instruct",
