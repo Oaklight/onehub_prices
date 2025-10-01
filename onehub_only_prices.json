@@ -2549,8 +2549,8 @@
       "model": "allenai/olmo-2-0325-32b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5,
-      "output": 0.75
+      "input": 0.1,
+      "output": 0.175
     },
     {
       "model": "alpindale/goliath-120b",
@@ -4495,8 +4495,8 @@
       "model": "qwen/qwen3-vl-235b-a22b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 1.5
+      "input": 0.25,
+      "output": 1.75
     },
     {
       "model": "qwen/qwq-32b",
