@@ -3165,8 +3165,8 @@
       "model": "gryphe/mythomax-l2-13b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
-      "output": 0.03
+      "input": 0.025,
+      "output": 0.045
     },
     {
       "model": "inception/mercury",
@@ -3221,8 +3221,8 @@
       "model": "meituan/longcat-flash-chat",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.075,
+      "output": 0.375
     },
     {
       "model": "meta-llama/llama-3-70b-instruct",
@@ -4083,7 +4083,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.015,
-      "output": 0.075
+      "output": 0.07
     },
     {
       "model": "openai/gpt-oss-20b:free",
