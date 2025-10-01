@@ -2535,8 +2535,8 @@
       "model": "alibaba/tongyi-deepresearch-30b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.045,
+      "output": 0.2
     },
     {
       "model": "allenai/molmo-7b-d",
@@ -4733,8 +4733,8 @@
       "model": "z-ai/glm-4.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.195,
-      "output": 0.775
+      "input": 0.19,
+      "output": 0.8
     },
     {
       "model": "z-ai/glm-4.5-air",
@@ -4754,7 +4754,7 @@
       "model": "z-ai/glm-4.5v",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
+      "input": 0.3,
       "output": 0.9
     },
     {
@@ -4762,7 +4762,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.3,
-      "output": 1.1
+      "output": 1.0
     },
     {
       "model": "ChatPro",
