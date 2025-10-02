@@ -2539,6 +2539,13 @@
       "output": 0.2
     },
     {
+      "model": "alibaba/tongyi-deepresearch-30b-a3b:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "allenai/molmo-7b-d",
       "type": "tokens",
       "channel_type": 20,
@@ -3223,6 +3230,13 @@
       "channel_type": 20,
       "input": 0.075,
       "output": 0.375
+    },
+    {
+      "model": "meituan/longcat-flash-chat:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "meta-llama/llama-3-70b-instruct",
@@ -4651,6 +4665,13 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "tngtech/deepseek-r1t2-chimera",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.125,
+      "output": 0.5
     },
     {
       "model": "tngtech/deepseek-r1t2-chimera:free",
