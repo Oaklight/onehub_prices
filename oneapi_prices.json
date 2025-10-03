@@ -2763,13 +2763,6 @@
       "output": 0.625
     },
     {
-      "model": "bytedance/seed-oss-36b-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.08,
-      "output": 0.325
-    },
-    {
       "model": "bytedance/ui-tars-1.5-7b",
       "type": "tokens",
       "channel_type": 20,
@@ -2971,13 +2964,6 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
-    },
-    {
-      "model": "deepseek/deepseek-v3.1-base",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.125,
-      "output": 0.5
     },
     {
       "model": "deepseek/deepseek-v3.1-terminus",
@@ -3769,13 +3755,6 @@
       "channel_type": 20,
       "input": 0.45,
       "output": 0.95
-    },
-    {
-      "model": "neversleep/llama-3-lumimaid-70b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 2.0,
-      "output": 3.0
     },
     {
       "model": "neversleep/llama-3.1-lumimaid-8b",
@@ -4600,8 +4579,8 @@
       "model": "thedrummer/anubis-70b-v1.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.35
+      "input": 0.325,
+      "output": 0.5
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
