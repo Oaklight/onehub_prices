@@ -3690,8 +3690,8 @@
       "model": "mistralai/mixtral-8x7b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.2
+      "input": 0.27,
+      "output": 0.27
     },
     {
       "model": "mistralai/pixtral-12b",
