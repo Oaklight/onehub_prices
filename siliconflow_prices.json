@@ -561,6 +561,27 @@
       "output": 0.28571
     },
     {
+      "model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.05,
+      "output": 0.2
+    },
+    {
+      "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.05,
+      "output": 0.2
+    },
+    {
+      "model": "Qwen/Qwen3-Omni-30B-A3B-Thinking",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.05,
+      "output": 0.2
+    },
+    {
       "model": "Qwen/Qwen3-Reranker-0.6B",
       "type": "tokens",
       "channel_type": 45,
@@ -965,6 +986,13 @@
       "channel_type": 45,
       "input": 0.07143,
       "output": 0.42857
+    },
+    {
+      "model": "zai-org/GLM-4.6",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.25,
+      "output": 1.0
     }
   ]
 }
