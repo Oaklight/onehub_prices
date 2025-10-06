@@ -316,13 +316,6 @@
       "output": 0.0
     },
     {
-      "model": "cognitivecomputations/dolphin3.0-r1-mistral-24b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.005,
-      "output": 0.025
-    },
-    {
       "model": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
       "type": "tokens",
       "channel_type": 20,
@@ -1254,13 +1247,6 @@
       "output": 0.0
     },
     {
-      "model": "moonshotai/kimi-vl-a3b-thinking",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.01,
-      "output": 0.04
-    },
-    {
       "model": "moonshotai/kimi-vl-a3b-thinking:free",
       "type": "tokens",
       "channel_type": 20,
@@ -1992,8 +1978,8 @@
       "model": "qwen/qwen3-next-80b-a3b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.4
+      "input": 0.07,
+      "output": 0.6
     },
     {
       "model": "qwen/qwen3-vl-235b-a22b-instruct",
