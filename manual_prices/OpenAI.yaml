@@ -23,6 +23,14 @@ models:
       output: 10 usd / M
       extra_ratios:
         - cached_tokens: 0.125 usd / M
+    gpt-5-codex:
+      input: 1.25 usd / M
+      output: 10 usd / M
+      extra_ratios:
+        - cached_tokens: 0.125 usd / M
+    gpt-5-pro:
+      input: 15 usd / M
+      output: 120 usd / M
 
     # GPT-4.1
     gpt-4.1:
@@ -76,6 +84,14 @@ models:
         - input_audio_tokens: 32 usd / M
         - output_audio_tokens: 64 usd / M
         # - input_audio_cached_tokens: 0.4 usd / M
+    gpt-realtime-mini:
+      input: 0.6 usd / M
+      output: 2.4 usd / M
+      extra_ratios:
+        - cached_tokens: 0.06 usd / M
+        - input_image_tokens: 0.8 usd / M
+        - input_audio_tokens: 10 usd / M
+        - output_audio_tokens: 20 usd / M
     gpt-4o-realtime-preview:
       aliases:
         - gpt-4o-realtime-preview-*
@@ -242,6 +258,15 @@ models:
         - omni-moderation-2024-09-26
       input: 0
       output: 0
+
+    # # video models
+    # sora-2:
+    #   output: 0.1 usd / s
+    # sora-2-pro:
+    #   # low res
+    #   output: 0.3 usd / s
+    # sora-2-pro-high-res:
+    #   output: 0.5 usd / s
 
     # other models
     chatgpt-4o-latest:
