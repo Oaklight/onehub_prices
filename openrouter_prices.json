@@ -1793,6 +1793,13 @@
       "output": 0.315
     },
     {
+      "model": "qwen/qwen2.5-coder-7b-instruct",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.015,
+      "output": 0.045
+    },
+    {
       "model": "qwen/qwen2.5-vl-32b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -2230,8 +2237,8 @@
       "model": "z-ai/glm-4.5-air",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
-      "output": 0.43
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "z-ai/glm-4.5-air:free",
