@@ -2791,13 +2791,6 @@
       "output": 0.0
     },
     {
-      "model": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "cohere/command-a",
       "type": "tokens",
       "channel_type": 20,
@@ -3235,8 +3228,8 @@
       "model": "meta-llama/llama-3.1-405b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.0,
-      "output": 1.0
+      "input": 2.0,
+      "output": 2.0
     },
     {
       "model": "meta-llama/llama-3.1-405b-instruct",
@@ -3722,13 +3715,6 @@
       "output": 0.0
     },
     {
-      "model": "moonshotai/kimi-vl-a3b-thinking:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "morph/morph-v3-fast",
       "type": "tokens",
       "channel_type": 20,
@@ -4042,6 +4028,13 @@
       "channel_type": 20,
       "input": 0.025,
       "output": 0.2
+    },
+    {
+      "model": "openai/gpt-5-pro",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 7.5,
+      "output": 60.0
     },
     {
       "model": "openai/gpt-oss-120b",
