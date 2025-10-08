@@ -526,6 +526,13 @@
       "output": 1.25
     },
     {
+      "model": "google/gemini-2.5-flash-image",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 1.25
+    },
+    {
       "model": "google/gemini-2.5-flash-image-preview",
       "type": "tokens",
       "channel_type": 20,
