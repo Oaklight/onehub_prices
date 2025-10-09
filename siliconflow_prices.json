@@ -603,6 +603,34 @@
       "output": 0.0
     },
     {
+      "model": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.17857,
+      "output": 0.71429
+    },
+    {
+      "model": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.17857,
+      "output": 0.71429
+    },
+    {
+      "model": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.05,
+      "output": 0.2
+    },
+    {
+      "model": "Qwen/Qwen3-VL-30B-A3B-Thinking",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.05,
+      "output": 0.2
+    },
+    {
       "model": "THUDM/GLM-4-32B-0414",
       "type": "tokens",
       "channel_type": 45,
@@ -834,7 +862,7 @@
       "output": 0.57143
     },
     {
-      "model": "deepseek-ai/DeepSeek-V3.1",
+      "model": "deepseek-ai/DeepSeek-V3.1-0820",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.28571,

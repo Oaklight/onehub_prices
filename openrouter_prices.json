@@ -449,13 +449,6 @@
       "output": 0.0
     },
     {
-      "model": "deepseek/deepseek-r1-distill-llama-8b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.02,
-      "output": 0.02
-    },
-    {
       "model": "deepseek/deepseek-r1-distill-qwen-14b",
       "type": "tokens",
       "channel_type": 20,
@@ -823,8 +816,8 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 0.06
+      "input": 0.065,
+      "output": 0.195
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct:free",

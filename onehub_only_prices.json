@@ -2924,13 +2924,6 @@
       "output": 0.0
     },
     {
-      "model": "deepseek/deepseek-r1-distill-llama-8b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.02,
-      "output": 0.02
-    },
-    {
       "model": "deepseek/deepseek-r1-distill-qwen-14b",
       "type": "tokens",
       "channel_type": 20,
@@ -3298,8 +3291,8 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 0.06
+      "input": 0.065,
+      "output": 0.195
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct:free",
@@ -6823,6 +6816,34 @@
       "output": 0.0
     },
     {
+      "model": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.17857,
+      "output": 0.71429
+    },
+    {
+      "model": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.17857,
+      "output": 0.71429
+    },
+    {
+      "model": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.05,
+      "output": 0.2
+    },
+    {
+      "model": "Qwen/Qwen3-VL-30B-A3B-Thinking",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.05,
+      "output": 0.2
+    },
+    {
       "model": "THUDM/GLM-4-32B-0414",
       "type": "tokens",
       "channel_type": 45,
@@ -7054,7 +7075,7 @@
       "output": 0.57143
     },
     {
-      "model": "deepseek-ai/DeepSeek-V3.1",
+      "model": "deepseek-ai/DeepSeek-V3.1-0820",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.28571,
