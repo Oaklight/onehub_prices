@@ -246,6 +246,13 @@
       "output": 0.85714
     },
     {
+      "model": "Pro/deepseek-ai/DeepSeek-V3.2-Exp",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.14286,
+      "output": 0.21429
+    },
+    {
       "model": "Pro/internlm/internlm2_5-7b-chat",
       "type": "tokens",
       "channel_type": 45,
@@ -876,6 +883,13 @@
       "output": 0.85714
     },
     {
+      "model": "deepseek-ai/DeepSeek-V3.2-Exp",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.14286,
+      "output": 0.21429
+    },
+    {
       "model": "deepseek-ai/deepseek-vl2",
       "type": "tokens",
       "channel_type": 45,
@@ -888,6 +902,13 @@
       "channel_type": 45,
       "input": 3.57143,
       "output": 3.57143
+    },
+    {
+      "model": "inclusionAI/Ling-1T",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.28571,
+      "output": 1.14286
     },
     {
       "model": "inclusionAI/Ling-flash-2.0",
