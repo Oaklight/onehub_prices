@@ -1310,6 +1310,13 @@
       "output": 0.5
     },
     {
+      "model": "nousresearch/hermes-3-llama-3.1-405b:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "nousresearch/hermes-3-llama-3.1-70b",
       "type": "tokens",
       "channel_type": 20,
@@ -1343,6 +1350,13 @@
       "channel_type": 20,
       "input": 0.3,
       "output": 0.9
+    },
+    {
+      "model": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.2
     },
     {
       "model": "nvidia/nemotron-nano-9b-v2",
