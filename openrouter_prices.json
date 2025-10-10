@@ -267,6 +267,13 @@
       "output": 0.14
     },
     {
+      "model": "baidu/ernie-4.5-21b-a3b-thinking",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.035,
+      "output": 0.14
+    },
+    {
       "model": "baidu/ernie-4.5-300b-a47b",
       "type": "tokens",
       "channel_type": 20,
