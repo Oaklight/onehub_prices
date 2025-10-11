@@ -613,8 +613,8 @@
       "model": "google/gemma-3-12b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 0.065
+      "input": 0.015,
+      "output": 0.05
     },
     {
       "model": "google/gemma-3-12b-it:free",
@@ -641,8 +641,8 @@
       "model": "google/gemma-3-4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 0.04
+      "input": 0.00852,
+      "output": 0.03408
     },
     {
       "model": "google/gemma-3-4b-it:free",
@@ -1058,6 +1058,13 @@
       "output": 0.095
     },
     {
+      "model": "mistralai/mistral-7b-instruct-v0.2",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.1
+    },
+    {
       "model": "mistralai/mistral-7b-instruct-v0.3",
       "type": "tokens",
       "channel_type": 20,
@@ -1308,13 +1315,6 @@
       "channel_type": 20,
       "input": 0.5,
       "output": 0.5
-    },
-    {
-      "model": "nousresearch/hermes-3-llama-3.1-405b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "nousresearch/hermes-3-llama-3.1-70b",
@@ -2066,6 +2066,13 @@
       "output": 0.025
     },
     {
+      "model": "sao10k/l3.1-70b-hanami-x1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.5,
+      "output": 1.5
+    },
+    {
       "model": "sao10k/l3.1-euryale-70b",
       "type": "tokens",
       "channel_type": 20,
@@ -2132,7 +2139,7 @@
       "model": "thedrummer/cydonia-24b-v4.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
+      "input": 0.15,
       "output": 0.25
     },
     {
