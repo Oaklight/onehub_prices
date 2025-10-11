@@ -963,8 +963,8 @@
       "model": "minimax/minimax-m1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.825
+      "input": 0.2,
+      "output": 1.1
     },
     {
       "model": "mistralai/codestral-2501",
