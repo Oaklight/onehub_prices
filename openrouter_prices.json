@@ -694,6 +694,13 @@
       "output": 0.5
     },
     {
+      "model": "inclusionai/ling-1t",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 1.5
+    },
+    {
       "model": "inflection/inflection-3-pi",
       "type": "tokens",
       "channel_type": 20,
