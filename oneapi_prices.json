@@ -4495,21 +4495,21 @@
       "model": "qwen/qwen3-vl-235b-a22b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
+      "input": 0.225,
       "output": 1.75
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
+      "input": 0.145,
       "output": 0.5
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
+      "input": 0.145,
       "output": 0.5
     },
     {
