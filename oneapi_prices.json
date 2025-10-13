@@ -2689,8 +2689,8 @@
       "model": "arcee-ai/afm-4.5b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.2
+      "input": 0.024,
+      "output": 0.075
     },
     {
       "model": "arcee-ai/coder-large",
