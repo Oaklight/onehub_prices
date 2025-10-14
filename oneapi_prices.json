@@ -7201,6 +7201,13 @@
       "output": 0.14286
     },
     {
+      "model": "inclusionAI/Ring-1T",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.28571,
+      "output": 1.14286
+    },
+    {
       "model": "inclusionAI/Ring-flash-2.0",
       "type": "tokens",
       "channel_type": 45,
