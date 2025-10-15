@@ -4121,6 +4121,13 @@
       "output": 4.0
     },
     {
+      "model": "openai/o3-deep-research",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 5.0,
+      "output": 20.0
+    },
+    {
       "model": "openai/o3-mini",
       "type": "tokens",
       "channel_type": 20,
@@ -4149,6 +4156,13 @@
       "output": 2.2
     },
     {
+      "model": "openai/o4-mini-deep-research",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 4.0
+    },
+    {
       "model": "openai/o4-mini-high",
       "type": "tokens",
       "channel_type": 20,
@@ -4161,13 +4175,6 @@
       "channel_type": 20,
       "input": 0.035,
       "output": 0.13
-    },
-    {
-      "model": "perplexity/r1-1776",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.0,
-      "output": 4.0
     },
     {
       "model": "perplexity/sonar",
@@ -4488,8 +4495,8 @@
       "model": "qwen/qwen3-vl-235b-a22b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "qwen/qwen3-vl-235b-a22b-thinking",
@@ -4502,8 +4509,8 @@
       "model": "qwen/qwen3-vl-30b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.145,
-      "output": 0.5
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-thinking",
@@ -4516,8 +4523,8 @@
       "model": "qwen/qwen3-vl-8b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.09,
-      "output": 0.35
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "qwen/qwen3-vl-8b-thinking",
