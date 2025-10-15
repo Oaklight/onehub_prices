@@ -2020,8 +2020,8 @@
       "model": "qwen/qwen3-vl-235b-a22b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "qwen/qwen3-vl-235b-a22b-thinking",
@@ -2034,8 +2034,8 @@
       "model": "qwen/qwen3-vl-30b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.145,
+      "output": 0.495
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-thinking",
@@ -2048,8 +2048,8 @@
       "model": "qwen/qwen3-vl-8b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.09,
+      "output": 0.345
     },
     {
       "model": "qwen/qwen3-vl-8b-thinking",
