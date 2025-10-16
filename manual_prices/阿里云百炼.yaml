@@ -2,88 +2,85 @@ models:
   阿里云百炼:
     # 模型定价：https://help.aliyun.com/zh/model-studio/models?spm=5176.28197581.d_model-market.1.58275a9em6ZqE1#785eb398acxz7
     # 模型api参考：https://help.aliyun.com/zh/model-studio/use-qwen-by-calling-api?spm=a2c4g.11186623.0.0.b3632e75OjIP92
-
-    # 推理模型
-    qwq-plus:
-      aliases: qwq-plus-latest
-      input: 0.0016 rmb / K
-      output: 0.004 rmb / K
-    qvq-max:
-      aliases: qvq-max-latest
-      input: 0.008 rmb / K
-      output: 0.032 rmb / K
+    # 上下文缓存：https://help.aliyun.com/zh/model-studio/context-cache?spm=a2c4g.11186623.0.0.30a37d9dUBTDDU
 
     # 大模型系列
     qwen3-max:
-      aliases: qwen3-max-preview
-      input: 0.01 rmb / K
+      aliases:
+        - qwen3-max-*
+      input: 0.01 rmb / K # 取32～128k价格
       output: 0.04 rmb / K
       extra_ratios:
-        - cached_tokens: 0.4
-    qwen-max: # 仍旧为qwen2.5
-      aliases: qwen-max-latest
-      input: 0.0024 rmb / K
-      output: 0.0096 rmb / K
-      extra_ratios:
-        - cached_tokens: 0.4
+        - cached_tokens: 0.2
+
     qwen-plus: # 已升级qwen3
-      aliases: qwen-plus-latest
+      aliases:
+        - qwen-plus-latest
+        - qwen-plus-2025-09*
+        - qwen-plus-2025-07*
+        - qwen-plus-2025-04*
       input: 0.0008 rmb / K
-      output: 0.002 rmb / K
+      output: 0.002 rmb / K # 取0～128k价格，最为常用
       extra_ratios:
-        - reasoning_tokens: 0.016 rmb / K
-        - cached_tokens: 0.4
-    qwen-turbo: # 已升级qwen3
-      aliases: qwen-turbo-latest
-      input: 0.0003 rmb / K
-      output: 0.0006 rmb / K
-      extra_ratios:
-        - reasoning_tokens: 0.006 rmb / K
-        - cached_tokens: 0.4
+        - reasoning_tokens: 0.008 rmb / K
+        - cached_tokens: 0.2
+
+    qwen-flash:
+      aliases:
+        - qwen-flash-*
+      input: 0.00015 rmb / K
+      output: 0.0015 rmb / K
+
+    qwq-plus:
+      aliases: qwq-plus-*
+      input: 0.0016 rmb / K
+      output: 0.004 rmb / K
 
     # 长文本
     qwen-long:
-      aliases: qwen-long-latest
+      aliases: qwen-long-*
       input: 0.0005 rmb / K
       output: 0.002 rmb / K
 
     # 全模态系列
-    qwen-omni-turbo:
-      aliases:
-        - qwen-omni-turbo-latest
-      input: 0.0004 rmb / K
-      output: 0.0016 rmb / K
+    qwen3-omni-flash:
+      aliases: qwen3-omni-flash-*
+      input: 0.0018 rmb / K
+      output: 0.0069 rmb / K
       extra_ratios:
-        - input_audio_tokens: 0.025 rmb / K
-        - input_image_tokens: 0.0015 rmb / K
-        - output_audio_tokens: 0.05 rmb / K
-        - output_text_tokens: 0.0045 rmb / K # This's tricky, someone should test it out. For mixed text + image output, how does the usage section look like?
+        - input_audio_tokens: 0.0158 rmb / K
+        - input_image_tokens: 0.0033 rmb / K
+        - output_audio_tokens: 0.0626 rmb / K
 
-    qwen-omni-turbo-realtime:
-      aliases:
-        - qwen-omni-turbo-realtime-latest
-      input: 0.0016 rmb / K
-      output: 0.0064 rmb / K
+    qwen3-omni-flash-realtime:
+      aliases: qwen3-omni-flash-realtime-*
+      input: 0.0022 rmb / K
+      output: 0.0083 rmb / K
       extra_ratios:
-        - input_audio_tokens: 0.025 rmb / K
-        - output_audio_tokens: 0.05 rmb / K
-        - output_text_tokens: 0.018 rmb / K # This's tricky, someone should test it out. For mixed text + image output, how does the usage section look like?
+        - input_audio_tokens: 0.0189 rmb / K
+        - input_image_tokens: 0.0039 rmb / K
+        - output_audio_tokens: 0.0751 rmb / K
+
+    qvq-max:
+      aliases: qvq-max-*
+      input: 0.008 rmb / K
+      output: 0.032 rmb / K
+
+    qvq-plus:
+      aliases: qvq-plus-*
+      input: 0.002 rmb / K
+      output: 0.005 rmb / K
 
     # 视觉模型系列
-    qwen-vl-max:
-      aliases: qwen-vl-max-latest
-      input: 0.003 rmb / K
-      output: 0.009 rmb / K
-      extra_ratios:
-        - cached_tokens: 0.4
-    qwen-vl-plus:
-      aliases: qwen-vl-plus-latest
+    qwen3-vl-plus:
+      aliases:
+        - qwen3-vl-plus-*
       input: 0.0015 rmb / K
-      output: 0.0045 rmb / K
-      extra_ratios:
-        - cached_tokens: 0.4
+      output: 0.015 rmb / K
+
+    # 通义千问OCR
     qwen-vl-ocr:
-      aliases: qwen-vl-ocr-latest
+      aliases: qwen-vl-ocr-*
       input: 0.005 rmb / K
       output: 0.005 rmb / K
 
@@ -99,33 +96,6 @@ models:
 
     # 代码模型
 
-    # qwen-coder
-    qwen-coder-plus:
-      aliases: qwen-coder-plus-latest
-      input: 0.0035 rmb / K
-      output: 0.007 rmb / K
-    qwen-coder-turbo:
-      aliases: qwen-coder-turbo-latest
-      input: 0.002 rmb / K
-      output: 0.006 rmb / K
-
-    # qwen2.5-coder-oss
-    qwen2.5-coder-32b-instruct:
-      input: 0.002 rmb / K
-      output: 0.006 rmb / K
-    qwen2.5-coder-14b-instruct:
-      input: 0.002 rmb / K
-      output: 0.006 rmb / K
-    qwen2.5-coder-7b-instruct:
-      input: 0.001 rmb / K
-      output: 0.002 rmb / K
-    qwen2.5-coder-3b-instruct:
-      aliases:
-        - qwen2.5-coder-1.5b-instruct
-        - qwen2.5-coder-0.5b-instruct
-      input: 0
-      output: 0
-
     # qwen3-coder
     qwen3-coder-plus:
       aliases:
@@ -134,7 +104,7 @@ models:
       input: 0.006 rmb / K
       output: 0.024 rmb / K
       extra_ratios:
-        - cached_tokens: 0.1
+        - cached_tokens: 0.2
     qwen3-coder-flash:
       aliases:
         - qwen3-coder-flash-*
@@ -142,7 +112,7 @@ models:
       input: 0.0015 rmb / K
       output: 0.006 rmb / K
       extra_ratios:
-        - cached_tokens: 0.1
+        - cached_tokens: 0.2
 
     # qwen3-coder-oss
     qwen3-coder-480b-a35b-instruct:
@@ -160,6 +130,16 @@ models:
     qwen-mt-turbo:
       input: 0.0007 rmb / K
       output: 0.00195 rmb / K
+
+    # 数据挖掘模型 qwen-doc-turbo
+    qwen-doc-turbo:
+      input: 0.0006 rmb / K
+      output: 0.001 rmb / K
+
+    # 深入研究模型 qwen-deep-research
+    qwen-deep-research:
+      input: 0.054 rmb / K
+      output: 0.163 rmb / K
 
     # embedding & reranking models
     multimodal-embedding-v1:
@@ -182,7 +162,8 @@ models:
       input: 0
       output: 0
 
-    # qwen3 series
+    # =================================== 开源模型，仅包含最新 ===================================
+
     # qwen3-next
     qwen3-next:
       aliases:
@@ -241,3 +222,104 @@ models:
       output: 0.0012 rmb / K
       extra_ratios:
         - reasoning_tokens: 0.003 rmb / K
+
+    #  =================================== 陈旧aliases ===================================
+
+    qwen-max: # 仍旧为qwen2.5
+      aliases: qwen-max-latest
+      input: 0.0024 rmb / K
+      output: 0.0096 rmb / K
+      extra_ratios:
+        - cached_tokens: 0.2
+    qwen-max-2024-09*:
+      input: 0.02 rmb / K
+      output: 0.06 rmb / K
+    qwen-max-2024-04*:
+      input: 0.04 rmb / K
+      output: 0.12 rmb / K
+
+    # qwen-plus-old
+    qwen-plus-2025-01*: # 基于qwen2.5及之前版本
+      aliases:
+        - qwen-plus-2024-09*
+        - qwen-plus-2024-11*
+        - qwen-plus-2024-12*
+      input: 0.0008 rmb / K
+      output: 0.002 rmb / K
+    qwen-plus-2024-08*: # 基于qwen2.5及之前版本
+      aliases:
+        - qwen-plus-2024-07*
+      input: 0.004 rmb / K
+      output: 0.012 rmb / K
+
+    # 后续不再更新
+    qwen-turbo: # 已升级qwen3
+      aliases:
+        - qwen-turbo-*
+      input: 0.0003 rmb / K
+      output: 0.0006 rmb / K
+      extra_ratios:
+        - reasoning_tokens: 0.003 rmb / K
+        - cached_tokens: 0.2
+
+    qwen-omni-turbo: # 后续不再更新
+      aliases:
+        - qwen-omni-turbo-latest
+      input: 0.0004 rmb / K
+      output: 0.0016 rmb / K
+      extra_ratios:
+        - input_audio_tokens: 0.025 rmb / K
+        - input_image_tokens: 0.0015 rmb / K
+        - output_audio_tokens: 0.05 rmb / K
+        - output_text_tokens: 0.0045 rmb / K # This's tricky, someone should test it out. For mixed text + image output, how does the usage section look like?
+
+    qwen-omni-turbo-realtime: # 后续不再更新
+      aliases:
+        - qwen-omni-turbo-realtime-latest
+      input: 0.0016 rmb / K
+      output: 0.0064 rmb / K
+      extra_ratios:
+        - input_audio_tokens: 0.025 rmb / K
+        - output_audio_tokens: 0.05 rmb / K
+        - output_text_tokens: 0.018 rmb / K # This's tricky, someone should test it out. For mixed text + image output, how does the usage section look like?
+
+    qwen-vl-max:
+      aliases: qwen-vl-max-latest
+      input: 0.003 rmb / K
+      output: 0.009 rmb / K
+      extra_ratios:
+        - cached_tokens: 0.2
+
+    qwen-vl-plus:
+      aliases: qwen-vl-plus-latest
+      input: 0.0015 rmb / K
+      output: 0.0045 rmb / K
+      extra_ratios:
+        - cached_tokens: 0.2
+
+    # qwen-coder
+    qwen-coder-plus:
+      aliases: qwen-coder-plus-latest
+      input: 0.0035 rmb / K
+      output: 0.007 rmb / K
+    qwen-coder-turbo:
+      aliases: qwen-coder-turbo-latest
+      input: 0.002 rmb / K
+      output: 0.006 rmb / K
+
+    # qwen2.5-coder-oss
+    qwen2.5-coder-32b-instruct:
+      input: 0.002 rmb / K
+      output: 0.006 rmb / K
+    qwen2.5-coder-14b-instruct:
+      input: 0.002 rmb / K
+      output: 0.006 rmb / K
+    qwen2.5-coder-7b-instruct:
+      input: 0.001 rmb / K
+      output: 0.002 rmb / K
+    qwen2.5-coder-3b-instruct:
+      aliases:
+        - qwen2.5-coder-1.5b-instruct
+        - qwen2.5-coder-0.5b-instruct
+      input: 0
+      output: 0
