@@ -4,6 +4,13 @@ models:
     # 模型价格：https://docs.anthropic.com/en/docs/about-claude/pricing
 
     # Claude 4 系列 - 最新一代模型
+    claude-haiku-4-5:
+      aliases:
+        - claude-haiku-4.5
+        - claude-haiku-4-5-20251015
+      input: 1 usd / M
+      output: 5 usd / M
+
     claude-sonnet-4-5:
       aliases:
         - claude-sonnet-4.5
