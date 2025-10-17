@@ -372,7 +372,7 @@
       "output": 0.295
     },
     {
-      "model": "deepcogito/cogito-v2-preview-llama-405B",
+      "model": "deepcogito/cogito-v2-preview-llama-405b",
       "type": "tokens",
       "channel_type": 20,
       "input": 1.75,
@@ -716,6 +716,13 @@
     },
     {
       "model": "inclusionai/ling-1t",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.285,
+      "output": 1.14
+    },
+    {
+      "model": "inclusionai/ring-1t",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.285,
