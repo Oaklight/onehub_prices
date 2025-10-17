@@ -638,6 +638,20 @@
       "output": 0.2
     },
     {
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.03571,
+      "output": 0.14286
+    },
+    {
+      "model": "Qwen/Qwen3-VL-8B-Thinking",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.03571,
+      "output": 0.35714
+    },
+    {
       "model": "THUDM/GLM-4-32B-0414",
       "type": "tokens",
       "channel_type": 45,
