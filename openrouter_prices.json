@@ -372,6 +372,20 @@
       "output": 0.295
     },
     {
+      "model": "deepcogito/cogito-v2-preview-llama-405B",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.75,
+      "output": 1.75
+    },
+    {
+      "model": "deepcogito/cogito-v2-preview-llama-70b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.44,
+      "output": 0.44
+    },
+    {
       "model": "deepseek/deepseek-chat",
       "type": "tokens",
       "channel_type": 20,
@@ -704,8 +718,8 @@
       "model": "inclusionai/ling-1t",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.285,
+      "output": 1.14
     },
     {
       "model": "inflection/inflection-3-pi",
@@ -1579,8 +1593,15 @@
       "model": "openai/gpt-5-image",
       "type": "tokens",
       "channel_type": 20,
-      "input": 2.5,
+      "input": 5.0,
       "output": 5.0
+    },
+    {
+      "model": "openai/gpt-5-image-mini",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.25,
+      "output": 1.0
     },
     {
       "model": "openai/gpt-5-mini",
