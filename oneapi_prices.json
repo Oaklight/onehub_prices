@@ -3437,8 +3437,8 @@
       "model": "inclusionai/ling-1t",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.285,
-      "output": 1.14
+      "input": 0.2,
+      "output": 1.0
     },
     {
       "model": "inclusionai/ring-1t",
