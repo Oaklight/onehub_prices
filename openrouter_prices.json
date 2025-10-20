@@ -701,6 +701,13 @@
       "output": 0.045
     },
     {
+      "model": "ibm-granite/granite-4.0-h-micro",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0085,
+      "output": 0.055
+    },
+    {
       "model": "inception/mercury",
       "type": "tokens",
       "channel_type": 20,
