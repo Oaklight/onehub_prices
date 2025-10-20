@@ -123,7 +123,7 @@
       "model": "anthracite-org/magnum-v4-72b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.25,
+      "input": 1.5,
       "output": 2.5
     },
     {
