@@ -3416,8 +3416,8 @@
       "model": "gryphe/mythomax-l2-13b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.045
+      "input": 0.03,
+      "output": 0.03
     },
     {
       "model": "ibm-granite/granite-4.0-h-micro",
@@ -5054,7 +5054,7 @@
       "model": "z-ai/glm-4.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
+      "input": 0.175,
       "output": 0.75
     },
     {
