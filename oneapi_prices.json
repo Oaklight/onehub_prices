@@ -2790,13 +2790,6 @@
       "output": 0.0
     },
     {
-      "model": "allenai/molmo-7b-d",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.05,
-      "output": 0.1
-    },
-    {
       "model": "allenai/olmo-2-0325-32b-instruct",
       "type": "tokens",
       "channel_type": 20,
