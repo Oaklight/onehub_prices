@@ -3217,6 +3217,13 @@
       "output": 0.45
     },
     {
+      "model": "deepseek/deepseek-v3.1-terminus:exacto",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.135,
+      "output": 0.5
+    },
+    {
       "model": "deepseek/deepseek-v3.2-exp",
       "type": "tokens",
       "channel_type": 20,
@@ -3987,6 +3994,13 @@
       "output": 0.95
     },
     {
+      "model": "moonshotai/kimi-k2-0905:exacto",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.3,
+      "output": 1.25
+    },
+    {
       "model": "moonshotai/kimi-k2:free",
       "type": "tokens",
       "channel_type": 20,
@@ -4349,6 +4363,13 @@
       "channel_type": 20,
       "input": 0.02,
       "output": 0.2
+    },
+    {
+      "model": "openai/gpt-oss-120b:exacto",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.025,
+      "output": 0.125
     },
     {
       "model": "openai/gpt-oss-20b",
@@ -4743,6 +4764,13 @@
       "output": 2.5
     },
     {
+      "model": "qwen/qwen3-coder:exacto",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.19,
+      "output": 0.765
+    },
+    {
       "model": "qwen/qwen3-coder:free",
       "type": "tokens",
       "channel_type": 20,
@@ -5084,6 +5112,13 @@
       "channel_type": 20,
       "input": 0.25,
       "output": 0.875
+    },
+    {
+      "model": "z-ai/glm-4.6:exacto",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.3,
+      "output": 0.95
     },
     {
       "model": "ChatPro",
