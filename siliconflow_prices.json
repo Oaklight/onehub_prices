@@ -638,6 +638,20 @@
       "output": 0.2
     },
     {
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.07143,
+      "output": 0.28571
+    },
+    {
+      "model": "Qwen/Qwen3-VL-32B-Thinking",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.07143,
+      "output": 0.71429
+    },
+    {
       "model": "Qwen/Qwen3-VL-8B-Instruct",
       "type": "tokens",
       "channel_type": 45,
