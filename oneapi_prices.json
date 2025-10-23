@@ -3469,6 +3469,20 @@
       "output": 5.0
     },
     {
+      "model": "liquid/lfm-2.2-6b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.025,
+      "output": 0.05
+    },
+    {
+      "model": "liquid/lfm2-8b-a1b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.025,
+      "output": 0.05
+    },
+    {
       "model": "mancer/weaver",
       "type": "tokens",
       "channel_type": 20,
@@ -4795,7 +4809,7 @@
       "model": "qwen/qwen3-next-80b-a3b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
+      "input": 0.075,
       "output": 0.6
     },
     {
@@ -4825,6 +4839,13 @@
       "channel_type": 20,
       "input": 0.1,
       "output": 0.5
+    },
+    {
+      "model": "qwen/qwen3-vl-32b-instruct",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.175,
+      "output": 0.55
     },
     {
       "model": "qwen/qwen3-vl-8b-instruct",
