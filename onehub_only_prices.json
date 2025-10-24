@@ -3199,8 +3199,8 @@
       "model": "deepseek/deepseek-r1-distill-qwen-32b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.135,
-      "output": 0.135
+      "input": 0.145,
+      "output": 0.145
     },
     {
       "model": "deepseek/deepseek-r1:free",
@@ -5104,7 +5104,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.175,
-      "output": 0.75
+      "output": 0.775
     },
     {
       "model": "z-ai/glm-4.5-air",
