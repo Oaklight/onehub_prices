@@ -4848,13 +4848,6 @@
       "output": 0.5
     },
     {
-      "model": "qwen/qwen3-vl-32b-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.175,
-      "output": 0.55
-    },
-    {
       "model": "qwen/qwen3-vl-8b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -7457,6 +7450,13 @@
       "channel_type": 45,
       "input": 0.095,
       "output": 0.095
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-OCR",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "deepseek-ai/DeepSeek-R1",
