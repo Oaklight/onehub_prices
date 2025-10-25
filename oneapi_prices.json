@@ -8373,7 +8373,7 @@
       "output": 1.14286
     },
     {
-      "model": "doubao-seed-1-6-250615",
+      "model": "doubao-seed-1-6-2*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.08571,
@@ -8385,6 +8385,13 @@
       "channel_type": 1002,
       "input": 0.02143,
       "output": 0.21429
+    },
+    {
+      "model": "doubao-seed-1-6-lite*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.04286,
+      "output": 0.28571
     },
     {
       "model": "doubao-seed-1-6-thinking*",
@@ -8401,21 +8408,7 @@
       "output": 1.14286
     },
     {
-      "model": "doubao-seed-1-6-vision-250815",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.08571,
-      "output": 1.14286
-    },
-    {
       "model": "doubao-seed-1.6",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.08571,
-      "output": 1.14286
-    },
-    {
-      "model": "doubao-seed-1.6-250615",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.08571,
@@ -8429,6 +8422,13 @@
       "output": 0.21429
     },
     {
+      "model": "doubao-seed-1.6-lite*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.04286,
+      "output": 0.28571
+    },
+    {
       "model": "doubao-seed-1.6-thinking*",
       "type": "tokens",
       "channel_type": 1002,
@@ -8436,7 +8436,7 @@
       "output": 1.14286
     },
     {
-      "model": "doubao-seed-1.6-vision",
+      "model": "doubao-seed-1.6-vision*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.08571,
