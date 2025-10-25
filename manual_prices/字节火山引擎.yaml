@@ -11,10 +11,15 @@ models:
     doubao-seed-1.6: # function call enabled
       aliases:
         - doubao-seed-1-6
-        - doubao-seed-1.6-250615
-        - doubao-seed-1-6-250615
+        - doubao-seed-1-6-2*
       input: 1.2 rmb / M # 取32k～128k价格，最为常见
       output: 16 rmb /M # 取32k～128k价格，最为常见
+
+    doubao-seed-1.6-lite*:
+      aliases:
+        - doubao-seed-1-6-lite*
+      input: 0.6 rmb / M
+      output: 4 rmb / M
 
     doubao-seed-1.6-flash*: # function call enabled
       aliases:
@@ -24,8 +29,7 @@ models:
 
     doubao-seed-1-6-vision*:
       aliases:
-        - doubao-seed-1.6-vision
-        - doubao-seed-1-6-vision-250815
+        - doubao-seed-1.6-vision*
       input: 1.2 rmb / M
       output: 16 rmb / M
 
