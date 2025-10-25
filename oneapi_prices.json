@@ -3728,6 +3728,13 @@
       "output": 1.1
     },
     {
+      "model": "minimax/minimax-m2:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "mistralai/codestral-2501",
       "type": "tokens",
       "channel_type": 20,
