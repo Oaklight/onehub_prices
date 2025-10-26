@@ -1,14 +1,6 @@
 models:
   MiniMax:
     # https://platform.minimaxi.com/document/Price?key=66701c7e1d57f38758d5818c
-    MiniMax-M1:
-      input: 1.2 rmb / M # 取32k-128k的价格，最为常用
-      output: 16 rmb / M # 取32k-128k的价格，最为常用
-
-    MiniMax-Text-01:
-      input: 1 rmb / M
-      output: 8 rmb / M
-
-    MiniMax-VL-01:
-      input: 1 rmb / M
-      output: 8 rmb / M
+    MiniMax-M2:
+      input: 2.1 rmb / M # 取32k-128k的价格，最为常用
+      output: 8.4 rmb / M # 取32k-128k的价格，最为常用
