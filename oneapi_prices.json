@@ -4848,6 +4848,13 @@
       "output": 0.5
     },
     {
+      "model": "qwen/qwen3-vl-32b-instruct",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.175,
+      "output": 0.55
+    },
+    {
       "model": "qwen/qwen3-vl-8b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -5131,8 +5138,8 @@
       "model": "z-ai/glm-4.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 0.875
+      "input": 0.225,
+      "output": 1.05
     },
     {
       "model": "z-ai/glm-4.6:exacto",
