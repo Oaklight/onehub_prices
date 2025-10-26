@@ -5655,25 +5655,11 @@
       "output": 1.143
     },
     {
-      "model": "MiniMax-M1",
+      "model": "MiniMax-M2",
       "type": "tokens",
       "channel_type": 27,
-      "input": 0.08571,
-      "output": 1.14286
-    },
-    {
-      "model": "MiniMax-Text-01",
-      "type": "tokens",
-      "channel_type": 27,
-      "input": 0.07143,
-      "output": 0.57143
-    },
-    {
-      "model": "MiniMax-VL-01",
-      "type": "tokens",
-      "channel_type": 27,
-      "input": 0.07143,
-      "output": 0.57143
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "abab5.5-chat",
