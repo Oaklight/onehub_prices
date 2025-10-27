@@ -5138,8 +5138,8 @@
       "model": "z-ai/glm-4.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.225,
-      "output": 1.05
+      "input": 0.2,
+      "output": 0.875
     },
     {
       "model": "z-ai/glm-4.6:exacto",
