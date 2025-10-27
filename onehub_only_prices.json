@@ -4837,8 +4837,8 @@
       "model": "qwen/qwen3-vl-30b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.35
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-thinking",
