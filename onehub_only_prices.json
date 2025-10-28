@@ -3122,8 +3122,8 @@
       "model": "deepseek/deepseek-chat-v3.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.135,
-      "output": 0.5
+      "input": 0.1,
+      "output": 0.4
     },
     {
       "model": "deepseek/deepseek-chat-v3.1:free",
@@ -3143,8 +3143,8 @@
       "model": "deepseek/deepseek-r1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 1.0
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "deepseek/deepseek-r1-0528",
