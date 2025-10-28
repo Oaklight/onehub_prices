@@ -6682,6 +6682,13 @@
       "output": 0.0
     },
     {
+      "model": "Kwaipilot/KAT-Dev",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.07143,
+      "output": 0.28571
+    },
+    {
       "model": "MiniMaxAI/MiniMax-M1-80k",
       "type": "tokens",
       "channel_type": 45,
