@@ -1695,20 +1695,6 @@
       "output": 30.0
     },
     {
-      "model": "openai/o1-mini",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.55,
-      "output": 2.2
-    },
-    {
-      "model": "openai/o1-mini-2024-09-12",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.55,
-      "output": 2.2
-    },
-    {
       "model": "openai/o1-pro",
       "type": "tokens",
       "channel_type": 20,
