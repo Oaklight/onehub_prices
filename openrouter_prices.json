@@ -2223,15 +2223,8 @@
       "model": "tencent/hunyuan-a13b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.015,
-      "output": 0.015
-    },
-    {
-      "model": "tencent/hunyuan-a13b-instruct:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.07,
+      "output": 0.285
     },
     {
       "model": "thedrummer/anubis-70b-v1.1",
