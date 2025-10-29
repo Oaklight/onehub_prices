@@ -3728,6 +3728,13 @@
       "output": 1.1
     },
     {
+      "model": "minimax/minimax-m2",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.075,
+      "output": 0.225
+    },
+    {
       "model": "minimax/minimax-m2:free",
       "type": "tokens",
       "channel_type": 20,
@@ -4141,6 +4148,13 @@
       "output": 0.2
     },
     {
+      "model": "nvidia/nemotron-nano-12b-v2-vl",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.3
+    },
+    {
       "model": "nvidia/nemotron-nano-12b-v2-vl:free",
       "type": "tokens",
       "channel_type": 20,
@@ -4412,6 +4426,13 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "openai/gpt-oss-safeguard-20b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0375,
+      "output": 0.15
     },
     {
       "model": "openai/o1",
