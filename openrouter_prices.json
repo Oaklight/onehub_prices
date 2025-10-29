@@ -1422,6 +1422,13 @@
       "output": 0.2
     },
     {
+      "model": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "nvidia/nemotron-nano-9b-v2",
       "type": "tokens",
       "channel_type": 20,
@@ -1765,13 +1772,6 @@
       "output": 0.13
     },
     {
-      "model": "openrouter/andromeda-alpha",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "perplexity/sonar",
       "type": "tokens",
       "channel_type": 20,
@@ -2104,8 +2104,8 @@
       "model": "qwen/qwen3-vl-30b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.35
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-thinking",
