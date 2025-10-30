@@ -3994,6 +3994,13 @@
       "output": 3.0
     },
     {
+      "model": "mistralai/voxtral-small-24b-2507",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.15
+    },
+    {
       "model": "moonshotai/kimi-dev-72b",
       "type": "tokens",
       "channel_type": 20,
