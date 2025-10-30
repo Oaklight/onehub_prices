@@ -480,8 +480,8 @@
       "model": "deepseek/deepseek-r1-distill-qwen-32b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.145,
-      "output": 0.145
+      "input": 0.135,
+      "output": 0.135
     },
     {
       "model": "deepseek/deepseek-r1:free",
