@@ -4512,6 +4512,13 @@
       "output": 2.2
     },
     {
+      "model": "openai/text-embedding-3-large",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.065,
+      "output": 0.0
+    },
+    {
       "model": "opengvlab/internvl3-78b",
       "type": "tokens",
       "channel_type": 20,
@@ -4534,6 +4541,13 @@
     },
     {
       "model": "perplexity/sonar-pro",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "perplexity/sonar-pro-search",
       "type": "tokens",
       "channel_type": 20,
       "input": 1.5,
@@ -5152,7 +5166,7 @@
       "model": "z-ai/glm-4.6:exacto",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
+      "input": 0.225,
       "output": 0.95
     },
     {
