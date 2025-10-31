@@ -99,6 +99,13 @@
       "output": 1.14286
     },
     {
+      "model": "MiniMaxAI/MiniMax-M2",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.15,
+      "output": 0.6
+    },
+    {
       "model": "Pro/01-ai/Yi-1.5-6B-Chat",
       "type": "tokens",
       "channel_type": 45,

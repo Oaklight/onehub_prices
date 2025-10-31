@@ -3028,13 +3028,6 @@
       "output": 0.0
     },
     {
-      "model": "cognitivecomputations/dolphin3.0-mistral-24b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.02,
-      "output": 0.085
-    },
-    {
       "model": "cognitivecomputations/dolphin3.0-mistral-24b:free",
       "type": "tokens",
       "channel_type": 20,
@@ -3339,8 +3332,8 @@
       "model": "google/gemma-2-9b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.005,
-      "output": 0.015
+      "input": 0.015,
+      "output": 0.045
     },
     {
       "model": "google/gemma-2-9b-it:free",
@@ -3773,8 +3766,8 @@
       "model": "mistralai/devstral-small-2505",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.11
+      "input": 0.03,
+      "output": 0.06
     },
     {
       "model": "mistralai/devstral-small-2505:free",
@@ -4069,13 +4062,6 @@
       "channel_type": 20,
       "input": 0.5,
       "output": 0.875
-    },
-    {
-      "model": "nousresearch/deephermes-3-llama-3-8b-preview",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.015,
-      "output": 0.055
     },
     {
       "model": "nousresearch/deephermes-3-llama-3-8b-preview:free",
@@ -4746,8 +4732,8 @@
       "model": "qwen/qwen3-30b-a3b-thinking-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.145
+      "input": 0.045,
+      "output": 0.15
     },
     {
       "model": "qwen/qwen3-30b-a3b:free",
@@ -5012,8 +4998,8 @@
       "model": "thedrummer/skyfall-36b-v2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.165
+      "input": 0.25,
+      "output": 0.4
     },
     {
       "model": "thedrummer/unslopnemo-12b",
@@ -5028,13 +5014,6 @@
       "channel_type": 20,
       "input": 0.0175,
       "output": 0.069
-    },
-    {
-      "model": "thudm/glm-z1-32b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.025,
-      "output": 0.11
     },
     {
       "model": "tngtech/deepseek-r1t-chimera",
@@ -6729,6 +6708,13 @@
       "channel_type": 45,
       "input": 0.28571,
       "output": 1.14286
+    },
+    {
+      "model": "MiniMaxAI/MiniMax-M2",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "Pro/01-ai/Yi-1.5-6B-Chat",
