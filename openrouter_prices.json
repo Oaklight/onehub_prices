@@ -99,6 +99,13 @@
       "output": 0.07
     },
     {
+      "model": "amazon/nova-premier-v1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.25,
+      "output": 6.25
+    },
+    {
       "model": "amazon/nova-pro-v1",
       "type": "tokens",
       "channel_type": 20,
