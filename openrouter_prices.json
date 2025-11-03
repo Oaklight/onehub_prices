@@ -113,13 +113,6 @@
       "output": 1.6
     },
     {
-      "model": "anthracite-org/magnum-v2-72b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.5,
-      "output": 1.5
-    },
-    {
       "model": "anthracite-org/magnum-v4-72b",
       "type": "tokens",
       "channel_type": 20,
@@ -1749,13 +1742,6 @@
       "channel_type": 20,
       "input": 0.55,
       "output": 2.2
-    },
-    {
-      "model": "openai/text-embedding-3-large",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.065,
-      "output": 0.0
     },
     {
       "model": "opengvlab/internvl3-78b",
