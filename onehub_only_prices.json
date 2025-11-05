@@ -4890,20 +4890,6 @@
       "output": 0.375
     },
     {
-      "model": "shisa-ai/shisa-v2-llama3.3-70b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.025,
-      "output": 0.11
-    },
-    {
-      "model": "shisa-ai/shisa-v2-llama3.3-70b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "stepfun-ai/step3",
       "type": "tokens",
       "channel_type": 20,
