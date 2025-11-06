@@ -424,8 +424,8 @@
       "model": "deepseek/deepseek-r1-0528-qwen3-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.015,
-      "output": 0.055
+      "input": 0.01,
+      "output": 0.05
     },
     {
       "model": "deepseek/deepseek-r1-0528-qwen3-8b:free",
