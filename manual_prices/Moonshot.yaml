@@ -21,22 +21,35 @@ models:
         - cached_tokens: 1 rmb / M
 
     # kimi-k2
-    kimi-k2:
-      aliases:
-        - kimi-k2-0711-preview
-        - kimi-k2-0905-preview
+    kimi-k2-0905-preview:
       input: 4 rmb / M
       output: 16 rmb / M
       extra_ratios:
         - cached_tokens: 1 rmb / M
 
-    kimi-k2-turbo:
-      aliases:
-        - kimi-k2-turbo-preview
-      input: 16 rmb / M
-      output: 64 rmb / M
+    kimi-k2-0711-preview:
+      input: 4 rmb / M
+      output: 16 rmb / M
       extra_ratios:
-        - cached_tokens: 4 rmb / M
+        - cached_tokens: 1 rmb / M
+
+    kimi-k2-turbo-preview:
+      input: 8 rmb / M
+      output: 58 rmb / M
+      extra_ratios:
+        - cached_tokens: 1 rmb / M
+
+    kimi-k2-thinking:
+      input: 4 rmb / M
+      output: 16 rmb / M
+      extra_ratios:
+        - cached_tokens: 1 rmb / M
+
+    kimi-k2-thinking-turbo:
+      input: 8 rmb / M
+      output: 58 rmb / M
+      extra_ratios:
+        - cached_tokens: 1 rmb / M
 
     # v1
     moonshot-v1-8k:
