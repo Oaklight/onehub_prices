@@ -8869,6 +8869,46 @@
       }
     },
     {
+      "model": "longcat-flash-chat",
+      "type": "tokens",
+      "channel_type": 1014,
+      "input": 0.0,
+      "output": 0.0,
+      "extra_ratios": {
+        "cached_tokens": 0.0
+      }
+    },
+    {
+      "model": "longcat-flash-chat-*",
+      "type": "tokens",
+      "channel_type": 1014,
+      "input": 0.0,
+      "output": 0.0,
+      "extra_ratios": {
+        "cached_tokens": 0.0
+      }
+    },
+    {
+      "model": "longcat-flash-thinking",
+      "type": "tokens",
+      "channel_type": 1014,
+      "input": 0.0,
+      "output": 0.0,
+      "extra_ratios": {
+        "cached_tokens": 0.0
+      }
+    },
+    {
+      "model": "longcat-flash-thinking-*",
+      "type": "tokens",
+      "channel_type": 1014,
+      "input": 0.0,
+      "output": 0.0,
+      "extra_ratios": {
+        "cached_tokens": 0.0
+      }
+    },
+    {
       "model": "bge-m3",
       "type": "tokens",
       "channel_type": 2001,

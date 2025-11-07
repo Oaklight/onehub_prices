@@ -230,6 +230,11 @@
       "name": "快手溪流湖",
       "icon": "https://cdn-avatars.huggingface.co/v1/production/uploads/6438cc09c04b3b996ea73196/izeqDmgIB27KPxPkisPSF.png"
     },
+    "1014": {
+      "id": 1014,
+      "name": "美团龙猫",
+      "icon": "https://s3plus.meituan.net/aigc-media-resources/longcat/yeqian-logo.svg"
+    },
     "2001": {
       "id": 2001,
       "name": "oaklight-load-balancer",
