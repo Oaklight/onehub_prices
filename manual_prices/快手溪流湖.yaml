@@ -1,0 +1,39 @@
+models:
+  快手溪流湖:
+    # 模型定价：https://www.streamlake.com/document/WANQING/mdsorb4ejjptsmfyrn#1_%E4%B8%80%E3%80%81%E5%9C%A8%E7%BA%BF%E6%8E%A8%E7%90%86
+
+    # KAT-Coder系列定价信息 - 使用32k-128k价格
+
+    # KAT-Coder-Pro V1 (KAT-Coder的升级版)
+    kat-coder-pro-v1:
+      aliases:
+        - kat-coder-pro-*
+      input: 6 rmb / M # 32-128K价格
+      output: 24 rmb / M
+      extra_ratios:
+        - cached_tokens: 1.2 rmb / M
+
+    # KAT-Coder-Air V1 (免费模型)
+    kat-coder-air-v1:
+      aliases:
+        - kat-coder-air-*
+      input: 0 rmb / M # 免费
+      output: 0 rmb / M
+      extra_ratios:
+        - cached_tokens: 0 rmb / M
+
+    # KAT-Coder-Exp-72B 1010 (免费模型)
+    kat-coder-exp-72b-1010:
+      input: 0 rmb / M # 免费
+      output: 0 rmb / M
+      extra_ratios:
+        - cached_tokens: 0 rmb / M
+
+    # =========================== 已下线 ===========================
+    kat-coder:
+      aliases:
+        - kat-coder-256k
+      input: 6 rmb / M # 32-128K价格
+      output: 24 rmb / M
+      extra_ratios:
+        - cached_tokens: 1.2 rmb / M
