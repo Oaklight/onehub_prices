@@ -5703,16 +5703,6 @@
       "output": 0.85714
     },
     {
-      "model": "kimi-k2",
-      "type": "tokens",
-      "channel_type": 29,
-      "input": 0.28571,
-      "output": 1.14286,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
       "model": "kimi-k2-0711-preview",
       "type": "tokens",
       "channel_type": 29,
@@ -5733,23 +5723,33 @@
       }
     },
     {
-      "model": "kimi-k2-turbo",
+      "model": "kimi-k2-thinking",
       "type": "tokens",
       "channel_type": 29,
-      "input": 1.14286,
-      "output": 4.57143,
+      "input": 0.28571,
+      "output": 1.14286,
       "extra_ratios": {
         "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "kimi-k2-thinking-turbo",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 0.57143,
+      "output": 4.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.125
       }
     },
     {
       "model": "kimi-k2-turbo-preview",
       "type": "tokens",
       "channel_type": 29,
-      "input": 1.14286,
-      "output": 4.57143,
+      "input": 0.57143,
+      "output": 4.14286,
       "extra_ratios": {
-        "cached_tokens": 0.25
+        "cached_tokens": 0.125
       }
     },
     {
@@ -8797,6 +8797,76 @@
       "channel_type": 1012,
       "input": 0.05143,
       "output": 0.23286
+    },
+    {
+      "model": "kat-coder",
+      "type": "tokens",
+      "channel_type": 1013,
+      "input": 0.42857,
+      "output": 1.71429,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "kat-coder-256k",
+      "type": "tokens",
+      "channel_type": 1013,
+      "input": 0.42857,
+      "output": 1.71429,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "kat-coder-air-*",
+      "type": "tokens",
+      "channel_type": 1013,
+      "input": 0.0,
+      "output": 0.0,
+      "extra_ratios": {
+        "cached_tokens": 0.0
+      }
+    },
+    {
+      "model": "kat-coder-air-v1",
+      "type": "tokens",
+      "channel_type": 1013,
+      "input": 0.0,
+      "output": 0.0,
+      "extra_ratios": {
+        "cached_tokens": 0.0
+      }
+    },
+    {
+      "model": "kat-coder-exp-72b-1010",
+      "type": "tokens",
+      "channel_type": 1013,
+      "input": 0.0,
+      "output": 0.0,
+      "extra_ratios": {
+        "cached_tokens": 0.0
+      }
+    },
+    {
+      "model": "kat-coder-pro-*",
+      "type": "tokens",
+      "channel_type": 1013,
+      "input": 0.42857,
+      "output": 1.71429,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "kat-coder-pro-v1",
+      "type": "tokens",
+      "channel_type": 1013,
+      "input": 0.42857,
+      "output": 1.71429,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "bge-m3",

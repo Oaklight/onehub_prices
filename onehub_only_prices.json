@@ -5703,16 +5703,6 @@
       "output": 0.85714
     },
     {
-      "model": "kimi-k2",
-      "type": "tokens",
-      "channel_type": 29,
-      "input": 0.28571,
-      "output": 1.14286,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
       "model": "kimi-k2-0711-preview",
       "type": "tokens",
       "channel_type": 29,
@@ -5733,23 +5723,33 @@
       }
     },
     {
-      "model": "kimi-k2-turbo",
+      "model": "kimi-k2-thinking",
       "type": "tokens",
       "channel_type": 29,
-      "input": 1.14286,
-      "output": 4.57143,
+      "input": 0.28571,
+      "output": 1.14286,
       "extra_ratios": {
         "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "kimi-k2-thinking-turbo",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 0.57143,
+      "output": 4.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.125
       }
     },
     {
       "model": "kimi-k2-turbo-preview",
       "type": "tokens",
       "channel_type": 29,
-      "input": 1.14286,
-      "output": 4.57143,
+      "input": 0.57143,
+      "output": 4.14286,
       "extra_ratios": {
-        "cached_tokens": 0.25
+        "cached_tokens": 0.125
       }
     },
     {
