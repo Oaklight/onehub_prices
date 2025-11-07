@@ -167,8 +167,8 @@ models:
       input: 4 rmb / M
       output: 12 rmb / M
 
-  字节火山引擎:
-    # deepseek @ 字节火山引擎
+  字节火山:
+    # deepseek @ 字节火山
     deepseek-v3-volcengine:
       aliases:
         - deepseek-v3-241226

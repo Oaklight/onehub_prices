@@ -1,7 +1,7 @@
 models:
-  字节火山引擎:
+  字节火山:
     # 模型定价：https://www.volcengine.com/docs/82379/1544106
-    # 豆包大模型 @ 字节火山引擎
+    # 豆包大模型 @ 字节火山
     doubao-seed-1.6-thinking*: # function call enabled
       aliases:
         - doubao-seed-1-6-thinking*
