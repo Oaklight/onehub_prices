@@ -1,0 +1,23 @@
+models:
+  美团龙猫:
+    # LongCat API开放平台：https://api.longcat.chat
+    # LongCat API价格：https://longcat.chat/platform/docs/zh/#%E6%94%AF%E6%8C%81%E7%9A%84%E6%A8%A1%E5%9E%8B
+    # 免费模型服务，每日50万tokens免费额度，可申请提升至500万或更高
+    
+    # 高性能通用对话模型
+    longcat-flash-chat:
+      aliases:
+        - longcat-flash-chat-*
+      input: 0 rmb / M  # 免费
+      output: 0 rmb / M
+      extra_ratios:
+        - cached_tokens: 0 rmb / M
+    
+    # 深度思考模型
+    longcat-flash-thinking:
+      aliases:
+        - longcat-flash-thinking-*
+      input: 0 rmb / M  # 免费
+      output: 0 rmb / M
+      extra_ratios:
+        - cached_tokens: 0 rmb / M
