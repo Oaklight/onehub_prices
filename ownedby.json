@@ -173,7 +173,7 @@
     "56": {
       "id": 56,
       "name": "xAI",
-      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-webp/1.24.0/files/light/xai.webp"
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/grok.svg"
     },
     "1001": {
       "id": 1001,
@@ -182,7 +182,7 @@
     },
     "1002": {
       "id": 1002,
-      "name": "字节火山引擎",
+      "name": "字节火山",
       "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/doubao-color.svg"
     },
     "1003": {
