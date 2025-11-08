@@ -4015,6 +4015,13 @@
       "output": 0.0
     },
     {
+      "model": "moonshotai/kimi-linear-48b-a3b-instruct",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 0.3
+    },
+    {
       "model": "morph/morph-v3-fast",
       "type": "tokens",
       "channel_type": 20,
