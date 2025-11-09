@@ -1285,8 +1285,8 @@
       "model": "moonshotai/kimi-k2-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.125
+      "input": 0.3,
+      "output": 1.25
     },
     {
       "model": "moonshotai/kimi-k2:free",
