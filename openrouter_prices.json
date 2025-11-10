@@ -729,6 +729,13 @@
       "output": 5.0
     },
     {
+      "model": "kwaipilot/kat-coder-pro:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "liquid/lfm-2.2-6b",
       "type": "tokens",
       "channel_type": 20,
