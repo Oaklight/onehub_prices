@@ -2800,8 +2800,8 @@
       "model": "alpindale/goliath-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 2.0,
-      "output": 2.75
+      "input": 3.0,
+      "output": 4.0
     },
     {
       "model": "amazon/nova-lite-v1",
@@ -4011,8 +4011,8 @@
       "model": "moonshotai/kimi-k2-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 1.25
+      "input": 0.275,
+      "output": 1.125
     },
     {
       "model": "moonshotai/kimi-k2:free",
