@@ -3717,8 +3717,8 @@
       "model": "minimax/minimax-m2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.105,
-      "output": 0.42
+      "input": 0.1275,
+      "output": 0.51
     },
     {
       "model": "mistralai/codestral-2501",
