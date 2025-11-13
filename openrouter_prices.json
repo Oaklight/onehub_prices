@@ -1656,8 +1656,8 @@
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 0.2
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "openai/gpt-oss-120b:exacto",
@@ -2343,7 +2343,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.175,
-      "output": 0.775
+      "output": 0.75
     },
     {
       "model": "z-ai/glm-4.5-air",
