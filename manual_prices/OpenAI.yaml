@@ -80,7 +80,7 @@ models:
       input: 4 usd / M
       output: 16 usd / M
       extra_ratios:
-        - cached_tokens: 0.5 usd / M
+        - cached_tokens: 0.4 usd / M
         - input_audio_tokens: 32 usd / M
         - output_audio_tokens: 64 usd / M
         # - input_audio_cached_tokens: 0.4 usd / M
