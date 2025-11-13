@@ -33,6 +33,14 @@ models:
       input: 1.2 rmb / M
       output: 16 rmb / M
 
+    doubao-seed-code*:
+      aliases:
+        - doubao-seed-code-preview*
+      input: 1.4 rmb / M
+      output: 12 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.24 rmb / M
+
     doubao-1.5-thinking-pro*: # function call enabled
       aliases:
         - doubao-1-5-thinking-pro*
