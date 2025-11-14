@@ -1653,6 +1653,34 @@
       "output": 60.0
     },
     {
+      "model": "openai/gpt-5.1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.625,
+      "output": 5.0
+    },
+    {
+      "model": "openai/gpt-5.1-chat",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.625,
+      "output": 5.0
+    },
+    {
+      "model": "openai/gpt-5.1-codex",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.625,
+      "output": 5.0
+    },
+    {
+      "model": "openai/gpt-5.1-codex-mini",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.75,
+      "output": 3.0
+    },
+    {
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
@@ -1763,13 +1791,6 @@
       "channel_type": 20,
       "input": 0.035,
       "output": 0.13
-    },
-    {
-      "model": "openrouter/polaris-alpha",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "perplexity/sonar",
