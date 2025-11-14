@@ -4396,8 +4396,8 @@
       "model": "openai/gpt-5.1-codex-mini",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.75,
-      "output": 3.0
+      "input": 0.125,
+      "output": 1.0
     },
     {
       "model": "openai/gpt-oss-120b",
@@ -5117,8 +5117,8 @@
       "model": "z-ai/glm-4.6:exacto",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 1.1
+      "input": 0.225,
+      "output": 0.95
     },
     {
       "model": "ChatPro",
