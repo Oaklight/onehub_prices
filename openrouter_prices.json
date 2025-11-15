@@ -1383,8 +1383,8 @@
       "model": "nvidia/llama-3.1-nemotron-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 0.3
+      "input": 0.6,
+      "output": 0.6
     },
     {
       "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
