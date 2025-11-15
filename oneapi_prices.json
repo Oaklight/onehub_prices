@@ -4403,8 +4403,8 @@
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.02,
+      "output": 0.2
     },
     {
       "model": "openai/gpt-oss-120b:exacto",
