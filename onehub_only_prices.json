@@ -3581,13 +3581,6 @@
       "output": 0.0
     },
     {
-      "model": "meta-llama/llama-3.3-8b-instruct:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "meta-llama/llama-4-maverick",
       "type": "tokens",
       "channel_type": 20,
@@ -3595,25 +3588,11 @@
       "output": 0.3
     },
     {
-      "model": "meta-llama/llama-4-maverick:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "meta-llama/llama-4-scout",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.04,
       "output": 0.15
-    },
-    {
-      "model": "meta-llama/llama-4-scout:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "meta-llama/llama-guard-2-8b",
@@ -4510,6 +4489,20 @@
       "channel_type": 20,
       "input": 0.035,
       "output": 0.13
+    },
+    {
+      "model": "openrouter/sherlock-dash-alpha",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "openrouter/sherlock-think-alpha",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "perplexity/sonar",
