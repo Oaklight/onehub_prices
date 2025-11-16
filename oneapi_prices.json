@@ -7613,6 +7613,13 @@
       "output": 1.14286
     },
     {
+      "model": "moonshotai/Kimi-K2-Thinking-Turbo",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.57143,
+      "output": 2.28571
+    },
+    {
       "model": "netease-youdao/bce-embedding-base_v1",
       "type": "tokens",
       "channel_type": 45,
