@@ -155,13 +155,6 @@
       "output": 7.5
     },
     {
-      "model": "anthropic/claude-3.5-sonnet-20240620",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.5,
-      "output": 7.5
-    },
-    {
       "model": "anthropic/claude-3.7-sonnet",
       "type": "tokens",
       "channel_type": 20,
