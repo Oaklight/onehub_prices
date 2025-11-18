@@ -1,20 +1,6 @@
 {
   "data": [
     {
-      "model": "agentica-org/deepcoder-14b-preview",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0075,
-      "output": 0.0075
-    },
-    {
-      "model": "agentica-org/deepcoder-14b-preview:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "ai21/jamba-large-1.7",
       "type": "tokens",
       "channel_type": 20,
