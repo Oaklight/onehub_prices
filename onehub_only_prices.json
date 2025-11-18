@@ -3294,6 +3294,13 @@
       "output": 5.0
     },
     {
+      "model": "google/gemini-3-pro-preview",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 6.0
+    },
+    {
       "model": "google/gemma-2-27b-it",
       "type": "tokens",
       "channel_type": 20,
@@ -4690,8 +4697,8 @@
       "model": "qwen/qwen3-30b-a3b-thinking-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.15
+      "input": 0.0255,
+      "output": 0.17
     },
     {
       "model": "qwen/qwen3-30b-a3b:free",
