@@ -3091,13 +3091,6 @@
       "output": 0.4
     },
     {
-      "model": "deepseek/deepseek-chat-v3.1:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "deepseek/deepseek-prover-v2",
       "type": "tokens",
       "channel_type": 20,
@@ -3246,13 +3239,6 @@
     },
     {
       "model": "google/gemini-2.5-flash-lite",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.05,
-      "output": 0.2
-    },
-    {
-      "model": "google/gemini-2.5-flash-lite-preview-06-17",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.05,
