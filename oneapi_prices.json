@@ -3147,6 +3147,13 @@
       "output": 0.44
     },
     {
+      "model": "deepcogito/cogito-v2.1-671b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.625,
+      "output": 0.625
+    },
+    {
       "model": "deepseek/deepseek-chat",
       "type": "tokens",
       "channel_type": 20,
