@@ -14,13 +14,23 @@ models:
       input: 0
       output: 0
 
+    # Gemini 3 Pro Preview
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-3-pro-preview
+    gemini-3-pro:
+      aliases:
+        - gemini-3-pro-preview
+      input: 2 usd / M # 4 usd / M when prompt is larger than 200,000 tokens
+      output: 12 usd / M # 18 usd / M when prompt is larger than 200,000 tokens
+      extra_ratios:
+        - cached_tokens: 0.2 usd / M # 0.4 usd / M when prompt is larger than 200,000 tokens
+
     # Gemini 2.5 Pro
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro
     gemini-2.5-pro:
       input: 1.25 usd / M # 2.5 usd / M when prompt is larger than 200,000 tokens
       output: 10 usd / M # 15 usd / M when prompt is larger than 200,000 tokens
       extra_ratios:
-        - cached_tokens: 0.31 usd / M
+        - cached_tokens: 0.125 usd / M # 0.25 usd / M when prompt is larger than 200,000 tokens
 
     # Gemini 2.5 Flash
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash
@@ -30,6 +40,7 @@ models:
       extra_ratios:
         - input_image_tokens: 0.3 usd / M # 图片输入
         - input_audio_tokens: 1 usd / M # 音频输入
+        - cached_tokens: 0.03 usd / M # 0.1 usd / M for audio
 
     # Gemini 2.5 Flash Lite
     # https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite
@@ -40,7 +51,46 @@ models:
       output: 0.4 usd / M
       extra_ratios:
         - input_audio_tokens: 0.3 usd / M
-        - cached_tokens: 0.025 usd / M
+        - cached_tokens: 0.01 usd / M # 0.03 usd / M for audio
+
+    # Gemini 2.5 Flash Preview
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-preview
+    gemini-2.5-flash-preview:
+      aliases:
+        - gemini-2.5-flash-preview-09-2025
+      input: 0.3 usd / M # 0.15 美元（文字 / 图片 / 视频）；1.00 美元（音频）
+      output: 2.5 usd / M # 非思考：0.60 美元；思考：3.50 美元
+      extra_ratios:
+        - input_image_tokens: 0.3 usd / M # 图片输入
+        - input_audio_tokens: 1 usd / M # 音频输入
+        - cached_tokens: 0.03 usd / M # 0.1 usd / M for audio
+
+    # Gemini 2.5 Flash-Lite Preview
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-lite-preview
+    gemini-2.5-flash-lite-preview:
+      aliases:
+        - gemini-2.5-flash-lite-preview-09-2025
+      input: 0.1 usd / M
+      output: 0.4 usd / M
+      extra_ratios:
+        - input_audio_tokens: 0.3 usd / M
+        - cached_tokens: 0.01 usd / M # 0.03 usd / M for audio
+    # Gemini Robotics-ER 1.5 Preview
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-robotics-er-1.5-preview
+    gemini-robotics-er-1.5-preview:
+      input: 0.3 usd / M # 0.15 美元（文字 / 图片 / 视频）；1.00 美元（音频）
+      output: 2.5 usd / M # 包含思考 tokens
+      extra_ratios:
+        - input_image_tokens: 0.3 usd / M # 图片输入
+        - input_audio_tokens: 1 usd / M # 音频输入
+
+    # Gemini 2.5 Computer Use Preview
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-computer-use-preview
+    gemini-2.5-computer-use-preview:
+      aliases:
+        - gemini-2.5-computer-use-preview-10-2025
+      input: 1.25 usd / M # 2.5 usd / M when prompt is larger than 200,000 tokens
+      output: 10 usd / M # 15 usd / M when prompt is larger than 200,000 tokens
 
     # Gemini 2.5 Flash Native Audio
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-native-audio
@@ -107,36 +157,48 @@ models:
       output: 0.3 usd / M
 
     # Imagen 4
-    # https://ai.google.dev/gemini-api/docs/pricing#imagen-3
+    # https://ai.google.dev/gemini-api/docs/pricing#imagen-4
     imagen4:
-      aliases: imagen-4.0-generate-*
+      aliases:
+        - imagen-4.0-generate-001
       output: 0.04 usd / image
 
     imagen4-ultra:
-      aliases: imagen-4.0-ultra-generate-*
+      aliases:
+        - imagen-4.0-ultra-generate-001
       output: 0.06 usd / image
 
     imagen4-fast:
-      aliases: imagen-4.0-fast-generate-*
+      aliases:
+        - imagen-4.0-fast-generate-001
       output: 0.02 usd / image
 
     # Imagen 3
     # https://ai.google.dev/gemini-api/docs/pricing#imagen-3
     imagen3:
-      aliases: imagen-3.0-generate-*
+      aliases:
+        - imagen-3.0-generate-002
       output: 0.03 usd / image
 
-    # Veo 3 Preview
-    # https://ai.google.dev/gemini-api/docs/pricing#veo-3-preview
-    veo-3-preview:
-      aliases: veo-3.0-generate-preview
-      output: 0.75 usd / second # Video with audio price
-
-    # Veo 3 Fast Preview
-    # https://ai.google.dev/gemini-api/docs/pricing#veo-3-fast-preview
-    veo-3-fast-preview:
-      aliases: veo-3.0-fast-generate-preview
+    # Veo 3.1
+    # https://ai.google.dev/gemini-api/docs/pricing#veo-3.1
+    veo-3.1:
+      aliases: veo-3.1-generate-preview
       output: 0.40 usd / second # Video with audio price
+
+    veo-3.1-fast:
+      aliases: veo-3.1-fast-generate-preview
+      output: 0.15 usd / second # Video with audio price
+
+    # Veo 3
+    # https://ai.google.dev/gemini-api/docs/pricing#veo-3
+    veo-3:
+      aliases: veo-3.0-generate-001
+      output: 0.40 usd / second # Video with audio price
+
+    veo-3-fast:
+      aliases: veo-3.0-fast-generate-001
+      output: 0.15 usd / second # Video with audio price
 
     # Veo 2
     # https://ai.google.dev/gemini-api/docs/pricing#veo-2
