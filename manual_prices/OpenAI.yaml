@@ -3,6 +3,11 @@ models:
     # 模型价格：https://platform.openai.com/docs/pricing
 
     # GPT-5
+    gpt-5.1:
+      input: 1.25 usd / M
+      output: 10 usd / M
+      extra_ratios:
+        - cached_tokens: 0.125 usd / M
     gpt-5:
       input: 1.25 usd / M
       output: 10 usd / M
@@ -18,7 +23,17 @@ models:
       output: 0.4 usd / M
       extra_ratios:
         - cached_tokens: 0.005 usd / M
+    gpt-5.1-chat-latest:
+      input: 1.25 usd / M
+      output: 10 usd / M
+      extra_ratios:
+        - cached_tokens: 0.125 usd / M
     gpt-5-chat-latest:
+      input: 1.25 usd / M
+      output: 10 usd / M
+      extra_ratios:
+        - cached_tokens: 0.125 usd / M
+    gpt-5.1-codex:
       input: 1.25 usd / M
       output: 10 usd / M
       extra_ratios:
@@ -118,8 +133,14 @@ models:
       input: 2.5 usd / M
       output: 10 usd / M
       extra_ratios:
-        - input_audio_tokens: 40 usd / M
-        - output_audio_tokens: 80 usd / M
+        - input_audio_tokens: 32 usd / M
+        - output_audio_tokens: 64 usd / M
+    gpt-audio-mini:
+      input: 0.6 usd / M
+      output: 2.4 usd / M
+      extra_ratios:
+        - input_audio_tokens: 10 usd / M
+        - output_audio_tokens: 20 usd / M
     gpt-4o-audio-preview:
       aliases:
         - gpt-4o-audio-preview-*
@@ -197,11 +218,21 @@ models:
       output: 4.4 usd / M
       extra_ratios:
         - cached_tokens: 0.55 usd / M
+    gpt-5.1-codex-mini:
+      input: 0.25 usd / M
+      output: 2 usd / M
+      extra_ratios:
+        - cached_tokens: 0.025 usd / M
     codex-mini-latest:
       input: 1.5 usd / M
       output: 6 usd / M
       extra_ratios:
         - cached_tokens: 0.375 usd / M
+    gpt-5-search-api:
+      input: 1.25 usd / M
+      output: 10 usd / M
+      extra_ratios:
+        - cached_tokens: 0.125 usd / M
     gpt-4o-mini-search-preview:
       aliases:
         - gpt-4o-mini-search-preview-2025-03-11
@@ -220,8 +251,15 @@ models:
     gpt-image-1:
       input: 5 usd / M
       extra_ratios:
+        - cached_tokens: 1.25 usd / M
         - input_image_tokens: 10 usd / M
         - output_image_tokens: 40 usd / M
+    gpt-image-1-mini:
+      input: 2 usd / M
+      extra_ratios:
+        - cached_tokens: 0.2 usd / M
+        - input_image_tokens: 2.5 usd / M
+        - output_image_tokens: 8 usd / M
 
     # transcription & speech generation
     gpt-4o-mini-tts:
@@ -234,6 +272,11 @@ models:
       output: 10 usd / M
       extra_ratios:
         - input_audio_tokens: 6 usd / M
+    gpt-4o-transcribe-diarize:
+      input: 2.5 usd / M
+      output: 10 usd / M
+      extra_ratios:
+        - input_audio_tokens: 6 usd / M
     gpt-4o-mini-transcribe:
       input: 1.25 usd / M
       output: 5 usd / M
@@ -242,13 +285,13 @@ models:
 
     # embedding models
     text-embedding-3-small:
-      input: 0.01 usd / M
+      input: 0.02 usd / M
       output: 0
     text-embedding-3-large:
-      input: 0.065 usd / M
+      input: 0.13 usd / M
       output: 0
     text-embedding-ada-002:
-      input: 0.05 usd / M
+      input: 0.1 usd / M
       output: 0
 
     # moderation
