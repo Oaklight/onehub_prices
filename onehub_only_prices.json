@@ -328,8 +328,8 @@
       "input": 1.25,
       "output": 5.0,
       "extra_ratios": {
-        "input_audio_tokens": 16.0,
-        "output_audio_tokens": 8.0
+        "input_audio_tokens": 12.8,
+        "output_audio_tokens": 6.4
       }
     },
     {
@@ -506,6 +506,16 @@
       }
     },
     {
+      "model": "gpt-4o-transcribe-diarize",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.25,
+      "output": 5.0,
+      "extra_ratios": {
+        "input_audio_tokens": 2.4
+      }
+    },
+    {
       "model": "gpt-5",
       "type": "tokens",
       "channel_type": 1,
@@ -563,14 +573,75 @@
       "output": 60.0
     },
     {
+      "model": "gpt-5-search-api",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.625,
+      "output": 5.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gpt-5.1",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.625,
+      "output": 5.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gpt-5.1-chat-latest",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.625,
+      "output": 5.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gpt-5.1-codex",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.625,
+      "output": 5.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gpt-5.1-codex-mini",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.125,
+      "output": 1.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "gpt-audio",
       "type": "tokens",
       "channel_type": 1,
       "input": 1.25,
       "output": 5.0,
       "extra_ratios": {
-        "input_audio_tokens": 16.0,
-        "output_audio_tokens": 8.0
+        "input_audio_tokens": 12.8,
+        "output_audio_tokens": 6.4
+      }
+    },
+    {
+      "model": "gpt-audio-mini",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.3,
+      "output": 1.2,
+      "extra_ratios": {
+        "input_audio_tokens": 16.66667,
+        "output_audio_tokens": 8.33333
       }
     },
     {
@@ -580,8 +651,21 @@
       "input": 2.5,
       "output": 0.0,
       "extra_ratios": {
+        "cached_tokens": 0.25,
         "input_image_tokens": 2.0,
         "output_image_tokens": 20.0
+      }
+    },
+    {
+      "model": "gpt-image-1-mini",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.0,
+      "output": 0.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1,
+        "input_image_tokens": 1.25,
+        "output_image_tokens": 4.0
       }
     },
     {
@@ -819,21 +903,21 @@
       "model": "text-embedding-3-large",
       "type": "tokens",
       "channel_type": 1,
-      "input": 0.0325,
+      "input": 0.065,
       "output": 0.0
     },
     {
       "model": "text-embedding-3-small",
       "type": "tokens",
       "channel_type": 1,
-      "input": 0.005,
+      "input": 0.01,
       "output": 0.0
     },
     {
       "model": "text-embedding-ada-002",
       "type": "tokens",
       "channel_type": 1,
-      "input": 0.025,
+      "input": 0.05,
       "output": 0.0
     },
     {
@@ -5292,6 +5376,20 @@
       "output": 0.0
     },
     {
+      "model": "gemini-2.5-computer-use-preview",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.625,
+      "output": 5.0
+    },
+    {
+      "model": "gemini-2.5-computer-use-preview-10-2025",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.625,
+      "output": 5.0
+    },
+    {
       "model": "gemini-2.5-flash",
       "type": "tokens",
       "channel_type": 25,
@@ -5299,7 +5397,8 @@
       "output": 1.25,
       "extra_ratios": {
         "input_image_tokens": 1.0,
-        "input_audio_tokens": 3.33333
+        "input_audio_tokens": 3.33333,
+        "cached_tokens": 0.1
       }
     },
     {
@@ -5317,7 +5416,7 @@
       "output": 0.2,
       "extra_ratios": {
         "input_audio_tokens": 3.0,
-        "cached_tokens": 0.25
+        "cached_tokens": 0.1
       }
     },
     {
@@ -5328,7 +5427,53 @@
       "output": 0.2,
       "extra_ratios": {
         "input_audio_tokens": 3.0,
-        "cached_tokens": 0.25
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gemini-2.5-flash-lite-preview",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.05,
+      "output": 0.2,
+      "extra_ratios": {
+        "input_audio_tokens": 3.0,
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gemini-2.5-flash-lite-preview-09-2025",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.05,
+      "output": 0.2,
+      "extra_ratios": {
+        "input_audio_tokens": 3.0,
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gemini-2.5-flash-preview",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.15,
+      "output": 1.25,
+      "extra_ratios": {
+        "input_image_tokens": 1.0,
+        "input_audio_tokens": 3.33333,
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gemini-2.5-flash-preview-09-2025",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.15,
+      "output": 1.25,
+      "extra_ratios": {
+        "input_image_tokens": 1.0,
+        "input_audio_tokens": 3.33333,
+        "cached_tokens": 0.1
       }
     },
     {
@@ -5364,7 +5509,7 @@
       "input": 0.625,
       "output": 5.0,
       "extra_ratios": {
-        "cached_tokens": 0.248
+        "cached_tokens": 0.1
       }
     },
     {
@@ -5373,6 +5518,26 @@
       "channel_type": 25,
       "input": 0.5,
       "output": 10.0
+    },
+    {
+      "model": "gemini-3-pro",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 1.0,
+      "output": 6.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gemini-3-pro-preview",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 1.0,
+      "output": 6.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "gemini-embedding-001",
@@ -5401,6 +5566,17 @@
       "channel_type": 25,
       "input": 0.25,
       "output": 0.75
+    },
+    {
+      "model": "gemini-robotics-er-1.5-preview",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.15,
+      "output": 1.25,
+      "extra_ratios": {
+        "input_image_tokens": 1.0,
+        "input_audio_tokens": 3.33333
+      }
     },
     {
       "model": "gemini-ultra",
@@ -5452,28 +5628,28 @@
       "output": 0.0
     },
     {
-      "model": "imagen-3.0-generate-*",
+      "model": "imagen-3.0-generate-002",
       "type": "times",
       "channel_type": 25,
       "input": 0.0,
       "output": 15.0
     },
     {
-      "model": "imagen-4.0-fast-generate-*",
+      "model": "imagen-4.0-fast-generate-001",
       "type": "times",
       "channel_type": 25,
       "input": 0.0,
       "output": 10.0
     },
     {
-      "model": "imagen-4.0-generate-*",
+      "model": "imagen-4.0-generate-001",
       "type": "times",
       "channel_type": 25,
       "input": 0.0,
       "output": 20.0
     },
     {
-      "model": "imagen-4.0-ultra-generate-*",
+      "model": "imagen-4.0-ultra-generate-001",
       "type": "times",
       "channel_type": 25,
       "input": 0.0,
@@ -5522,32 +5698,60 @@
       "output": 175.0
     },
     {
-      "model": "veo-3-fast-preview",
+      "model": "veo-3",
       "type": "times",
       "channel_type": 25,
       "input": 0.0,
       "output": 200.0
     },
     {
-      "model": "veo-3-preview",
+      "model": "veo-3-fast",
       "type": "times",
       "channel_type": 25,
       "input": 0.0,
-      "output": 375.0
+      "output": 75.0
     },
     {
-      "model": "veo-3.0-fast-generate-preview",
+      "model": "veo-3.0-fast-generate-001",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 75.0
+    },
+    {
+      "model": "veo-3.0-generate-001",
       "type": "times",
       "channel_type": 25,
       "input": 0.0,
       "output": 200.0
     },
     {
-      "model": "veo-3.0-generate-preview",
+      "model": "veo-3.1",
       "type": "times",
       "channel_type": 25,
       "input": 0.0,
-      "output": 375.0
+      "output": 200.0
+    },
+    {
+      "model": "veo-3.1-fast",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 75.0
+    },
+    {
+      "model": "veo-3.1-fast-generate-preview",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 75.0
+    },
+    {
+      "model": "veo-3.1-generate-preview",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 200.0
     },
     {
       "model": "veo2",
@@ -7827,46 +8031,6 @@
       }
     },
     {
-      "model": "grok-3-fast",
-      "type": "tokens",
-      "channel_type": 56,
-      "input": 2.5,
-      "output": 12.5,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-fast",
-      "type": "tokens",
-      "channel_type": 56,
-      "input": 2.5,
-      "output": 12.5,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-fast-beta",
-      "type": "tokens",
-      "channel_type": 56,
-      "input": 2.5,
-      "output": 12.5,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-fast-latest",
-      "type": "tokens",
-      "channel_type": 56,
-      "input": 2.5,
-      "output": 12.5,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
       "model": "grok-3-latest",
       "type": "tokens",
       "channel_type": 56,
@@ -7902,46 +8066,6 @@
       "channel_type": 56,
       "input": 0.15,
       "output": 0.25,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-mini-fast",
-      "type": "tokens",
-      "channel_type": 56,
-      "input": 0.3,
-      "output": 2.0,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-mini-fast",
-      "type": "tokens",
-      "channel_type": 56,
-      "input": 0.3,
-      "output": 2.0,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-mini-fast-beta",
-      "type": "tokens",
-      "channel_type": 56,
-      "input": 0.3,
-      "output": 2.0,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-mini-fast-latest",
-      "type": "tokens",
-      "channel_type": 56,
-      "input": 0.3,
-      "output": 2.0,
       "extra_ratios": {
         "cached_tokens": 0.25
       }
@@ -8013,7 +8137,7 @@
       "input": 0.1,
       "output": 0.75,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.25
       }
     },
     {
@@ -8023,7 +8147,7 @@
       "input": 0.1,
       "output": 0.75,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.25
       }
     }
   ]
