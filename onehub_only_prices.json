@@ -7795,8 +7795,8 @@
       "model": "moonshotai/Kimi-K2-Thinking-Turbo",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.57143,
-      "output": 2.28571
+      "input": 0.28571,
+      "output": 1.14286
     },
     {
       "model": "netease-youdao/bce-embedding-base_v1",
