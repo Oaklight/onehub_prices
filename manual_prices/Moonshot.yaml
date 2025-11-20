@@ -20,14 +20,10 @@ models:
       extra_ratios:
         - cached_tokens: 1 rmb / M
 
-    # kimi-k2
-    kimi-k2-0905-preview:
-      input: 4 rmb / M
-      output: 16 rmb / M
-      extra_ratios:
-        - cached_tokens: 1 rmb / M
-
-    kimi-k2-0711-preview:
+    kimi-k2:
+      aliases:
+        - kimi-k2-0711-preview
+        - kimi-k2-0905-preview
       input: 4 rmb / M
       output: 16 rmb / M
       extra_ratios:
