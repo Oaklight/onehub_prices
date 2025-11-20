@@ -5886,6 +5886,16 @@
       "output": 0.85714
     },
     {
+      "model": "kimi-k2",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 0.28571,
+      "output": 1.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
       "model": "kimi-k2-0711-preview",
       "type": "tokens",
       "channel_type": 29,
