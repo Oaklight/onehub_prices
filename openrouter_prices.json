@@ -568,6 +568,13 @@
       "output": 5.0
     },
     {
+      "model": "google/gemini-3-pro-image-preview",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 6.0
+    },
+    {
       "model": "google/gemini-3-pro-preview",
       "type": "tokens",
       "channel_type": 20,
@@ -2291,6 +2298,13 @@
     },
     {
       "model": "x-ai/grok-4.1-fast",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "x-ai/grok-4.1-fast:free",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0,
