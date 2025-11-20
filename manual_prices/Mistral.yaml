@@ -1,5 +1,6 @@
 models:
   Mistral:
+    # model pricing: https://mistral.ai/pricing#api-pricing
     # premier models
     mistral-medium*:
       input: 0.4 usd / M
