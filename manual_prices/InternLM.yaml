@@ -1,27 +1,49 @@
 models:
   InternLM:
     # model list: https://internlm.intern-ai.org.cn/api/document?lang=zh
-    
+    # Multi-modal models
+
+    # Generic pattern for intern* models
+    intern*:
+      input: 0
+      output: 0
+
+    # Latest multi-modal model - points to intern-s1
     intern-latest:
-      aliases: intern-s1
+      aliases:
+        - intern-s1
       input: 0
       output: 0
 
+    # Lightweight scientific reasoning multi-modal model
+    intern-s1-mini:
+      input: 0
+      output: 0
+
+    # Latest InternVL3.5 series - points to internvl3.5-241b-a28b
+    internvl3.5-latest:
+      aliases:
+        - internvl3.5-241b-a28b
+      input: 0
+      output: 0
+
+    # Latest InternVL3 series - points to internvl3-78b
     internvl3-latest:
-      aliases: internvl3-78b
+      aliases:
+        - internvl3-78b
       input: 0
       output: 0
 
-    internvl2.5-latest:
-      aliases: internvl2.5-78b
-      input: 0
-      output: 0
-
+    # Latest InternLM3 series - points to internlm3-8b-instruct
     internlm3-latest:
-      aliases: internlm3-8b-instruct
+      aliases:
+        - internlm3-8b-instruct
       input: 0
       output: 0
 
+    # Latest InternLM2.5 series - points to internlm2.5-20b-chat
     internlm2.5-latest:
+      aliases:
+        - internlm2.5-20b-chat
       input: 0
       output: 0
