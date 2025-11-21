@@ -5810,6 +5810,13 @@
       "output": 0.6
     },
     {
+      "model": "MiniMax-M2-Stable",
+      "type": "tokens",
+      "channel_type": 27,
+      "input": 0.15,
+      "output": 0.6
+    },
+    {
       "model": "abab5.5-chat",
       "type": "tokens",
       "channel_type": 27,
@@ -5898,6 +5905,46 @@
       "channel_type": 28,
       "input": 0.28571,
       "output": 0.85714
+    },
+    {
+      "model": "deepseek-v3.2",
+      "type": "tokens",
+      "channel_type": 28,
+      "input": 0.14286,
+      "output": 0.21429,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "deepseek-v3.2-exp",
+      "type": "tokens",
+      "channel_type": 28,
+      "input": 0.14286,
+      "output": 0.21429,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "deepseek-v3.2-exp-thinking",
+      "type": "tokens",
+      "channel_type": 28,
+      "input": 0.14286,
+      "output": 0.21429,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "deepseek-v3.2-thinking",
+      "type": "tokens",
+      "channel_type": 28,
+      "input": 0.14286,
+      "output": 0.21429,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "kimi-k2",

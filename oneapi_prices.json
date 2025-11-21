@@ -5810,6 +5810,13 @@
       "output": 0.6
     },
     {
+      "model": "MiniMax-M2-Stable",
+      "type": "tokens",
+      "channel_type": 27,
+      "input": 0.15,
+      "output": 0.6
+    },
+    {
       "model": "abab5.5-chat",
       "type": "tokens",
       "channel_type": 27,
@@ -5898,6 +5905,46 @@
       "channel_type": 28,
       "input": 0.28571,
       "output": 0.85714
+    },
+    {
+      "model": "deepseek-v3.2",
+      "type": "tokens",
+      "channel_type": 28,
+      "input": 0.14286,
+      "output": 0.21429,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "deepseek-v3.2-exp",
+      "type": "tokens",
+      "channel_type": 28,
+      "input": 0.14286,
+      "output": 0.21429,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "deepseek-v3.2-exp-thinking",
+      "type": "tokens",
+      "channel_type": 28,
+      "input": 0.14286,
+      "output": 0.21429,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "deepseek-v3.2-thinking",
+      "type": "tokens",
+      "channel_type": 28,
+      "input": 0.14286,
+      "output": 0.21429,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "kimi-k2",
@@ -8175,6 +8222,13 @@
       }
     },
     {
+      "model": "intern*",
+      "type": "tokens",
+      "channel_type": 1001,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "intern-latest",
       "type": "tokens",
       "channel_type": 1001,
@@ -8183,6 +8237,20 @@
     },
     {
       "model": "intern-s1",
+      "type": "tokens",
+      "channel_type": 1001,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "intern-s1-mini",
+      "type": "tokens",
+      "channel_type": 1001,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "internlm2.5-20b-chat",
       "type": "tokens",
       "channel_type": 1001,
       "input": 0.0,
@@ -8210,20 +8278,6 @@
       "output": 0.0
     },
     {
-      "model": "internvl2.5-78b",
-      "type": "tokens",
-      "channel_type": 1001,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "internvl2.5-latest",
-      "type": "tokens",
-      "channel_type": 1001,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "internvl3-78b",
       "type": "tokens",
       "channel_type": 1001,
@@ -8232,6 +8286,20 @@
     },
     {
       "model": "internvl3-latest",
+      "type": "tokens",
+      "channel_type": 1001,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "internvl3.5-241b-a28b",
+      "type": "tokens",
+      "channel_type": 1001,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "internvl3.5-latest",
       "type": "tokens",
       "channel_type": 1001,
       "input": 0.0,
