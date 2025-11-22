@@ -2867,6 +2867,27 @@
       "output": 0.175
     },
     {
+      "model": "allenai/olmo-3-32b-think",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.175
+    },
+    {
+      "model": "allenai/olmo-3-7b-instruct",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.1
+    },
+    {
+      "model": "allenai/olmo-3-7b-think",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.06,
+      "output": 0.1
+    },
+    {
       "model": "alpindale/goliath-120b",
       "type": "tokens",
       "channel_type": 20,
