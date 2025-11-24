@@ -252,8 +252,18 @@
     },
     "2004": {
       "id": 2004,
-      "name": "vllm",
+      "name": "vLLM",
       "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/vllm-color.svg"
+    },
+    "2005": {
+      "id": 2005,
+      "name": "ollama",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/ollama.svg"
+    },
+    "2006": {
+      "id": 2006,
+      "name": "ModelScope",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/modelscope-color.svg"
     }
   }
 }

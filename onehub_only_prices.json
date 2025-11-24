@@ -3059,36 +3059,36 @@
       "model": "baidu/ernie-4.5-21b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.035,
-      "output": 0.14
+      "input": 0.028,
+      "output": 0.112
     },
     {
       "model": "baidu/ernie-4.5-21b-a3b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.035,
-      "output": 0.14
+      "input": 0.028,
+      "output": 0.112
     },
     {
       "model": "baidu/ernie-4.5-300b-a47b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.14,
-      "output": 0.55
+      "input": 0.112,
+      "output": 0.44
     },
     {
       "model": "baidu/ernie-4.5-vl-28b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
-      "output": 0.28
+      "input": 0.056,
+      "output": 0.224
     },
     {
       "model": "baidu/ernie-4.5-vl-424b-a47b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.21,
-      "output": 0.625
+      "input": 0.168,
+      "output": 0.5
     },
     {
       "model": "bytedance/ui-tars-1.5-7b",
@@ -3178,8 +3178,8 @@
       "model": "deepseek/deepseek-chat-v3-0324",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.12,
-      "output": 0.42
+      "input": 0.108,
+      "output": 0.448
     },
     {
       "model": "deepseek/deepseek-chat-v3-0324:free",
@@ -3262,8 +3262,8 @@
       "model": "deepseek/deepseek-r1-distill-qwen-32b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.135,
-      "output": 0.135
+      "input": 0.12,
+      "output": 0.12
     },
     {
       "model": "deepseek/deepseek-r1:free",
@@ -3276,22 +3276,22 @@
       "model": "deepseek/deepseek-v3.1-terminus",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.115,
-      "output": 0.45
+      "input": 0.108,
+      "output": 0.4
     },
     {
       "model": "deepseek/deepseek-v3.1-terminus:exacto",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.135,
-      "output": 0.5
+      "input": 0.108,
+      "output": 0.4
     },
     {
       "model": "deepseek/deepseek-v3.2-exp",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.135,
-      "output": 0.2
+      "input": 0.108,
+      "output": 0.164
     },
     {
       "model": "eleutherai/llemma_7b",
@@ -3640,8 +3640,8 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.065,
-      "output": 0.19
+      "input": 0.052,
+      "output": 0.156
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct:free",
@@ -3654,8 +3654,8 @@
       "model": "meta-llama/llama-4-maverick",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.068,
+      "output": 0.34
     },
     {
       "model": "meta-llama/llama-4-scout",
@@ -3766,8 +3766,8 @@
       "model": "minimax/minimax-m2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1275,
-      "output": 0.51
+      "input": 0.12,
+      "output": 0.48
     },
     {
       "model": "mistralai/codestral-2501",
@@ -4032,8 +4032,8 @@
       "model": "moonshotai/kimi-k2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.2
+      "input": 0.228,
+      "output": 0.92
     },
     {
       "model": "moonshotai/kimi-k2-0905",
@@ -4453,14 +4453,14 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.02,
-      "output": 0.2
+      "output": 0.1
     },
     {
       "model": "openai/gpt-oss-120b:exacto",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.12
+      "input": 0.02,
+      "output": 0.1
     },
     {
       "model": "openai/gpt-oss-20b",
@@ -4746,8 +4746,8 @@
       "model": "qwen/qwen3-235b-a22b-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.275
+      "input": 0.036,
+      "output": 0.232
     },
     {
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -4809,8 +4809,8 @@
       "model": "qwen/qwen3-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0175,
-      "output": 0.069
+      "input": 0.014,
+      "output": 0.0552
     },
     {
       "model": "qwen/qwen3-coder",
@@ -4872,7 +4872,7 @@
       "model": "qwen/qwen3-next-80b-a3b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
+      "input": 0.06,
       "output": 0.6
     },
     {
@@ -4900,15 +4900,15 @@
       "model": "qwen/qwen3-vl-30b-a3b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.5
+      "input": 0.08,
+      "output": 0.4
     },
     {
       "model": "qwen/qwen3-vl-8b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.25
+      "input": 0.032,
+      "output": 0.2
     },
     {
       "model": "qwen/qwen3-vl-8b-thinking",
@@ -5033,8 +5033,8 @@
       "model": "thudm/glm-4.1v-9b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0175,
-      "output": 0.069
+      "input": 0.014,
+      "output": 0.0552
     },
     {
       "model": "tngtech/deepseek-r1t-chimera",
@@ -5152,8 +5152,8 @@
       "model": "z-ai/glm-4.5-air",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.065,
-      "output": 0.425
+      "input": 0.052,
+      "output": 0.34
     },
     {
       "model": "z-ai/glm-4.5-air:free",
@@ -5166,8 +5166,8 @@
       "model": "z-ai/glm-4.5v",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 0.9
+      "input": 0.24,
+      "output": 0.72
     },
     {
       "model": "z-ai/glm-4.6",
