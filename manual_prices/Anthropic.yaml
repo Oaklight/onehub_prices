@@ -8,6 +8,7 @@ models:
       aliases:
         - claude-haiku-4.5
         - claude-haiku-4-5-20251015
+        - claude-4.5-haiku
       input: 1 usd / M
       output: 5 usd / M
 
@@ -15,6 +16,7 @@ models:
       aliases:
         - claude-sonnet-4.5
         - claude-sonnet-4-5-20250929
+        - claude-4.5-sonnet
       input: 3 usd / M
       output: 15 usd / M
 
@@ -22,6 +24,7 @@ models:
       aliases:
         - claude-opus-4.1
         - claude-opus-4-1-20250805
+        - claude-4.1-opus
       input: 15 usd / M
       output: 75 usd / M
 
@@ -29,6 +32,8 @@ models:
       aliases:
         - claude-opus-4-20250514
         - claude-opus-4-0
+        - claude-4-opus
+        - claude-4.0-opus
       input: 15 usd / M
       output: 75 usd / M
 
@@ -36,6 +41,8 @@ models:
       aliases:
         - claude-sonnet-4-20250514
         - claude-sonnet-4-0
+        - claude-4-sonnet
+        - claude-4.0-sonnet
       input: 3 usd / M
       output: 15 usd / M
 
