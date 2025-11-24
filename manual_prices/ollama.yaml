@@ -1,0 +1,6 @@
+models:
+  vLLM:
+    # models deployed with vllm
+    vllm:*:
+      input: 0
+      output: 0

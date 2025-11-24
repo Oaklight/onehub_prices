@@ -1,0 +1,6 @@
+models:
+  ModelScope:
+    # inference api可用模型：https://modelscope.cn/models?filter=inference_type&page=1&tabKey=task
+    ms:*:
+      input: 0
+      output: 0

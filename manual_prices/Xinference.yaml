@@ -1,5 +1,6 @@
 models:
   Xinference:
+    # models deployed with Xinference
     xinf:*:
       input: 0
       output: 0
