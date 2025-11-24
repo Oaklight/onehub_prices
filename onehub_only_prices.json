@@ -2949,8 +2949,8 @@
       "model": "allenai/olmo-3-32b-think",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.175
+      "input": 0.15,
+      "output": 0.225
     },
     {
       "model": "allenai/olmo-3-7b-instruct",
@@ -3334,8 +3334,8 @@
       "model": "deepseek/deepseek-r1-distill-qwen-14b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.075
+      "input": 0.06,
+      "output": 0.06
     },
     {
       "model": "deepseek/deepseek-r1-distill-qwen-32b",
@@ -4638,6 +4638,13 @@
       "channel_type": 20,
       "input": 0.035,
       "output": 0.13
+    },
+    {
+      "model": "openrouter/bert-nebulon-alpha",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "perplexity/sonar",
