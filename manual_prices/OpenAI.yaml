@@ -24,11 +24,15 @@ models:
       extra_ratios:
         - cached_tokens: 0.005 usd / M
     gpt-5.1-chat-latest:
+      aliases:
+        - gpt-5.1-chat
       input: 1.25 usd / M
       output: 10 usd / M
       extra_ratios:
         - cached_tokens: 0.125 usd / M
     gpt-5-chat-latest:
+      aliases:
+        - gpt-5-chat
       input: 1.25 usd / M
       output: 10 usd / M
       extra_ratios:
@@ -75,6 +79,7 @@ models:
       aliases:
         - gpt-4o-2024-11-20
         - gpt-4o-2024-08-06
+        - gpt-4o-latest
       input: 2.5 usd / M
       output: 10 usd / M
       extra_ratios:
