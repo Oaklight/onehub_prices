@@ -288,6 +288,13 @@
       "output": 1.14286
     },
     {
+      "model": "Pro/moonshotai/Kimi-K2-Thinking",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.28571,
+      "output": 1.14286
+    },
+    {
       "model": "Qwen/QVQ-72B-Preview",
       "type": "tokens",
       "channel_type": 45,
@@ -1024,13 +1031,6 @@
     },
     {
       "model": "moonshotai/Kimi-K2-Thinking",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "moonshotai/Kimi-K2-Thinking-Turbo",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.28571,

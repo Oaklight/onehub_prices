@@ -1306,8 +1306,8 @@
       "model": "nousresearch/deephermes-3-mistral-24b-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.295
+      "input": 0.025,
+      "output": 0.1
     },
     {
       "model": "nousresearch/hermes-2-pro-llama-3-8b",
@@ -1838,8 +1838,8 @@
       "model": "qwen/qwen-2.5-coder-32b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 0.08
+      "input": 0.015,
+      "output": 0.055
     },
     {
       "model": "qwen/qwen-2.5-coder-32b-instruct:free",
@@ -2055,8 +2055,8 @@
       "model": "qwen/qwen3-coder:exacto",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5,
-      "output": 2.0
+      "input": 0.19,
+      "output": 0.765
     },
     {
       "model": "qwen/qwen3-coder:free",
