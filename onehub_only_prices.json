@@ -1203,6 +1203,13 @@
       "output": 2.5
     },
     {
+      "model": "claude-4.5-opus",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
       "model": "claude-4.5-sonnet",
       "type": "tokens",
       "channel_type": 14,
@@ -1273,11 +1280,32 @@
       "output": 37.5
     },
     {
+      "model": "claude-opus-4-5",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
+      "model": "claude-opus-4-5-20251124",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
       "model": "claude-opus-4.1",
       "type": "tokens",
       "channel_type": 14,
       "input": 7.5,
       "output": 37.5
+    },
+    {
+      "model": "claude-opus-4.5",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5
     },
     {
       "model": "claude-sonnet-4",

@@ -1203,6 +1203,13 @@
       "output": 2.5
     },
     {
+      "model": "claude-4.5-opus",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
       "model": "claude-4.5-sonnet",
       "type": "tokens",
       "channel_type": 14,
@@ -1273,11 +1280,32 @@
       "output": 37.5
     },
     {
+      "model": "claude-opus-4-5",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
+      "model": "claude-opus-4-5-20251124",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
       "model": "claude-opus-4.1",
       "type": "tokens",
       "channel_type": 14,
       "input": 7.5,
       "output": 37.5
+    },
+    {
+      "model": "claude-opus-4.5",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5
     },
     {
       "model": "claude-sonnet-4",
@@ -9668,6 +9696,34 @@
       "output": 0.0
     },
     {
+      "model": "argo:claude-4.1-opus",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-4.5-haiku",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-4.5-opus",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-4.5-sonnet",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "argo:claude-haiku-3.5",
       "type": "tokens",
       "channel_type": 2002,
@@ -9675,7 +9731,28 @@
       "output": 0.0
     },
     {
+      "model": "argo:claude-haiku-4.5",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "argo:claude-opus-4",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-opus-4.1",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-opus-4.5",
       "type": "tokens",
       "channel_type": 2002,
       "input": 0.0,
@@ -9697,6 +9774,13 @@
     },
     {
       "model": "argo:claude-sonnet-4",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-sonnet-4.5",
       "type": "tokens",
       "channel_type": 2002,
       "input": 0.0,
@@ -9752,6 +9836,27 @@
       "output": 0.0
     },
     {
+      "model": "argo:gpt-4.1",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:gpt-4.1-mini",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:gpt-4.1-nano",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "argo:gpt-4o",
       "type": "tokens",
       "channel_type": 2002,
@@ -9760,6 +9865,34 @@
     },
     {
       "model": "argo:gpt-4o-latest",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:gpt-5",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:gpt-5-mini",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:gpt-5-nano",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:gpt-5.1",
       "type": "tokens",
       "channel_type": 2002,
       "input": 0.0,
@@ -9787,7 +9920,21 @@
       "output": 0.0
     },
     {
+      "model": "argo:gpt-o3",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "argo:gpt-o3-mini",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:gpt-o4-mini",
       "type": "tokens",
       "channel_type": 2002,
       "input": 0.0,
@@ -9815,7 +9962,21 @@
       "output": 0.0
     },
     {
+      "model": "argo:o3",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "argo:o3-mini",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:o4-mini",
       "type": "tokens",
       "channel_type": 2002,
       "input": 0.0,
