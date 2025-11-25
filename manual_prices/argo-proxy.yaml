@@ -23,7 +23,33 @@ models:
       aliases: argo:gpt-4o-latest
       input: 0
       output: 0
+    argo:gpt-4.1:
+      input: 0
+      output: 0
+    argo:gpt-4.1-mini:
+      input: 0
+      output: 0
+    argo:gpt-4.1-nano:
+      input: 0
+      output: 0
+    argo:gpt-5:
+      input: 0
+      output: 0
+    argo:gpt-5-mini:
+      input: 0
+      output: 0
+    argo:gpt-5-nano:
+      input: 0
+      output: 0
+    argo:gpt-5.1:
+      input: 0
+      output: 0
+
     # reasoning models
+    argo:gpt-o3:
+      aliases: argo:o3
+      input: 0
+      output: 0
     argo:gpt-o1:
       aliases: argo:o1
       input: 0
@@ -40,11 +66,30 @@ models:
       aliases: argo:o3-mini
       input: 0
       output: 0
+    argo:gpt-o4-mini:
+      aliases: argo:o4-mini
+      input: 0
+      output: 0
 
     # anthropic claude
+    argo:claude-4.5-opus:
+      aliases:
+        - argo:claude-opus-4.5
+      input: 0
+      output: 0
+    argo:claude-4.1-opus:
+      aliases:
+        - argo:claude-opus-4.1
+      input: 0
+      output: 0
     argo:claude-4-opus:
       aliases:
         - argo:claude-opus-4
+      input: 0
+      output: 0
+    argo:claude-4.5-sonnet:
+      aliases:
+        - argo:claude-sonnet-4.5
       input: 0
       output: 0
     argo:claude-4-sonnet:
@@ -62,6 +107,11 @@ models:
         - argo:claude-sonnet-3.5-v2
       input: 0
       output: 0
+    argo:claude-4.5-haiku:
+      aliases:
+        - argo:claude-haiku-4.5
+      input: 0
+      output: 0
     argo:claude-3.5-haiku:
       aliases:
         - argo:claude-haiku-3.5
@@ -75,7 +125,7 @@ models:
     argo:gemini-2.5-flash:
       input: 0
       output: 0
-      
+
     # embedding models
     argo:text-embedding-ada-002:
       input: 0
