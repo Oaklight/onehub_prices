@@ -2378,7 +2378,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.2,
-      "output": 0.875
+      "output": 0.7
     },
     {
       "model": "z-ai/glm-4.6:exacto",
