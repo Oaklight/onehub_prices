@@ -68,7 +68,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.15,
-      "output": 0.225
+      "output": 0.275
     },
     {
       "model": "allenai/olmo-3-7b-instruct",
@@ -375,8 +375,8 @@
       "model": "deepseek/deepseek-chat-v3-0324",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.108,
-      "output": 0.448
+      "input": 0.1,
+      "output": 0.44
     },
     {
       "model": "deepseek/deepseek-chat-v3.1",
@@ -928,8 +928,8 @@
       "model": "minimax/minimax-m2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.12,
-      "output": 0.48
+      "input": 0.1275,
+      "output": 0.51
     },
     {
       "model": "mistralai/codestral-2501",
@@ -1751,6 +1751,13 @@
       "output": 4.0
     },
     {
+      "model": "prime-intellect/intellect-3",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.55
+    },
+    {
       "model": "qwen/qwen-2.5-72b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -2111,7 +2118,7 @@
       "model": "thedrummer/anubis-70b-v1.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.325,
+      "input": 0.375,
       "output": 0.5
     },
     {
