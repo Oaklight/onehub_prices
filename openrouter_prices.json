@@ -60,8 +60,8 @@
       "model": "allenai/olmo-2-0325-32b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.175
+      "input": 0.025,
+      "output": 0.1
     },
     {
       "model": "allenai/olmo-3-32b-think",
@@ -419,13 +419,6 @@
       "channel_type": 20,
       "input": 0.015,
       "output": 0.065
-    },
-    {
-      "model": "deepseek/deepseek-r1-distill-llama-70b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "deepseek/deepseek-r1-distill-qwen-14b",
@@ -2273,7 +2266,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.175,
-      "output": 0.75
+      "output": 0.775
     },
     {
       "model": "z-ai/glm-4.5-air",
@@ -2307,8 +2300,8 @@
       "model": "z-ai/glm-4.6:exacto",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.225,
-      "output": 0.95
+      "input": 0.22,
+      "output": 0.88
     }
   ]
 }
