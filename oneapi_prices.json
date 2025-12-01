@@ -5961,17 +5961,7 @@
       }
     },
     {
-      "model": "deepseek-v3.2-exp",
-      "type": "tokens",
-      "channel_type": 28,
-      "input": 0.14286,
-      "output": 0.21429,
-      "extra_ratios": {
-        "cached_tokens": 0.1
-      }
-    },
-    {
-      "model": "deepseek-v3.2-exp-thinking",
+      "model": "deepseek-v3.2-speciale*",
       "type": "tokens",
       "channel_type": 28,
       "input": 0.14286,
