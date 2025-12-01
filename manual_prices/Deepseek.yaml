@@ -5,7 +5,6 @@ models:
     deepseek-chat:
       aliases:
         - deepseek-v3.2
-        - deepseek-v3.2-exp
       input: 2 rmb / M
       output: 3 rmb / M
       extra_ratios:
@@ -13,7 +12,7 @@ models:
     deepseek-reasoner:
       aliases:
         - deepseek-v3.2-thinking
-        - deepseek-v3.2-exp-thinking
+        - deepseek-v3.2-speciale*
       input: 2 rmb / M
       output: 3 rmb / M
       extra_ratios:
