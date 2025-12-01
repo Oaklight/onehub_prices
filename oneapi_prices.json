@@ -3331,13 +3331,6 @@
       "output": 0.065
     },
     {
-      "model": "deepseek/deepseek-r1-distill-qwen-14b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.06,
-      "output": 0.06
-    },
-    {
       "model": "deepseek/deepseek-r1-distill-qwen-32b",
       "type": "tokens",
       "channel_type": 20,
@@ -3359,11 +3352,25 @@
       "output": 0.4
     },
     {
+      "model": "deepseek/deepseek-v3.2",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.14,
+      "output": 0.21
+    },
+    {
       "model": "deepseek/deepseek-v3.2-exp",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.108,
       "output": 0.164
+    },
+    {
+      "model": "deepseek/deepseek-v3.2-speciale",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.14,
+      "output": 0.21
     },
     {
       "model": "eleutherai/llemma_7b",
