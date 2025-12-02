@@ -445,8 +445,8 @@
       "model": "deepseek/deepseek-v3.1-terminus",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.108,
-      "output": 0.4
+      "input": 0.105,
+      "output": 0.395
     },
     {
       "model": "deepseek/deepseek-v3.1-terminus:exacto",
@@ -466,8 +466,8 @@
       "model": "deepseek/deepseek-v3.2-exp",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.108,
-      "output": 0.164
+      "input": 0.105,
+      "output": 0.16
     },
     {
       "model": "deepseek/deepseek-v3.2-speciale",
