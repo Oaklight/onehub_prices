@@ -3068,8 +3068,8 @@
       "model": "anthropic/claude-3.5-sonnet",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.5,
-      "output": 7.5
+      "input": 3.0,
+      "output": 15.0
     },
     {
       "model": "anthropic/claude-3.7-sonnet",
@@ -3147,6 +3147,20 @@
       "channel_type": 20,
       "input": 0.09,
       "output": 0.09
+    },
+    {
+      "model": "arcee-ai/trinity-mini",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0225,
+      "output": 0.075
+    },
+    {
+      "model": "arcee-ai/trinity-mini:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "arcee-ai/virtuoso-large",
@@ -3356,7 +3370,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.14,
-      "output": 0.21
+      "output": 0.2
     },
     {
       "model": "deepseek/deepseek-v3.2-exp",
@@ -3370,7 +3384,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.14,
-      "output": 0.21
+      "output": 0.2
     },
     {
       "model": "eleutherai/llemma_7b",
