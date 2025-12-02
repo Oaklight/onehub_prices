@@ -2974,11 +2974,11 @@
       "output": 0.1
     },
     {
-      "model": "allenai/olmo-3-32b-think",
+      "model": "allenai/olmo-3-32b-think:free",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.275
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "allenai/olmo-3-7b-instruct",
@@ -3000,6 +3000,20 @@
       "channel_type": 20,
       "input": 3.0,
       "output": 4.0
+    },
+    {
+      "model": "amazon/nova-2-lite-v1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "amazon/nova-2-lite-v1:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "amazon/nova-lite-v1",
@@ -3982,6 +3996,13 @@
       "output": 3.0
     },
     {
+      "model": "mistralai/mistral-large-2512",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.25,
+      "output": 0.75
+    },
+    {
       "model": "mistralai/mistral-medium-3",
       "type": "tokens",
       "channel_type": 20,
@@ -4624,13 +4645,6 @@
       "channel_type": 20,
       "input": 0.035,
       "output": 0.13
-    },
-    {
-      "model": "openrouter/bert-nebulon-alpha",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "perplexity/sonar",
