@@ -3359,6 +3359,13 @@
       "output": 0.065
     },
     {
+      "model": "deepseek/deepseek-r1-distill-qwen-14b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.06,
+      "output": 0.06
+    },
+    {
       "model": "deepseek/deepseek-r1-distill-qwen-32b",
       "type": "tokens",
       "channel_type": 20,
@@ -3397,8 +3404,8 @@
       "model": "deepseek/deepseek-v3.2-speciale",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.14,
-      "output": 0.2
+      "input": 0.135,
+      "output": 0.205
     },
     {
       "model": "eleutherai/llemma_7b",
