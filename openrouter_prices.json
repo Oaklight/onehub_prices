@@ -466,14 +466,14 @@
       "model": "deepseek/deepseek-v3.1-terminus:exacto",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.108,
-      "output": 0.4
+      "input": 0.105,
+      "output": 0.395
     },
     {
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.14,
+      "input": 0.135,
       "output": 0.2
     },
     {
@@ -837,8 +837,8 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.052,
-      "output": 0.156
+      "input": 0.054,
+      "output": 0.16
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct:free",
@@ -1901,8 +1901,8 @@
       "model": "qwen/qwen3-235b-a22b-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.036,
-      "output": 0.232
+      "input": 0.0355,
+      "output": 0.2315
     },
     {
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -2027,8 +2027,8 @@
       "model": "qwen/qwen3-vl-235b-a22b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.105,
-      "output": 0.95
+      "input": 0.1,
+      "output": 0.6
     },
     {
       "model": "qwen/qwen3-vl-235b-a22b-thinking",
@@ -2335,8 +2335,8 @@
       "model": "z-ai/glm-4.6:exacto",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.22,
-      "output": 0.88
+      "input": 0.215,
+      "output": 0.875
     }
   ]
 }
