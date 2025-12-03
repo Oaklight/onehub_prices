@@ -3005,8 +3005,8 @@
       "model": "amazon/nova-2-lite-v1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.15,
+      "output": 1.25
     },
     {
       "model": "amazon/nova-2-lite-v1:free",
