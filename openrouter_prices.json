@@ -2283,11 +2283,11 @@
       "output": 0.25
     },
     {
-      "model": "x-ai/grok-4.1-fast:free",
+      "model": "x-ai/grok-4.1-fast",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.1,
+      "output": 0.25
     },
     {
       "model": "x-ai/grok-code-fast-1",
