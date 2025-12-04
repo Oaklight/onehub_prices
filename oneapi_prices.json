@@ -3877,13 +3877,6 @@
       "output": 0.51
     },
     {
-      "model": "mistralai/codestral-2501",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.15,
-      "output": 0.45
-    },
-    {
       "model": "mistralai/codestral-2508",
       "type": "tokens",
       "channel_type": 20,
@@ -3912,25 +3905,11 @@
       "output": 0.06
     },
     {
-      "model": "mistralai/magistral-medium-2506",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.0,
-      "output": 2.5
-    },
-    {
       "model": "mistralai/magistral-medium-2506:thinking",
       "type": "tokens",
       "channel_type": 20,
       "input": 1.0,
       "output": 2.5
-    },
-    {
-      "model": "mistralai/magistral-small-2506",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.25,
-      "output": 0.75
     },
     {
       "model": "mistralai/ministral-3b",
@@ -4032,13 +4011,6 @@
     },
     {
       "model": "mistralai/mistral-saba",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.3
-    },
-    {
-      "model": "mistralai/mistral-small",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.1,
