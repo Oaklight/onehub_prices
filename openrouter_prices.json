@@ -403,8 +403,8 @@
       "model": "deepseek/deepseek-chat-v3-0324",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.44
+      "input": 0.075,
+      "output": 0.35
     },
     {
       "model": "deepseek/deepseek-chat-v3.1",
@@ -1740,8 +1740,8 @@
       "model": "opengvlab/internvl3-78b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.035,
-      "output": 0.13
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "perplexity/sonar",
