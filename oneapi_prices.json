@@ -4528,6 +4528,13 @@
       "output": 5.0
     },
     {
+      "model": "openai/gpt-5.1-codex-max",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.625,
+      "output": 5.0
+    },
+    {
       "model": "openai/gpt-5.1-codex-mini",
       "type": "tokens",
       "channel_type": 20,
@@ -4547,6 +4554,13 @@
       "channel_type": 20,
       "input": 0.0195,
       "output": 0.095
+    },
+    {
+      "model": "openai/gpt-oss-120b:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "openai/gpt-oss-20b",
