@@ -939,7 +939,7 @@
       "output": 0.85714
     },
     {
-      "model": "deepseek-ai/DeepSeek-V3.2-Exp",
+      "model": "deepseek-ai/DeepSeek-V3.2",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.14286,
