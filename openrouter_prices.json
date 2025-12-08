@@ -424,8 +424,8 @@
       "model": "deepseek/deepseek-r1-0528",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.175,
-      "output": 1.5
+      "input": 0.2,
+      "output": 0.875
     },
     {
       "model": "deepseek/deepseek-r1-0528-qwen3-8b",
@@ -473,8 +473,8 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.135,
-      "output": 0.2
+      "input": 0.13,
+      "output": 0.195
     },
     {
       "model": "deepseek/deepseek-v3.2-exp",
@@ -627,8 +627,8 @@
       "model": "google/gemma-3-27b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.08
+      "input": 0.04,
+      "output": 0.225
     },
     {
       "model": "google/gemma-3-27b-it:free",
@@ -1229,8 +1229,8 @@
       "model": "moonshotai/kimi-linear-48b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 0.3
+      "input": 0.35,
+      "output": 0.45
     },
     {
       "model": "morph/morph-v3-fast",
@@ -2041,8 +2041,8 @@
       "model": "qwen/qwen3-vl-30b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.07,
+      "output": 0.5
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-thinking",
@@ -2167,7 +2167,7 @@
       "model": "thedrummer/skyfall-36b-v2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
+      "input": 0.275,
       "output": 0.4
     },
     {
