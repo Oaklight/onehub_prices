@@ -3408,6 +3408,13 @@
       "output": 0.6
     },
     {
+      "model": "essentialai/rnj-1-instruct",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.075,
+      "output": 0.075
+    },
+    {
       "model": "google/gemini-2.0-flash-001",
       "type": "tokens",
       "channel_type": 20,
@@ -3537,8 +3544,8 @@
       "model": "google/gemma-3-27b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.225
+      "input": 0.015,
+      "output": 0.055
     },
     {
       "model": "google/gemma-3-27b-it:free",
@@ -4997,6 +5004,13 @@
       "output": 0.625
     },
     {
+      "model": "relace/relace-search",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 1.5
+    },
+    {
       "model": "sao10k/l3-euryale-70b",
       "type": "tokens",
       "channel_type": 20,
@@ -5247,6 +5261,13 @@
       "channel_type": 20,
       "input": 0.215,
       "output": 0.875
+    },
+    {
+      "model": "z-ai/glm-4.6v",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 0.45
     },
     {
       "model": "ChatPro",
