@@ -634,8 +634,8 @@
       "model": "google/gemma-3-27b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.015,
-      "output": 0.055
+      "input": 0.025,
+      "output": 0.11
     },
     {
       "model": "google/gemma-3-27b-it:free",
