@@ -67,6 +67,14 @@ models:
       output: 0
 
     # vision
+    glm-4.6v:
+      input: 2 rmb / M # use prices for 32~128k tokens
+      output: 6 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.4 rmb / M
+    glm-4.6v-flash:
+      input: 0
+      output: 0
     glm-4.5v:
       input: 4 rmb / M # use prices for 32~64k tokens
       output: 12 rmb / M
