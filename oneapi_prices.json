@@ -1921,6 +1921,23 @@
       }
     },
     {
+      "model": "glm-4.6v",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.14286,
+      "output": 0.42857,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "glm-4.6v-flash",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "glm-4v",
       "type": "tokens",
       "channel_type": 16,
@@ -3306,8 +3323,8 @@
       "model": "deepseek/deepseek-chat-v3-0324",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.35
+      "input": 0.1,
+      "output": 0.44
     },
     {
       "model": "deepseek/deepseek-chat-v3.1",
