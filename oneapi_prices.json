@@ -3330,8 +3330,8 @@
       "model": "deepseek/deepseek-chat-v3.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.4
+      "input": 0.075,
+      "output": 0.375
     },
     {
       "model": "deepseek/deepseek-prover-v2",
@@ -3561,8 +3561,8 @@
       "model": "google/gemma-3-27b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.11
+      "input": 0.02,
+      "output": 0.075
     },
     {
       "model": "google/gemma-3-27b-it:free",
@@ -3785,8 +3785,8 @@
       "model": "meta-llama/llama-4-maverick",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.068,
-      "output": 0.34
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "meta-llama/llama-4-scout",
@@ -3890,7 +3890,7 @@
       "model": "minimax/minimax-m2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1275,
+      "input": 0.127,
       "output": 0.51
     },
     {
@@ -3899,6 +3899,13 @@
       "channel_type": 20,
       "input": 0.15,
       "output": 0.45
+    },
+    {
+      "model": "mistralai/devstral-2512:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "mistralai/devstral-medium",
@@ -4667,8 +4674,8 @@
       "model": "opengvlab/internvl3-78b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.05,
+      "output": 0.195
     },
     {
       "model": "perplexity/sonar",
@@ -8042,6 +8049,13 @@
       "channel_type": 45,
       "input": 0.25,
       "output": 1.0
+    },
+    {
+      "model": "zai-org/GLM-4.6V",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.07143,
+      "output": 0.21429
     },
     {
       "model": "jina-*",

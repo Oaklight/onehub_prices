@@ -1112,6 +1112,13 @@
       "channel_type": 45,
       "input": 0.25,
       "output": 1.0
+    },
+    {
+      "model": "zai-org/GLM-4.6V",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.07143,
+      "output": 0.21429
     }
   ]
 }
