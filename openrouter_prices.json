@@ -473,8 +473,8 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.13,
-      "output": 0.195
+      "input": 0.125,
+      "output": 0.19
     },
     {
       "model": "deepseek/deepseek-v3.2-exp",
@@ -2370,8 +2370,8 @@
       "model": "z-ai/glm-4.6:exacto",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.215,
-      "output": 0.875
+      "input": 0.22,
+      "output": 0.88
     },
     {
       "model": "z-ai/glm-4.6v",
