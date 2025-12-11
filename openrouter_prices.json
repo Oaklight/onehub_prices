@@ -844,7 +844,7 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.054,
+      "input": 0.05,
       "output": 0.16
     },
     {
@@ -2041,8 +2041,8 @@
       "model": "qwen/qwen3-next-80b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.4
+      "input": 0.045,
+      "output": 0.55
     },
     {
       "model": "qwen/qwen3-next-80b-a3b-thinking",
