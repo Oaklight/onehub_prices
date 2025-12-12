@@ -2041,8 +2041,8 @@
       "model": "qwen/qwen3-coder:exacto",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.19,
-      "output": 0.765
+      "input": 0.11,
+      "output": 0.9
     },
     {
       "model": "qwen/qwen3-coder:free",
