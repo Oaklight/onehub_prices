@@ -4573,6 +4573,27 @@
       "output": 1.0
     },
     {
+      "model": "openai/gpt-5.2",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.875,
+      "output": 7.0
+    },
+    {
+      "model": "openai/gpt-5.2-chat",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.875,
+      "output": 7.0
+    },
+    {
+      "model": "openai/gpt-5.2-pro",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 10.5,
+      "output": 84.0
+    },
+    {
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
