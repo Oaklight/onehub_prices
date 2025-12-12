@@ -24,6 +24,17 @@ models:
       extra_ratios:
         - cached_tokens: 0.2 usd / M # 0.4 usd / M when prompt is larger than 200,000 tokens
 
+    # Gemini 3 Pro Image Preview
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-3-pro-image-preview
+    gemini-3-pro-image-preview:
+      input: 2 usd / M # Same as Gemini 3 Pro
+      output: 12 usd / M # Same as Gemini 3 Pro (text and thinking)
+      extra_ratios:
+        - input_image_tokens: 2 usd / M # Image input is set at 560 tokens or $0.0011 per image.
+        - output_image_tokens: 120 usd / M # $120 per 1M tokens for images
+        # 1K/2K images: $0.134 per image (1120 tokens)
+        # 4K images: $0.24 per image (2000 tokens)
+
     # Gemini 2.5 Pro
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro
     gemini-2.5-pro:
@@ -103,11 +114,15 @@ models:
         # - input_video_tokens: 3 usd / M # 暂时没有启用
         - output_audio_tokens: 12 usd / M
 
-    # Gemini 2.5 Flash Image Preview
-    # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-image-preview
-    gemini-2.5-flash-preview-image:
-      input: 0.3 usd / M
-      output: 30 usd / M
+    # Gemini 2.5 Flash Image
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-image
+    gemini-2.5-flash-image:
+      input: 0.3 usd / M # Same as Gemini 2.5 Flash
+      output: 30 usd / M # $0.039 per image (1290 tokens)
+      extra_ratios:
+        - input_image_tokens: 0.3 usd / M # Same as Gemini 2.5 Flash
+        - output_image_tokens: 30 usd / M # $30 per 1M tokens for images
+        # $0.039 per image for 1024x1024px (1290 tokens)
 
     # Gemini 2.5 Flash Preview TTS
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-preview-tts
