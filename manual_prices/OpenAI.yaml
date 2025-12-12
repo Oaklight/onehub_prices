@@ -3,6 +3,11 @@ models:
     # 模型价格：https://platform.openai.com/docs/pricing
 
     # GPT-5
+    gpt-5.2:
+      input: 1.75 usd / M
+      output: 14 usd / M
+      extra_ratios:
+        - cached_tokens: 0.175 usd / M
     gpt-5.1:
       input: 1.25 usd / M
       output: 10 usd / M
@@ -23,6 +28,13 @@ models:
       output: 0.4 usd / M
       extra_ratios:
         - cached_tokens: 0.005 usd / M
+    gpt-5.2-chat-latest:
+      aliases:
+        - gpt-5.2-chat
+      input: 1.75 usd / M
+      output: 14 usd / M
+      extra_ratios:
+        - cached_tokens: 0.175 usd / M
     gpt-5.1-chat-latest:
       aliases:
         - gpt-5.1-chat
@@ -37,6 +49,11 @@ models:
       output: 10 usd / M
       extra_ratios:
         - cached_tokens: 0.125 usd / M
+    gpt-5.1-codex-max:
+      input: 1.25 usd / M
+      output: 10 usd / M
+      extra_ratios:
+        - cached_tokens: 0.125 usd / M
     gpt-5.1-codex:
       input: 1.25 usd / M
       output: 10 usd / M
@@ -47,6 +64,9 @@ models:
       output: 10 usd / M
       extra_ratios:
         - cached_tokens: 0.125 usd / M
+    gpt-5.2-pro:
+      input: 21 usd / M
+      output: 168 usd / M
     gpt-5-pro:
       input: 15 usd / M
       output: 120 usd / M
