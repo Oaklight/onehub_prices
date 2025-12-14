@@ -883,13 +883,6 @@
       "output": 0.09
     },
     {
-      "model": "meta-llama/llama-guard-4-12b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "microsoft/phi-3-medium-128k-instruct",
       "type": "tokens",
       "channel_type": 20,
