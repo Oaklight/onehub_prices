@@ -4312,6 +4312,13 @@
       "output": 0.2
     },
     {
+      "model": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "nvidia/nemotron-nano-12b-v2-vl",
       "type": "tokens",
       "channel_type": 20,
@@ -5330,8 +5337,8 @@
       "model": "z-ai/glm-4.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.875
+      "input": 0.19,
+      "output": 0.845
     },
     {
       "model": "z-ai/glm-4.6:exacto",
