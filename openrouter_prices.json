@@ -473,7 +473,7 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
+      "input": 0.12,
       "output": 0.19
     },
     {
@@ -949,8 +949,8 @@
       "model": "minimax/minimax-m2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.127,
-      "output": 0.51
+      "input": 0.1,
+      "output": 0.5
     },
     {
       "model": "mistralai/codestral-2508",
