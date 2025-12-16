@@ -3059,6 +3059,13 @@
       "output": 0.1
     },
     {
+      "model": "allenai/olmo-3.1-32b-think:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "alpindale/goliath-120b",
       "type": "tokens",
       "channel_type": 20,
@@ -5299,6 +5306,13 @@
       "output": 0.75
     },
     {
+      "model": "xiaomi/mimo-v2-flash:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "z-ai/glm-4-32b",
       "type": "tokens",
       "channel_type": 20,
@@ -5337,8 +5351,8 @@
       "model": "z-ai/glm-4.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.19,
-      "output": 0.845
+      "input": 0.195,
+      "output": 0.95
     },
     {
       "model": "z-ai/glm-4.6:exacto",
