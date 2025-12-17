@@ -3080,13 +3080,6 @@
       "output": 1.25
     },
     {
-      "model": "amazon/nova-2-lite-v1:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "amazon/nova-lite-v1",
       "type": "tokens",
       "channel_type": 20,
@@ -3575,6 +3568,13 @@
       "channel_type": 20,
       "input": 0.625,
       "output": 5.0
+    },
+    {
+      "model": "google/gemini-3-flash-preview",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.25,
+      "output": 1.5
     },
     {
       "model": "google/gemini-3-pro-image-preview",
