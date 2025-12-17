@@ -235,6 +235,11 @@
       "name": "美团龙猫",
       "icon": "https://s3plus.meituan.net/aigc-media-resources/longcat/yeqian-logo.svg"
     },
+    "1015": {
+      "id": 1015,
+      "name": "Xiaomi MIMO",
+      "icon": "https://platform.xiaomimimo.com/favicon.874c9507.png"
+    },
     "2001": {
       "id": 2001,
       "name": "oaklight-load-balancer",
