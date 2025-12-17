@@ -24,6 +24,17 @@ models:
       extra_ratios:
         - cached_tokens: 0.2 usd / M # 0.4 usd / M when prompt is larger than 200,000 tokens
 
+    # Gemini 3 Flash Preview
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-3-flash-preview
+    gemini-3-flash:
+      aliases:
+        - gemini-3-flash-preview
+      input: 0.5 usd / M # 4 usd / M when prompt is larger than 200,000 tokens
+      output: 3 usd / M # 18 usd / M when prompt is larger than 200,000 tokens
+      extra_ratios:
+        - input_audio_tokens: 1 usd / M
+        - cached_tokens: 0.1 # 0.05 usd / M for text cached, 0.1 usd / M for audio cached
+
     # Gemini 3 Pro Image Preview
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-3-pro-image-preview
     gemini-3-pro-image-preview:
