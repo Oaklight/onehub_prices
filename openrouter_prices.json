@@ -403,8 +403,8 @@
       "model": "deepseek/deepseek-chat-v3-0324",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.44
+      "input": 0.075,
+      "output": 0.375
     },
     {
       "model": "deepseek/deepseek-chat-v3.1",
@@ -2120,6 +2120,13 @@
       "channel_type": 20,
       "input": 0.08,
       "output": 0.4
+    },
+    {
+      "model": "qwen/qwen3-vl-32b-instruct",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.25,
+      "output": 0.75
     },
     {
       "model": "qwen/qwen3-vl-8b-instruct",
