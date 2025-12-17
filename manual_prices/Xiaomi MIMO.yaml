@@ -1,0 +1,7 @@
+models:
+  Xiaomi MIMO:
+    # 模型价格：https://platform.xiaomimimo.com/#/docs/pricing
+
+    mimo-v2-flash:
+      input: 0
+      output: 0
