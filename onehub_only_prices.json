@@ -3454,7 +3454,7 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.12,
+      "input": 0.13,
       "output": 0.19
     },
     {
@@ -5770,6 +5770,28 @@
       "channel_type": 25,
       "input": 0.5,
       "output": 10.0
+    },
+    {
+      "model": "gemini-3-flash",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.25,
+      "output": 1.5,
+      "extra_ratios": {
+        "input_audio_tokens": 2.0,
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gemini-3-flash-preview",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.25,
+      "output": 1.5,
+      "extra_ratios": {
+        "input_audio_tokens": 2.0,
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "gemini-3-pro",
