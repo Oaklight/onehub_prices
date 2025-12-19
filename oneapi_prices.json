@@ -9039,7 +9039,7 @@
       }
     },
     {
-      "model": "doubao-seed-1-8*",
+      "model": "doubao-seed-1-8-202*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.08571,
