@@ -3565,7 +3565,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.015,
-      "output": 0.065
+      "output": 0.055
     },
     {
       "model": "deepseek/deepseek-r1-distill-qwen-14b",
@@ -4103,8 +4103,8 @@
       "model": "mistralai/devstral-2512",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.025,
+      "output": 0.11
     },
     {
       "model": "mistralai/devstral-2512:free",
