@@ -15,6 +15,18 @@
       "output": 7.5
     },
     {
+      "model": "chatgpt-image-latest",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 2.5,
+      "output": 5.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25,
+        "input_image_tokens": 1.6,
+        "output_image_tokens": 3.2
+      }
+    },
+    {
       "model": "codex-mini-latest",
       "type": "tokens",
       "channel_type": 1,
@@ -457,7 +469,7 @@
       "input": 0.3,
       "output": 0.0,
       "extra_ratios": {
-        "input_audio_tokens": 20.0
+        "output_audio_tokens": 6.0
       }
     },
     {
@@ -746,6 +758,18 @@
       }
     },
     {
+      "model": "gpt-image-1.5",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 2.5,
+      "output": 5.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25,
+        "input_image_tokens": 1.6,
+        "output_image_tokens": 3.2
+      }
+    },
+    {
       "model": "gpt-realtime",
       "type": "tokens",
       "channel_type": 1,
@@ -975,6 +999,27 @@
       "channel_type": 1,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "sora-2",
+      "type": "times",
+      "channel_type": 1,
+      "input": 0.0,
+      "output": 50.0
+    },
+    {
+      "model": "sora-2-pro",
+      "type": "times",
+      "channel_type": 1,
+      "input": 0.0,
+      "output": 150.0
+    },
+    {
+      "model": "sora-2-pro-high-res",
+      "type": "times",
+      "channel_type": 1,
+      "input": 0.0,
+      "output": 250.0
     },
     {
       "model": "text-embedding-3-large",
@@ -2136,28 +2181,40 @@
       "type": "tokens",
       "channel_type": 17,
       "input": 0.57143,
-      "output": 2.28571
+      "output": 2.28571,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
     },
     {
       "model": "qvq-max-*",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.57143,
-      "output": 2.28571
+      "output": 2.28571,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
     },
     {
       "model": "qvq-plus",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.14286,
-      "output": 0.35714
+      "output": 0.35714,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
     },
     {
       "model": "qvq-plus-*",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.14286,
-      "output": 0.35714
+      "output": 0.35714,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
     },
     {
       "model": "qwen-audio-asr",
@@ -2516,6 +2573,7 @@
       "input": 0.21429,
       "output": 0.64286,
       "extra_ratios": {
+        "input_image_tokens": 1.0,
         "cached_tokens": 0.2
       }
     },
@@ -2526,6 +2584,7 @@
       "input": 0.21429,
       "output": 0.64286,
       "extra_ratios": {
+        "input_image_tokens": 1.0,
         "cached_tokens": 0.2
       }
     },
@@ -2534,14 +2593,20 @@
       "type": "tokens",
       "channel_type": 17,
       "input": 0.35714,
-      "output": 0.35714
+      "output": 0.35714,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
     },
     {
       "model": "qwen-vl-ocr-*",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.35714,
-      "output": 0.35714
+      "output": 0.35714,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
     },
     {
       "model": "qwen-vl-plus",
@@ -2550,6 +2615,7 @@
       "input": 0.10714,
       "output": 0.32143,
       "extra_ratios": {
+        "input_image_tokens": 1.0,
         "cached_tokens": 0.2
       }
     },
@@ -2560,6 +2626,7 @@
       "input": 0.10714,
       "output": 0.32143,
       "extra_ratios": {
+        "input_image_tokens": 1.0,
         "cached_tokens": 0.2
       }
     },
@@ -2774,11 +2841,59 @@
       }
     },
     {
+      "model": "qwen3-livetranslate-flash",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.0,
+      "output": 0.71429,
+      "extra_ratios": {
+        "input_audio_tokens": 0.71429,
+        "input_video_tokens": 0.28571,
+        "output_audio_tokens": 4.0
+      }
+    },
+    {
+      "model": "qwen3-livetranslate-flash-*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.0,
+      "output": 0.71429,
+      "extra_ratios": {
+        "input_audio_tokens": 0.71429,
+        "input_video_tokens": 0.28571,
+        "output_audio_tokens": 4.0
+      }
+    },
+    {
+      "model": "qwen3-livetranslate-flash-realtime",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.0,
+      "output": 4.57143,
+      "extra_ratios": {
+        "input_audio_tokens": 4.57143,
+        "input_image_tokens": 0.57143,
+        "output_audio_tokens": 3.75
+      }
+    },
+    {
+      "model": "qwen3-livetranslate-flash-realtime-*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.0,
+      "output": 4.57143,
+      "extra_ratios": {
+        "input_audio_tokens": 4.57143,
+        "input_image_tokens": 0.57143,
+        "output_audio_tokens": 3.75
+      }
+    },
+    {
       "model": "qwen3-max",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.71429,
-      "output": 2.85714,
+      "input": 0.45714,
+      "output": 1.82857,
       "extra_ratios": {
         "cached_tokens": 0.2
       }
@@ -2787,8 +2902,8 @@
       "model": "qwen3-max-*",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.71429,
-      "output": 2.85714,
+      "input": 0.45714,
+      "output": 1.82857,
       "extra_ratios": {
         "cached_tokens": 0.2
       }
@@ -2870,18 +2985,48 @@
       }
     },
     {
+      "model": "qwen3-vl-flash",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.02143,
+      "output": 0.21429,
+      "extra_ratios": {
+        "input_image_tokens": 1.0,
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "qwen3-vl-flash-*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.02143,
+      "output": 0.21429,
+      "extra_ratios": {
+        "input_image_tokens": 1.0,
+        "cached_tokens": 0.2
+      }
+    },
+    {
       "model": "qwen3-vl-plus",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.10714,
-      "output": 1.07143
+      "output": 1.07143,
+      "extra_ratios": {
+        "input_image_tokens": 1.0,
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "qwen3-vl-plus-*",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.10714,
-      "output": 1.07143
+      "output": 1.07143,
+      "extra_ratios": {
+        "input_image_tokens": 1.0,
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "qwq-plus",
@@ -8706,7 +8851,10 @@
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.21429,
-      "output": 0.64286
+      "output": 0.64286,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
     },
     {
       "model": "doubao-1-5-ui-tars*",
@@ -8720,21 +8868,54 @@
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.10714,
-      "output": 0.32143
+      "output": 0.32143,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
     },
     {
       "model": "doubao-1-5-vision-lite*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.10714,
-      "output": 0.32143
+      "output": 0.32143,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
     },
     {
       "model": "doubao-1-5-vision-pro*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.21429,
-      "output": 0.64286
+      "output": 0.64286,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
+    },
+    {
+      "model": "doubao-1-8*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.08571,
+      "output": 1.14286
+    },
+    {
+      "model": "doubao-1-8-thinking*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.08571,
+      "output": 1.14286
+    },
+    {
+      "model": "doubao-1-8-vision*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.08571,
+      "output": 1.14286,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
     },
     {
       "model": "doubao-1.5-lite*",
@@ -8783,7 +8964,10 @@
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.21429,
-      "output": 0.64286
+      "output": 0.64286,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
     },
     {
       "model": "doubao-1.5-ui-tars*",
@@ -8797,7 +8981,34 @@
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.21429,
-      "output": 0.64286
+      "output": 0.64286,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
+    },
+    {
+      "model": "doubao-1.8*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.08571,
+      "output": 1.14286
+    },
+    {
+      "model": "doubao-1.8-thinking*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.08571,
+      "output": 1.14286
+    },
+    {
+      "model": "doubao-1.8-vision*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.08571,
+      "output": 1.14286,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
     },
     {
       "model": "doubao-embedding-large-text*",
@@ -8870,7 +9081,10 @@
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.08571,
-      "output": 1.14286
+      "output": 1.14286,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
     },
     {
       "model": "doubao-seed-1.6",
@@ -8905,7 +9119,10 @@
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.08571,
-      "output": 1.14286
+      "output": 1.14286,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
     },
     {
       "model": "doubao-seed-code*",
@@ -8942,6 +9159,20 @@
       "output": 1.07143
     },
     {
+      "model": "doubao-seedance-1-5-lite*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.71429,
+      "output": 0.71429
+    },
+    {
+      "model": "doubao-seedance-1-5-pro*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 1.07143,
+      "output": 1.07143
+    },
+    {
       "model": "doubao-seedance-1.0-lite*",
       "type": "tokens",
       "channel_type": 1002,
@@ -8956,7 +9187,49 @@
       "output": 1.07143
     },
     {
+      "model": "doubao-seedance-1.5-lite*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.71429,
+      "output": 0.71429
+    },
+    {
+      "model": "doubao-seedance-1.5-pro*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 1.07143,
+      "output": 1.07143
+    },
+    {
       "model": "doubao-seedream-3.0*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 18.5
+    },
+    {
+      "model": "doubao-seedream-4-0*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 18.5
+    },
+    {
+      "model": "doubao-seedream-4-5*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 18.5
+    },
+    {
+      "model": "doubao-seedream-4.0*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 18.5
+    },
+    {
+      "model": "doubao-seedream-4.5*",
       "type": "times",
       "channel_type": 1002,
       "input": 0.0,
