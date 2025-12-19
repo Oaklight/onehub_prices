@@ -2,9 +2,36 @@ models:
   字节火山:
     # 模型定价：https://www.volcengine.com/docs/82379/1544106
     # 豆包大模型 @ 字节火山
+
+    # 豆包大模型1.8 (最新)
+    doubao-1.8*: # function call enabled
+      aliases:
+        - doubao-1-8*
+      # 阶梯计价：0-32K: 0.8元/M输入，8元/M输出
+      # 32K-128K: 1.2元/M输入，16元/M输出
+      # 128K-256K: 2.4元/M输入，24元/M输出
+      input: 1.2 rmb / M # 取32k～128k价格，最为常见
+      output: 16 rmb / M
+
+    doubao-1.8-thinking*: # function call enabled
+      aliases:
+        - doubao-1-8-thinking*
+      input: 1.2 rmb / M # 取32k～128k价格，最为常见
+      output: 16 rmb / M
+
+    doubao-1.8-vision*: # function call enabled
+      aliases:
+        - doubao-1-8-vision*
+      input: 1.2 rmb / M # 取32k～128k价格，最为常见
+      output: 16 rmb / M
+      extra_ratios:
+        - input_image_tokens: 1.2 rmb / M # 图像输入与文本输入同价
+
     doubao-seed-1.6-thinking*: # function call enabled
       aliases:
         - doubao-seed-1-6-thinking*
+      # 阶梯计价：0-32K: 0.8元/M输入，8元/M输出
+      # 32K-128K: 1.2元/M输入，16元/M输出
       input: 1.2 rmb / M # 取32k～128k价格，最为常见
       output: 16 rmb /M # 取32k～128k价格，最为常见
 
@@ -12,6 +39,8 @@ models:
       aliases:
         - doubao-seed-1-6
         - doubao-seed-1-6-2*
+      # 阶梯计价：0-32K: 0.8元/M输入，8元/M输出
+      # 32K-128K: 1.2元/M输入，16元/M输出
       input: 1.2 rmb / M # 取32k～128k价格，最为常见
       output: 16 rmb /M # 取32k～128k价格，最为常见
 
@@ -32,6 +61,8 @@ models:
         - doubao-seed-1.6-vision*
       input: 1.2 rmb / M
       output: 16 rmb / M
+      extra_ratios:
+        - input_image_tokens: 1.2 rmb / M # 图像输入与文本输入同价
 
     doubao-seed-code*:
       aliases:
@@ -52,6 +83,8 @@ models:
         - doubao-1-5-thinking-vision-pro*
       input: 3 rmb / M
       output: 9 rmb / M
+      extra_ratios:
+        - input_image_tokens: 3 rmb / M # 图像输入与文本输入同价
 
     # vision models
     doubao-1.5-vision-pro*: # function call enabled
@@ -59,12 +92,16 @@ models:
         - doubao-1-5-vision-pro*
       input: 3 rmb / M
       output: 9 rmb / M
+      extra_ratios:
+        - input_image_tokens: 3 rmb / M # 图像输入与文本输入同价
 
     doubao-1-5-vision-lite*:
       aliases:
         - doubao-1-5-vision-lite*
       input: 1.5 rmb / M
       output: 4.5 rmb / M
+      extra_ratios:
+        - input_image_tokens: 1.5 rmb / M # 图像输入与文本输入同价
 
     # text model
     doubao-1.5-pro: # function call enabled
@@ -97,10 +134,36 @@ models:
       output: 12 rmb / M
 
     # 图片模型
+    # Seedream 4.0-4.5系列 (最新)
+    doubao-seedream-4.5*:
+      aliases:
+        - doubao-seedream-4-5*
+      output: 0.2590 rmb / image
+
+    doubao-seedream-4.0*:
+      aliases:
+        - doubao-seedream-4-0*
+      output: 0.2590 rmb / image
+
+    # Seedream 3.0系列
     doubao-seedream-3.0*:
       output: 0.2590 rmb / image
 
     # 视频生成模型
+    # Seedance 1.5系列 (最新)
+    doubao-seedance-1.5-pro*:
+      aliases:
+        - doubao-seedance-1-5-pro*
+      input: 15 rmb / M
+      output: 15 rmb / M
+
+    doubao-seedance-1.5-lite*:
+      aliases:
+        - doubao-seedance-1-5-lite*
+      input: 10 rmb / M
+      output: 10 rmb / M
+
+    # Seedance 1.0系列
     doubao-seedance-1.0-pro*:
       aliases:
         - doubao-seedance-1-0-pro*
