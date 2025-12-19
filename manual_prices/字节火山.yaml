@@ -4,24 +4,24 @@ models:
     # 豆包大模型 @ 字节火山
 
     # 豆包大模型1.8 (最新)
-    doubao-1.8*: # function call enabled
+    doubao-seed-1.8*: # function call enabled
       aliases:
-        - doubao-1-8*
+        - doubao-seed-1-8*
       # 阶梯计价：0-32K: 0.8元/M输入，8元/M输出
       # 32K-128K: 1.2元/M输入，16元/M输出
       # 128K-256K: 2.4元/M输入，24元/M输出
       input: 1.2 rmb / M # 取32k～128k价格，最为常见
       output: 16 rmb / M
 
-    doubao-1.8-thinking*: # function call enabled
+    doubao-seed-1.8-thinking*: # function call enabled
       aliases:
-        - doubao-1-8-thinking*
+        - doubao-seed-1-8-thinking*
       input: 1.2 rmb / M # 取32k～128k价格，最为常见
       output: 16 rmb / M
 
-    doubao-1.8-vision*: # function call enabled
+    doubao-seed-1.8-vision*: # function call enabled
       aliases:
-        - doubao-1-8-vision*
+        - doubao-seed-1-8-vision*
       input: 1.2 rmb / M # 取32k～128k价格，最为常见
       output: 16 rmb / M
       extra_ratios:
