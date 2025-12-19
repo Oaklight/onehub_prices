@@ -8894,30 +8894,6 @@
       }
     },
     {
-      "model": "doubao-1-8*",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.08571,
-      "output": 1.14286
-    },
-    {
-      "model": "doubao-1-8-thinking*",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.08571,
-      "output": 1.14286
-    },
-    {
-      "model": "doubao-1-8-vision*",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.08571,
-      "output": 1.14286,
-      "extra_ratios": {
-        "input_image_tokens": 1.0
-      }
-    },
-    {
       "model": "doubao-1.5-lite*",
       "type": "tokens",
       "channel_type": 1002,
@@ -8982,30 +8958,6 @@
       "channel_type": 1002,
       "input": 0.21429,
       "output": 0.64286,
-      "extra_ratios": {
-        "input_image_tokens": 1.0
-      }
-    },
-    {
-      "model": "doubao-1.8*",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.08571,
-      "output": 1.14286
-    },
-    {
-      "model": "doubao-1.8-thinking*",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.08571,
-      "output": 1.14286
-    },
-    {
-      "model": "doubao-1.8-vision*",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.08571,
-      "output": 1.14286,
       "extra_ratios": {
         "input_image_tokens": 1.0
       }
@@ -9087,6 +9039,30 @@
       }
     },
     {
+      "model": "doubao-seed-1-8*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.08571,
+      "output": 1.14286
+    },
+    {
+      "model": "doubao-seed-1-8-thinking*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.08571,
+      "output": 1.14286
+    },
+    {
+      "model": "doubao-seed-1-8-vision*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.08571,
+      "output": 1.14286,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
+    },
+    {
       "model": "doubao-seed-1.6",
       "type": "tokens",
       "channel_type": 1002,
@@ -9116,6 +9092,30 @@
     },
     {
       "model": "doubao-seed-1.6-vision*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.08571,
+      "output": 1.14286,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
+    },
+    {
+      "model": "doubao-seed-1.8*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.08571,
+      "output": 1.14286
+    },
+    {
+      "model": "doubao-seed-1.8-thinking*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.08571,
+      "output": 1.14286
+    },
+    {
+      "model": "doubao-seed-1.8-vision*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.08571,
