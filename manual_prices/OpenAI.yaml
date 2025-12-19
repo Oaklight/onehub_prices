@@ -273,6 +273,20 @@ models:
         - computer-use-preview-2025-03-11
       input: 3 usd / M
       output: 12 usd / M
+    gpt-image-1.5:
+      input: 5 usd / M
+      output: 10 usd / M
+      extra_ratios:
+        - cached_tokens: 1.25 usd / M
+        - input_image_tokens: 8 usd / M
+        - output_image_tokens: 32 usd / M
+    chatgpt-image-latest:
+      input: 5 usd / M
+      output: 10 usd / M
+      extra_ratios:
+        - cached_tokens: 1.25 usd / M
+        - input_image_tokens: 8 usd / M
+        - output_image_tokens: 32 usd / M
     gpt-image-1:
       input: 5 usd / M
       extra_ratios:
@@ -291,7 +305,7 @@ models:
       input: 0.6 usd / M
       output: 0
       extra_ratios:
-        - input_audio_tokens: 12 usd / M
+        - output_audio_tokens: 12 usd / M
     gpt-4o-transcribe:
       input: 2.5 usd / M
       output: 10 usd / M
@@ -327,14 +341,15 @@ models:
       input: 0
       output: 0
 
-    # # video models
-    # sora-2:
-    #   output: 0.1 usd / s
-    # sora-2-pro:
-    #   # low res
-    #   output: 0.3 usd / s
-    # sora-2-pro-high-res:
-    #   output: 0.5 usd / s
+    # video models
+    sora-2:
+      output: 0.1 usd / s
+    sora-2-pro:
+      # Portrait: 720x1280, Landscape: 1280x720
+      output: 0.3 usd / s
+    sora-2-pro-high-res:
+      # Portrait: 1024x1792, Landscape: 1792x1024
+      output: 0.5 usd / s
 
     # other models
     chatgpt-4o-latest:
