@@ -8,8 +8,11 @@ models:
     qwen3-max:
       aliases:
         - qwen3-max-*
-      input: 0.01 rmb / K # 取32～128k价格
-      output: 0.04 rmb / K
+      # 阶梯计价：0<Token≤32K: 0.0032元输入/0.0128元输出
+      # 32K<Token≤128K: 0.0064元输入/0.0256元输出
+      # 128K<Token≤252K: 0.0096元输入/0.0384元输出
+      input: 0.0064 rmb / K # 取32～128k价格
+      output: 0.0256 rmb / K
       extra_ratios:
         - cached_tokens: 0.2
 
@@ -19,16 +22,22 @@ models:
         - qwen-plus-2025-09*
         - qwen-plus-2025-07*
         - qwen-plus-2025-04*
-      input: 0.0008 rmb / K
-      output: 0.002 rmb / K # 取0～128k价格，最为常用
+      # 阶梯计价：0<Token≤128K: 0.0008元输入/0.002元输出（非思考模式）
+      # 128K<Token≤256K: 0.0024元输入/0.02元输出（非思考模式）
+      # 256K<Token≤1M: 0.0048元输入/0.048元输出（非思考模式）
+      input: 0.0008 rmb / K # 取0～128k价格，最为常用
+      output: 0.002 rmb / K
       extra_ratios:
-        - reasoning_tokens: 0.008 rmb / K
+        - reasoning_tokens: 0.008 rmb / K # 思考模式输出价格
         - cached_tokens: 0.2
 
     qwen-flash:
       aliases:
         - qwen-flash-*
-      input: 0.00015 rmb / K
+      # 阶梯计价：0<Token≤128K: 0.00015元输入/0.0015元输出
+      # 128K<Token≤256K: 0.0006元输入/0.006元输出
+      # 256K<Token≤1M: 0.0012元输入/0.012元输出
+      input: 0.00015 rmb / K # 取0～128k价格，最为常用
       output: 0.0015 rmb / K
 
     qwq-plus:
@@ -65,24 +74,48 @@ models:
       aliases: qvq-max-*
       input: 0.008 rmb / K
       output: 0.032 rmb / K
+      extra_ratios:
+        - input_image_tokens: 0.008 rmb / K # 图像输入与文本输入同价
 
     qvq-plus:
       aliases: qvq-plus-*
       input: 0.002 rmb / K
       output: 0.005 rmb / K
+      extra_ratios:
+        - input_image_tokens: 0.002 rmb / K # 图像输入与文本输入同价
 
     # 视觉模型系列
     qwen3-vl-plus:
       aliases:
         - qwen3-vl-plus-*
-      input: 0.0015 rmb / K
+      # 阶梯计价：0<Token≤32K: 0.001元输入/0.01元输出
+      # 32K<Token≤128K: 0.0015元输入/0.015元输出
+      # 128K<Token≤256K: 0.003元输入/0.03元输出
+      input: 0.0015 rmb / K # 取32k～128K价格
       output: 0.015 rmb / K
+      extra_ratios:
+        - input_image_tokens: 0.0015 rmb / K # 图像输入与文本输入同价
+        - cached_tokens: 0.2
+
+    qwen3-vl-flash:
+      aliases:
+        - qwen3-vl-flash-*
+      # 阶梯计价：0<Token≤32K: 0.00015元输入/0.0015元输出
+      # 32K<Token≤128K: 0.0003元输入/0.003元输出
+      # 128K<Token≤256K: 0.0006元输入/0.006元输出
+      input: 0.0003 rmb / K # 取32k～128K价格
+      output: 0.003 rmb / K
+      extra_ratios:
+        - input_image_tokens: 0.0003 rmb / K # 图像输入与文本输入同价
+        - cached_tokens: 0.2
 
     # 通义千问OCR
     qwen-vl-ocr:
       aliases: qwen-vl-ocr-*
       input: 0.005 rmb / K
       output: 0.005 rmb / K
+      extra_ratios:
+        - input_image_tokens: 0.005 rmb / K # 图像输入与文本输入同价
 
     # 数学模型
     qwen-math-plus:
@@ -100,27 +133,38 @@ models:
     qwen3-coder-plus:
       aliases:
         - qwen3-coder-plus-*
-      # 32k ~ 128K price
-      input: 0.006 rmb / K
+      # 阶梯计价：0<Token≤32K: 0.004元输入/0.016元输出
+      # 32K<Token≤128K: 0.006元输入/0.024元输出
+      # 128K<Token≤256K: 0.01元输入/0.04元输出
+      # 256K<Token≤1M: 0.02元输入/0.2元输出
+      input: 0.006 rmb / K # 取32k～128K价格，最为常用
       output: 0.024 rmb / K
       extra_ratios:
         - cached_tokens: 0.2
     qwen3-coder-flash:
       aliases:
         - qwen3-coder-flash-*
-      # 32k ~ 128K price
-      input: 0.0015 rmb / K
+      # 阶梯计价：0<Token≤32K: 0.001元输入/0.004元输出
+      # 32K<Token≤128K: 0.0015元输入/0.006元输出
+      # 128K<Token≤256K: 0.0025元输入/0.01元输出
+      # 256K<Token≤1M: 0.005元输入/0.025元输出
+      input: 0.0015 rmb / K # 取32k～128K价格，最为常用
       output: 0.006 rmb / K
       extra_ratios:
         - cached_tokens: 0.2
 
     # qwen3-coder-oss
     qwen3-coder-480b-a35b-instruct:
-      # 32k ~ 128K price
-      input: 0.009 rmb / K
+      # 阶梯计价：0<Token≤32K: 0.006元输入/0.024元输出
+      # 32K<Token≤128K: 0.009元输入/0.036元输出
+      # 128K<Token≤200K: 0.015元输入/0.06元输出
+      input: 0.009 rmb / K # 取32k～128K价格
       output: 0.036 rmb / K
     qwen3-coder-30b-a3b-instruct:
-      input: 0.00225 rmb / K
+      # 阶梯计价：0<Token≤32K: 0.0015元输入/0.006元输出
+      # 32K<Token≤128K: 0.00225元输入/0.009元输出
+      # 128K<Token≤200K: 0.00375元输入/0.015元输出
+      input: 0.00225 rmb / K # 取32k～128K价格
       output: 0.009 rmb / K
 
     # 翻译模型 qwen3-mt series
@@ -161,6 +205,44 @@ models:
       aliases: qwen-audio-asr-latest
       input: 0
       output: 0
+
+    # # 新增语音识别和合成模型
+    # qwen3-asr-flash:
+    #   aliases:
+    #     - qwen3-asr-flash-*
+    #   input: 0.00022 rmb / second # 按秒计费
+    #   output: 0
+
+    # qwen3-asr-flash-realtime:
+    #   aliases:
+    #     - qwen3-asr-flash-realtime-*
+    #   input: 0.00033 rmb / second # 按秒计费
+    #   output: 0
+
+    # qwen3-tts-flash:
+    #   aliases:
+    #     - qwen3-tts-flash-*
+    #   input: 0.8 rmb / 10K_chars # 按万字符计费
+    #   output: 0
+
+    # 实时翻译模型
+    qwen3-livetranslate-flash:
+      aliases:
+        - qwen3-livetranslate-flash-*
+      output: 0.01 rmb / K # 文本输出
+      extra_ratios:
+        - input_audio_tokens: 0.01 rmb / K
+        - input_video_tokens: 0.004 rmb / K
+        - output_audio_tokens: 0.04 rmb / K
+
+    qwen3-livetranslate-flash-realtime:
+      aliases:
+        - qwen3-livetranslate-flash-realtime-*
+      output: 0.064 rmb / K # 文本输出
+      extra_ratios:
+        - input_audio_tokens: 0.064 rmb / K # 音频输入
+        - input_image_tokens: 0.008 rmb / K
+        - output_audio_tokens: 0.24 rmb / K
 
     # =================================== 开源模型，仅包含最新 ===================================
 
@@ -288,6 +370,7 @@ models:
       input: 0.003 rmb / K
       output: 0.009 rmb / K
       extra_ratios:
+        - input_image_tokens: 0.003 rmb / K # 图像输入与文本输入同价
         - cached_tokens: 0.2
 
     qwen-vl-plus:
@@ -295,6 +378,7 @@ models:
       input: 0.0015 rmb / K
       output: 0.0045 rmb / K
       extra_ratios:
+        - input_image_tokens: 0.0015 rmb / K # 图像输入与文本输入同价
         - cached_tokens: 0.2
 
     # qwen-coder
