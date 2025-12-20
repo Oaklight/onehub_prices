@@ -13,20 +13,6 @@ models:
       input: 1.2 rmb / M # 取32k～128k价格，最为常见
       output: 16 rmb / M
 
-    doubao-seed-1.8-thinking*: # function call enabled
-      aliases:
-        - doubao-seed-1-8-thinking*
-      input: 1.2 rmb / M # 取32k～128k价格，最为常见
-      output: 16 rmb / M
-
-    doubao-seed-1.8-vision*: # function call enabled
-      aliases:
-        - doubao-seed-1-8-vision*
-      input: 1.2 rmb / M # 取32k～128k价格，最为常见
-      output: 16 rmb / M
-      extra_ratios:
-        - input_image_tokens: 1.2 rmb / M # 图像输入与文本输入同价
-
     doubao-seed-1.6-thinking*: # function call enabled
       aliases:
         - doubao-seed-1-6-thinking*
