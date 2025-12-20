@@ -1250,8 +1250,8 @@
       "model": "moonshotai/kimi-k2-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.225,
-      "output": 1.175
+      "input": 0.2,
+      "output": 0.875
     },
     {
       "model": "moonshotai/kimi-k2:free",
@@ -1989,13 +1989,6 @@
       "output": 0.3
     },
     {
-      "model": "qwen/qwen3-235b-a22b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "qwen/qwen3-30b-a3b",
       "type": "tokens",
       "channel_type": 20,
@@ -2048,8 +2041,8 @@
       "model": "qwen/qwen3-coder-30b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
-      "output": 0.125
+      "input": 0.035,
+      "output": 0.135
     },
     {
       "model": "qwen/qwen3-coder-flash",
