@@ -3599,8 +3599,8 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.12,
-      "output": 0.19
+      "input": 0.1195,
+      "output": 0.189
     },
     {
       "model": "deepseek/deepseek-v3.2-exp",
@@ -3886,8 +3886,8 @@
       "model": "meituan/longcat-flash-chat",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.375
+      "input": 0.1,
+      "output": 0.4
     },
     {
       "model": "meta-llama/llama-3-70b-instruct",
