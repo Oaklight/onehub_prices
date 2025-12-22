@@ -2428,6 +2428,13 @@
       "channel_type": 20,
       "input": 0.15,
       "output": 0.45
+    },
+    {
+      "model": "z-ai/glm-4.7",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.055,
+      "output": 1.1
     }
   ]
 }

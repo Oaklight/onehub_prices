@@ -2030,6 +2030,16 @@
       "output": 0.0
     },
     {
+      "model": "glm-4.7",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.28571,
+      "output": 1.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
       "model": "glm-4v",
       "type": "tokens",
       "channel_type": 16,
@@ -5547,6 +5557,13 @@
       "channel_type": 20,
       "input": 0.15,
       "output": 0.45
+    },
+    {
+      "model": "z-ai/glm-4.7",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.055,
+      "output": 1.1
     },
     {
       "model": "ChatPro",
