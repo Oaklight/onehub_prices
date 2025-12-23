@@ -4103,6 +4103,13 @@
       "output": 0.5
     },
     {
+      "model": "minimax/minimax-m2.1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 0.6
+    },
+    {
       "model": "mistralai/codestral-2508",
       "type": "tokens",
       "channel_type": 20,
