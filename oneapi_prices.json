@@ -3445,6 +3445,20 @@
       "output": 0.5
     },
     {
+      "model": "bytedance-seed/seed-1.6",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.125,
+      "output": 1.0
+    },
+    {
+      "model": "bytedance-seed/seed-1.6-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0375,
+      "output": 0.15
+    },
+    {
       "model": "bytedance/ui-tars-1.5-7b",
       "type": "tokens",
       "channel_type": 20,
@@ -6247,14 +6261,40 @@
       "type": "tokens",
       "channel_type": 27,
       "input": 0.15,
-      "output": 0.6
+      "output": 0.6,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "MiniMax-M2-Stable",
       "type": "tokens",
       "channel_type": 27,
       "input": 0.15,
-      "output": 0.6
+      "output": 0.6,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "MiniMax-M2.1",
+      "type": "tokens",
+      "channel_type": 27,
+      "input": 0.15,
+      "output": 0.6,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "MiniMax-M2.1-Lightning",
+      "type": "tokens",
+      "channel_type": 27,
+      "input": 0.15,
+      "output": 1.2,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "abab5.5-chat",
