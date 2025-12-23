@@ -3609,8 +3609,8 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.13,
-      "output": 0.19
+      "input": 0.112,
+      "output": 0.16
     },
     {
       "model": "deepseek/deepseek-v3.2-exp",
@@ -5569,8 +5569,8 @@
       "model": "z-ai/glm-4.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.22,
-      "output": 0.87
+      "input": 0.2,
+      "output": 0.75
     },
     {
       "model": "ChatPro",
