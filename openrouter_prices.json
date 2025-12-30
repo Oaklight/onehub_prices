@@ -445,8 +445,8 @@
       "model": "deepseek/deepseek-r1-0528-qwen3-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01,
-      "output": 0.05
+      "input": 0.024,
+      "output": 0.036
     },
     {
       "model": "deepseek/deepseek-r1-0528:free",
@@ -494,8 +494,8 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.112,
-      "output": 0.16
+      "input": 0.125,
+      "output": 0.19
     },
     {
       "model": "deepseek/deepseek-v3.2-exp",
@@ -2300,8 +2300,8 @@
       "model": "tngtech/deepseek-r1t2-chimera",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.125,
+      "output": 0.425
     },
     {
       "model": "tngtech/deepseek-r1t2-chimera:free",
@@ -2314,8 +2314,8 @@
       "model": "tngtech/tng-r1t-chimera",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.125,
+      "output": 0.425
     },
     {
       "model": "tngtech/tng-r1t-chimera:free",
