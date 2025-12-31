@@ -662,8 +662,8 @@
       "model": "google/gemma-3-27b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 0.075
+      "input": 0.018,
+      "output": 0.032
     },
     {
       "model": "google/gemma-3-27b-it:free",
@@ -1712,8 +1712,8 @@
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0195,
-      "output": 0.095
+      "input": 0.01,
+      "output": 0.05
     },
     {
       "model": "openai/gpt-oss-120b:exacto",
@@ -1733,8 +1733,8 @@
       "model": "openai/gpt-oss-20b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.015,
-      "output": 0.07
+      "input": 0.008,
+      "output": 0.03
     },
     {
       "model": "openai/gpt-oss-20b:free",
@@ -2104,8 +2104,8 @@
       "model": "qwen/qwen3-next-80b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.55
+      "input": 0.03,
+      "output": 0.3
     },
     {
       "model": "qwen/qwen3-next-80b-a3b-thinking",
