@@ -269,6 +269,11 @@
       "id": 2006,
       "name": "ModelScope",
       "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/modelscope-color.svg"
+    },
+    "2007": {
+      "id": 2007,
+      "name": "nvidia",
+      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/nvidia-color.svg"
     }
   }
 }

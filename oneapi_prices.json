@@ -10480,6 +10480,13 @@
       "channel_type": 2006,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "nv:*",
+      "type": "tokens",
+      "channel_type": 2007,
+      "input": 0.0,
+      "output": 0.0
     }
   ]
 }
