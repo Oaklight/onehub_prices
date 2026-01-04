@@ -1271,8 +1271,8 @@
       "model": "moonshotai/kimi-k2-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.875
+      "input": 0.16,
+      "output": 0.24
     },
     {
       "model": "moonshotai/kimi-k2:free",
@@ -2454,8 +2454,8 @@
       "model": "z-ai/glm-4.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.75
+      "input": 0.08,
+      "output": 0.4
     }
   ]
 }
