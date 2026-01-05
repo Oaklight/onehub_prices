@@ -480,8 +480,8 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.056,
-      "output": 0.08
+      "input": 0.125,
+      "output": 0.19
     },
     {
       "model": "deepseek/deepseek-v3.2-exp",
@@ -734,6 +734,13 @@
       "channel_type": 20,
       "input": 1.25,
       "output": 5.0
+    },
+    {
+      "model": "kwaipilot/kat-coder-pro",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1035,
+      "output": 0.414
     },
     {
       "model": "kwaipilot/kat-coder-pro:free",
