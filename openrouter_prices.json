@@ -141,13 +141,6 @@
       "output": 0.625
     },
     {
-      "model": "anthropic/claude-3-opus",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 7.5,
-      "output": 37.5
-    },
-    {
       "model": "anthropic/claude-3.5-haiku",
       "type": "tokens",
       "channel_type": 20,
@@ -824,7 +817,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.01,
-      "output": 0.015
+      "output": 0.025
     },
     {
       "model": "meta-llama/llama-3.2-11b-vision-instruct",
@@ -1849,13 +1842,6 @@
       "output": 7.5
     },
     {
-      "model": "perplexity/sonar-reasoning",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.5,
-      "output": 2.5
-    },
-    {
       "model": "perplexity/sonar-reasoning-pro",
       "type": "tokens",
       "channel_type": 20,
@@ -2309,6 +2295,13 @@
       "channel_type": 20,
       "input": 0.125,
       "output": 0.425
+    },
+    {
+      "model": "tngtech/tng-r1t-chimera:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "undi95/remm-slerp-l2-13b",
