@@ -9707,8 +9707,8 @@
       "model": "mimo-v2-flash",
       "type": "tokens",
       "channel_type": 1015,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.05,
+      "output": 0.15
     },
     {
       "model": "bge-m3",
