@@ -3,5 +3,5 @@ models:
     # 模型价格：https://platform.xiaomimimo.com/#/docs/pricing
 
     mimo-v2-flash:
-      input: 0
-      output: 0
+      input: 0.7 rmb / M
+      output: 2.1 rmb / M
