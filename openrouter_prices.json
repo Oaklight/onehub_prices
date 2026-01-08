@@ -641,8 +641,8 @@
       "model": "google/gemma-3-27b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.018,
-      "output": 0.032
+      "input": 0.02,
+      "output": 0.075
     },
     {
       "model": "google/gemma-3-27b-it:free",
@@ -956,8 +956,8 @@
       "model": "minimax/minimax-m2.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
-      "output": 0.24
+      "input": 0.14,
+      "output": 0.6
     },
     {
       "model": "mistralai/codestral-2508",
@@ -1236,8 +1236,8 @@
       "model": "moonshotai/kimi-k2-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.16,
-      "output": 0.24
+      "input": 0.2,
+      "output": 0.875
     },
     {
       "model": "moonshotai/kimi-k2:free",
@@ -1677,8 +1677,8 @@
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01,
-      "output": 0.05
+      "input": 0.0195,
+      "output": 0.095
     },
     {
       "model": "openai/gpt-oss-120b:exacto",
@@ -1698,8 +1698,8 @@
       "model": "openai/gpt-oss-20b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.008,
-      "output": 0.03
+      "input": 0.01,
+      "output": 0.05
     },
     {
       "model": "openai/gpt-oss-20b:free",
@@ -2062,8 +2062,8 @@
       "model": "qwen/qwen3-next-80b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
-      "output": 0.3
+      "input": 0.045,
+      "output": 0.55
     },
     {
       "model": "qwen/qwen3-next-80b-a3b-thinking",
@@ -2076,8 +2076,8 @@
       "model": "qwen/qwen3-vl-235b-a22b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
-      "output": 0.28
+      "input": 0.1,
+      "output": 0.6
     },
     {
       "model": "qwen/qwen3-vl-235b-a22b-thinking",
@@ -2412,8 +2412,8 @@
       "model": "z-ai/glm-4.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.08,
-      "output": 0.4
+      "input": 0.2,
+      "output": 0.75
     }
   ]
 }
