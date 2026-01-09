@@ -3882,15 +3882,15 @@
       "model": "liquid/lfm-2.2-6b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.05
+      "input": 0.005,
+      "output": 0.01
     },
     {
       "model": "liquid/lfm2-8b-a1b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.05
+      "input": 0.005,
+      "output": 0.01
     },
     {
       "model": "mancer/weaver",
