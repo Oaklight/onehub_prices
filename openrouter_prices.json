@@ -1282,11 +1282,11 @@
       "output": 0.875
     },
     {
-      "model": "nex-agi/deepseek-v3.1-nex-n1:free",
+      "model": "nex-agi/deepseek-v3.1-nex-n1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.135,
+      "output": 0.5
     },
     {
       "model": "nousresearch/deephermes-3-mistral-24b-preview",
