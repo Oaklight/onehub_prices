@@ -3179,7 +3179,7 @@
       "output": 0.2
     },
     {
-      "model": "allenai/molmo-2-8b",
+      "model": "allenai/molmo-2-8b:free",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0,
