@@ -2241,13 +2241,6 @@
       "output": 0.2
     },
     {
-      "model": "thudm/glm-4.1v-9b-thinking",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0175,
-      "output": 0.069
-    },
-    {
       "model": "tngtech/deepseek-r1t-chimera",
       "type": "tokens",
       "channel_type": 20,
