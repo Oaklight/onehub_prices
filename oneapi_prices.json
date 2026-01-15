@@ -3608,7 +3608,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.35,
-      "output": 1.2
+      "output": 1.25
     },
     {
       "model": "deepseek/deepseek-r1-0528",
@@ -4073,13 +4073,6 @@
       "output": 0.07
     },
     {
-      "model": "microsoft/phi-4-reasoning-plus",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.035,
-      "output": 0.175
-    },
-    {
       "model": "microsoft/wizardlm-2-8x22b",
       "type": "tokens",
       "channel_type": 20,
@@ -4146,15 +4139,8 @@
       "model": "mistralai/devstral-small",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.035,
-      "output": 0.14
-    },
-    {
-      "model": "mistralai/devstral-small-2505",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.03,
-      "output": 0.06
+      "input": 0.05,
+      "output": 0.15
     },
     {
       "model": "mistralai/ministral-14b-2512",
