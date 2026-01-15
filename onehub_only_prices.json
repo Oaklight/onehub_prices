@@ -1568,28 +1568,28 @@
       "output": 0.64286
     },
     {
-      "model": "ernie-4.5",
-      "type": "tokens",
-      "channel_type": 15,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
       "model": "ernie-4.5-0.3b",
       "type": "tokens",
       "channel_type": 15,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.00714,
+      "output": 0.02857
     },
     {
       "model": "ernie-4.5-21b-a3b",
       "type": "tokens",
       "channel_type": 15,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.03571,
+      "output": 0.14286
     },
     {
-      "model": "ernie-4.5-8k-preview",
+      "model": "ernie-4.5-21b-a3b-thinking",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.03571,
+      "output": 0.14286
+    },
+    {
+      "model": "ernie-4.5-8k",
       "type": "tokens",
       "channel_type": 15,
       "input": 0.28571,
@@ -1600,59 +1600,176 @@
       "type": "tokens",
       "channel_type": 15,
       "input": 0.05714,
-      "output": 0.22857
+      "output": 0.22857,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "ernie-4.5-turbo-128k",
       "type": "tokens",
       "channel_type": 15,
       "input": 0.05714,
-      "output": 0.22857
+      "output": 0.22857,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "ernie-4.5-turbo-128k-preview",
       "type": "tokens",
       "channel_type": 15,
       "input": 0.05714,
-      "output": 0.22857
+      "output": 0.22857,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "ernie-4.5-turbo-32k",
       "type": "tokens",
       "channel_type": 15,
       "input": 0.05714,
-      "output": 0.22857
+      "output": 0.22857,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "ernie-4.5-turbo-latest",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.05714,
+      "output": 0.22857,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "ernie-4.5-turbo-vl",
       "type": "tokens",
       "channel_type": 15,
       "input": 0.21429,
-      "output": 0.64286
+      "output": 0.64286,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "ernie-4.5-turbo-vl",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.21429,
+      "output": 0.64286,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "ernie-4.5-turbo-vl-32k",
       "type": "tokens",
       "channel_type": 15,
       "input": 0.21429,
-      "output": 0.64286
+      "output": 0.64286,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "ernie-4.5-turbo-vl-32k-preview",
       "type": "tokens",
       "channel_type": 15,
       "input": 0.21429,
-      "output": 0.64286
+      "output": 0.64286,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "ernie-4.5-turbo-vl-latest",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.21429,
+      "output": 0.64286,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "ernie-4.5-turbo-vl-preview",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.21429,
+      "output": 0.64286,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "ernie-4.5-vl-28b-a3b",
       "type": "tokens",
       "channel_type": 15,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.07143,
+      "output": 0.28571
     },
     {
-      "model": "ernie-lite-128k-0722",
+      "model": "ernie-5.0-thinking",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.71429,
+      "output": 2.85714
+    },
+    {
+      "model": "ernie-5.0-thinking-exp",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.71429,
+      "output": 2.85714
+    },
+    {
+      "model": "ernie-5.0-thinking-latest",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.71429,
+      "output": 2.85714
+    },
+    {
+      "model": "ernie-5.0-thinking-preview",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.71429,
+      "output": 2.85714
+    },
+    {
+      "model": "ernie-char",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.02143,
+      "output": 0.04286
+    },
+    {
+      "model": "ernie-char-8k",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.02143,
+      "output": 0.04286
+    },
+    {
+      "model": "ernie-char-fiction-8k",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.02143,
+      "output": 0.04286
+    },
+    {
+      "model": "ernie-character",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.02143,
+      "output": 0.04286
+    },
+    {
+      "model": "ernie-lite",
       "type": "tokens",
       "channel_type": 15,
       "input": 0.0,
@@ -1664,6 +1781,13 @@
       "channel_type": 15,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "ernie-lite-pro-128k",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.01429,
+      "output": 0.02857
     },
     {
       "model": "ernie-speed",
@@ -1687,7 +1811,14 @@
       "output": 0.0
     },
     {
-      "model": "ernie-tiny-128k-0929",
+      "model": "ernie-speed-pro-128k",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.02143,
+      "output": 0.04286
+    },
+    {
+      "model": "ernie-tiny",
       "type": "tokens",
       "channel_type": 15,
       "input": 0.0,
@@ -1699,69 +1830,6 @@
       "channel_type": 15,
       "input": 0.0,
       "output": 0.0
-    },
-    {
-      "model": "ernie-x1",
-      "type": "tokens",
-      "channel_type": 15,
-      "input": 0.14286,
-      "output": 0.57143
-    },
-    {
-      "model": "ernie-x1-32k-preview",
-      "type": "tokens",
-      "channel_type": 15,
-      "input": 0.14286,
-      "output": 0.57143
-    },
-    {
-      "model": "ernie-x1-turbo",
-      "type": "tokens",
-      "channel_type": 15,
-      "input": 0.07143,
-      "output": 0.28571
-    },
-    {
-      "model": "ernie-x1-turbo-32k",
-      "type": "tokens",
-      "channel_type": 15,
-      "input": 0.07143,
-      "output": 0.28571
-    },
-    {
-      "model": "ernie-x1-turbo-32k-preview",
-      "type": "tokens",
-      "channel_type": 15,
-      "input": 0.07143,
-      "output": 0.28571
-    },
-    {
-      "model": "llama-4-maverick",
-      "type": "tokens",
-      "channel_type": 15,
-      "input": 0.5,
-      "output": 1.5
-    },
-    {
-      "model": "llama-4-maverick-17b-128e-instruct",
-      "type": "tokens",
-      "channel_type": 15,
-      "input": 0.5,
-      "output": 1.5
-    },
-    {
-      "model": "llama-4-scout",
-      "type": "tokens",
-      "channel_type": 15,
-      "input": 0.42857,
-      "output": 1.28571
-    },
-    {
-      "model": "llama-4-scout-17b-16e-instruct",
-      "type": "tokens",
-      "channel_type": 15,
-      "input": 0.42857,
-      "output": 1.28571
     },
     {
       "model": "charglm-4",
@@ -3536,13 +3604,6 @@
       "output": 0.375
     },
     {
-      "model": "deepseek/deepseek-prover-v2",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.25,
-      "output": 1.09
-    },
-    {
       "model": "deepseek/deepseek-r1",
       "type": "tokens",
       "channel_type": 20,
@@ -3574,8 +3635,8 @@
       "model": "deepseek/deepseek-r1-distill-qwen-32b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.135,
-      "output": 0.135
+      "input": 0.145,
+      "output": 0.145
     },
     {
       "model": "deepseek/deepseek-v3.1-terminus",
@@ -3662,13 +3723,6 @@
       "output": 1.25
     },
     {
-      "model": "google/gemini-2.5-flash-image-preview",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.15,
-      "output": 1.25
-    },
-    {
       "model": "google/gemini-2.5-flash-lite",
       "type": "tokens",
       "channel_type": 20,
@@ -3681,6 +3735,13 @@
       "channel_type": 20,
       "input": 0.05,
       "output": 0.2
+    },
+    {
+      "model": "google/gemini-2.5-flash-preview-09-2025",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 1.25
     },
     {
       "model": "google/gemini-2.5-pro",
@@ -3882,7 +3943,7 @@
       "model": "meta-llama/llama-3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
+      "input": 0.2,
       "output": 0.2
     },
     {
@@ -3956,13 +4017,6 @@
       "output": 0.0
     },
     {
-      "model": "meta-llama/llama-3.2-90b-vision-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.175,
-      "output": 0.2
-    },
-    {
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -4017,13 +4071,6 @@
       "channel_type": 20,
       "input": 0.03,
       "output": 0.07
-    },
-    {
-      "model": "microsoft/phi-4-multimodal-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.025,
-      "output": 0.05
     },
     {
       "model": "microsoft/phi-4-reasoning-plus",
@@ -4148,8 +4195,8 @@
       "model": "mistralai/mistral-7b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.014,
-      "output": 0.027
+      "input": 0.1,
+      "output": 0.1
     },
     {
       "model": "mistralai/mistral-7b-instruct-v0.1",
@@ -4171,13 +4218,6 @@
       "channel_type": 20,
       "input": 0.1,
       "output": 0.1
-    },
-    {
-      "model": "mistralai/mistral-7b-instruct:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "mistralai/mistral-large",
@@ -4985,55 +5025,6 @@
       "output": 0.0
     },
     {
-      "model": "qwen/qwen-max",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.8,
-      "output": 3.2
-    },
-    {
-      "model": "qwen/qwen-plus",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.2,
-      "output": 0.6
-    },
-    {
-      "model": "qwen/qwen-plus-2025-07-28",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.2,
-      "output": 0.6
-    },
-    {
-      "model": "qwen/qwen-plus-2025-07-28:thinking",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.2,
-      "output": 2.0
-    },
-    {
-      "model": "qwen/qwen-turbo",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.025,
-      "output": 0.1
-    },
-    {
-      "model": "qwen/qwen-vl-max",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.4,
-      "output": 1.6
-    },
-    {
-      "model": "qwen/qwen-vl-plus",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.105,
-      "output": 0.315
-    },
-    {
       "model": "qwen/qwen2.5-coder-7b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -5139,20 +5130,6 @@
       "output": 0.135
     },
     {
-      "model": "qwen/qwen3-coder-flash",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.15,
-      "output": 0.75
-    },
-    {
-      "model": "qwen/qwen3-coder-plus",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.5,
-      "output": 2.5
-    },
-    {
       "model": "qwen/qwen3-coder:exacto",
       "type": "tokens",
       "channel_type": 20,
@@ -5167,18 +5144,18 @@
       "output": 0.0
     },
     {
-      "model": "qwen/qwen3-max",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.6,
-      "output": 3.0
-    },
-    {
       "model": "qwen/qwen3-next-80b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.045,
       "output": 0.55
+    },
+    {
+      "model": "qwen/qwen3-next-80b-a3b-instruct:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "qwen/qwen3-next-80b-a3b-thinking",
@@ -5228,13 +5205,6 @@
       "channel_type": 20,
       "input": 0.04,
       "output": 0.25
-    },
-    {
-      "model": "qwen/qwen3-vl-8b-thinking",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.09,
-      "output": 1.05
     },
     {
       "model": "qwen/qwq-32b",
@@ -7049,6 +7019,41 @@
       "output": 0
     },
     {
+      "model": "hunyuan-2.0-instruct",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.05714,
+      "output": 0.14286
+    },
+    {
+      "model": "hunyuan-2.0-instruct-202*",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.05714,
+      "output": 0.14286
+    },
+    {
+      "model": "hunyuan-2.0-thinking",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.07143,
+      "output": 0.28571
+    },
+    {
+      "model": "hunyuan-2.0-thinking-202*",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.07143,
+      "output": 0.28571
+    },
+    {
+      "model": "hunyuan-a13b",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.03571,
+      "output": 0.14286
+    },
+    {
       "model": "hunyuan-code",
       "type": "tokens",
       "channel_type": 40,
@@ -7084,6 +7089,20 @@
       "output": 1.28571
     },
     {
+      "model": "hunyuan-large-role-latest",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.28571,
+      "output": 0.57143
+    },
+    {
+      "model": "hunyuan-large-vision",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 1.28571,
+      "output": 1.28571
+    },
+    {
       "model": "hunyuan-lite",
       "type": "tokens",
       "channel_type": 40,
@@ -7105,28 +7124,14 @@
       "output": 0.14286
     },
     {
-      "model": "hunyuan-standard-256K",
+      "model": "hunyuan-standard-256k",
       "type": "tokens",
       "channel_type": 40,
       "input": 0.03571,
       "output": 0.14286
     },
     {
-      "model": "hunyuan-standard-256k",
-      "type": "tokens",
-      "channel_type": 40,
-      "input": 1.0714,
-      "output": 4.2857
-    },
-    {
       "model": "hunyuan-t1",
-      "type": "tokens",
-      "channel_type": 40,
-      "input": 0.07143,
-      "output": 0.28571
-    },
-    {
-      "model": "hunyuan-t1-20250321",
       "type": "tokens",
       "channel_type": 40,
       "input": 0.07143,
@@ -7140,11 +7145,25 @@
       "output": 0.28571
     },
     {
+      "model": "hunyuan-t1-vision",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.21429,
+      "output": 0.64286
+    },
+    {
+      "model": "hunyuan-t1-vision-20250916",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.21429,
+      "output": 0.64286
+    },
+    {
       "model": "hunyuan-translation",
       "type": "tokens",
       "channel_type": 40,
-      "input": 1.07143,
-      "output": 3.21429
+      "input": 0.08571,
+      "output": 0.25714
     },
     {
       "model": "hunyuan-translation-lite",
@@ -7161,42 +7180,7 @@
       "output": 0.68571
     },
     {
-      "model": "hunyuan-turbo-20241223",
-      "type": "tokens",
-      "channel_type": 40,
-      "input": 0.17143,
-      "output": 0.68571
-    },
-    {
-      "model": "hunyuan-turbo-latest",
-      "type": "tokens",
-      "channel_type": 40,
-      "input": 0.17143,
-      "output": 0.68571
-    },
-    {
-      "model": "hunyuan-turbo-vision",
-      "type": "tokens",
-      "channel_type": 40,
-      "input": 5.71429,
-      "output": 5.71429
-    },
-    {
       "model": "hunyuan-turbos",
-      "type": "tokens",
-      "channel_type": 40,
-      "input": 0.05714,
-      "output": 0.14286
-    },
-    {
-      "model": "hunyuan-turbos-20250226",
-      "type": "tokens",
-      "channel_type": 40,
-      "input": 0.05714,
-      "output": 0.14286
-    },
-    {
-      "model": "hunyuan-turbos-20250313",
       "type": "tokens",
       "channel_type": 40,
       "input": 0.05714,
@@ -7210,6 +7194,27 @@
       "output": 0.14286
     },
     {
+      "model": "hunyuan-turbos-longtext-128k",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.10714,
+      "output": 0.42857
+    },
+    {
+      "model": "hunyuan-turbos-vision",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.21429,
+      "output": 0.64286
+    },
+    {
+      "model": "hunyuan-turbos-vision-video",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.21429,
+      "output": 0.64286
+    },
+    {
       "model": "hunyuan-vision",
       "type": "tokens",
       "channel_type": 40,
@@ -7217,11 +7222,11 @@
       "output": 1.28571
     },
     {
-      "model": "腾讯元器",
+      "model": "hunyuan-vision-1.5-instruct",
       "type": "tokens",
       "channel_type": 40,
-      "input": 7.14286,
-      "output": 7.14286
+      "input": 0.21429,
+      "output": 0.64286
     },
     {
       "model": "01-ai/Yi-1.5-34B-Chat-16K",
