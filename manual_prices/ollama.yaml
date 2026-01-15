@@ -1,6 +1,6 @@
 models:
-  vLLM:
-    # models deployed with vllm
-    vllm:*:
+  ollama:
+    # models deployed with ollama
+    ollama:*:
       input: 0
       output: 0
