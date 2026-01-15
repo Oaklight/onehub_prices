@@ -28,6 +28,7 @@
 2. [价格同步指导](#价格同步指导)
    - [通过 OneHub 运营界面更新](#通过-onehub-运营界面更新)
    - [通过 OneHub API 脚本更新](#通过-onehub-api-脚本更新-推荐)
+3. [手工定价文件要求](#手工定价文件要求)
 
 ## 主要文件说明
 
@@ -155,6 +156,27 @@ export SYNC_PRICE_OVERWRITE=True # 是否覆盖现有价格
 
 python src/sync_pricing.py [--json_file=./oneapi_prices.json] [--json_url=https://cdn.jsdmirror.com/gh/Oaklight/onehub_prices@prices/oneapi_prices.json]
 ```
+
+## 手工定价文件要求
+
+如果需要添加或更新供应商的手工定价文件，请遵循以下规范：
+
+### 📋 编写规则
+
+详细的 YAML 文件编写规范请查看：[**Manual Pricing 编写规则文档**](docs/manual_pricing_rules.md)
+
+**核心要求：**
+- ✅ 主模型名称不应包含 `latest`、时间戳、`preview`、`exp` 等后缀
+- ✅ 模型名称不应包含空格
+- ✅ 所有模型必须能在官方定价页面中找到，不能臆造
+- ✅ 必须添加官方定价页面链接
+- ✅ 价格单位格式正确（如 `2.5 usd / M`）
+
+### 📁 文件位置
+
+- [`manual_prices/`](manual_prices/) - 手动维护的供应商价格 YAML 文件
+- [`docs/manual_pricing_rules.md`](docs/manual_pricing_rules.md) - 完整的编写规则文档
+- [`src/`](src/) - 价格处理和同步脚本
 
 ## 更新说明
 
