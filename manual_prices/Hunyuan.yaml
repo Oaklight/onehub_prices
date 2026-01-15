@@ -1,60 +1,111 @@
 models:
+  # 价格来源: https://cloud.tencent.com/document/product/1729/97731
+  # 模型ID来源: https://cloud.tencent.com/document/product/1729/104753
   Hunyuan:
+    # 通用文生文模型
+    hunyuan-2.0-thinking:
+      aliases:
+        - hunyuan-2.0-thinking-202*
+      input: 1 rmb / M
+      output: 4 rmb / M
+
+    hunyuan-2.0-instruct:
+      aliases:
+        - hunyuan-2.0-instruct-202*
+      input: 0.8 rmb / M
+      output: 2 rmb / M
+
     hunyuan-t1:
       aliases:
         - hunyuan-t1-latest
-        - hunyuan-t1-20250321
       input: 1 rmb / M
       output: 4 rmb / M
+
     hunyuan-turbos:
       aliases:
         - hunyuan-turbos-latest
-        - hunyuan-turbos-20250313
-        - hunyuan-turbos-20250226
       input: 0.8 rmb / M
       output: 2 rmb / M
+
+    hunyuan-turbos-longtext-128k:
+      input: 1.5 rmb / M
+      output: 6 rmb / M
+
+    hunyuan-a13b:
+      input: 0.5 rmb / M
+      output: 2 rmb / M
+
     hunyuan-turbo:
-      aliases:
-        - hunyuan-turbo-latest
-        - hunyuan-turbo-20241223
       input: 2.4 rmb / M
       output: 9.6 rmb / M
+
     hunyuan-large:
       input: 4 rmb / M
       output: 12 rmb / M
+
     hunyuan-large-longcontext:
       input: 6 rmb / M
       output: 18 rmb / M
+
     hunyuan-standard:
       input: 0.8 rmb / M
       output: 2 rmb / M
-    hunyuan-standard-256K:
+
+    hunyuan-standard-256k:
       input: 0.5 rmb / M
       output: 2 rmb / M
+
+    # 翻译模型
     hunyuan-translation:
-      input: 15 rmb / M
-      output: 45 rmb / M
+      input: 1.2 rmb / M
+      output: 3.6 rmb / M
+
     hunyuan-translation-lite:
       input: 1 rmb / M
       output: 3 rmb / M
+
+    # 角色扮演模型
     hunyuan-role:
+      aliases:
+        - hunyuan-large-role-latest
       input: 4 rmb / M
       output: 8 rmb / M
+
+    # 工具调用模型
     hunyuan-functioncall:
       input: 4 rmb / M
       output: 8 rmb / M
+
+    # 代码模型
     hunyuan-code:
       input: 3.5 rmb / M
       output: 7 rmb / M
-    hunyuan-turbo-vision:
-      input: 80 rmb / M
-      output: 80 rmb / M
+
+    # 多模态模型
+    hunyuan-turbos-vision:
+      aliases:
+        - hunyuan-vision-1.5-instruct
+      input: 3 rmb / M
+      output: 9 rmb / M
+
+    hunyuan-t1-vision:
+      aliases:
+        - hunyuan-t1-vision-20250916
+      input: 3 rmb / M
+      output: 9 rmb / M
+
     hunyuan-vision:
+      aliases:
+        - hunyuan-large-vision
       input: 18 rmb / M
       output: 18 rmb / M
+
+    # 视频理解模型
+    hunyuan-turbos-vision-video:
+      input: 3 rmb / M
+      output: 9 rmb / M
+
+    # 向量模型
     hunyuan-embedding:
       input: 0.7 rmb / M
       output: 0.7 rmb / M
-    腾讯元器:
-      input: 100 rmb / M
-      output: 100 rmb / M
