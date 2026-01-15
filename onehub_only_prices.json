@@ -3452,6 +3452,13 @@
       "output": 0.1
     },
     {
+      "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "cohere/command-a",
       "type": "tokens",
       "channel_type": 20,
@@ -3942,6 +3949,13 @@
       "output": 0.01
     },
     {
+      "model": "meta-llama/llama-3.2-3b-instruct:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "meta-llama/llama-3.2-90b-vision-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -4236,6 +4250,13 @@
       "output": 0.055
     },
     {
+      "model": "mistralai/mistral-small-3.1-24b-instruct:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "mistralai/mistral-small-3.2-24b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -4388,6 +4409,13 @@
       "channel_type": 20,
       "input": 0.5,
       "output": 0.5
+    },
+    {
+      "model": "nousresearch/hermes-3-llama-3.1-405b:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "nousresearch/hermes-3-llama-3.1-70b",
@@ -5083,6 +5111,13 @@
       "output": 0.12
     },
     {
+      "model": "qwen/qwen3-4b:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "qwen/qwen3-8b",
       "type": "tokens",
       "channel_type": 20,
@@ -5417,6 +5452,13 @@
       "channel_type": 20,
       "input": 0.1,
       "output": 0.75
+    },
+    {
+      "model": "xiaomi/mimo-v2-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.15
     },
     {
       "model": "xiaomi/mimo-v2-flash:free",
