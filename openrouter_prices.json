@@ -1338,13 +1338,6 @@
       "output": 7.5
     },
     {
-      "model": "openai/codex-mini",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.75,
-      "output": 3.0
-    },
-    {
       "model": "openai/gpt-3.5-turbo",
       "type": "tokens",
       "channel_type": 20,
@@ -1845,8 +1838,8 @@
       "model": "qwen/qwen3-235b-a22b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.09,
-      "output": 0.27
+      "input": 0.1,
+      "output": 0.3
     },
     {
       "model": "qwen/qwen3-235b-a22b-2507",
