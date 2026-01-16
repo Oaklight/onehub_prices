@@ -1807,6 +1807,55 @@
       "output": 0.0
     },
     {
+      "model": "qwen/qwen-max",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.8,
+      "output": 3.2
+    },
+    {
+      "model": "qwen/qwen-plus",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.2,
+      "output": 0.6
+    },
+    {
+      "model": "qwen/qwen-plus-2025-07-28",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.2,
+      "output": 0.6
+    },
+    {
+      "model": "qwen/qwen-plus-2025-07-28:thinking",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.2,
+      "output": 2.0
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.025,
+      "output": 0.1
+    },
+    {
+      "model": "qwen/qwen-vl-max",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.4,
+      "output": 1.6
+    },
+    {
+      "model": "qwen/qwen-vl-plus",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.105,
+      "output": 0.315
+    },
+    {
       "model": "qwen/qwen2.5-coder-7b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -1912,6 +1961,20 @@
       "output": 0.135
     },
     {
+      "model": "qwen/qwen3-coder-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 0.75
+    },
+    {
+      "model": "qwen/qwen3-coder-plus",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 2.5
+    },
+    {
       "model": "qwen/qwen3-coder:exacto",
       "type": "tokens",
       "channel_type": 20,
@@ -1924,6 +1987,13 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "qwen/qwen3-max",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.6,
+      "output": 3.0
     },
     {
       "model": "qwen/qwen3-next-80b-a3b-instruct",
@@ -1987,6 +2057,13 @@
       "channel_type": 20,
       "input": 0.04,
       "output": 0.25
+    },
+    {
+      "model": "qwen/qwen3-vl-8b-thinking",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.09,
+      "output": 1.05
     },
     {
       "model": "qwen/qwq-32b",
@@ -2209,8 +2286,8 @@
       "model": "xiaomi/mimo-v2-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.15
+      "input": 0.045,
+      "output": 0.145
     },
     {
       "model": "xiaomi/mimo-v2-flash:free",
