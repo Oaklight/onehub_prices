@@ -2027,8 +2027,8 @@
       "model": "qwen/qwen3-vl-235b-a22b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.225,
-      "output": 1.75
+      "input": 0.49,
+      "output": 1.975
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-instruct",
