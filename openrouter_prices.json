@@ -417,8 +417,8 @@
       "model": "deepseek/deepseek-r1-0528",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.225,
-      "output": 1.075
+      "input": 0.2,
+      "output": 0.875
     },
     {
       "model": "deepseek/deepseek-r1-0528:free",
