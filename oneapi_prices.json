@@ -3919,6 +3919,20 @@
       "output": 0.01
     },
     {
+      "model": "liquid/lfm-2.5-1.2b-instruct:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "liquid/lfm-2.5-1.2b-thinking:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "liquid/lfm2-8b-a1b",
       "type": "tokens",
       "channel_type": 20,
@@ -4426,8 +4440,8 @@
       "model": "nousresearch/hermes-2-pro-llama-3-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0125,
-      "output": 0.04
+      "input": 0.07,
+      "output": 0.07
     },
     {
       "model": "nousresearch/hermes-3-llama-3.1-405b",
@@ -5238,8 +5252,8 @@
       "model": "qwen/qwen3-vl-235b-a22b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.49,
-      "output": 1.975
+      "input": 0.225,
+      "output": 1.75
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-instruct",
