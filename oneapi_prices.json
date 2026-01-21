@@ -7866,6 +7866,13 @@
       "output": 0.28571
     },
     {
+      "model": "Qwen/Qwen3-32B/e5mbg25y3n",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.07143,
+      "output": 0.28571
+    },
+    {
       "model": "Qwen/Qwen3-8B",
       "type": "tokens",
       "channel_type": 45,
@@ -8179,6 +8186,13 @@
       "channel_type": 45,
       "input": 0.095,
       "output": 0.095
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-Math-V2/e5mbg25y3n",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "deepseek-ai/DeepSeek-OCR",
