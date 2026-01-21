@@ -2255,6 +2255,13 @@
       "output": 0.325
     },
     {
+      "model": "writer/palmyra-x5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.3,
+      "output": 3.0
+    },
+    {
       "model": "x-ai/grok-3",
       "type": "tokens",
       "channel_type": 20,
