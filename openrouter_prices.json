@@ -47,7 +47,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.045,
-      "output": 0.2
+      "output": 0.225
     },
     {
       "model": "allenai/molmo-2-8b:free",
