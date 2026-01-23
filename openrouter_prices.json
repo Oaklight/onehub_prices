@@ -922,7 +922,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.135,
-      "output": 0.56
+      "output": 0.55
     },
     {
       "model": "mistralai/codestral-2508",
