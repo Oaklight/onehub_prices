@@ -501,8 +501,8 @@
       "model": "google/gemini-2.0-flash-exp:free",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.05,
+      "output": 0.2
     },
     {
       "model": "google/gemini-2.0-flash-lite-001",
