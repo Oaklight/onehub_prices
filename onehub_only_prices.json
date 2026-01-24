@@ -3698,8 +3698,8 @@
       "model": "google/gemini-2.0-flash-exp:free",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.2
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "google/gemini-2.0-flash-lite-001",
@@ -4115,11 +4115,18 @@
       "output": 0.5
     },
     {
+      "model": "minimax/minimax-m2-her",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 0.6
+    },
+    {
       "model": "minimax/minimax-m2.1",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.135,
-      "output": 0.56
+      "output": 0.55
     },
     {
       "model": "mistralai/codestral-2508",
