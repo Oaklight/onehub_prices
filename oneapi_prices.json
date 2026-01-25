@@ -3299,8 +3299,8 @@
       "model": "alpindale/goliath-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 3.0,
-      "output": 4.0
+      "input": 1.875,
+      "output": 3.75
     },
     {
       "model": "amazon/nova-2-lite-v1",
