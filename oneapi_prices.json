@@ -5529,13 +5529,6 @@
       "output": 0.145
     },
     {
-      "model": "xiaomi/mimo-v2-flash:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "z-ai/glm-4-32b",
       "type": "tokens",
       "channel_type": 20,
