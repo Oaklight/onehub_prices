@@ -946,13 +946,6 @@
       "output": 0.11
     },
     {
-      "model": "mistralai/devstral-2512:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "mistralai/devstral-medium",
       "type": "tokens",
       "channel_type": 20,
