@@ -4395,6 +4395,13 @@
       "output": 0.875
     },
     {
+      "model": "moonshotai/kimi-k2.5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.3,
+      "output": 1.5
+    },
+    {
       "model": "moonshotai/kimi-k2:free",
       "type": "tokens",
       "channel_type": 20,
@@ -5457,6 +5464,13 @@
       "channel_type": 20,
       "input": 0.225,
       "output": 0.325
+    },
+    {
+      "model": "upstage/solar-pro-3:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "writer/palmyra-x5",
