@@ -36,6 +36,9 @@ models:
     glm-4.5-flash:
       input: 0
       output: 0
+    glm-4.7-flash:
+      input: 0
+      output: 0
 
     glm-4-plus:
       input: 5 rmb / M
