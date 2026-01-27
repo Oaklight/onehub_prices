@@ -2108,6 +2108,13 @@
       }
     },
     {
+      "model": "glm-4.7-flash",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "glm-4v",
       "type": "tokens",
       "channel_type": 16,
@@ -2970,18 +2977,38 @@
       "model": "qwen3-max",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.45714,
-      "output": 1.82857,
+      "input": 0.28571,
+      "output": 1.14286,
       "extra_ratios": {
         "cached_tokens": 0.2
       }
     },
     {
-      "model": "qwen3-max-*",
+      "model": "qwen3-max-2025-09*",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.45714,
-      "output": 1.82857,
+      "input": 0.71429,
+      "output": 2.85714,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "qwen3-max-2026*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.28571,
+      "output": 1.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "qwen3-max-preview",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.71429,
+      "output": 2.85714,
       "extra_ratios": {
         "cached_tokens": 0.2
       }
