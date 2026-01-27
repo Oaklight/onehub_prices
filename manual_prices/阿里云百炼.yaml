@@ -7,12 +7,24 @@ models:
     # 大模型系列
     qwen3-max:
       aliases:
-        - qwen3-max-*
-      # 阶梯计价：0<Token≤32K: 0.0032元输入/0.0128元输出
-      # 32K<Token≤128K: 0.0064元输入/0.0256元输出
-      # 128K<Token≤252K: 0.0096元输入/0.0384元输出
-      input: 0.0064 rmb / K # 取32～128k价格
-      output: 0.0256 rmb / K
+        - qwen3-max-2026*
+      # 支持思考模式和非思考模式，支持调用内置工具
+      # 阶梯计价：0<Token≤32K: 0.0025元输入/0.01元输出
+      # 32K<Token≤128K: 0.004元输入/0.016元输出
+      # 128K<Token≤252K: 0.007元输入/0.028元输出
+      input: 0.004 rmb / K # 取32～128k价格
+      output: 0.016 rmb / K
+      extra_ratios:
+        - cached_tokens: 0.2
+
+    qwen3-max-preview:
+      aliases:
+        - qwen3-max-2025-09*
+      # 阶梯计价：0<Token≤32K: 0.006元输入/0.024元输出
+      # 32K<Token≤128K: 0.01元输入/0.04元输出
+      # 128K<Token≤252K: 0.015元输入/0.06元输出
+      input: 0.01 rmb / K # 取32～128k价格
+      output: 0.04 rmb / K
       extra_ratios:
         - cached_tokens: 0.2
 
