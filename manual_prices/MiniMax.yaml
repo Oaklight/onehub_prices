@@ -1,6 +1,24 @@
 models:
   MiniMax:
-    # 模型定价：https://platform.minimaxi.com/docs/pricing/pay-as-you-go
+    # 模型定价：https://platform.minimaxi.com/docs/guides/pricing-payg
+
+    # M2.1系列 - 强大多语言编程实力，全面升级编程体验
+    MiniMax-M2.1:
+      input: 2.1 rmb / M
+      output: 8.4 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.21 rmb / M
+        # - cached_write_tokens: 2.625 rmb / M
+
+    # M2.1 Lightning - 高效高速Agent模式（M2.1极速版），适用于对话问答、轻量搜索、简单编码任务
+    MiniMax-M2.1-lightning:
+      aliases:
+        - MiniMax-M2.1-Lightning
+      input: 2.1 rmb / M
+      output: 16.8 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.21 rmb / M
+        # - cached_write_tokens: 2.625 rmb / M
 
     # M2系列 - 专为高效编码与Agent工作流而生
     MiniMax-M2:
@@ -10,17 +28,9 @@ models:
       output: 8.4 rmb / M
       extra_ratios:
         - cached_tokens: 0.21 rmb / M
+        # - cached_write_tokens: 2.625 rmb / M
 
-    # M2.1系列 - 强大多语言编程实力，全面升级编程体验
-    MiniMax-M2.1:
+    # M2-her - 角色扮演模型
+    M2-her:
       input: 2.1 rmb / M
       output: 8.4 rmb / M
-      extra_ratios:
-        - cached_tokens: 0.21 rmb / M
-
-    # M2.1 Lightning - 高效高速Agent模式（M2.1极速版），适用于对话问答、轻量搜索、简单编码任务
-    MiniMax-M2.1-Lightning:
-      input: 2.1 rmb / M
-      output: 16.8 rmb / M # 极速版输出价格为普通版2倍
-      extra_ratios:
-        - cached_tokens: 0.21 rmb / M
