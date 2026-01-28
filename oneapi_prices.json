@@ -3470,6 +3470,13 @@
       "output": 0.09
     },
     {
+      "model": "arcee-ai/trinity-large-preview:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "arcee-ai/trinity-mini",
       "type": "tokens",
       "channel_type": 20,
@@ -3984,8 +3991,8 @@
       "model": "meta-llama/llama-3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.2
+      "input": 0.255,
+      "output": 0.37
     },
     {
       "model": "meta-llama/llama-3-8b-instruct",
