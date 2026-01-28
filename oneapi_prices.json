@@ -4544,8 +4544,8 @@
       "model": "nvidia/nemotron-3-nano-30b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
-      "output": 0.12
+      "input": 0.025,
+      "output": 0.1
     },
     {
       "model": "nvidia/nemotron-3-nano-30b-a3b:free",
