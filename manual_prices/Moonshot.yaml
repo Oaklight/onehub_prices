@@ -2,23 +2,12 @@ models:
   Moonshot:
     # 模型定价：https://platform.moonshot.cn/docs/pricing/chat#%E4%BA%A7%E5%93%81%E5%AE%9A%E4%BB%B7
 
-    # kimi latest (vision)
-    kimi-latest-8k:
-      input: 2 rmb / M
-      output: 10 rmb / M
+    kimi-k2.5:
+      input: 4 rmb / M
+      output: 21 rmb / M
       extra_ratios:
-        - cached_tokens: 1 rmb / M
-    kimi-latest-32k:
-      aliases: kimi-latest
-      input: 5 rmb / M
-      output: 20 rmb / M
-      extra_ratios:
-        - cached_tokens: 1 rmb / M
-    kimi-latest-128k:
-      input: 10 rmb / M
-      output: 30 rmb / M
-      extra_ratios:
-        - cached_tokens: 1 rmb / M
+        - cached_tokens: 0.7 rmb / M
+        - input_image_tokens: 4 rmb / M
 
     kimi-k2:
       aliases:
@@ -44,6 +33,23 @@ models:
     kimi-k2-thinking-turbo:
       input: 8 rmb / M
       output: 58 rmb / M
+      extra_ratios:
+        - cached_tokens: 1 rmb / M
+    # kimi latest (vision)
+    kimi-latest-8k:
+      input: 2 rmb / M
+      output: 10 rmb / M
+      extra_ratios:
+        - cached_tokens: 1 rmb / M
+    kimi-latest-32k:
+      aliases: kimi-latest
+      input: 5 rmb / M
+      output: 20 rmb / M
+      extra_ratios:
+        - cached_tokens: 1 rmb / M
+    kimi-latest-128k:
+      input: 10 rmb / M
+      output: 30 rmb / M
       extra_ratios:
         - cached_tokens: 1 rmb / M
 
