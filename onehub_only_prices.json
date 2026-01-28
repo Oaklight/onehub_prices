@@ -6530,6 +6530,17 @@
       }
     },
     {
+      "model": "kimi-k2.5",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 0.28571,
+      "output": 1.5,
+      "extra_ratios": {
+        "cached_tokens": 0.175,
+        "input_image_tokens": 1.0
+      }
+    },
+    {
       "model": "kimi-latest",
       "type": "tokens",
       "channel_type": 29,
