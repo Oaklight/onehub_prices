@@ -505,13 +505,6 @@
       "output": 0.2
     },
     {
-      "model": "google/gemini-2.0-flash-exp:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "google/gemini-2.0-flash-lite-001",
       "type": "tokens",
       "channel_type": 20,
@@ -1202,7 +1195,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.25,
-      "output": 1.25
+      "output": 1.4
     },
     {
       "model": "moonshotai/kimi-k2:free",
