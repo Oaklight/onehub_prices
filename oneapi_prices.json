@@ -7501,6 +7501,13 @@
       "output": 0.0
     },
     {
+      "model": "PaddlePaddle/PaddleOCR-VL-1.5",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "Pro/01-ai/Yi-1.5-6B-Chat",
       "type": "tokens",
       "channel_type": 45,
