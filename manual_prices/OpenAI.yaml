@@ -59,6 +59,11 @@ models:
       output: 10 usd / M
       extra_ratios:
         - cached_tokens: 0.125 usd / M
+    gpt-5.2-codex:
+      input: 1.75 usd / M
+      output: 14 usd / M
+      extra_ratios:
+        - cached_tokens: 0.175 usd / M
     gpt-5-codex:
       input: 1.25 usd / M
       output: 10 usd / M
