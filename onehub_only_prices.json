@@ -1312,7 +1312,21 @@
       "output": 12.5
     },
     {
+      "model": "claude-4.5-opus-thinking",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
       "model": "claude-4.5-sonnet",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "claude-4.5-sonnet-thinking",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
@@ -1396,6 +1410,13 @@
       "output": 12.5
     },
     {
+      "model": "claude-opus-4-5-thinking",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
       "model": "claude-opus-4.1",
       "type": "tokens",
       "channel_type": 14,
@@ -1404,6 +1425,13 @@
     },
     {
       "model": "claude-opus-4.5",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
+      "model": "claude-opus-4.5-thinking",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
@@ -1445,7 +1473,21 @@
       "output": 7.5
     },
     {
+      "model": "claude-sonnet-4-5-thinking",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
       "model": "claude-sonnet-4.5",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "claude-sonnet-4.5-thinking",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
@@ -5994,6 +6036,50 @@
       }
     },
     {
+      "model": "gemini-3-flash-high",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.25,
+      "output": 1.5,
+      "extra_ratios": {
+        "input_audio_tokens": 2.0,
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gemini-3-flash-low",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.25,
+      "output": 1.5,
+      "extra_ratios": {
+        "input_audio_tokens": 2.0,
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gemini-3-flash-medium",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.25,
+      "output": 1.5,
+      "extra_ratios": {
+        "input_audio_tokens": 2.0,
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gemini-3-flash-minimal",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.25,
+      "output": 1.5,
+      "extra_ratios": {
+        "input_audio_tokens": 2.0,
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "gemini-3-flash-preview",
       "type": "tokens",
       "channel_type": 25,
@@ -6015,6 +6101,16 @@
       }
     },
     {
+      "model": "gemini-3-pro-high",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 1.0,
+      "output": 6.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "gemini-3-pro-image-preview",
       "type": "tokens",
       "channel_type": 25,
@@ -6023,6 +6119,16 @@
       "extra_ratios": {
         "input_image_tokens": 1.0,
         "output_image_tokens": 10.0
+      }
+    },
+    {
+      "model": "gemini-3-pro-low",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 1.0,
+      "output": 6.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
       }
     },
     {
