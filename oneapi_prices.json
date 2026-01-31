@@ -9992,6 +9992,13 @@
       }
     },
     {
+      "model": "qwen3-embedding-0.6b",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "qwen3-mini",
       "type": "tokens",
       "channel_type": 2001,
@@ -10030,6 +10037,13 @@
       "extra_ratios": {
         "reasoning_tokens": 10.0
       }
+    },
+    {
+      "model": "qwen3-reranker-0.6b",
+      "type": "tokens",
+      "channel_type": 2001,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "qwen3-thinking",
