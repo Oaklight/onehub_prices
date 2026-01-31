@@ -1,6 +1,8 @@
 models:
   oaklight-load-balancer:
     # 负载均衡器
+
+    # ================================= QWEN =================================
     # generic aliases, used as primary calling id, remapped to specific model ids
     qwen3: # qwen3-235b-a22b-instruct-2507
       input: 0.002 rmb / K
@@ -31,32 +33,39 @@ models:
       extra_ratios:
         - reasoning_tokens: 0.003 rmb / K
 
-    deepseek-v2.5:
-      input: 1.33 rmb / M
-      output: 1.33 rmb / M
-    deepseek-v3:
-      input: 2 rmb / M
-      output: 8 rmb / M
-    deepseek-r1:
-      input: 4 rmb / M
-      output: 16 rmb / M
-    deepseek-prover-v2:
-      input: 4 rmb / M
-      output: 16 rmb / M
+    # ================================= DEEPSEEK =================================
+    # legacy models, provided by other cloud apis, usually price matched with deepseek original
     deepseek-v3.1:
-      aliases: 
+      aliases:
         - deepseek-v3.1-thinking
         - deepseek-v3.1-terminus
         - deepseek-v3.1-terminus-thinking
       input: 4 rmb / M
       output: 12 rmb / M
-    deepseek-v3-free:
-      input: 0
-      output: 0
-    deepseek-r1-free:
-      input: 0
-      output: 0
+      extra_ratios:
+        - cached_tokens: 0.2
 
+    deepseek-v3:
+      input: 2 rmb / M
+      output: 8 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
+
+    deepseek-r1:
+      input: 4 rmb / M
+      output: 16 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
+
+    deepseek-v2.5:
+      input: 1.33 rmb / M
+      output: 1.33 rmb / M
+
+    deepseek-prover-v2:
+      input: 4 rmb / M
+      output: 16 rmb / M
+
+    # ================================= BAAI =================================
     bge-m3:
       input: 0 rmb / M
       output: 0 rmb / M
@@ -66,147 +75,3 @@ models:
     openwebui_task_model:
       input: 0 rmb / M
       output: 0 rmb / M
-
-    # 其他供应商 other providers
-    # +++++++ v3 aliases +++++++
-    deepseek-v3-baidu: # 百度千帆
-      input: 0.0008 rmb / K
-      output: 0.0016 rmb / K
-    deepseek-v3-ctyun: # 电信天翼云
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-    deepseek-v3-tencent: # 腾讯LKE
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-    deepseek-v3-colossal: # 潞晨云
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-    deepseek-v3-coreshub: # 青云基石
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-    deepseek-v3-sensecore: # 商汤大装置
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-    deepseek-v3-infinigence: # 无问芯穹
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-    deepseek-v3-ppio: # 派欧云
-      aliases: deepseek-v3-ppio-turbo
-      input: 2 rmb / M
-      output: 8 rmb / M
-    deepseek-v3-openrouter:free: # OpenRouter (free)
-      input: 0 usd / M
-      output: 0 usd / M
-    deepseek-v3-openrouter: # OpenRouter
-      input: 1.25 usd / M
-      output: 1.25 usd / M
-
-    # +++++++ r1 aliases +++++++
-    deepseek-r1-baidu: # 百度千帆
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-    deepseek-r1-ctyun: # 电信天翼云
-      aliases: deepseek-r1-ctyun-huawei, deepseek-r1-ctyun-nvidia
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-    deepseek-r1-tencent: # 腾讯LKE
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-    deepseek-r1-colossal: # 潞晨云
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-    deepseek-r1-coreshub: # 青云基石
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-    deepseek-r1-sensecore: # 商汤大装置
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-    deepseek-r1-infinigence: # 无问芯穹
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-    deepseek-r1-ppio: # 派欧云
-      aliases: deepseek-r1-ppio-turbo
-      input: 4 rmb / M
-      output: 16 rmb / M
-    deepseek-r1-openrouter:free: # OpenRouter (free)
-      input: 0 usd / M
-      output: 0 usd / M
-    deepseek-r1-openrouter: # OpenRouter
-      input: 0.8 usd / M
-      output: 2.4 usd / M
-
-    # 嵌入模型 & 重排模型
-    # +++++++ embed aliases +++++++
-    bge-m3-siliconflow: # 硅基流动
-      input: 0 rmb / M
-      output: 0 rmb / M
-    bge-m3-infinigence: # 无问芯穹
-      input: 0 rmb / M
-      output: 0 rmb / M
-    bge-m3-ppio: # 派欧云
-      input: 0 rmb / M
-      output: 0 rmb / M
-
-    # +++++++ rerank aliases +++++++
-    bge-reranker-v2-m3-siliconflow: # 硅基流动
-      input: 0 rmb / M
-      output: 0 rmb / M
-    bge-reranker-v2-m3-infinigence: # 无问芯穹
-      input: 0 rmb / M
-      output: 0 rmb / M
-
-  Deepseek:
-    # 深度求索
-    deepseek-v3-deepseek:
-      input: 2 rmb / M
-      output: 8 rmb / M
-    deepseek-r1-deepseek:
-      input: 4 rmb / M
-      output: 16 rmb / M
-    deepseek-v3.1-deepseek:
-      input: 4 rmb / M
-      output: 12 rmb / M
-
-  字节火山:
-    # deepseek @ 字节火山
-    deepseek-v3-volcengine:
-      aliases:
-        - deepseek-v3-241226
-        - deepseek-v3-250324
-      input: 2 rmb / M
-      output: 8 rmb / M
-    deepseek-r1-volcengine:
-      aliases:
-        - deepseek-r1-250120
-        - deepseek-r1-250528
-      input: 4 rmb / M
-      output: 16 rmb / M
-    deepseek-v3.1-volcengine:
-      aliases:
-        - deepseek-v3-1-250821
-      input: 4 rmb / M
-      output: 12 rmb / M
-
-  阿里云百炼:
-    # deepseek @ 阿里云百炼
-    deepseek-v3-aliyun:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-    deepseek-r1-aliyun:
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-    deepseek-r1-distill-qwen-7b-aliyun:
-      aliases: deepseek-r1-distill-qwen-7b
-      input: 0.0005 rmb / K
-      output: 0.001 rmb / K
-
-  Siliconflow:
-    # deepseek @ 硅基流动
-    deepseek-v3-siliconflow:
-      aliases: Pro/deepseek-ai/DeepSeek-V3, deepseek-ai/DeepSeek-V3
-      input: 2 rmb / M
-      output: 8 rmb / M
-    deepseek-r1-siliconflow:
-      aliases: Pro/deepseek-ai/DeepSeek-R1, deepseek-ai/DeepSeek-R1
-      input: 4 rmb / M
-      output: 16 rmb / M
