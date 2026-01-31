@@ -33,6 +33,13 @@ models:
       extra_ratios:
         - reasoning_tokens: 0.003 rmb / K
 
+    qwen3-embedding-0.6b:
+      input: 0 rmb / M
+      output: 0 rmb / M
+    qwen3-reranker-0.6b:
+      input: 0 rmb / M
+      output: 0 rmb / M
+
     # ================================= DEEPSEEK =================================
     # legacy models, provided by other cloud apis, usually price matched with deepseek original
     deepseek-v3.1:
