@@ -705,6 +705,16 @@
       }
     },
     {
+      "model": "gpt-5.2-codex",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.875,
+      "output": 7.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "gpt-5.2-pro",
       "type": "tokens",
       "channel_type": 1,
@@ -2218,34 +2228,6 @@
       "channel_type": 16,
       "input": 0.0,
       "output": 267.85714
-    },
-    {
-      "model": "deepseek-r1-aliyun",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-r1-distill-qwen-7b",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.03571,
-      "output": 0.07143
-    },
-    {
-      "model": "deepseek-r1-distill-qwen-7b-aliyun",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.03571,
-      "output": 0.07143
-    },
-    {
-      "model": "deepseek-v3-aliyun",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.14286,
-      "output": 0.57143
     },
     {
       "model": "gte-rerank-v2",
@@ -6419,13 +6401,6 @@
       "output": 0.1429
     },
     {
-      "model": "deepseek-r1-deepseek",
-      "type": "tokens",
-      "channel_type": 28,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
       "model": "deepseek-reasoner",
       "type": "tokens",
       "channel_type": 28,
@@ -6434,20 +6409,6 @@
       "extra_ratios": {
         "cached_tokens": 0.1
       }
-    },
-    {
-      "model": "deepseek-v3-deepseek",
-      "type": "tokens",
-      "channel_type": 28,
-      "input": 0.14286,
-      "output": 0.57143
-    },
-    {
-      "model": "deepseek-v3.1-deepseek",
-      "type": "tokens",
-      "channel_type": 28,
-      "input": 0.28571,
-      "output": 0.85714
     },
     {
       "model": "deepseek-v3.2",
@@ -8376,20 +8337,6 @@
       "output": 0.07071
     },
     {
-      "model": "deepseek-r1-siliconflow",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-v3-siliconflow",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.14286,
-      "output": 0.57143
-    },
-    {
       "model": "fnlp/MOSS-TTSD-v0.5",
       "type": "tokens",
       "channel_type": 45,
@@ -8955,62 +8902,6 @@
       "channel_type": 1001,
       "input": 0.0,
       "output": 0.0
-    },
-    {
-      "model": "deepseek-r1-250120",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-r1-250528",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-r1-volcengine",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-v3-1-250821",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.28571,
-      "output": 0.85714
-    },
-    {
-      "model": "deepseek-v3-241226",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.14286,
-      "output": 0.57143
-    },
-    {
-      "model": "deepseek-v3-250324",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.14286,
-      "output": 0.57143
-    },
-    {
-      "model": "deepseek-v3-volcengine",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.14286,
-      "output": 0.57143
-    },
-    {
-      "model": "deepseek-v3.1-volcengine",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.28571,
-      "output": 0.85714
     },
     {
       "model": "doubao-1-5-lite*",
@@ -9897,42 +9788,7 @@
       "output": 0.0
     },
     {
-      "model": "bge-m3-infinigence",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "bge-m3-ppio",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "bge-m3-siliconflow",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "bge-reranker-v2-m3",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "bge-reranker-v2-m3-infinigence",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "bge-reranker-v2-m3-siliconflow",
       "type": "tokens",
       "channel_type": 2001,
       "input": 0.0,
@@ -9950,105 +9806,10 @@
       "type": "tokens",
       "channel_type": 2001,
       "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-r1-baidu",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-r1-colossal",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-r1-coreshub",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-r1-ctyun",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-r1-ctyun-huawei",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-r1-ctyun-nvidia",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-r1-free",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "deepseek-r1-infinigence",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-r1-openrouter",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.4,
-      "output": 1.2
-    },
-    {
-      "model": "deepseek-r1-openrouter:free",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "deepseek-r1-ppio",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-r1-ppio-turbo",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-r1-sensecore",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-r1-tencent",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.28571,
-      "output": 1.14286
+      "output": 1.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "deepseek-v2.5",
@@ -10062,119 +9823,50 @@
       "type": "tokens",
       "channel_type": 2001,
       "input": 0.14286,
-      "output": 0.57143
-    },
-    {
-      "model": "deepseek-v3-baidu",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.05714,
-      "output": 0.11429
-    },
-    {
-      "model": "deepseek-v3-colossal",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.14286,
-      "output": 0.57143
-    },
-    {
-      "model": "deepseek-v3-coreshub",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.14286,
-      "output": 0.57143
-    },
-    {
-      "model": "deepseek-v3-ctyun",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.14286,
-      "output": 0.57143
-    },
-    {
-      "model": "deepseek-v3-free",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "deepseek-v3-infinigence",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.14286,
-      "output": 0.57143
-    },
-    {
-      "model": "deepseek-v3-openrouter",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.625,
-      "output": 0.625
-    },
-    {
-      "model": "deepseek-v3-openrouter:free",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "deepseek-v3-ppio",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.14286,
-      "output": 0.57143
-    },
-    {
-      "model": "deepseek-v3-ppio-turbo",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.14286,
-      "output": 0.57143
-    },
-    {
-      "model": "deepseek-v3-sensecore",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.14286,
-      "output": 0.57143
-    },
-    {
-      "model": "deepseek-v3-tencent",
-      "type": "tokens",
-      "channel_type": 2001,
-      "input": 0.14286,
-      "output": 0.57143
+      "output": 0.57143,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "deepseek-v3.1",
       "type": "tokens",
       "channel_type": 2001,
       "input": 0.28571,
-      "output": 0.85714
+      "output": 0.85714,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "deepseek-v3.1-terminus",
       "type": "tokens",
       "channel_type": 2001,
       "input": 0.28571,
-      "output": 0.85714
+      "output": 0.85714,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "deepseek-v3.1-terminus-thinking",
       "type": "tokens",
       "channel_type": 2001,
       "input": 0.28571,
-      "output": 0.85714
+      "output": 0.85714,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "deepseek-v3.1-thinking",
       "type": "tokens",
       "channel_type": 2001,
       "input": 0.28571,
-      "output": 0.85714
+      "output": 0.85714,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "openwebui_task_model",

@@ -705,6 +705,16 @@
       }
     },
     {
+      "model": "gpt-5.2-codex",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.875,
+      "output": 7.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "gpt-5.2-pro",
       "type": "tokens",
       "channel_type": 1,
@@ -2218,34 +2228,6 @@
       "channel_type": 16,
       "input": 0.0,
       "output": 267.85714
-    },
-    {
-      "model": "deepseek-r1-aliyun",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-r1-distill-qwen-7b",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.03571,
-      "output": 0.07143
-    },
-    {
-      "model": "deepseek-r1-distill-qwen-7b-aliyun",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.03571,
-      "output": 0.07143
-    },
-    {
-      "model": "deepseek-v3-aliyun",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.14286,
-      "output": 0.57143
     },
     {
       "model": "gte-rerank-v2",
@@ -6419,13 +6401,6 @@
       "output": 0.1429
     },
     {
-      "model": "deepseek-r1-deepseek",
-      "type": "tokens",
-      "channel_type": 28,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
       "model": "deepseek-reasoner",
       "type": "tokens",
       "channel_type": 28,
@@ -6434,20 +6409,6 @@
       "extra_ratios": {
         "cached_tokens": 0.1
       }
-    },
-    {
-      "model": "deepseek-v3-deepseek",
-      "type": "tokens",
-      "channel_type": 28,
-      "input": 0.14286,
-      "output": 0.57143
-    },
-    {
-      "model": "deepseek-v3.1-deepseek",
-      "type": "tokens",
-      "channel_type": 28,
-      "input": 0.28571,
-      "output": 0.85714
     },
     {
       "model": "deepseek-v3.2",
@@ -8374,20 +8335,6 @@
       "channel_type": 45,
       "input": 0.07071,
       "output": 0.07071
-    },
-    {
-      "model": "deepseek-r1-siliconflow",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-v3-siliconflow",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.14286,
-      "output": 0.57143
     },
     {
       "model": "fnlp/MOSS-TTSD-v0.5",
