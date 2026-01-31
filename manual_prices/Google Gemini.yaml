@@ -2,6 +2,7 @@ models:
   Google Gemini:
     # 模型列表：https://ai.google.dev/gemini-api/docs/models
     # 模型价格：https://ai.google.dev/gemini-api/docs/pricing
+    # 模型思考预算: https://ai.google.dev/gemini-api/docs/thinking?hl=zh-cn#thinking-levels
 
     # experimental models
     gemini-2.5-flash-exp-native-audio-thinking-dialog:
@@ -19,6 +20,8 @@ models:
     gemini-3-pro:
       aliases:
         - gemini-3-pro-preview
+        - gemini-3-pro-low
+        - gemini-3-pro-high
       input: 2 usd / M # 4 usd / M when prompt is larger than 200,000 tokens
       output: 12 usd / M # 18 usd / M when prompt is larger than 200,000 tokens
       extra_ratios:
@@ -29,6 +32,10 @@ models:
     gemini-3-flash:
       aliases:
         - gemini-3-flash-preview
+        - gemini-3-flash-minimal
+        - gemini-3-flash-low
+        - gemini-3-flash-medium
+        - gemini-3-flash-high
       input: 0.5 usd / M # 4 usd / M when prompt is larger than 200,000 tokens
       output: 3 usd / M # 18 usd / M when prompt is larger than 200,000 tokens
       extra_ratios:

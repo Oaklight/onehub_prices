@@ -6,9 +6,12 @@ models:
     # Claude 4 系列 - 最新一代模型
     claude-opus-4-5:
       aliases:
-        - claude-opus-4.5
         - claude-opus-4-5-20251124
+        - claude-opus-4.5
         - claude-4.5-opus
+        - claude-opus-4-5-thinking
+        - claude-opus-4.5-thinking
+        - claude-4.5-opus-thinking
       input: 5 usd / M
       output: 25 usd / M
 
@@ -22,9 +25,12 @@ models:
 
     claude-sonnet-4-5:
       aliases:
-        - claude-sonnet-4.5
         - claude-sonnet-4-5-20250929
+        - claude-sonnet-4.5
         - claude-4.5-sonnet
+        - claude-sonnet-4-5-thinking
+        - claude-sonnet-4.5-thinking
+        - claude-4.5-sonnet-thinking
       input: 3 usd / M
       output: 15 usd / M
 
