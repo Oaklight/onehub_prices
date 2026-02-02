@@ -3721,8 +3721,8 @@
       "model": "deepseek/deepseek-v3.2-exp",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.105,
-      "output": 0.16
+      "input": 0.135,
+      "output": 0.205
     },
     {
       "model": "deepseek/deepseek-v3.2-speciale",
@@ -4162,7 +4162,7 @@
       "model": "minimax/minimax-m2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
+      "input": 0.1275,
       "output": 0.5
     },
     {
@@ -4444,13 +4444,6 @@
       "channel_type": 20,
       "input": 0.25,
       "output": 1.4
-    },
-    {
-      "model": "moonshotai/kimi-k2:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "morph/morph-v3-fast",
@@ -5417,6 +5410,13 @@
       "channel_type": 20,
       "input": 0.285,
       "output": 0.71
+    },
+    {
+      "model": "stepfun/step-3.5-flash:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "switchpoint/router",
