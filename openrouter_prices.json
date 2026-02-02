@@ -1972,7 +1972,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.025,
-      "output": 0.125
+      "output": 0.2
     },
     {
       "model": "qwen/qwen3-coder",
