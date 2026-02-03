@@ -4033,13 +4033,6 @@
       "output": 1.75
     },
     {
-      "model": "meta-llama/llama-3.1-405b-instruct:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "meta-llama/llama-3.1-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -4442,8 +4435,8 @@
       "model": "moonshotai/kimi-k2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.4
+      "input": 0.225,
+      "output": 1.25
     },
     {
       "model": "morph/morph-v3-fast",
@@ -5081,13 +5074,6 @@
       "channel_type": 20,
       "input": 0.1,
       "output": 0.1
-    },
-    {
-      "model": "qwen/qwen-2.5-vl-7b-instruct:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "qwen/qwen-max",
