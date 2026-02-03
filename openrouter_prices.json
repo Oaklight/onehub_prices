@@ -1758,6 +1758,13 @@
       "output": 0.195
     },
     {
+      "model": "openrouter/free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "perplexity/sonar",
       "type": "tokens",
       "channel_type": 20,
