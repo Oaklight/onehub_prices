@@ -768,7 +768,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.015,
-      "output": 0.03
+      "output": 0.02
     },
     {
       "model": "meta-llama/llama-3.1-405b",
@@ -1986,6 +1986,13 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.15,
+      "output": 0.75
+    },
+    {
+      "model": "qwen/qwen3-coder-next",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
       "output": 0.75
     },
     {
