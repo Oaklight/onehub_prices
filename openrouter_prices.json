@@ -50,11 +50,11 @@
       "output": 0.2
     },
     {
-      "model": "allenai/molmo-2-8b:free",
+      "model": "allenai/molmo-2-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.1,
+      "output": 0.1
     },
     {
       "model": "allenai/olmo-2-0325-32b-instruct",
@@ -363,27 +363,6 @@
       "channel_type": 20,
       "input": 0.01875,
       "output": 0.075
-    },
-    {
-      "model": "deepcogito/cogito-v2-preview-llama-109b-moe",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.09,
-      "output": 0.295
-    },
-    {
-      "model": "deepcogito/cogito-v2-preview-llama-405b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.75,
-      "output": 1.75
-    },
-    {
-      "model": "deepcogito/cogito-v2-preview-llama-70b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.44,
-      "output": 0.44
     },
     {
       "model": "deepcogito/cogito-v2.1-671b",
@@ -922,7 +901,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.135,
-      "output": 0.55
+      "output": 0.475
     },
     {
       "model": "mistralai/codestral-2508",
@@ -1916,7 +1895,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0355,
-      "output": 0.2315
+      "output": 0.05
     },
     {
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -1992,8 +1971,8 @@
       "model": "qwen/qwen3-coder-next",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.75
+      "input": 0.035,
+      "output": 0.15
     },
     {
       "model": "qwen/qwen3-coder-plus",
@@ -2049,7 +2028,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.1,
-      "output": 0.6
+      "output": 0.44
     },
     {
       "model": "qwen/qwen3-vl-235b-a22b-thinking",
