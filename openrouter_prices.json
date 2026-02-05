@@ -211,6 +211,13 @@
       "output": 12.5
     },
     {
+      "model": "anthropic/claude-opus-4.6",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
       "model": "anthropic/claude-sonnet-4",
       "type": "tokens",
       "channel_type": 20,
