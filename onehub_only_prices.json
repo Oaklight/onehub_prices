@@ -1305,32 +1305,25 @@
       "output": 2.5
     },
     {
-      "model": "claude-4.5-opus",
+      "model": "claude-4.5-opus*",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
       "output": 12.5
     },
     {
-      "model": "claude-4.5-opus-thinking",
+      "model": "claude-4.5-sonnet*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "claude-4.6-opus*",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
       "output": 12.5
-    },
-    {
-      "model": "claude-4.5-sonnet",
-      "type": "tokens",
-      "channel_type": 14,
-      "input": 1.5,
-      "output": 7.5
-    },
-    {
-      "model": "claude-4.5-sonnet-thinking",
-      "type": "tokens",
-      "channel_type": 14,
-      "input": 1.5,
-      "output": 7.5
     },
     {
       "model": "claude-haiku-4-5",
@@ -1403,14 +1396,21 @@
       "output": 12.5
     },
     {
-      "model": "claude-opus-4-5-20251124",
+      "model": "claude-opus-4-5*",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
       "output": 12.5
     },
     {
-      "model": "claude-opus-4-5-thinking",
+      "model": "claude-opus-4-6",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
+      "model": "claude-opus-4-6*",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
@@ -1424,14 +1424,14 @@
       "output": 37.5
     },
     {
-      "model": "claude-opus-4.5",
+      "model": "claude-opus-4.5*",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
       "output": 12.5
     },
     {
-      "model": "claude-opus-4.5-thinking",
+      "model": "claude-opus-4.6*",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
@@ -1466,28 +1466,14 @@
       "output": 7.5
     },
     {
-      "model": "claude-sonnet-4-5-20250929",
+      "model": "claude-sonnet-4-5*",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
       "output": 7.5
     },
     {
-      "model": "claude-sonnet-4-5-thinking",
-      "type": "tokens",
-      "channel_type": 14,
-      "input": 1.5,
-      "output": 7.5
-    },
-    {
-      "model": "claude-sonnet-4.5",
-      "type": "tokens",
-      "channel_type": 14,
-      "input": 1.5,
-      "output": 7.5
-    },
-    {
-      "model": "claude-sonnet-4.5-thinking",
+      "model": "claude-sonnet-4.5*",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
@@ -4015,8 +4001,8 @@
       "model": "meta-llama/llama-3.1-405b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.75,
-      "output": 1.75
+      "input": 2.0,
+      "output": 2.0
     },
     {
       "model": "meta-llama/llama-3.1-70b-instruct",

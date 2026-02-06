@@ -767,8 +767,8 @@
       "model": "meta-llama/llama-3.1-405b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.75,
-      "output": 1.75
+      "input": 2.0,
+      "output": 2.0
     },
     {
       "model": "meta-llama/llama-3.1-70b-instruct",
