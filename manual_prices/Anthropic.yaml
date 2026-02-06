@@ -1,17 +1,21 @@
 models:
   Anthropic:
-    # 模型列表：https://docs.anthropic.com/en/docs/about-claude/models/overview
-    # 模型价格：https://docs.anthropic.com/en/docs/about-claude/pricing
+    # 模型价格：https://platform.claude.com/docs/en/about-claude/pricing.md
 
     # Claude 4 系列 - 最新一代模型
+    claude-opus-4-6:
+      aliases:
+        - claude-opus-4-6*
+        - claude-opus-4.6*
+        - claude-4.6-opus*
+      input: 5 usd / M
+      output: 25 usd / M
+
     claude-opus-4-5:
       aliases:
-        - claude-opus-4-5-20251124
-        - claude-opus-4.5
-        - claude-4.5-opus
-        - claude-opus-4-5-thinking
-        - claude-opus-4.5-thinking
-        - claude-4.5-opus-thinking
+        - claude-opus-4-5*
+        - claude-opus-4.5*
+        - claude-4.5-opus*
       input: 5 usd / M
       output: 25 usd / M
 
@@ -25,12 +29,9 @@ models:
 
     claude-sonnet-4-5:
       aliases:
-        - claude-sonnet-4-5-20250929
-        - claude-sonnet-4.5
-        - claude-4.5-sonnet
-        - claude-sonnet-4-5-thinking
-        - claude-sonnet-4.5-thinking
-        - claude-4.5-sonnet-thinking
+        - claude-sonnet-4-5*
+        - claude-sonnet-4.5*
+        - claude-4.5-sonnet*
       input: 3 usd / M
       output: 15 usd / M
 
@@ -60,7 +61,8 @@ models:
       input: 3 usd / M
       output: 15 usd / M
 
-    # Claude 3.x 系列
+    # Claude 3.x 系列 (部分已弃用)
+    # DEPRECATED: Claude 3.7 Sonnet 已弃用，建议使用 Claude Sonnet 4 或更高版本
     claude-3-7-sonnet:
       aliases:
         - claude-3.7-sonnet
@@ -92,6 +94,7 @@ models:
       input: 0.8 usd / M
       output: 4 usd / M
 
+    # DEPRECATED: Claude 3 Opus 已弃用，建议使用 Claude Opus 4 或更高版本
     claude-3-opus:
       aliases:
         - claude-3-opus-20240229
