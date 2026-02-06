@@ -2665,8 +2665,8 @@
       "model": "qwen-vl-max",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.21429,
-      "output": 0.64286,
+      "input": 0.11429,
+      "output": 0.28571,
       "extra_ratios": {
         "input_image_tokens": 1.0,
         "cached_tokens": 0.2
@@ -2676,8 +2676,8 @@
       "model": "qwen-vl-max-latest",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.21429,
-      "output": 0.64286,
+      "input": 0.11429,
+      "output": 0.28571,
       "extra_ratios": {
         "input_image_tokens": 1.0,
         "cached_tokens": 0.2
@@ -2707,8 +2707,8 @@
       "model": "qwen-vl-plus",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.10714,
-      "output": 0.32143,
+      "input": 0.05714,
+      "output": 0.14286,
       "extra_ratios": {
         "input_image_tokens": 1.0,
         "cached_tokens": 0.2
@@ -2718,8 +2718,8 @@
       "model": "qwen-vl-plus-latest",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.10714,
-      "output": 0.32143,
+      "input": 0.05714,
+      "output": 0.14286,
       "extra_ratios": {
         "input_image_tokens": 1.0,
         "cached_tokens": 0.2
