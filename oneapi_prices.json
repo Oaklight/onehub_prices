@@ -4978,6 +4978,13 @@
       "output": 0.0
     },
     {
+      "model": "openrouter/pony-alpha",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "perplexity/sonar",
       "type": "tokens",
       "channel_type": 20,
@@ -5625,7 +5632,7 @@
       "model": "z-ai/glm-4.7-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.035,
+      "input": 0.03,
       "output": 0.2
     },
     {
