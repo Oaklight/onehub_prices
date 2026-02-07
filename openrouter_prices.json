@@ -1965,7 +1965,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.11,
-      "output": 0.475
+      "output": 0.5
     },
     {
       "model": "qwen/qwen3-coder-30b-a3b-instruct",
