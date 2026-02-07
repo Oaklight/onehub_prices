@@ -4295,8 +4295,8 @@
       "model": "mistralai/mistral-small-24b-instruct-2501",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.015,
-      "output": 0.055
+      "input": 0.025,
+      "output": 0.04
     },
     {
       "model": "mistralai/mistral-small-3.1-24b-instruct",
@@ -4408,7 +4408,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.225,
-      "output": 1.25
+      "output": 1.125
     },
     {
       "model": "morph/morph-v3-fast",
@@ -4876,8 +4876,8 @@
       "model": "openai/gpt-oss-20b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01,
-      "output": 0.05
+      "input": 0.015,
+      "output": 0.07
     },
     {
       "model": "openai/gpt-oss-20b:free",
@@ -5583,8 +5583,8 @@
       "model": "z-ai/glm-4.5-air",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.11
+      "input": 0.065,
+      "output": 0.425
     },
     {
       "model": "z-ai/glm-4.5-air:free",
