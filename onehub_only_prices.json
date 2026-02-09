@@ -4369,13 +4369,6 @@
       "output": 0.15
     },
     {
-      "model": "moonshotai/kimi-dev-72b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.145,
-      "output": 0.575
-    },
-    {
       "model": "moonshotai/kimi-k2",
       "type": "tokens",
       "channel_type": 20,
@@ -5382,13 +5375,6 @@
       "channel_type": 20,
       "input": 0.325,
       "output": 0.375
-    },
-    {
-      "model": "stepfun-ai/step3",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.285,
-      "output": 0.71
     },
     {
       "model": "stepfun/step-3.5-flash:free",
