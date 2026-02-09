@@ -3242,13 +3242,6 @@
       "output": 4.0
     },
     {
-      "model": "ai21/jamba-mini-1.7",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.2
-    },
-    {
       "model": "aion-labs/aion-1.0",
       "type": "tokens",
       "channel_type": 20,
@@ -4400,8 +4393,8 @@
       "model": "moonshotai/kimi-k2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.75
+      "input": 0.225,
+      "output": 1.125
     },
     {
       "model": "morph/morph-v3-fast",
