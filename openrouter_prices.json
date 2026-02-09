@@ -1723,6 +1723,13 @@
       "output": 0.3
     },
     {
+      "model": "openrouter/aurora-alpha",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "openrouter/free",
       "type": "tokens",
       "channel_type": 20,
