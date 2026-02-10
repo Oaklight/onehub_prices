@@ -1839,7 +1839,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.2,
-      "output": 2.0
+      "output": 0.6
     },
     {
       "model": "qwen/qwen-turbo",
@@ -2004,6 +2004,13 @@
     },
     {
       "model": "qwen/qwen3-max",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.6,
+      "output": 3.0
+    },
+    {
+      "model": "qwen/qwen3-max-thinking",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.6,
