@@ -5128,8 +5128,8 @@
       "model": "qwen/qwen3-235b-a22b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.3
+      "input": 0.11,
+      "output": 0.44
     },
     {
       "model": "qwen/qwen3-235b-a22b-2507",
