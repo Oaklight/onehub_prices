@@ -939,21 +939,7 @@
       "output": 0.1
     },
     {
-      "model": "mistralai/ministral-3b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.02,
-      "output": 0.02
-    },
-    {
       "model": "mistralai/ministral-3b-2512",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.05,
-      "output": 0.05
-    },
-    {
-      "model": "mistralai/ministral-8b",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.05,
@@ -1084,13 +1070,6 @@
       "channel_type": 20,
       "input": 0.05,
       "output": 0.15
-    },
-    {
-      "model": "mistralai/mistral-tiny",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.125,
-      "output": 0.125
     },
     {
       "model": "mistralai/mixtral-8x22b-instruct",
@@ -1731,13 +1710,6 @@
     },
     {
       "model": "openrouter/free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "openrouter/pony-alpha",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0,
@@ -2400,6 +2372,13 @@
       "channel_type": 20,
       "input": 0.03,
       "output": 0.2
+    },
+    {
+      "model": "z-ai/glm-5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 1.6
     }
   ]
 }
