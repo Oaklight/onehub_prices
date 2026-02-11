@@ -2150,6 +2150,13 @@
       "output": 0.375
     },
     {
+      "model": "stepfun/step-3.5-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.15
+    },
+    {
       "model": "stepfun/step-3.5-flash:free",
       "type": "tokens",
       "channel_type": 20,

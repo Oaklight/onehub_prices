@@ -1086,6 +1086,13 @@
       "output": 0.0
     },
     {
+      "model": "stepfun-ai/Step-3.5-Flash",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.05,
+      "output": 0.15
+    },
+    {
       "model": "stepfun-ai/step3",
       "type": "tokens",
       "channel_type": 45,

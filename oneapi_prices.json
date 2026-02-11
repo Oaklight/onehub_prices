@@ -5384,6 +5384,13 @@
       "output": 0.375
     },
     {
+      "model": "stepfun/step-3.5-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.15
+    },
+    {
       "model": "stepfun/step-3.5-flash:free",
       "type": "tokens",
       "channel_type": 20,
@@ -8511,6 +8518,13 @@
       "channel_type": 45,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "stepfun-ai/Step-3.5-Flash",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.05,
+      "output": 0.15
     },
     {
       "model": "stepfun-ai/step3",
