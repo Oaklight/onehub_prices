@@ -1,6 +1,6 @@
 models:
   MiniMax:
-    # 模型定价：https://platform.minimaxi.com/docs/guides/pricing-payg
+    # 模型定价：https://platform.minimaxi.com/docs/guides/pricing-paygoo
 
     # M2.1系列 - 强大多语言编程实力，全面升级编程体验
     MiniMax-M2.1:
