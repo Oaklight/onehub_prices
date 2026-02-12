@@ -1,77 +1,84 @@
 models:
-  # https://bigmodel.cn/pricing
+  # 模型价格：https://bigmodel.cn/pricing
 
   Zhipu:
     # llm
-    glm-4.7:
-      input: 4 rmb / M # 取32k-128k的价格，最为常用
-      output: 16 rmb / M
+    # GLM-5 系列 (新增)
+    glm-5:
+      input: 6 rmb / M # 取32k+的价格，最为常用
+      output: 22 rmb / M
       extra_ratios:
-        - cached_tokens: 0.8 rmb / M
-    glm-4.6:
-      input: 4 rmb / M # 取32k-128k的价格，最为常用
-      output: 16 rmb / M
-      extra_ratios:
-        - cached_tokens: 0.8 rmb / M
-    glm-4.5:
-      input: 4 rmb / M # 取32k-128k的价格，最为常用
-      output: 16 rmb / M
-      extra_ratios:
-        - cached_tokens: 0.8 rmb / M
-    glm-4.5-x:
-      input: 16 rmb / M # 取32k-128k的价格，最为常用
-      output: 64 rmb / M
-      extra_ratios:
-        - cached_tokens: 3.2 rmb / M
-    glm-4.5-air:
-      input: 1.2 rmb / M # 取32k-128k的价格，最为常用
-      output: 8 rmb / M
-      extra_ratios:
-        - cached_tokens: 0.24 rmb / M
-    glm-4.5-airx:
-      input: 8 rmb / M # 取32k-128k的价格，最为常用
+        - cached_tokens: 1.5 rmb / M
+    glm-5-code:
+      input: 8 rmb / M # 取32k+的价格，最为常用
       output: 32 rmb / M
       extra_ratios:
-        - cached_tokens: 1.6 rmb / M
-    glm-4.5-flash:
-      input: 0
-      output: 0
+        - cached_tokens: 2 rmb / M
+
+    # GLM-4.7 系列
+    glm-4.7:
+      input: 4 rmb / M # 取32k-200k的价格，最为常用
+      output: 16 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.8 rmb / M
+    glm-4.7-flashx:
+      input: 0.5 rmb / M # 200K上下文
+      output: 3 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.1 rmb / M
     glm-4.7-flash:
       input: 0
       output: 0
 
+    # GLM-4 系列
     glm-4-plus:
-      input: 5 rmb / M
-      output: 5 rmb / M
+      input: 5 rmb / M # 128K上下文，高智能旗舰
+      output: 2.5 rmb / M
     glm-4-air-250414:
-      input: 0.5 rmb / M
-      output: 0.5 rmb / M
+      input: 0.5 rmb / M # 128K上下文，高性价比
+      output: 0.25 rmb / M
     glm-4-airx:
-      input: 10 rmb / M
-      output: 10 rmb / M
+      input: 10 rmb / M # 8K上下文，极速推理
+      output: 0 # 不支持输出计费
     glm-4-long:
-      input: 1 rmb / M
-      output: 1 rmb / M
-    glm-4-assistant:
-      input: 5 rmb / M
-      output: 5 rmb / M
-    glm-z1-air:
-      input: 0.5 rmb / M
+      input: 1 rmb / M # 1M上下文，超长输入
       output: 0.5 rmb / M
-    glm-z1-airx:
-      input: 5 rmb / M
-      output: 5 rmb / M
-    glm-z1-flashx:
-      input: 0.1 rmb / M
-      output: 0.1 rmb / M
+    glm-4-assistant:
+      input: 5 rmb / M # 128K上下文，智能体应用
+      output: 0 # 不支持输出计费
     glm-4-flashx-250414:
-      input: 0.1 rmb / M
-      output: 0.1 rmb / M
+      input: 0.1 rmb / M # 128K上下文，高速低价
+      output: 0.05 rmb / M
     glm-4-flash-250414:
-      input: 0
+      input: 0 # 128K上下文，免费
       output: 0
+
+    # GLM-Z1 系列（推理模型）
+    glm-z1-air:
+      input: 0.5 rmb / M # 128K上下文，高性价比
+      output: 0 # 不支持输出计费
+    glm-z1-airx:
+      input: 5 rmb / M # 32K上下文，极速推理
+      output: 0 # 不支持输出计费
+    glm-z1-flashx:
+      input: 0.1 rmb / M # 128K上下文，高速低价
+      output: 0 # 不支持输出计费
     glm-z1-flash:
-      input: 0
+      input: 0 # 128K上下文，免费
+      output: 0
+
+    # 旧版 GLM-4 模型（已过时但仍可用）
+    glm-4-0520:
+      input: 100 rmb / M # 128K上下文
+      output: 50 rmb / M
+    glm-4:
+      input: 100 rmb / M # 128K上下文
+      output: 50 rmb / M
+    glm-4-air:
+      input: 0.5 rmb / M # 128K上下文
+      output: 0.25 rmb / M
+    glm-4-flash:
+      input: 0 # 128K上下文，免费
       output: 0
 
     # vision
