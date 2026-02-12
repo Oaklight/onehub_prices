@@ -904,6 +904,13 @@
       "output": 0.475
     },
     {
+      "model": "minimax/minimax-m2.5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 0.6
+    },
+    {
       "model": "mistralai/codestral-2508",
       "type": "tokens",
       "channel_type": 20,
@@ -1866,8 +1873,8 @@
       "model": "qwen/qwen3-235b-a22b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.11,
-      "output": 0.44
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "qwen/qwen3-235b-a22b-2507",
@@ -2020,29 +2027,29 @@
       "model": "qwen/qwen3-vl-235b-a22b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.225,
-      "output": 1.75
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.065,
+      "output": 0.26
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.5
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "qwen/qwen3-vl-32b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 0.75
+      "input": 0.052,
+      "output": 0.208
     },
     {
       "model": "qwen/qwen3-vl-8b-instruct",
@@ -2055,8 +2062,8 @@
       "model": "qwen/qwen3-vl-8b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.09,
-      "output": 1.05
+      "input": 0.0585,
+      "output": 0.6825
     },
     {
       "model": "qwen/qwq-32b",
@@ -2377,8 +2384,8 @@
       "model": "z-ai/glm-5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5,
-      "output": 1.6
+      "input": 0.4,
+      "output": 1.28
     }
   ]
 }
