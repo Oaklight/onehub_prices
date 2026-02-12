@@ -4099,8 +4099,8 @@
       "model": "microsoft/wizardlm-2-8x22b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.24,
-      "output": 0.24
+      "input": 0.31,
+      "output": 0.31
     },
     {
       "model": "minimax/minimax-01",
