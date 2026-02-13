@@ -3250,13 +3250,6 @@
       "output": 0.225
     },
     {
-      "model": "allenai/molmo-2-8b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.1
-    },
-    {
       "model": "allenai/olmo-2-0325-32b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -5087,8 +5080,8 @@
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.055,
-      "output": 0.3
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "qwen/qwen3-30b-a3b",
@@ -5117,6 +5110,13 @@
       "channel_type": 20,
       "input": 0.04,
       "output": 0.12
+    },
+    {
+      "model": "qwen/qwen3-4b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.03575,
+      "output": 0.1365
     },
     {
       "model": "qwen/qwen3-4b:free",
