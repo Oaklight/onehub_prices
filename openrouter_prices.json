@@ -1093,13 +1093,6 @@
       "output": 0.27
     },
     {
-      "model": "mistralai/pixtral-12b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.05,
-      "output": 0.05
-    },
-    {
       "model": "mistralai/pixtral-large-2411",
       "type": "tokens",
       "channel_type": 20,

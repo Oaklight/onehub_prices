@@ -4300,13 +4300,6 @@
       "output": 0.27
     },
     {
-      "model": "mistralai/pixtral-12b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.05,
-      "output": 0.05
-    },
-    {
       "model": "mistralai/pixtral-large-2411",
       "type": "tokens",
       "channel_type": 20,
@@ -6377,6 +6370,36 @@
     },
     {
       "model": "MiniMax-M2.1-lightning",
+      "type": "tokens",
+      "channel_type": 27,
+      "input": 0.15,
+      "output": 1.2,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "MiniMax-M2.5",
+      "type": "tokens",
+      "channel_type": 27,
+      "input": 0.15,
+      "output": 0.6,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "MiniMax-M2.5-Lightning",
+      "type": "tokens",
+      "channel_type": 27,
+      "input": 0.15,
+      "output": 1.2,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "MiniMax-M2.5-lightning",
       "type": "tokens",
       "channel_type": 27,
       "input": 0.15,
