@@ -1,6 +1,24 @@
 models:
   MiniMax:
-    # 模型定价：https://platform.minimaxi.com/docs/guides/pricing-paygoo
+    # 模型定价：https://platform.minimaxi.com/docs/guides/pricing-paygo
+
+    # M2.5系列 - 最新旗舰模型
+    MiniMax-M2.5:
+      input: 2.1 rmb / M
+      output: 8.4 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.21 rmb / M
+        # - cached_write_tokens: 2.625 rmb / M
+
+    # M2.5 Lightning - 高效高速Agent模式（M2.5极速版）
+    MiniMax-M2.5-lightning:
+      aliases:
+        - MiniMax-M2.5-Lightning
+      input: 2.1 rmb / M
+      output: 16.8 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.21 rmb / M
+        # - cached_write_tokens: 2.625 rmb / M
 
     # M2.1系列 - 强大多语言编程实力，全面升级编程体验
     MiniMax-M2.1:
