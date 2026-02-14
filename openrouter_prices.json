@@ -43,6 +43,13 @@
       "output": 0.225
     },
     {
+      "model": "allenai/molmo-2-8b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.1
+    },
+    {
       "model": "allenai/olmo-2-0325-32b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -2185,13 +2192,6 @@
       "output": 0.6
     },
     {
-      "model": "tngtech/deepseek-r1t-chimera:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "tngtech/deepseek-r1t2-chimera",
       "type": "tokens",
       "channel_type": 20,
@@ -2199,25 +2199,11 @@
       "output": 0.425
     },
     {
-      "model": "tngtech/deepseek-r1t2-chimera:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "tngtech/tng-r1t-chimera",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.125,
       "output": 0.425
-    },
-    {
-      "model": "tngtech/tng-r1t-chimera:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "undi95/remm-slerp-l2-13b",
