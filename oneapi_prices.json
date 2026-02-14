@@ -9250,6 +9250,86 @@
       "output": 1.14286
     },
     {
+      "model": "doubao-seed-2-0-code*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.34286,
+      "output": 1.71429,
+      "extra_ratios": {
+        "cached_tokens": 0.13333
+      }
+    },
+    {
+      "model": "doubao-seed-2-0-lite*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.06429,
+      "output": 0.38571,
+      "extra_ratios": {
+        "cached_tokens": 0.13333
+      }
+    },
+    {
+      "model": "doubao-seed-2-0-mini*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.02857,
+      "output": 0.28571,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "doubao-seed-2-0-pro*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.34286,
+      "output": 1.71429,
+      "extra_ratios": {
+        "cached_tokens": 0.13333
+      }
+    },
+    {
+      "model": "doubao-seed-2.0-code*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.34286,
+      "output": 1.71429,
+      "extra_ratios": {
+        "cached_tokens": 0.13333
+      }
+    },
+    {
+      "model": "doubao-seed-2.0-lite*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.06429,
+      "output": 0.38571,
+      "extra_ratios": {
+        "cached_tokens": 0.13333
+      }
+    },
+    {
+      "model": "doubao-seed-2.0-mini*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.02857,
+      "output": 0.28571,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "doubao-seed-2.0-pro*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.34286,
+      "output": 1.71429,
+      "extra_ratios": {
+        "cached_tokens": 0.13333
+      }
+    },
+    {
       "model": "doubao-seed-code*",
       "type": "tokens",
       "channel_type": 1002,
