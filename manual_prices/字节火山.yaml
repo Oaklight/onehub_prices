@@ -3,7 +3,52 @@ models:
     # 模型定价：https://www.volcengine.com/docs/82379/1544106
     # 豆包大模型 @ 字节火山
 
-    # 豆包大模型1.8 (最新)
+    # 豆包 Seed 2.0 系列 (最新)
+    doubao-seed-2.0-pro*:
+      aliases:
+        - doubao-seed-2-0-pro*
+      # 阶梯计价：0-32K: 3.2元/M输入，16元/M输出
+      # 32K-128K: 4.8元/M输入，24元/M输出
+      # 128K-256K: 9.6元/M输入，48元/M输出
+      input: 4.8 rmb / M # 取32k～128k价格，最为常见
+      output: 24 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.64 rmb / M
+
+    doubao-seed-2.0-lite*:
+      aliases:
+        - doubao-seed-2-0-lite*
+      # 阶梯计价：0-32K: 0.6元/M输入，3.6元/M输出
+      # 32K-128K: 0.9元/M输入，5.4元/M输出
+      # 128K-256K: 1.8元/M输入，10.8元/M输出
+      input: 0.9 rmb / M # 取32k～128k价格，最为常见
+      output: 5.4 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.12 rmb / M
+
+    doubao-seed-2.0-mini*:
+      aliases:
+        - doubao-seed-2-0-mini*
+      # 阶梯计价：0-32K: 0.2元/M输入，2元/M输出
+      # 32K-128K: 0.4元/M输入，4元/M输出
+      # 128K-256K: 0.8元/M输入，8元/M输出
+      input: 0.4 rmb / M # 取32k～128k价格，最为常见
+      output: 4 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.04 rmb / M
+
+    doubao-seed-2.0-code*:
+      aliases:
+        - doubao-seed-2-0-code*
+      # 阶梯计价：0-32K: 3.2元/M输入，16元/M输出
+      # 32K-128K: 4.8元/M输入，24元/M输出
+      # 128K-256K: 9.6元/M输入，48元/M输出
+      input: 4.8 rmb / M # 取32k～128k价格，最为常见
+      output: 24 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.64 rmb / M
+
+    # 豆包 Seed 1.8 系列
     doubao-seed-1.8*: # function call enabled
       aliases:
         - doubao-seed-1-8-202*
