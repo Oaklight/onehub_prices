@@ -5570,8 +5570,8 @@
       "model": "z-ai/glm-5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4,
-      "output": 1.28
+      "input": 0.375,
+      "output": 1.275
     },
     {
       "model": "ChatPro",
