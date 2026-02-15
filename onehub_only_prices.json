@@ -4346,7 +4346,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.225,
-      "output": 1.125
+      "output": 0.22
     },
     {
       "model": "morph/morph-v3-fast",
@@ -7551,6 +7551,13 @@
     },
     {
       "model": "Pro/MiniMaxAI/MiniMax-M2.1",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.15,
+      "output": 0.6
+    },
+    {
+      "model": "Pro/MiniMaxAI/MiniMax-M2.5",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.15,

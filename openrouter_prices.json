@@ -1139,7 +1139,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.225,
-      "output": 1.125
+      "output": 0.22
     },
     {
       "model": "morph/morph-v3-fast",
