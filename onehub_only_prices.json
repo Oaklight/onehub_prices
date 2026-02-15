@@ -6321,7 +6321,8 @@
       "input": 0.15,
       "output": 0.6,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.1,
+        "cached_write_tokens": 1.25
       }
     },
     {
@@ -6331,7 +6332,8 @@
       "input": 0.15,
       "output": 0.6,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.1,
+        "cached_write_tokens": 1.25
       }
     },
     {
@@ -6341,27 +6343,41 @@
       "input": 0.15,
       "output": 0.6,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.1,
+        "cached_write_tokens": 1.25
       }
     },
     {
       "model": "MiniMax-M2.1-Lightning",
       "type": "tokens",
       "channel_type": 27,
-      "input": 0.15,
+      "input": 0.3,
       "output": 1.2,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.05,
+        "cached_write_tokens": 0.625
+      }
+    },
+    {
+      "model": "MiniMax-M2.1-highspeed",
+      "type": "tokens",
+      "channel_type": 27,
+      "input": 0.3,
+      "output": 1.2,
+      "extra_ratios": {
+        "cached_tokens": 0.05,
+        "cached_write_tokens": 0.625
       }
     },
     {
       "model": "MiniMax-M2.1-lightning",
       "type": "tokens",
       "channel_type": 27,
-      "input": 0.15,
+      "input": 0.3,
       "output": 1.2,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.05,
+        "cached_write_tokens": 0.625
       }
     },
     {
@@ -6371,27 +6387,41 @@
       "input": 0.15,
       "output": 0.6,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.1,
+        "cached_write_tokens": 1.25
       }
     },
     {
       "model": "MiniMax-M2.5-Lightning",
       "type": "tokens",
       "channel_type": 27,
-      "input": 0.15,
+      "input": 0.3,
       "output": 1.2,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.05,
+        "cached_write_tokens": 0.625
+      }
+    },
+    {
+      "model": "MiniMax-M2.5-highspeed",
+      "type": "tokens",
+      "channel_type": 27,
+      "input": 0.3,
+      "output": 1.2,
+      "extra_ratios": {
+        "cached_tokens": 0.05,
+        "cached_write_tokens": 0.625
       }
     },
     {
       "model": "MiniMax-M2.5-lightning",
       "type": "tokens",
       "channel_type": 27,
-      "input": 0.15,
+      "input": 0.3,
       "output": 1.2,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.05,
+        "cached_write_tokens": 0.625
       }
     },
     {
