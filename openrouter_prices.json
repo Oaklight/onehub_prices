@@ -1117,8 +1117,8 @@
       "model": "moonshotai/kimi-k2-0905",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.195,
-      "output": 0.95
+      "input": 0.2,
+      "output": 1.0
     },
     {
       "model": "moonshotai/kimi-k2-0905:exacto",
@@ -1139,7 +1139,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.225,
-      "output": 0.22
+      "output": 1.1
     },
     {
       "model": "morph/morph-v3-fast",
