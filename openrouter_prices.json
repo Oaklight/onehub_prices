@@ -445,7 +445,7 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
+      "input": 0.13,
       "output": 0.19
     },
     {

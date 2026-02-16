@@ -2231,11 +2231,121 @@
       "output": 267.85714
     },
     {
+      "model": "MiniMax-M2.1",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.15,
+      "output": 0.6
+    },
+    {
+      "model": "deepseek-r1",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.28571,
+      "output": 1.14286
+    },
+    {
+      "model": "deepseek-r1-0528",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.28571,
+      "output": 1.14286
+    },
+    {
+      "model": "deepseek-v3",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.14286,
+      "output": 0.57143
+    },
+    {
+      "model": "deepseek-v3.1",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.28571,
+      "output": 0.85714
+    },
+    {
+      "model": "deepseek-v3.2",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.14286,
+      "output": 0.21429,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "deepseek-v3.2-exp",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.14286,
+      "output": 0.21429,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "glm-4.5",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.21429,
+      "output": 1.0
+    },
+    {
+      "model": "glm-4.5-air",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.05714,
+      "output": 0.42857
+    },
+    {
+      "model": "glm-4.6",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.21429,
+      "output": 1.0
+    },
+    {
+      "model": "glm-4.7",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.21429,
+      "output": 1.0
+    },
+    {
       "model": "gte-rerank-v2",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.05714,
       "output": 0.0
+    },
+    {
+      "model": "gui-plus",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.10714,
+      "output": 0.32143,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
+    },
+    {
+      "model": "kimi-k2-thinking",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.28571,
+      "output": 1.14286
+    },
+    {
+      "model": "kimi-k2.5",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.28571,
+      "output": 1.14286,
+      "extra_ratios": {
+        "reasoning_tokens": 5.25
+      }
     },
     {
       "model": "multimodal-embedding-v1",
@@ -2452,6 +2562,20 @@
       "output": 8.5714
     },
     {
+      "model": "qwen-mt-flash",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.05,
+      "output": 0.13929
+    },
+    {
+      "model": "qwen-mt-lite",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.04286,
+      "output": 0.11429
+    },
+    {
       "model": "qwen-mt-plus",
       "type": "tokens",
       "channel_type": 17,
@@ -2602,6 +2726,17 @@
       }
     },
     {
+      "model": "qwen-plus-2025-12*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.05714,
+      "output": 0.14286,
+      "extra_ratios": {
+        "reasoning_tokens": 10.0,
+        "cached_tokens": 0.2
+      }
+    },
+    {
       "model": "qwen-plus-latest",
       "type": "tokens",
       "channel_type": 17,
@@ -2660,8 +2795,8 @@
       "model": "qwen-vl-ocr",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.35714,
-      "output": 0.35714,
+      "input": 0.02143,
+      "output": 0.03571,
       "extra_ratios": {
         "input_image_tokens": 1.0
       }
@@ -2670,8 +2805,8 @@
       "model": "qwen-vl-ocr-*",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.35714,
-      "output": 0.35714,
+      "input": 0.02143,
+      "output": 0.03571,
       "extra_ratios": {
         "input_image_tokens": 1.0
       }
@@ -3025,6 +3160,13 @@
       "output": 0.28571
     },
     {
+      "model": "qwen3-omni-30b-a3b-captioner",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 1.12857,
+      "output": 0.90714
+    },
+    {
       "model": "qwen3-omni-flash",
       "type": "tokens",
       "channel_type": 17,
@@ -3073,6 +3215,79 @@
       }
     },
     {
+      "model": "qwen3-rerank",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.03571,
+      "output": 0.0
+    },
+    {
+      "model": "qwen3-vl-235b-a22b-instruct",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.14286,
+      "output": 0.57143
+    },
+    {
+      "model": "qwen3-vl-235b-a22b-thinking",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.14286,
+      "output": 1.42857
+    },
+    {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.05357,
+      "output": 0.21429
+    },
+    {
+      "model": "qwen3-vl-30b-a3b-thinking",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.05357,
+      "output": 0.53571
+    },
+    {
+      "model": "qwen3-vl-32b-instruct",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.14286,
+      "output": 0.57143
+    },
+    {
+      "model": "qwen3-vl-32b-thinking",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.14286,
+      "output": 1.42857
+    },
+    {
+      "model": "qwen3-vl-8b-instruct",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.03571,
+      "output": 0.14286
+    },
+    {
+      "model": "qwen3-vl-8b-thinking",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.03571,
+      "output": 0.35714
+    },
+    {
+      "model": "qwen3-vl-embedding",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.05,
+      "output": 0.0,
+      "extra_ratios": {
+        "input_image_tokens": 2.57143
+      }
+    },
+    {
       "model": "qwen3-vl-flash",
       "type": "tokens",
       "channel_type": 17,
@@ -3117,6 +3332,27 @@
       }
     },
     {
+      "model": "qwen3.5-397b-a17b",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.08571,
+      "output": 0.51429
+    },
+    {
+      "model": "qwen3.5-plus",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.05714,
+      "output": 0.34286
+    },
+    {
+      "model": "qwen3.5-plus-2026*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.05714,
+      "output": 0.34286
+    },
+    {
       "model": "qwq-plus",
       "type": "tokens",
       "channel_type": 17,
@@ -3150,6 +3386,20 @@
       "channel_type": 17,
       "input": 0.03571,
       "output": 0.0
+    },
+    {
+      "model": "tongyi-xiaomi-analysis-flash",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.01429,
+      "output": 0.02857
+    },
+    {
+      "model": "tongyi-xiaomi-analysis-pro",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.07143,
+      "output": 0.19286
     },
     {
       "model": "SparkDesk-v1.1",
@@ -3652,7 +3902,7 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
+      "input": 0.13,
       "output": 0.19
     },
     {
