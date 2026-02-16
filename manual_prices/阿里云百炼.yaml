@@ -28,9 +28,21 @@ models:
       extra_ratios:
         - cached_tokens: 0.2
 
+    # Qwen3.5 Plus - 支持文本、图像和视频输入，纯文本效果可媲美 Qwen3 Max
+    qwen3.5-plus:
+      aliases:
+        - qwen3.5-plus-2026*
+      # 默认开启思考模式
+      # 阶梯计价：0<Token≤128K: 0.8元输入/4.8元输出 (per M)
+      # 128K<Token≤256K: 2元输入/12元输出
+      # 256K<Token≤1M: 4元输入/24元输出
+      input: 0.0008 rmb / K # 取0～128k价格，最为常用
+      output: 0.0048 rmb / K
+
     qwen-plus: # 已升级qwen3
       aliases:
         - qwen-plus-latest
+        - qwen-plus-2025-12*
         - qwen-plus-2025-09*
         - qwen-plus-2025-07*
         - qwen-plus-2025-04*
@@ -121,13 +133,13 @@ models:
         - input_image_tokens: 0.0003 rmb / K # 图像输入与文本输入同价
         - cached_tokens: 0.2
 
-    # 通义千问OCR
+    # 通义千问OCR (qwen-vl-ocr-2025-11-20 基于 Qwen3-VL 架构)
     qwen-vl-ocr:
       aliases: qwen-vl-ocr-*
-      input: 0.005 rmb / K
-      output: 0.005 rmb / K
+      input: 0.0003 rmb / K # 2025-11-20后降价
+      output: 0.0005 rmb / K
       extra_ratios:
-        - input_image_tokens: 0.005 rmb / K # 图像输入与文本输入同价
+        - input_image_tokens: 0.0003 rmb / K # 图像输入与文本输入同价
 
     # 数学模型
     qwen-math-plus:
@@ -183,6 +195,12 @@ models:
     qwen-mt-plus:
       input: 0.0018 rmb / K
       output: 0.0054 rmb / K
+    qwen-mt-flash:
+      input: 0.0007 rmb / K
+      output: 0.00195 rmb / K
+    qwen-mt-lite:
+      input: 0.0006 rmb / K
+      output: 0.0016 rmb / K
     qwen-mt-turbo:
       input: 0.0007 rmb / K
       output: 0.00195 rmb / K
@@ -197,13 +215,34 @@ models:
       input: 0.054 rmb / K
       output: 0.163 rmb / K
 
+    # 对话分析模型
+    tongyi-xiaomi-analysis-flash:
+      input: 0.0002 rmb / K
+      output: 0.0004 rmb / K
+    tongyi-xiaomi-analysis-pro:
+      input: 0.001 rmb / K
+      output: 0.0027 rmb / K
+
+    # 界面交互模型
+    gui-plus:
+      input: 0.0015 rmb / K
+      output: 0.0045 rmb / K
+      extra_ratios:
+        - input_image_tokens: 0.0015 rmb / K # 图像输入与文本输入同价
+
     # embedding & reranking models
     multimodal-embedding-v1:
       input: 0
       output: 0
+    qwen3-vl-embedding:
+      input: 0.0007 rmb / K # 文本输入
+      extra_ratios:
+        - input_image_tokens: 0.0018 rmb / K # 图片/视频输入
     text-embedding-v3:
       input: 0.0005 rmb / K
     text-embedding-v4:
+      input: 0.0005 rmb / K
+    qwen3-rerank:
       input: 0.0005 rmb / K
     gte-rerank-v2:
       input: 0.0008 rmb / K
@@ -257,6 +296,13 @@ models:
         - output_audio_tokens: 0.24 rmb / K
 
     # =================================== 开源模型，仅包含最新 ===================================
+
+    # qwen3.5 开源版
+    qwen3.5-397b-a17b:
+      # 阶梯计价：0<Token≤128K: 1.2元输入/7.2元输出 (per M)
+      # 128K<Token≤256K: 3元输入/18元输出
+      input: 0.0012 rmb / K # 取0～128k价格
+      output: 0.0072 rmb / K
 
     # qwen3-next
     qwen3-next:
@@ -316,6 +362,106 @@ models:
       output: 0.0012 rmb / K
       extra_ratios:
         - reasoning_tokens: 0.003 rmb / K
+
+    # qwen3-vl 开源版
+    qwen3-vl-235b-a22b-instruct:
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    qwen3-vl-235b-a22b-thinking:
+      input: 0.002 rmb / K
+      output: 0.02 rmb / K
+
+    qwen3-vl-32b-instruct:
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    qwen3-vl-32b-thinking:
+      input: 0.002 rmb / K
+      output: 0.02 rmb / K
+
+    qwen3-vl-30b-a3b-instruct:
+      input: 0.00075 rmb / K
+      output: 0.003 rmb / K
+    qwen3-vl-30b-a3b-thinking:
+      input: 0.00075 rmb / K
+      output: 0.0075 rmb / K
+
+    qwen3-vl-8b-instruct:
+      input: 0.0005 rmb / K
+      output: 0.002 rmb / K
+    qwen3-vl-8b-thinking:
+      input: 0.0005 rmb / K
+      output: 0.005 rmb / K
+
+    # qwen3-omni captioner
+    qwen3-omni-30b-a3b-captioner:
+      input: 0.0158 rmb / K
+      output: 0.0127 rmb / K
+
+    # =================================== 第三方模型 ===================================
+
+    # DeepSeek (阿里云百炼托管)
+    deepseek-v3.2:
+      aliases:
+        - deepseek-v3.2-exp
+      input: 0.002 rmb / K
+      output: 0.003 rmb / K
+      extra_ratios:
+        - cached_tokens: 0.2
+
+    deepseek-v3.1:
+      input: 0.004 rmb / K
+      output: 0.012 rmb / K
+
+    deepseek-r1:
+      aliases:
+        - deepseek-r1-0528
+      input: 0.004 rmb / K
+      output: 0.016 rmb / K
+
+    deepseek-v3:
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+
+    # Kimi (阿里云百炼托管)
+    kimi-k2.5:
+      input: 0.004 rmb / K
+      output: 0.016 rmb / K # 非思考模式
+      extra_ratios:
+        - reasoning_tokens: 0.021 rmb / K # 思考模式输出
+
+    kimi-k2-thinking:
+      input: 0.004 rmb / K
+      output: 0.016 rmb / K
+
+    # GLM (阿里云百炼托管)
+    glm-4.7:
+      # 阶梯计价：0<Token≤32K: 3元输入/14元输出
+      # 32K<Token≤166K: 4元输入/16元输出
+      input: 0.003 rmb / K # 取0～32k价格
+      output: 0.014 rmb / K
+
+    glm-4.6:
+      # 阶梯计价：0<Token≤32K: 3元输入/14元输出
+      # 32K<Token≤166K: 4元输入/16元输出
+      input: 0.003 rmb / K
+      output: 0.014 rmb / K
+
+    glm-4.5:
+      # 阶梯计价：0<Token≤32K: 3元输入/14元输出
+      # 32K<Token≤96K: 4元输入/16元输出
+      input: 0.003 rmb / K
+      output: 0.014 rmb / K
+
+    glm-4.5-air:
+      # 阶梯计价：0<Token≤32K: 0.8元输入/6元输出
+      # 32K<Token≤96K: 1.2元输入/8元输出
+      input: 0.0008 rmb / K
+      output: 0.006 rmb / K
+
+    # MiniMax (阿里云百炼托管)
+    MiniMax-M2.1:
+      input: 0.0021 rmb / K
+      output: 0.0084 rmb / K
 
     #  =================================== 陈旧aliases ===================================
 
