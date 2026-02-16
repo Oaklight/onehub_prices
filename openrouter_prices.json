@@ -907,8 +907,8 @@
       "model": "minimax/minimax-m2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.5
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "mistralai/codestral-2508",
@@ -1138,8 +1138,8 @@
       "model": "moonshotai/kimi-k2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.225,
-      "output": 1.1
+      "input": 0.115,
+      "output": 1.5
     },
     {
       "model": "morph/morph-v3-fast",
@@ -2066,6 +2066,20 @@
       "output": 0.6825
     },
     {
+      "model": "qwen/qwen3.5-397b-a17b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.3,
+      "output": 1.8
+    },
+    {
+      "model": "qwen/qwen3.5-plus-02-15",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.2,
+      "output": 1.2
+    },
+    {
       "model": "qwen/qwq-32b",
       "type": "tokens",
       "channel_type": 20,
@@ -2363,7 +2377,7 @@
       "model": "z-ai/glm-5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.375,
+      "input": 0.15,
       "output": 1.275
     }
   ]
