@@ -225,6 +225,13 @@
       "output": 7.5
     },
     {
+      "model": "anthropic/claude-sonnet-4.6",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
       "model": "arcee-ai/coder-large",
       "type": "tokens",
       "channel_type": 20,
@@ -908,7 +915,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.15,
-      "output": 0.6
+      "output": 0.55
     },
     {
       "model": "mistralai/codestral-2508",
@@ -2069,8 +2076,8 @@
       "model": "qwen/qwen3.5-397b-a17b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 1.8
+      "input": 0.075,
+      "output": 0.5
     },
     {
       "model": "qwen/qwen3.5-plus-02-15",
