@@ -1,8 +1,9 @@
 models:
   Anthropic:
     # 模型价格：https://platform.claude.com/docs/en/about-claude/pricing.md
+    # 模型列表：https://platform.claude.com/docs/en/about-claude/models.md
 
-    # Claude 4 系列 - 最新一代模型
+    # Claude 4.6 系列 - 最新一代模型
     claude-opus-4-6:
       aliases:
         - claude-opus-4-6*
@@ -10,31 +11,53 @@ models:
         - claude-4.6-opus*
       input: 5 usd / M
       output: 25 usd / M
+      extra_ratios:
+        - cached_tokens: 0.1
 
+    claude-sonnet-4-6:
+      aliases:
+        - claude-sonnet-4-6*
+        - claude-sonnet-4.6*
+        - claude-4.6-sonnet*
+      input: 3 usd / M
+      output: 15 usd / M
+      extra_ratios:
+        - cached_tokens: 0.1
+
+    # Claude 4.5 系列
     claude-opus-4-5:
       aliases:
         - claude-opus-4-5*
         - claude-opus-4.5*
         - claude-4.5-opus*
+        - claude-opus-4-5-20251101
       input: 5 usd / M
       output: 25 usd / M
-
-    claude-haiku-4-5:
-      aliases:
-        - claude-haiku-4.5
-        - claude-haiku-4-5-20251015
-        - claude-4.5-haiku
-      input: 1 usd / M
-      output: 5 usd / M
+      extra_ratios:
+        - cached_tokens: 0.1
 
     claude-sonnet-4-5:
       aliases:
         - claude-sonnet-4-5*
         - claude-sonnet-4.5*
         - claude-4.5-sonnet*
+        - claude-sonnet-4-5-20250929
       input: 3 usd / M
       output: 15 usd / M
+      extra_ratios:
+        - cached_tokens: 0.1
 
+    claude-haiku-4-5:
+      aliases:
+        - claude-haiku-4.5
+        - claude-haiku-4-5-20251001
+        - claude-4.5-haiku
+      input: 1 usd / M
+      output: 5 usd / M
+      extra_ratios:
+        - cached_tokens: 0.1
+
+    # Claude 4.1 / 4.0 系列
     claude-opus-4-1:
       aliases:
         - claude-opus-4.1
@@ -42,6 +65,8 @@ models:
         - claude-4.1-opus
       input: 15 usd / M
       output: 75 usd / M
+      extra_ratios:
+        - cached_tokens: 0.1
 
     claude-opus-4:
       aliases:
@@ -51,6 +76,8 @@ models:
         - claude-4.0-opus
       input: 15 usd / M
       output: 75 usd / M
+      extra_ratios:
+        - cached_tokens: 0.1
 
     claude-sonnet-4:
       aliases:
@@ -60,9 +87,11 @@ models:
         - claude-4.0-sonnet
       input: 3 usd / M
       output: 15 usd / M
+      extra_ratios:
+        - cached_tokens: 0.1
 
     # Claude 3.x 系列 (部分已弃用)
-    # DEPRECATED: Claude 3.7 Sonnet 已弃用，建议使用 Claude Sonnet 4 或更高版本
+    # DEPRECATED: Claude 3.7 Sonnet 已弃用，建议使用 Claude Sonnet 4.6 或更高版本
     claude-3-7-sonnet:
       aliases:
         - claude-3.7-sonnet
@@ -70,7 +99,10 @@ models:
         - claude-3-7-sonnet-latest
       input: 3 usd / M
       output: 15 usd / M
+      extra_ratios:
+        - cached_tokens: 0.1
 
+    # DEPRECATED: Claude 3.5 Sonnet 已弃用，建议使用 Claude Sonnet 4.6 或更高版本
     claude-3-5-sonnet-v2:
       aliases:
         - claude-3.5-sonnet-v2
@@ -78,6 +110,8 @@ models:
         - claude-3-5-sonnet-latest
       input: 3 usd / M
       output: 15 usd / M
+      extra_ratios:
+        - cached_tokens: 0.1
 
     claude-3-5-sonnet:
       aliases:
@@ -85,6 +119,8 @@ models:
         - claude-3-5-sonnet-20240620
       input: 3 usd / M
       output: 15 usd / M
+      extra_ratios:
+        - cached_tokens: 0.1
 
     claude-3-5-haiku:
       aliases:
@@ -93,16 +129,22 @@ models:
         - claude-3-5-haiku-latest
       input: 0.8 usd / M
       output: 4 usd / M
+      extra_ratios:
+        - cached_tokens: 0.1
 
-    # DEPRECATED: Claude 3 Opus 已弃用，建议使用 Claude Opus 4 或更高版本
+    # DEPRECATED: Claude 3 Opus 已弃用，建议使用 Claude Opus 4.6 或更高版本
     claude-3-opus:
       aliases:
         - claude-3-opus-20240229
       input: 15 usd / M
       output: 75 usd / M
+      extra_ratios:
+        - cached_tokens: 0.1
 
     claude-3-haiku:
       aliases:
         - claude-3-haiku-20240307
       input: 0.25 usd / M
       output: 1.25 usd / M
+      extra_ratios:
+        - cached_tokens: 0.1
