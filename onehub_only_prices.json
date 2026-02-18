@@ -1127,105 +1127,150 @@
       "type": "tokens",
       "channel_type": 14,
       "input": 0.4,
-      "output": 2.0
+      "output": 2.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3-5-haiku-20241022",
       "type": "tokens",
       "channel_type": 14,
       "input": 0.4,
-      "output": 2.0
+      "output": 2.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3-5-haiku-latest",
       "type": "tokens",
       "channel_type": 14,
       "input": 0.4,
-      "output": 2.0
+      "output": 2.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3-5-sonnet",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3-5-sonnet-20240620",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3-5-sonnet-20241022",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3-5-sonnet-latest",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3-5-sonnet-v2",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3-7-sonnet",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3-7-sonnet-20250219",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3-7-sonnet-latest",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3-haiku",
       "type": "tokens",
       "channel_type": 14,
       "input": 0.125,
-      "output": 0.625
+      "output": 0.625,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3-haiku-20240307",
       "type": "tokens",
       "channel_type": 14,
       "input": 0.125,
-      "output": 0.625
+      "output": 0.625,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3-opus",
       "type": "tokens",
       "channel_type": 14,
       "input": 7.5,
-      "output": 37.5
+      "output": 37.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3-opus-20240229",
       "type": "tokens",
       "channel_type": 14,
       "input": 7.5,
-      "output": 37.5
+      "output": 37.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3-sonnet-20240229",
@@ -1239,112 +1284,170 @@
       "type": "tokens",
       "channel_type": 14,
       "input": 0.4,
-      "output": 2.0
+      "output": 2.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3.5-sonnet",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3.5-sonnet-v2",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-3.7-sonnet",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-4-opus",
       "type": "tokens",
       "channel_type": 14,
       "input": 7.5,
-      "output": 37.5
+      "output": 37.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-4-sonnet",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-4.0-opus",
       "type": "tokens",
       "channel_type": 14,
       "input": 7.5,
-      "output": 37.5
+      "output": 37.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-4.0-sonnet",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-4.1-opus",
       "type": "tokens",
       "channel_type": 14,
       "input": 7.5,
-      "output": 37.5
+      "output": 37.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-4.5-haiku",
       "type": "tokens",
       "channel_type": 14,
       "input": 0.5,
-      "output": 2.5
+      "output": 2.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-4.5-opus*",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
-      "output": 12.5
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-4.5-sonnet*",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-4.6-opus*",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
-      "output": 12.5
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-4.6-sonnet*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-haiku-4-5",
       "type": "tokens",
       "channel_type": 14,
       "input": 0.5,
-      "output": 2.5
+      "output": 2.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
-      "model": "claude-haiku-4-5-20251015",
+      "model": "claude-haiku-4-5-20251001",
       "type": "tokens",
       "channel_type": 14,
       "input": 0.5,
-      "output": 2.5
+      "output": 2.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-haiku-4.5",
       "type": "tokens",
       "channel_type": 14,
       "input": 0.5,
-      "output": 2.5
+      "output": 2.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-instant-1.2",
@@ -1358,126 +1461,230 @@
       "type": "tokens",
       "channel_type": 14,
       "input": 7.5,
-      "output": 37.5
+      "output": 37.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-opus-4-0",
       "type": "tokens",
       "channel_type": 14,
       "input": 7.5,
-      "output": 37.5
+      "output": 37.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-opus-4-1",
       "type": "tokens",
       "channel_type": 14,
       "input": 7.5,
-      "output": 37.5
+      "output": 37.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-opus-4-1-20250805",
       "type": "tokens",
       "channel_type": 14,
       "input": 7.5,
-      "output": 37.5
+      "output": 37.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-opus-4-20250514",
       "type": "tokens",
       "channel_type": 14,
       "input": 7.5,
-      "output": 37.5
+      "output": 37.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-opus-4-5",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
-      "output": 12.5
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-opus-4-5*",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
-      "output": 12.5
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-opus-4-6",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
-      "output": 12.5
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-opus-4-6*",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
-      "output": 12.5
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-opus-4.1",
       "type": "tokens",
       "channel_type": 14,
       "input": 7.5,
-      "output": 37.5
+      "output": 37.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-opus-4.5*",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
-      "output": 12.5
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-opus-4.6*",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
-      "output": 12.5
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-sonnet-4",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-sonnet-4-0",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-sonnet-4-20250514",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-sonnet-4-5",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-sonnet-4-5*",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-sonnet-4-5-20250929",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-sonnet-4-6*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "claude-sonnet-4.5*",
       "type": "tokens",
       "channel_type": 14,
       "input": 1.5,
-      "output": 7.5
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-sonnet-4.6*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.5,
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "BLOOMZ-7B",
