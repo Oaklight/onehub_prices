@@ -4385,8 +4385,8 @@
       "model": "mistralai/devstral-2512",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.11
+      "input": 0.2,
+      "output": 1.0
     },
     {
       "model": "mistralai/devstral-medium",
@@ -4751,13 +4751,6 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
-    },
-    {
-      "model": "openai/chatgpt-4o-latest",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 2.5,
-      "output": 7.5
     },
     {
       "model": "openai/gpt-3.5-turbo",
