@@ -1898,13 +1898,6 @@
       "output": 0.12
     },
     {
-      "model": "qwen/qwen3-4b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.03575,
-      "output": 0.1365
-    },
-    {
       "model": "qwen/qwen3-4b:free",
       "type": "tokens",
       "channel_type": 20,
