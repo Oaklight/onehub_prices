@@ -4232,6 +4232,13 @@
       "output": 6.0
     },
     {
+      "model": "google/gemini-3.1-pro-preview",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 6.0
+    },
+    {
       "model": "google/gemma-2-27b-it",
       "type": "tokens",
       "channel_type": 20,
