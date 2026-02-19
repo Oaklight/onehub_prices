@@ -1257,8 +1257,8 @@
       "model": "nvidia/nemotron-nano-12b-v2-vl",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.3
+      "input": 0.035,
+      "output": 0.1
     },
     {
       "model": "nvidia/nemotron-nano-12b-v2-vl:free",
