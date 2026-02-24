@@ -414,13 +414,6 @@
       "output": 0.875
     },
     {
-      "model": "deepseek/deepseek-r1-0528:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "deepseek/deepseek-r1-distill-llama-70b",
       "type": "tokens",
       "channel_type": 20,
@@ -452,8 +445,8 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.13,
-      "output": 0.19
+      "input": 0.125,
+      "output": 0.2
     },
     {
       "model": "deepseek/deepseek-v3.2-exp",
@@ -2328,8 +2321,8 @@
       "model": "z-ai/glm-4.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.19,
-      "output": 0.85
+      "input": 0.15,
+      "output": 0.7
     },
     {
       "model": "z-ai/glm-4.7-flash",
