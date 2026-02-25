@@ -4897,13 +4897,6 @@
       "output": 0.6
     },
     {
-      "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.3,
-      "output": 0.9
-    },
-    {
       "model": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
       "type": "tokens",
       "channel_type": 20,
