@@ -15,7 +15,30 @@ models:
       input: 0
       output: 0
 
-    # Gemini 3 Pro Preview
+    # Gemini 3.1 Pro Preview
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-pro-preview
+    gemini-3.1-pro:
+      aliases:
+        - gemini-3.1-pro-preview
+        - gemini-3.1-pro-preview-customtools
+      input: 2 usd / M # 4 usd / M when prompt is larger than 200,000 tokens
+      output: 12 usd / M # 18 usd / M when prompt is larger than 200,000 tokens
+      extra_ratios:
+        - cached_tokens: 0.2 usd / M # 0.4 usd / M when prompt is larger than 200,000 tokens
+
+    # Gemini 3.1 Flash Image Preview (Nano Banana 2)
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-image-preview
+    gemini-3.1-flash-image-preview:
+      input: 0.25 usd / M # text/image
+      output: 1.5 usd / M # text and thinking
+      extra_ratios:
+        - output_image_tokens: 60 usd / M
+        # $0.045 per 512px image (747 tokens)
+        # $0.067 per 1K image (1120 tokens)
+        # $0.101 per 2K image (1680 tokens)
+        # $0.151 per 4K image (2520 tokens)
+
+    # Gemini 3 Pro Preview (Deprecated, will be shut down March 9, 2026)
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-3-pro-preview
     gemini-3-pro:
       aliases:
@@ -154,7 +177,7 @@ models:
       input: 1 usd / M
       output: 20 usd / M
 
-    # Gemini 2.0 Flash
+    # Gemini 2.0 Flash (Deprecated)
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.0-flash
     gemini-2.0-flash:
       input: 0.1 usd / M
@@ -183,7 +206,7 @@ models:
         - input_audio_tokens: 2.1 usd / M
         - output_audio_tokens: 8.5 usd / M
 
-    # Gemini 2.0 Flash-Lite
+    # Gemini 2.0 Flash-Lite (Deprecated)
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.0-flash-lite
     gemini-2.0-flash-lite:
       input: 0.075 usd / M
@@ -217,11 +240,11 @@ models:
     # https://ai.google.dev/gemini-api/docs/pricing#veo-3.1
     veo-3.1:
       aliases: veo-3.1-generate-preview
-      output: 0.40 usd / second # Video with audio price
+      output: 0.40 usd / second # 720p/1080p video with audio; $0.60/s for 4K
 
     veo-3.1-fast:
       aliases: veo-3.1-fast-generate-preview
-      output: 0.15 usd / second # Video with audio price
+      output: 0.15 usd / second # 720p/1080p video with audio; $0.35/s for 4K
 
     # Veo 3
     # https://ai.google.dev/gemini-api/docs/pricing#veo-3
