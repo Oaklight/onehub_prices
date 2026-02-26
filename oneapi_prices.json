@@ -4001,6 +4001,13 @@
       "output": 0.15
     },
     {
+      "model": "bytedance-seed/seed-2.0-mini",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.2
+    },
+    {
       "model": "bytedance/ui-tars-1.5-7b",
       "type": "tokens",
       "channel_type": 20,
@@ -6528,6 +6535,46 @@
     },
     {
       "model": "gemini-3-pro-preview",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 1.0,
+      "output": 6.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gemini-3.1-flash-image-preview",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.125,
+      "output": 0.75,
+      "extra_ratios": {
+        "output_image_tokens": 40.0
+      }
+    },
+    {
+      "model": "gemini-3.1-pro",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 1.0,
+      "output": 6.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gemini-3.1-pro-preview",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 1.0,
+      "output": 6.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gemini-3.1-pro-preview-customtools",
       "type": "tokens",
       "channel_type": 25,
       "input": 1.0,

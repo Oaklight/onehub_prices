@@ -337,6 +337,13 @@
       "output": 0.15
     },
     {
+      "model": "bytedance-seed/seed-2.0-mini",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.2
+    },
+    {
       "model": "bytedance/ui-tars-1.5-7b",
       "type": "tokens",
       "channel_type": 20,
