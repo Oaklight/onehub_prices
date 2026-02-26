@@ -575,6 +575,13 @@
       "output": 6.0
     },
     {
+      "model": "google/gemini-3.1-pro-preview-customtools",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 6.0
+    },
+    {
       "model": "google/gemma-2-27b-it",
       "type": "tokens",
       "channel_type": 20,
@@ -699,6 +706,13 @@
       "channel_type": 20,
       "input": 0.1035,
       "output": 0.414
+    },
+    {
+      "model": "liquid/lfm-2-24b-a2b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.015,
+      "output": 0.06
     },
     {
       "model": "liquid/lfm-2.2-6b",
@@ -2045,11 +2059,39 @@
       "output": 0.6825
     },
     {
+      "model": "qwen/qwen3.5-122b-a10b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.2,
+      "output": 1.6
+    },
+    {
+      "model": "qwen/qwen3.5-27b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 1.2
+    },
+    {
+      "model": "qwen/qwen3.5-35b-a3b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.125,
+      "output": 1.0
+    },
+    {
       "model": "qwen/qwen3.5-397b-a17b",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.275,
       "output": 1.75
+    },
+    {
+      "model": "qwen/qwen3.5-flash-02-23",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.2
     },
     {
       "model": "qwen/qwen3.5-plus-02-15",
