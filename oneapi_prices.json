@@ -3756,13 +3756,6 @@
       "output": 0.3
     },
     {
-      "model": "allenai/olmo-3.1-32b-think",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.075,
-      "output": 0.25
-    },
-    {
       "model": "alpindale/goliath-120b",
       "type": "tokens",
       "channel_type": 20,
@@ -4067,8 +4060,8 @@
       "model": "deepseek/deepseek-chat-v3-0324",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.095,
-      "output": 0.435
+      "input": 0.1,
+      "output": 0.385
     },
     {
       "model": "deepseek/deepseek-chat-v3.1",
@@ -4088,8 +4081,8 @@
       "model": "deepseek/deepseek-r1-0528",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.875
+      "input": 0.225,
+      "output": 1.075
     },
     {
       "model": "deepseek/deepseek-r1-distill-llama-70b",
