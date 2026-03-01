@@ -1702,13 +1702,6 @@
       "output": 2.2
     },
     {
-      "model": "opengvlab/internvl3-78b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
-    },
-    {
       "model": "openrouter/free",
       "type": "tokens",
       "channel_type": 20,
