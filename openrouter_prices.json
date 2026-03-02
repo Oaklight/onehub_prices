@@ -92,6 +92,13 @@
       "output": 0.3
     },
     {
+      "model": "allenai/olmo-3.1-32b-think",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.075,
+      "output": 0.25
+    },
+    {
       "model": "alpindale/goliath-120b",
       "type": "tokens",
       "channel_type": 20,
@@ -2070,7 +2077,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.125,
-      "output": 1.0
+      "output": 0.5
     },
     {
       "model": "qwen/qwen3.5-397b-a17b",
@@ -2377,8 +2384,8 @@
       "model": "z-ai/glm-5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.475,
-      "output": 1.275
+      "input": 0.4,
+      "output": 1.28
     }
   ]
 }
