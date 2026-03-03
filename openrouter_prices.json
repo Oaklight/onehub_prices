@@ -267,13 +267,6 @@
       "output": 0.0
     },
     {
-      "model": "arcee-ai/trinity-mini",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0225,
-      "output": 0.075
-    },
-    {
       "model": "arcee-ai/trinity-mini:free",
       "type": "tokens",
       "channel_type": 20,
@@ -830,8 +823,8 @@
       "model": "meta-llama/llama-3.2-3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01,
-      "output": 0.01
+      "input": 0.0255,
+      "output": 0.17
     },
     {
       "model": "meta-llama/llama-3.2-3b-instruct:free",
@@ -2234,11 +2227,11 @@
       "output": 0.325
     },
     {
-      "model": "upstage/solar-pro-3:free",
+      "model": "upstage/solar-pro-3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "writer/palmyra-x5",
