@@ -267,6 +267,13 @@
       "output": 0.0
     },
     {
+      "model": "arcee-ai/trinity-mini",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0225,
+      "output": 0.075
+    },
+    {
       "model": "arcee-ai/trinity-mini:free",
       "type": "tokens",
       "channel_type": 20,
@@ -569,6 +576,13 @@
     },
     {
       "model": "google/gemini-3.1-flash-image-preview",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.125,
+      "output": 0.75
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite-preview",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.125,
@@ -988,25 +1002,11 @@
       "output": 0.075
     },
     {
-      "model": "mistralai/mistral-7b-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.1
-    },
-    {
       "model": "mistralai/mistral-7b-instruct-v0.1",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.055,
       "output": 0.095
-    },
-    {
-      "model": "mistralai/mistral-7b-instruct-v0.3",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.1
     },
     {
       "model": "mistralai/mistral-large",
@@ -2055,22 +2055,22 @@
       "model": "qwen/qwen3.5-122b-a10b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 1.6
+      "input": 0.15,
+      "output": 1.2
     },
     {
       "model": "qwen/qwen3.5-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 1.2
+      "input": 0.135,
+      "output": 1.08
     },
     {
       "model": "qwen/qwen3.5-35b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.5
+      "input": 0.1125,
+      "output": 0.9
     },
     {
       "model": "qwen/qwen3.5-397b-a17b",
