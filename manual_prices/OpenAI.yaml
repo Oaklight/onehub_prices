@@ -28,6 +28,13 @@ models:
       output: 0.4 usd / M
       extra_ratios:
         - cached_tokens: 0.005 usd / M
+    gpt-5.3-chat-latest:
+      aliases:
+        - gpt-5.3-chat
+      input: 1.75 usd / M
+      output: 14 usd / M
+      extra_ratios:
+        - cached_tokens: 0.175 usd / M
     gpt-5.2-chat-latest:
       aliases:
         - gpt-5.2-chat
@@ -59,6 +66,11 @@ models:
       output: 10 usd / M
       extra_ratios:
         - cached_tokens: 0.125 usd / M
+    gpt-5.3-codex:
+      input: 1.75 usd / M
+      output: 14 usd / M
+      extra_ratios:
+        - cached_tokens: 0.175 usd / M
     gpt-5.2-codex:
       input: 1.75 usd / M
       output: 14 usd / M
@@ -129,6 +141,13 @@ models:
         - input_audio_tokens: 32 usd / M
         - output_audio_tokens: 64 usd / M
         # - input_audio_cached_tokens: 0.4 usd / M
+    gpt-realtime-1.5:
+      input: 4 usd / M
+      output: 16 usd / M
+      extra_ratios:
+        - cached_tokens: 0.4 usd / M
+        - input_audio_tokens: 32 usd / M
+        - output_audio_tokens: 64 usd / M
     gpt-realtime-mini:
       input: 0.6 usd / M
       output: 2.4 usd / M
@@ -160,6 +179,12 @@ models:
     gpt-audio:
       aliases:
         - gpt-4o-audio-preview*
+      input: 2.5 usd / M
+      output: 10 usd / M
+      extra_ratios:
+        - input_audio_tokens: 32 usd / M
+        - output_audio_tokens: 64 usd / M
+    gpt-audio-1.5:
       input: 2.5 usd / M
       output: 10 usd / M
       extra_ratios:
