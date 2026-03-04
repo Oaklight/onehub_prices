@@ -722,7 +722,48 @@
       "output": 84.0
     },
     {
+      "model": "gpt-5.3-chat",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.875,
+      "output": 7.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gpt-5.3-chat-latest",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.875,
+      "output": 7.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gpt-5.3-codex",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.875,
+      "output": 7.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "gpt-audio",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.25,
+      "output": 5.0,
+      "extra_ratios": {
+        "input_audio_tokens": 12.8,
+        "output_audio_tokens": 6.4
+      }
+    },
+    {
+      "model": "gpt-audio-1.5",
       "type": "tokens",
       "channel_type": 1,
       "input": 1.25,
@@ -781,6 +822,18 @@
     },
     {
       "model": "gpt-realtime",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 2.0,
+      "output": 8.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1,
+        "input_audio_tokens": 8.0,
+        "output_audio_tokens": 4.0
+      }
+    },
+    {
+      "model": "gpt-realtime-1.5",
       "type": "tokens",
       "channel_type": 1,
       "input": 2.0,
@@ -6540,10 +6593,32 @@
       "model": "gemini-3.1-flash-image-preview",
       "type": "tokens",
       "channel_type": 25,
+      "input": 0.25,
+      "output": 1.5,
+      "extra_ratios": {
+        "output_image_tokens": 20.0
+      }
+    },
+    {
+      "model": "gemini-3.1-flash-lite",
+      "type": "tokens",
+      "channel_type": 25,
       "input": 0.125,
       "output": 0.75,
       "extra_ratios": {
-        "output_image_tokens": 40.0
+        "input_audio_tokens": 2.0,
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gemini-3.1-flash-lite-preview",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.125,
+      "output": 0.75,
+      "extra_ratios": {
+        "input_audio_tokens": 2.0,
+        "cached_tokens": 0.1
       }
     },
     {
