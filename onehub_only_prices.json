@@ -6108,8 +6108,8 @@
       "model": "z-ai/glm-4.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.7
+      "input": 0.19,
+      "output": 0.99
     },
     {
       "model": "z-ai/glm-4.7-flash",
