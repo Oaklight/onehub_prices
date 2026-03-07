@@ -752,6 +752,23 @@
       }
     },
     {
+      "model": "gpt-5.4",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.25,
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gpt-5.4-pro",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 15.0,
+      "output": 90.0
+    },
+    {
       "model": "gpt-audio",
       "type": "tokens",
       "channel_type": 1,
