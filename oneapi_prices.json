@@ -10635,7 +10635,73 @@
       "type": "tokens",
       "channel_type": 1015,
       "input": 0.05,
-      "output": 0.15
+      "output": 0.15,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "AntAngelMed",
+      "type": "tokens",
+      "channel_type": 1016,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "Ling-1T",
+      "type": "tokens",
+      "channel_type": 1016,
+      "input": 0.28571,
+      "output": 1.14286
+    },
+    {
+      "model": "Ling-2.5-1T",
+      "type": "tokens",
+      "channel_type": 1016,
+      "input": 0.28571,
+      "output": 1.14286
+    },
+    {
+      "model": "Ling-flash-2.0",
+      "type": "tokens",
+      "channel_type": 1016,
+      "input": 0.28571,
+      "output": 1.14286
+    },
+    {
+      "model": "Ling-mini-2.0",
+      "type": "tokens",
+      "channel_type": 1016,
+      "input": 0.28571,
+      "output": 1.14286
+    },
+    {
+      "model": "Ring-1T",
+      "type": "tokens",
+      "channel_type": 1016,
+      "input": 0.28571,
+      "output": 1.14286
+    },
+    {
+      "model": "Ring-2.5-1T",
+      "type": "tokens",
+      "channel_type": 1016,
+      "input": 0.28571,
+      "output": 1.14286
+    },
+    {
+      "model": "Ring-flash-2.0",
+      "type": "tokens",
+      "channel_type": 1016,
+      "input": 0.28571,
+      "output": 1.14286
+    },
+    {
+      "model": "Ring-mini-2.0",
+      "type": "tokens",
+      "channel_type": 1016,
+      "input": 0.28571,
+      "output": 1.14286
     },
     {
       "model": "bge-m3",

@@ -240,6 +240,11 @@
       "name": "Xiaomi MIMO",
       "icon": "https://platform.xiaomimimo.com/favicon.874c9507.png"
     },
+    "1016": {
+      "id": 1016,
+      "name": "InclusionAI",
+      "icon": ""
+    },
     "2001": {
       "id": 2001,
       "name": "oaklight-load-balancer",
