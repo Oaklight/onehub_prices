@@ -21,3 +21,13 @@ models:
       output: 0 rmb / M
       extra_ratios:
         - cached_tokens: 0 rmb / M
+
+    # 升级版深度思考模型 (免费, 每日50万tokens限额)
+    LongCat-Flash-Thinking-2601:
+      input: 0 rmb / M  # 免费
+      output: 0 rmb / M
+
+    # 高效轻量MoE模型 (免费, 每日5000万tokens限额)
+    LongCat-Flash-Lite:
+      input: 0 rmb / M  # 免费
+      output: 0 rmb / M
