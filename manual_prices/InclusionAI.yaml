@@ -1,0 +1,45 @@
+models:
+  InclusionAI:
+    # 模型价格：https://alipaytbox.yuque.com/sxs0ba/ling/pricing
+    # 模型概览：https://alipaytbox.yuque.com/sxs0ba/ling/model_overview
+    # API文档：https://alipaytbox.yuque.com/sxs0ba/ling/api_chat
+    # 统一定价：输入 4 元/百万计算单元，输出 16 元/百万计算单元
+
+    # Ling 系列（即时模型）
+    Ling-2.5-1T:
+      input: 4 rmb / M
+      output: 16 rmb / M
+
+    Ling-1T:
+      input: 4 rmb / M
+      output: 16 rmb / M
+
+    Ling-flash-2.0:
+      input: 4 rmb / M
+      output: 16 rmb / M
+
+    Ling-mini-2.0:
+      input: 4 rmb / M
+      output: 16 rmb / M
+
+    # Ring 系列（深度思考/推理模型）
+    Ring-2.5-1T:
+      input: 4 rmb / M
+      output: 16 rmb / M
+
+    Ring-1T:
+      input: 4 rmb / M
+      output: 16 rmb / M
+
+    Ring-flash-2.0:
+      input: 4 rmb / M
+      output: 16 rmb / M
+
+    Ring-mini-2.0:
+      input: 4 rmb / M
+      output: 16 rmb / M
+
+    # 蚂蚁·安诊儿医疗大模型（限时免费）
+    AntAngelMed:
+      input: 0
+      output: 0
