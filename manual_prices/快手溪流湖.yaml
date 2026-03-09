@@ -4,14 +4,14 @@ models:
 
     # KAT-Coder系列定价信息 - 使用32k-128k价格
 
-    # KAT-Coder-Pro V1 (KAT-Coder的升级版)
+    # KAT-Coder-Pro V1 (KAT-Coder的升级版, 上下文从128K扩展至256K)
     kat-coder-pro-v1:
       aliases:
         - kat-coder-pro-*
-      input: 6 rmb / M # 32-128K价格
-      output: 24 rmb / M
+      input: 2.1 rmb / M
+      output: 8.4 rmb / M
       extra_ratios:
-        - cached_tokens: 1.2 rmb / M
+        - cached_tokens: 0.42 rmb / M
 
     # KAT-Coder-Air V1 (免费模型)
     kat-coder-air-v1:
