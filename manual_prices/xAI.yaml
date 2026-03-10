@@ -1,6 +1,7 @@
 models:
   xAI:
     # model pricing: https://docs.x.ai/docs/models
+    # pricing as markdown: https://docs.x.ai/developers/models.md
 
     grok-4.1-fast:
       aliases:
@@ -34,7 +35,7 @@ models:
       input: 0.2 usd / M
       output: 1.5 usd / M
       extra_ratios:
-        - cached_tokens: 0.05 usd / M
+        - cached_tokens: 0.02 usd / M
 
     grok-3:
       aliases:
@@ -56,6 +57,22 @@ models:
       extra_ratios:
         - cached_tokens: 0.075 usd / M
 
+    # Image/Video generation
+    grok-imagine-image:
+      input: 0.002 usd / image
+      output: 0.02 usd / image
+
+    grok-imagine-image-pro:
+      input: 0.002 usd / image
+      output: 0.07 usd / image
+
+    grok-imagine-video:
+      input: 0.002 usd / image
+      output: 0.05 usd / s
+      extra_ratios:
+        - input_video_tokens: 0.01 usd / s
+
+    # =========================== 已下线 ===========================
     grok-2:
       aliases:
         - grok-2-1212
