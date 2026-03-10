@@ -337,6 +337,13 @@
       "output": 0.15
     },
     {
+      "model": "bytedance-seed/seed-2.0-lite",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.125,
+      "output": 1.0
+    },
+    {
       "model": "bytedance-seed/seed-2.0-mini",
       "type": "tokens",
       "channel_type": 20,
@@ -883,13 +890,6 @@
       "output": 0.15
     },
     {
-      "model": "meta-llama/llama-guard-2-8b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.1
-    },
-    {
       "model": "meta-llama/llama-guard-3-8b",
       "type": "tokens",
       "channel_type": 20,
@@ -1182,20 +1182,6 @@
       "channel_type": 20,
       "input": 0.45,
       "output": 0.95
-    },
-    {
-      "model": "neversleep/llama-3.1-lumimaid-8b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.045,
-      "output": 0.3
-    },
-    {
-      "model": "neversleep/noromaid-20b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.5,
-      "output": 0.875
     },
     {
       "model": "nex-agi/deepseek-v3.1-nex-n1",
@@ -2108,6 +2094,13 @@
       "output": 1.17
     },
     {
+      "model": "qwen/qwen3.5-9b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.075
+    },
+    {
       "model": "qwen/qwen3.5-flash-02-23",
       "type": "tokens",
       "channel_type": 20,
@@ -2174,8 +2167,8 @@
       "model": "sao10k/l3.1-euryale-70b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.325,
-      "output": 0.375
+      "input": 0.425,
+      "output": 0.425
     },
     {
       "model": "sao10k/l3.3-euryale-70b",
