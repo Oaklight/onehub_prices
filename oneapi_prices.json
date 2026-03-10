@@ -2168,6 +2168,13 @@
       "output": 35.71429
     },
     {
+      "model": "cogvideox-3",
+      "type": "times",
+      "channel_type": 16,
+      "input": 0.0,
+      "output": 71.42857
+    },
+    {
       "model": "cogvideox-flash",
       "type": "tokens",
       "channel_type": 16,
@@ -2326,7 +2333,17 @@
       "type": "tokens",
       "channel_type": 16,
       "input": 0.14286,
-      "output": 0.14286
+      "output": 0.0
+    },
+    {
+      "model": "glm-4.5-air",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.08571,
+      "output": 0.57143,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "glm-4.5v",
@@ -2354,6 +2371,16 @@
       "channel_type": 16,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "glm-4.6v-flashx",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.02143,
+      "output": 0.21429,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "glm-4.7",
@@ -2401,7 +2428,7 @@
       "type": "tokens",
       "channel_type": 16,
       "input": 0.28571,
-      "output": 0.28571
+      "output": 0.14286
     },
     {
       "model": "glm-5",
@@ -2424,10 +2451,24 @@
       }
     },
     {
-      "model": "glm-realtime",
+      "model": "glm-asr",
       "type": "tokens",
       "channel_type": 16,
+      "input": 0.00429,
+      "output": 0.0
+    },
+    {
+      "model": "glm-image",
+      "type": "times",
+      "channel_type": 16,
       "input": 0.0,
+      "output": 7.14286
+    },
+    {
+      "model": "glm-ocr",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.01429,
       "output": 0.0
     },
     {
@@ -2491,21 +2532,21 @@
       "type": "times",
       "channel_type": 16,
       "input": 0.0,
-      "output": 223.21429
+      "output": 178.57143
     },
     {
       "model": "viduq1-start-end",
       "type": "times",
       "channel_type": 16,
       "input": 0.0,
-      "output": 223.21429
+      "output": 178.57143
     },
     {
       "model": "viduq1-text",
       "type": "times",
       "channel_type": 16,
       "input": 0.0,
-      "output": 267.85714
+      "output": 178.57143
     },
     {
       "model": "MiniMax-M2.1",
@@ -9583,7 +9624,7 @@
       "input": 0.1,
       "output": 0.75,
       "extra_ratios": {
-        "cached_tokens": 0.25
+        "cached_tokens": 0.1
       }
     },
     {
@@ -9593,7 +9634,31 @@
       "input": 0.1,
       "output": 0.75,
       "extra_ratios": {
-        "cached_tokens": 0.25
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "grok-imagine-image",
+      "type": "times",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 10.0
+    },
+    {
+      "model": "grok-imagine-image-pro",
+      "type": "times",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 35.0
+    },
+    {
+      "model": "grok-imagine-video",
+      "type": "times",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 25.0,
+      "extra_ratios": {
+        "input_video_tokens": 5.0
       }
     },
     {
@@ -10574,8 +10639,8 @@
       "model": "kat-coder-pro-*",
       "type": "tokens",
       "channel_type": 1013,
-      "input": 0.42857,
-      "output": 1.71429,
+      "input": 0.15,
+      "output": 0.6,
       "extra_ratios": {
         "cached_tokens": 0.2
       }
@@ -10584,11 +10649,25 @@
       "model": "kat-coder-pro-v1",
       "type": "tokens",
       "channel_type": 1013,
-      "input": 0.42857,
-      "output": 1.71429,
+      "input": 0.15,
+      "output": 0.6,
       "extra_ratios": {
         "cached_tokens": 0.2
       }
+    },
+    {
+      "model": "LongCat-Flash-Lite",
+      "type": "tokens",
+      "channel_type": 1014,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "LongCat-Flash-Thinking-2601",
+      "type": "tokens",
+      "channel_type": 1014,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "longcat-flash-chat",
