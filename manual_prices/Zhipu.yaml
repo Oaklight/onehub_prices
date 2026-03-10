@@ -67,6 +67,16 @@ models:
       input: 0 # 128K上下文，免费
       output: 0
 
+    # GLM-4.5 系列
+    glm-4.5-air:
+      # 阶梯计价：[0,32K) output[0,0.2K): 0.8元/M输入，2元/M输出
+      # [0,32K) output[0.2K+): 0.8元/M输入，6元/M输出
+      # [32K,128K): 1.2元/M输入，8元/M输出
+      input: 1.2 rmb / M # 取32k~128k价格
+      output: 8 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.24 rmb / M
+
     # 旧版 GLM-4 模型（已过时但仍可用）
     glm-4-0520:
       input: 100 rmb / M # 128K上下文
@@ -83,42 +93,60 @@ models:
 
     # vision
     glm-4.6v:
-      input: 2 rmb / M # use prices for 32~128k tokens
+      # 阶梯计价：[0,32K): 1元/M输入，3元/M输出
+      # [32K,128K): 2元/M输入，6元/M输出
+      input: 2 rmb / M # 取32~128k价格
       output: 6 rmb / M
       extra_ratios:
         - cached_tokens: 0.4 rmb / M
+    glm-4.6v-flashx:
+      # 阶梯计价：[0,32K): 0.15元/M输入，1.5元/M输出
+      # [32K,128K): 0.3元/M输入，3元/M输出
+      input: 0.3 rmb / M # 取32k~128k价格
+      output: 3 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.03 rmb / M
     glm-4.6v-flash:
       input: 0
       output: 0
     glm-4.5v:
-      input: 4 rmb / M # use prices for 32~64k tokens
+      # 阶梯计价：[0,32K): 2元/M输入，6元/M输出
+      # [32K,64K): 4元/M输入，12元/M输出
+      input: 4 rmb / M # 取32~64k价格
       output: 12 rmb / M
       extra_ratios:
         - cached_tokens: 0.8 rmb / M
+    glm-ocr:
+      input: 0.2 rmb / M # 32K上下文，视觉推理
+      output: 0 # 不支持输出计费
     glm-4v-plus-0111:
-      input: 4 rmb / M
-      output: 4 rmb / M
+      input: 4 rmb / M # 16K上下文
+      output: 2 rmb / M
     glm-4v-flash:
       input: 0
       output: 0
     glm-4.1v-thinking-flashx:
-      input: 2 rmb / M
-      output: 2 rmb / M
+      input: 2 rmb / M # 64K上下文
+      output: 0 # 不支持输出计费
     glm-4.1v-thinking-flash:
       input: 0
       output: 0
 
     # multimodal generation
+    glm-image:
+      output: 0.1 rmb / image
     cogview-4:
       output: 0.06 rmb / image
+    cogvideox-3:
+      output: 1 rmb / video
     cogvideox-2:
       output: 0.5 rmb / video
     viduq1-text:
-      output: 3.75 rmb / video
+      output: 2.5 rmb / video
     viduq1-image:
-      output: 3.125 rmb / video
+      output: 2.5 rmb / video
     viduq1-start-end:
-      output: 3.125 rmb / video
+      output: 2.5 rmb / video
     vidu2-image:
       output: 1.25 rmb / image
     vidu2-start-end:
@@ -132,14 +160,14 @@ models:
       input: 0
       output: 0
 
-    # voice models
+    # text-to-speech / voice models
+    # CogTTS: ¥4/万字符（按字符计费，非token计费，无法用标准token价格表示）
+    # CogTTS-Clone: ¥6/次（音色克隆，按次计费）
     glm-4-voice:
       input: 80 rmb / M
       output: 80 rmb / M
-    # glm-asr:
-    #   input: 0.06 rmb / min
-    glm-realtime:
-      input: 0
+    glm-asr:
+      input: 0.06 rmb / min # 语音识别，按分钟计费
       output: 0
 
     # embedding models
