@@ -7,102 +7,139 @@ models:
     doubao-seed-2.0-pro*:
       aliases:
         - doubao-seed-2-0-pro*
-      # 阶梯计价：0-32K: 3.2元/M输入，16元/M输出
-      # 32K-128K: 4.8元/M输入，24元/M输出
-      # 128K-256K: 9.6元/M输入，48元/M输出
+      # 阶梯计价：0-32K: 3.2元/M输入，16元/M输出，缓存0.64元/M
+      # 32K-128K: 4.8元/M输入，24元/M输出，缓存0.96元/M
+      # 128K-256K: 9.6元/M输入，48元/M输出，缓存1.92元/M
       input: 4.8 rmb / M # 取32k～128k价格，最为常见
       output: 24 rmb / M
       extra_ratios:
-        - cached_tokens: 0.64 rmb / M
+        - cached_tokens: 0.96 rmb / M # 取32k～128k价格
 
     doubao-seed-2.0-lite*:
       aliases:
         - doubao-seed-2-0-lite*
-      # 阶梯计价：0-32K: 0.6元/M输入，3.6元/M输出
-      # 32K-128K: 0.9元/M输入，5.4元/M输出
-      # 128K-256K: 1.8元/M输入，10.8元/M输出
+      # 阶梯计价：0-32K: 0.6元/M输入，3.6元/M输出，缓存0.12元/M
+      # 32K-128K: 0.9元/M输入，5.4元/M输出，缓存0.18元/M
+      # 128K-256K: 1.8元/M输入，10.8元/M输出，缓存0.36元/M
       input: 0.9 rmb / M # 取32k～128k价格，最为常见
       output: 5.4 rmb / M
       extra_ratios:
-        - cached_tokens: 0.12 rmb / M
+        - cached_tokens: 0.18 rmb / M # 取32k～128k价格
 
     doubao-seed-2.0-mini*:
       aliases:
         - doubao-seed-2-0-mini*
-      # 阶梯计价：0-32K: 0.2元/M输入，2元/M输出
-      # 32K-128K: 0.4元/M输入，4元/M输出
-      # 128K-256K: 0.8元/M输入，8元/M输出
+      # 阶梯计价：0-32K: 0.2元/M输入，2元/M输出，缓存0.04元/M
+      # 32K-128K: 0.4元/M输入，4元/M输出，缓存0.08元/M
+      # 128K-256K: 0.8元/M输入，8元/M输出，缓存0.16元/M
       input: 0.4 rmb / M # 取32k～128k价格，最为常见
       output: 4 rmb / M
       extra_ratios:
-        - cached_tokens: 0.04 rmb / M
+        - cached_tokens: 0.08 rmb / M # 取32k～128k价格
 
     doubao-seed-2.0-code*:
       aliases:
         - doubao-seed-2-0-code*
-      # 阶梯计价：0-32K: 3.2元/M输入，16元/M输出
-      # 32K-128K: 4.8元/M输入，24元/M输出
-      # 128K-256K: 9.6元/M输入，48元/M输出
+      # 阶梯计价：0-32K: 3.2元/M输入，16元/M输出，缓存0.64元/M
+      # 32K-128K: 4.8元/M输入，24元/M输出，缓存0.96元/M
+      # 128K-256K: 9.6元/M输入，48元/M输出，缓存1.92元/M
       input: 4.8 rmb / M # 取32k～128k价格，最为常见
       output: 24 rmb / M
       extra_ratios:
-        - cached_tokens: 0.64 rmb / M
+        - cached_tokens: 0.96 rmb / M # 取32k～128k价格
 
     # 豆包 Seed 1.8 系列
     doubao-seed-1.8*: # function call enabled
       aliases:
         - doubao-seed-1-8-202*
-      # 阶梯计价：0-32K: 0.8元/M输入，8元/M输出
-      # 32K-128K: 1.2元/M输入，16元/M输出
-      # 128K-256K: 2.4元/M输入，24元/M输出
+      # 阶梯计价：
+      # 0-32K且输出0-0.2K: 0.8元/M输入，2元/M输出，缓存0.16元/M
+      # 0-32K且输出>0.2K: 0.8元/M输入，8元/M输出，缓存0.16元/M
+      # 32K-128K: 1.2元/M输入，16元/M输出，缓存0.16元/M
+      # 128K-256K: 2.4元/M输入，24元/M输出，缓存0.16元/M
       input: 1.2 rmb / M # 取32k～128k价格，最为常见
       output: 16 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.16 rmb / M
 
+    # 豆包 Seed 1.6 系列
     doubao-seed-1.6-thinking*: # function call enabled
       aliases:
         - doubao-seed-1-6-thinking*
-      # 阶梯计价：0-32K: 0.8元/M输入，8元/M输出
-      # 32K-128K: 1.2元/M输入，16元/M输出
+      # 阶梯计价：0-32K: 0.8元/M输入，8元/M输出，缓存0.16元/M
+      # 32K-128K: 1.2元/M输入，16元/M输出，缓存0.16元/M
+      # 128K-256K: 2.4元/M输入，24元/M输出，缓存0.16元/M
       input: 1.2 rmb / M # 取32k～128k价格，最为常见
-      output: 16 rmb /M # 取32k～128k价格，最为常见
+      output: 16 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.16 rmb / M
 
     doubao-seed-1.6: # function call enabled
       aliases:
         - doubao-seed-1-6
         - doubao-seed-1-6-2*
-      # 阶梯计价：0-32K: 0.8元/M输入，8元/M输出
-      # 32K-128K: 1.2元/M输入，16元/M输出
+      # 阶梯计价：
+      # 0-32K且输出0-0.2K: 0.8元/M输入，2元/M输出，缓存0.16元/M
+      # 0-32K且输出>0.2K: 0.8元/M输入，8元/M输出，缓存0.16元/M
+      # 32K-128K: 1.2元/M输入，16元/M输出，缓存0.16元/M
+      # 128K-256K: 2.4元/M输入，24元/M输出，缓存0.16元/M
       input: 1.2 rmb / M # 取32k～128k价格，最为常见
-      output: 16 rmb /M # 取32k～128k价格，最为常见
+      output: 16 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.16 rmb / M
 
     doubao-seed-1.6-lite*:
       aliases:
         - doubao-seed-1-6-lite*
-      input: 0.6 rmb / M
+      # 阶梯计价：
+      # 0-32K且输出0-0.2K: 0.3元/M输入，0.6元/M输出，缓存0.06元/M
+      # 0-32K且输出>0.2K: 0.3元/M输入，2.4元/M输出，缓存0.06元/M
+      # 32K-128K: 0.6元/M输入，4元/M输出，缓存0.06元/M
+      # 128K-256K: 1.2元/M输入，12元/M输出，缓存0.06元/M
+      input: 0.6 rmb / M # 取32k～128k价格，最为常见
       output: 4 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.06 rmb / M
 
     doubao-seed-1.6-flash*: # function call enabled
       aliases:
         - doubao-seed-1-6-flash*
+      # 阶梯计价：0-32K: 0.15元/M输入，1.5元/M输出，缓存0.03元/M
+      # 32K-128K: 0.3元/M输入，3元/M输出，缓存0.03元/M
+      # 128K-256K: 0.6元/M输入，6元/M输出，缓存0.03元/M
       input: 0.3 rmb / M # 取32k～128k价格，最为常见
-      output: 3 rmb /M # 取32k～128k价格，最为常见
+      output: 3 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.03 rmb / M
 
     doubao-seed-1-6-vision*:
       aliases:
         - doubao-seed-1.6-vision*
-      input: 1.2 rmb / M
+      # 阶梯计价：0-32K: 0.8元/M输入，8元/M输出，缓存0.16元/M
+      # 32K-128K: 1.2元/M输入，16元/M输出，缓存0.16元/M
+      # 128K-256K: 2.4元/M输入，24元/M输出，缓存0.16元/M
+      input: 1.2 rmb / M # 取32k～128k价格，最为常见
       output: 16 rmb / M
       extra_ratios:
+        - cached_tokens: 0.16 rmb / M
         - input_image_tokens: 1.2 rmb / M # 图像输入与文本输入同价
+
+    doubao-seed-translation*:
+      input: 1.20 rmb / M
+      output: 3.60 rmb / M
 
     doubao-seed-code*:
       aliases:
         - doubao-seed-code-preview*
-      input: 1.4 rmb / M
+      # 阶梯计价：0-32K: 1.2元/M输入，8元/M输出，缓存0.24元/M
+      # 32K-128K: 1.4元/M输入，12元/M输出，缓存0.24元/M
+      # 128K-256K: 2.8元/M输入，16元/M输出，缓存0.24元/M
+      input: 1.4 rmb / M # 取32k～128k价格，最为常见
       output: 12 rmb / M
       extra_ratios:
         - cached_tokens: 0.24 rmb / M
 
+    # 豆包 1.5 系列
     doubao-1.5-thinking-pro*: # function call enabled
       aliases:
         - doubao-1-5-thinking-pro*
@@ -126,7 +163,7 @@ models:
       extra_ratios:
         - input_image_tokens: 3 rmb / M # 图像输入与文本输入同价
 
-    doubao-1-5-vision-lite*:
+    doubao-1.5-vision-lite*:
       aliases:
         - doubao-1-5-vision-lite*
       input: 1.5 rmb / M
@@ -139,23 +176,21 @@ models:
       aliases:
         # aliases
         - doubao-1.5-pro-32k*
-        - doubao-1.5-pro-character
+        - doubao-1.5-pro-character*
         - doubao-1-5-pro-32k*
-        - doubao-1-5-pro-character
+        - doubao-1-5-pro-character*
       input: 0.8 rmb / M
       output: 2.0 rmb / M
-
-    doubao-1.5-pro-256k*:
-      aliases:
-        - doubao-1-5-pro-256k*
-      input: 5 rmb / M
-      output: 9 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.16 rmb / M
 
     doubao-1.5-lite*: # function call enabled
       aliases:
         - doubao-1-5-lite*
       input: 0.3 rmb / M
       output: 0.6 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.06 rmb / M
 
     # gui agent model
     doubao-1.5-ui-tars*:
@@ -164,42 +199,66 @@ models:
       input: 3.5 rmb / M
       output: 12 rmb / M
 
+    doubao-lite-32k*:
+      input: 0.3 rmb / M
+      output: 0.6 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.06 rmb / M
+
     # 图片模型
-    # Seedream 4.0-4.5系列 (最新)
+    # Seedream 5.0 系列 (最新)
+    doubao-seedream-5.0-lite*:
+      aliases:
+        - doubao-seedream-5-0-lite*
+      output: 0.22 rmb / image
+
+    # Seedream 4.0-4.5 系列
     doubao-seedream-4.5*:
       aliases:
         - doubao-seedream-4-5*
-      output: 0.2590 rmb / image
+      output: 0.25 rmb / image
 
     doubao-seedream-4.0*:
       aliases:
         - doubao-seedream-4-0*
-      output: 0.2590 rmb / image
+      output: 0.20 rmb / image
 
-    # Seedream 3.0系列
+    # Seedream 3.0 系列
     doubao-seedream-3.0*:
-      output: 0.2590 rmb / image
+      output: 0.259 rmb / image
+
+    doubao-seededit-3.0*:
+      aliases:
+        - doubao-seededit-3-0*
+      output: 0.3 rmb / image
+
+    # 3D 生成模型
+    doubao-seed3d-1.0*:
+      aliases:
+        - doubao-seed3d-1-0*
+      output: 2.4 rmb / image
 
     # 视频生成模型
-    # Seedance 1.5系列 (最新)
+    # Seedance 1.5 系列 (最新)
     doubao-seedance-1.5-pro*:
       aliases:
         - doubao-seedance-1-5-pro*
+      # 有声视频: 16元/M, 无声视频: 8元/M
+      input: 16 rmb / M # 有声视频价格
+      output: 16 rmb / M
+
+    # Seedance 1.0 系列
+    doubao-seedance-1.0-pro:
+      aliases:
+        - doubao-seedance-1-0-pro
       input: 15 rmb / M
       output: 15 rmb / M
 
-    doubao-seedance-1.5-lite*:
+    doubao-seedance-1.0-pro-fast*:
       aliases:
-        - doubao-seedance-1-5-lite*
-      input: 10 rmb / M
-      output: 10 rmb / M
-
-    # Seedance 1.0系列
-    doubao-seedance-1.0-pro*:
-      aliases:
-        - doubao-seedance-1-0-pro*
-      input: 15 rmb / M
-      output: 15 rmb / M
+        - doubao-seedance-1-0-pro-fast*
+      input: 4.2 rmb / M
+      output: 4.2 rmb / M
 
     doubao-seedance-1.0-lite*:
       aliases:
@@ -207,16 +266,16 @@ models:
       input: 10 rmb / M
       output: 10 rmb / M
 
-    doubao-seaweed:
-      input: 30 rmb / M
-      output: 30 rmb / M
-
     # embedding models
-    doubao-embedding-large-text*:
+    doubao-embedding-large*:
+      aliases:
+        - doubao-embedding-large-text*
       input: 0.7 rmb / M
       output: 0
 
-    doubao-embedding-text*:
+    doubao-embedding:
+      aliases:
+        - doubao-embedding-text*
       input: 0.5 rmb / M
       output: 0
 
