@@ -4731,8 +4731,8 @@
       "model": "minimax/minimax-m2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1475,
-      "output": 0.6
+      "input": 0.135,
+      "output": 0.475
     },
     {
       "model": "mistralai/codestral-2508",
@@ -9750,28 +9750,30 @@
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.02143,
-      "output": 0.04286
-    },
-    {
-      "model": "doubao-1-5-pro-256k*",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.35714,
-      "output": 0.64286
+      "output": 0.04286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "doubao-1-5-pro-32k*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.05714,
-      "output": 0.14286
+      "output": 0.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
-      "model": "doubao-1-5-pro-character",
+      "model": "doubao-1-5-pro-character*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.05714,
-      "output": 0.14286
+      "output": 0.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "doubao-1-5-thinking-pro*",
@@ -9808,16 +9810,6 @@
       }
     },
     {
-      "model": "doubao-1-5-vision-lite*",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.10714,
-      "output": 0.32143,
-      "extra_ratios": {
-        "input_image_tokens": 1.0
-      }
-    },
-    {
       "model": "doubao-1-5-vision-pro*",
       "type": "tokens",
       "channel_type": 1002,
@@ -9832,35 +9824,40 @@
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.02143,
-      "output": 0.04286
+      "output": 0.04286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "doubao-1.5-pro",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.05714,
-      "output": 0.14286
-    },
-    {
-      "model": "doubao-1.5-pro-256k*",
-      "type": "tokens",
-      "channel_type": 1002,
-      "input": 0.35714,
-      "output": 0.64286
+      "output": 0.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "doubao-1.5-pro-32k*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.05714,
-      "output": 0.14286
+      "output": 0.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
-      "model": "doubao-1.5-pro-character",
+      "model": "doubao-1.5-pro-character*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.05714,
-      "output": 0.14286
+      "output": 0.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "doubao-1.5-thinking-pro*",
@@ -9887,6 +9884,16 @@
       "output": 0.85714
     },
     {
+      "model": "doubao-1.5-vision-lite*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.10714,
+      "output": 0.32143,
+      "extra_ratios": {
+        "input_image_tokens": 1.0
+      }
+    },
+    {
       "model": "doubao-1.5-vision-pro*",
       "type": "tokens",
       "channel_type": 1002,
@@ -9895,6 +9902,20 @@
       "extra_ratios": {
         "input_image_tokens": 1.0
       }
+    },
+    {
+      "model": "doubao-embedding",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.03571,
+      "output": 0.0
+    },
+    {
+      "model": "doubao-embedding-large*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.05,
+      "output": 0.0
     },
     {
       "model": "doubao-embedding-large-text*",
@@ -9921,46 +9942,64 @@
       }
     },
     {
-      "model": "doubao-seaweed",
+      "model": "doubao-lite-32k*",
       "type": "tokens",
       "channel_type": 1002,
-      "input": 2.14286,
-      "output": 2.14286
+      "input": 0.02143,
+      "output": 0.04286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "doubao-seed-1-6",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.08571,
-      "output": 1.14286
+      "output": 1.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.13333
+      }
     },
     {
       "model": "doubao-seed-1-6-2*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.08571,
-      "output": 1.14286
+      "output": 1.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.13333
+      }
     },
     {
       "model": "doubao-seed-1-6-flash*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.02143,
-      "output": 0.21429
+      "output": 0.21429,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "doubao-seed-1-6-lite*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.04286,
-      "output": 0.28571
+      "output": 0.28571,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "doubao-seed-1-6-thinking*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.08571,
-      "output": 1.14286
+      "output": 1.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.13333
+      }
     },
     {
       "model": "doubao-seed-1-6-vision*",
@@ -9969,6 +10008,7 @@
       "input": 0.08571,
       "output": 1.14286,
       "extra_ratios": {
+        "cached_tokens": 0.13333,
         "input_image_tokens": 1.0
       }
     },
@@ -9977,35 +10017,50 @@
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.08571,
-      "output": 1.14286
+      "output": 1.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.13333
+      }
     },
     {
       "model": "doubao-seed-1.6",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.08571,
-      "output": 1.14286
+      "output": 1.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.13333
+      }
     },
     {
       "model": "doubao-seed-1.6-flash*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.02143,
-      "output": 0.21429
+      "output": 0.21429,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "doubao-seed-1.6-lite*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.04286,
-      "output": 0.28571
+      "output": 0.28571,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
     },
     {
       "model": "doubao-seed-1.6-thinking*",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.08571,
-      "output": 1.14286
+      "output": 1.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.13333
+      }
     },
     {
       "model": "doubao-seed-1.6-vision*",
@@ -10014,6 +10069,7 @@
       "input": 0.08571,
       "output": 1.14286,
       "extra_ratios": {
+        "cached_tokens": 0.13333,
         "input_image_tokens": 1.0
       }
     },
@@ -10022,7 +10078,10 @@
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.08571,
-      "output": 1.14286
+      "output": 1.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.13333
+      }
     },
     {
       "model": "doubao-seed-2-0-code*",
@@ -10031,7 +10090,7 @@
       "input": 0.34286,
       "output": 1.71429,
       "extra_ratios": {
-        "cached_tokens": 0.13333
+        "cached_tokens": 0.2
       }
     },
     {
@@ -10041,7 +10100,7 @@
       "input": 0.06429,
       "output": 0.38571,
       "extra_ratios": {
-        "cached_tokens": 0.13333
+        "cached_tokens": 0.2
       }
     },
     {
@@ -10051,7 +10110,7 @@
       "input": 0.02857,
       "output": 0.28571,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.2
       }
     },
     {
@@ -10061,7 +10120,7 @@
       "input": 0.34286,
       "output": 1.71429,
       "extra_ratios": {
-        "cached_tokens": 0.13333
+        "cached_tokens": 0.2
       }
     },
     {
@@ -10071,7 +10130,7 @@
       "input": 0.34286,
       "output": 1.71429,
       "extra_ratios": {
-        "cached_tokens": 0.13333
+        "cached_tokens": 0.2
       }
     },
     {
@@ -10081,7 +10140,7 @@
       "input": 0.06429,
       "output": 0.38571,
       "extra_ratios": {
-        "cached_tokens": 0.13333
+        "cached_tokens": 0.2
       }
     },
     {
@@ -10091,7 +10150,7 @@
       "input": 0.02857,
       "output": 0.28571,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.2
       }
     },
     {
@@ -10101,7 +10160,7 @@
       "input": 0.34286,
       "output": 1.71429,
       "extra_ratios": {
-        "cached_tokens": 0.13333
+        "cached_tokens": 0.2
       }
     },
     {
@@ -10125,6 +10184,27 @@
       }
     },
     {
+      "model": "doubao-seed-translation*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.08571,
+      "output": 0.25714
+    },
+    {
+      "model": "doubao-seed3d-1-0*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 171.42857
+    },
+    {
+      "model": "doubao-seed3d-1.0*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 171.42857
+    },
+    {
       "model": "doubao-seedance-1-0-lite*",
       "type": "tokens",
       "channel_type": 1002,
@@ -10132,25 +10212,25 @@
       "output": 0.71429
     },
     {
-      "model": "doubao-seedance-1-0-pro*",
+      "model": "doubao-seedance-1-0-pro",
       "type": "tokens",
       "channel_type": 1002,
       "input": 1.07143,
       "output": 1.07143
     },
     {
-      "model": "doubao-seedance-1-5-lite*",
+      "model": "doubao-seedance-1-0-pro-fast*",
       "type": "tokens",
       "channel_type": 1002,
-      "input": 0.71429,
-      "output": 0.71429
+      "input": 0.3,
+      "output": 0.3
     },
     {
       "model": "doubao-seedance-1-5-pro*",
       "type": "tokens",
       "channel_type": 1002,
-      "input": 1.07143,
-      "output": 1.07143
+      "input": 1.14286,
+      "output": 1.14286
     },
     {
       "model": "doubao-seedance-1.0-lite*",
@@ -10160,25 +10240,39 @@
       "output": 0.71429
     },
     {
-      "model": "doubao-seedance-1.0-pro*",
+      "model": "doubao-seedance-1.0-pro",
       "type": "tokens",
       "channel_type": 1002,
       "input": 1.07143,
       "output": 1.07143
     },
     {
-      "model": "doubao-seedance-1.5-lite*",
+      "model": "doubao-seedance-1.0-pro-fast*",
       "type": "tokens",
       "channel_type": 1002,
-      "input": 0.71429,
-      "output": 0.71429
+      "input": 0.3,
+      "output": 0.3
     },
     {
       "model": "doubao-seedance-1.5-pro*",
       "type": "tokens",
       "channel_type": 1002,
-      "input": 1.07143,
-      "output": 1.07143
+      "input": 1.14286,
+      "output": 1.14286
+    },
+    {
+      "model": "doubao-seededit-3-0*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 21.42857
+    },
+    {
+      "model": "doubao-seededit-3.0*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 21.42857
     },
     {
       "model": "doubao-seedream-3.0*",
@@ -10192,28 +10286,42 @@
       "type": "times",
       "channel_type": 1002,
       "input": 0.0,
-      "output": 18.5
+      "output": 14.28571
     },
     {
       "model": "doubao-seedream-4-5*",
       "type": "times",
       "channel_type": 1002,
       "input": 0.0,
-      "output": 18.5
+      "output": 17.85714
     },
     {
       "model": "doubao-seedream-4.0*",
       "type": "times",
       "channel_type": 1002,
       "input": 0.0,
-      "output": 18.5
+      "output": 14.28571
     },
     {
       "model": "doubao-seedream-4.5*",
       "type": "times",
       "channel_type": 1002,
       "input": 0.0,
-      "output": 18.5
+      "output": 17.85714
+    },
+    {
+      "model": "doubao-seedream-5-0-lite*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 15.71429
+    },
+    {
+      "model": "doubao-seedream-5.0-lite*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 15.71429
     },
     {
       "model": "step-1-256k",
