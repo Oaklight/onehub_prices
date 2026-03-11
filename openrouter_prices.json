@@ -456,13 +456,6 @@
       "output": 0.395
     },
     {
-      "model": "deepseek/deepseek-v3.1-terminus:exacto",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.105,
-      "output": 0.395
-    },
-    {
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
@@ -1149,13 +1142,6 @@
       "output": 1.0
     },
     {
-      "model": "moonshotai/kimi-k2-0905:exacto",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.3,
-      "output": 1.25
-    },
-    {
       "model": "moonshotai/kimi-k2-thinking",
       "type": "tokens",
       "channel_type": 20,
@@ -1611,13 +1597,6 @@
       "output": 0.095
     },
     {
-      "model": "openai/gpt-oss-120b:exacto",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0195,
-      "output": 0.095
-    },
-    {
       "model": "openai/gpt-oss-120b:free",
       "type": "tokens",
       "channel_type": 20,
@@ -1968,13 +1947,6 @@
       "output": 1.625
     },
     {
-      "model": "qwen/qwen3-coder:exacto",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.11,
-      "output": 0.9
-    },
-    {
       "model": "qwen/qwen3-coder:free",
       "type": "tokens",
       "channel_type": 20,
@@ -2120,13 +2092,6 @@
       "channel_type": 20,
       "input": 0.075,
       "output": 0.2
-    },
-    {
-      "model": "raifle/sorcererlm-8x22b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 2.25,
-      "output": 2.25
     },
     {
       "model": "relace/relace-apply-3",
@@ -2367,13 +2332,6 @@
       "output": 0.95
     },
     {
-      "model": "z-ai/glm-4.6:exacto",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.22,
-      "output": 0.88
-    },
-    {
       "model": "z-ai/glm-4.6v",
       "type": "tokens",
       "channel_type": 20,
@@ -2398,8 +2356,8 @@
       "model": "z-ai/glm-5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4,
-      "output": 1.28
+      "input": 0.36,
+      "output": 1.15
     }
   ]
 }
