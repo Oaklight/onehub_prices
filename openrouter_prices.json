@@ -459,8 +459,8 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.2
+      "input": 0.13,
+      "output": 0.19
     },
     {
       "model": "deepseek/deepseek-v3.2-exp",
@@ -1247,6 +1247,13 @@
       "output": 0.0
     },
     {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "nvidia/nemotron-nano-12b-v2-vl",
       "type": "tokens",
       "channel_type": 20,
@@ -1985,8 +1992,8 @@
       "model": "qwen/qwen3-next-80b-a3b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.6
+      "input": 0.04875,
+      "output": 0.39
     },
     {
       "model": "qwen/qwen3-vl-235b-a22b-instruct",
@@ -1999,8 +2006,8 @@
       "model": "qwen/qwen3-vl-235b-a22b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.13,
+      "output": 1.3
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-instruct",
@@ -2013,8 +2020,8 @@
       "model": "qwen/qwen3-vl-30b-a3b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.065,
+      "output": 0.78
     },
     {
       "model": "qwen/qwen3-vl-32b-instruct",
