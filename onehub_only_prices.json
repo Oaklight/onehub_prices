@@ -4728,6 +4728,13 @@
       "output": 0.6
     },
     {
+      "model": "minimax/minimax-m2.5:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "mistralai/codestral-2508",
       "type": "tokens",
       "channel_type": 20,
@@ -6168,6 +6175,13 @@
       "channel_type": 20,
       "input": 0.36,
       "output": 1.15
+    },
+    {
+      "model": "z-ai/glm-5-turbo",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.48,
+      "output": 1.6
     },
     {
       "model": "ChatPro",
