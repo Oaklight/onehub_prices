@@ -5578,8 +5578,8 @@
       "model": "qwen/qwen-plus",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.6
+      "input": 0.13,
+      "output": 0.39
     },
     {
       "model": "qwen/qwen-plus-2025-07-28",
@@ -5606,8 +5606,8 @@
       "model": "qwen/qwen-vl-max",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4,
-      "output": 1.6
+      "input": 0.26,
+      "output": 1.04
     },
     {
       "model": "qwen/qwen-vl-plus",
@@ -5753,8 +5753,8 @@
       "model": "qwen/qwen3-max",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.6,
-      "output": 3.0
+      "input": 0.39,
+      "output": 1.95
     },
     {
       "model": "qwen/qwen3-max-thinking",
@@ -5872,8 +5872,8 @@
       "model": "qwen/qwen3.5-flash-02-23",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.2
+      "input": 0.0325,
+      "output": 0.13
     },
     {
       "model": "qwen/qwen3.5-plus-02-15",
