@@ -942,7 +942,7 @@
       "model": "minimax/minimax-m2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
+      "input": 0.1,
       "output": 0.6
     },
     {
@@ -1581,6 +1581,20 @@
       "channel_type": 20,
       "input": 1.25,
       "output": 7.5
+    },
+    {
+      "model": "openai/gpt-5.4-mini",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.375,
+      "output": 2.25
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.625
     },
     {
       "model": "openai/gpt-5.4-pro",
