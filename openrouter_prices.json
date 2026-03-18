@@ -459,8 +459,8 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1275,
-      "output": 0.2
+      "input": 0.13,
+      "output": 0.19
     },
     {
       "model": "deepseek/deepseek-v3.2-exp",
@@ -951,6 +951,13 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "minimax/minimax-m2.7",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "mistralai/codestral-2508",
@@ -2133,7 +2140,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.075,
-      "output": 0.2
+      "output": 0.29
     },
     {
       "model": "relace/relace-apply-3",
