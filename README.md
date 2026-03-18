@@ -1,9 +1,8 @@
 # onehub_prices 🚀
 
-[![Stars](https://img.shields.io/github/stars/Oaklight/onehub_prices?style=flat-square)](https://github.com/Oaklight/onehub_prices/stargazers)
-[![Forks](https://img.shields.io/github/forks/Oaklight/onehub_prices?style=flat-square)](https://github.com/Oaklight/onehub_prices/network/members)
-[![Last Commit](https://img.shields.io/github/last-commit/Oaklight/onehub_prices?style=flat-square)](https://github.com/Oaklight/onehub_prices/commits/master)
-[![License](https://img.shields.io/github/license/Oaklight/onehub_prices?style=flat-square)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/Oaklight/onehub_prices?color=green)](https://github.com/Oaklight/onehub_prices/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/Oaklight/onehub_prices?color=green)](https://github.com/Oaklight/onehub_prices/commits/master)
+[![License](https://img.shields.io/github/license/Oaklight/onehub_prices?color=green)](LICENSE)
 
 ## 🌟 新功能上线
 
