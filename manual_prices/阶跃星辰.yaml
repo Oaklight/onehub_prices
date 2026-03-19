@@ -8,9 +8,13 @@ models:
     step-1o-turbo-vision:
       input: 2.5 rmb / M
       output: 8 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
     step-1o-vision-32k:
       input: 15 rmb / M
       output: 70 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
     step-1v-8k:
       input: 5 rmb / M
       output: 20 rmb / M
@@ -43,6 +47,8 @@ models:
     step-r1-v-mini:
       input: 2.5 rmb / M
       output: 8 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
 
     # 文本模型 step-2
     step-2-mini:
