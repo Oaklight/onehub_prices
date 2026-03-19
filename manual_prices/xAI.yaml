@@ -37,6 +37,25 @@ models:
       extra_ratios:
         - cached_tokens: 0.02 usd / M
 
+    # Grok 4.20 系列
+    grok-4.20-0309-reasoning:
+      input: 2 usd / M
+      output: 6 usd / M
+      extra_ratios:
+        - cached_tokens: 0.2 usd / M
+
+    grok-4.20-0309-non-reasoning:
+      input: 2 usd / M
+      output: 6 usd / M
+      extra_ratios:
+        - cached_tokens: 0.2 usd / M
+
+    grok-4.20-multi-agent-0309:
+      input: 2 usd / M
+      output: 6 usd / M
+      extra_ratios:
+        - cached_tokens: 0.2 usd / M
+
     grok-3:
       aliases:
         - grok-3-beta
