@@ -762,6 +762,26 @@
       }
     },
     {
+      "model": "gpt-5.4-mini",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.375,
+      "output": 2.25,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.1,
+      "output": 0.625,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "gpt-5.4-pro",
       "type": "tokens",
       "channel_type": 1,
@@ -2441,13 +2461,13 @@
       }
     },
     {
-      "model": "glm-5-code",
+      "model": "glm-5-turbo",
       "type": "tokens",
       "channel_type": 16,
-      "input": 0.57143,
-      "output": 2.28571,
+      "input": 0.5,
+      "output": 1.85714,
       "extra_ratios": {
-        "cached_tokens": 0.25
+        "cached_tokens": 0.25714
       }
     },
     {
@@ -2549,89 +2569,6 @@
       "output": 178.57143
     },
     {
-      "model": "MiniMax-M2.1",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.15,
-      "output": 0.6
-    },
-    {
-      "model": "deepseek-r1",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-r1-0528",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "deepseek-v3",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.14286,
-      "output": 0.57143
-    },
-    {
-      "model": "deepseek-v3.1",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.28571,
-      "output": 0.85714
-    },
-    {
-      "model": "deepseek-v3.2",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.14286,
-      "output": 0.21429,
-      "extra_ratios": {
-        "cached_tokens": 0.2
-      }
-    },
-    {
-      "model": "deepseek-v3.2-exp",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.14286,
-      "output": 0.21429,
-      "extra_ratios": {
-        "cached_tokens": 0.2
-      }
-    },
-    {
-      "model": "glm-4.5",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.21429,
-      "output": 1.0
-    },
-    {
-      "model": "glm-4.5-air",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.05714,
-      "output": 0.42857
-    },
-    {
-      "model": "glm-4.6",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.21429,
-      "output": 1.0
-    },
-    {
-      "model": "glm-4.7",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.21429,
-      "output": 1.0
-    },
-    {
       "model": "gte-rerank-v2",
       "type": "tokens",
       "channel_type": 17,
@@ -2649,27 +2586,10 @@
       }
     },
     {
-      "model": "kimi-k2-thinking",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "kimi-k2.5",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.28571,
-      "output": 1.14286,
-      "extra_ratios": {
-        "reasoning_tokens": 5.25
-      }
-    },
-    {
       "model": "multimodal-embedding-v1",
       "type": "tokens",
       "channel_type": 17,
-      "input": 0.0,
+      "input": 0.05,
       "output": 0.0
     },
     {
@@ -3342,6 +3262,20 @@
       }
     },
     {
+      "model": "qwen3-coder-next",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.10714,
+      "output": 0.42857
+    },
+    {
+      "model": "qwen3-coder-next-*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.10714,
+      "output": 0.42857
+    },
+    {
       "model": "qwen3-coder-plus",
       "type": "tokens",
       "channel_type": 17,
@@ -3468,14 +3402,14 @@
       "type": "tokens",
       "channel_type": 17,
       "input": 0.07143,
-      "output": 0.28571
+      "output": 0.71429
     },
     {
       "model": "qwen3-next-thinking",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.07143,
-      "output": 0.28571
+      "output": 0.71429
     },
     {
       "model": "qwen3-omni-30b-a3b-captioner",
@@ -3650,11 +3584,46 @@
       }
     },
     {
+      "model": "qwen3.5-122b-a10b",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.05714,
+      "output": 0.45714
+    },
+    {
+      "model": "qwen3.5-27b",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.04286,
+      "output": 0.34286
+    },
+    {
+      "model": "qwen3.5-35b-a3b",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.02857,
+      "output": 0.22857
+    },
+    {
       "model": "qwen3.5-397b-a17b",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.08571,
       "output": 0.51429
+    },
+    {
+      "model": "qwen3.5-flash",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.01429,
+      "output": 0.14286
+    },
+    {
+      "model": "qwen3.5-flash-*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.01429,
+      "output": 0.14286
     },
     {
       "model": "qwen3.5-plus",
@@ -6469,10 +6438,10 @@
       "type": "tokens",
       "channel_type": 25,
       "input": 0.15,
-      "output": 15.0,
+      "output": 1.25,
       "extra_ratios": {
         "input_image_tokens": 1.0,
-        "output_image_tokens": 1.0
+        "output_image_tokens": 12.0
       }
     },
     {
@@ -6764,6 +6733,18 @@
       "channel_type": 25,
       "input": 0.075,
       "output": 0.0
+    },
+    {
+      "model": "gemini-embedding-2-preview",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.1,
+      "output": 0.0,
+      "extra_ratios": {
+        "input_image_tokens": 2.25,
+        "input_audio_tokens": 32.5,
+        "input_video_tokens": 60.0
+      }
     },
     {
       "model": "gemini-embedding-exp-03-07",
@@ -7125,6 +7106,28 @@
       }
     },
     {
+      "model": "MiniMax-M2.7",
+      "type": "tokens",
+      "channel_type": 27,
+      "input": 0.15,
+      "output": 0.6,
+      "extra_ratios": {
+        "cached_tokens": 0.2,
+        "cached_write_tokens": 1.25
+      }
+    },
+    {
+      "model": "MiniMax-M2.7-highspeed",
+      "type": "tokens",
+      "channel_type": 27,
+      "input": 0.3,
+      "output": 1.2,
+      "extra_ratios": {
+        "cached_tokens": 0.1,
+        "cached_write_tokens": 0.625
+      }
+    },
+    {
       "model": "abab5.5-chat",
       "type": "tokens",
       "channel_type": 27,
@@ -7433,6 +7436,13 @@
       "output": 0.125
     },
     {
+      "model": "devstral-medium*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.2,
+      "output": 1.0
+    },
+    {
       "model": "devstral-small*",
       "type": "tokens",
       "channel_type": 30,
@@ -7452,6 +7462,13 @@
       "channel_type": 30,
       "input": 0.25,
       "output": 0.75
+    },
+    {
+      "model": "ministral-14b*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.1,
+      "output": 0.1
     },
     {
       "model": "ministral-3b*",
@@ -7480,6 +7497,13 @@
       "channel_type": 30,
       "input": 1.0,
       "output": 3.0
+    },
+    {
+      "model": "mistral-large-2512",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.25,
+      "output": 0.75
     },
     {
       "model": "mistral-large-latest",
@@ -7531,6 +7555,13 @@
       "output": 0.15
     },
     {
+      "model": "mistral-small-2603",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.075,
+      "output": 0.3
+    },
+    {
       "model": "mistral-small-latest",
       "type": "tokens",
       "channel_type": 30,
@@ -7571,6 +7602,13 @@
       "channel_type": 30,
       "input": 1.0,
       "output": 3.0
+    },
+    {
+      "model": "voxtral-small*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.05,
+      "output": 0.15
     },
     {
       "model": "gemma-7b-it",
@@ -9643,6 +9681,46 @@
       "output": 0.25,
       "extra_ratios": {
         "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-4.20",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 3.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "grok-4.20-0309-non-reasoning",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 3.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "grok-4.20-0309-reasoning",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 3.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "grok-4.20-multi-agent-0309",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 3.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
       }
     },
     {
