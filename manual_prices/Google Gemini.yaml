@@ -70,8 +70,8 @@ models:
         - gemini-3-flash-low
         - gemini-3-flash-medium
         - gemini-3-flash-high
-      input: 0.5 usd / M # 4 usd / M when prompt is larger than 200,000 tokens
-      output: 3 usd / M # 18 usd / M when prompt is larger than 200,000 tokens
+      input: 0.5 usd / M
+      output: 3 usd / M
       extra_ratios:
         - input_audio_tokens: 1 usd / M
         - cached_tokens: 0.1 # 0.05 usd / M for text cached, 0.1 usd / M for audio cached
@@ -170,7 +170,7 @@ models:
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-image
     gemini-2.5-flash-image:
       input: 0.3 usd / M # Same as Gemini 2.5 Flash
-      output: 30 usd / M # $0.039 per image (1290 tokens)
+      output: 2.5 usd / M # Text output same as Gemini 2.5 Flash
       extra_ratios:
         - input_image_tokens: 0.3 usd / M # Same as Gemini 2.5 Flash
         - output_image_tokens: 30 usd / M # $30 per 1M tokens for images
@@ -313,3 +313,11 @@ models:
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-embedding
     gemini-embedding-001:
       input: 0.15 usd / M # Free tier: free, Paid tier: $0.15/M tokens
+
+    # Gemini Embedding 2 Preview
+    gemini-embedding-2-preview:
+      input: 0.2 usd / M # Text input
+      extra_ratios:
+        - input_image_tokens: 0.45 usd / M
+        - input_audio_tokens: 6.5 usd / M
+        - input_video_tokens: 12 usd / M
