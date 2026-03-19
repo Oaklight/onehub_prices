@@ -9,6 +9,16 @@ models:
       output: 15 usd / M
       extra_ratios:
         - cached_tokens: 0.25 usd / M
+    gpt-5.4-mini:
+      input: 0.75 usd / M
+      output: 4.5 usd / M
+      extra_ratios:
+        - cached_tokens: 0.075 usd / M
+    gpt-5.4-nano:
+      input: 0.2 usd / M
+      output: 1.25 usd / M
+      extra_ratios:
+        - cached_tokens: 0.02 usd / M
     gpt-5.4-pro:
       # <272K context: standard pricing; >272K context: 2x input, 1.5x output
       input: 30 usd / M
