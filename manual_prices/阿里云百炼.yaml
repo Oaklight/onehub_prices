@@ -251,8 +251,7 @@ models:
 
     # embedding & reranking models
     multimodal-embedding-v1:
-      input: 0
-      output: 0
+      input: 0.7 rmb / M # 文本输入；图片/视频输入 0.9 rmb / M
     qwen3-vl-embedding:
       input: 0.0007 rmb / K # 文本输入
       extra_ratios:
@@ -434,82 +433,6 @@ models:
     qwen3-omni-30b-a3b-captioner:
       input: 0.0158 rmb / K
       output: 0.0127 rmb / K
-
-    # =================================== 第三方模型 ===================================
-
-    # DeepSeek (阿里云百炼托管)
-    deepseek-v3.2:
-      aliases:
-        - deepseek-v3.2-exp
-      input: 0.002 rmb / K
-      output: 0.003 rmb / K
-      extra_ratios:
-        - cached_tokens: 0.2
-
-    deepseek-v3.1:
-      input: 0.004 rmb / K
-      output: 0.012 rmb / K
-
-    deepseek-r1:
-      aliases:
-        - deepseek-r1-0528
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-
-    deepseek-v3:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-
-    # Kimi (阿里云百炼托管)
-    kimi-k2.5:
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K # 非思考模式
-      extra_ratios:
-        - reasoning_tokens: 0.021 rmb / K # 思考模式输出
-
-    kimi-k2-thinking:
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-
-    # GLM (阿里云百炼托管)
-    glm-4.7:
-      # 阶梯计价：0<Token≤32K: 3元输入/14元输出
-      # 32K<Token≤166K: 4元输入/16元输出
-      input: 0.003 rmb / K # 取0～32k价格
-      output: 0.014 rmb / K
-
-    glm-4.6:
-      # 阶梯计价：0<Token≤32K: 3元输入/14元输出
-      # 32K<Token≤166K: 4元输入/16元输出
-      input: 0.003 rmb / K
-      output: 0.014 rmb / K
-
-    glm-4.5:
-      # 阶梯计价：0<Token≤32K: 3元输入/14元输出
-      # 32K<Token≤96K: 4元输入/16元输出
-      input: 0.003 rmb / K
-      output: 0.014 rmb / K
-
-    glm-5:
-      # 阶梯计价：0<Token≤32K: 4元输入/18元输出 (per M)
-      # 32K<Token≤198K: 6元输入/22元输出
-      input: 4 rmb / M # 取0～32k价格
-      output: 18 rmb / M
-
-    glm-4.5-air:
-      # 阶梯计价：0<Token≤32K: 0.8元输入/6元输出
-      # 32K<Token≤96K: 1.2元输入/8元输出
-      input: 0.0008 rmb / K
-      output: 0.006 rmb / K
-
-    # MiniMax (阿里云百炼托管)
-    MiniMax-M2.5:
-      input: 2.1 rmb / M
-      output: 8.4 rmb / M
-
-    MiniMax-M2.1:
-      input: 0.0021 rmb / K
-      output: 0.0084 rmb / K
 
     #  =================================== 陈旧aliases ===================================
 
