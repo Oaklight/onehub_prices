@@ -3,17 +3,22 @@ models:
 
   Zhipu:
     # llm
-    # GLM-5 系列 (新增)
+    # GLM-5 系列
+    glm-5-turbo:
+      # 阶梯计价：[0,32K): 5元/M输入，22元/M输出，缓存1.2元/M
+      # [32K+): 7元/M输入，26元/M输出，缓存1.8元/M
+      input: 7 rmb / M # 取32k+的价格，最为常用
+      output: 26 rmb / M
+      extra_ratios:
+        - cached_tokens: 1.8 rmb / M
     glm-5:
+      # 阶梯计价：[0,32K): 4元/M输入，18元/M输出，缓存1元/M
+      # [32K+): 6元/M输入，22元/M输出，缓存1.5元/M
       input: 6 rmb / M # 取32k+的价格，最为常用
       output: 22 rmb / M
       extra_ratios:
         - cached_tokens: 1.5 rmb / M
-    glm-5-code:
-      input: 8 rmb / M # 取32k+的价格，最为常用
-      output: 32 rmb / M
-      extra_ratios:
-        - cached_tokens: 2 rmb / M
+    # glm-5-code: 官方定价页已无此模型，疑似已被 glm-5-turbo 替代
 
     # GLM-4.7 系列
     glm-4.7:
