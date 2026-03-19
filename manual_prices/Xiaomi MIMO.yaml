@@ -2,6 +2,28 @@ models:
   Xiaomi MIMO:
     # 模型价格：https://platform.xiaomimimo.com/#/docs/pricing
 
+    # MiMo-V2-Pro - 旗舰基座模型，1M上下文
+    mimo-v2-pro:
+      # 阶梯计价：0<Token≤256K: 7元/M输入，21元/M输出，缓存1.40元/M
+      # 256K<Token≤1M: 14元/M输入，42元/M输出，缓存2.80元/M
+      input: 7 rmb / M # 取0~256K价格，最为常用
+      output: 21 rmb / M
+      extra_ratios:
+        - cached_tokens: 1.40 rmb / M
+
+    # MiMo-V2-Omni - 多模态理解模型，256K上下文
+    mimo-v2-omni:
+      input: 2.8 rmb / M
+      output: 14 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.56 rmb / M
+
+    # MiMo-V2-TTS - 语音合成模型
+    mimo-v2-tts:
+      input: 0 # 限时免费
+      output: 0
+
+    # MiMo-V2-Flash - 通用大语言模型，256K上下文
     mimo-v2-flash:
       input: 0.7 rmb / M
       output: 2.1 rmb / M
