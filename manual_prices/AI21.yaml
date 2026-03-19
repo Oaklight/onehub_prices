@@ -2,6 +2,7 @@ models:
   AI21:
     jamba-large:
       aliases:
+        - jamba-large-1.7
         - jamba-large-1.6
         - jamba-large-1.6-2025-03
       input: 2 usd / M
