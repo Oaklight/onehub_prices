@@ -4409,8 +4409,8 @@
       "model": "google/gemma-3-27b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.015,
-      "output": 0.055
+      "input": 0.04,
+      "output": 0.08
     },
     {
       "model": "google/gemma-3-27b-it:free",
@@ -4878,8 +4878,8 @@
       "model": "mistralai/mistral-small-3.2-24b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
-      "output": 0.09
+      "input": 0.0375,
+      "output": 0.1
     },
     {
       "model": "mistralai/mistral-small-creative",
@@ -5034,6 +5034,13 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 0.45
     },
     {
       "model": "nvidia/nemotron-3-super-120b-a12b:free",
@@ -5512,20 +5519,6 @@
       "output": 0.0
     },
     {
-      "model": "openrouter/healer-alpha",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "openrouter/hunter-alpha",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "perplexity/sonar",
       "type": "tokens",
       "channel_type": 20,
@@ -5690,8 +5683,8 @@
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.055,
-      "output": 0.3
+      "input": 0.07475,
+      "output": 0.7475
     },
     {
       "model": "qwen/qwen3-30b-a3b",
@@ -5711,8 +5704,8 @@
       "model": "qwen/qwen3-30b-a3b-thinking-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0255,
-      "output": 0.17
+      "input": 0.04,
+      "output": 0.2
     },
     {
       "model": "qwen/qwen3-32b",
@@ -6126,6 +6119,20 @@
       "channel_type": 20,
       "input": 0.045,
       "output": 0.145
+    },
+    {
+      "model": "xiaomi/mimo-v2-omni",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.2,
+      "output": 1.0
+    },
+    {
+      "model": "xiaomi/mimo-v2-pro",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 1.5
     },
     {
       "model": "z-ai/glm-4-32b",
