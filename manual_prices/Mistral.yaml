@@ -17,12 +17,19 @@ models:
     mistral-saba*:
       input: 0.2 usd / M
       output: 0.6 usd / M
+    mistral-large-2512:
+      input: 0.5 usd / M
+      output: 1.5 usd / M
     mistral-large*:
+      # older versions (2411 and earlier) at legacy pricing
       input: 2 usd / M
       output: 6 usd / M
     pixtral-large*:
       input: 2 usd / M
       output: 6 usd / M
+    ministral-14b*:
+      input: 0.2 usd / M
+      output: 0.2 usd / M
     ministral-8b*:
       input: 0.1 usd / M
       output: 0.1 usd / M
@@ -37,13 +44,22 @@ models:
       input: 0.1 usd / M
 
     # open-source models
+    mistral-small-2603:
+      input: 0.15 usd / M
+      output: 0.6 usd / M
     mistral-small*:
       input: 0.1 usd / M
       output: 0.3 usd / M
     magistral-small*:
       input: 0.5 usd / M
       output: 1.5 usd / M
+    devstral-medium*:
+      input: 0.4 usd / M
+      output: 2 usd / M
     devstral-small*:
+      input: 0.1 usd / M
+      output: 0.3 usd / M
+    voxtral-small*:
       input: 0.1 usd / M
       output: 0.3 usd / M
     pixtral-12b*:
