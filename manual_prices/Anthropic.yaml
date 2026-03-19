@@ -102,7 +102,8 @@ models:
       extra_ratios:
         - cached_tokens: 0.1
 
-    # DEPRECATED: Claude 3.5 Sonnet 已弃用，建议使用 Claude Sonnet 4.6 或更高版本
+    # =========================== 已下线 ===========================
+    # Claude 3.5 Sonnet 已从官方文档完全移除（不再列出）
     claude-3-5-sonnet-v2:
       aliases:
         - claude-3.5-sonnet-v2
