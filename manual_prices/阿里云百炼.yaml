@@ -55,6 +55,16 @@ models:
         - reasoning_tokens: 0.008 rmb / K # 思考模式输出价格
         - cached_tokens: 0.2
 
+    # Qwen3.5 Flash - 默认开启思考模式
+    qwen3.5-flash:
+      aliases:
+        - qwen3.5-flash-*
+      # 阶梯计价：0<Token≤128K: 0.2元输入/2元输出 (per M)
+      # 128K<Token≤256K: 0.8元输入/8元输出
+      # 256K<Token≤1M: 1.2元输入/12元输出
+      input: 0.2 rmb / M # 取0～128k价格
+      output: 2 rmb / M
+
     qwen-flash:
       aliases:
         - qwen-flash-*
@@ -176,6 +186,15 @@ models:
       output: 0.006 rmb / K
       extra_ratios:
         - cached_tokens: 0.2
+
+    qwen3-coder-next:
+      aliases:
+        - qwen3-coder-next-*
+      # 阶梯计价：0<Token≤32K: 1元输入/4元输出 (per M)
+      # 32K<Token≤128K: 1.5元输入/6元输出
+      # 128K<Token≤256K: 2.5元输入/10元输出
+      input: 1.5 rmb / M # 取32k～128K价格，最为常用
+      output: 6 rmb / M
 
     # qwen3-coder-oss
     qwen3-coder-480b-a35b-instruct:
@@ -304,6 +323,24 @@ models:
       input: 0.0012 rmb / K # 取0～128k价格
       output: 0.0072 rmb / K
 
+    qwen3.5-122b-a10b:
+      # 阶梯计价：0<Token≤128K: 0.8元输入/6.4元输出 (per M)
+      # 128K<Token≤256K: 2元输入/16元输出
+      input: 0.8 rmb / M # 取0～128k价格
+      output: 6.4 rmb / M
+
+    qwen3.5-35b-a3b:
+      # 阶梯计价：0<Token≤128K: 0.4元输入/3.2元输出 (per M)
+      # 128K<Token≤256K: 1.6元输入/12.8元输出
+      input: 0.4 rmb / M # 取0～128k价格
+      output: 3.2 rmb / M
+
+    qwen3.5-27b:
+      # 阶梯计价：0<Token≤128K: 0.6元输入/4.8元输出 (per M)
+      # 128K<Token≤256K: 1.8元输入/14.4元输出
+      input: 0.6 rmb / M # 取0～128k价格
+      output: 4.8 rmb / M
+
     # qwen3-next
     qwen3-next:
       aliases:
@@ -313,8 +350,9 @@ models:
     qwen3-next-thinking:
       aliases:
         - qwen3-next-80b-a3b-thinking
+      # 思考模型，输出价格包含推理 tokens
       input: 0.001 rmb / K
-      output: 0.004 rmb / K
+      output: 0.01 rmb / K
 
     # qwen3
     qwen3-235b-a22b:
@@ -452,6 +490,12 @@ models:
       input: 0.003 rmb / K
       output: 0.014 rmb / K
 
+    glm-5:
+      # 阶梯计价：0<Token≤32K: 4元输入/18元输出 (per M)
+      # 32K<Token≤198K: 6元输入/22元输出
+      input: 4 rmb / M # 取0～32k价格
+      output: 18 rmb / M
+
     glm-4.5-air:
       # 阶梯计价：0<Token≤32K: 0.8元输入/6元输出
       # 32K<Token≤96K: 1.2元输入/8元输出
@@ -459,6 +503,10 @@ models:
       output: 0.006 rmb / K
 
     # MiniMax (阿里云百炼托管)
+    MiniMax-M2.5:
+      input: 2.1 rmb / M
+      output: 8.4 rmb / M
+
     MiniMax-M2.1:
       input: 0.0021 rmb / K
       output: 0.0084 rmb / K
