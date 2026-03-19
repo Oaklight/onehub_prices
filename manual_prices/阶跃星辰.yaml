@@ -21,7 +21,7 @@ models:
       output: 70 rmb / M
       extra_ratios:
         - cached_tokens: 0.2
-    step-1.5v-mini:
+    step-1.5v-mini: # 注意：该模型已不在官方定价页面列出，可能已下线
       input: 8 rmb / M
       output: 35 rmb / M
       extra_ratios:
@@ -29,8 +29,17 @@ models:
 
     # 推理大模型
     step-3:
-      input: 4 rmb / M
+      # 阶梯计价：
+      # Tier 1: 输入≤4k 且 输出≤4k: input 1.5 rmb/M, output 4 rmb/M
+      # Tier 2: 输入≤4k 且 输出>4k: input 1.5 rmb/M, output 8 rmb/M
+      # Tier 3: 4k < 输入≤64k: input 4 rmb/M, output 10 rmb/M
+      input: 4 rmb / M # 取 Tier 3 价格，API 使用中最常见
       output: 10 rmb / M
+    step-3.5-flash:
+      input: 0.7 rmb / M
+      output: 2.1 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
     step-r1-v-mini:
       input: 2.5 rmb / M
       output: 8 rmb / M
@@ -75,5 +84,12 @@ models:
 
     # 语音
     step-1o-audio:
-      input: 0
-      output: 0
+      input: 25 rmb / M
+      output: 60 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
+    step-audio-2:
+      input: 10 rmb / M
+      output: 70 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
