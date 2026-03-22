@@ -4197,7 +4197,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.105,
-      "output": 0.39
+      "output": 0.395
     },
     {
       "model": "deepseek/deepseek-v3.2",
@@ -6002,8 +6002,8 @@
       "model": "tngtech/deepseek-r1t2-chimera",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.425
+      "input": 0.15,
+      "output": 0.55
     },
     {
       "model": "undi95/remm-slerp-l2-13b",
