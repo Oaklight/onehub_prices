@@ -1128,6 +1128,13 @@
       "output": 0.27
     },
     {
+      "model": "mistralai/pixtral-12b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.05
+    },
+    {
       "model": "mistralai/pixtral-large-2411",
       "type": "tokens",
       "channel_type": 20,
@@ -1238,6 +1245,13 @@
       "channel_type": 20,
       "input": 0.6,
       "output": 0.6
+    },
+    {
+      "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.3,
+      "output": 0.9
     },
     {
       "model": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
