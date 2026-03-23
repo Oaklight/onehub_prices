@@ -3794,13 +3794,6 @@
       "output": 0.225
     },
     {
-      "model": "allenai/molmo-2-8b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.1
-    },
-    {
       "model": "allenai/olmo-2-0325-32b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -3813,20 +3806,6 @@
       "channel_type": 20,
       "input": 0.075,
       "output": 0.25
-    },
-    {
-      "model": "allenai/olmo-3-7b-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.05,
-      "output": 0.1
-    },
-    {
-      "model": "allenai/olmo-3-7b-think",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.06,
-      "output": 0.1
     },
     {
       "model": "allenai/olmo-3.1-32b-instruct",
