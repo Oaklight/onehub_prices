@@ -2108,6 +2108,13 @@
       "output": 0.29
     },
     {
+      "model": "reka/reka-edge",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.1
+    },
+    {
       "model": "relace/relace-apply-3",
       "type": "tokens",
       "channel_type": 20,
