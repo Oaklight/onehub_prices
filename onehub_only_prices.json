@@ -5848,8 +5848,8 @@
       "model": "reka/reka-edge",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.1
+      "input": 0.05,
+      "output": 0.05
     },
     {
       "model": "relace/relace-apply-3",
@@ -9177,6 +9177,13 @@
       "channel_type": 45,
       "input": 0.14286,
       "output": 0.21429
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V3.2/tencent-test/8-1",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "deepseek-ai/deepseek-vl2",
