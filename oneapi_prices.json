@@ -9179,13 +9179,6 @@
       "output": 0.21429
     },
     {
-      "model": "deepseek-ai/DeepSeek-V3.2/tencent-test/8-1",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "deepseek-ai/deepseek-vl2",
       "type": "tokens",
       "channel_type": 45,
@@ -9275,13 +9268,6 @@
       "channel_type": 45,
       "input": 0.28571,
       "output": 1.14286
-    },
-    {
-      "model": "moonshotai/Kimi-K2.5/y9dvgly7dp/turbo",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "netease-youdao/bce-embedding-base_v1",
