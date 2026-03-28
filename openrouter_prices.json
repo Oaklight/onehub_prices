@@ -914,8 +914,8 @@
       "model": "minimax/minimax-m2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.585
+      "input": 0.095,
+      "output": 0.575
     },
     {
       "model": "minimax/minimax-m2.5:free",
@@ -1138,8 +1138,8 @@
       "model": "moonshotai/kimi-k2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2225,
-      "output": 1.11
+      "input": 0.21,
+      "output": 1.1
     },
     {
       "model": "morph/morph-v3-fast",
