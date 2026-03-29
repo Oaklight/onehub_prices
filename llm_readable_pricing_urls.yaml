@@ -1,0 +1,124 @@
+# LLM-Readable Pricing URLs
+# Discovered LLM-friendly (markdown/text) pricing pages for each provider.
+# Last updated: 2026-03-29
+
+providers:
+
+  # ===== International =====
+
+  OpenAI:
+    llms_txt: https://developers.openai.com/api/docs/llms.txt
+    pricing_md: https://developers.openai.com/api/docs/pricing.md
+    notes: Structured markdown with embedded JSX data rows; covers all models
+
+  Anthropic:
+    llms_txt: https://platform.claude.com/llms.txt
+    pricing_md: https://platform.claude.com/docs/en/about-claude/pricing.md
+    notes: Clean markdown with pricing tables
+
+  xAI:
+    llms_txt: https://docs.x.ai/llms.txt
+    pricing_md: https://docs.x.ai/docs/models.md
+    notes: Clean markdown with pricing table in models page
+
+  Mistral:
+    llms_txt:
+      - https://docs.mistral.ai/llms.txt
+      - https://mistral.ai/llms.txt
+    pricing_md: null
+    notes: llms.txt exists but linked pricing page returns 404
+
+  Google Gemini:
+    llms_txt: null
+    pricing_md: null
+    notes: No LLM-friendly page found; pricing at https://ai.google.dev/gemini-api/docs/pricing (HTML only)
+
+  DeepSeek:
+    llms_txt: null
+    pricing_md: null
+    notes: No llms.txt; HTML pricing page at https://api-docs.deepseek.com/quick_start/pricing fetchable via MCP
+
+  NVIDIA:
+    llms_txt: null
+    pricing_md: null
+    notes: No LLM-friendly page found
+
+  # ===== Domestic (China) =====
+
+  Aliyun (阿里云百炼):
+    llms_txt: https://help.aliyun.com/zh/model-studio/llms.txt
+    pricing_md: https://help.aliyun.com/zh/model-studio/model-pricing.md
+    notes: Pricing page contains HTML tables within markdown; parseable but needs HTML table handling
+
+  MiniMax:
+    llms_txt: https://platform.minimaxi.com/docs/llms.txt
+    pricing_md: https://platform.minimaxi.com/docs/guides/pricing-paygo.md
+    notes: Clean markdown tables with text/speech/video/music/image pricing; CNY per million tokens
+
+  Xiaomi MiMo (小米):
+    llms_txt: https://platform.xiaomimimo.com/llms.txt
+    pricing_md: https://platform.xiaomimimo.com/docs/pricing.md
+    notes: Clean markdown with pricing tables
+
+  Zhipu (智谱):
+    llms_txt: https://docs.bigmodel.cn/llms.txt
+    pricing_md: null
+    notes: >
+      llms.txt exists (Mintlify-based); model pricing not in docs site.
+      Pricing at https://open.bigmodel.cn/pricing (HTML only).
+      Knowledge-base pricing at https://docs.bigmodel.cn/cn/guide/tools/knowledge/price.md
+
+  Tencent Hunyuan (腾讯混元):
+    llms_txt: null
+    pricing_md: null
+    notes: Generic cloud docs llms.txt exists but not model-pricing specific
+
+  Volcengine (字节火山引擎):
+    llms_txt: null
+    pricing_md: null
+    notes: No LLM-friendly page found; SPA fallback on llms.txt
+
+  Baidu (百度):
+    llms_txt: null
+    pricing_md: null
+    notes: No LLM-friendly page found
+
+  Moonshot (月之暗面):
+    llms_txt: null
+    pricing_md: null
+    notes: 404 on all attempted paths
+
+  StepFun (阶跃星辰):
+    llms_txt: null
+    pricing_md: null
+    notes: 404; docs hosted on Volcengine TOS, key not found
+
+  01.AI (零一万物):
+    llms_txt: null
+    pricing_md: null
+    notes: 404; provider marked as inactive
+
+  InternLM (书生):
+    llms_txt: null
+    pricing_md: null
+    notes: SPA HTML fallback
+
+  ModelScope (魔搭):
+    llms_txt: null
+    pricing_md: null
+    notes: SPA HTML fallback
+
+  Meituan Longcat (美团龙猫):
+    llms_txt: null
+    pricing_md: null
+    notes: 404
+
+  Kuaishou Xiliuhu (快手溪流湖):
+    llms_txt: null
+    pricing_md: null
+    notes: 404
+
+  InclusionAI:
+    llms_txt: null
+    pricing_md: null
+    notes: 404

@@ -1,6 +1,6 @@
 # OneHub Prices Makefile
 
-.PHONY: help new-provider test clean
+.PHONY: help new-provider test clean check-prices
 
 # 默认目标
 help:
@@ -10,6 +10,7 @@ help:
 	@echo "    SERIES=2000: 私人/小众provider (自建或小众服务)"
 	@echo "  make test                                              - 运行测试"
 	@echo "  make clean                                             - 清理临时文件"
+	@echo "  make check-prices [PROVIDERS=\"OpenAI Anthropic\"]        - 检查价格更新"
 
 # 创建新provider
 # 用法: make new-provider "Provider Name" [SERIES=1000|2000]
@@ -42,6 +43,15 @@ clean:
 	@find . -name "*.pyc" -delete
 	@find . -name "__pycache__" -type d -exec rm -rf {} + 2>/dev/null || true
 	@echo "清理完成"
+
+# 检查价格更新
+# 用法: make check-prices 或 make check-prices PROVIDERS="OpenAI Anthropic"
+check-prices:
+	@if [ -n "$(PROVIDERS)" ]; then \
+		python3 src/check_prices.py $(PROVIDERS); \
+	else \
+		python3 src/check_prices.py; \
+	fi
 
 # 防止make将参数当作目标
 %:
