@@ -12,7 +12,7 @@ models:
       input: 5 usd / M
       output: 25 usd / M
       extra_ratios:
-        - cached_tokens: 0.1
+        - cached_tokens: 0.5 usd / M
 
     claude-sonnet-4-6:
       aliases:
@@ -22,7 +22,7 @@ models:
       input: 3 usd / M
       output: 15 usd / M
       extra_ratios:
-        - cached_tokens: 0.1
+        - cached_tokens: 0.3 usd / M
 
     # Claude 4.5 系列
     claude-opus-4-5:
@@ -34,7 +34,7 @@ models:
       input: 5 usd / M
       output: 25 usd / M
       extra_ratios:
-        - cached_tokens: 0.1
+        - cached_tokens: 0.5 usd / M
 
     claude-sonnet-4-5:
       aliases:
@@ -45,7 +45,7 @@ models:
       input: 3 usd / M
       output: 15 usd / M
       extra_ratios:
-        - cached_tokens: 0.1
+        - cached_tokens: 0.3 usd / M
 
     claude-haiku-4-5:
       aliases:
@@ -55,7 +55,7 @@ models:
       input: 1 usd / M
       output: 5 usd / M
       extra_ratios:
-        - cached_tokens: 0.1
+        - cached_tokens: 0.1 usd / M
 
     # Claude 4.1 / 4.0 系列
     claude-opus-4-1:
@@ -66,7 +66,7 @@ models:
       input: 15 usd / M
       output: 75 usd / M
       extra_ratios:
-        - cached_tokens: 0.1
+        - cached_tokens: 1.5 usd / M
 
     claude-opus-4:
       aliases:
@@ -77,7 +77,7 @@ models:
       input: 15 usd / M
       output: 75 usd / M
       extra_ratios:
-        - cached_tokens: 0.1
+        - cached_tokens: 1.5 usd / M
 
     claude-sonnet-4:
       aliases:
@@ -88,7 +88,7 @@ models:
       input: 3 usd / M
       output: 15 usd / M
       extra_ratios:
-        - cached_tokens: 0.1
+        - cached_tokens: 0.3 usd / M
 
     # Claude 3.x 系列 (部分已弃用)
     # DEPRECATED: Claude 3.7 Sonnet 已弃用，建议使用 Claude Sonnet 4.6 或更高版本
@@ -100,7 +100,7 @@ models:
       input: 3 usd / M
       output: 15 usd / M
       extra_ratios:
-        - cached_tokens: 0.1
+        - cached_tokens: 0.3 usd / M
 
     # =========================== 已下线 ===========================
     # Claude 3.5 Sonnet 已从官方文档完全移除（不再列出）
@@ -112,7 +112,7 @@ models:
       input: 3 usd / M
       output: 15 usd / M
       extra_ratios:
-        - cached_tokens: 0.1
+        - cached_tokens: 0.3 usd / M
 
     claude-3-5-sonnet:
       aliases:
@@ -121,7 +121,7 @@ models:
       input: 3 usd / M
       output: 15 usd / M
       extra_ratios:
-        - cached_tokens: 0.1
+        - cached_tokens: 0.3 usd / M
 
     claude-3-5-haiku:
       aliases:
@@ -131,7 +131,7 @@ models:
       input: 0.8 usd / M
       output: 4 usd / M
       extra_ratios:
-        - cached_tokens: 0.1
+        - cached_tokens: 0.08 usd / M
 
     # DEPRECATED: Claude 3 Opus 已弃用，建议使用 Claude Opus 4.6 或更高版本
     claude-3-opus:
@@ -140,7 +140,7 @@ models:
       input: 15 usd / M
       output: 75 usd / M
       extra_ratios:
-        - cached_tokens: 0.1
+        - cached_tokens: 1.5 usd / M
 
     claude-3-haiku:
       aliases:
@@ -148,4 +148,4 @@ models:
       input: 0.25 usd / M
       output: 1.25 usd / M
       extra_ratios:
-        - cached_tokens: 0.1
+        - cached_tokens: 0.03 usd / M

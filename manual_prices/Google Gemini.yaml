@@ -74,7 +74,7 @@ models:
       output: 3 usd / M
       extra_ratios:
         - input_audio_tokens: 1 usd / M
-        - cached_tokens: 0.1 # 0.05 usd / M for text cached, 0.1 usd / M for audio cached
+        - cached_tokens: 0.05 usd / M # 0.05 usd / M for text/image/video cached, 0.1 usd / M for audio cached
 
     # Gemini 3 Pro Image Preview
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-3-pro-image-preview
