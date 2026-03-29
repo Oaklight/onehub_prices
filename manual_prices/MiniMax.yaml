@@ -71,3 +71,9 @@ models:
     M2-her:
       input: 2.1 rmb / M
       output: 8.4 rmb / M
+
+    # ======== 以下非文本模型暂未上线，保留价格记录 ========
+    # Speech (TTS): speech-2.8-hd (3.5元/万字符), speech-2.8-turbo (2元/万字符)
+    # Video: MiniMax-Hailuo-2.3-Fast (1.35元起/视频), MiniMax-Hailuo-2.3 (2.00元起/视频)
+    # Music: Music-2.5+ (1.0元/首), Music-2.5 (1.0元/首), Music-2.0 (0.25元/首)
+    # Image: image-01 (0.025元/张)
