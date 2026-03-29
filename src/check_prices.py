@@ -646,13 +646,14 @@ def main():
         print("No providers to check.")
         return
 
-    has_changes = False
+    has_price_changes = False
     for provider_key, provider_info in providers_to_check.items():
         result = check_provider(provider_key, provider_info)
-        if result and (result["price_changed"] or result["new_models"]):
-            has_changes = True
+        if result and result["price_changed"]:
+            has_price_changes = True
 
-    sys.exit(1 if has_changes else 0)
+    # Exit 1 only for actual price discrepancies, not for new/missing models
+    sys.exit(1 if has_price_changes else 0)
 
 
 if __name__ == "__main__":
