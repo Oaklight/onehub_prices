@@ -10933,6 +10933,20 @@
       "output": 0.0
     },
     {
+      "model": "longcat-flash-chat",
+      "type": "tokens",
+      "channel_type": 1014,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "longcat-flash-lite",
+      "type": "tokens",
+      "channel_type": 1014,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "mimo-v2-flash",
       "type": "tokens",
       "channel_type": 1015,
