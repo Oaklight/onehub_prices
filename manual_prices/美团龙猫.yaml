@@ -3,31 +3,32 @@ models:
     # LongCat API开放平台：https://api.longcat.chat
     # LongCat API价格：https://longcat.chat/platform/docs/zh/#%E6%94%AF%E6%8C%81%E7%9A%84%E6%A8%A1%E5%9E%8B
     # 免费模型服务，每日50万tokens免费额度，可申请提升至500万或更高
-    
-    # 高性能通用对话模型
-    longcat-flash-chat:
-      aliases:
-        - longcat-flash-chat-*
-      input: 0 rmb / M  # 免费
-      output: 0 rmb / M
-      extra_ratios:
-        - cached_tokens: 0 rmb / M
-    
-    # 深度思考模型
-    longcat-flash-thinking:
-      aliases:
-        - longcat-flash-thinking-*
-      input: 0 rmb / M  # 免费
-      output: 0 rmb / M
-      extra_ratios:
-        - cached_tokens: 0 rmb / M
 
-    # 升级版深度思考模型 (免费, 每日50万tokens限额)
-    LongCat-Flash-Thinking-2601:
-      input: 0 rmb / M  # 免费
-      output: 0 rmb / M
-
-    # 高效轻量MoE模型 (免费, 每日5000万tokens限额)
+    # 高效轻量MoE模型
     LongCat-Flash-Lite:
-      input: 0 rmb / M  # 免费
+      aliases:
+        - longcat-flash-lite
+      input: 0 rmb / M
+      output: 0 rmb / M
+
+    # 高性能通用对话模型
+    LongCat-Flash-Chat:
+      aliases:
+        - longcat-flash-chat
+        - LongCat-Flash-Chat-*
+      input: 0 rmb / M
+      output: 0 rmb / M
+
+    # 深度思考模型
+    LongCat-Flash-Thinking:
+      aliases:
+        - LongCat-Flash-Thinking-*
+      input: 0 rmb / M
+      output: 0 rmb / M
+
+    # 多模态模型
+    LongCat-Flash-Omni:
+      aliases:
+        - LongCat-Flash-Omni-*
+      input: 0 rmb / M
       output: 0 rmb / M
