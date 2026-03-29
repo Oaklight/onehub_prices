@@ -1329,7 +1329,7 @@
       "input": 0.125,
       "output": 0.625,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.12
       }
     },
     {
@@ -1339,7 +1339,7 @@
       "input": 0.125,
       "output": 0.625,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.12
       }
     },
     {
@@ -10874,6 +10874,30 @@
       }
     },
     {
+      "model": "kat-coder-pro-v2",
+      "type": "tokens",
+      "channel_type": 1013,
+      "input": 0.15,
+      "output": 0.6,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "LongCat-Flash-Chat",
+      "type": "tokens",
+      "channel_type": 1014,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "LongCat-Flash-Chat-*",
+      "type": "tokens",
+      "channel_type": 1014,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "LongCat-Flash-Lite",
       "type": "tokens",
       "channel_type": 1014,
@@ -10881,51 +10905,32 @@
       "output": 0.0
     },
     {
-      "model": "LongCat-Flash-Thinking-2601",
+      "model": "LongCat-Flash-Omni",
       "type": "tokens",
       "channel_type": 1014,
       "input": 0.0,
       "output": 0.0
     },
     {
-      "model": "longcat-flash-chat",
+      "model": "LongCat-Flash-Omni-*",
       "type": "tokens",
       "channel_type": 1014,
       "input": 0.0,
-      "output": 0.0,
-      "extra_ratios": {
-        "cached_tokens": 0.0
-      }
+      "output": 0.0
     },
     {
-      "model": "longcat-flash-chat-*",
+      "model": "LongCat-Flash-Thinking",
       "type": "tokens",
       "channel_type": 1014,
       "input": 0.0,
-      "output": 0.0,
-      "extra_ratios": {
-        "cached_tokens": 0.0
-      }
+      "output": 0.0
     },
     {
-      "model": "longcat-flash-thinking",
+      "model": "LongCat-Flash-Thinking-*",
       "type": "tokens",
       "channel_type": 1014,
       "input": 0.0,
-      "output": 0.0,
-      "extra_ratios": {
-        "cached_tokens": 0.0
-      }
-    },
-    {
-      "model": "longcat-flash-thinking-*",
-      "type": "tokens",
-      "channel_type": 1014,
-      "input": 0.0,
-      "output": 0.0,
-      "extra_ratios": {
-        "cached_tokens": 0.0
-      }
+      "output": 0.0
     },
     {
       "model": "mimo-v2-flash",

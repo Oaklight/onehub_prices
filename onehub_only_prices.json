@@ -1329,7 +1329,7 @@
       "input": 0.125,
       "output": 0.625,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.12
       }
     },
     {
@@ -1339,7 +1339,7 @@
       "input": 0.125,
       "output": 0.625,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.12
       }
     },
     {
