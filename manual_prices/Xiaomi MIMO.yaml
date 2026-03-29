@@ -1,6 +1,7 @@
 models:
   Xiaomi MIMO:
     # 模型价格：https://platform.xiaomimimo.com/#/docs/pricing
+    # 模型价格(md)：https://platform.xiaomimimo.com/docs/pricing.md
 
     # MiMo-V2-Pro - 旗舰基座模型，1M上下文
     mimo-v2-pro:

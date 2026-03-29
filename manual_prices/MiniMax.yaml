@@ -1,6 +1,7 @@
 models:
   MiniMax:
     # 模型定价：https://platform.minimaxi.com/docs/guides/pricing-paygo
+    # 模型定价(md)：https://platform.minimaxi.com/docs/guides/pricing-paygo.md
 
     # M2.7系列 - 最新旗舰模型
     MiniMax-M2.7:
