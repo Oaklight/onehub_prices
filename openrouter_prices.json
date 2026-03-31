@@ -239,13 +239,6 @@
       "output": 0.09
     },
     {
-      "model": "arcee-ai/trinity-large-preview:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "arcee-ai/trinity-mini",
       "type": "tokens",
       "channel_type": 20,
@@ -646,6 +639,20 @@
     },
     {
       "model": "google/gemma-3n-e4b-it:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "google/lyria-3-clip-preview",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "google/lyria-3-pro-preview",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0,
@@ -2087,6 +2094,13 @@
       "output": 0.78
     },
     {
+      "model": "qwen/qwen3.6-plus-preview:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "qwen/qwq-32b",
       "type": "tokens",
       "channel_type": 20,
@@ -2099,6 +2113,13 @@
       "channel_type": 20,
       "input": 0.05,
       "output": 0.05
+    },
+    {
+      "model": "rekaai/reka-flash-3",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.1
     },
     {
       "model": "relace/relace-apply-3",
