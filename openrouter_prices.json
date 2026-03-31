@@ -239,6 +239,13 @@
       "output": 0.09
     },
     {
+      "model": "arcee-ai/trinity-large-preview:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "arcee-ai/trinity-mini",
       "type": "tokens",
       "channel_type": 20,
@@ -706,13 +713,6 @@
       "channel_type": 20,
       "input": 1.25,
       "output": 5.0
-    },
-    {
-      "model": "kwaipilot/kat-coder-pro",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1035,
-      "output": 0.414
     },
     {
       "model": "kwaipilot/kat-coder-pro-v2",
