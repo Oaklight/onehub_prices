@@ -921,8 +921,8 @@
       "model": "minimax/minimax-m2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.08,
-      "output": 0.55
+      "input": 0.078,
+      "output": 0.5
     },
     {
       "model": "minimax/minimax-m2.5:free",
