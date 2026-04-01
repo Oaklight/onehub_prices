@@ -3990,6 +3990,13 @@
       "output": 0.0
     },
     {
+      "model": "arcee-ai/trinity-large-thinking",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.125,
+      "output": 0.45
+    },
+    {
       "model": "arcee-ai/trinity-mini",
       "type": "tokens",
       "channel_type": 20,
@@ -4882,8 +4889,8 @@
       "model": "moonshotai/kimi-k2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.21,
-      "output": 1.1
+      "input": 0.20025,
+      "output": 0.999
     },
     {
       "model": "morph/morph-v3-fast",
@@ -5852,7 +5859,7 @@
       "output": 0.29
     },
     {
-      "model": "reka/reka-edge",
+      "model": "rekaai/reka-edge",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.05,
@@ -6161,6 +6168,13 @@
     },
     {
       "model": "z-ai/glm-5-turbo",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.6,
+      "output": 2.0
+    },
+    {
+      "model": "z-ai/glm-5v-turbo",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.6,
