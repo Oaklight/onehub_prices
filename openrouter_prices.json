@@ -928,8 +928,8 @@
       "model": "minimax/minimax-m2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
-      "output": 0.5
+      "input": 0.059,
+      "output": 0.625
     },
     {
       "model": "minimax/minimax-m2.5:free",
@@ -2102,6 +2102,13 @@
     },
     {
       "model": "qwen/qwen3.6-plus-preview:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "qwen/qwen3.6-plus:free",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0,
