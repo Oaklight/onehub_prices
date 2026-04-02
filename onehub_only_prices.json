@@ -3993,8 +3993,8 @@
       "model": "arcee-ai/trinity-large-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.45
+      "input": 0.11,
+      "output": 0.425
     },
     {
       "model": "arcee-ai/trinity-mini",
@@ -4403,6 +4403,13 @@
       "output": 0.0
     },
     {
+      "model": "google/gemma-4-31b-it",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.07,
+      "output": 0.2
+    },
+    {
       "model": "google/lyria-3-clip-preview",
       "type": "tokens",
       "channel_type": 20,
@@ -4673,7 +4680,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.059,
-      "output": 0.625
+      "output": 0.5
     },
     {
       "model": "minimax/minimax-m2.5:free",
@@ -4890,7 +4897,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.19135,
-      "output": 0.9546
+      "output": 0.9545
     },
     {
       "model": "morph/morph-v3-fast",
