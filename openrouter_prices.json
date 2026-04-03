@@ -743,13 +743,6 @@
       "output": 0.06
     },
     {
-      "model": "liquid/lfm-2.2-6b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.005,
-      "output": 0.01
-    },
-    {
       "model": "liquid/lfm-2.5-1.2b-instruct:free",
       "type": "tokens",
       "channel_type": 20,
@@ -762,13 +755,6 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
-    },
-    {
-      "model": "liquid/lfm2-8b-a1b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.005,
-      "output": 0.01
     },
     {
       "model": "mancer/weaver",
@@ -2106,13 +2092,6 @@
       "channel_type": 20,
       "input": 0.13,
       "output": 0.78
-    },
-    {
-      "model": "qwen/qwen3.6-plus-preview:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "qwen/qwen3.6-plus:free",
