@@ -922,7 +922,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.059,
-      "output": 0.5
+      "output": 0.495
     },
     {
       "model": "minimax/minimax-m2.5:free",
@@ -1139,7 +1139,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.19135,
-      "output": 0.9545
+      "output": 0.86
     },
     {
       "model": "morph/morph-v3-fast",
