@@ -659,6 +659,13 @@
       "output": 0.0
     },
     {
+      "model": "google/gemma-4-26b-a4b-it",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.065,
+      "output": 0.2
+    },
+    {
       "model": "google/gemma-4-31b-it",
       "type": "tokens",
       "channel_type": 20,
