@@ -8528,6 +8528,13 @@
       "output": 1.57143
     },
     {
+      "model": "Pro/zai-org/GLM-5.1",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.42857,
+      "output": 2.0
+    },
+    {
       "model": "Qwen/QVQ-72B-Preview",
       "type": "tokens",
       "channel_type": 45,
