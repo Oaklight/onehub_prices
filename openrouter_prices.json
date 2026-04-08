@@ -1145,8 +1145,8 @@
       "model": "moonshotai/kimi-k2-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.235,
-      "output": 1.0
+      "input": 0.3,
+      "output": 1.25
     },
     {
       "model": "moonshotai/kimi-k2.5",
@@ -2111,8 +2111,8 @@
       "model": "qwen/qwen3.6-plus",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.5
+      "input": 0.1625,
+      "output": 0.975
     },
     {
       "model": "qwen/qwq-32b",
