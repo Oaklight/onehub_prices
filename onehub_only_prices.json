@@ -3927,6 +3927,13 @@
       "output": 12.5
     },
     {
+      "model": "anthropic/claude-opus-4.6-fast",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 15.0,
+      "output": 75.0
+    },
+    {
       "model": "anthropic/claude-sonnet-4",
       "type": "tokens",
       "channel_type": 20,
@@ -4396,11 +4403,25 @@
       "output": 0.2
     },
     {
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "google/gemma-4-31b-it",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.07,
       "output": 0.2
+    },
+    {
+      "model": "google/gemma-4-31b-it:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "google/lyria-3-clip-preview",
@@ -5831,11 +5852,11 @@
       "output": 0.78
     },
     {
-      "model": "qwen/qwen3.6-plus:free",
+      "model": "qwen/qwen3.6-plus",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.25,
+      "output": 1.5
     },
     {
       "model": "qwen/qwq-32b",
@@ -6163,8 +6184,8 @@
       "model": "z-ai/glm-5.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5,
-      "output": 1.6
+      "input": 0.63,
+      "output": 1.98
     },
     {
       "model": "z-ai/glm-5v-turbo",
