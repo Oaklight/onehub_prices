@@ -4672,7 +4672,7 @@
       "model": "minimax/minimax-m2.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.135,
+      "input": 0.145,
       "output": 0.475
     },
     {
@@ -5936,13 +5936,6 @@
       "output": 0.15
     },
     {
-      "model": "stepfun/step-3.5-flash:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "switchpoint/router",
       "type": "tokens",
       "channel_type": 20,
@@ -6184,8 +6177,8 @@
       "model": "z-ai/glm-5.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.63,
-      "output": 1.98
+      "input": 0.6975,
+      "output": 2.2
     },
     {
       "model": "z-ai/glm-5v-turbo",
