@@ -648,7 +648,7 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.065,
+      "input": 0.06,
       "output": 0.2
     },
     {
