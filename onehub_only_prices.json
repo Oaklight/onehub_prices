@@ -4147,7 +4147,7 @@
       "model": "deepseek/deepseek-r1-0528",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.225,
+      "input": 0.25,
       "output": 1.075
     },
     {
@@ -5694,8 +5694,8 @@
       "model": "qwen/qwen3-coder-next",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
-      "output": 0.375
+      "input": 0.075,
+      "output": 0.4
     },
     {
       "model": "qwen/qwen3-coder-plus",
