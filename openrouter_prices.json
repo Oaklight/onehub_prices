@@ -1716,6 +1716,13 @@
       "output": 2.2
     },
     {
+      "model": "openrouter/elephant-alpha",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "openrouter/free",
       "type": "tokens",
       "channel_type": 20,
