@@ -4508,13 +4508,6 @@
       "output": 0.5
     },
     {
-      "model": "meituan/longcat-flash-chat",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.4
-    },
-    {
       "model": "meta-llama/llama-3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
