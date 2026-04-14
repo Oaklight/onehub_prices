@@ -4385,8 +4385,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
-      "output": 0.2
+      "input": 0.04,
+      "output": 0.175
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -4399,8 +4399,8 @@
       "model": "google/gemma-4-31b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
-      "output": 0.2
+      "input": 0.065,
+      "output": 0.19
     },
     {
       "model": "google/gemma-4-31b-it:free",
