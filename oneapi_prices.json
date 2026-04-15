@@ -4431,21 +4431,7 @@
       "output": 0.055
     },
     {
-      "model": "inception/mercury",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.125,
-      "output": 0.375
-    },
-    {
       "model": "inception/mercury-2",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.125,
-      "output": 0.375
-    },
-    {
-      "model": "inception/mercury-coder",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.125,
