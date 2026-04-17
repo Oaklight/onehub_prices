@@ -4959,8 +4959,8 @@
       "model": "nvidia/nemotron-3-super-120b-a12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.25
+      "input": 0.045,
+      "output": 0.225
     },
     {
       "model": "nvidia/nemotron-3-super-120b-a12b:free",
