@@ -50,13 +50,6 @@
       "output": 0.225
     },
     {
-      "model": "allenai/olmo-2-0325-32b-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.025,
-      "output": 0.1
-    },
-    {
       "model": "allenai/olmo-3-32b-think",
       "type": "tokens",
       "channel_type": 20,
