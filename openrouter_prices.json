@@ -431,8 +431,8 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.13,
-      "output": 0.19
+      "input": 0.1295,
+      "output": 0.21
     },
     {
       "model": "deepseek/deepseek-v3.2-exp",
@@ -634,8 +634,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.035,
-      "output": 0.2
+      "input": 0.04,
+      "output": 0.175
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -2048,7 +2048,7 @@
       "model": "qwen/qwen3.5-9b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
+      "input": 0.05,
       "output": 0.075
     },
     {
