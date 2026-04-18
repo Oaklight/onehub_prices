@@ -841,13 +841,6 @@
       "output": 0.09
     },
     {
-      "model": "meta-llama/llama-guard-4-12b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "microsoft/phi-4",
       "type": "tokens",
       "channel_type": 20,
@@ -1117,8 +1110,8 @@
       "model": "moonshotai/kimi-k2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.19135,
-      "output": 0.86
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "morph/morph-v3-fast",
