@@ -1510,6 +1510,16 @@
       }
     },
     {
+      "model": "claude-4.7-opus*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "claude-haiku-4-5",
       "type": "tokens",
       "channel_type": 14,
@@ -1647,6 +1657,26 @@
       }
     },
     {
+      "model": "claude-opus-4-7",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-opus-4-7*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "claude-opus-4.1",
       "type": "tokens",
       "channel_type": 14,
@@ -1668,6 +1698,16 @@
     },
     {
       "model": "claude-opus-4.6*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-opus-4.7*",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
@@ -2265,6 +2305,13 @@
       "output": 3.57143
     },
     {
+      "model": "glm-4-32b-0414-128k",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.05,
+      "output": 0.05
+    },
+    {
       "model": "glm-4-air",
       "type": "tokens",
       "channel_type": 16,
@@ -2356,6 +2403,16 @@
       "output": 0.0
     },
     {
+      "model": "glm-4.5",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.3,
+      "output": 1.1,
+      "extra_ratios": {
+        "cached_tokens": 0.18333
+      }
+    },
+    {
       "model": "glm-4.5-air",
       "type": "tokens",
       "channel_type": 16,
@@ -2366,6 +2423,26 @@
       }
     },
     {
+      "model": "glm-4.5-airx",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.55,
+      "output": 2.25,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "glm-4.5-x",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 1.1,
+      "output": 4.45,
+      "extra_ratios": {
+        "cached_tokens": 0.20455
+      }
+    },
+    {
       "model": "glm-4.5v",
       "type": "tokens",
       "channel_type": 16,
@@ -2373,6 +2450,16 @@
       "output": 0.85714,
       "extra_ratios": {
         "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "glm-4.6",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.3,
+      "output": 1.1,
+      "extra_ratios": {
+        "cached_tokens": 0.18333
       }
     },
     {
@@ -2471,6 +2558,26 @@
       }
     },
     {
+      "model": "glm-5.1",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.7,
+      "output": 2.2,
+      "extra_ratios": {
+        "cached_tokens": 0.18571
+      }
+    },
+    {
+      "model": "glm-5v-turbo",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.6,
+      "output": 2.0,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
       "model": "glm-asr",
       "type": "tokens",
       "channel_type": 16,
@@ -2488,8 +2595,8 @@
       "model": "glm-ocr",
       "type": "tokens",
       "channel_type": 16,
-      "input": 0.01429,
-      "output": 0.0
+      "input": 0.015,
+      "output": 0.015
     },
     {
       "model": "glm-z1-air",
@@ -6642,6 +6749,25 @@
       }
     },
     {
+      "model": "gemini-3.1-flash-live-preview",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.375,
+      "output": 2.25,
+      "extra_ratios": {
+        "input_audio_tokens": 4.0,
+        "input_image_tokens": 1.33333,
+        "output_audio_tokens": 2.66667
+      }
+    },
+    {
+      "model": "gemini-3.1-flash-tts-preview",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.5,
+      "output": 10.0
+    },
+    {
       "model": "gemini-3.1-pro",
       "type": "tokens",
       "channel_type": 25,
@@ -6723,6 +6849,16 @@
       }
     },
     {
+      "model": "gemini-robotics-er-1.6-preview",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.5,
+      "output": 2.5,
+      "extra_ratios": {
+        "input_audio_tokens": 2.0
+      }
+    },
+    {
       "model": "gemini-ultra",
       "type": "tokens",
       "channel_type": 25,
@@ -6766,6 +6902,13 @@
     },
     {
       "model": "gemma-3n-e4b-it",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "gemma-4",
       "type": "tokens",
       "channel_type": 25,
       "input": 0.0,
@@ -6835,6 +6978,20 @@
       "output": 0.0
     },
     {
+      "model": "lyria-3-clip-preview",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 20.0
+    },
+    {
+      "model": "lyria-3-pro-preview",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 40.0
+    },
+    {
       "model": "veo-2.0-generate-001",
       "type": "times",
       "channel_type": 25,
@@ -6853,14 +7010,14 @@
       "type": "times",
       "channel_type": 25,
       "input": 0.0,
-      "output": 75.0
+      "output": 50.0
     },
     {
       "model": "veo-3.0-fast-generate-001",
       "type": "times",
       "channel_type": 25,
       "input": 0.0,
-      "output": 75.0
+      "output": 50.0
     },
     {
       "model": "veo-3.0-generate-001",
@@ -6881,14 +7038,14 @@
       "type": "times",
       "channel_type": 25,
       "input": 0.0,
-      "output": 75.0
+      "output": 50.0
     },
     {
       "model": "veo-3.1-fast-generate-preview",
       "type": "times",
       "channel_type": 25,
       "input": 0.0,
-      "output": 75.0
+      "output": 50.0
     },
     {
       "model": "veo-3.1-generate-preview",
@@ -6896,6 +7053,20 @@
       "channel_type": 25,
       "input": 0.0,
       "output": 200.0
+    },
+    {
+      "model": "veo-3.1-lite",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 25.0
+    },
+    {
+      "model": "veo-3.1-lite-generate-preview",
+      "type": "times",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 25.0
     },
     {
       "model": "veo2",
