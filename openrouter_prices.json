@@ -802,8 +802,8 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.16
+      "input": 0.06,
+      "output": 0.19
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct:free",
@@ -1392,13 +1392,6 @@
       "channel_type": 20,
       "input": 1.25,
       "output": 5.0
-    },
-    {
-      "model": "openai/gpt-4o:extended",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 3.0,
-      "output": 9.0
     },
     {
       "model": "openai/gpt-5",
