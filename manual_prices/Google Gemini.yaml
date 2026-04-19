@@ -2,6 +2,7 @@ models:
   Google Gemini:
     # 模型列表：https://ai.google.dev/gemini-api/docs/models
     # 模型价格：https://ai.google.dev/gemini-api/docs/pricing
+    # 模型价格锚点示例：https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro
     # 模型思考预算: https://ai.google.dev/gemini-api/docs/thinking?hl=zh-cn#thinking-levels
 
     # experimental models
@@ -26,6 +27,16 @@ models:
       extra_ratios:
         - cached_tokens: 0.2 usd / M # 0.4 usd / M when prompt is larger than 200,000 tokens
 
+    # Gemini 3.1 Flash Live Preview
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-live-preview
+    gemini-3.1-flash-live-preview:
+      input: 0.75 usd / M # text
+      output: 4.5 usd / M # text
+      extra_ratios:
+        - input_audio_tokens: 3 usd / M # audio, $0.005/min
+        - input_image_tokens: 1 usd / M # image/video, $0.002/min
+        - output_audio_tokens: 12 usd / M # audio, $0.018/min
+
     # Gemini 3.1 Flash-Lite Preview
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-lite-preview
     gemini-3.1-flash-lite:
@@ -49,7 +60,13 @@ models:
         # $0.101 per 2K image (1680 tokens)
         # $0.151 per 4K image (2520 tokens)
 
-    # Gemini 3 Pro Preview (Deprecated, will be shut down March 9, 2026)
+    # Gemini 3.1 Flash TTS Preview
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-tts-preview
+    gemini-3.1-flash-tts-preview:
+      input: 1 usd / M # text
+      output: 20 usd / M # audio
+
+    # Gemini 3 Pro Preview (DEPRECATED - shut down March 9, 2026)
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-3-pro-preview
     gemini-3-pro:
       aliases:
@@ -188,7 +205,7 @@ models:
       input: 1 usd / M
       output: 20 usd / M
 
-    # Gemini 2.0 Flash (Deprecated)
+    # Gemini 2.0 Flash (DEPRECATED - will be shut down June 1, 2026)
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.0-flash
     gemini-2.0-flash:
       input: 0.1 usd / M
@@ -199,9 +216,10 @@ models:
         - input_audio_tokens: 0.7 usd / M
         - cached_tokens: 0.025 usd / M # $0.025 / 1,000,000 tokens (text/image/video) $0.175 / 1,000,000 tokens (audio)
 
+    # NOTE: Image generation for Gemini 2.0 Flash has been shut down
     gemini-2.0-flash-preview-image-generation:
       input: 0.1 usd / M
-      output: 30 usd / M # [*] Image output is priced at $30 per 1,000,000 tokens. Output images up to 1024x1024px consume 1290 tokens and are equivalent to $0.039 per image.
+      output: 30 usd / M # [*] SHUT DOWN - Image generation no longer available
       extra_ratios:
         - input_image_tokens: 0.025 usd / M
         # - input_video_tokens: 0.025 usd / M # 暂时没有启用
@@ -217,7 +235,7 @@ models:
         - input_audio_tokens: 2.1 usd / M
         - output_audio_tokens: 8.5 usd / M
 
-    # Gemini 2.0 Flash-Lite (Deprecated)
+    # Gemini 2.0 Flash-Lite (DEPRECATED - will be shut down June 1, 2026)
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.0-flash-lite
     gemini-2.0-flash-lite:
       input: 0.075 usd / M
@@ -255,7 +273,11 @@ models:
 
     veo-3.1-fast:
       aliases: veo-3.1-fast-generate-preview
-      output: 0.15 usd / second # 720p/1080p video with audio; $0.35/s for 4K
+      output: 0.10 usd / second # 720p; $0.12/s for 1080p; $0.30/s for 4K
+
+    veo-3.1-lite:
+      aliases: veo-3.1-lite-generate-preview
+      output: 0.05 usd / second # 720p; $0.08/s for 1080p; 4K not supported
 
     # Veo 3
     # https://ai.google.dev/gemini-api/docs/pricing#veo-3
@@ -265,13 +287,27 @@ models:
 
     veo-3-fast:
       aliases: veo-3.0-fast-generate-001
-      output: 0.15 usd / second # Video with audio price
+      output: 0.10 usd / second # 720p; $0.12/s for 1080p; $0.30/s for 4K
 
     # Veo 2
     # https://ai.google.dev/gemini-api/docs/pricing#veo-2
     veo2:
       aliases: veo-2.0-generate-001
       output: 0.35 usd / second
+
+    # Lyria 3 (Music generation)
+    # https://ai.google.dev/gemini-api/docs/pricing#lyria-3
+    lyria-3-clip-preview:
+      output: 0.04 usd / song # 30s clip
+
+    lyria-3-pro-preview:
+      output: 0.08 usd / song # Full song
+
+    # Gemma 4
+    # https://ai.google.dev/gemini-api/docs/pricing#gemma-4
+    gemma-4:
+      input: 0
+      output: 0
 
     # Gemma 3 & 3n
     # https://ai.google.dev/gemini-api/docs/pricing#gemma-3
@@ -315,6 +351,13 @@ models:
       input: 0.15 usd / M # Free tier: free, Paid tier: $0.15/M tokens
 
     # Gemini Embedding 2 Preview
+    # Gemini Robotics-ER 1.6 Preview
+    gemini-robotics-er-1.6-preview:
+      input: 1 usd / M # text / image / video
+      output: 5 usd / M
+      extra_ratios:
+        - input_audio_tokens: 2 usd / M
+
     gemini-embedding-2-preview:
       input: 0.2 usd / M # Text input
       extra_ratios:

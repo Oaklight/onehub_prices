@@ -61,11 +61,13 @@ providers:
     notes: Clean markdown with pricing tables
 
   Zhipu (智谱):
-    llms_txt: https://docs.bigmodel.cn/llms.txt
-    pricing_md: null
+    llms_txt:
+      - https://docs.bigmodel.cn/llms.txt
+      - https://docs.z.ai/llms.txt
+    pricing_md: https://docs.z.ai/guides/overview/pricing.md
     notes: >
-      llms.txt exists (Mintlify-based); model pricing not in docs site.
-      Pricing at https://open.bigmodel.cn/pricing (HTML only).
+      International site (z.ai) has clean markdown pricing tables in USD.
+      Domestic site (bigmodel.cn) pricing is HTML only at https://open.bigmodel.cn/pricing.
       Knowledge-base pricing at https://docs.bigmodel.cn/cn/guide/tools/knowledge/price.md
 
   Tencent Hunyuan (腾讯混元):
