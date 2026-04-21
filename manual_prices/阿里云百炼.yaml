@@ -7,6 +7,33 @@ models:
     # 上下文缓存：https://help.aliyun.com/zh/model-studio/context-cache?spm=a2c4g.11186623.0.0.30a37d9dUBTDDU
 
     # 大模型系列
+
+    # Qwen3.6 系列（中国内地旗舰，2026年升级）
+    qwen3.6-max-preview:
+      # 支持思考和非思考模式，支持上下文缓存
+      # 阶梯计价：0<Token≤128K: 9元输入/54元输出 (per M)
+      # 128K<Token≤256K: 15元输入/90元输出
+      input: 9 rmb / M # 取0～128k价格
+      output: 54 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
+
+    qwen3.6-plus:
+      # 支持思考和非思考模式（思维链+回答同价）
+      # 阶梯计价：0<Token≤256K: 2元输入/12元输出 (per M)
+      # 256K<Token≤1M: 8元输入/48元输出
+      input: 2 rmb / M # 取0～256k价格
+      output: 12 rmb / M
+
+    qwen3.6-flash:
+      # 支持思考和非思考模式，支持上下文缓存，支持Batch半价
+      # 阶梯计价：0<Token≤256K: 1.2元输入/7.2元输出 (per M)
+      # 256K<Token≤1M: 4.8元输入/28.8元输出
+      input: 1.2 rmb / M # 取0～256k价格
+      output: 7.2 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
+
     qwen3-max:
       aliases:
         - qwen3-max-2026*
@@ -88,6 +115,40 @@ models:
       output: 0.002 rmb / K
 
     # 全模态系列
+
+    # Qwen3.5 Omni 系列（新增 Plus 级别）
+    qwen3.5-omni-plus:
+      # 多模态：文本/图片/视频输入 + 音频输入，文本+音频输出
+      input: 7 rmb / M # 文本/图片/视频输入
+      output: 40 rmb / M # 文本输出（含多模态输入场景）
+      extra_ratios:
+        - input_audio_tokens: 53 rmb / M
+        - output_audio_tokens: 213 rmb / M
+
+    qwen3.5-omni-flash:
+      # 多模态：文本/图片/视频输入 + 音频输入，文本+音频输出
+      input: 2.2 rmb / M # 文本/图片/视频输入
+      output: 13.3 rmb / M # 文本输出（含多模态输入场景）
+      extra_ratios:
+        - input_audio_tokens: 18 rmb / M
+        - output_audio_tokens: 72 rmb / M
+
+    qwen3.5-omni-plus-realtime:
+      # 多模态实时：文本/图片输入 + 音频输入（无视频），文本+音频输出
+      input: 10 rmb / M # 文本/图片输入
+      output: 60 rmb / M # 文本输出
+      extra_ratios:
+        - input_audio_tokens: 80 rmb / M
+        - output_audio_tokens: 300 rmb / M
+
+    qwen3.5-omni-flash-realtime:
+      # 多模态实时：文本/图片输入 + 音频输入（无视频），文本+音频输出
+      input: 3.3 rmb / M # 文本/图片输入
+      output: 20 rmb / M # 文本输出
+      extra_ratios:
+        - input_audio_tokens: 27 rmb / M
+        - output_audio_tokens: 107 rmb / M
+
     qwen3-omni-flash:
       aliases: qwen3-omni-flash-*
       input: 0.0018 rmb / K
@@ -251,7 +312,27 @@ models:
       extra_ratios:
         - input_image_tokens: 0.0015 rmb / K # 图像输入与文本输入同价
 
+    # 角色扮演模型
+    qwen-plus-character:
+      # 支持 Session Cache
+      input: 0.8 rmb / M
+      output: 2 rmb / M
+    qwen-flash-character:
+      # 支持 Session Cache
+      input: 0.25 rmb / M
+      output: 1.5 rmb / M
+    qwen-flash-character-2026-02-26:
+      # 快照版本，支持 Session Cache
+      input: 0.18 rmb / M
+      output: 1.5 rmb / M
+
     # embedding & reranking models
+    # 多模态向量模型
+    tongyi-embedding-vision-plus:
+      input: 0.5 rmb / M # 文本和图片/视频输入同价
+    tongyi-embedding-vision-flash:
+      input: 0.15 rmb / M # 文本和图片/视频输入同价
+
     multimodal-embedding-v1:
       input: 0.7 rmb / M # 文本输入；图片/视频输入 0.9 rmb / M
     qwen3-vl-embedding:
@@ -316,6 +397,13 @@ models:
         - output_audio_tokens: 0.24 rmb / K
 
     # =================================== 开源模型，仅包含最新 ===================================
+
+    # qwen3.6 开源版
+    qwen3.6-35b-a3b:
+      # 思考和非思考模式（同价）
+      # 0<Token≤256K
+      input: 1.8 rmb / M
+      output: 10.8 rmb / M
 
     # qwen3.5 开源版
     qwen3.5-397b-a17b:

@@ -1,6 +1,17 @@
 models:
   Moonshot:
-    # 模型定价：https://platform.moonshot.cn/docs/pricing/chat#%E4%BA%A7%E5%93%81%E5%AE%9A%E4%BB%B7
+    # 模型定价：https://platform.kimi.com/docs/pricing/chat
+    # llms.txt：https://platform.kimi.com/docs/llms.txt
+
+    # ====== 多模态模型 ======
+
+    kimi-k2.6:
+      # 最新旗舰模型，支持文本/图片/视频输入，思考与非思考模式
+      # 上下文窗口：262,144 tokens
+      input: 6.5 rmb / M
+      output: 27 rmb / M
+      extra_ratios:
+        - cached_tokens: 1.1 rmb / M
 
     kimi-k2.5:
       input: 4 rmb / M
@@ -9,7 +20,10 @@ models:
         - cached_tokens: 0.7 rmb / M
         - input_image_tokens: 4 rmb / M
 
+    # ====== K2 系列 (deprecated: 2026-05-25 下线，建议迁移至 kimi-k2.6) ======
+
     kimi-k2:
+      deprecated: 2026-05-25
       aliases:
         - kimi-k2-0711-preview
         - kimi-k2-0905-preview
@@ -19,35 +33,43 @@ models:
         - cached_tokens: 1 rmb / M
 
     kimi-k2-turbo-preview:
+      deprecated: 2026-05-25
       input: 8 rmb / M
       output: 58 rmb / M
       extra_ratios:
         - cached_tokens: 1 rmb / M
 
     kimi-k2-thinking:
+      deprecated: 2026-05-25
       input: 4 rmb / M
       output: 16 rmb / M
       extra_ratios:
         - cached_tokens: 1 rmb / M
 
     kimi-k2-thinking-turbo:
+      deprecated: 2026-05-25
       input: 8 rmb / M
       output: 58 rmb / M
       extra_ratios:
         - cached_tokens: 1 rmb / M
-    # kimi latest (vision)
+
+    # ====== kimi-latest 系列 (deprecated: 2026-01-28 停止新用户使用，不再维护) ======
+
     kimi-latest-8k:
+      deprecated: 2026-01-28
       input: 2 rmb / M
       output: 10 rmb / M
       extra_ratios:
         - cached_tokens: 1 rmb / M
     kimi-latest-32k:
+      deprecated: 2026-01-28
       aliases: kimi-latest
       input: 5 rmb / M
       output: 20 rmb / M
       extra_ratios:
         - cached_tokens: 1 rmb / M
     kimi-latest-128k:
+      deprecated: 2026-01-28
       input: 10 rmb / M
       output: 30 rmb / M
       extra_ratios:
@@ -75,7 +97,10 @@ models:
       extra_ratios:
         - cached_tokens: 0
 
-    # kimi thinking (vision)
+    # ====== 已下线 ======
+
+    # kimi-thinking-preview (deprecated: 2025-11-11 已下线)
     kimi-thinking-preview:
+      deprecated: 2025-11-11
       input: 200 rmb / M
       output: 200 rmb / M

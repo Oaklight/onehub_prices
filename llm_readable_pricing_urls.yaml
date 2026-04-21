@@ -86,9 +86,11 @@ providers:
     notes: No LLM-friendly page found
 
   Moonshot (月之暗面):
-    llms_txt: null
+    llms_txt: https://platform.kimi.com/docs/llms.txt
     pricing_md: null
-    notes: 404 on all attempted paths
+    notes: >
+      Domain migrated from platform.moonshot.cn to platform.kimi.com.
+      llms.txt available. Pricing page at https://platform.kimi.com/docs/pricing/chat (HTML, fetchable).
 
   StepFun (阶跃星辰):
     llms_txt: null
