@@ -4598,7 +4598,7 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
+      "input": 0.035,
       "output": 0.175
     },
     {
@@ -4656,6 +4656,13 @@
       "channel_type": 20,
       "input": 0.125,
       "output": 0.375
+    },
+    {
+      "model": "inclusionai/ling-2.6-flash:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "inflection/inflection-3-pi",
@@ -6327,8 +6334,8 @@
       "model": "z-ai/glm-5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.36,
-      "output": 1.15
+      "input": 0.325,
+      "output": 1.04
     },
     {
       "model": "z-ai/glm-5-turbo",
@@ -6341,8 +6348,8 @@
       "model": "z-ai/glm-5.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.349,
-      "output": 2.2
+      "input": 0.525,
+      "output": 1.75
     },
     {
       "model": "z-ai/glm-5v-turbo",
