@@ -2824,6 +2824,20 @@
       "output": 0.10714
     },
     {
+      "model": "qwen-flash-character",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.01786,
+      "output": 0.10714
+    },
+    {
+      "model": "qwen-flash-character-2026-02-26",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.01286,
+      "output": 0.10714
+    },
+    {
       "model": "qwen-long",
       "type": "tokens",
       "channel_type": 17,
@@ -3080,6 +3094,13 @@
         "reasoning_tokens": 10.0,
         "cached_tokens": 0.2
       }
+    },
+    {
+      "model": "qwen-plus-character",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.05714,
+      "output": 0.14286
     },
     {
       "model": "qwen-plus-latest",
@@ -3733,6 +3754,50 @@
       "output": 0.14286
     },
     {
+      "model": "qwen3.5-omni-flash",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.15714,
+      "output": 0.95,
+      "extra_ratios": {
+        "input_audio_tokens": 8.18182,
+        "output_audio_tokens": 5.41353
+      }
+    },
+    {
+      "model": "qwen3.5-omni-flash-realtime",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.23571,
+      "output": 1.42857,
+      "extra_ratios": {
+        "input_audio_tokens": 8.18182,
+        "output_audio_tokens": 5.35
+      }
+    },
+    {
+      "model": "qwen3.5-omni-plus",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.5,
+      "output": 2.85714,
+      "extra_ratios": {
+        "input_audio_tokens": 7.57143,
+        "output_audio_tokens": 5.325
+      }
+    },
+    {
+      "model": "qwen3.5-omni-plus-realtime",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.71429,
+      "output": 4.28571,
+      "extra_ratios": {
+        "input_audio_tokens": 8.0,
+        "output_audio_tokens": 5.0
+      }
+    },
+    {
       "model": "qwen3.5-plus",
       "type": "tokens",
       "channel_type": 17,
@@ -3745,6 +3810,40 @@
       "channel_type": 17,
       "input": 0.05714,
       "output": 0.34286
+    },
+    {
+      "model": "qwen3.6-35b-a3b",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.12857,
+      "output": 0.77143
+    },
+    {
+      "model": "qwen3.6-flash",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.08571,
+      "output": 0.51429,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "qwen3.6-max-preview",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.64286,
+      "output": 3.85714,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "qwen3.6-plus",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.14286,
+      "output": 0.85714
     },
     {
       "model": "qwq-plus",
@@ -3776,6 +3875,20 @@
     },
     {
       "model": "text-embedding-v4",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.03571,
+      "output": 0.0
+    },
+    {
+      "model": "tongyi-embedding-vision-flash",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.01071,
+      "output": 0.0
+    },
+    {
+      "model": "tongyi-embedding-vision-plus",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.03571,
@@ -7417,6 +7530,16 @@
       "extra_ratios": {
         "cached_tokens": 0.175,
         "input_image_tokens": 1.0
+      }
+    },
+    {
+      "model": "kimi-k2.6",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 0.46429,
+      "output": 1.92857,
+      "extra_ratios": {
+        "cached_tokens": 0.16923
       }
     },
     {
