@@ -1117,8 +1117,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.475,
-      "output": 2.0
+      "input": 0.3,
+      "output": 1.4
     },
     {
       "model": "morph/morph-v3-fast",
@@ -2363,8 +2363,8 @@
       "model": "z-ai/glm-5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.35,
-      "output": 0.07
+      "input": 0.36,
+      "output": 1.15
     },
     {
       "model": "z-ai/glm-5-turbo",
