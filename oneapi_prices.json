@@ -4196,6 +4196,13 @@
       "output": 0.09
     },
     {
+      "model": "arcee-ai/trinity-large-preview",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.075,
+      "output": 0.225
+    },
+    {
       "model": "arcee-ai/trinity-large-preview:free",
       "type": "tokens",
       "channel_type": 20,
@@ -6262,6 +6269,20 @@
     },
     {
       "model": "xiaomi/mimo-v2-pro",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 1.5
+    },
+    {
+      "model": "xiaomi/mimo-v2.5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.2,
+      "output": 1.0
+    },
+    {
+      "model": "xiaomi/mimo-v2.5-pro",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.5,
