@@ -4773,8 +4773,8 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
-      "output": 0.19
+      "input": 0.05,
+      "output": 0.16
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct:free",
@@ -5088,8 +5088,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 1.4
+      "input": 0.4,
+      "output": 1.75
     },
     {
       "model": "morph/morph-v3-fast",
@@ -5512,6 +5512,13 @@
       "output": 7.5
     },
     {
+      "model": "openai/gpt-5.4-image-2",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 4.0,
+      "output": 7.5
+    },
+    {
       "model": "openai/gpt-5.4-mini",
       "type": "tokens",
       "channel_type": 20,
@@ -5650,13 +5657,6 @@
       "channel_type": 20,
       "input": 0.55,
       "output": 2.2
-    },
-    {
-      "model": "openrouter/elephant-alpha",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "openrouter/free",
@@ -6357,6 +6357,13 @@
       "channel_type": 20,
       "input": 0.6,
       "output": 2.0
+    },
+    {
+      "model": "~anthropic/claude-opus-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 2.5,
+      "output": 12.5
     },
     {
       "model": "ChatPro",
