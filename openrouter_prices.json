@@ -634,8 +634,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.035,
-      "output": 0.17
+      "input": 0.03,
+      "output": 0.165
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -692,6 +692,13 @@
       "channel_type": 20,
       "input": 0.125,
       "output": 0.375
+    },
+    {
+      "model": "inclusionai/ling-2.6-1t:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "inclusionai/ling-2.6-flash:free",
@@ -1019,8 +1026,8 @@
       "model": "mistralai/mistral-nemo",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01,
-      "output": 0.02
+      "input": 0.005,
+      "output": 0.015
     },
     {
       "model": "mistralai/mistral-saba",
@@ -1124,7 +1131,7 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.375,
+      "input": 0.28,
       "output": 1.75
     },
     {
