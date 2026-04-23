@@ -9256,6 +9256,13 @@
       "output": 0.85714
     },
     {
+      "model": "Qwen/Qwen3.6-27B",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.12857,
+      "output": 1.02857
+    },
+    {
       "model": "Qwen/Qwen3.6-35B-A3B",
       "type": "tokens",
       "channel_type": 45,
