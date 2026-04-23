@@ -239,13 +239,6 @@
       "output": 0.225
     },
     {
-      "model": "arcee-ai/trinity-large-preview:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "arcee-ai/trinity-large-thinking",
       "type": "tokens",
       "channel_type": 20,
@@ -370,13 +363,6 @@
       "channel_type": 20,
       "input": 0.01875,
       "output": 0.075
-    },
-    {
-      "model": "deepcogito/cogito-v2.1-671b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.625,
-      "output": 0.625
     },
     {
       "model": "deepseek/deepseek-chat",
@@ -642,7 +628,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.035,
-      "output": 0.175
+      "output": 0.17
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -1131,7 +1117,7 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4,
+      "input": 0.375,
       "output": 1.75
     },
     {
@@ -1852,8 +1838,8 @@
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.065,
-      "output": 0.3
+      "input": 0.07475,
+      "output": 0.7475
     },
     {
       "model": "qwen/qwen3-30b-a3b",
