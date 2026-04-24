@@ -789,6 +789,23 @@
       "output": 90.0
     },
     {
+      "model": "gpt-5.5",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 2.5,
+      "output": 15.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "gpt-5.5-pro",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 15.0,
+      "output": 90.0
+    },
+    {
       "model": "gpt-audio",
       "type": "tokens",
       "channel_type": 1,
@@ -855,6 +872,18 @@
         "cached_tokens": 0.25,
         "input_image_tokens": 1.6,
         "output_image_tokens": 3.2
+      }
+    },
+    {
+      "model": "gpt-image-2",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 2.5,
+      "output": 0.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25,
+        "input_image_tokens": 1.6,
+        "output_image_tokens": 15.0
       }
     },
     {
