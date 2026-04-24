@@ -80,7 +80,9 @@ models:
       extra_ratios:
         - cached_tokens: 1.5 usd / M
 
+    # DEPRECATED: Claude Opus 4 将于 2026-06-15 退役，建议迁移到 Claude Opus 4.7
     claude-opus-4:
+      deprecated: 2026-06-15
       aliases:
         - claude-opus-4-20250514
         - claude-opus-4-0
@@ -91,7 +93,9 @@ models:
       extra_ratios:
         - cached_tokens: 1.5 usd / M
 
+    # DEPRECATED: Claude Sonnet 4 将于 2026-06-15 退役，建议迁移到 Claude Sonnet 4.6
     claude-sonnet-4:
+      deprecated: 2026-06-15
       aliases:
         - claude-sonnet-4-20250514
         - claude-sonnet-4-0
