@@ -5929,7 +5929,7 @@
       "model": "qwen/qwen3-coder-next",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
+      "input": 0.07,
       "output": 0.4
     },
     {
@@ -8321,29 +8321,29 @@
       "model": "hunyuan-2.0-instruct",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.05714,
-      "output": 0.14286
+      "input": 0.32179,
+      "output": 0.795
     },
     {
       "model": "hunyuan-2.0-instruct-202*",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.05714,
-      "output": 0.14286
+      "input": 0.32179,
+      "output": 0.795
     },
     {
       "model": "hunyuan-2.0-thinking",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.07143,
-      "output": 0.28571
+      "input": 0.37857,
+      "output": 1.51429
     },
     {
       "model": "hunyuan-2.0-thinking-202*",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.07143,
-      "output": 0.28571
+      "input": 0.37857,
+      "output": 1.51429
     },
     {
       "model": "hunyuan-a13b",
@@ -8353,13 +8353,6 @@
       "output": 0.14286
     },
     {
-      "model": "hunyuan-code",
-      "type": "tokens",
-      "channel_type": 40,
-      "input": 0.25,
-      "output": 0.5
-    },
-    {
       "model": "hunyuan-embedding",
       "type": "tokens",
       "channel_type": 40,
@@ -8367,39 +8360,18 @@
       "output": 0.05
     },
     {
-      "model": "hunyuan-functioncall",
+      "model": "hunyuan-large-role",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.28571,
-      "output": 0.57143
-    },
-    {
-      "model": "hunyuan-large",
-      "type": "tokens",
-      "channel_type": 40,
-      "input": 0.28571,
-      "output": 0.85714
-    },
-    {
-      "model": "hunyuan-large-longcontext",
-      "type": "tokens",
-      "channel_type": 40,
-      "input": 0.42857,
-      "output": 1.28571
+      "input": 0.17143,
+      "output": 0.68571
     },
     {
       "model": "hunyuan-large-role-latest",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.28571,
-      "output": 0.57143
-    },
-    {
-      "model": "hunyuan-large-vision",
-      "type": "tokens",
-      "channel_type": 40,
-      "input": 1.28571,
-      "output": 1.28571
+      "input": 0.17143,
+      "output": 0.68571
     },
     {
       "model": "hunyuan-lite",
@@ -8409,25 +8381,18 @@
       "output": 0
     },
     {
-      "model": "hunyuan-role",
-      "type": "tokens",
-      "channel_type": 40,
-      "input": 0.28571,
-      "output": 0.57143
-    },
-    {
       "model": "hunyuan-standard",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.05714,
-      "output": 0.14286
+      "input": 0.3214,
+      "output": 0.3571
     },
     {
       "model": "hunyuan-standard-256k",
       "type": "tokens",
       "channel_type": 40,
-      "input": 0.03571,
-      "output": 0.14286
+      "input": 1.0714,
+      "output": 4.2857
     },
     {
       "model": "hunyuan-t1",
@@ -8472,13 +8437,6 @@
       "output": 0.21429
     },
     {
-      "model": "hunyuan-turbo",
-      "type": "tokens",
-      "channel_type": 40,
-      "input": 0.17143,
-      "output": 0.68571
-    },
-    {
       "model": "hunyuan-turbos",
       "type": "tokens",
       "channel_type": 40,
@@ -8491,13 +8449,6 @@
       "channel_type": 40,
       "input": 0.05714,
       "output": 0.14286
-    },
-    {
-      "model": "hunyuan-turbos-longtext-128k",
-      "type": "tokens",
-      "channel_type": 40,
-      "input": 0.10714,
-      "output": 0.42857
     },
     {
       "model": "hunyuan-turbos-vision",
@@ -8514,18 +8465,21 @@
       "output": 0.64286
     },
     {
-      "model": "hunyuan-vision",
-      "type": "tokens",
-      "channel_type": 40,
-      "input": 1.28571,
-      "output": 1.28571
-    },
-    {
       "model": "hunyuan-vision-1.5-instruct",
       "type": "tokens",
       "channel_type": 40,
       "input": 0.21429,
       "output": 0.64286
+    },
+    {
+      "model": "hy3-preview",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.14286,
+      "output": 0.57143,
+      "extra_ratios": {
+        "cached_tokens": 0.4
+      }
     },
     {
       "model": "01-ai/Yi-1.5-34B-Chat-16K",
