@@ -7457,10 +7457,10 @@
       "model": "deepseek-chat",
       "type": "tokens",
       "channel_type": 28,
-      "input": 0.14286,
-      "output": 0.21429,
+      "input": 0.07143,
+      "output": 0.14286,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.2
       }
     },
     {
@@ -7474,40 +7474,60 @@
       "model": "deepseek-reasoner",
       "type": "tokens",
       "channel_type": 28,
-      "input": 0.14286,
-      "output": 0.21429,
+      "input": 0.07143,
+      "output": 0.14286,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.2
       }
     },
     {
       "model": "deepseek-v3.2",
       "type": "tokens",
       "channel_type": 28,
-      "input": 0.14286,
-      "output": 0.21429,
+      "input": 0.07143,
+      "output": 0.14286,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.2
       }
     },
     {
       "model": "deepseek-v3.2-speciale*",
       "type": "tokens",
       "channel_type": 28,
-      "input": 0.14286,
-      "output": 0.21429,
+      "input": 0.07143,
+      "output": 0.14286,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.2
       }
     },
     {
       "model": "deepseek-v3.2-thinking",
       "type": "tokens",
       "channel_type": 28,
-      "input": 0.14286,
-      "output": 0.21429,
+      "input": 0.07143,
+      "output": 0.14286,
       "extra_ratios": {
-        "cached_tokens": 0.1
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "type": "tokens",
+      "channel_type": 28,
+      "input": 0.07143,
+      "output": 0.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "type": "tokens",
+      "channel_type": 28,
+      "input": 0.85714,
+      "output": 1.71429,
+      "extra_ratios": {
+        "cached_tokens": 0.08333
       }
     },
     {
