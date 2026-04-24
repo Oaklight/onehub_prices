@@ -372,6 +372,13 @@
       "output": 0.075
     },
     {
+      "model": "deepcogito/cogito-v2.1-671b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.625,
+      "output": 0.625
+    },
+    {
       "model": "deepseek/deepseek-chat",
       "type": "tokens",
       "channel_type": 20,
@@ -908,7 +915,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.075,
-      "output": 0.6
+      "output": 0.575
     },
     {
       "model": "minimax/minimax-m2.5:free",
@@ -1131,8 +1138,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.28,
-      "output": 1.75
+      "input": 0.3724,
+      "output": 2.3275
     },
     {
       "model": "morph/morph-v3-fast",
@@ -2398,7 +2405,7 @@
       "model": "z-ai/glm-5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.325,
+      "input": 0.3,
       "output": 1.04
     },
     {
