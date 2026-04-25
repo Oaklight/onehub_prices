@@ -4459,8 +4459,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.87,
-      "output": 1.74
+      "input": 0.2175,
+      "output": 0.435
     },
     {
       "model": "essentialai/rnj-1-instruct",
