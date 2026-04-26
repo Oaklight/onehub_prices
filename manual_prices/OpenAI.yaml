@@ -248,7 +248,6 @@ models:
     o1:
       aliases:
         - o1-2024-12-17
-        - o1-preview-2024-09-12
       input: 15 usd / M
       output: 60 usd / M
       extra_ratios:
@@ -298,23 +297,11 @@ models:
       output: 4.4 usd / M
       extra_ratios:
         - cached_tokens: 0.55 usd / M
-    o1-mini:
-      aliases:
-        - o1-mini-2024-09-12
-      input: 1.1 usd / M
-      output: 4.4 usd / M
-      extra_ratios:
-        - cached_tokens: 0.55 usd / M
     gpt-5.1-codex-mini:
       input: 0.25 usd / M
       output: 2 usd / M
       extra_ratios:
         - cached_tokens: 0.025 usd / M
-    codex-mini-latest:
-      input: 1.5 usd / M
-      output: 6 usd / M
-      extra_ratios:
-        - cached_tokens: 0.375 usd / M
     gpt-5-search-api:
       input: 1.25 usd / M
       output: 10 usd / M
@@ -330,11 +317,6 @@ models:
         - gpt-4o-search-preview-2025-03-11
       input: 2.5 usd / M
       output: 10 usd / M
-    computer-use-preview:
-      aliases:
-        - computer-use-preview-2025-03-11
-      input: 3 usd / M
-      output: 12 usd / M
     gpt-image-2:
       input: 5 usd / M
       extra_ratios:
@@ -420,26 +402,16 @@ models:
       output: 0.5 usd / s
 
     # other models
-    chatgpt-4o-latest:
-      input: 5 usd / M
-      output: 15 usd / M
     gpt-4-turbo:
       aliases:
         - gpt-4-turbo-2024-04-09
-        - gpt-4-0125-preview
-        - gpt-4-1106-preview
-        - gpt-4-1106-vision-preview
       input: 10 usd / M
       output: 30 usd / M
     gpt-4:
       aliases:
         - gpt-4-0613
-        - gpt-4-0314
       input: 30 usd / M
       output: 60 usd / M
-    gpt-4-32k:
-      input: 60 usd / M
-      output: 120 usd / M
     gpt-3.5-turbo:
       aliases:
         - gpt-3.5-turbo-0125
@@ -448,17 +420,9 @@ models:
     gpt-3.5-turbo-1106:
       input: 1 usd / M
       output: 2 usd / M
-    gpt-3.5-turbo-0613:
-      aliases:
-        - gpt-3.5-turbo-0301
-      input: 1.5 usd / M
-      output: 2 usd / M
     gpt-3.5-turbo-instruct:
       input: 1.5 usd / M
       output: 2 usd / M
-    gpt-3.5-turbo-16k-0613:
-      input: 3 usd / M
-      output: 4 usd / M
     davinci-002:
       input: 2 usd / M
       output: 2 usd / M
