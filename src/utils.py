@@ -140,7 +140,7 @@ def load_yaml_from_directory(directory_path: str, file_name: str = None) -> dict
                 f"The specified file '{file_name}' does not exist in the directory: {directory_path}"
             )
         with open(file_path, "r", encoding="utf-8") as file:
-            file_data = yaml.safe_load(file)
+            file_data = yaml.load(file)
         if "models" in file_data:
             yaml_data["models"] = file_data["models"]
         return yaml_data
@@ -165,7 +165,7 @@ def load_yaml_from_directory(directory_path: str, file_name: str = None) -> dict
         print(f"Processing file: {filename}")  # Debug print
         file_path = os.path.join(directory_path, filename)
         with open(file_path, "r", encoding="utf-8") as file:
-            file_data = yaml.safe_load(file)
+            file_data = yaml.load(file)
             if "models" in file_data:
                 for channel, models in file_data["models"].items():
                     # 如果模型列表为空，跳过更新
