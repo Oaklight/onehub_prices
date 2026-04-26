@@ -1,7 +1,7 @@
 import json
 import os
 
-import dotenv
+from dotenv import load_dotenv
 
 from utils import (
     SCALE_FACTOR_CNY,
@@ -36,7 +36,7 @@ def extract_specific_price(model_pricing, specification):
 
 
 if __name__ == "__main__":
-    dotenv.load_dotenv()  # Load environment variables from .env file
+    load_dotenv()  # Load environment variables from .env file
 
     api_key: str = os.getenv("SILICONFLOW_API_KEY")
     assert api_key is not None, "SILICONFLOW_API_KEY is not set"

@@ -1,7 +1,7 @@
 import argparse
 import json
 
-import requests
+import httpclient
 
 from utils import integrate_prices, yaml_to_json
 
@@ -70,11 +70,11 @@ if __name__ == "__main__":
     # 获取上游 MartialBE 的价格（仅在 --upstream 时）
     if use_upstream:
         try:
-            response = requests.get(UPSTREAM_URL)
+            response = httpclient.get(UPSTREAM_URL)
             response.raise_for_status()
             upstream_prices = {"data": response.json()}
             print(f"已获取上游价格: {len(upstream_prices['data'])} 条")
-        except requests.RequestException as e:
+        except httpclient.HttpClientError as e:
             print(f"获取上游价格出错: {e}")
             upstream_prices = {"data": []}
         # 集成上游价格，手动价格优先

@@ -1,3 +1,4 @@
-pyyaml
-requests
-python-dotenv
+# Dependencies are vendored as single-file modules in src/ (via zerodep):
+#   httpclient.py  (replaces requests)
+#   yaml.py        (replaces pyyaml)
+#   dotenv.py      (replaces python-dotenv)

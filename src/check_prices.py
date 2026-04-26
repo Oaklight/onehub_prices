@@ -5,7 +5,7 @@ import os
 import re
 import sys
 
-import requests
+import httpclient
 import yaml
 
 # Resolve project root relative to this script
@@ -50,7 +50,7 @@ def load_provider_urls():
 
 def fetch_pricing_md(url):
     """Fetch markdown content from a pricing URL."""
-    resp = requests.get(url, headers=HEADERS, timeout=30)
+    resp = httpclient.get(url, headers=HEADERS, timeout=30)
     resp.raise_for_status()
     return resp.text
 
@@ -596,7 +596,7 @@ def check_provider(provider_key, provider_info):
     print(f"[FETCH] {provider_key}: {pricing_url}")
     try:
         md_text = fetch_pricing_md(pricing_url)
-    except requests.RequestException as e:
+    except httpclient.HttpClientError as e:
         print(f"[ERROR] {provider_key}: failed to fetch pricing page: {e}")
         return None
 

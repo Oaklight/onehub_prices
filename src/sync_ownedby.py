@@ -3,8 +3,7 @@ import json
 import os
 from typing import Dict, List, Tuple
 
-import requests
-import yaml
+import httpclient
 
 
 def load_ownedby(json_file_path: str = None, url: str = None) -> List:
@@ -31,7 +30,7 @@ def load_ownedby(json_file_path: str = None, url: str = None) -> List:
         with open(json_file_path, "r", encoding="utf-8") as file:
             raw_ownedby = json.load(file)["data"]
     elif url:
-        response = requests.get(url)
+        response = httpclient.get(url)
         response.raise_for_status()
         raw_ownedby = response.json()["data"]
 
@@ -99,7 +98,7 @@ def delete_ownedby(api_url: str, admin_token: str, ownedby_id: str) -> None:
     headers = {
         "Authorization": f"Bearer {admin_token}",
     }
-    response = requests.delete(f"{api_url}/{ownedby_id}", headers=headers)
+    response = httpclient.delete(f"{api_url}/{ownedby_id}", headers=headers)
 
     if response.status_code == 200:
         print("Delete successful:", response.json())
@@ -123,7 +122,7 @@ def add_ownedby(api_url: str, admin_token: str, ownedby_data: Dict) -> None:
         "Authorization": f"Bearer {admin_token}",
         "Content-Type": "application/json",
     }
-    response = requests.post(api_url, json=ownedby_data, headers=headers)
+    response = httpclient.post(api_url, json=ownedby_data, headers=headers)
 
     if response.status_code == 200:
         print("Add successful:", response.json())

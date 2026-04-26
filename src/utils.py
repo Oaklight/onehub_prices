@@ -2,7 +2,7 @@ import json
 import os
 from typing import Dict, List, Literal, Tuple
 
-import requests
+import httpclient
 import yaml
 
 SCALE_FACTOR_CNY = 0.014
@@ -33,13 +33,13 @@ def fetch_and_sort_models(
     list: A sorted list of models based on modelName.
 
     Raises:
-    requests.ConnectionError: If the connection fails.
+    httpclient.HttpConnectionError: If the connection fails.
     json.JSONDecodeError: If the response body cannot be decoded into JSON.
-    requests.exceptions.RequestException: For other HTTP errors.
+    httpclient.HttpClientError: For other HTTP errors.
     """
     try:
-        response = requests.get(f"{url}{endpoint}", headers=headers)
-        response.raise_for_status()  # Raise exception for HTTP error responses
+        response = httpclient.get(f"{url}{endpoint}", headers=headers)
+        response.raise_for_status()
         body = response.text
 
         if mode == "siliconflow":
@@ -50,16 +50,16 @@ def fetch_and_sort_models(
 
         return model_json
 
-    except requests.ConnectionError as e:
-        raise requests.ConnectionError(f"Failed to connect to {url}: {e}")
+    except httpclient.HttpConnectionError as e:
+        raise httpclient.HttpConnectionError(f"Failed to connect to {url}: {e}")
 
     except json.JSONDecodeError as e:
         raise json.JSONDecodeError(
             f"Failed to decode JSON response: {e}", doc=e.doc, pos=e.pos
         )
 
-    except requests.exceptions.RequestException as e:
-        raise requests.exceptions.RequestException(f"An HTTP error occurred: {e}")
+    except httpclient.HttpClientError as e:
+        raise httpclient.HttpClientError(f"An HTTP error occurred: {e}")
 
 
 def get_channel_id_mapping(save_to_file: bool = False) -> Dict:
@@ -74,12 +74,12 @@ def get_channel_id_mapping(save_to_file: bool = False) -> Dict:
     dict: A mapping of channel names to IDs.
 
     Raises:
-    requests.RequestException: For API request errors.
+    httpclient.HttpClientError: For API request errors.
     KeyError, ValueError: For errors while processing the data.
     """
     try:
         # Fetch data from the API
-        response = requests.get("https://oneapi.service.oaklight.cn/api/ownedby")
+        response = httpclient.get("https://oneapi.service.oaklight.cn/api/ownedby")
         response.raise_for_status()
 
         # Parse JSON response
@@ -104,10 +104,10 @@ def get_channel_id_mapping(save_to_file: bool = False) -> Dict:
                 mapping[value["name"]] = int(key)
             return mapping
 
-    except requests.ConnectionError as e:
-        raise requests.ConnectionError(f"Connection error occurred: {e}")
-    except requests.RequestException as e:
-        raise requests.RequestException(f"HTTP request error: {e}")
+    except httpclient.HttpConnectionError as e:
+        raise httpclient.HttpConnectionError(f"Connection error occurred: {e}")
+    except httpclient.HttpClientError as e:
+        raise httpclient.HttpClientError(f"HTTP request error: {e}")
     except json.JSONDecodeError as e:
         raise json.JSONDecodeError(f"JSON parsing error: {e}", doc=e.doc, pos=e.pos)
     except (KeyError, ValueError) as e:

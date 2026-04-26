@@ -3,12 +3,12 @@ import json
 import os
 from typing import Literal
 
-import dotenv
-import requests
+import httpclient
+from dotenv import load_dotenv
 
 from utils import get_channel_id_mapping
 
-dotenv.load_dotenv()  # Load environment variables from .env file
+load_dotenv()  # Load environment variables from .env file
 
 
 def sync_pricing(
@@ -34,7 +34,7 @@ def sync_pricing(
         "Content-Type": "application/json",
     }
     params = {"updateMode": update_mode.lower()}
-    response = requests.post(api_url, json=prices, headers=headers, params=params)
+    response = httpclient.post(api_url, json=prices, headers=headers, params=params)
 
     if response.status_code == 200:
         print("Sync successful:", response.json())
@@ -71,7 +71,7 @@ def main() -> None:
 
     price_json = None
     if args.json_url:
-        response = requests.get(args.json_url)
+        response = httpclient.get(args.json_url)
         response.raise_for_status()
         price_json = response.json()
     else:
