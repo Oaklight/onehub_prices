@@ -44,7 +44,7 @@ HEADERS = {
 def load_provider_urls():
     """Load provider pricing URLs from llm_readable_pricing_urls.yaml."""
     with open(URLS_FILE, "r", encoding="utf-8") as f:
-        data = yaml.load(f)
+        data = yaml.load(f.read())
     return data.get("providers", {})
 
 
@@ -300,7 +300,7 @@ def load_yaml_prices(provider_yaml_file):
     """
     file_path = os.path.join(MANUAL_PRICES_DIR, provider_yaml_file)
     with open(file_path, "r", encoding="utf-8") as f:
-        data = yaml.load(f)
+        data = yaml.load(f.read())
 
     if not data or "models" not in data:
         return {}
