@@ -1,7 +1,7 @@
 import json
 import os
 
-from dotenv import load_dotenv
+from _vendor.dotenv import load_dotenv
 
 from utils import (
     SCALE_FACTOR_CNY,

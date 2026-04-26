@@ -3,7 +3,7 @@ import json
 import os
 from typing import Dict, List, Tuple
 
-import httpclient
+from _vendor import httpclient
 
 
 def load_ownedby(json_file_path: str = None, url: str = None) -> List:
@@ -131,7 +131,7 @@ def add_ownedby(api_url: str, admin_token: str, ownedby_data: Dict) -> None:
 
 
 if __name__ == "__main__":
-    from dotenv import load_dotenv
+    from _vendor.dotenv import load_dotenv
 
     load_dotenv()  # Load environment variables from .env file
 

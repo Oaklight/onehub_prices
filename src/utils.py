@@ -2,8 +2,8 @@ import json
 import os
 from typing import Dict, List, Literal, Tuple
 
-import httpclient
-import yaml
+from _vendor import httpclient
+from _vendor import yaml
 
 SCALE_FACTOR_CNY = 0.014
 SCALE_FACTOR_USD = 0.002

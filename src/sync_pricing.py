@@ -3,8 +3,8 @@ import json
 import os
 from typing import Literal
 
-import httpclient
-from dotenv import load_dotenv
+from _vendor import httpclient
+from _vendor.dotenv import load_dotenv
 
 from utils import get_channel_id_mapping
 

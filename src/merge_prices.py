@@ -1,7 +1,7 @@
 import argparse
 import json
 
-import httpclient
+from _vendor import httpclient
 
 from utils import integrate_prices, yaml_to_json
 

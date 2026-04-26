@@ -5,8 +5,8 @@ import os
 import re
 import sys
 
-import httpclient
-import yaml
+from _vendor import httpclient
+from _vendor import yaml
 
 # Resolve project root relative to this script
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
