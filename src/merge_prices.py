@@ -1,8 +1,11 @@
+import argparse
 import json
 
 import requests
 
 from utils import integrate_prices, yaml_to_json
+
+UPSTREAM_URL = "https://raw.githubusercontent.com/MartialBE/one-api/prices/prices.json"
 
 
 def filter_onehub_only_prices(prices: dict) -> dict:
@@ -25,6 +28,21 @@ def filter_onehub_only_prices(prices: dict) -> dict:
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Merge pricing data from all sources.")
+    parser.add_argument(
+        "--no-upstream",
+        action="store_true",
+        default=True,
+        help="Skip fetching upstream MartialBE prices (default: skip)",
+    )
+    parser.add_argument(
+        "--upstream",
+        action="store_true",
+        help="Fetch and merge upstream MartialBE prices",
+    )
+    args = parser.parse_args()
+    use_upstream = args.upstream  # only fetch when explicitly requested
+
     # 加载所有手工定价表格
     yaml_dir_path = "manual_prices"
     integrated_manual_prices = yaml_to_json(yaml_dir_path)
@@ -49,19 +67,22 @@ if __name__ == "__main__":
     integrated_prices = integrate_prices(integrated_manual_prices, siliconflow_prices)
     integrated_prices = integrate_prices(integrated_prices, openrouter_prices)
 
-    # 获取 provider 的价格
-    try:
-        response = requests.get(
-            "https://raw.githubusercontent.com/MartialBE/one-api/prices/prices.json"
-        )
-        response.raise_for_status()
-        upstream_martialbe_onehub_prices = {"data": response.json()}
-    except requests.RequestException as e:
-        print(f"获取 provider 价格出错: {e}")
-        upstream_martialbe_onehub_prices = {"data": []}
+    # 获取上游 MartialBE 的价格（仅在 --upstream 时）
+    if use_upstream:
+        try:
+            response = requests.get(UPSTREAM_URL)
+            response.raise_for_status()
+            upstream_prices = {"data": response.json()}
+            print(f"已获取上游价格: {len(upstream_prices['data'])} 条")
+        except requests.RequestException as e:
+            print(f"获取上游价格出错: {e}")
+            upstream_prices = {"data": []}
+        # 集成上游价格，手动价格优先
+        integrated_prices = integrate_prices(integrated_prices, upstream_prices)
+    else:
+        print("已跳过上游 MartialBE 价格（默认行为，使用 --upstream 开启）")
 
-    # 集成 provider 的价格，确保手动价格优先
-    final_prices = integrate_prices(integrated_prices, upstream_martialbe_onehub_prices)
+    final_prices = integrated_prices
 
     # 将集成后的价格数据保存到 oneapi_prices.json 文件
     with open("oneapi_prices.json", "w", encoding="utf-8") as file:
