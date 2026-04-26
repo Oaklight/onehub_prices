@@ -49,8 +49,14 @@ if __name__ == "__main__":
 
     model_json = fetch_and_sort_models(url, endpoint, headers, mode="siliconflow")
 
+    # Filter out disabled/deprecated models
+    active_models = [m for m in model_json if m.get("status") != "disable"]
+    print(
+        f"SiliconFlow: {len(model_json)} total, {len(model_json) - len(active_models)} disabled, {len(active_models)} active"
+    )
+
     processed_prices = []
-    for model in model_json:
+    for model in active_models:
         model_name = model["modelName"]
         model_pricing = model["pricing"]
         model_price_unit = model["priceUnit"]
