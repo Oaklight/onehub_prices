@@ -1204,6 +1204,10 @@
                     <span class="stat-label" data-i18n="stats.filtered"></span>
                     <span class="stat-value" id="filteredModels">0</span>
                 </div>
+                <div class="stat-inline">
+                    <span class="stat-label" data-i18n="stats.updated"></span>
+                    <span class="stat-value" id="lastUpdated" style="font-size:13px;font-weight:500;">-</span>
+                </div>
             </div>
             <div class="header-right">
                 <button id="themeToggle" class="btn-icon" title="Toggle theme"></button>
@@ -1643,7 +1647,7 @@ python src/sync_pricing.py [--json_url=...]</code></pre>
             'priceMode.label': '价格显示模式:', 'priceMode.ratio': '倍率',
             'priceMode.cny': '人民币 CNY', 'priceMode.usd': '美元 USD',
             'priceMode.notice': '注意：价格计算以倍率为准，人民币及美元计价为从倍率反算得出，可能存在浮点数精度问题（如实际 8 元显示为 7.998）',
-            'stats.total': '总模型数:', 'stats.filtered': '显示结果:',
+            'stats.total': '总模型数:', 'stats.filtered': '显示结果:', 'stats.updated': '最后更新:',
             'table.model': '模型名称', 'table.type': '类型', 'table.channel': '渠道类型',
             'table.inputRatio': '输入倍率', 'table.outputRatio': '输出倍率',
             'table.inputCNY': '输入价格 (¥/1M)', 'table.outputCNY': '输出价格 (¥/1M)',
@@ -1661,7 +1665,7 @@ python src/sync_pricing.py [--json_url=...]</code></pre>
             'priceMode.label': 'Price Mode:', 'priceMode.ratio': 'Ratio',
             'priceMode.cny': 'CNY', 'priceMode.usd': 'USD',
             'priceMode.notice': 'Note: Price calculations are based on ratios. CNY and USD prices are derived from ratios and may have floating-point precision issues.',
-            'stats.total': 'Total:', 'stats.filtered': 'Showing:',
+            'stats.total': 'Total:', 'stats.filtered': 'Showing:', 'stats.updated': 'Updated:',
             'table.model': 'Model', 'table.type': 'Type', 'table.channel': 'Channel',
             'table.inputRatio': 'Input Ratio', 'table.outputRatio': 'Output Ratio',
             'table.inputCNY': 'Input (¥/1M)', 'table.outputCNY': 'Output (¥/1M)',
@@ -1755,6 +1759,7 @@ python src/sync_pricing.py [--json_url=...]</code></pre>
             this.tableBody = document.getElementById('tableBody');
             this.totalModels = document.getElementById('totalModels');
             this.filteredModels = document.getElementById('filteredModels');
+            this.lastUpdated = document.getElementById('lastUpdated');
             this.loading = document.getElementById('loading');
             this.noResults = document.getElementById('noResults');
             this.tableContainer = document.getElementById('tableContainer');
@@ -1801,6 +1806,7 @@ python src/sync_pricing.py [--json_url=...]</code></pre>
 
                 const pricesData = await pricesResponse.json();
                 this.data = pricesData.data || [];
+                this.updatedAt = pricesData.updated_at || null;
 
                 if (ownedByResponse.ok) {
                     const ownedByData = await ownedByResponse.json();
@@ -2106,6 +2112,10 @@ python src/sync_pricing.py [--json_url=...]</code></pre>
         updateStats() {
             this.totalModels.textContent = this.data.length;
             this.filteredModels.textContent = this.filteredData.length;
+            if (this.updatedAt) {
+                const d = new Date(this.updatedAt);
+                this.lastUpdated.textContent = d.toLocaleString();
+            }
         }
 
         hideLoading() {
