@@ -1,5 +1,5 @@
 models:
-  阿里云百炼:
+  Qwen:
     # 模型列表：https://help.aliyun.com/zh/model-studio/getting-started/models
     # 模型定价：https://help.aliyun.com/zh/model-studio/models?spm=5176.28197581.d_model-market.1.58275a9em6ZqE1#785eb398acxz7
     # 模型定价(md)：https://help.aliyun.com/zh/model-studio/model-pricing.md

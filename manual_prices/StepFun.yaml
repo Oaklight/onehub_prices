@@ -1,5 +1,5 @@
 models:
-  阶跃星辰:
+  StepFun:
     # 模型定价：https://platform.stepfun.com/docs/pricing/details
 
     # 缓存定价：https://platform.stepfun.com/docs/guide/prompt_cache#%E6%88%91%E6%98%AF%E5%90%A6%E9%9C%80%E8%A6%81%E4%B8%BA-prompt-%E7%BC%93%E5%AD%98%E9%A2%9D%E5%A4%96%E4%BB%98%E8%B4%B9

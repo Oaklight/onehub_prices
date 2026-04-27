@@ -19,7 +19,7 @@ MANUAL_PRICES_DIR = os.path.join(PROJECT_ROOT, "manual_prices")
 PROVIDER_YAML_MAP = {
     "OpenAI": "OpenAI.yaml",
     "Anthropic": "Anthropic.yaml",
-    "Aliyun (阿里云百炼)": "阿里云百炼.yaml",
+    "Qwen": "Qwen.yaml",
     "MiniMax": "MiniMax.yaml",
     "xAI": "xAI.yaml",
 }

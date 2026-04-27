@@ -28,7 +28,7 @@ providers:
     pricing_md: null
     notes: llms.txt exists but linked pricing page returns 404
 
-  Google Gemini:
+  Google:
     llms_txt: null
     pricing_md: null
     notes: No LLM-friendly page found; pricing at https://ai.google.dev/gemini-api/docs/pricing (HTML only)
@@ -45,7 +45,7 @@ providers:
 
   # ===== Domestic (China) =====
 
-  Aliyun (阿里云百炼):
+  Qwen:
     llms_txt: https://help.aliyun.com/zh/model-studio/llms.txt
     pricing_md: https://help.aliyun.com/zh/model-studio/model-pricing.md
     notes: Pricing page contains HTML tables within markdown; parseable but needs HTML table handling
@@ -55,7 +55,7 @@ providers:
     pricing_md: https://platform.minimaxi.com/docs/guides/pricing-paygo.md
     notes: Clean markdown tables with text/speech/video/music/image pricing; CNY per million tokens
 
-  Xiaomi MiMo (小米):
+  Xiaomi MiMo:
     llms_txt: https://platform.xiaomimimo.com/llms.txt
     pricing_md: https://platform.xiaomimimo.com/docs/pricing.md
     notes: Clean markdown with pricing tables
@@ -75,7 +75,7 @@ providers:
     pricing_md: null
     notes: Generic cloud docs llms.txt exists but not model-pricing specific
 
-  Volcengine (字节火山引擎):
+  Volcengine (Doubao-Seed):
     llms_txt: null
     pricing_md: null
     notes: No LLM-friendly page found; SPA fallback on llms.txt
@@ -92,12 +92,12 @@ providers:
       Domain migrated from platform.moonshot.cn to platform.kimi.com.
       llms.txt available. Pricing page at https://platform.kimi.com/docs/pricing/chat (HTML, fetchable).
 
-  StepFun (阶跃星辰):
+  StepFun:
     llms_txt: null
     pricing_md: null
     notes: 404; docs hosted on Volcengine TOS, key not found
 
-  01.AI (零一万物):
+  01.AI (Yi):
     llms_txt: null
     pricing_md: null
     notes: 404; provider marked as inactive
@@ -112,12 +112,12 @@ providers:
     pricing_md: null
     notes: SPA HTML fallback
 
-  Meituan Longcat (美团龙猫):
+  LongCat:
     llms_txt: null
     pricing_md: null
     notes: 404
 
-  Kuaishou Xiliuhu (快手溪流湖):
+  Kwaipilot:
     llms_txt: null
     pricing_md: null
     notes: 404

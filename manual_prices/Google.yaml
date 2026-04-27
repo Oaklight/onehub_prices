@@ -1,5 +1,5 @@
 models:
-  Google Gemini:
+  Google:
     # 模型列表：https://ai.google.dev/gemini-api/docs/models
     # 模型价格：https://ai.google.dev/gemini-api/docs/pricing
     # 模型价格锚点示例：https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro
