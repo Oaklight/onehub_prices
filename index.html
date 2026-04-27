@@ -2114,7 +2114,11 @@ python src/sync_pricing.py [--json_url=...]</code></pre>
             this.filteredModels.textContent = this.filteredData.length;
             if (this.updatedAt) {
                 const d = new Date(this.updatedAt);
-                this.lastUpdated.textContent = d.toLocaleString();
+                const local = d.toLocaleString();
+                const utc = d.toISOString().replace('T', ' ').replace(/\.\d+Z$/, ' UTC');
+                this.lastUpdated.textContent = local;
+                this.lastUpdated.title = utc;
+                this.lastUpdated.style.cursor = 'help';
             }
         }
 
