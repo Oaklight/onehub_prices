@@ -3,6 +3,36 @@ models:
     # 模型价格：https://platform.xiaomimimo.com/#/docs/pricing
     # 模型价格(md)：https://platform.xiaomimimo.com/docs/pricing.md
 
+    # ===================== MiMo-V2.5 系列 (当前) =====================
+
+    # MiMo-V2.5-Pro - 旗舰模型，1M上下文，取消256K/1M分档计费
+    mimo-v2.5-pro:
+      input: 7 rmb / M
+      output: 21 rmb / M
+      extra_ratios:
+        - cached_tokens: 1.40 rmb / M
+
+    # MiMo-V2.5 - 全模态基座模型，1M上下文，支持图像/视频/音频输入
+    mimo-v2.5:
+      input: 2.8 rmb / M
+      output: 14 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.56 rmb / M
+
+    # MiMo-V2.5-TTS Series - 语音合成模型（3个变体）
+    mimo-v2.5-tts:
+      aliases:
+        - mimo-v2.5-tts-*
+      input: 0 # 限时免费
+      output: 0
+
+    # MiMo-V2.5-ASR - 语音识别模型（开源）
+    mimo-v2.5-asr:
+      input: 0 # 限时免费
+      output: 0
+
+    # ===================== MiMo-V2 系列 (旧版) =====================
+
     # MiMo-V2-Pro - 旗舰基座模型，1M上下文
     mimo-v2-pro:
       # 阶梯计价：0<Token≤256K: 7元/M输入，21元/M输出，缓存1.40元/M
