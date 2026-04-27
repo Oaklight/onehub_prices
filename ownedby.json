@@ -27,7 +27,7 @@
     },
     "17": {
       "id": 17,
-      "name": "阿里云百炼",
+      "name": "Qwen",
       "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/qwen-color.svg"
     },
     "18": {
@@ -52,7 +52,7 @@
     },
     "25": {
       "id": 25,
-      "name": "Google Gemini",
+      "name": "Google",
       "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/gemini-color.svg"
     },
     "26": {
@@ -87,7 +87,7 @@
     },
     "33": {
       "id": 33,
-      "name": "零一万物",
+      "name": "Yi",
       "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/yi-color.svg"
     },
     "34": {
@@ -238,7 +238,7 @@
     "1016": {
       "id": 1016,
       "name": "InclusionAI",
-      "icon": ""
+      "icon": "https://mdn.alipayobjects.com/huamei_b00jk5/afts/img/A*vN6RTKVwkeMAAAAAQWAAAAgAegitAQ/original"
     },
     "2001": {
       "id": 2001,
