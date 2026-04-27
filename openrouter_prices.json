@@ -1047,8 +1047,8 @@
       "model": "mistralai/mistral-nemo",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.005,
-      "output": 0.015
+      "input": 0.01,
+      "output": 0.02
     },
     {
       "model": "mistralai/mistral-saba",
@@ -2099,6 +2099,41 @@
       "channel_type": 20,
       "input": 0.13,
       "output": 0.78
+    },
+    {
+      "model": "qwen/qwen3.5-plus-20260420",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.2,
+      "output": 1.2
+    },
+    {
+      "model": "qwen/qwen3.6-27b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0975,
+      "output": 0.78
+    },
+    {
+      "model": "qwen/qwen3.6-35b-a3b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0806,
+      "output": 0.48262
+    },
+    {
+      "model": "qwen/qwen3.6-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.125,
+      "output": 0.75
+    },
+    {
+      "model": "qwen/qwen3.6-max-preview",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.65,
+      "output": 3.9
     },
     {
       "model": "qwen/qwen3.6-plus",
