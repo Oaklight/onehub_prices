@@ -200,12 +200,7 @@
       "name": "阶跃星辰",
       "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/stepfun-color.svg"
     },
-    "1007": {
-      "id": 1007,
-      "name": "Pollinations.AI",
-      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/pollinations.svg"
-    },
-    "1008": {
+"1008": {
       "id": 1008,
       "name": "Coreshub",
       "icon": "https://coreshub.cn/favicon.svg"
