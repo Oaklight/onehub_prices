@@ -1,5 +1,6 @@
 import json
 import os
+from datetime import datetime, timezone
 from typing import Dict, List, Literal, Tuple
 
 from _vendor import httpclient
@@ -439,6 +440,7 @@ def sort_prices(prices: dict) -> dict:
     prices["data"] = sorted(
         prices["data"], key=lambda x: (x["channel_type"], x["model"])
     )
+    prices["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     return prices
 
 
