@@ -5644,8 +5644,8 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0975,
-      "output": 0.78
+      "input": 0.25,
+      "output": 1.0
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
@@ -8274,13 +8274,6 @@
       "output": 35.0
     },
     {
-      "model": "grok-2-image",
-      "type": "times",
-      "channel_type": 56,
-      "input": 0.0,
-      "output": 35.0
-    },
-    {
       "model": "grok-2-image-1212",
       "type": "times",
       "channel_type": 56,
@@ -8342,16 +8335,6 @@
       }
     },
     {
-      "model": "grok-3",
-      "type": "tokens",
-      "channel_type": 56,
-      "input": 1.5,
-      "output": 7.5,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
       "model": "grok-3-beta",
       "type": "tokens",
       "channel_type": 56,
@@ -8367,16 +8350,6 @@
       "channel_type": 56,
       "input": 1.5,
       "output": 7.5,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-3-mini",
-      "type": "tokens",
-      "channel_type": 56,
-      "input": 0.15,
-      "output": 0.25,
       "extra_ratios": {
         "cached_tokens": 0.25
       }
@@ -8432,7 +8405,7 @@
       }
     },
     {
-      "model": "grok-4-1-fast-non-reasoning",
+      "model": "grok-4-1-fast",
       "type": "tokens",
       "channel_type": 56,
       "input": 0.1,
@@ -8442,7 +8415,7 @@
       }
     },
     {
-      "model": "grok-4-1-fast-reasoning",
+      "model": "grok-4-1-fast-*",
       "type": "tokens",
       "channel_type": 56,
       "input": 0.1,
@@ -8462,17 +8435,7 @@
       }
     },
     {
-      "model": "grok-4-fast-non-reasoning",
-      "type": "tokens",
-      "channel_type": 56,
-      "input": 0.1,
-      "output": 0.25,
-      "extra_ratios": {
-        "cached_tokens": 0.25
-      }
-    },
-    {
-      "model": "grok-4-fast-reasoning",
+      "model": "grok-4-fast-*",
       "type": "tokens",
       "channel_type": 56,
       "input": 0.1,
@@ -8502,27 +8465,7 @@
       }
     },
     {
-      "model": "grok-4.20-0309-non-reasoning",
-      "type": "tokens",
-      "channel_type": 56,
-      "input": 1.0,
-      "output": 3.0,
-      "extra_ratios": {
-        "cached_tokens": 0.1
-      }
-    },
-    {
-      "model": "grok-4.20-0309-reasoning",
-      "type": "tokens",
-      "channel_type": 56,
-      "input": 1.0,
-      "output": 3.0,
-      "extra_ratios": {
-        "cached_tokens": 0.1
-      }
-    },
-    {
-      "model": "grok-4.20-multi-agent-0309",
+      "model": "grok-4.20-*",
       "type": "tokens",
       "channel_type": 56,
       "input": 1.0,
@@ -8542,7 +8485,17 @@
       }
     },
     {
-      "model": "grok-code-fast-1",
+      "model": "grok-code-fast",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.1,
+      "output": 0.75,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "grok-code-fast-*",
       "type": "tokens",
       "channel_type": 56,
       "input": 0.1,
@@ -9821,6 +9774,47 @@
     },
     {
       "model": "mimo-v2-tts",
+      "type": "tokens",
+      "channel_type": 1015,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "mimo-v2.5",
+      "type": "tokens",
+      "channel_type": 1015,
+      "input": 0.2,
+      "output": 1.0,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "mimo-v2.5-asr",
+      "type": "tokens",
+      "channel_type": 1015,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "mimo-v2.5-pro",
+      "type": "tokens",
+      "channel_type": 1015,
+      "input": 0.5,
+      "output": 1.5,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "mimo-v2.5-tts",
+      "type": "tokens",
+      "channel_type": 1015,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "mimo-v2.5-tts-*",
       "type": "tokens",
       "channel_type": 1015,
       "input": 0.0,

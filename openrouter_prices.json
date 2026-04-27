@@ -2111,8 +2111,8 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0975,
-      "output": 0.78
+      "input": 0.25,
+      "output": 1.0
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
