@@ -1,6 +1,6 @@
 models:
   StepFun:
-    # 模型定价：https://platform.stepfun.com/docs/pricing/details
+    # 模型定价：https://platform.stepfun.com/docs/zh/guides/pricing/details
 
     # 缓存定价：https://platform.stepfun.com/docs/guide/prompt_cache#%E6%88%91%E6%98%AF%E5%90%A6%E9%9C%80%E8%A6%81%E4%B8%BA-prompt-%E7%BC%93%E5%AD%98%E9%A2%9D%E5%A4%96%E4%BB%98%E8%B4%B9
 
@@ -25,11 +25,6 @@ models:
       output: 70 rmb / M
       extra_ratios:
         - cached_tokens: 0.2
-    step-1.5v-mini: # 注意：该模型已不在官方定价页面列出，可能已下线
-      input: 8 rmb / M
-      output: 35 rmb / M
-      extra_ratios:
-        - cached_tokens: 0.2
 
     # 推理大模型
     step-3:
@@ -39,7 +34,11 @@ models:
       # Tier 3: 4k < 输入≤64k: input 4 rmb/M, output 10 rmb/M
       input: 4 rmb / M # 取 Tier 3 价格，API 使用中最常见
       output: 10 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
     step-3.5-flash:
+      aliases:
+        - step-3.5-flash-2603
       input: 0.7 rmb / M
       output: 2.1 rmb / M
       extra_ratios:
@@ -78,15 +77,18 @@ models:
       output: 70 rmb / M
       extra_ratios:
         - cached_tokens: 0.2
-    step-1-256k:
-      input: 95 rmb / M
-      output: 300 rmb / M
-      extra_ratios:
-        - cached_tokens: 0.2
 
     # 生图
     step-1x-medium:
       output: 0.1 rmb / image
+    step-image-2.0:
+      output: 0.02 rmb / image
+    step-1x-edit: # Model Lab 限免
+      input: 0
+      output: 0
+    step-2x-large: # Model Lab 限免
+      input: 0
+      output: 0
 
     # 语音
     step-1o-audio:
@@ -97,5 +99,25 @@ models:
     step-audio-2:
       input: 10 rmb / M
       output: 70 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
+    step-audio-r1.1: # 限免
+      input: 0
+      output: 0
+
+    # Model Lab
+    step-gui: # Model Lab
+      input: 0
+      output: 0
+
+    # =========================== 已下线 ===========================
+    step-1.5v-mini:
+      input: 8 rmb / M
+      output: 35 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
+    step-1-256k:
+      input: 95 rmb / M
+      output: 300 rmb / M
       extra_ratios:
         - cached_tokens: 0.2

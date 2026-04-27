@@ -366,9 +366,12 @@ def yaml_to_json(directory_path: str, file_name: str = None) -> dict:
 
     # 遍历每个渠道及其模型
     for channel_type, models in yaml_data["models"].items():
-        new_channel_type = channel_id_mapping.get(channel_type, channel_type)
+        new_channel_type = channel_id_mapping.get(channel_type, None)
         if new_channel_type is None:
-            print(f"[manual pricing] 未找到 {channel_type} 对应的渠道 ID，将保留原始值。")
+            print(
+                f"[manual pricing] 未找到 {channel_type} 对应的渠道 ID，跳过该渠道。"
+            )
+            continue
 
         if models is None or len(models) == 0:
             print(f"[manual pricing] 渠道 {channel_type} 没有模型，跳过。")
