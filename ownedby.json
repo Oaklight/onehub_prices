@@ -182,7 +182,7 @@
     },
     "1002": {
       "id": 1002,
-      "name": "字节火山",
+      "name": "Doubao-Seed",
       "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/doubao-color.svg"
     },
     "1003": {
@@ -197,13 +197,8 @@
     },
     "1005": {
       "id": 1005,
-      "name": "阶跃星辰",
+      "name": "StepFun",
       "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/stepfun-color.svg"
-    },
-    "1007": {
-      "id": 1007,
-      "name": "Pollinations.AI",
-      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/pollinations.svg"
     },
     "1008": {
       "id": 1008,
@@ -227,17 +222,17 @@
     },
     "1013": {
       "id": 1013,
-      "name": "快手溪流湖",
+      "name": "Kwaipilot",
       "icon": "https://cdn-avatars.huggingface.co/v1/production/uploads/6438cc09c04b3b996ea73196/izeqDmgIB27KPxPkisPSF.png"
     },
     "1014": {
       "id": 1014,
-      "name": "美团龙猫",
+      "name": "LongCat",
       "icon": "https://s3plus.meituan.net/aigc-media-resources/longcat/yeqian-logo.svg"
     },
     "1015": {
       "id": 1015,
-      "name": "Xiaomi MIMO",
+      "name": "Xiaomi MiMo",
       "icon": "https://platform.xiaomimimo.com/favicon.874c9507.png"
     },
     "1016": {
