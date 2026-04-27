@@ -136,34 +136,45 @@ def load_yaml_from_directory(directory_path: str, file_name: str = None) -> dict
     if file_name:
         file_path = os.path.join(directory_path, file_name)
         if not os.path.exists(file_path):
-            raise FileNotFoundError(
-                f"The specified file '{file_name}' does not exist in the directory: {directory_path}"
-            )
+            # Search recursively in subdirectories
+            for root, _dirs, files in os.walk(directory_path):
+                if file_name in files:
+                    file_path = os.path.join(root, file_name)
+                    break
+            else:
+                raise FileNotFoundError(
+                    f"The specified file '{file_name}' does not exist in the directory: {directory_path}"
+                )
         with open(file_path, "r", encoding="utf-8") as file:
             file_data = yaml.load(file.read())
         if "models" in file_data:
             yaml_data["models"] = file_data["models"]
         return yaml_data
 
-    # 原有逻辑，只处理目录中的所有 YAML 文件
+    # Recursively collect all .yaml files from directory and subdirectories
     files_to_process = []
+    special_file_path = None
 
-    # 收集除特殊文件之外的所有 yaml 文件
-    for filename in os.listdir(directory_path):
-        if filename.endswith(".yaml") and filename != special_file:
-            files_to_process.append(filename)
+    for root, _dirs, files in os.walk(directory_path):
+        for filename in files:
+            if not filename.endswith(".yaml"):
+                continue
+            full_path = os.path.join(root, filename)
+            if filename == special_file:
+                special_file_path = full_path
+            else:
+                files_to_process.append(full_path)
 
     # 排序以确保覆盖顺序一致
     files_to_process.sort()
 
     # 如果存在特殊文件，则把它放在最后处理
-    if special_file in os.listdir(directory_path):
-        files_to_process.append(special_file)
+    if special_file_path:
+        files_to_process.append(special_file_path)
 
     # 处理收集到的每个文件
-    for filename in files_to_process:
-        print(f"Processing file: {filename}")  # Debug print
-        file_path = os.path.join(directory_path, filename)
+    for file_path in files_to_process:
+        print(f"Processing file: {file_path}")  # Debug print
         with open(file_path, "r", encoding="utf-8") as file:
             file_data = yaml.load(file.read())
             if "models" in file_data:
