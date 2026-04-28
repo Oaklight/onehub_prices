@@ -4412,6 +4412,13 @@
       "output": 0.0
     },
     {
+      "model": "inclusionai/ling-2.6-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.04,
+      "output": 0.12
+    },
+    {
       "model": "inclusionai/ling-2.6-flash:free",
       "type": "tokens",
       "channel_type": 20,
@@ -4931,6 +4938,13 @@
     },
     {
       "model": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0,
