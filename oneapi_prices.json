@@ -5469,6 +5469,20 @@
       "output": 4.0
     },
     {
+      "model": "poolside/laguna-m.1:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "poolside/laguna-xs.2:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "prime-intellect/intellect-3",
       "type": "tokens",
       "channel_type": 20,
@@ -10598,5 +10612,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-04-28T08:08:35Z"
+  "updated_at": "2026-04-28T15:51:09Z"
 }
