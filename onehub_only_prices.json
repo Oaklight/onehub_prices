@@ -6183,11 +6183,60 @@
       "output": 2.0
     },
     {
+      "model": "~anthropic/claude-haiku-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 2.5
+    },
+    {
       "model": "~anthropic/claude-opus-latest",
       "type": "tokens",
       "channel_type": 20,
       "input": 2.5,
       "output": 12.5
+    },
+    {
+      "model": "~anthropic/claude-sonnet-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.5,
+      "output": 7.5
+    },
+    {
+      "model": "~google/gemini-flash-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.25,
+      "output": 1.5
+    },
+    {
+      "model": "~google/gemini-pro-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 6.0
+    },
+    {
+      "model": "~moonshotai/kimi-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.3724,
+      "output": 2.3275
+    },
+    {
+      "model": "~openai/gpt-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 2.5,
+      "output": 15.0
+    },
+    {
+      "model": "~openai/gpt-mini-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.375,
+      "output": 2.25
     },
     {
       "model": "gemini-1.5-flash",
