@@ -2111,8 +2111,8 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.0
+      "input": 0.1625,
+      "output": 1.625
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
@@ -2132,8 +2132,8 @@
       "model": "qwen/qwen3.6-max-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.65,
-      "output": 3.9
+      "input": 0.52,
+      "output": 3.12
     },
     {
       "model": "qwen/qwen3.6-plus",
@@ -2549,5 +2549,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-04-28T02:04:09Z"
+  "updated_at": "2026-04-28T08:08:34Z"
 }
