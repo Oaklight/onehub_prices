@@ -50,13 +50,6 @@
       "output": 0.0
     },
     {
-      "model": "IndexTeam/IndexTTS-2",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 3.57143,
-      "output": 3.57143
-    },
-    {
       "model": "Kwai-Kolors/Kolors",
       "type": "times",
       "channel_type": 45,
@@ -64,25 +57,11 @@
       "output": 0.0
     },
     {
-      "model": "Kwaipilot/KAT-Dev",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.07143,
-      "output": 0.28571
-    },
-    {
       "model": "MiniMaxAI/MiniMax-M2.5",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.15,
       "output": 0.6
-    },
-    {
-      "model": "PaddlePaddle/PaddleOCR-VL",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "PaddlePaddle/PaddleOCR-VL-1.5",
@@ -197,13 +176,6 @@
       "output": 2.0
     },
     {
-      "model": "Qwen/QwQ-32B",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.07143,
-      "output": 0.28571
-    },
-    {
       "model": "Qwen/Qwen-Image",
       "type": "times",
       "channel_type": 45,
@@ -223,13 +195,6 @@
       "channel_type": 45,
       "input": 0.3,
       "output": 0.3
-    },
-    {
-      "model": "Qwen/Qwen2-VL-72B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.295,
-      "output": 0.295
     },
     {
       "model": "Qwen/Qwen2.5-14B-Instruct",
@@ -265,27 +230,6 @@
       "channel_type": 45,
       "input": 0.0,
       "output": 0.0
-    },
-    {
-      "model": "Qwen/Qwen2.5-Coder-32B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.09,
-      "output": 0.09
-    },
-    {
-      "model": "Qwen/Qwen2.5-VL-32B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.135,
-      "output": 0.135
-    },
-    {
-      "model": "Qwen/Qwen2.5-VL-72B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.295,
-      "output": 0.295
     },
     {
       "model": "Qwen/Qwen3-14B",
@@ -589,27 +533,6 @@
       "output": 0.0
     },
     {
-      "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.05,
-      "output": 0.05
-    },
-    {
-      "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.09,
-      "output": 0.09
-    },
-    {
-      "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "deepseek-ai/DeepSeek-V3",
       "type": "tokens",
       "channel_type": 45,
@@ -664,13 +587,6 @@
       "channel_type": 45,
       "input": 0.07143,
       "output": 0.28571
-    },
-    {
-      "model": "internlm/internlm2_5-7b-chat",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "moonshotai/Kimi-K2-Instruct-0905",
@@ -750,5 +666,5 @@
       "output": 0.21429
     }
   ],
-  "updated_at": "2026-04-29T02:05:47Z"
+  "updated_at": "2026-04-29T08:01:30Z"
 }
