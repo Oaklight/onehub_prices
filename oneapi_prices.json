@@ -4419,13 +4419,6 @@
       "output": 0.12
     },
     {
-      "model": "inclusionai/ling-2.6-flash:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "inflection/inflection-3-pi",
       "type": "tokens",
       "channel_type": 20,
@@ -4745,7 +4738,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.01,
-      "output": 0.02
+      "output": 0.015
     },
     {
       "model": "mistralai/mistral-saba",
@@ -5859,13 +5852,6 @@
       "channel_type": 20,
       "input": 0.1625,
       "output": 0.975
-    },
-    {
-      "model": "qwen/qwq-32b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.075,
-      "output": 0.29
     },
     {
       "model": "rekaai/reka-edge",
@@ -10626,5 +10612,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-04-28T19:20:49Z"
+  "updated_at": "2026-04-29T02:05:53Z"
 }
