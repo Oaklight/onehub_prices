@@ -8158,6 +8158,20 @@
       "output": 0.0
     },
     {
+      "model": "Tongyi-MAI/Z-Image",
+      "type": "times",
+      "channel_type": 45,
+      "input": 0.3,
+      "output": 0.3
+    },
+    {
+      "model": "Tongyi-MAI/Z-Image-Turbo",
+      "type": "times",
+      "channel_type": 45,
+      "input": 0.1,
+      "output": 0.1
+    },
+    {
       "model": "Wan-AI/Wan2.2-I2V-A14B",
       "type": "times",
       "channel_type": 45,
@@ -8170,6 +8184,13 @@
       "channel_type": 45,
       "input": 2.0,
       "output": 2.0
+    },
+    {
+      "model": "baidu/ERNIE-Image-Turbo",
+      "type": "times",
+      "channel_type": 45,
+      "input": 0.11,
+      "output": 0.11
     },
     {
       "model": "deepseek-ai/DeepSeek-OCR",
