@@ -4776,13 +4776,6 @@
       "output": 0.1
     },
     {
-      "model": "mistralai/mistral-small-creative",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.05,
-      "output": 0.15
-    },
-    {
       "model": "mistralai/mixtral-8x22b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -10528,5 +10521,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-04-29T19:10:17Z"
+  "updated_at": "2026-04-30T02:05:43Z"
 }
