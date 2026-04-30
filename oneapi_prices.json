@@ -4835,8 +4835,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.375,
-      "output": 1.75
+      "input": 0.37,
+      "output": 1.745
     },
     {
       "model": "morph/morph-v3-fast",
@@ -5326,7 +5326,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0195,
-      "output": 0.095
+      "output": 0.09
     },
     {
       "model": "openai/gpt-oss-120b:free",
@@ -5428,6 +5428,13 @@
     },
     {
       "model": "openrouter/free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "openrouter/owl-alpha",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0,
@@ -6228,8 +6235,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.375,
-      "output": 1.75
+      "input": 0.37,
+      "output": 1.745
     },
     {
       "model": "~openai/gpt-latest",
@@ -10542,5 +10549,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-04-30T13:22:12Z"
+  "updated_at": "2026-04-30T19:06:25Z"
 }
