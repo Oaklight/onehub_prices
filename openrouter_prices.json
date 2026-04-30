@@ -1145,8 +1145,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3724,
-      "output": 2.3275
+      "input": 0.375,
+      "output": 1.75
     },
     {
       "model": "morph/morph-v3-fast",
@@ -2538,8 +2538,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3724,
-      "output": 2.3275
+      "input": 0.375,
+      "output": 1.75
     },
     {
       "model": "~openai/gpt-latest",
@@ -2556,5 +2556,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-04-30T02:05:42Z"
+  "updated_at": "2026-04-30T08:05:26Z"
 }
