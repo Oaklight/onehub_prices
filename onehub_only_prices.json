@@ -4398,6 +4398,13 @@
       "output": 0.055
     },
     {
+      "model": "ibm-granite/granite-4.1-8b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.025,
+      "output": 0.05
+    },
+    {
       "model": "inception/mercury-2",
       "type": "tokens",
       "channel_type": 20,
@@ -5661,7 +5668,7 @@
       "model": "qwen/qwen3-coder-next",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
+      "input": 0.06,
       "output": 0.4
     },
     {
@@ -6053,8 +6060,8 @@
       "model": "x-ai/grok-4.20",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.0,
-      "output": 3.0
+      "input": 0.625,
+      "output": 1.25
     },
     {
       "model": "x-ai/grok-4.20-multi-agent",
@@ -6062,6 +6069,13 @@
       "channel_type": 20,
       "input": 1.0,
       "output": 3.0
+    },
+    {
+      "model": "x-ai/grok-4.3",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.625,
+      "output": 1.25
     },
     {
       "model": "x-ai/grok-code-fast-1",
