@@ -1,37 +1,78 @@
 models:
   xAI:
-    # model pricing: https://docs.x.ai/docs/models
+    # model pricing: https://docs.x.ai/developers/models
     # pricing as markdown: https://docs.x.ai/developers/models.md
 
-    # Grok 4.20 系列 (当前旗舰)
-    grok-4.20:
+    # Grok 4.3 (current flagship)
+    grok-4.3:
       aliases:
-        - grok-4.20-*
-      input: 2 usd / M
-      output: 6 usd / M
+        - grok-4.3-latest
+      input: 1.25 usd / M
+      output: 2.50 usd / M
       extra_ratios:
-        - cached_tokens: 0.2 usd / M
+        - cached_tokens: 0.20 usd / M
 
-    grok-4.1-fast:
+    # Grok 4.20 series
+    grok-4.20-0309-reasoning:
+      aliases:
+        - grok-4.20
+        - grok-4.20-0309
+        - grok-4.20-reasoning
+        - grok-4.20-reasoning-latest
+        - grok-4.20-beta-*
+        - grok-4.20-experimental-beta-*
+        - grok-4.20-reasoning-gv2
+      input: 1.25 usd / M
+      output: 2.50 usd / M
+      extra_ratios:
+        - cached_tokens: 0.20 usd / M
+
+    grok-4.20-0309-non-reasoning:
+      aliases:
+        - grok-4.20-non-reasoning
+        - grok-4.20-non-reasoning-latest
+        - grok-4.20-non-reasoning-gv2
+        - grok-4.20-beta-non-reasoning
+        - grok-4.20-beta-*-non-reasoning
+        - grok-4.20-experimental-beta-*-non-reasoning
+      input: 1.25 usd / M
+      output: 2.50 usd / M
+      extra_ratios:
+        - cached_tokens: 0.20 usd / M
+
+    grok-4.20-multi-agent-0309:
+      aliases:
+        - grok-4.20-multi-agent
+        - grok-4.20-multi-agent-latest
+        - grok-4.20-multi-agent-beta-*
+        - grok-4.20-multi-agent-experimental-beta-*
+      input: 1.25 usd / M
+      output: 2.50 usd / M
+      extra_ratios:
+        - cached_tokens: 0.20 usd / M
+
+    # Grok 4.1 Fast series
+    grok-4-1-fast-reasoning:
       aliases:
         - grok-4-1-fast
-        - grok-4-1-fast-*
+        - grok-4-1-fast-reasoning-latest
       input: 0.2 usd / M
       output: 0.5 usd / M
       extra_ratios:
         - cached_tokens: 0.05 usd / M
 
-    grok-code:
+    grok-4-1-fast-non-reasoning:
       aliases:
-        - grok-code-fast
-        - grok-code-fast-*
+        - grok-4-1-fast-non-reasoning-latest
       input: 0.2 usd / M
-      output: 1.5 usd / M
+      output: 0.5 usd / M
       extra_ratios:
-        - cached_tokens: 0.02 usd / M
+        - cached_tokens: 0.05 usd / M
 
     # Image/Video generation
     grok-imagine-image:
+      aliases:
+        - grok-imagine-image-2026-03-02
       input: 0.002 usd / image
       output: 0.02 usd / image
 
@@ -40,32 +81,47 @@ models:
       output: 0.07 usd / image
 
     grok-imagine-video:
+      # 分辨率阶梯：480p $0.05/s, 720p $0.07/s
       input: 0.002 usd / image
-      output: 0.05 usd / s
+      output: 0.05 usd / s  # 取480p价格
       extra_ratios:
         - input_video_tokens: 0.01 usd / s
 
-    # =========================== 已下线 ===========================
-    grok-4-fast:
-      aliases:
-        - grok-4-fast-*
-      input: 0.2 usd / M
-      output: 0.5 usd / M
-      extra_ratios:
-        - cached_tokens: 0.05 usd / M
+    # Voice API
+    grok-voice-think-fast-1.0:
+      # Realtime voice agent: $0.05/min ($3.00/hr)
+      # TTS: $4.20/1M characters (via /v1/tts endpoint, no model param)
+      # STT: $0.10/hr REST, $0.20/hr Streaming (via /v1/stt endpoint, no model param)
+      input: 0
+      output: 0.05 usd / min
 
-    grok-4:
+    # =========================== 已下线 ===========================
+    grok-4-0709:
       aliases:
-        - grok-4-0709
+        - grok-4
+        - grok-4-latest
       input: 3 usd / M
       output: 15 usd / M
       extra_ratios:
         - cached_tokens: 0.75 usd / M
 
+    grok-4-fast-reasoning:
+      aliases:
+        - grok-4-fast
+        - grok-4-fast-*
+        - grok-4-fast-reasoning-latest
+      input: 0.2 usd / M
+      output: 0.5 usd / M
+      extra_ratios:
+        - cached_tokens: 0.05 usd / M
+
     grok-3:
       aliases:
         - grok-3-beta
         - grok-3-latest
+        - grok-3-fast
+        - grok-3-fast-latest
+        - grok-3-fast-beta
       input: 3 usd / M
       output: 15 usd / M
       extra_ratios:
@@ -75,10 +131,22 @@ models:
       aliases:
         - grok-3-mini-beta
         - grok-3-mini-latest
+        - grok-3-mini-fast
+        - grok-3-mini-fast-latest
+        - grok-3-mini-fast-beta
       input: 0.3 usd / M
       output: 0.5 usd / M
       extra_ratios:
         - cached_tokens: 0.075 usd / M
+
+    grok-code:
+      aliases:
+        - grok-code-fast
+        - grok-code-fast-*
+      input: 0.2 usd / M
+      output: 1.5 usd / M
+      extra_ratios:
+        - cached_tokens: 0.02 usd / M
 
     grok-2:
       aliases:

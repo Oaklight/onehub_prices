@@ -106,8 +106,8 @@ models:
       extra_ratios:
         - cached_tokens: 0.3 usd / M
 
-    # Claude 3.x 系列 (部分已弃用)
-    # DEPRECATED: Claude 3.7 Sonnet 已弃用，建议使用 Claude Sonnet 4.6 或更高版本
+    # =========================== 已下线 ===========================
+    # RETIRED: Claude 3.7 Sonnet 已于 2026-02-19 退役，建议迁移到 Claude Sonnet 4.6
     claude-3-7-sonnet:
       aliases:
         - claude-3.7-sonnet
@@ -118,8 +118,7 @@ models:
       extra_ratios:
         - cached_tokens: 0.3 usd / M
 
-    # =========================== 已下线 ===========================
-    # Claude 3.5 Sonnet 已从官方文档完全移除（不再列出）
+    # RETIRED: Claude 3.5 Sonnet v2 已于 2025-10-28 退役，建议迁移到 Claude Sonnet 4.6
     claude-3-5-sonnet-v2:
       aliases:
         - claude-3.5-sonnet-v2
@@ -130,6 +129,7 @@ models:
       extra_ratios:
         - cached_tokens: 0.3 usd / M
 
+    # RETIRED: Claude 3.5 Sonnet v1 已于 2025-10-28 退役
     claude-3-5-sonnet:
       aliases:
         - claude-3.5-sonnet
@@ -139,6 +139,7 @@ models:
       extra_ratios:
         - cached_tokens: 0.3 usd / M
 
+    # RETIRED: Claude 3.5 Haiku 已于 2026-02-19 退役，建议迁移到 Claude Haiku 4.5
     claude-3-5-haiku:
       aliases:
         - claude-3.5-haiku
@@ -149,7 +150,7 @@ models:
       extra_ratios:
         - cached_tokens: 0.08 usd / M
 
-    # DEPRECATED: Claude 3 Opus 已弃用，建议使用 Claude Opus 4.6 或更高版本
+    # RETIRED: Claude 3 Opus 已于 2026-01-05 退役，建议迁移到 Claude Opus 4.7
     claude-3-opus:
       aliases:
         - claude-3-opus-20240229
@@ -158,6 +159,7 @@ models:
       extra_ratios:
         - cached_tokens: 1.5 usd / M
 
+    # RETIRED: Claude 3 Haiku 已于 2026-04-20 退役，建议迁移到 Claude Haiku 4.5
     claude-3-haiku:
       aliases:
         - claude-3-haiku-20240307

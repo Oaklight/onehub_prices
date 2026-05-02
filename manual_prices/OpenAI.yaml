@@ -4,7 +4,8 @@ models:
     # 模型价格(md)：https://developers.openai.com/api/docs/pricing.md
     # 模型列表：https://platform.openai.com/docs/models
 
-    # GPT-5.5 (2026-04-23, 1M context, API pricing announced but not yet live)
+    # GPT-5.5 (2026-04-23, 1M context)
+    # <272K context: standard pricing; >272K context: 2x input, 2x cached, 1.5x output
     gpt-5.5:
       input: 5 usd / M
       output: 30 usd / M
@@ -88,6 +89,9 @@ models:
       output: 10 usd / M
       extra_ratios:
         - cached_tokens: 0.125 usd / M
+    chatgpt-4o-latest:
+      input: 5 usd / M
+      output: 15 usd / M
     gpt-5.1-codex-max:
       input: 1.25 usd / M
       output: 10 usd / M
@@ -170,6 +174,7 @@ models:
       output: 16 usd / M
       extra_ratios:
         - cached_tokens: 0.4 usd / M
+        - input_image_tokens: 5 usd / M
         - input_audio_tokens: 32 usd / M
         - output_audio_tokens: 64 usd / M
         # - input_audio_cached_tokens: 0.4 usd / M
@@ -178,6 +183,7 @@ models:
       output: 16 usd / M
       extra_ratios:
         - cached_tokens: 0.4 usd / M
+        - input_image_tokens: 5 usd / M
         - input_audio_tokens: 32 usd / M
         - output_audio_tokens: 64 usd / M
     gpt-realtime-mini:
@@ -209,8 +215,6 @@ models:
 
     # Audio models
     gpt-audio:
-      aliases:
-        - gpt-4o-audio-preview*
       input: 2.5 usd / M
       output: 10 usd / M
       extra_ratios:
@@ -297,11 +301,21 @@ models:
       output: 4.4 usd / M
       extra_ratios:
         - cached_tokens: 0.55 usd / M
+    o1-mini:
+      input: 1.1 usd / M
+      output: 4.4 usd / M
+      extra_ratios:
+        - cached_tokens: 0.55 usd / M
     gpt-5.1-codex-mini:
       input: 0.25 usd / M
       output: 2 usd / M
       extra_ratios:
         - cached_tokens: 0.025 usd / M
+    codex-mini-latest:
+      input: 1.5 usd / M
+      output: 6 usd / M
+      extra_ratios:
+        - cached_tokens: 0.375 usd / M
     gpt-5-search-api:
       input: 1.25 usd / M
       output: 10 usd / M
@@ -388,8 +402,14 @@ models:
       aliases:
         - omni-moderation-latest
         - omni-moderation-2024-09-26
+        - text-moderation-latest
       input: 0
       output: 0
+
+    # computer use
+    computer-use-preview:
+      input: 3 usd / M
+      output: 12 usd / M
 
     # video models
     sora-2:
@@ -400,18 +420,28 @@ models:
     sora-2-pro-high-res:
       # Portrait: 1024x1792, Landscape: 1792x1024
       output: 0.5 usd / s
+    sora-2-pro-1080p:
+      # Portrait: 1080x1920, Landscape: 1920x1080
+      output: 0.7 usd / s
 
     # other models
     gpt-4-turbo:
       aliases:
         - gpt-4-turbo-2024-04-09
+        - gpt-4-0125-preview
+        - gpt-4-1106-preview
+        - gpt-4-1106-vision-preview
       input: 10 usd / M
       output: 30 usd / M
     gpt-4:
       aliases:
         - gpt-4-0613
+        - gpt-4-0314
       input: 30 usd / M
       output: 60 usd / M
+    gpt-4-32k:
+      input: 60 usd / M
+      output: 120 usd / M
     gpt-3.5-turbo:
       aliases:
         - gpt-3.5-turbo-0125
@@ -423,6 +453,14 @@ models:
     gpt-3.5-turbo-instruct:
       input: 1.5 usd / M
       output: 2 usd / M
+    gpt-3.5-turbo-0613:
+      aliases:
+        - gpt-3.5-0301
+      input: 1.5 usd / M
+      output: 2 usd / M
+    gpt-3.5-turbo-16k-0613:
+      input: 3 usd / M
+      output: 4 usd / M
     davinci-002:
       input: 2 usd / M
       output: 2 usd / M
