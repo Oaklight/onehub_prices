@@ -4216,8 +4216,8 @@
       "model": "deepseek/deepseek-v3.1-terminus",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.105,
-      "output": 0.395
+      "input": 0.135,
+      "output": 0.475
     },
     {
       "model": "deepseek/deepseek-v3.2",
@@ -5707,8 +5707,8 @@
       "model": "qwen/qwen3-30b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.14
+      "input": 0.045,
+      "output": 0.225
     },
     {
       "model": "qwen/qwen3-30b-a3b-instruct-2507",
@@ -10982,5 +10982,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-05-03T07:48:57Z"
+  "updated_at": "2026-05-03T12:49:46Z"
 }
