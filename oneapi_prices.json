@@ -4829,6 +4829,13 @@
       "output": 1.0
     },
     {
+      "model": "mistralai/mistral-medium-3-5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.75,
+      "output": 3.75
+    },
+    {
       "model": "mistralai/mistral-medium-3.1",
       "type": "tokens",
       "channel_type": 20,
@@ -10982,5 +10989,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-05-04T19:15:07Z"
+  "updated_at": "2026-05-05T02:01:11Z"
 }
