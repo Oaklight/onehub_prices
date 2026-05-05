@@ -890,6 +890,13 @@
       "output": 0.07
     },
     {
+      "model": "microsoft/phi-4-mini-instruct",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.04,
+      "output": 0.175
+    },
+    {
       "model": "microsoft/wizardlm-2-8x22b",
       "type": "tokens",
       "channel_type": 20,
@@ -1644,6 +1651,13 @@
       "channel_type": 20,
       "input": 0.3,
       "output": 1.2
+    },
+    {
+      "model": "openai/gpt-chat-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 2.5,
+      "output": 15.0
     },
     {
       "model": "openai/gpt-oss-120b",
@@ -2584,5 +2598,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-05-05T13:15:52Z"
+  "updated_at": "2026-05-05T19:06:04Z"
 }
