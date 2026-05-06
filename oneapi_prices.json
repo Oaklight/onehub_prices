@@ -4381,25 +4381,11 @@
       "output": 0.065
     },
     {
-      "model": "google/gemma-3-12b-it:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "google/gemma-3-27b-it",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.04,
       "output": 0.08
-    },
-    {
-      "model": "google/gemma-3-27b-it:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "google/gemma-3-4b-it",
@@ -4409,32 +4395,11 @@
       "output": 0.04
     },
     {
-      "model": "google/gemma-3-4b-it:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "google/gemma-3n-e2b-it:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "google/gemma-3n-e4b-it",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.03,
       "output": 0.06
-    },
-    {
-      "model": "google/gemma-3n-e4b-it:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "google/gemma-4-26b-a4b-it",
@@ -6303,7 +6268,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.3,
-      "output": 1.04
+      "output": 0.96
     },
     {
       "model": "z-ai/glm-5-turbo",
@@ -11003,5 +10968,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-05-05T19:06:04Z"
+  "updated_at": "2026-05-06T02:00:31Z"
 }
