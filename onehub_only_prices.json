@@ -4045,6 +4045,13 @@
       "output": 0.6
     },
     {
+      "model": "baidu/cobuddy:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "baidu/ernie-4.5-21b-a3b",
       "type": "tokens",
       "channel_type": 20,
@@ -4916,8 +4923,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.37,
-      "output": 1.745
+      "input": 0.375,
+      "output": 1.75
     },
     {
       "model": "morph/morph-v3-fast",
@@ -5749,7 +5756,7 @@
       "model": "qwen/qwen3-coder-next",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
+      "input": 0.055,
       "output": 0.4
     },
     {
@@ -6330,8 +6337,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.37,
-      "output": 1.745
+      "input": 0.375,
+      "output": 1.75
     },
     {
       "model": "~openai/gpt-latest",
