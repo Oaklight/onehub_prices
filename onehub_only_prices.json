@@ -3842,13 +3842,6 @@
       "output": 0.25
     },
     {
-      "model": "allenai/olmo-3.1-32b-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.3
-    },
-    {
       "model": "alpindale/goliath-120b",
       "type": "tokens",
       "channel_type": 20,
@@ -4552,7 +4545,7 @@
       "model": "meta-llama/llama-3-8b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.015,
+      "input": 0.02,
       "output": 0.02
     },
     {
@@ -5037,13 +5030,6 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
-    },
-    {
-      "model": "nvidia/nemotron-nano-12b-v2-vl",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.3
     },
     {
       "model": "nvidia/nemotron-nano-12b-v2-vl:free",
