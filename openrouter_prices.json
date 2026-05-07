@@ -561,6 +561,13 @@
       "output": 1.5
     },
     {
+      "model": "google/gemini-3.1-flash-lite",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.125,
+      "output": 0.75
+    },
+    {
       "model": "google/gemini-3.1-flash-lite-preview",
       "type": "tokens",
       "channel_type": 20,
@@ -687,11 +694,11 @@
       "output": 0.375
     },
     {
-      "model": "inclusionai/ling-2.6-1t:free",
+      "model": "inclusionai/ling-2.6-1t",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.15,
+      "output": 1.25
     },
     {
       "model": "inclusionai/ling-2.6-flash",
@@ -2556,5 +2563,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-05-07T13:29:41Z"
+  "updated_at": "2026-05-07T19:26:30Z"
 }
