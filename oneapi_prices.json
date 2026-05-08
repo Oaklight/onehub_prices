@@ -4713,7 +4713,7 @@
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
+      "input": 0.1495,
       "output": 0.6
     },
     {
@@ -4871,13 +4871,6 @@
       "output": 3.0
     },
     {
-      "model": "mistralai/mixtral-8x7b-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.27,
-      "output": 0.27
-    },
-    {
       "model": "mistralai/pixtral-large-2411",
       "type": "tokens",
       "channel_type": 20,
@@ -4988,13 +4981,6 @@
       "channel_type": 20,
       "input": 0.065,
       "output": 0.2
-    },
-    {
-      "model": "nvidia/llama-3.1-nemotron-70b-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.6,
-      "output": 0.6
     },
     {
       "model": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
@@ -10968,5 +10954,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-05-07T19:26:31Z"
+  "updated_at": "2026-05-08T02:09:58Z"
 }
