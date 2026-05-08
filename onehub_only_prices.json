@@ -4713,7 +4713,7 @@
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1495,
+      "input": 0.15,
       "output": 0.6
     },
     {

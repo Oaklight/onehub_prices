@@ -928,7 +928,7 @@
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1495,
+      "input": 0.15,
       "output": 0.6
     },
     {
@@ -2549,5 +2549,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-05-08T07:16:37Z"
+  "updated_at": "2026-05-08T13:13:22Z"
 }
