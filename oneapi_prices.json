@@ -4493,6 +4493,13 @@
       "output": 0.12
     },
     {
+      "model": "inclusionai/ring-2.6-1t:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "inflection/inflection-3-pi",
       "type": "tokens",
       "channel_type": 20,
@@ -4713,7 +4720,7 @@
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
+      "input": 0.1495,
       "output": 0.6
     },
     {
@@ -5701,7 +5708,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.04,
-      "output": 0.12
+      "output": 0.14
     },
     {
       "model": "qwen/qwen3-8b",
@@ -6047,13 +6054,6 @@
       "output": 0.2
     },
     {
-      "model": "tngtech/deepseek-r1t2-chimera",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.15,
-      "output": 0.55
-    },
-    {
       "model": "undi95/remm-slerp-l2-13b",
       "type": "tokens",
       "channel_type": 20,
@@ -6155,8 +6155,8 @@
       "model": "xiaomi/mimo-v2-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.145
+      "input": 0.05,
+      "output": 0.15
     },
     {
       "model": "xiaomi/mimo-v2-omni",
@@ -10954,5 +10954,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-05-08T13:13:22Z"
+  "updated_at": "2026-05-08T19:04:41Z"
 }
