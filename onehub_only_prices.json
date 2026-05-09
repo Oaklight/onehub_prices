@@ -6019,11 +6019,11 @@
       "output": 0.285
     },
     {
-      "model": "tencent/hy3-preview:free",
+      "model": "tencent/hy3-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.033,
+      "output": 0.13
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
