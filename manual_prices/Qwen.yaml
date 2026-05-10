@@ -19,6 +19,8 @@ models:
         - cached_tokens: 0.2
 
     qwen3.6-plus:
+      aliases:
+        - qwen3.6-plus-*
       # 支持思考和非思考模式（思维链+回答同价）
       # 阶梯计价：0<Token≤256K: 2元输入/12元输出 (per M)
       # 256K<Token≤1M: 8元输入/48元输出
@@ -26,6 +28,8 @@ models:
       output: 12 rmb / M
 
     qwen3.6-flash:
+      aliases:
+        - qwen3.6-flash-*
       # 支持思考和非思考模式，支持上下文缓存，支持Batch半价
       # 阶梯计价：0<Token≤256K: 1.2元输入/7.2元输出 (per M)
       # 256K<Token≤1M: 4.8元输入/28.8元输出
@@ -38,9 +42,9 @@ models:
       aliases:
         - qwen3-max-2026*
       # 支持思考模式和非思考模式，支持调用内置工具
-      # 阶梯计价：0<Token≤32K: 0.0025元输入/0.01元输出
-      # 32K<Token≤128K: 0.004元输入/0.016元输出
-      # 128K<Token≤252K: 0.007元输入/0.028元输出
+      # 阶梯计价：0<Token≤32K: 2.5元输入/10元输出 (per M)
+      # 32K<Token≤128K: 4元输入/16元输出
+      # 128K<Token≤256K: 7元输入/28元输出
       input: 0.004 rmb / K # 取32～128k价格
       output: 0.016 rmb / K
       extra_ratios:
@@ -49,9 +53,9 @@ models:
     qwen3-max-preview:
       aliases:
         - qwen3-max-2025-09*
-      # 阶梯计价：0<Token≤32K: 0.006元输入/0.024元输出
-      # 32K<Token≤128K: 0.01元输入/0.04元输出
-      # 128K<Token≤252K: 0.015元输入/0.06元输出
+      # 阶梯计价：0<Token≤32K: 6元输入/24元输出 (per M)
+      # 32K<Token≤128K: 10元输入/40元输出
+      # 128K<Token≤256K: 15元输入/60元输出
       input: 0.01 rmb / K # 取32～128k价格
       output: 0.04 rmb / K
       extra_ratios:
@@ -75,9 +79,10 @@ models:
         - qwen-plus-2025-09*
         - qwen-plus-2025-07*
         - qwen-plus-2025-04*
-      # 阶梯计价：0<Token≤128K: 0.0008元输入/0.002元输出（非思考模式）
-      # 128K<Token≤256K: 0.0024元输入/0.02元输出（非思考模式）
-      # 256K<Token≤1M: 0.0048元输入/0.048元输出（非思考模式）
+      # 阶梯计价（非思考模式）：0<Token≤128K: 0.8元输入/2元输出 (per M)
+      # 128K<Token≤256K: 2.4元输入/20元输出
+      # 256K<Token≤1M: 4.8元输入/48元输出
+      # 思考模式输出价格：0-128K: 8元/M，128K-256K: 24元/M，256K-1M: 64元/M
       input: 0.0008 rmb / K # 取0～128k价格，最为常用
       output: 0.002 rmb / K
       extra_ratios:
@@ -93,6 +98,8 @@ models:
       # 256K<Token≤1M: 1.2元输入/12元输出
       input: 0.2 rmb / M # 取0～128k价格
       output: 2 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
 
     qwen-flash:
       aliases:
@@ -102,6 +109,8 @@ models:
       # 256K<Token≤1M: 0.0012元输入/0.012元输出
       input: 0.00015 rmb / K # 取0～128k价格，最为常用
       output: 0.0015 rmb / K
+      extra_ratios:
+        - cached_tokens: 0.2
 
     qwq-plus:
       aliases: qwq-plus-*
@@ -404,6 +413,12 @@ models:
       # 0<Token≤256K
       input: 1.8 rmb / M
       output: 10.8 rmb / M
+
+    qwen3.6-27b:
+      # 思考和非思考模式（同价）
+      # 0<Token≤256K
+      input: 3 rmb / M
+      output: 18 rmb / M
 
     # qwen3.5 开源版
     qwen3.5-397b-a17b:

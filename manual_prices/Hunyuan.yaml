@@ -1,6 +1,8 @@
 models:
   # 价格来源: https://cloud.tencent.com/document/product/1729/97731
+  # TokenHub 价格: https://cloud.tencent.com/document/product/1823/130055
   # 模型ID来源: https://cloud.tencent.com/document/product/1729/104753
+  # TokenHub 模型列表: https://cloud.tencent.com/document/product/1823/130051
   Hunyuan:
     # Hy3 preview (2026-04-23, 295B MoE, 21B active, 256K context)
     # 分段计费: 0~16K ¥1.2/¥4, 16~32K ¥1.6/¥6.4, 32~256K ¥2/¥8
@@ -45,6 +47,10 @@ models:
       input: 0.5 rmb / M
       output: 2 rmb / M
 
+    hunyuan-lite:
+      input: 0
+      output: 0
+
     # 翻译模型
     hunyuan-translation:
       input: 1.2 rmb / M
@@ -58,6 +64,7 @@ models:
     hunyuan-large-role:
       aliases:
         - hunyuan-large-role-latest
+        - hunyuan-role-latest
       input: 2.4 rmb / M
       output: 9.6 rmb / M
 

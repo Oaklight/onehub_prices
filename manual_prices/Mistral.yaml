@@ -1,67 +1,116 @@
 models:
   Mistral:
     # model pricing: https://mistral.ai/pricing#api-pricing
-    # premier models
-    mistral-medium*:
+
+    # flagship models
+    mistral-medium-3-5:
+      aliases:
+        - mistral-medium-latest
+      input: 1.5 usd / M
+      output: 7.5 usd / M
+    mistral-large-2512:
+      aliases:
+        - mistral-large-latest
+      input: 0.5 usd / M
+      output: 1.5 usd / M
+    mistral-medium-2508:
+      # Mistral Medium 3.1
       input: 0.4 usd / M
       output: 2 usd / M
-    magistral-medium*:
+    mistral-medium-2505:
+      # Mistral Medium 3
+      input: 0.4 usd / M
+      output: 2 usd / M
+
+    # small models
+    mistral-small-2603:
+      aliases:
+        - mistral-small-latest
+      # Mistral Small 4
+      input: 0.15 usd / M
+      output: 0.6 usd / M
+
+    # reasoning models
+    magistral-medium-2509:
+      aliases:
+        - magistral-medium-latest
+        - magistral-medium-*
+      # Magistral Medium 1.2
       input: 2 usd / M
       output: 5 usd / M
-    codestral*:
+
+    # coding models
+    devstral-2512:
+      aliases:
+        - devstral-latest
+      # Devstral 2
+      input: 0.4 usd / M
+      output: 2 usd / M
+    codestral-2508:
+      aliases:
+        - codestral-latest
+        - codestral-*
       input: 0.3 usd / M
       output: 0.9 usd / M
     codestral-mamba*:
       input: 0.25 usd / M
       output: 0.25 usd / M
-    mistral-saba*:
-      input: 0.2 usd / M
-      output: 0.6 usd / M
-    mistral-large-2512:
-      input: 0.5 usd / M
-      output: 1.5 usd / M
-    mistral-large*:
-      # older versions (2411 and earlier) at legacy pricing
-      input: 2 usd / M
-      output: 6 usd / M
-    pixtral-large*:
-      input: 2 usd / M
-      output: 6 usd / M
-    ministral-14b*:
-      input: 0.2 usd / M
-      output: 0.2 usd / M
-    ministral-8b*:
+    leanstral-2603:
+      # free Lean 4 code agent
+      input: 0
+      output: 0
+
+    # ministral 3 series (v25.12)
+    ministral-3b-2512:
+      aliases:
+        - ministral-3b-latest
       input: 0.1 usd / M
       output: 0.1 usd / M
-    ministral-3b*:
-      input: 0.04 usd / M
-      output: 0.04 usd / M
+    ministral-8b-2512:
+      aliases:
+        - ministral-8b-latest
+      input: 0.15 usd / M
+      output: 0.15 usd / M
+    ministral-14b-2512:
+      aliases:
+        - ministral-14b-latest
+      input: 0.2 usd / M
+      output: 0.2 usd / M
+
+    # voice / audio models
+    voxtral-small*:
+      input: 0.1 usd / M
+      output: 0.3 usd / M
+      extra_ratios:
+        - input_audio_tokens: 0.004 usd / min
+    voxtral-mini-tts-2603:
+      # Voxtral TTS, priced per 1K characters ($0.016/1K chars)
+      output: 16 usd / M
+    voxtral-mini-2602:
+      # Voxtral Mini Transcribe 2
+      input: 0.003 usd / min
+    voxtral-mini-transcribe-realtime-2602:
+      # Voxtral Realtime transcription
+      input: 0.006 usd / min
+
+    # embedding models
     codestral-embed*:
       input: 0.15 usd / M
     mistral-embed:
       input: 0.1 usd / M
-    mistral-moderation*:
+
+    # moderation / classifier models
+    mistral-moderation-2603:
+      aliases:
+        - mistral-moderation-latest
+        - mistral-moderation-*
+      # Mistral Moderation 2
       input: 0.1 usd / M
 
-    # open-source models
-    mistral-small-2603:
-      input: 0.15 usd / M
-      output: 0.6 usd / M
-    mistral-small*:
-      input: 0.1 usd / M
-      output: 0.3 usd / M
-    magistral-small*:
-      input: 0.5 usd / M
-      output: 1.5 usd / M
-    devstral-medium*:
-      input: 0.4 usd / M
-      output: 2 usd / M
-    devstral-small*:
-      input: 0.1 usd / M
-      output: 0.3 usd / M
-    voxtral-small*:
-      input: 0.1 usd / M
-      output: 0.3 usd / M
+    # legacy models (still on pricing page)
+    pixtral-large*:
+      input: 2 usd / M
+      output: 6 usd / M
     pixtral-12b*:
       input: 0.15 usd / M
       output: 0.15 usd / M
@@ -77,3 +126,61 @@ models:
     open-mixtral-8x22b:
       input: 2 usd / M
       output: 6 usd / M
+
+    # =========================== deprecated ===========================
+    mistral-small-2506:
+      # Mistral Small 3.2 - deprecated 4/30/2026, replaced by Mistral Small 4
+      input: 0.1 usd / M
+      output: 0.3 usd / M
+    mistral-small-2503:
+      # Mistral Small 3.1
+      input: 0.1 usd / M
+      output: 0.3 usd / M
+    mistral-small-2501:
+      # Mistral Small 3.0
+      input: 0.1 usd / M
+      output: 0.3 usd / M
+    magistral-small*:
+      # deprecated 4/30/2026, replaced by Mistral Small 4
+      input: 0.5 usd / M
+      output: 1.5 usd / M
+    devstral-small*:
+      # deprecated, replaced by Devstral 2
+      input: 0.1 usd / M
+      output: 0.3 usd / M
+    devstral-medium*:
+      # deprecated, replaced by Devstral 2
+      input: 0.4 usd / M
+      output: 2 usd / M
+    mistral-saba*:
+      # deprecated
+      input: 0.2 usd / M
+      output: 0.6 usd / M
+    voxtral-mini-2507:
+      # Voxtral Mini - deprecated 2/27/2026, replaced by Voxtral Mini Transcribe 2
+      input: 0.04 usd / M
+      output: 0.04 usd / M
+      extra_ratios:
+        - input_audio_tokens: 0.001 usd / min
+    ministral-3b-2410:
+      # old Ministral 3B - deprecated, replaced by Ministral 3 3B
+      input: 0.04 usd / M
+      output: 0.04 usd / M
+    ministral-8b-2410:
+      # old Ministral 8B - deprecated, replaced by Ministral 3 8B
+      input: 0.1 usd / M
+      output: 0.1 usd / M
+    ministral-14b*:
+      # old Ministral 14B - deprecated, replaced by Ministral 3 14B
+      input: 0.2 usd / M
+      output: 0.2 usd / M
+    mistral-large-2411:
+      # Mistral Large 2.1
+      input: 2 usd / M
+      output: 6 usd / M
+    mistral-large*:
+      # older Mistral Large versions (2407 and earlier)
+      input: 2 usd / M
+      output: 6 usd / M
+    mistral-moderation-2411:
+      input: 0.1 usd / M

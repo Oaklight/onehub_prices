@@ -7,6 +7,7 @@ models:
     grok-4.3:
       aliases:
         - grok-4.3-latest
+        - grok-latest
       input: 1.25 usd / M
       output: 2.50 usd / M
       extra_ratios:
@@ -19,6 +20,7 @@ models:
         - grok-4.20-0309
         - grok-4.20-reasoning
         - grok-4.20-reasoning-latest
+        - grok-4.20-beta
         - grok-4.20-beta-*
         - grok-4.20-experimental-beta-*
         - grok-4.20-reasoning-gv2
@@ -35,6 +37,7 @@ models:
         - grok-4.20-beta-non-reasoning
         - grok-4.20-beta-*-non-reasoning
         - grok-4.20-experimental-beta-*-non-reasoning
+        - grok-4.20-experimental-beta-non-reasoning-latest
       input: 1.25 usd / M
       output: 2.50 usd / M
       extra_ratios:
@@ -51,34 +54,20 @@ models:
       extra_ratios:
         - cached_tokens: 0.20 usd / M
 
-    # Grok 4.1 Fast series
-    grok-4-1-fast-reasoning:
-      aliases:
-        - grok-4-1-fast
-        - grok-4-1-fast-reasoning-latest
-      input: 0.2 usd / M
-      output: 0.5 usd / M
-      extra_ratios:
-        - cached_tokens: 0.05 usd / M
-
-    grok-4-1-fast-non-reasoning:
-      aliases:
-        - grok-4-1-fast-non-reasoning-latest
-      input: 0.2 usd / M
-      output: 0.5 usd / M
-      extra_ratios:
-        - cached_tokens: 0.05 usd / M
-
     # Image/Video generation
+    grok-imagine-image-quality:
+      aliases:
+        - grok-imagine-image-quality-20260403
+        - grok-imagine-image-quality-latest
+      # 分辨率阶梯：1K $0.05/image, 2K $0.07/image
+      input: 0.01 usd / image
+      output: 0.05 usd / image  # 取1K分辨率
+
     grok-imagine-image:
       aliases:
         - grok-imagine-image-2026-03-02
       input: 0.002 usd / image
       output: 0.02 usd / image
-
-    grok-imagine-image-pro:
-      input: 0.002 usd / image
-      output: 0.07 usd / image
 
     grok-imagine-video:
       # 分辨率阶梯：480p $0.05/s, 720p $0.07/s
@@ -96,6 +85,28 @@ models:
       output: 0.05 usd / min
 
     # =========================== 已下线 ===========================
+    # retired May 15, 2026
+    grok-4-1-fast-reasoning:
+      aliases:
+        - grok-4-1-fast
+        - grok-4-1-fast-reasoning-latest
+      input: 0.2 usd / M
+      output: 0.5 usd / M
+      extra_ratios:
+        - cached_tokens: 0.05 usd / M
+
+    grok-4-1-fast-non-reasoning:
+      aliases:
+        - grok-4-1-fast-non-reasoning-latest
+      input: 0.2 usd / M
+      output: 0.5 usd / M
+      extra_ratios:
+        - cached_tokens: 0.05 usd / M
+
+    grok-imagine-image-pro:
+      input: 0.002 usd / image
+      output: 0.07 usd / image
+
     grok-4-0709:
       aliases:
         - grok-4

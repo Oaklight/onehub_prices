@@ -5,16 +5,20 @@ models:
 
     # ===================== MiMo-V2.5 系列 (当前) =====================
 
-    # MiMo-V2.5-Pro - 旗舰模型，1M上下文，取消256K/1M分档计费
+    # MiMo-V2.5-Pro - 旗舰模型，1M上下文（与mimo-v2-pro同价）
     mimo-v2.5-pro:
-      input: 7 rmb / M
+      # 阶梯计价：0<Token≤256K: 7元/M输入，21元/M输出，缓存1.40元/M
+      # 256K<Token≤1M: 14元/M输入，42元/M输出，缓存2.80元/M
+      input: 7 rmb / M # 取0~256K价格，最为常用
       output: 21 rmb / M
       extra_ratios:
         - cached_tokens: 1.40 rmb / M
 
     # MiMo-V2.5 - 全模态基座模型，1M上下文，支持图像/视频/音频输入
     mimo-v2.5:
-      input: 2.8 rmb / M
+      # 阶梯计价：0<Token≤256K: 2.8元/M输入，14元/M输出，缓存0.56元/M
+      # 256K<Token≤1M: 5.6元/M输入，28元/M输出，缓存1.12元/M
+      input: 2.8 rmb / M # 取0~256K价格，最为常用
       output: 14 rmb / M
       extra_ratios:
         - cached_tokens: 0.56 rmb / M
@@ -26,14 +30,9 @@ models:
       input: 0 # 限时免费
       output: 0
 
-    # MiMo-V2.5-ASR - 语音识别模型（开源）
-    mimo-v2.5-asr:
-      input: 0 # 限时免费
-      output: 0
-
     # ===================== MiMo-V2 系列 (旧版) =====================
 
-    # MiMo-V2-Pro - 旗舰基座模型，1M上下文
+    # MiMo-V2-Pro - 旗舰基座模型，1M上下文（与mimo-v2.5-pro同价）
     mimo-v2-pro:
       # 阶梯计价：0<Token≤256K: 7元/M输入，21元/M输出，缓存1.40元/M
       # 256K<Token≤1M: 14元/M输入，42元/M输出，缓存2.80元/M
@@ -60,3 +59,10 @@ models:
       output: 2.1 rmb / M
       extra_ratios:
         - cached_tokens: 0.07 rmb / M
+
+    # =========================== 已下线 ===========================
+
+    # MiMo-V2.5-ASR - 语音识别模型（官方定价页已移除）
+    mimo-v2.5-asr:
+      input: 0
+      output: 0

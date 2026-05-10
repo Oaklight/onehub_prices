@@ -133,7 +133,7 @@ models:
         - input_audio_tokens: 0.3 usd / M
         - cached_tokens: 0.01 usd / M # 0.03 usd / M for audio
 
-    # Gemini 2.5 Flash Preview
+    # Gemini 2.5 Flash Preview (superseded by stable gemini-2.5-flash, no longer on pricing page)
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-preview
     gemini-2.5-flash-preview:
       aliases:
@@ -155,7 +155,7 @@ models:
       extra_ratios:
         - input_audio_tokens: 0.3 usd / M
         - cached_tokens: 0.01 usd / M # 0.03 usd / M for audio
-    # Gemini Robotics-ER 1.5 Preview
+    # Gemini Robotics-ER 1.5 Preview (superseded by Robotics-ER 1.6)
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-robotics-er-1.5-preview
     gemini-robotics-er-1.5-preview:
       input: 0.3 usd / M # 0.15 美元（文字 / 图片 / 视频）；1.00 美元（音频）
@@ -175,6 +175,8 @@ models:
     # Gemini 2.5 Flash Native Audio
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-native-audio
     gemini-2.5-flash-preview-native-audio-dialog:
+      aliases:
+        - gemini-2.5-flash-native-audio-preview-12-2025
       input: 0.5 usd / M
       output: 2 usd / M
       extra_ratios:
@@ -226,6 +228,7 @@ models:
         - input_audio_tokens: 0.7 usd / M
         - cached_tokens: 0.025 usd / M # $0.025 / 1,000,000 tokens (text/image/video) $0.175 / 1,000,000 tokens (audio)
 
+    # Gemini 2.0 Flash Live (DEPRECATED with Gemini 2.0 Flash, no longer on pricing page)
     gemini-2.0-flash-live-001:
       input: 0.35 usd / M # 输入：0.35 美元（文字）、2.10 美元（音频 / 图片 [视频]）
       output: 1.5 usd / M # 输出：1.50 美元（文字）、8.50 美元（音频）
@@ -258,7 +261,7 @@ models:
         - imagen-4.0-fast-generate-001
       output: 0.02 usd / image
 
-    # Imagen 3
+    # Imagen 3 (superseded by Imagen 4, no longer on pricing page)
     # https://ai.google.dev/gemini-api/docs/pricing#imagen-3
     imagen3:
       aliases:
@@ -309,7 +312,7 @@ models:
       input: 0
       output: 0
 
-    # Gemma 3 & 3n
+    # Gemma 3 & 3n (superseded by Gemma 4, no longer on pricing page)
     # https://ai.google.dev/gemini-api/docs/pricing#gemma-3
     gemma-3:
       aliases:
@@ -321,7 +324,7 @@ models:
       input: 0
       output: 0
 
-    # Gemini 1.5 Flash
+    # Gemini 1.5 Flash (no longer on pricing page, may still be available via API)
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-1.5-flash
     gemini-1.5-flash:
       input: 0.075 usd / M # 0.15 usd / M, when prompt is larger than 128,000 tokens
@@ -329,7 +332,7 @@ models:
       extra_ratios:
         - cached_tokens: 0.01875 usd / M
 
-    # Gemini 1.5 Flash 8B
+    # Gemini 1.5 Flash 8B (no longer on pricing page, may still be available via API)
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-1.5-flash-8b
     gemini-1.5-flash-8b:
       input: 0.0375 usd / M # 0.075 usd / M, when prompt is larger than 128,000 tokens
@@ -337,7 +340,7 @@ models:
       extra_ratios:
         - cached_tokens: 0.01 usd / M
 
-    # Gemini 1.5 Pro
+    # Gemini 1.5 Pro (no longer on pricing page, may still be available via API)
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-1.5-pro
     gemini-1.5-pro:
       input: 1.25 usd / M # 2.5 usd / M, when prompt is larger than 128,000 tokens
@@ -350,17 +353,20 @@ models:
     gemini-embedding-001:
       input: 0.15 usd / M # Free tier: free, Paid tier: $0.15/M tokens
 
-    # Gemini Embedding 2 Preview
+    # Gemini Embedding 2
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-embedding-2
+    gemini-embedding-2:
+      aliases:
+        - gemini-embedding-2-preview
+      input: 0.2 usd / M # Text input
+      extra_ratios:
+        - input_image_tokens: 0.45 usd / M
+        - input_audio_tokens: 6.5 usd / M
+        - input_video_tokens: 12 usd / M
+
     # Gemini Robotics-ER 1.6 Preview
     gemini-robotics-er-1.6-preview:
       input: 1 usd / M # text / image / video
       output: 5 usd / M
       extra_ratios:
         - input_audio_tokens: 2 usd / M
-
-    gemini-embedding-2-preview:
-      input: 0.2 usd / M # Text input
-      extra_ratios:
-        - input_image_tokens: 0.45 usd / M
-        - input_audio_tokens: 6.5 usd / M
-        - input_video_tokens: 12 usd / M

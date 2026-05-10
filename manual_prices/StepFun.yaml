@@ -49,6 +49,31 @@ models:
       extra_ratios:
         - cached_tokens: 0.2
 
+    # 端到端语音模型
+    stepaudio-2.5-realtime:
+      input: 10 rmb / M
+      output: 70 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
+    stepaudio-2.5-chat:
+      input: 10 rmb / M
+      output: 25 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
+    step-1o-audio:
+      input: 25 rmb / M
+      output: 60 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
+    step-audio-2:
+      input: 10 rmb / M
+      output: 70 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
+    step-audio-r1.1: # 限免
+      input: 0
+      output: 0
+
     # 文本模型 step-2
     step-2-mini:
       input: 1 rmb / M
@@ -81,27 +106,14 @@ models:
     # 生图
     step-1x-medium:
       output: 0.1 rmb / image
-    step-image-2.0:
+    step-image-edit-2:
+      aliases:
+        - step-image-2.0
       output: 0.02 rmb / image
     step-1x-edit: # Model Lab 限免
       input: 0
       output: 0
     step-2x-large: # Model Lab 限免
-      input: 0
-      output: 0
-
-    # 语音
-    step-1o-audio:
-      input: 25 rmb / M
-      output: 60 rmb / M
-      extra_ratios:
-        - cached_tokens: 0.2
-    step-audio-2:
-      input: 10 rmb / M
-      output: 70 rmb / M
-      extra_ratios:
-        - cached_tokens: 0.2
-    step-audio-r1.1: # 限免
       input: 0
       output: 0
 

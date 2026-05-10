@@ -1,15 +1,55 @@
 models:
   AI21:
+    # 模型价格：https://www.ai21.com/pricing
+
+    # Jamba Large 系列
     jamba-large:
       aliases:
         - jamba-large-1.7
-        - jamba-large-1.6
+        - jamba-large-1.7-2025-07
+      input: 2 usd / M
+      output: 8 usd / M
+
+    # Jamba Mini 系列
+    jamba-mini:
+      aliases:
+        - jamba-mini-2
+        - jamba-mini-2-2026-01
+      input: 0.2 usd / M
+      output: 0.4 usd / M
+
+    # =========================== 已下线 ===========================
+    # jamba-large-1.6 deprecated 2025-08-03
+    jamba-large-1.6:
+      aliases:
         - jamba-large-1.6-2025-03
       input: 2 usd / M
       output: 8 usd / M
-    jamba-mini:
+
+    # jamba-large-1.5 deprecated 2025-05-06
+    jamba-large-1.5:
       aliases:
-        - jamba-mini-1.6
+        - jamba-large-1.5-2024-08
+      input: 2 usd / M
+      output: 8 usd / M
+
+    # jamba-mini-1.7 deprecated 2026-02-01
+    jamba-mini-1.7:
+      aliases:
+        - jamba-mini-1.7-2025-08
+      input: 0.2 usd / M
+      output: 0.4 usd / M
+
+    # jamba-mini-1.6 deprecated 2025-08-03
+    jamba-mini-1.6:
+      aliases:
         - jamba-mini-1.6-2025-03
+      input: 0.2 usd / M
+      output: 0.4 usd / M
+
+    # jamba-mini-1.5 deprecated 2025-05-06
+    jamba-mini-1.5:
+      aliases:
+        - jamba-mini-1.5-2024-08
       input: 0.2 usd / M
       output: 0.4 usd / M

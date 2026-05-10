@@ -7,12 +7,12 @@ models:
       input: 1 rmb / M
       output: 2 rmb / M
       extra_ratios:
-        - cached_tokens: 0.2 rmb / M
+        - cached_tokens: 0.02 rmb / M
     deepseek-v4-pro:
       input: 12 rmb / M
       output: 24 rmb / M
       extra_ratios:
-        - cached_tokens: 1 rmb / M
+        - cached_tokens: 0.1 rmb / M
 
     # DEPRECATED: deepseek-chat 和 deepseek-reasoner 将弃用，分别对应 deepseek-v4-flash 的非思考/思考模式
     deepseek-chat:
@@ -22,7 +22,7 @@ models:
       input: 1 rmb / M
       output: 2 rmb / M
       extra_ratios:
-        - cached_tokens: 0.2 rmb / M
+        - cached_tokens: 0.02 rmb / M
     deepseek-reasoner:
       deprecated: true
       aliases:
@@ -31,4 +31,4 @@ models:
       input: 1 rmb / M
       output: 2 rmb / M
       extra_ratios:
-        - cached_tokens: 0.2 rmb / M
+        - cached_tokens: 0.02 rmb / M

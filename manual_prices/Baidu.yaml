@@ -1,7 +1,16 @@
 models:
   # Pricing link: https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya
-  # Last updated: 2026-04-28
+  # Last updated: 2026-05-11
   Baidu:
+    # ERNIE 5.1 系列
+    ernie-5.1:
+      aliases:
+        - ERNIE-5.1
+      # 阶梯计价：输入<=32K: 0.004元/K输入, 0.018元/K输出
+      # 32K<输入<=128K: 0.006元/K输入, 0.022元/K输出
+      input: 0.006 rmb / K # 取32k～128k价格
+      output: 0.022 rmb / K
+
     # ERNIE 5.0 系列
     ernie-5.0-thinking:
       aliases:
@@ -134,6 +143,12 @@ models:
       input: 0.00485 rmb / K
       output: 0.02 rmb / K
 
+    deepseek-ocr:
+      aliases:
+        - DeepSeek-OCR
+      input: 0.0003 rmb / K
+      output: 0.0012 rmb / K
+
     # 文本向量 (Embedding)
     embedding-v1:
       input: 0.0005 rmb / K
@@ -147,13 +162,49 @@ models:
     tao-8k:
       input: 0.0005 rmb / K
 
+    qwen3-embedding-0.6b:
+      aliases:
+        - Qwen3-Embedding-0.6B
+      input: 0.0005 rmb / K
+
+    qwen3-embedding-4b:
+      aliases:
+        - Qwen3-Embedding-4B
+      input: 0.0005 rmb / K
+
+    qwen3-embedding-8b:
+      aliases:
+        - Qwen3-Embedding-8B
+      input: 0.0005 rmb / K
+
     # 重排序 (Reranker)
     bce-reranker-base:
       input: 0.0005 rmb / K
 
+    qwen3-reranker-0.6b:
+      aliases:
+        - Qwen3-Reranker-0.6B
+      input: 0.0008 rmb / K
+
+    qwen3-reranker-4b:
+      aliases:
+        - Qwen3-Reranker-4B
+      input: 0.0008 rmb / K
+
+    qwen3-reranker-8b:
+      aliases:
+        - Qwen3-Reranker-8B
+      input: 0.0008 rmb / K
+
     # 图像生成
     musesteamer-air-image:
       output: 0.05 rmb / image
+
+    FLUX.1-schnell:
+      output: 0.002 rmb / image
+
+    qwen-image:
+      output: 0.25 rmb / image
 
     ernie-image-turbo:
       output: 0.11 rmb / image
@@ -161,6 +212,16 @@ models:
     # 图像编辑
     ernie-irag-edit:
       output: 0.14 rmb / image
+
+    qwen-image-edit:
+      output: 0.3 rmb / image
+
+    # 视频生成
+    musesteamer-air-i2v:
+      aliases:
+        - MuseSteamer-Air-I2V
+      # 图生视频，5秒视频消耗1积分，1元/积分
+      output: 1 rmb / video
 
     # =========================== 已下线 ===========================
     ernie-4.5-vl-28b-a3b:

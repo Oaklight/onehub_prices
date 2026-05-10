@@ -1,14 +1,45 @@
 models:
   Jina:
-    # jina only do 1B tokens batch sales, so we treat them as aliases
+    # 模型价格：https://jina.ai/embeddings/ (pricing section)
+    # Jina uses a shared token pool across all products (embeddings, reranker, reader, classifier, etc.)
+    # 2025-05-06 new pricing: Prototype $50/1B tokens ($0.050/M), Production $500/11B tokens (~$0.045/M)
     # readerlm is not conventional and not supported by onehub, so omitted
+
+    # Embedding models
     jina-*:
       aliases:
+        # v5 omni (multimodal, May 2026)
+        - jina-embeddings-v5-omni-small
+        - jina-embeddings-v5-omni-nano
+        # v5 text (Feb 2026)
+        - jina-embeddings-v5-text-small
+        - jina-embeddings-v5-text-nano
+        # v4 (multimodal, Jun 2025)
         - jina-embeddings-v4
-        - jina-reranker-m0
-        - jina-clip-v2
+        # v3 (Sep 2024)
         - jina-embeddings-v3
-        - jina-colbert-v2
-        - jina-reranker-v2-base-multilingual
+        # v2
         - jina-embeddings-v2-base-code
-      input: 0.02 usd / M
+        - jina-embeddings-v2-base-en
+        - jina-embeddings-v2-base-zh
+        - jina-embeddings-v2-base-de
+        - jina-embeddings-v2-base-es
+        # code embeddings
+        - jina-code-embeddings-1.5b
+        - jina-code-embeddings-0.5b
+        # CLIP (multimodal)
+        - jina-clip-v2
+        - jina-clip-v1
+        # ColBERT
+        - jina-colbert-v2
+        - jina-colbert-v1-en
+        # Rerankers
+        - jina-reranker-v3
+        - jina-reranker-m0
+        - jina-reranker-v2-base-multilingual
+        - jina-reranker-v1-base-en
+        - jina-reranker-v1-turbo-en
+        - jina-reranker-v1-tiny-en
+        # VLM
+        - jina-vlm
+      input: 0.05 usd / M

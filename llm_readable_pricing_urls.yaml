@@ -18,8 +18,8 @@ providers:
 
   xAI:
     llms_txt: https://docs.x.ai/llms.txt
-    pricing_md: https://docs.x.ai/docs/models.md
-    notes: Clean markdown with pricing table in models page
+    pricing_md: https://docs.x.ai/developers/models.md
+    notes: Clean markdown with pricing table in models page; /docs/models redirects to /developers/models
 
   Mistral:
     llms_txt:
@@ -93,9 +93,9 @@ providers:
       llms.txt available. Pricing page at https://platform.kimi.com/docs/pricing/chat (HTML, fetchable).
 
   StepFun:
-    llms_txt: null
+    llms_txt: https://platform.stepfun.com/docs/llms.txt
     pricing_md: null
-    notes: 404; docs hosted on Volcengine TOS, key not found
+    notes: llms.txt discovered on docs site; pricing page at https://platform.stepfun.com/docs/zh/guides/pricing/details (HTML, fetchable via browser)
 
   01.AI (Yi):
     llms_txt: null

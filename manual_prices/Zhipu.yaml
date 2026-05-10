@@ -7,6 +7,9 @@ models:
     # llm
     # GLM-5 系列
     glm-5.1:
+      # 国内阶梯计价：[0,32K): 6元/M输入，24元/M输出，缓存1.3元/M
+      # [32K+): 8元/M输入，28元/M输出，缓存2元/M
+      # 国际站USD定价（flat rate）：
       input: 1.4 usd / M
       output: 4.4 usd / M
       extra_ratios:
@@ -113,6 +116,11 @@ models:
       extra_ratios:
         - cached_tokens: 0.22 usd / M
 
+    # GLM-4.5-Flash (国际站定价)
+    glm-4.5-flash:
+      input: 0
+      output: 0
+
     # GLM-4-32B-0414-128K (国际站定价)
     glm-4-32b-0414-128k:
       input: 0.1 usd / M
@@ -134,6 +142,9 @@ models:
 
     # vision
     glm-5v-turbo:
+      # 国内阶梯计价：[0,32K): 5元/M输入，22元/M输出，缓存1.2元/M
+      # [32K+): 7元/M输入，26元/M输出，缓存1.8元/M
+      # 国际站USD定价（flat rate）：
       input: 1.2 usd / M
       output: 4 usd / M
       extra_ratios:
@@ -207,13 +218,21 @@ models:
       output: 0
 
     # text-to-speech / voice models
-    # CogTTS: ¥4/万字符（按字符计费，非token计费，无法用标准token价格表示）
-    # CogTTS-Clone: ¥6/次（音色克隆，按次计费）
+    # GLM-TTS: 2元/万字符（按字符计费，非token计费，无法用标准token价格表示）
+    # GLM-TTS-Clone: 6元/次（音色克隆，按次计费，无法用标准token价格表示）
     glm-4-voice:
       input: 80 rmb / M
       output: 80 rmb / M
-    glm-asr:
-      input: 0.06 rmb / min # 语音识别，按分钟计费
+    glm-realtime-flash:
+      # 音频：0.18元/分钟，视频：1.2元/分钟
+      input: 0.18 rmb / min # 音频价格
+      output: 0
+    glm-realtime-air:
+      # 音频：0.3元/分钟，视频：2.1元/分钟
+      input: 0.3 rmb / min # 音频价格
+      output: 0
+    glm-asr-2512:
+      input: 16 rmb / M # 语音识别，约0.0002元/秒
       output: 0
 
     # embedding models
