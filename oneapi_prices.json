@@ -8,6 +8,16 @@
       "output": 0.2
     },
     {
+      "model": "chat-latest",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 2.5,
+      "output": 15.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "chatgpt-4o-latest",
       "type": "tokens",
       "channel_type": 1,
@@ -825,6 +835,19 @@
       }
     },
     {
+      "model": "gpt-realtime-2",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 2.0,
+      "output": 12.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1,
+        "input_image_tokens": 1.25,
+        "input_audio_tokens": 8.0,
+        "output_audio_tokens": 2.66667
+      }
+    },
+    {
       "model": "gpt-realtime-mini",
       "type": "tokens",
       "channel_type": 1,
@@ -836,6 +859,20 @@
         "input_audio_tokens": 16.66667,
         "output_audio_tokens": 8.33333
       }
+    },
+    {
+      "model": "gpt-realtime-translate",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.0,
+      "output": 0.017
+    },
+    {
+      "model": "gpt-realtime-whisper",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.0,
+      "output": 0.0085
     },
     {
       "model": "o1",
@@ -1070,6 +1107,20 @@
       "type": "tokens",
       "channel_type": 1,
       "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "tts-1",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 7.5,
+      "output": 0.0
+    },
+    {
+      "model": "tts-1-hd",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 15.0,
       "output": 0.0
     },
     {
@@ -1663,6 +1714,76 @@
       }
     },
     {
+      "model": "DeepSeek-OCR",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.02143,
+      "output": 0.08571
+    },
+    {
+      "model": "ERNIE-5.1",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.42857,
+      "output": 1.57143
+    },
+    {
+      "model": "FLUX.1-schnell",
+      "type": "times",
+      "channel_type": 15,
+      "input": 0.0,
+      "output": 0.14286
+    },
+    {
+      "model": "MuseSteamer-Air-I2V",
+      "type": "times",
+      "channel_type": 15,
+      "input": 0.0,
+      "output": 71.42857
+    },
+    {
+      "model": "Qwen3-Embedding-0.6B",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.03571,
+      "output": 0.0
+    },
+    {
+      "model": "Qwen3-Embedding-4B",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.03571,
+      "output": 0.0
+    },
+    {
+      "model": "Qwen3-Embedding-8B",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.03571,
+      "output": 0.0
+    },
+    {
+      "model": "Qwen3-Reranker-0.6B",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.05714,
+      "output": 0.0
+    },
+    {
+      "model": "Qwen3-Reranker-4B",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.05714,
+      "output": 0.0
+    },
+    {
+      "model": "Qwen3-Reranker-8B",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.05714,
+      "output": 0.0
+    },
+    {
       "model": "bce-reranker-base",
       "type": "tokens",
       "channel_type": 15,
@@ -1682,6 +1803,13 @@
       "channel_type": 15,
       "input": 0.03571,
       "output": 0.0
+    },
+    {
+      "model": "deepseek-ocr",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.02143,
+      "output": 0.08571
     },
     {
       "model": "embedding-v1",
@@ -1916,6 +2044,13 @@
       "output": 2.85714
     },
     {
+      "model": "ernie-5.1",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.42857,
+      "output": 1.57143
+    },
+    {
       "model": "ernie-char",
       "type": "tokens",
       "channel_type": 15,
@@ -2049,6 +2184,13 @@
       "output": 0.28571
     },
     {
+      "model": "musesteamer-air-i2v",
+      "type": "times",
+      "channel_type": 15,
+      "input": 0.0,
+      "output": 71.42857
+    },
+    {
       "model": "musesteamer-air-image",
       "type": "times",
       "channel_type": 15,
@@ -2117,6 +2259,62 @@
       "channel_type": 15,
       "input": 0.14286,
       "output": 0.42857
+    },
+    {
+      "model": "qwen-image",
+      "type": "times",
+      "channel_type": 15,
+      "input": 0.0,
+      "output": 17.85714
+    },
+    {
+      "model": "qwen-image-edit",
+      "type": "times",
+      "channel_type": 15,
+      "input": 0.0,
+      "output": 21.42857
+    },
+    {
+      "model": "qwen3-embedding-0.6b",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.03571,
+      "output": 0.0
+    },
+    {
+      "model": "qwen3-embedding-4b",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.03571,
+      "output": 0.0
+    },
+    {
+      "model": "qwen3-embedding-8b",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.03571,
+      "output": 0.0
+    },
+    {
+      "model": "qwen3-reranker-0.6b",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.05714,
+      "output": 0.0
+    },
+    {
+      "model": "qwen3-reranker-4b",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.05714,
+      "output": 0.0
+    },
+    {
+      "model": "qwen3-reranker-8b",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.05714,
+      "output": 0.0
     },
     {
       "model": "tao-8k",
@@ -2331,6 +2529,13 @@
       }
     },
     {
+      "model": "glm-4.5-flash",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "glm-4.5-x",
       "type": "tokens",
       "channel_type": 16,
@@ -2469,10 +2674,10 @@
       }
     },
     {
-      "model": "glm-asr",
+      "model": "glm-asr-2512",
       "type": "tokens",
       "channel_type": 16,
-      "input": 0.00429,
+      "input": 1.14286,
       "output": 0.0
     },
     {
@@ -2488,6 +2693,20 @@
       "channel_type": 16,
       "input": 0.015,
       "output": 0.015
+    },
+    {
+      "model": "glm-realtime-air",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.02143,
+      "output": 0.0
+    },
+    {
+      "model": "glm-realtime-flash",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.01286,
+      "output": 0.0
     },
     {
       "model": "glm-z1-air",
@@ -2705,14 +2924,20 @@
       "type": "tokens",
       "channel_type": 17,
       "input": 0.01071,
-      "output": 0.10714
+      "output": 0.10714,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "qwen-flash-*",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.01071,
-      "output": 0.10714
+      "output": 0.10714,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "qwen-flash-character",
@@ -3628,14 +3853,20 @@
       "type": "tokens",
       "channel_type": 17,
       "input": 0.01429,
-      "output": 0.14286
+      "output": 0.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "qwen3.5-flash-*",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.01429,
-      "output": 0.14286
+      "output": 0.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
     },
     {
       "model": "qwen3.5-omni-flash",
@@ -3696,6 +3927,13 @@
       "output": 0.34286
     },
     {
+      "model": "qwen3.6-27b",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.21429,
+      "output": 1.28571
+    },
+    {
       "model": "qwen3.6-35b-a3b",
       "type": "tokens",
       "channel_type": 17,
@@ -3704,6 +3942,16 @@
     },
     {
       "model": "qwen3.6-flash",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.08571,
+      "output": 0.51429,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "qwen3.6-flash-*",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.08571,
@@ -3724,6 +3972,13 @@
     },
     {
       "model": "qwen3.6-plus",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.14286,
+      "output": 0.85714
+    },
+    {
+      "model": "qwen3.6-plus-*",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.14286,
@@ -6495,6 +6750,18 @@
       }
     },
     {
+      "model": "gemini-2.5-flash-native-audio-preview-12-2025",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.25,
+      "output": 1.0,
+      "extra_ratios": {
+        "reasoning_tokens": 6.0,
+        "input_audio_tokens": 6.0,
+        "output_audio_tokens": 6.0
+      }
+    },
+    {
       "model": "gemini-2.5-flash-preview",
       "type": "tokens",
       "channel_type": 25,
@@ -6758,6 +7025,18 @@
       "channel_type": 25,
       "input": 0.075,
       "output": 0.0
+    },
+    {
+      "model": "gemini-embedding-2",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.1,
+      "output": 0.0,
+      "extra_ratios": {
+        "input_image_tokens": 2.25,
+        "input_audio_tokens": 32.5,
+        "input_video_tokens": 60.0
+      }
     },
     {
       "model": "gemini-embedding-2-preview",
@@ -7155,7 +7434,7 @@
       "input": 0.07143,
       "output": 0.14286,
       "extra_ratios": {
-        "cached_tokens": 0.2
+        "cached_tokens": 0.02
       }
     },
     {
@@ -7165,7 +7444,7 @@
       "input": 0.07143,
       "output": 0.14286,
       "extra_ratios": {
-        "cached_tokens": 0.2
+        "cached_tokens": 0.02
       }
     },
     {
@@ -7175,7 +7454,7 @@
       "input": 0.07143,
       "output": 0.14286,
       "extra_ratios": {
-        "cached_tokens": 0.2
+        "cached_tokens": 0.02
       }
     },
     {
@@ -7185,7 +7464,7 @@
       "input": 0.07143,
       "output": 0.14286,
       "extra_ratios": {
-        "cached_tokens": 0.2
+        "cached_tokens": 0.02
       }
     },
     {
@@ -7195,7 +7474,7 @@
       "input": 0.07143,
       "output": 0.14286,
       "extra_ratios": {
-        "cached_tokens": 0.2
+        "cached_tokens": 0.02
       }
     },
     {
@@ -7205,7 +7484,7 @@
       "input": 0.07143,
       "output": 0.14286,
       "extra_ratios": {
-        "cached_tokens": 0.2
+        "cached_tokens": 0.02
       }
     },
     {
@@ -7215,7 +7494,7 @@
       "input": 0.85714,
       "output": 1.71429,
       "extra_ratios": {
-        "cached_tokens": 0.08333
+        "cached_tokens": 0.00833
       }
     },
     {
@@ -7417,7 +7696,14 @@
       }
     },
     {
-      "model": "codestral*",
+      "model": "codestral-*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.15,
+      "output": 0.45
+    },
+    {
+      "model": "codestral-2508",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.15,
@@ -7431,11 +7717,32 @@
       "output": 0.0
     },
     {
+      "model": "codestral-latest",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.15,
+      "output": 0.45
+    },
+    {
       "model": "codestral-mamba*",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.125,
       "output": 0.125
+    },
+    {
+      "model": "devstral-2512",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.2,
+      "output": 1.0
+    },
+    {
+      "model": "devstral-latest",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.2,
+      "output": 1.0
     },
     {
       "model": "devstral-medium*",
@@ -7452,7 +7759,28 @@
       "output": 0.15
     },
     {
-      "model": "magistral-medium*",
+      "model": "leanstral-2603",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "magistral-medium-*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 1.0,
+      "output": 2.5
+    },
+    {
+      "model": "magistral-medium-2509",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 1.0,
+      "output": 2.5
+    },
+    {
+      "model": "magistral-medium-latest",
       "type": "tokens",
       "channel_type": 30,
       "input": 1.0,
@@ -7473,18 +7801,60 @@
       "output": 0.1
     },
     {
-      "model": "ministral-3b*",
+      "model": "ministral-14b-2512",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.1,
+      "output": 0.1
+    },
+    {
+      "model": "ministral-14b-latest",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.1,
+      "output": 0.1
+    },
+    {
+      "model": "ministral-3b-2410",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.02,
       "output": 0.02
     },
     {
-      "model": "ministral-8b*",
+      "model": "ministral-3b-2512",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.05,
       "output": 0.05
+    },
+    {
+      "model": "ministral-3b-latest",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.05,
+      "output": 0.05
+    },
+    {
+      "model": "ministral-8b-2410",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.05,
+      "output": 0.05
+    },
+    {
+      "model": "ministral-8b-2512",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.075,
+      "output": 0.075
+    },
+    {
+      "model": "ministral-8b-latest",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.075,
+      "output": 0.075
     },
     {
       "model": "mistral-embed",
@@ -7501,6 +7871,13 @@
       "output": 3.0
     },
     {
+      "model": "mistral-large-2411",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 1.0,
+      "output": 3.0
+    },
+    {
       "model": "mistral-large-2512",
       "type": "tokens",
       "channel_type": 30,
@@ -7508,14 +7885,63 @@
       "output": 0.75
     },
     {
-      "model": "mistral-medium*",
+      "model": "mistral-large-latest",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.25,
+      "output": 0.75
+    },
+    {
+      "model": "mistral-medium-2505",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.2,
       "output": 1.0
     },
     {
-      "model": "mistral-moderation*",
+      "model": "mistral-medium-2508",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.2,
+      "output": 1.0
+    },
+    {
+      "model": "mistral-medium-3-5",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.75,
+      "output": 3.75
+    },
+    {
+      "model": "mistral-medium-latest",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.75,
+      "output": 3.75
+    },
+    {
+      "model": "mistral-moderation-*",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.05,
+      "output": 0.0
+    },
+    {
+      "model": "mistral-moderation-2411",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.05,
+      "output": 0.0
+    },
+    {
+      "model": "mistral-moderation-2603",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.05,
+      "output": 0.0
+    },
+    {
+      "model": "mistral-moderation-latest",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.05,
@@ -7536,7 +7962,21 @@
       "output": 0.3
     },
     {
-      "model": "mistral-small*",
+      "model": "mistral-small-2501",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.05,
+      "output": 0.15
+    },
+    {
+      "model": "mistral-small-2503",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.05,
+      "output": 0.15
+    },
+    {
+      "model": "mistral-small-2506",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.05,
@@ -7544,6 +7984,13 @@
     },
     {
       "model": "mistral-small-2603",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.075,
+      "output": 0.3
+    },
+    {
+      "model": "mistral-small-latest",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.075,
@@ -7585,11 +8032,45 @@
       "output": 3.0
     },
     {
+      "model": "voxtral-mini-2507",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.02,
+      "output": 0.02,
+      "extra_ratios": {
+        "input_audio_tokens": 0.025
+      }
+    },
+    {
+      "model": "voxtral-mini-2602",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.0015,
+      "output": 0.0
+    },
+    {
+      "model": "voxtral-mini-transcribe-realtime-2602",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.003,
+      "output": 0.0
+    },
+    {
+      "model": "voxtral-mini-tts-2603",
+      "type": "tokens",
+      "channel_type": 30,
+      "input": 0.0,
+      "output": 8.0
+    },
+    {
       "model": "voxtral-small*",
       "type": "tokens",
       "channel_type": 30,
       "input": 0.05,
-      "output": 0.15
+      "output": 0.15,
+      "extra_ratios": {
+        "input_audio_tokens": 0.04
+      }
     },
     {
       "model": "yi-lightning",
@@ -7656,6 +8137,20 @@
     },
     {
       "model": "hunyuan-large-role-latest",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.17143,
+      "output": 0.68571
+    },
+    {
+      "model": "hunyuan-lite",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "hunyuan-role-latest",
       "type": "tokens",
       "channel_type": 40,
       "input": 0.17143,
@@ -8438,56 +8933,175 @@
       "model": "jina-*",
       "type": "tokens",
       "channel_type": 47,
-      "input": 0.01,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-clip-v1",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
       "output": 0.0
     },
     {
       "model": "jina-clip-v2",
       "type": "tokens",
       "channel_type": 47,
-      "input": 0.01,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-code-embeddings-0.5b",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-code-embeddings-1.5b",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-colbert-v1-en",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
       "output": 0.0
     },
     {
       "model": "jina-colbert-v2",
       "type": "tokens",
       "channel_type": 47,
-      "input": 0.01,
+      "input": 0.025,
       "output": 0.0
     },
     {
       "model": "jina-embeddings-v2-base-code",
       "type": "tokens",
       "channel_type": 47,
-      "input": 0.01,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-embeddings-v2-base-de",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-embeddings-v2-base-en",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-embeddings-v2-base-es",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-embeddings-v2-base-zh",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
       "output": 0.0
     },
     {
       "model": "jina-embeddings-v3",
       "type": "tokens",
       "channel_type": 47,
-      "input": 0.01,
+      "input": 0.025,
       "output": 0.0
     },
     {
       "model": "jina-embeddings-v4",
       "type": "tokens",
       "channel_type": 47,
-      "input": 0.01,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-embeddings-v5-omni-nano",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-embeddings-v5-omni-small",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-embeddings-v5-text-nano",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-embeddings-v5-text-small",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
       "output": 0.0
     },
     {
       "model": "jina-reranker-m0",
       "type": "tokens",
       "channel_type": 47,
-      "input": 0.01,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-reranker-v1-base-en",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-reranker-v1-tiny-en",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-reranker-v1-turbo-en",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
       "output": 0.0
     },
     {
       "model": "jina-reranker-v2-base-multilingual",
       "type": "tokens",
       "channel_type": 47,
-      "input": 0.01,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-reranker-v3",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
+      "output": 0.0
+    },
+    {
+      "model": "jina-vlm",
+      "type": "tokens",
+      "channel_type": 47,
+      "input": 0.025,
       "output": 0.0
     },
     {
@@ -8843,6 +9457,16 @@
       }
     },
     {
+      "model": "grok-4.20-beta",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.625,
+      "output": 1.25,
+      "extra_ratios": {
+        "cached_tokens": 0.16
+      }
+    },
+    {
       "model": "grok-4.20-beta-*",
       "type": "tokens",
       "channel_type": 56,
@@ -8884,6 +9508,16 @@
     },
     {
       "model": "grok-4.20-experimental-beta-*-non-reasoning",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.625,
+      "output": 1.25,
+      "extra_ratios": {
+        "cached_tokens": 0.16
+      }
+    },
+    {
+      "model": "grok-4.20-experimental-beta-non-reasoning-latest",
       "type": "tokens",
       "channel_type": 56,
       "input": 0.625,
@@ -9074,6 +9708,27 @@
       "output": 35.0
     },
     {
+      "model": "grok-imagine-image-quality",
+      "type": "times",
+      "channel_type": 56,
+      "input": 5.0,
+      "output": 25.0
+    },
+    {
+      "model": "grok-imagine-image-quality-20260403",
+      "type": "times",
+      "channel_type": 56,
+      "input": 5.0,
+      "output": 25.0
+    },
+    {
+      "model": "grok-imagine-image-quality-latest",
+      "type": "times",
+      "channel_type": 56,
+      "input": 5.0,
+      "output": 25.0
+    },
+    {
       "model": "grok-imagine-video",
       "type": "times",
       "channel_type": 56,
@@ -9081,6 +9736,16 @@
       "output": 25.0,
       "extra_ratios": {
         "input_video_tokens": 5.0
+      }
+    },
+    {
+      "model": "grok-latest",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.625,
+      "output": 1.25,
+      "extra_ratios": {
+        "cached_tokens": 0.16
       }
     },
     {
@@ -9529,7 +10194,8 @@
       "input": 0.06429,
       "output": 0.38571,
       "extra_ratios": {
-        "cached_tokens": 0.2
+        "cached_tokens": 0.2,
+        "input_audio_tokens": 15.0
       }
     },
     {
@@ -9539,7 +10205,8 @@
       "input": 0.02857,
       "output": 0.28571,
       "extra_ratios": {
-        "cached_tokens": 0.2
+        "cached_tokens": 0.2,
+        "input_audio_tokens": 15.0
       }
     },
     {
@@ -9569,7 +10236,8 @@
       "input": 0.06429,
       "output": 0.38571,
       "extra_ratios": {
-        "cached_tokens": 0.2
+        "cached_tokens": 0.2,
+        "input_audio_tokens": 15.0
       }
     },
     {
@@ -9579,7 +10247,8 @@
       "input": 0.02857,
       "output": 0.28571,
       "extra_ratios": {
-        "cached_tokens": 0.2
+        "cached_tokens": 0.2,
+        "input_audio_tokens": 15.0
       }
     },
     {
@@ -9590,6 +10259,26 @@
       "output": 1.71429,
       "extra_ratios": {
         "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "doubao-seed-character*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.08571,
+      "output": 0.42857,
+      "extra_ratios": {
+        "cached_tokens": 0.13333
+      }
+    },
+    {
+      "model": "doubao-seed-character-2*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.08571,
+      "output": 0.42857,
+      "extra_ratios": {
+        "cached_tokens": 0.13333
       }
     },
     {
@@ -9628,6 +10317,20 @@
     },
     {
       "model": "doubao-seed3d-1.0*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 171.42857
+    },
+    {
+      "model": "doubao-seed3d-2-0*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 171.42857
+    },
+    {
+      "model": "doubao-seed3d-2.0*",
       "type": "times",
       "channel_type": 1002,
       "input": 0.0,
@@ -9690,6 +10393,34 @@
       "output": 1.14286
     },
     {
+      "model": "doubao-seedance-2-0*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 3.28571,
+      "output": 3.28571
+    },
+    {
+      "model": "doubao-seedance-2-0-fast*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 2.64286,
+      "output": 2.64286
+    },
+    {
+      "model": "doubao-seedance-2.0*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 3.28571,
+      "output": 3.28571
+    },
+    {
+      "model": "doubao-seedance-2.0-fast*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 2.64286,
+      "output": 2.64286
+    },
+    {
       "model": "doubao-seededit-3-0*",
       "type": "times",
       "channel_type": 1002,
@@ -9704,7 +10435,28 @@
       "output": 21.42857
     },
     {
+      "model": "doubao-seedream-3-0*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 18.5
+    },
+    {
+      "model": "doubao-seedream-3-0-t2i*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 18.5
+    },
+    {
       "model": "doubao-seedream-3.0*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 18.5
+    },
+    {
+      "model": "doubao-seedream-3.0-t2i*",
       "type": "times",
       "channel_type": 1002,
       "input": 0.0,
@@ -9739,7 +10491,21 @@
       "output": 17.85714
     },
     {
+      "model": "doubao-seedream-5-0*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 15.71429
+    },
+    {
       "model": "doubao-seedream-5-0-lite*",
+      "type": "times",
+      "channel_type": 1002,
+      "input": 0.0,
+      "output": 15.71429
+    },
+    {
+      "model": "doubao-seedream-5.0*",
       "type": "times",
       "channel_type": 1002,
       "input": 0.0,
@@ -9955,11 +10721,38 @@
       "output": 1.42857
     },
     {
+      "model": "step-image-edit-2",
+      "type": "times",
+      "channel_type": 1005,
+      "input": 0.0,
+      "output": 1.42857
+    },
+    {
       "model": "step-r1-v-mini",
       "type": "tokens",
       "channel_type": 1005,
       "input": 0.17857,
       "output": 0.57143,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "stepaudio-2.5-chat",
+      "type": "tokens",
+      "channel_type": 1005,
+      "input": 0.71429,
+      "output": 1.78571,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "stepaudio-2.5-realtime",
+      "type": "tokens",
+      "channel_type": 1005,
+      "input": 0.71429,
+      "output": 5.0,
       "extra_ratios": {
         "cached_tokens": 0.2
       }
@@ -10049,6 +10842,20 @@
       "output": 4.0
     },
     {
+      "model": "jamba-large-1.5",
+      "type": "tokens",
+      "channel_type": 1011,
+      "input": 1.0,
+      "output": 4.0
+    },
+    {
+      "model": "jamba-large-1.5-2024-08",
+      "type": "tokens",
+      "channel_type": 1011,
+      "input": 1.0,
+      "output": 4.0
+    },
+    {
       "model": "jamba-large-1.6",
       "type": "tokens",
       "channel_type": 1011,
@@ -10070,7 +10877,28 @@
       "output": 4.0
     },
     {
+      "model": "jamba-large-1.7-2025-07",
+      "type": "tokens",
+      "channel_type": 1011,
+      "input": 1.0,
+      "output": 4.0
+    },
+    {
       "model": "jamba-mini",
+      "type": "tokens",
+      "channel_type": 1011,
+      "input": 0.1,
+      "output": 0.2
+    },
+    {
+      "model": "jamba-mini-1.5",
+      "type": "tokens",
+      "channel_type": 1011,
+      "input": 0.1,
+      "output": 0.2
+    },
+    {
+      "model": "jamba-mini-1.5-2024-08",
       "type": "tokens",
       "channel_type": 1011,
       "input": 0.1,
@@ -10085,6 +10913,34 @@
     },
     {
       "model": "jamba-mini-1.6-2025-03",
+      "type": "tokens",
+      "channel_type": 1011,
+      "input": 0.1,
+      "output": 0.2
+    },
+    {
+      "model": "jamba-mini-1.7",
+      "type": "tokens",
+      "channel_type": 1011,
+      "input": 0.1,
+      "output": 0.2
+    },
+    {
+      "model": "jamba-mini-1.7-2025-08",
+      "type": "tokens",
+      "channel_type": 1011,
+      "input": 0.1,
+      "output": 0.2
+    },
+    {
+      "model": "jamba-mini-2",
+      "type": "tokens",
+      "channel_type": 1011,
+      "input": 0.1,
+      "output": 0.2
+    },
+    {
+      "model": "jamba-mini-2-2026-01",
       "type": "tokens",
       "channel_type": 1011,
       "input": 0.1,
@@ -10954,5 +11810,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-05-10T18:48:06Z"
+  "updated_at": "2026-05-10T19:09:28Z"
 }
