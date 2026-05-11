@@ -4265,6 +4265,13 @@
       "output": 0.425
     },
     {
+      "model": "arcee-ai/trinity-large-thinking:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "arcee-ai/trinity-mini",
       "type": "tokens",
       "channel_type": 20,
@@ -5164,7 +5171,7 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.375,
+      "input": 0.37,
       "output": 1.75
     },
     {
@@ -6508,8 +6515,8 @@
       "model": "z-ai/glm-5.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.525,
-      "output": 1.75
+      "input": 0.49,
+      "output": 1.54
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -6557,7 +6564,7 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.375,
+      "input": 0.37,
       "output": 1.75
     },
     {
