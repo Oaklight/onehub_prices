@@ -120,20 +120,6 @@
       "output": 2.0
     },
     {
-      "model": "anthropic/claude-3.7-sonnet",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.5,
-      "output": 7.5
-    },
-    {
-      "model": "anthropic/claude-3.7-sonnet:thinking",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.5,
-      "output": 7.5
-    },
-    {
       "model": "anthropic/claude-haiku-4.5",
       "type": "tokens",
       "channel_type": 20,
@@ -1131,8 +1117,8 @@
       "model": "moonshotai/kimi-k2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.22,
-      "output": 1.0
+      "input": 0.2,
+      "output": 0.99
     },
     {
       "model": "moonshotai/kimi-k2.6",
@@ -2549,5 +2535,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-05-10T19:09:27Z"
+  "updated_at": "2026-05-11T02:13:26Z"
 }
