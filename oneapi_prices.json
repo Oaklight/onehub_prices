@@ -4097,13 +4097,6 @@
       "output": 0.25
     },
     {
-      "model": "alpindale/goliath-120b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.875,
-      "output": 3.75
-    },
-    {
       "model": "amazon/nova-2-lite-v1",
       "type": "tokens",
       "channel_type": 20,
@@ -4429,8 +4422,8 @@
       "model": "deepseek/deepseek-chat-v3.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.375
+      "input": 0.105,
+      "output": 0.395
     },
     {
       "model": "deepseek/deepseek-r1",
@@ -4674,8 +4667,8 @@
       "model": "google/gemma-4-31b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.065,
-      "output": 0.19
+      "input": 0.06,
+      "output": 0.185
     },
     {
       "model": "google/gemma-4-31b-it:free",
@@ -11803,5 +11796,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-05-11T19:27:42Z"
+  "updated_at": "2026-05-12T02:08:48Z"
 }
