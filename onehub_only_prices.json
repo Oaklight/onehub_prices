@@ -4202,6 +4202,13 @@
       "output": 12.5
     },
     {
+      "model": "anthropic/claude-opus-4.7-fast",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 15.0,
+      "output": 75.0
+    },
+    {
       "model": "anthropic/claude-sonnet-4",
       "type": "tokens",
       "channel_type": 20,
@@ -4961,7 +4968,7 @@
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
+      "input": 0.14,
       "output": 0.6
     },
     {
@@ -5158,7 +5165,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.2,
-      "output": 0.99
+      "output": 0.95
     },
     {
       "model": "moonshotai/kimi-k2.6",
@@ -5761,6 +5768,13 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "perceptron/perceptron-mk1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.075,
+      "output": 0.75
     },
     {
       "model": "perplexity/sonar",
