@@ -288,13 +288,6 @@
       "output": 0.625
     },
     {
-      "model": "baidu/qianfan-ocr-fast:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "bytedance-seed/seed-1.6",
       "type": "tokens",
       "channel_type": 20,
@@ -935,7 +928,7 @@
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1395,
+      "input": 0.13,
       "output": 0.6
     },
     {
@@ -2528,5 +2521,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-05-14T08:27:48Z"
+  "updated_at": "2026-05-14T13:46:51Z"
 }
