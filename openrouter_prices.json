@@ -288,6 +288,13 @@
       "output": 0.625
     },
     {
+      "model": "baidu/qianfan-ocr-fast",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.34,
+      "output": 1.405
+    },
+    {
       "model": "bytedance-seed/seed-1.6",
       "type": "tokens",
       "channel_type": 20,
@@ -1845,7 +1852,7 @@
       "model": "qwen/qwen3-14b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
+      "input": 0.05,
       "output": 0.12
     },
     {
@@ -2454,8 +2461,8 @@
       "model": "z-ai/glm-5.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.525,
-      "output": 1.75
+      "input": 0.49,
+      "output": 1.54
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2521,5 +2528,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-05-14T13:46:51Z"
+  "updated_at": "2026-05-14T19:27:52Z"
 }
