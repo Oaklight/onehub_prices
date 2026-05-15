@@ -452,8 +452,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.063,
-      "output": 0.126
+      "input": 0.056,
+      "output": 0.112
     },
     {
       "model": "deepseek/deepseek-v4-flash:free",
@@ -708,11 +708,11 @@
       "output": 0.015
     },
     {
-      "model": "inclusionai/ring-2.6-1t:free",
+      "model": "inclusionai/ring-2.6-1t",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.0375,
+      "output": 0.3125
     },
     {
       "model": "inflection/inflection-3-pi",
@@ -2269,13 +2269,6 @@
       "output": 3.0
     },
     {
-      "model": "x-ai/grok-3",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.5,
-      "output": 7.5
-    },
-    {
       "model": "x-ai/grok-3-beta",
       "type": "tokens",
       "channel_type": 20,
@@ -2283,38 +2276,10 @@
       "output": 7.5
     },
     {
-      "model": "x-ai/grok-3-mini",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.15,
-      "output": 0.25
-    },
-    {
       "model": "x-ai/grok-3-mini-beta",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.15,
-      "output": 0.25
-    },
-    {
-      "model": "x-ai/grok-4",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.5,
-      "output": 7.5
-    },
-    {
-      "model": "x-ai/grok-4-fast",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.25
-    },
-    {
-      "model": "x-ai/grok-4.1-fast",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
       "output": 0.25
     },
     {
@@ -2337,13 +2302,6 @@
       "channel_type": 20,
       "input": 0.625,
       "output": 1.25
-    },
-    {
-      "model": "x-ai/grok-code-fast-1",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.75
     },
     {
       "model": "xiaomi/mimo-v2-flash",
@@ -2528,5 +2486,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-05-15T13:44:25Z"
+  "updated_at": "2026-05-15T19:17:57Z"
 }
