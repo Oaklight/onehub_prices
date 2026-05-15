@@ -1138,8 +1138,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.37,
-      "output": 1.75
+      "input": 0.365,
+      "output": 1.745
     },
     {
       "model": "morph/morph-v3-fast",
@@ -2090,8 +2090,8 @@
       "model": "qwen/qwen3.5-plus-20260420",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 1.2
+      "input": 0.15,
+      "output": 0.9
     },
     {
       "model": "qwen/qwen3.6-27b",
@@ -2111,8 +2111,8 @@
       "model": "qwen/qwen3.6-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.75
+      "input": 0.09375,
+      "output": 0.5625
     },
     {
       "model": "qwen/qwen3.6-max-preview",
@@ -2510,8 +2510,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.37,
-      "output": 1.75
+      "input": 0.365,
+      "output": 1.745
     },
     {
       "model": "~openai/gpt-latest",
@@ -2528,5 +2528,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-05-14T19:27:52Z"
+  "updated_at": "2026-05-15T02:14:29Z"
 }
