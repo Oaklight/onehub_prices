@@ -704,8 +704,8 @@
       "model": "inclusionai/ling-2.6-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.12
+      "input": 0.005,
+      "output": 0.015
     },
     {
       "model": "inclusionai/ring-2.6-1t:free",
@@ -935,7 +935,7 @@
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.13,
+      "input": 0.1395,
       "output": 0.6
     },
     {
@@ -2528,5 +2528,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-05-15T02:14:29Z"
+  "updated_at": "2026-05-15T08:39:06Z"
 }

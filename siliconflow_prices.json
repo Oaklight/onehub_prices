@@ -127,20 +127,6 @@
       "output": 0.21429
     },
     {
-      "model": "Pro/moonshotai/Kimi-K2-Instruct-0905",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "Pro/moonshotai/Kimi-K2-Thinking",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
       "model": "Pro/moonshotai/Kimi-K2.5",
       "type": "tokens",
       "channel_type": 45,
@@ -239,21 +225,7 @@
       "output": 0.14286
     },
     {
-      "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.17857,
-      "output": 0.71429
-    },
-    {
       "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.05,
-      "output": 0.2
-    },
-    {
-      "model": "Qwen/Qwen3-30B-A3B-Thinking-2507",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.05,
@@ -470,20 +442,6 @@
       "output": 0.0
     },
     {
-      "model": "THUDM/GLM-4.1V-9B-Thinking",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "THUDM/GLM-Z1-32B-0414",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.07143,
-      "output": 0.28571
-    },
-    {
       "model": "THUDM/GLM-Z1-9B-0414",
       "type": "tokens",
       "channel_type": 45,
@@ -603,27 +561,6 @@
       "output": 0.14286
     },
     {
-      "model": "inclusionAI/Ring-flash-2.0",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.07143,
-      "output": 0.28571
-    },
-    {
-      "model": "moonshotai/Kimi-K2-Instruct-0905",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "moonshotai/Kimi-K2-Thinking",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
       "model": "netease-youdao/bce-embedding-base_v1",
       "type": "tokens",
       "channel_type": 45,
@@ -671,21 +608,7 @@
       "channel_type": 45,
       "input": 0.07143,
       "output": 0.42857
-    },
-    {
-      "model": "zai-org/GLM-4.6",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.25,
-      "output": 1.0
-    },
-    {
-      "model": "zai-org/GLM-4.6V",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.07143,
-      "output": 0.21429
     }
   ],
-  "updated_at": "2026-05-15T02:14:28Z"
+  "updated_at": "2026-05-15T08:39:05Z"
 }
