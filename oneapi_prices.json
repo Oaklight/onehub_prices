@@ -4717,7 +4717,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0085,
-      "output": 0.055
+      "output": 0.056
     },
     {
       "model": "ibm-granite/granite-4.1-8b",
@@ -4843,14 +4843,14 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0135,
-      "output": 0.1
+      "output": 0.1005
     },
     {
       "model": "meta-llama/llama-3.2-3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0255,
-      "output": 0.17
+      "input": 0.02545,
+      "output": 0.1675
     },
     {
       "model": "meta-llama/llama-3.2-3b-instruct:free",
@@ -4891,7 +4891,7 @@
       "model": "meta-llama/llama-guard-3-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.24,
+      "input": 0.242,
       "output": 0.015
     },
     {
@@ -5115,8 +5115,8 @@
       "model": "mistralai/mistral-small-3.1-24b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.175,
-      "output": 0.28
+      "input": 0.1755,
+      "output": 0.2775
     },
     {
       "model": "mistralai/mistral-small-3.2-24b-instruct",
@@ -6307,20 +6307,6 @@
       "channel_type": 20,
       "input": 0.3,
       "output": 3.0
-    },
-    {
-      "model": "x-ai/grok-3-beta",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.5,
-      "output": 7.5
-    },
-    {
-      "model": "x-ai/grok-3-mini-beta",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.15,
-      "output": 0.25
     },
     {
       "model": "x-ai/grok-4.20",
@@ -11670,5 +11656,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-05-15T19:17:58Z"
+  "updated_at": "2026-05-16T02:06:31Z"
 }
