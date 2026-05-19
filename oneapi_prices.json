@@ -4629,6 +4629,13 @@
       "output": 6.0
     },
     {
+      "model": "google/gemini-3.5-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.75,
+      "output": 4.5
+    },
+    {
       "model": "google/gemma-2-27b-it",
       "type": "tokens",
       "channel_type": 20,
@@ -6445,8 +6452,8 @@
       "model": "z-ai/glm-5.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.49,
-      "output": 1.54
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -6480,8 +6487,8 @@
       "model": "~google/gemini-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.5
+      "input": 0.75,
+      "output": 4.5
     },
     {
       "model": "~google/gemini-pro-latest",
@@ -11656,5 +11663,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-05-19T14:38:31Z"
+  "updated_at": "2026-05-19T19:42:52Z"
 }
