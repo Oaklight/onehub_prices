@@ -704,8 +704,8 @@
       "model": "inclusionai/ling-2.6-1t",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 1.25
+      "input": 0.0375,
+      "output": 0.3125
     },
     {
       "model": "inclusionai/ling-2.6-flash",
@@ -2297,6 +2297,13 @@
       "output": 1.25
     },
     {
+      "model": "x-ai/grok-build-0.1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 1.0
+    },
+    {
       "model": "xiaomi/mimo-v2-flash",
       "type": "tokens",
       "channel_type": 20,
@@ -2479,5 +2486,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-05-20T14:37:41Z"
+  "updated_at": "2026-05-20T20:02:07Z"
 }
