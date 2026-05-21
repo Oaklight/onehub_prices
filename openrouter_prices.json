@@ -2129,6 +2129,13 @@
       "output": 0.975
     },
     {
+      "model": "qwen/qwen3.7-max",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.25,
+      "output": 3.75
+    },
+    {
       "model": "rekaai/reka-edge",
       "type": "tokens",
       "channel_type": 20,
@@ -2412,8 +2419,8 @@
       "model": "z-ai/glm-5.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.49,
+      "output": 1.54
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2479,5 +2486,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-05-21T14:43:26Z"
+  "updated_at": "2026-05-21T19:43:21Z"
 }
