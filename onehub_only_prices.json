@@ -6242,7 +6242,7 @@
       "model": "stepfun/step-3.5-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
+      "input": 0.045,
       "output": 0.15
     },
     {

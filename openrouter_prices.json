@@ -2202,7 +2202,7 @@
       "model": "stepfun/step-3.5-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
+      "input": 0.045,
       "output": 0.15
     },
     {
@@ -2486,5 +2486,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-05-20T20:02:07Z"
+  "updated_at": "2026-05-21T02:31:30Z"
 }
