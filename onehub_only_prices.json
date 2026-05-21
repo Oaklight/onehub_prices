@@ -4251,13 +4251,6 @@
       "output": 0.09
     },
     {
-      "model": "arcee-ai/trinity-large-preview",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.075,
-      "output": 0.225
-    },
-    {
       "model": "arcee-ai/trinity-large-thinking",
       "type": "tokens",
       "channel_type": 20,
@@ -6144,14 +6137,14 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.16,
+      "input": 0.1585,
       "output": 1.6
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0745,
+      "input": 0.075,
       "output": 0.5
     },
     {
