@@ -6137,7 +6137,7 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1585,
+      "input": 0.15,
       "output": 1.6
     },
     {
@@ -6151,8 +6151,8 @@
       "model": "qwen/qwen3.6-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.09375,
-      "output": 0.5625
+      "input": 0.06188,
+      "output": 0.37125
     },
     {
       "model": "qwen/qwen3.6-max-preview",
@@ -6165,8 +6165,8 @@
       "model": "qwen/qwen3.6-plus",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1625,
-      "output": 0.975
+      "input": 0.0897,
+      "output": 0.53658
     },
     {
       "model": "qwen/qwen3.7-max",
