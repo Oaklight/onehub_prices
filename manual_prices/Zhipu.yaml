@@ -32,6 +32,10 @@ models:
 
     # GLM-4.7 系列 (国际站USD价格：$0.6/$0.11/$2.2)
     glm-4.7:
+      # 阶梯计价（含output长度维度）：
+      # [0,32K) input + [0,0.2K) output: 2元/M输入, 8元/M输出, 缓存0.4元/M
+      # [0,32K) input + [0.2K+) output: 3元/M输入, 14元/M输出, 缓存0.6元/M
+      # [32K,200K) input: 4元/M输入, 16元/M输出, 缓存0.8元/M
       input: 4 rmb / M # 取32k-200k的价格，最为常用
       output: 16 rmb / M
       extra_ratios:
@@ -75,20 +79,6 @@ models:
       input: 0 # 128K上下文，免费
       output: 0
 
-    # GLM-Z1 系列（推理模型）
-    glm-z1-air:
-      input: 0.5 rmb / M # 128K上下文，高性价比
-      output: 0 # 不支持输出计费
-    glm-z1-airx:
-      input: 5 rmb / M # 32K上下文，极速推理
-      output: 0 # 不支持输出计费
-    glm-z1-flashx:
-      input: 0.1 rmb / M # 128K上下文，高速低价
-      output: 0 # 不支持输出计费
-    glm-z1-flash:
-      input: 0 # 128K上下文，免费
-      output: 0
-
     # GLM-4.5 系列 (国际站定价)
     glm-4.5:
       input: 0.6 usd / M
@@ -116,20 +106,12 @@ models:
       extra_ratios:
         - cached_tokens: 0.22 usd / M
 
-    # GLM-4.5-Flash (国际站定价)
-    glm-4.5-flash:
-      input: 0
-      output: 0
-
     # GLM-4-32B-0414-128K (国际站定价)
     glm-4-32b-0414-128k:
       input: 0.1 usd / M
       output: 0.1 usd / M
 
     # 旧版 GLM-4 模型（已过时但仍可用）
-    glm-4-0520:
-      input: 100 rmb / M # 128K上下文
-      output: 50 rmb / M
     glm-4:
       input: 100 rmb / M # 128K上下文
       output: 50 rmb / M
@@ -255,3 +237,29 @@ models:
       output: 0.1 rmb / M
     rerank:
       input: 0.8 rmb / M
+
+    # =========================== 已下线 ===========================
+
+    # GLM-Z1 系列（推理模型，2025-11-15 下线）
+    glm-z1-air:
+      input: 0.5 rmb / M # 128K上下文，高性价比
+      output: 0 # 不支持输出计费
+    glm-z1-airx:
+      input: 5 rmb / M # 32K上下文，极速推理
+      output: 0 # 不支持输出计费
+    glm-z1-flashx:
+      input: 0.1 rmb / M # 128K上下文，高速低价
+      output: 0 # 不支持输出计费
+    glm-z1-flash:
+      input: 0 # 128K上下文，免费
+      output: 0
+
+    # GLM-4-0520（2025-12-30 下线）
+    glm-4-0520:
+      input: 100 rmb / M # 128K上下文
+      output: 50 rmb / M
+
+    # GLM-4.5-Flash（即将下线）
+    glm-4.5-flash:
+      input: 0
+      output: 0

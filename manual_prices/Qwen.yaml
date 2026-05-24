@@ -8,6 +8,17 @@ models:
 
     # 大模型系列
 
+    # Qwen3.7 系列（2026年5月最新旗舰）
+    qwen3.7-max:
+      aliases:
+        - qwen3.7-max-2026*
+      # 支持思考和非思考模式，支持上下文缓存，支持Batch半价
+      # 无阶梯计价：0<Token≤1M: 12元输入/36元输出 (per M)
+      input: 12 rmb / M
+      output: 36 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
+
     # Qwen3.6 系列（中国内地旗舰，2026年升级）
     qwen3.6-max-preview:
       # 支持思考和非思考模式，支持上下文缓存
@@ -405,6 +416,16 @@ models:
         - input_image_tokens: 0.008 rmb / K
         - output_audio_tokens: 0.24 rmb / K
 
+    qwen3.5-livetranslate-flash-realtime:
+      aliases:
+        - qwen3.5-livetranslate-flash-realtime-*
+      # 多模态实时翻译
+      output: 100 rmb / M # 文本输出
+      extra_ratios:
+        - input_audio_tokens: 40 rmb / M
+        - input_image_tokens: 3.3 rmb / M
+        - output_audio_tokens: 160 rmb / M
+
     # =================================== 开源模型，仅包含最新 ===================================
 
     # qwen3.6 开源版
@@ -505,6 +526,18 @@ models:
       extra_ratios:
         - reasoning_tokens: 0.003 rmb / K
 
+    # qwq 开源版
+    qwq-32b:
+      aliases:
+        - qwq-32b-preview
+      input: 2 rmb / M
+      output: 6 rmb / M
+
+    # qvq 开源版
+    qvq-72b-preview:
+      input: 12 rmb / M
+      output: 36 rmb / M
+
     # qwen3-vl 开源版
     qwen3-vl-235b-a22b-instruct:
       input: 0.002 rmb / K
@@ -534,10 +567,75 @@ models:
       input: 0.0005 rmb / K
       output: 0.005 rmb / K
 
+    # qwen2.5-omni 开源版
+    qwen2.5-omni-7b:
+      # 多模态：文本/图片/视频输入 + 音频输入，文本+音频输出
+      input: 0.6 rmb / M # 文本输入
+      output: 2.4 rmb / M # 文本输出（仅纯文本输入）
+      extra_ratios:
+        - input_audio_tokens: 38 rmb / M
+        - input_image_tokens: 2 rmb / M # 图片/视频输入
+        - output_audio_tokens: 76 rmb / M
+        - output_text_tokens: 6 rmb / M # 文本输出（多模态输入）
+
     # qwen3-omni captioner
     qwen3-omni-30b-a3b-captioner:
       input: 0.0158 rmb / K
       output: 0.0127 rmb / K
+
+    # qwen2.5 开源版（文本模型）
+    qwen2.5-72b-instruct:
+      input: 4 rmb / M
+      output: 12 rmb / M
+    qwen2.5-32b-instruct:
+      input: 2 rmb / M
+      output: 6 rmb / M
+    qwen2.5-14b-instruct:
+      aliases:
+        - qwen2.5-14b-instruct-1m
+      input: 1 rmb / M
+      output: 3 rmb / M
+    qwen2.5-7b-instruct:
+      aliases:
+        - qwen2.5-7b-instruct-1m
+      input: 0.5 rmb / M
+      output: 1 rmb / M
+    qwen2.5-3b-instruct:
+      input: 0.3 rmb / M
+      output: 0.9 rmb / M
+    qwen2.5-1.5b-instruct:
+      aliases:
+        - qwen2.5-0.5b-instruct
+      input: 0
+      output: 0
+
+    # qwen2.5 开源版（视觉模型）
+    qwen2.5-vl-72b-instruct:
+      input: 16 rmb / M
+      output: 48 rmb / M
+    qwen2.5-vl-32b-instruct:
+      input: 8 rmb / M
+      output: 24 rmb / M
+    qwen2.5-vl-7b-instruct:
+      input: 2 rmb / M
+      output: 5 rmb / M
+    qwen2.5-vl-3b-instruct:
+      input: 1.2 rmb / M
+      output: 3.6 rmb / M
+
+    # qwen2.5 开源版（数学模型）
+    qwen2.5-math-72b-instruct:
+      input: 4 rmb / M
+      output: 12 rmb / M
+    qwen2.5-math-7b-instruct:
+      input: 1 rmb / M
+      output: 2 rmb / M
+
+    # qwen2.5 开源版（向量模型）
+    qwen2.5-vl-embedding:
+      input: 0.7 rmb / M # 文本输入
+      extra_ratios:
+        - input_image_tokens: 1.8 rmb / M # 图片/视频输入
 
     #  =================================== 陈旧aliases ===================================
 
