@@ -4276,13 +4276,6 @@
       "output": 0.6
     },
     {
-      "model": "alibaba/tongyi-deepresearch-30b-a3b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.045,
-      "output": 0.225
-    },
-    {
       "model": "allenai/olmo-3-32b-think",
       "type": "tokens",
       "channel_type": 20,
@@ -11863,5 +11856,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-05-25T02:36:43Z"
+  "updated_at": "2026-05-25T09:50:32Z"
 }
