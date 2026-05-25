@@ -4594,8 +4594,8 @@
       "model": "deepseek/deepseek-chat",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.16,
-      "output": 0.445
+      "input": 0.1144,
+      "output": 0.4572
     },
     {
       "model": "deepseek/deepseek-chat-v3-0324",
