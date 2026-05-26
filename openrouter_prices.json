@@ -211,13 +211,6 @@
       "output": 0.425
     },
     {
-      "model": "arcee-ai/trinity-large-thinking:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "arcee-ai/trinity-mini",
       "type": "tokens",
       "channel_type": 20,
@@ -2321,15 +2314,15 @@
       "model": "xiaomi/mimo-v2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 1.0
+      "input": 0.07,
+      "output": 0.14
     },
     {
       "model": "xiaomi/mimo-v2.5-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5,
-      "output": 1.5
+      "input": 0.2175,
+      "output": 0.435
     },
     {
       "model": "z-ai/glm-4-32b",
@@ -2349,8 +2342,8 @@
       "model": "z-ai/glm-4.5-air",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.065,
-      "output": 0.425
+      "input": 0.0625,
+      "output": 0.42
     },
     {
       "model": "z-ai/glm-4.5-air:free",
@@ -2479,5 +2472,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-05-26T14:46:33Z"
+  "updated_at": "2026-05-26T19:56:51Z"
 }
