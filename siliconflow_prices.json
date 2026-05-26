@@ -540,6 +540,13 @@
       "output": 0.14286
     },
     {
+      "model": "deepseek-ai/DeepSeek-V4-Pro",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.85714,
+      "output": 1.71429
+    },
+    {
       "model": "fnlp/MOSS-TTSD-v0.5",
       "type": "tokens",
       "channel_type": 45,
@@ -610,5 +617,5 @@
       "output": 0.42857
     }
   ],
-  "updated_at": "2026-05-26T09:36:38Z"
+  "updated_at": "2026-05-26T14:46:32Z"
 }

@@ -6324,7 +6324,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.15,
-      "output": 1.6
+      "output": 1.0
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
@@ -8904,6 +8904,13 @@
       "channel_type": 45,
       "input": 0.07143,
       "output": 0.14286
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V4-Pro",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.85714,
+      "output": 1.71429
     },
     {
       "model": "fnlp/MOSS-TTSD-v0.5",
