@@ -6351,8 +6351,8 @@
       "model": "qwen/qwen3.7-max",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.25,
-      "output": 3.75
+      "input": 0.625,
+      "output": 1.875
     },
     {
       "model": "rekaai/reka-edge",
@@ -11856,5 +11856,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-05-26T19:56:52Z"
+  "updated_at": "2026-05-27T02:36:16Z"
 }
