@@ -4458,13 +4458,6 @@
       "output": 0.6
     },
     {
-      "model": "baidu/cobuddy:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "baidu/ernie-4.5-21b-a3b",
       "type": "tokens",
       "channel_type": 20,
@@ -11856,5 +11849,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-05-27T09:29:34Z"
+  "updated_at": "2026-05-27T14:56:02Z"
 }
