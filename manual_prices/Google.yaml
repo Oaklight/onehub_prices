@@ -5,6 +5,14 @@ models:
     # 模型价格锚点示例：https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro
     # 模型思考预算: https://ai.google.dev/gemini-api/docs/thinking?hl=zh-cn#thinking-levels
 
+    # Gemini 3.5 Flash
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-3.5-flash
+    gemini-3.5-flash:
+      input: 1.5 usd / M
+      output: 9 usd / M # including thinking tokens
+      extra_ratios:
+        - cached_tokens: 0.15 usd / M
+
     # experimental models
     gemini-2.5-flash-exp-native-audio-thinking-dialog:
       input: 0

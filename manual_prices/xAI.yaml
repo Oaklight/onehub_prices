@@ -1,13 +1,20 @@
 models:
   xAI:
-    # model pricing: https://docs.x.ai/developers/models
-    # pricing as markdown: https://docs.x.ai/developers/models.md
+    # model pricing: https://docs.x.ai/developers/pricing
+    # pricing as markdown: https://docs.x.ai/developers/pricing.md
 
     # Grok 4.3 (current flagship)
     grok-4.3:
       aliases:
         - grok-4.3-latest
         - grok-latest
+        # Retired model redirects (May 15, 2026)
+        - grok-3
+        - grok-3-*
+        - grok-4
+        - grok-4-*
+        - grok-code-fast
+        - grok-code-fast-*
       input: 1.25 usd / M
       output: 2.50 usd / M
       extra_ratios:
@@ -59,9 +66,9 @@ models:
       aliases:
         - grok-imagine-image-quality-20260403
         - grok-imagine-image-quality-latest
-      # 分辨率阶梯：1K $0.05/image, 2K $0.07/image
+        - grok-imagine-image-pro
       input: 0.01 usd / image
-      output: 0.05 usd / image  # 取1K分辨率
+      output: 0.05 usd / image
 
     grok-imagine-image:
       aliases:
@@ -70,90 +77,40 @@ models:
       output: 0.02 usd / image
 
     grok-imagine-video:
-      # 分辨率阶梯：480p $0.05/s, 720p $0.07/s
       input: 0.002 usd / image
-      output: 0.05 usd / s  # 取480p价格
+      output: 0.05 usd / s
       extra_ratios:
         - input_video_tokens: 0.01 usd / s
 
     # Voice API
     grok-voice-think-fast-1.0:
+      aliases:
+        - grok-voice-latest
       # Realtime voice agent: $0.05/min ($3.00/hr)
-      # TTS: $4.20/1M characters (via /v1/tts endpoint, no model param)
+      # TTS: $15.00/1M characters (via /v1/tts endpoint, no model param)
       # STT: $0.10/hr REST, $0.20/hr Streaming (via /v1/stt endpoint, no model param)
       input: 0
       output: 0.05 usd / min
 
     # =========================== 已下线 ===========================
-    # retired May 15, 2026
-    grok-4-1-fast-reasoning:
-      aliases:
-        - grok-4-1-fast
-        - grok-4-1-fast-reasoning-latest
-      input: 0.2 usd / M
-      output: 0.5 usd / M
-      extra_ratios:
-        - cached_tokens: 0.05 usd / M
-
-    grok-4-1-fast-non-reasoning:
-      aliases:
-        - grok-4-1-fast-non-reasoning-latest
-      input: 0.2 usd / M
-      output: 0.5 usd / M
-      extra_ratios:
-        - cached_tokens: 0.05 usd / M
-
-    grok-imagine-image-pro:
-      input: 0.002 usd / image
-      output: 0.07 usd / image
-
-    grok-4-0709:
-      aliases:
-        - grok-4
-        - grok-4-latest
-      input: 3 usd / M
-      output: 15 usd / M
-      extra_ratios:
-        - cached_tokens: 0.75 usd / M
-
-    grok-4-fast-reasoning:
-      aliases:
-        - grok-4-fast
-        - grok-4-fast-*
-        - grok-4-fast-reasoning-latest
-      input: 0.2 usd / M
-      output: 0.5 usd / M
-      extra_ratios:
-        - cached_tokens: 0.05 usd / M
-
-    grok-3:
-      aliases:
-        - grok-3-beta
-        - grok-3-latest
-        - grok-3-fast
-        - grok-3-fast-latest
-        - grok-3-fast-beta
-      input: 3 usd / M
-      output: 15 usd / M
-      extra_ratios:
-        - cached_tokens: 0.75 usd / M
-
-    grok-3-mini:
-      aliases:
-        - grok-3-mini-beta
-        - grok-3-mini-latest
-        - grok-3-mini-fast
-        - grok-3-mini-fast-latest
-        - grok-3-mini-fast-beta
-      input: 0.3 usd / M
-      output: 0.5 usd / M
-      extra_ratios:
-        - cached_tokens: 0.075 usd / M
+    # Models retired May 15, 2026: grok-4-1-fast, grok-4-fast, grok-4,
+    # grok-code-fast-1, grok-imagine-image-pro now redirect to grok-4.3
+    # (or grok-imagine-image-quality) at current pricing.
+    # These slugs are registered as grok-4.3 aliases above.
+    # Historical pricing commented out for reference:
+    #
+    # grok-4-1-fast-reasoning:  input 0.2, output 0.5, cached 0.05 usd/M
+    # grok-4-1-fast-non-reasoning: input 0.2, output 0.5, cached 0.05 usd/M
+    # grok-4-fast-reasoning:    input 0.2, output 0.5, cached 0.05 usd/M
+    # grok-4-0709 (grok-4):     input 3, output 15, cached 0.75 usd/M
+    # grok-3:                   input 3, output 15, cached 0.75 usd/M
+    # grok-3-mini:              input 0.3, output 0.5, cached 0.075 usd/M
+    # grok-imagine-image-pro:   output 0.07 usd/image
+    # grok-code-fast-1:         input 0.2, output 1.5, cached 0.02 usd/M
 
     grok-code:
-      aliases:
-        - grok-code-fast
-        - grok-code-fast-*
+      # grok-code-fast/grok-code-fast-1 retired, now grok-4.3 aliases
+      # grok-code itself is not confirmed retired
       input: 0.2 usd / M
       output: 1.5 usd / M
       extra_ratios:

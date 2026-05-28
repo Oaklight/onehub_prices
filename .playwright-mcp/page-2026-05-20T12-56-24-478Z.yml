@@ -1,0 +1,862 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner:
+      - generic:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - link "Gemini generateContent API" [ref=e8] [cursor=pointer]:
+              - /url: /
+              - img "Gemini generateContent API" [ref=e10]
+            - generic:
+              - list:
+                - listitem
+          - generic [ref=e15]:
+            - combobox "Search" [ref=e16]
+            - img [ref=e18]
+            - generic [ref=e21]: /
+          - link "Get API key" [ref=e22] [cursor=pointer]:
+            - /url: https://aistudio.google.com/apikey
+          - link "Cookbook" [ref=e23] [cursor=pointer]:
+            - /url: https://github.com/google-gemini/cookbook
+          - link "Community" [ref=e24] [cursor=pointer]:
+            - /url: https://discuss.ai.google.dev/c/gemini-api/
+        - navigation "Lower tabs" [ref=e30]:
+          - link "Docs, selected" [ref=e32] [cursor=pointer]:
+            - /url: https://ai.google.dev/gemini-api/docs
+            - text: Docs
+          - link "API reference" [ref=e34] [cursor=pointer]:
+            - /url: https://ai.google.dev/api
+    - generic [ref=e35]:
+      - text: filter_list close
+      - navigation "Side menu" [ref=e36]:
+        - text: arrow_back
+        - list [ref=e39]:
+          - listitem [ref=e40]:
+            - generic [ref=e42]: Get started
+          - listitem [ref=e43]:
+            - link "Overview" [ref=e44] [cursor=pointer]:
+              - /url: /gemini-api/docs
+              - generic [ref=e45]: Overview
+          - listitem [ref=e46]:
+            - link "Quickstart" [ref=e47] [cursor=pointer]:
+              - /url: /gemini-api/docs/quickstart
+              - generic [ref=e48]: Quickstart
+          - listitem [ref=e49]:
+            - link "API keys" [ref=e50] [cursor=pointer]:
+              - /url: /gemini-api/docs/api-key
+              - generic [ref=e51]: API keys
+          - listitem [ref=e52]:
+            - link "Libraries" [ref=e53] [cursor=pointer]:
+              - /url: /gemini-api/docs/libraries
+              - generic [ref=e54]: Libraries
+          - listitem [ref=e55]:
+            - link "Pricing" [ref=e56] [cursor=pointer]:
+              - /url: /gemini-api/docs/pricing
+              - generic [ref=e57]: Pricing
+          - listitem [ref=e58]:
+            - link "Interactions API" [ref=e59] [cursor=pointer]:
+              - /url: /gemini-api/docs/interactions
+              - generic [ref=e60]: Interactions API
+          - listitem [ref=e62]:
+            - link "Coding agent setup" [ref=e63] [cursor=pointer]:
+              - /url: /gemini-api/docs/coding-agents
+              - generic [ref=e64]: Coding agent setup
+          - listitem [ref=e65]:
+            - generic [ref=e67]: Models
+          - listitem [ref=e68]:
+            - link "All models" [ref=e69] [cursor=pointer]:
+              - /url: /gemini-api/docs/models
+              - generic [ref=e70]: All models
+          - listitem [ref=e71]:
+            - 'link "Current: Gemini 3.5" [ref=e72] [cursor=pointer]':
+              - /url: /gemini-api/docs/whats-new-gemini-3.5
+              - generic [ref=e73]: "Current: Gemini 3.5"
+          - listitem [ref=e74]:
+            - link "Nano Banana" [ref=e75] [cursor=pointer]:
+              - /url: /gemini-api/docs/image-generation
+              - generic [ref=e76]: Nano Banana
+          - listitem [ref=e77]:
+            - link "Veo" [ref=e78] [cursor=pointer]:
+              - /url: /gemini-api/docs/video
+              - generic [ref=e79]: Veo
+          - listitem [ref=e80]:
+            - link "Lyria 3" [ref=e81] [cursor=pointer]:
+              - /url: /gemini-api/docs/music-generation
+              - generic [ref=e82]: Lyria 3
+          - listitem [ref=e84]:
+            - link "Lyria RealTime" [ref=e85] [cursor=pointer]:
+              - /url: /gemini-api/docs/realtime-music-generation
+              - generic [ref=e86]: Lyria RealTime
+          - listitem [ref=e87]:
+            - link "Imagen" [ref=e88] [cursor=pointer]:
+              - /url: /gemini-api/docs/imagen
+              - generic [ref=e89]: Imagen
+          - listitem [ref=e90]:
+            - link "Text-to-speech" [ref=e91] [cursor=pointer]:
+              - /url: /gemini-api/docs/speech-generation
+              - generic [ref=e92]: Text-to-speech
+          - listitem [ref=e93]:
+            - link "Embeddings" [ref=e94] [cursor=pointer]:
+              - /url: /gemini-api/docs/embeddings
+              - generic [ref=e95]: Embeddings
+          - listitem [ref=e96]:
+            - link "Robotics" [ref=e97] [cursor=pointer]:
+              - /url: /gemini-api/docs/robotics-overview
+              - generic [ref=e98]: Robotics
+          - listitem [ref=e100]:
+            - generic [ref=e102]: Core capabilities
+          - listitem [ref=e103]:
+            - link "Text" [ref=e104] [cursor=pointer]:
+              - /url: /gemini-api/docs/text-generation
+              - generic [ref=e105]: Text
+          - listitem [ref=e106]:
+            - generic [ref=e107]:
+              - text: arrow_drop_down
+              - button "Image " [ref=e108] [cursor=pointer]:
+                - generic [ref=e109]: Image
+                - text: 
+          - listitem [ref=e110]:
+            - generic [ref=e111]:
+              - text: arrow_drop_down
+              - button "Video " [ref=e112] [cursor=pointer]:
+                - generic [ref=e113]: Video
+                - text: 
+          - listitem [ref=e114]:
+            - link "Documents" [ref=e115] [cursor=pointer]:
+              - /url: /gemini-api/docs/document-processing
+              - generic [ref=e116]: Documents
+          - listitem [ref=e117]:
+            - generic [ref=e118]:
+              - text: arrow_drop_down
+              - button "Speech and audio " [ref=e119] [cursor=pointer]:
+                - generic [ref=e120]: Speech and audio
+                - text: 
+          - listitem [ref=e121]:
+            - generic [ref=e122]:
+              - text: arrow_drop_down
+              - button "Thinking " [ref=e123] [cursor=pointer]:
+                - generic [ref=e124]: Thinking
+                - text: 
+          - listitem [ref=e125]:
+            - link "Structured outputs" [ref=e126] [cursor=pointer]:
+              - /url: /gemini-api/docs/structured-output
+              - generic [ref=e127]: Structured outputs
+          - listitem [ref=e128]:
+            - link "Function calling" [ref=e129] [cursor=pointer]:
+              - /url: /gemini-api/docs/function-calling
+              - generic [ref=e130]: Function calling
+          - listitem [ref=e131]:
+            - link "Long context" [ref=e132] [cursor=pointer]:
+              - /url: /gemini-api/docs/long-context
+              - generic [ref=e133]: Long context
+          - listitem [ref=e134]:
+            - generic [ref=e136]: Agents
+          - listitem [ref=e137]:
+            - link "Overview" [ref=e138] [cursor=pointer]:
+              - /url: /gemini-api/docs/agents
+              - generic [ref=e139]: Overview
+          - listitem [ref=e140]:
+            - link "Quickstart" [ref=e141] [cursor=pointer]:
+              - /url: /gemini-api/docs/managed-agents-quickstart
+              - generic [ref=e142]: Quickstart
+          - listitem [ref=e143]:
+            - link "Antigravity Agent" [ref=e144] [cursor=pointer]:
+              - /url: /gemini-api/docs/antigravity-agent
+              - generic [ref=e145]: Antigravity Agent
+          - listitem [ref=e147]:
+            - link "Building managed agents" [ref=e148] [cursor=pointer]:
+              - /url: /gemini-api/docs/custom-agents
+              - generic [ref=e149]: Building managed agents
+          - listitem [ref=e150]:
+            - link "Environments" [ref=e151] [cursor=pointer]:
+              - /url: /gemini-api/docs/agent-environment
+              - generic [ref=e152]: Environments
+          - listitem [ref=e153]:
+            - link "Deep Research Agent" [ref=e154] [cursor=pointer]:
+              - /url: /gemini-api/docs/interactions/deep-research
+              - generic [ref=e155]: Deep Research Agent
+          - listitem [ref=e157]:
+            - generic [ref=e159]: Tools
+          - listitem [ref=e160]:
+            - link "Overview" [ref=e161] [cursor=pointer]:
+              - /url: /gemini-api/docs/tools
+              - generic [ref=e162]: Overview
+          - listitem [ref=e163]:
+            - link "Google Search" [ref=e164] [cursor=pointer]:
+              - /url: /gemini-api/docs/google-search
+              - generic [ref=e165]: Google Search
+          - listitem [ref=e166]:
+            - link "Google Maps" [ref=e167] [cursor=pointer]:
+              - /url: /gemini-api/docs/maps-grounding
+              - generic [ref=e168]: Google Maps
+          - listitem [ref=e169]:
+            - link "Code execution" [ref=e170] [cursor=pointer]:
+              - /url: /gemini-api/docs/code-execution
+              - generic [ref=e171]: Code execution
+          - listitem [ref=e172]:
+            - link "URL context" [ref=e173] [cursor=pointer]:
+              - /url: /gemini-api/docs/url-context
+              - generic [ref=e174]: URL context
+          - listitem [ref=e175]:
+            - link "Computer Use" [ref=e176] [cursor=pointer]:
+              - /url: /gemini-api/docs/computer-use
+              - generic [ref=e177]: Computer Use
+          - listitem [ref=e179]:
+            - link "File Search" [ref=e180] [cursor=pointer]:
+              - /url: /gemini-api/docs/file-search
+              - generic [ref=e181]: File Search
+          - listitem [ref=e182]:
+            - link "Combine Tools and Function calling" [ref=e183] [cursor=pointer]:
+              - /url: /gemini-api/docs/tool-combination
+              - generic [ref=e184]: Combine Tools and Function calling
+          - listitem [ref=e186]:
+            - generic [ref=e188]: Live API
+          - listitem [ref=e189]:
+            - link "Overview" [ref=e190] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api
+              - generic [ref=e191]: Overview
+          - listitem [ref=e192]:
+            - generic [ref=e193]:
+              - text: arrow_drop_down
+              - button "Get started " [ref=e194] [cursor=pointer]:
+                - generic [ref=e195]: Get started
+                - text: 
+          - listitem [ref=e196]:
+            - link "Capabilities" [ref=e197] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api/capabilities
+              - generic [ref=e198]: Capabilities
+          - listitem [ref=e199]:
+            - link "Tool use" [ref=e200] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api/tools
+              - generic [ref=e201]: Tool use
+          - listitem [ref=e202]:
+            - link "Session management" [ref=e203] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api/session-management
+              - generic [ref=e204]: Session management
+          - listitem [ref=e205]:
+            - link "Ephemeral tokens" [ref=e206] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api/ephemeral-tokens
+              - generic [ref=e207]: Ephemeral tokens
+          - listitem [ref=e208]:
+            - link "Best practices" [ref=e209] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api/best-practices
+              - generic [ref=e210]: Best practices
+          - listitem [ref=e211]:
+            - generic [ref=e213]: Optimization
+          - listitem [ref=e214]:
+            - link "Overview" [ref=e215] [cursor=pointer]:
+              - /url: /gemini-api/docs/optimization
+              - generic [ref=e216]: Overview
+          - listitem [ref=e217]:
+            - link "Batch API" [ref=e218] [cursor=pointer]:
+              - /url: /gemini-api/docs/batch-api
+              - generic [ref=e219]: Batch API
+          - listitem [ref=e220]:
+            - link "Webhooks" [ref=e221] [cursor=pointer]:
+              - /url: /gemini-api/docs/webhooks
+              - generic [ref=e222]: Webhooks
+          - listitem [ref=e224]:
+            - link "Flex inference" [ref=e225] [cursor=pointer]:
+              - /url: /gemini-api/docs/flex-inference
+              - generic [ref=e226]: Flex inference
+          - listitem [ref=e228]:
+            - link "Priority inference" [ref=e229] [cursor=pointer]:
+              - /url: /gemini-api/docs/priority-inference
+              - generic [ref=e230]: Priority inference
+          - listitem [ref=e232]:
+            - link "Context caching" [ref=e233] [cursor=pointer]:
+              - /url: /gemini-api/docs/caching
+              - generic [ref=e234]: Context caching
+          - listitem [ref=e235]:
+            - generic [ref=e237]: Guides
+          - listitem [ref=e238]:
+            - link "Streaming" [ref=e239] [cursor=pointer]:
+              - /url: /gemini-api/docs/interactions/streaming
+              - generic [ref=e240]: Streaming
+          - listitem [ref=e241]:
+            - generic [ref=e242]:
+              - text: arrow_drop_down
+              - button "File input " [ref=e243] [cursor=pointer]:
+                - generic [ref=e244]: File input
+                - text: 
+          - listitem [ref=e245]:
+            - link "OpenAI compatibility" [ref=e246] [cursor=pointer]:
+              - /url: /gemini-api/docs/openai
+              - generic [ref=e247]: OpenAI compatibility
+          - listitem [ref=e248]:
+            - link "Media resolution" [ref=e249] [cursor=pointer]:
+              - /url: /gemini-api/docs/media-resolution
+              - generic [ref=e250]: Media resolution
+          - listitem [ref=e251]:
+            - link "Token counting" [ref=e252] [cursor=pointer]:
+              - /url: /gemini-api/docs/tokens
+              - generic [ref=e253]: Token counting
+          - listitem [ref=e254]:
+            - link "Prompt engineering" [ref=e255] [cursor=pointer]:
+              - /url: /gemini-api/docs/prompting-strategies
+              - generic [ref=e256]: Prompt engineering
+          - listitem [ref=e257]:
+            - generic [ref=e258]:
+              - text: arrow_drop_down
+              - button "Logs and datasets " [ref=e259] [cursor=pointer]:
+                - generic [ref=e260]: Logs and datasets
+                - text: 
+          - listitem [ref=e261]:
+            - generic [ref=e262]:
+              - text: arrow_drop_down
+              - button "Safety " [ref=e263] [cursor=pointer]:
+                - generic [ref=e264]: Safety
+                - text: 
+          - listitem [ref=e265]:
+            - generic [ref=e266]:
+              - text: arrow_drop_down
+              - button "Frameworks " [ref=e267] [cursor=pointer]:
+                - generic [ref=e268]: Frameworks
+                - text: 
+          - listitem [ref=e269]:
+            - generic [ref=e271]: Resources
+          - listitem [ref=e272]:
+            - link "Release notes" [ref=e273] [cursor=pointer]:
+              - /url: /gemini-api/docs/changelog
+              - generic [ref=e274]: Release notes
+          - listitem [ref=e275]:
+            - link "Deprecations" [ref=e276] [cursor=pointer]:
+              - /url: /gemini-api/docs/deprecations
+              - generic [ref=e277]: Deprecations
+          - listitem [ref=e278]:
+            - generic [ref=e279]:
+              - text: arrow_drop_down
+              - button "Migration " [ref=e280] [cursor=pointer]:
+                - generic [ref=e281]: Migration
+                - text: 
+          - listitem [ref=e282]:
+            - link "Rate limits" [ref=e283] [cursor=pointer]:
+              - /url: /gemini-api/docs/rate-limits
+              - generic [ref=e284]: Rate limits
+          - listitem [ref=e285]:
+            - link "Billing info" [ref=e286] [cursor=pointer]:
+              - /url: /gemini-api/docs/billing
+              - generic [ref=e287]: Billing info
+          - listitem [ref=e288]:
+            - link "API troubleshooting" [ref=e289] [cursor=pointer]:
+              - /url: /gemini-api/docs/troubleshooting
+              - generic [ref=e290]: API troubleshooting
+          - listitem [ref=e291]:
+            - link "Status" [ref=e292] [cursor=pointer]:
+              - /url: https://aistudio.google.com/status
+              - generic [ref=e293]: Status
+              - generic [ref=e294]: open_in_new
+          - listitem [ref=e295]:
+            - link "Partner and library integrations" [ref=e296] [cursor=pointer]:
+              - /url: /gemini-api/docs/partner-integration
+              - generic [ref=e297]: Partner and library integrations
+          - listitem [ref=e298]:
+            - generic [ref=e299]:
+              - text: arrow_drop_down
+              - button "Google AI Studio " [ref=e300] [cursor=pointer]:
+                - generic [ref=e301]: Google AI Studio
+                - text: 
+          - listitem [ref=e302]:
+            - generic [ref=e303]:
+              - text: arrow_drop_down
+              - button "Google Cloud Platform " [ref=e304] [cursor=pointer]:
+                - generic [ref=e305]: Google Cloud Platform
+                - text: 
+          - listitem [ref=e306]:
+            - generic [ref=e308]: Policies
+          - listitem [ref=e309]:
+            - link "Terms of service" [ref=e310] [cursor=pointer]:
+              - /url: /gemini-api/terms
+              - generic [ref=e311]: Terms of service
+          - listitem [ref=e312]:
+            - link "Available regions" [ref=e313] [cursor=pointer]:
+              - /url: /gemini-api/docs/available-regions
+              - generic [ref=e314]: Available regions
+          - listitem [ref=e315]:
+            - link "Abuse monitoring" [ref=e316] [cursor=pointer]:
+              - /url: /gemini-api/docs/usage-policies
+              - generic [ref=e317]: Abuse monitoring
+          - listitem [ref=e318]:
+            - link "Feedback information" [ref=e319] [cursor=pointer]:
+              - /url: /gemini-api/docs/feedback-policies
+              - generic [ref=e320]: Feedback information
+    - generic [ref=e321]:
+      - main [ref=e322]:
+        - generic [ref=e323]:
+          - article [ref=e324]:
+            - generic [ref=e327]:
+              - link "Gemini Deep Research" [ref=e328] [cursor=pointer]:
+                - /url: /gemini-api/docs/deep-research
+              - text: is now available in preview with collaborative planning, visualization, MCP support, and more.
+            - navigation [ref=e329]:
+              - list "Breadcrumb" [ref=e330]:
+                - listitem [ref=e331]:
+                  - link "Home" [ref=e332] [cursor=pointer]:
+                    - /url: https://ai.google.dev/
+                - listitem [ref=e333]:
+                  - generic [ref=e334]: chevron_right
+                  - link "Gemini API" [ref=e335] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api
+                - listitem [ref=e336]:
+                  - generic [ref=e337]: chevron_right
+                  - link "generateContent API" [ref=e338] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api/docs
+            - generic [ref=e339]:
+              - paragraph
+              - heading "What's new in Gemini 3.5 Flash" [level=1] [ref=e340]
+              - complementary [ref=e341]:
+                - strong [ref=e342]: Note
+                - text: ": You are viewing"
+                - code [ref=e343]: generateContent
+                - text: . For new projects, we recommend using the new
+                - link "Interactions API" [ref=e344] [cursor=pointer]:
+                  - /url: /gemini-api/docs/interactions
+                - text: (Beta)—built for agentic workflows, background tasks, and future Gemini capabilities.
+              - paragraph [ref=e345]:
+                - text: Gemini 3.5 Flash is
+                - strong [ref=e346]: generally available (GA)
+                - text: ", stable, and ready for scaled production use. As our most intelligent Flash model, it delivers sustained frontier performance in agentic execution, coding, and long-horizon tasks at scale."
+              - paragraph [ref=e347]: This guide contains an overview of improvements, API changes, and migration guidance for Gemini 3.5 Flash.
+              - heading "New model" [level=2] [ref=e348]
+              - table [ref=e349]:
+                - rowgroup [ref=e350]:
+                  - row "Model Model ID Description" [ref=e351]:
+                    - columnheader "Model" [ref=e352]
+                    - columnheader "Model ID" [ref=e353]
+                    - columnheader "Description" [ref=e354]
+                - rowgroup [ref=e355]:
+                  - row "Gemini 3.5 Flash gemini-3.5-flash Our most intelligent model for sustained frontier performance in agentic and coding tasks." [ref=e356]:
+                    - cell "Gemini 3.5 Flash" [ref=e357]
+                    - cell "gemini-3.5-flash" [ref=e358]:
+                      - code [ref=e359]: gemini-3.5-flash
+                    - cell "Our most intelligent model for sustained frontier performance in agentic and coding tasks." [ref=e360]
+              - paragraph [ref=e361]:
+                - text: Gemini 3.5 Flash supports the 1M token context window, 65k max output tokens, thinking, and the same set of tools and platform features as Gemini 3 Flash.
+                - link "Computer Use" [ref=e362] [cursor=pointer]:
+                  - /url: /gemini-api/docs/computer-use
+                - text: is not supported at this moment.
+              - paragraph [ref=e363]:
+                - text: For complete specs, see the
+                - link "models overview" [ref=e364] [cursor=pointer]:
+                  - /url: /gemini-api/docs/models/gemini-3.5-flash
+                - text: . For pricing, see the
+                - link "pricing page" [ref=e365] [cursor=pointer]:
+                  - /url: /gemini-api/docs/pricing#gemini-3.5-flash
+                - text: .
+              - heading "Quickstart" [level=2] [ref=e366]
+              - paragraph [ref=e367]: All examples in this guide use the GenerateContent API. The Interactions API is also supported; the same configuration options and recommendations apply.
+              - heading "What's new" [level=2] [ref=e369]
+              - list [ref=e370]:
+                - listitem [ref=e371]:
+                  - strong [ref=e372]: "Sustained frontier performance:"
+                  - text: Our most intelligent Flash model, optimized for agentic and coding tasks at scale.
+                - listitem [ref=e373]:
+                  - strong [ref=e374]: "Agentic execution:"
+                  - text: Sub-agent deployment, problem solving, and rapid agentic loops at scale.
+                - listitem [ref=e375]:
+                  - strong [ref=e376]: "Coding:"
+                  - text: Iterative coding cycles, rapid exploration, and prototyping to test alternate paths and dynamically explore solutions.
+                - listitem [ref=e377]:
+                  - strong [ref=e378]: "Long horizon:"
+                  - text: Multi-step workflows and tool use at scale.
+                - listitem [ref=e379]:
+                  - strong [ref=e380]: "Thought preservation:"
+                  - text: The model maintains intermediate reasoning across multi-turn conversations automatically. No API changes needed.
+                - listitem [ref=e381]:
+                  - strong [ref=e382]: "New default effort level:"
+                  - text: Default thinking effort changed from
+                  - code [ref=e383]: high
+                  - text: to
+                  - code [ref=e384]: medium
+                  - text: . See
+                  - link "New default effort level" [ref=e385] [cursor=pointer]:
+                    - /url: "#default-effort-level"
+                  - text: for details.
+                - listitem [ref=e386]:
+                  - strong [ref=e387]:
+                    - text: Improved
+                    - code [ref=e388]: low
+                    - text: "thinking:"
+                  - code [ref=e389]: low
+                  - text: is now significantly improved for code and agentic tasks that require fewer steps, offering strong quality at lower latency and cost.
+                - listitem [ref=e390]:
+                  - strong [ref=e391]: "GA release:"
+                  - text: Stable model for scaled production use.
+              - heading "Behavioral changes" [level=2] [ref=e392]
+              - 'heading "New default effort level: medium" [level=3] [ref=e393]':
+                - text: "New default effort level:"
+                - code [ref=e394]: medium
+              - paragraph [ref=e395]:
+                - text: The default thinking effort is now
+                - strong [ref=e396]:
+                  - code [ref=e397]: medium
+                - text: ", changed from"
+                - code [ref=e398]: high
+                - text: in Gemini 3 Flash Preview.
+                - code [ref=e399]: medium
+                - text: yields very good results across a wide range of tasks while being faster and more cost-efficient. For complex problems,
+                - code [ref=e400]: high
+                - text: encourages the model to think more deeply.
+              - table [ref=e401]:
+                - rowgroup [ref=e402]:
+                  - row "Effort level When to use" [ref=e403]:
+                    - columnheader "Effort level" [ref=e404]
+                    - columnheader "When to use" [ref=e405]
+                - rowgroup [ref=e406]:
+                  - row "minimal Optimized for response speed. Chat-like use cases, quick factual answers, simpler tool calls." [ref=e407]:
+                    - cell "minimal" [ref=e408]:
+                      - code [ref=e409]: minimal
+                    - cell "Optimized for response speed. Chat-like use cases, quick factual answers, simpler tool calls." [ref=e410]
+                  - row "low Code and agentic tasks that require lower latency and fewer steps. Also works well for analysis and writing tasks that require some thinking." [ref=e411]:
+                    - cell "low" [ref=e412]:
+                      - code [ref=e413]: low
+                    - cell "Code and agentic tasks that require lower latency and fewer steps. Also works well for analysis and writing tasks that require some thinking." [ref=e414]
+                  - row "medium (default) Best quality for most tasks. Recommended for complex code and agentic use cases." [ref=e415]:
+                    - cell "medium (default)" [ref=e416]:
+                      - strong [ref=e417]:
+                        - code [ref=e418]: medium
+                        - text: (default)
+                    - cell "Best quality for most tasks. Recommended for complex code and agentic use cases." [ref=e419]:
+                      - strong [ref=e420]: Best quality for most tasks. Recommended for complex code and agentic use cases.
+                  - row "high Maximizes the model's ability to think and use tools. Best for complex reasoning, hard math, and the most difficult code or agent tasks. Allows extended thoughts and function calls." [ref=e421]:
+                    - cell "high" [ref=e422]:
+                      - code [ref=e423]: high
+                    - cell "Maximizes the model's ability to think and use tools. Best for complex reasoning, hard math, and the most difficult code or agent tasks. Allows extended thoughts and function calls." [ref=e424]
+              - paragraph [ref=e425]:
+                - text: To override the default, set
+                - code [ref=e426]: thinking_level
+                - text: "in your config:"
+              - complementary [ref=e428]:
+                - strong [ref=e429]: "Tip:"
+                - generic [ref=e430]:
+                  - text: Start with
+                  - code [ref=e431]: medium
+                  - text: ", it provides the best quality for the vast majority of tasks. Try"
+                  - code [ref=e432]: low
+                  - text: for a faster, cheaper experience with strong quality. Switch to
+                  - code [ref=e433]: high
+                  - text: for complex reasoning, hard math, or difficult coding challenges. Use
+                  - code [ref=e434]: minimal
+                  - text: to optimize for speed in simple queries.
+              - heading "Thought preservation" [level=3] [ref=e435]
+              - paragraph [ref=e436]: "The model maintains intermediate reasoning across multi-turn conversations automatically. When present in the conversation history, reasoning context carries forward, which improves performance on complex multi-step tasks like iterative debugging and code refactoring. No API changes needed:"
+              - list [ref=e437]:
+                - listitem [ref=e438]:
+                  - strong [ref=e439]: Interactions API
+                  - text: ": Thoughts are already preserved automatically. No change in behavior."
+                - listitem [ref=e440]:
+                  - strong [ref=e441]: GenerateContent API
+                  - text: ": Beginning with Gemini 3.5 Flash, the model uses reasoning context from all previous turns when thought signatures are present in the conversation history. To enable this, pass the full, unmodified conversation history (including"
+                  - link "thought signatures" [ref=e442] [cursor=pointer]:
+                    - /url: /gemini-api/docs/thought-signatures
+                  - text: ) in
+                  - code [ref=e443]: contents
+                  - text: . The SDKs handle this automatically.
+              - complementary [ref=e444]:
+                - strong [ref=e445]: "Note:"
+                - generic [ref=e446]:
+                  - text: When using the GenerateContent API, preserved thoughts increase input token count over multiple turns. For simple queries, you can clear them to reduce cost. See the
+                  - link "thought signatures guide" [ref=e447] [cursor=pointer]:
+                    - /url: /gemini-api/docs/thought-signatures#thought-preservation
+                  - text: for details.
+              - heading "Parameter updates and best practices in Gemini 3.x" [level=2] [ref=e448]
+              - paragraph [ref=e449]:
+                - text: The following apply to
+                - strong [ref=e450]: all Gemini 3.x models
+                - text: ", including Gemini 3.5 Flash."
+              - list [ref=e451]:
+                - listitem [ref=e452]:
+                  - strong [ref=e453]:
+                    - code [ref=e454]: temperature
+                    - text: ","
+                    - code [ref=e455]: top_p
+                    - text: ","
+                    - code [ref=e456]: top_k
+                  - text: ": we strongly recommend not changing the default values. Gemini 3's reasoning capabilities are optimized for the default settings."
+                - listitem [ref=e457]:
+                  - text: Use
+                  - code [ref=e458]: thinking_level
+                  - text: instead of
+                  - code [ref=e459]: thinking_budget
+                  - text: .
+                - listitem [ref=e460]:
+                  - strong [ref=e461]: Function calling response matching
+                  - text: ":"
+                  - code [ref=e462]: id
+                  - text: ","
+                  - code [ref=e463]: name
+                  - text: ", and response count must match the preceding calls."
+                - listitem [ref=e464]:
+                  - strong [ref=e465]: Multimodal function responses
+                  - text: ": include multimodal content inside the function response, not outside it."
+                - listitem [ref=e466]:
+                  - strong [ref=e467]: Inline instructions in function responses
+                  - text: ": append to the function response text, not as separate parts."
+                - listitem [ref=e468]:
+                  - strong [ref=e469]: Reduce unnecessary tool calls
+                  - text: ": Use lower thinking levels or experiment with system instructions to reduce tool calls in agentic workflows."
+              - paragraph [ref=e470]: See the sections below for how to update your code.
+              - heading "Sampling parameters (no longer recommended)" [level=3] [ref=e471]
+              - paragraph [ref=e472]:
+                - code [ref=e473]: temperature
+                - text: ","
+                - code [ref=e474]: top_p
+                - text: ", and"
+                - code [ref=e475]: top_k
+                - text: are no longer recommended for all Gemini 3.x models. Gemini 3's reasoning capabilities are optimized for the default settings.
+                - strong [ref=e476]: Remove these parameters from all requests.
+              - code [ref=e479]: "# ⚠️ Remove these parameters (not recommended) config = types.GenerateContentConfig( temperature=0.7, top_p=0.9, top_k=40 )"
+              - paragraph [ref=e480]: To ensure determinism, we recommend defining a system instruction with explicit rules for your specific use case.
+              - heading "thinking_budget (no longer recommended)" [level=3] [ref=e481]:
+                - code [ref=e482]: thinking_budget
+                - text: (no longer recommended)
+              - paragraph [ref=e483]:
+                - text: The raw numeric
+                - code [ref=e484]: thinking_budget
+                - text: parameter is no longer recommended across all Gemini 3.x models. Use the
+                - code [ref=e485]: thinking_level
+                - text: string enum instead.
+              - code [ref=e488]: "# ⚠️ Before (not recommended) config = types.GenerateContentConfig( thinking_config=types.ThinkingConfig(thinking_budget=7500) ) # ✅ After config = types.GenerateContentConfig( thinking_config=types.ThinkingConfig(thinking_level=\"medium\") )"
+              - paragraph [ref=e489]:
+                - text: "Available values:"
+                - code [ref=e490]: minimal
+                - text: ","
+                - code [ref=e491]: low
+                - text: ","
+                - code [ref=e492]: medium
+                - text: (default), and
+                - code [ref=e493]: high
+                - text: .
+              - 'heading "Function calling: strict response matching" [level=3] [ref=e494]'
+              - paragraph [ref=e495]:
+                - text: The Interactions API already errors on mismatched function responses. The GenerateContent API does not yet error, but mismatched responses cause the model to return empty responses with
+                - code [ref=e496]: "finish_reason: STOP"
+                - text: "in most cases. Always follow these conventions:"
+              - table [ref=e497]:
+                - rowgroup [ref=e498]:
+                  - row "Requirement Details" [ref=e499]:
+                    - columnheader "Requirement" [ref=e500]
+                    - columnheader "Details" [ref=e501]
+                - rowgroup [ref=e502]:
+                  - row "Include id Every FunctionResponse must include the id from the corresponding FunctionCall" [ref=e503]:
+                    - cell "Include id" [ref=e504]:
+                      - text: Include
+                      - code [ref=e505]: id
+                    - cell "Every FunctionResponse must include the id from the corresponding FunctionCall" [ref=e506]:
+                      - text: Every
+                      - code [ref=e507]: FunctionResponse
+                      - text: must include the
+                      - code [ref=e508]: id
+                      - text: from the corresponding
+                      - code [ref=e509]: FunctionCall
+                  - row "Match name The name in the response must match the name in the call" [ref=e510]:
+                    - cell "Match name" [ref=e511]:
+                      - text: Match
+                      - code [ref=e512]: name
+                    - cell "The name in the response must match the name in the call" [ref=e513]:
+                      - text: The
+                      - code [ref=e514]: name
+                      - text: in the response must match the
+                      - code [ref=e515]: name
+                      - text: in the call
+                  - row "Match counts Return exactly one FunctionResponse for each FunctionCall received" [ref=e516]:
+                    - cell "Match counts" [ref=e517]
+                    - cell "Return exactly one FunctionResponse for each FunctionCall received" [ref=e518]:
+                      - text: Return exactly one
+                      - code [ref=e519]: FunctionResponse
+                      - text: for each
+                      - code [ref=e520]: FunctionCall
+                      - text: received
+              - heading "Multimodal function responses" [level=3] [ref=e522]
+              - paragraph [ref=e523]:
+                - text: We often see clients provide images outside function response. This can lead to unexpected model behavior (e.g. thought leakage) and result in lower quality outputs. Follow the recommendation in
+                - link "Multimodal Function Responses API docs" [ref=e524] [cursor=pointer]:
+                  - /url: /gemini-api/docs/function-calling?example=meeting#multimodal
+                - text: instead and include multimodal content in the function response parts that you send to the model. The model can process this multimodal content in its next turn to produce a more informed response.
+              - heading "Inline instructions in function responses" [level=3] [ref=e526]
+              - paragraph [ref=e527]:
+                - text: We often see clients provide additional instructions along with function responses as subsequent
+                - code [ref=e528]: Parts
+                - text: . This can lead to unexpected model behavior (e.g. thought leakage) and result in lower quality outputs. Instead, append any extra instructions to the end of the function response text separated by two newlines.
+              - heading "Reducing unnecessary tool calls" [level=3] [ref=e530]
+              - paragraph [ref=e531]: "If you experience an overuse of tool calls, two techniques help minimize them:"
+              - list [ref=e532]:
+                - listitem [ref=e533]:
+                  - paragraph [ref=e534]:
+                    - strong [ref=e535]: Start by reducing the thinking level
+                    - text: (
+                    - code [ref=e536]: medium
+                    - text: ","
+                    - code [ref=e537]: low
+                    - text: ", or"
+                    - code [ref=e538]: minimal
+                    - text: "): Higher thinking levels encourage the model to use more tools to explore and verify, so lowering the level can reduce tool calls."
+                - listitem [ref=e539]:
+                  - paragraph [ref=e540]:
+                    - strong [ref=e541]: "Add a system instruction:"
+                    - text: "If overuse persists after adjusting the thinking level, consider a prompt that restricts tool usage. For example:"
+                  - code [ref=e544]: You have a limited action budget of <n> tool calls. Use them efficiently.
+              - heading "Migration checklist" [level=2] [ref=e545]
+              - heading "Migrate from Gemini 3 Flash Preview" [level=3] [ref=e546]
+              - list [ref=e547]:
+                - listitem [ref=e548]:
+                  - text: "Update model name:"
+                  - code [ref=e549]: gemini-3-flash-preview
+                  - text: →
+                  - code [ref=e550]: gemini-3.5-flash
+                - listitem [ref=e551]:
+                  - text: Review pricing. Gemini 3.5 Flash is more expensive than Gemini 3 Flash Preview. See the
+                  - link "pricing page" [ref=e552] [cursor=pointer]:
+                    - /url: /gemini-api/docs/pricing#gemini-3.5-flash
+                  - text: for details.
+                - listitem [ref=e553]:
+                  - text: Remove
+                  - code [ref=e554]: temperature
+                  - text: ","
+                  - code [ref=e555]: top_p
+                  - text: ","
+                  - code [ref=e556]: top_k
+                  - text: from your config (no longer recommended).
+                - listitem [ref=e557]:
+                  - text: Replace
+                  - code [ref=e558]: thinking_budget
+                  - text: with
+                  - code [ref=e559]: thinking_level
+                  - text: .
+                - listitem [ref=e560]:
+                  - text: Add
+                  - code [ref=e561]: id
+                  - text: and matching
+                  - code [ref=e562]: name
+                  - text: to all
+                  - code [ref=e563]: FunctionResponse
+                  - text: parts.
+                - listitem [ref=e564]:
+                  - text: Test your prompts. Default effort changed from
+                  - code [ref=e565]: high
+                  - text: →
+                  - code [ref=e566]: medium
+                  - text: ; verify quality, speed, and cost.
+                - listitem [ref=e567]: Thought preservation is now on by default. Reasoning context carries forward across turns, which improves performance but may increase token usage.
+                - listitem [ref=e568]:
+                  - text: "Reduce unnecessary tool calls: start by reducing the thinking level ("
+                  - code [ref=e569]: medium
+                  - text: ","
+                  - code [ref=e570]: low
+                  - text: ", or"
+                  - code [ref=e571]: minimal
+                  - text: ); add a system instruction to constrain tool usage if overuse persists.
+                - listitem [ref=e572]:
+                  - link "Computer Use" [ref=e573] [cursor=pointer]:
+                    - /url: /gemini-api/docs/computer-use
+                  - text: is not supported in Gemini 3.5 Flash at this moment. For Computer Use workloads, continue using Gemini 3 Flash Preview.
+              - heading "Migrate from Gemini 2.5" [level=3] [ref=e574]
+              - paragraph [ref=e575]: "All of the above, plus:"
+              - list [ref=e576]:
+                - listitem [ref=e577]:
+                  - text: Simplify prompts. If you used chain-of-thought prompt engineering to force reasoning, try
+                  - code [ref=e578]: "thinking_level: \"medium\""
+                  - text: or
+                  - code [ref=e579]: "\"high\""
+                  - text: with simpler prompts instead.
+                - listitem [ref=e580]:
+                  - text: Test PDF and media workloads. If you relied on specific behavior for dense document parsing, test the
+                  - code [ref=e581]: media_resolution_high
+                  - text: setting to ensure continued accuracy. Migrating to Gemini 3 defaults may also increase token usage for PDFs but decrease it for video; if requests exceed the context window, explicitly reduce the
+                  - code [ref=e582]: media_resolution
+                  - text: . See the
+                  - link "media resolution" [ref=e583] [cursor=pointer]:
+                    - /url: /gemini-api/docs/media-resolution
+                  - text: docs for details.
+                - listitem [ref=e584]:
+                  - text: Leverage
+                  - link "combined tool use" [ref=e585] [cursor=pointer]:
+                    - /url: /gemini-api/docs/tool-combination
+                  - text: . Google Search, URL context, code execution, and custom functions can be used in the same request.
+                - listitem [ref=e586]: If using multimodal function responses, move multimodal content inside function response parts, not alongside them.
+                - listitem [ref=e587]: If using inline instructions with function responses, append them to the function response text separated by two newlines, not as separate parts.
+                - listitem [ref=e588]:
+                  - text: Image segmentation is not supported in Gemini 3.x. For segmentation workloads, continue using Gemini 2.5 Flash with thinking off, or
+                  - link "Gemini Robotics-ER 1.6" [ref=e589] [cursor=pointer]:
+                    - /url: /gemini-api/docs/robotics-overview
+                  - text: .
+              - heading "Gemini 3 family features" [level=2] [ref=e590]
+              - paragraph [ref=e591]: "Gemini 3.5 Flash inherits all Gemini 3 family capabilities except Computer Use. Features introduced in Gemini 3 that carry forward:"
+              - list [ref=e592]:
+                - listitem [ref=e593]:
+                  - link "Thinking" [ref=e594] [cursor=pointer]:
+                    - /url: /gemini-api/docs/thinking
+                    - strong [ref=e595]: Thinking
+                  - strong [ref=e596]: ":"
+                  - text: Encrypted reasoning context preserved across API calls. Automatic in the Interactions API; implicit in GenerateContent.
+                - listitem [ref=e597]:
+                  - link "Structured outputs with tools" [ref=e598] [cursor=pointer]:
+                    - /url: /gemini-api/docs/structured-output
+                    - strong [ref=e599]: Structured outputs with tools
+                  - strong [ref=e600]: ":"
+                  - text: Combine JSON mode with built-in tools (Search, URL context, code execution, function calling).
+                - listitem [ref=e601]:
+                  - link "Multimodal function responses" [ref=e602] [cursor=pointer]:
+                    - /url: /gemini-api/docs/function-calling#multimodal
+                    - strong [ref=e603]: Multimodal function responses
+                  - strong [ref=e604]: ":"
+                  - text: Return images, audio, and other media in function call results.
+                - listitem [ref=e605]:
+                  - link "Code execution with images" [ref=e606] [cursor=pointer]:
+                    - /url: /gemini-api/docs/code-execution#images
+                    - strong [ref=e607]: Code execution with images
+                  - strong [ref=e608]: ":"
+                  - text: Execute code that processes and generates images.
+                - listitem [ref=e609]:
+                  - link "Combined tool use" [ref=e610] [cursor=pointer]:
+                    - /url: /gemini-api/docs/tool-combination
+                    - strong [ref=e611]: Combined tool use
+                  - strong [ref=e612]: ":"
+                  - text: Use built-in tools and custom function calling in the same request.
+              - heading "Next steps" [level=2] [ref=e613]
+              - list [ref=e614]:
+                - listitem [ref=e615]:
+                  - text: Read more about the Gemini 3 family in the
+                  - link "Gemini 3 developer guide" [ref=e616] [cursor=pointer]:
+                    - /url: /gemini-api/docs/gemini-3
+                - listitem [ref=e617]:
+                  - text: Learn more about prompt design strategies in the
+                  - link "prompt engineering guide" [ref=e618] [cursor=pointer]:
+                    - /url: /gemini-api/docs/prompting-strategies
+                  - text: .
+                - listitem [ref=e619]:
+                  - text: Get started with the
+                  - link "Gemini 3 Cookbook" [ref=e620] [cursor=pointer]:
+                    - /url: https://github.com/google-gemini/cookbook
+                - listitem [ref=e621]:
+                  - text: Learn about
+                  - link "Gemini API optimization and inference" [ref=e622] [cursor=pointer]:
+                    - /url: /gemini-api/docs/optimization
+            - button "Send feedback" [ref=e624] [cursor=pointer]
+          - generic [ref=e625]:
+            - paragraph [ref=e626]:
+              - text: Except as otherwise noted, the content of this page is licensed under the
+              - link "Creative Commons Attribution 4.0 License" [ref=e627] [cursor=pointer]:
+                - /url: https://creativecommons.org/licenses/by/4.0/
+              - text: ", and code samples are licensed under the"
+              - link "Apache 2.0 License" [ref=e628] [cursor=pointer]:
+                - /url: https://www.apache.org/licenses/LICENSE-2.0
+              - text: . For details, see the
+              - link "Google Developers Site Policies" [ref=e629] [cursor=pointer]:
+                - /url: https://developers.google.com/site-policies
+              - text: . Java is a registered trademark of Oracle and/or its affiliates.
+            - paragraph [ref=e630]: Last updated 2026-05-19 UTC.
+      - generic:
+        - navigation "Footer links"
+      - navigation "Utility links" [ref=e634]:
+        - list [ref=e635]:
+          - listitem [ref=e636]:
+            - link "Terms" [ref=e637] [cursor=pointer]:
+              - /url: //policies.google.com/terms
+          - listitem [ref=e638]:
+            - text: "|"
+            - link "Privacy" [ref=e639] [cursor=pointer]:
+              - /url: //policies.google.com/privacy
+          - text: "|"

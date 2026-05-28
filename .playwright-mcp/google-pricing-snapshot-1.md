@@ -1,0 +1,2227 @@
+- generic [active] [ref=e1]:
+  - link "跳至主要内容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner:
+      - generic:
+        - generic [ref=e6]:
+          - text: menu
+          - generic [ref=e7]:
+            - link "Gemini API" [ref=e8] [cursor=pointer]:
+              - /url: /
+              - img "Gemini API" [ref=e10]
+            - generic:
+              - list:
+                - listitem
+          - generic [ref=e15]:
+            - combobox "搜索" [ref=e16]
+            - img [ref=e18]
+            - generic [ref=e21]: /
+          - generic [ref=e22]:
+            - 'button "外观: 浅色主题" [ref=e1994] [cursor=pointer]': light_mode
+            - text: light_mode dark_mode brightness_medium
+          - generic "选择您的语言偏好设置。" [ref=e24]:
+            - button "Language" [ref=e25] [cursor=pointer]:
+              - img
+              - generic [ref=e26]: Language
+              - img
+          - link "获取 API 密钥" [ref=e27] [cursor=pointer]:
+            - /url: https://aistudio.google.com/apikey?hl=zh-cn
+          - link "实战宝典" [ref=e28] [cursor=pointer]:
+            - /url: https://github.com/google-gemini/cookbook
+          - link "社区" [ref=e29] [cursor=pointer]:
+            - /url: https://discuss.ai.google.dev/c/gemini-api/?hl=zh-cn
+          - link "登录" [ref=e32] [cursor=pointer]:
+            - /url: https://ai.google.dev/_d/signin?continue=https%3A%2F%2Fai.google.dev%2Fgemini-api%2Fdocs%2Fpricing%3Fhl%3Dzh-cn&prompt=select_account
+        - navigation "下面的标签页" [ref=e37]:
+          - link "文档, selected" [ref=e39] [cursor=pointer]:
+            - /url: https://ai.google.dev/gemini-api/docs?hl=zh-cn
+            - text: 文档
+          - link "API 参考" [ref=e41] [cursor=pointer]:
+            - /url: https://ai.google.dev/api?hl=zh-cn
+          - text: arrow_drop_down
+    - generic [ref=e43]:
+      - text: filter_list close
+      - navigation "侧边菜单" [ref=e44]:
+        - text: arrow_back
+        - list [ref=e47]:
+          - listitem [ref=e48]:
+            - generic [ref=e50]: 开始使用
+          - listitem [ref=e51]:
+            - link "概览" [ref=e52] [cursor=pointer]:
+              - /url: /gemini-api/docs
+              - generic [ref=e53]: 概览
+          - listitem [ref=e54]:
+            - link "快速入门" [ref=e55] [cursor=pointer]:
+              - /url: /gemini-api/docs/quickstart
+              - generic [ref=e56]: 快速入门
+          - listitem [ref=e57]:
+            - link "API 密钥" [ref=e58] [cursor=pointer]:
+              - /url: /gemini-api/docs/api-key
+              - generic [ref=e59]: API 密钥
+          - listitem [ref=e60]:
+            - link "库" [ref=e61] [cursor=pointer]:
+              - /url: /gemini-api/docs/libraries
+              - generic [ref=e62]: 库
+          - listitem [ref=e63]:
+            - link "价格" [ref=e64] [cursor=pointer]:
+              - /url: /gemini-api/docs/pricing
+              - generic [ref=e65]: 价格
+          - listitem [ref=e66]:
+            - link "Interactions API" [ref=e67] [cursor=pointer]:
+              - /url: /gemini-api/docs/interactions
+              - generic [ref=e68]: Interactions API
+          - listitem [ref=e70]:
+            - link "编码代理设置" [ref=e71] [cursor=pointer]:
+              - /url: /gemini-api/docs/coding-agents
+              - generic [ref=e72]: 编码代理设置
+          - listitem [ref=e73]:
+            - generic [ref=e75]: 模型
+          - listitem [ref=e76]:
+            - link "所有模型" [ref=e77] [cursor=pointer]:
+              - /url: https://ai.google.dev/gemini-api/docs/models?hl=zh-cn
+              - generic [ref=e78]: 所有模型
+          - listitem [ref=e79]:
+            - link "当前：Gemini 3.5" [ref=e80] [cursor=pointer]:
+              - /url: https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.5?hl=zh-cn
+              - generic [ref=e81]:
+                - text: 当前：Gemini 3.
+                - text: "5"
+          - listitem [ref=e82]:
+            - link "Nano Banana" [ref=e83] [cursor=pointer]:
+              - /url: https://ai.google.dev/gemini-api/docs/image-generation?hl=zh-cn
+              - generic [ref=e84]: Nano Banana
+          - listitem [ref=e85]:
+            - link "Veo" [ref=e86] [cursor=pointer]:
+              - /url: https://ai.google.dev/gemini-api/docs/video?hl=zh-cn
+              - generic [ref=e87]: Veo
+          - listitem [ref=e88]:
+            - link "Lyria 3" [ref=e89] [cursor=pointer]:
+              - /url: /gemini-api/docs/music-generation
+              - generic [ref=e90]: Lyria 3
+          - listitem [ref=e92]:
+            - link "Lyria RealTime" [ref=e93] [cursor=pointer]:
+              - /url: /gemini-api/docs/realtime-music-generation
+              - generic [ref=e94]:
+                - text: Lyria Real
+                - text: Time
+          - listitem [ref=e95]:
+            - link "Imagen" [ref=e96] [cursor=pointer]:
+              - /url: /gemini-api/docs/imagen
+              - generic [ref=e97]: Imagen
+          - listitem [ref=e98]:
+            - link "文字转语音" [ref=e99] [cursor=pointer]:
+              - /url: /gemini-api/docs/speech-generation
+              - generic [ref=e100]: 文字转语音
+          - listitem [ref=e101]:
+            - link "Embeddings" [ref=e102] [cursor=pointer]:
+              - /url: /gemini-api/docs/embeddings
+              - generic [ref=e103]: Embeddings
+          - listitem [ref=e104]:
+            - link "机器人学" [ref=e105] [cursor=pointer]:
+              - /url: /gemini-api/docs/robotics-overview
+              - generic [ref=e106]: 机器人学
+          - listitem [ref=e108]:
+            - generic [ref=e110]: 核心功能
+          - listitem [ref=e111]:
+            - link "文本" [ref=e112] [cursor=pointer]:
+              - /url: /gemini-api/docs/text-generation
+              - generic [ref=e113]: 文本
+          - listitem [ref=e114]:
+            - generic [ref=e115]:
+              - text: arrow_drop_down
+              - button "图片 " [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]: 图片
+                - text: 
+          - listitem [ref=e118]:
+            - generic [ref=e119]:
+              - text: arrow_drop_down
+              - button "视频 " [ref=e120] [cursor=pointer]:
+                - generic [ref=e121]: 视频
+                - text: 
+          - listitem [ref=e122]:
+            - link "文档" [ref=e123] [cursor=pointer]:
+              - /url: /gemini-api/docs/document-processing
+              - generic [ref=e124]: 文档
+          - listitem [ref=e125]:
+            - generic [ref=e126]:
+              - text: arrow_drop_down
+              - button "语音和音频 " [ref=e127] [cursor=pointer]:
+                - generic [ref=e128]: 语音和音频
+                - text: 
+          - listitem [ref=e129]:
+            - generic [ref=e130]:
+              - text: arrow_drop_down
+              - button "思考型 " [ref=e131] [cursor=pointer]:
+                - generic [ref=e132]: 思考型
+                - text: 
+          - listitem [ref=e133]:
+            - link "结构化输出" [ref=e134] [cursor=pointer]:
+              - /url: /gemini-api/docs/structured-output
+              - generic [ref=e135]: 结构化输出
+          - listitem [ref=e136]:
+            - link "函数调用" [ref=e137] [cursor=pointer]:
+              - /url: /gemini-api/docs/function-calling
+              - generic [ref=e138]: 函数调用
+          - listitem [ref=e139]:
+            - link "长上下文" [ref=e140] [cursor=pointer]:
+              - /url: /gemini-api/docs/long-context
+              - generic [ref=e141]: 长上下文
+          - listitem [ref=e142]:
+            - generic [ref=e144]: 代理
+          - listitem [ref=e145]:
+            - link "概览" [ref=e146] [cursor=pointer]:
+              - /url: /gemini-api/docs/agents
+              - generic [ref=e147]: 概览
+          - listitem [ref=e148]:
+            - link "快速入门" [ref=e149] [cursor=pointer]:
+              - /url: /gemini-api/docs/managed-agents-quickstart
+              - generic [ref=e150]: 快速入门
+          - listitem [ref=e151]:
+            - link "Antigravity Agent" [ref=e152] [cursor=pointer]:
+              - /url: /gemini-api/docs/antigravity-agent
+              - generic [ref=e153]: Antigravity Agent
+          - listitem [ref=e155]:
+            - link "构建受管理的代理" [ref=e156] [cursor=pointer]:
+              - /url: /gemini-api/docs/custom-agents
+              - generic [ref=e157]: 构建受管理的代理
+          - listitem [ref=e158]:
+            - link "环境" [ref=e159] [cursor=pointer]:
+              - /url: /gemini-api/docs/agent-environment
+              - generic [ref=e160]: 环境
+          - listitem [ref=e161]:
+            - link "Deep Research Agent" [ref=e162] [cursor=pointer]:
+              - /url: /gemini-api/docs/interactions/deep-research
+              - generic [ref=e163]: Deep Research Agent
+          - listitem [ref=e165]:
+            - generic [ref=e167]: 工具
+          - listitem [ref=e168]:
+            - link "概览" [ref=e169] [cursor=pointer]:
+              - /url: /gemini-api/docs/tools
+              - generic [ref=e170]: 概览
+          - listitem [ref=e171]:
+            - link "Google Search" [ref=e172] [cursor=pointer]:
+              - /url: /gemini-api/docs/google-search
+              - generic [ref=e173]: Google Search
+          - listitem [ref=e174]:
+            - link "Google Maps" [ref=e175] [cursor=pointer]:
+              - /url: /gemini-api/docs/maps-grounding
+              - generic [ref=e176]: Google Maps
+          - listitem [ref=e177]:
+            - link "代码执行" [ref=e178] [cursor=pointer]:
+              - /url: /gemini-api/docs/code-execution
+              - generic [ref=e179]: 代码执行
+          - listitem [ref=e180]:
+            - link "网址上下文" [ref=e181] [cursor=pointer]:
+              - /url: /gemini-api/docs/url-context
+              - generic [ref=e182]: 网址上下文
+          - listitem [ref=e183]:
+            - link "计算机使用" [ref=e184] [cursor=pointer]:
+              - /url: /gemini-api/docs/computer-use
+              - generic [ref=e185]: 计算机使用
+          - listitem [ref=e187]:
+            - link "文件搜索" [ref=e188] [cursor=pointer]:
+              - /url: /gemini-api/docs/file-search
+              - generic [ref=e189]: 文件搜索
+          - listitem [ref=e190]:
+            - link "结合使用工具和函数调用" [ref=e191] [cursor=pointer]:
+              - /url: /gemini-api/docs/tool-combination
+              - generic [ref=e192]: 结合使用工具和函数调用
+          - listitem [ref=e194]:
+            - generic [ref=e196]: Live API
+          - listitem [ref=e197]:
+            - link "概览" [ref=e198] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api
+              - generic [ref=e199]: 概览
+          - listitem [ref=e200]:
+            - generic [ref=e201]:
+              - text: arrow_drop_down
+              - button "开始使用 " [ref=e202] [cursor=pointer]:
+                - generic [ref=e203]: 开始使用
+                - text: 
+          - listitem [ref=e204]:
+            - link "功能" [ref=e205] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api/capabilities
+              - generic [ref=e206]: 功能
+          - listitem [ref=e207]:
+            - link "工具使用" [ref=e208] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api/tools
+              - generic [ref=e209]: 工具使用
+          - listitem [ref=e210]:
+            - link "会话管理" [ref=e211] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api/session-management
+              - generic [ref=e212]: 会话管理
+          - listitem [ref=e213]:
+            - link "临时令牌" [ref=e214] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api/ephemeral-tokens
+              - generic [ref=e215]: 临时令牌
+          - listitem [ref=e216]:
+            - link "最佳实践" [ref=e217] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api/best-practices
+              - generic [ref=e218]: 最佳实践
+          - listitem [ref=e219]:
+            - generic [ref=e221]: 优化
+          - listitem [ref=e222]:
+            - link "概览" [ref=e223] [cursor=pointer]:
+              - /url: /gemini-api/docs/optimization
+              - generic [ref=e224]: 概览
+          - listitem [ref=e225]:
+            - link "Batch API" [ref=e226] [cursor=pointer]:
+              - /url: /gemini-api/docs/batch-api
+              - generic [ref=e227]: Batch API
+          - listitem [ref=e228]:
+            - link "Webhook" [ref=e229] [cursor=pointer]:
+              - /url: /gemini-api/docs/webhooks
+              - generic [ref=e230]: Webhook
+          - listitem [ref=e232]:
+            - link "Flex 推理" [ref=e233] [cursor=pointer]:
+              - /url: /gemini-api/docs/flex-inference
+              - generic [ref=e234]: Flex 推理
+          - listitem [ref=e236]:
+            - link "优先级推理" [ref=e237] [cursor=pointer]:
+              - /url: /gemini-api/docs/priority-inference
+              - generic [ref=e238]: 优先级推理
+          - listitem [ref=e240]:
+            - link "上下文缓存" [ref=e241] [cursor=pointer]:
+              - /url: /gemini-api/docs/caching
+              - generic [ref=e242]: 上下文缓存
+          - listitem [ref=e243]:
+            - generic [ref=e245]: 指南
+          - listitem [ref=e246]:
+            - link "流式传输" [ref=e247] [cursor=pointer]:
+              - /url: /gemini-api/docs/interactions/streaming
+              - generic [ref=e248]: 流式传输
+          - listitem [ref=e249]:
+            - generic [ref=e250]:
+              - text: arrow_drop_down
+              - button "文件输入 " [ref=e251] [cursor=pointer]:
+                - generic [ref=e252]: 文件输入
+                - text: 
+          - listitem [ref=e253]:
+            - link "OpenAI 兼容性" [ref=e254] [cursor=pointer]:
+              - /url: /gemini-api/docs/openai
+              - generic [ref=e255]: OpenAI 兼容性
+          - listitem [ref=e256]:
+            - link "媒体分辨率" [ref=e257] [cursor=pointer]:
+              - /url: /gemini-api/docs/media-resolution
+              - generic [ref=e258]: 媒体分辨率
+          - listitem [ref=e259]:
+            - link "令牌计数" [ref=e260] [cursor=pointer]:
+              - /url: /gemini-api/docs/tokens
+              - generic [ref=e261]: 令牌计数
+          - listitem [ref=e262]:
+            - link "提示工程" [ref=e263] [cursor=pointer]:
+              - /url: /gemini-api/docs/prompting-strategies
+              - generic [ref=e264]: 提示工程
+          - listitem [ref=e265]:
+            - generic [ref=e266]:
+              - text: arrow_drop_down
+              - button "日志和数据集 " [ref=e267] [cursor=pointer]:
+                - generic [ref=e268]: 日志和数据集
+                - text: 
+          - listitem [ref=e269]:
+            - generic [ref=e270]:
+              - text: arrow_drop_down
+              - button "安全 " [ref=e271] [cursor=pointer]:
+                - generic [ref=e272]: 安全
+                - text: 
+          - listitem [ref=e273]:
+            - generic [ref=e274]:
+              - text: arrow_drop_down
+              - button "框架 " [ref=e275] [cursor=pointer]:
+                - generic [ref=e276]: 框架
+                - text: 
+          - listitem [ref=e277]:
+            - generic [ref=e279]: 资源
+          - listitem [ref=e280]:
+            - link "版本说明" [ref=e281] [cursor=pointer]:
+              - /url: /gemini-api/docs/changelog
+              - generic [ref=e282]: 版本说明
+          - listitem [ref=e283]:
+            - link "弃用" [ref=e284] [cursor=pointer]:
+              - /url: /gemini-api/docs/deprecations
+              - generic [ref=e285]: 弃用
+          - listitem [ref=e286]:
+            - generic [ref=e287]:
+              - text: arrow_drop_down
+              - button "迁移 " [ref=e288] [cursor=pointer]:
+                - generic [ref=e289]: 迁移
+                - text: 
+          - listitem [ref=e290]:
+            - link "速率限制" [ref=e291] [cursor=pointer]:
+              - /url: /gemini-api/docs/rate-limits
+              - generic [ref=e292]: 速率限制
+          - listitem [ref=e293]:
+            - link "账单信息" [ref=e294] [cursor=pointer]:
+              - /url: /gemini-api/docs/billing
+              - generic [ref=e295]: 账单信息
+          - listitem [ref=e296]:
+            - link "API 问题排查" [ref=e297] [cursor=pointer]:
+              - /url: /gemini-api/docs/troubleshooting
+              - generic [ref=e298]: API 问题排查
+          - listitem [ref=e299]:
+            - link "状态" [ref=e300] [cursor=pointer]:
+              - /url: https://aistudio.google.com/status
+              - generic [ref=e301]: 状态
+              - generic [ref=e302]: open_in_new
+          - listitem [ref=e303]:
+            - link "合作伙伴和库集成" [ref=e304] [cursor=pointer]:
+              - /url: /gemini-api/docs/partner-integration
+              - generic [ref=e305]: 合作伙伴和库集成
+          - listitem [ref=e306]:
+            - generic [ref=e307]:
+              - text: arrow_drop_down
+              - button "Google AI Studio " [ref=e308] [cursor=pointer]:
+                - generic [ref=e309]: Google AI Studio
+                - text: 
+          - listitem [ref=e310]:
+            - generic [ref=e311]:
+              - text: arrow_drop_down
+              - button "Google Cloud Platform " [ref=e312] [cursor=pointer]:
+                - generic [ref=e313]: Google Cloud Platform
+                - text: 
+          - listitem [ref=e314]:
+            - generic [ref=e316]: 政策
+          - listitem [ref=e317]:
+            - link "服务条款" [ref=e318] [cursor=pointer]:
+              - /url: /gemini-api/terms
+              - generic [ref=e319]: 服务条款
+          - listitem [ref=e320]:
+            - link "可用区域" [ref=e321] [cursor=pointer]:
+              - /url: /gemini-api/docs/available-regions
+              - generic [ref=e322]: 可用区域
+          - listitem [ref=e323]:
+            - link "监控滥用行为" [ref=e324] [cursor=pointer]:
+              - /url: /gemini-api/docs/usage-policies
+              - generic [ref=e325]: 监控滥用行为
+          - listitem [ref=e326]:
+            - link "反馈信息" [ref=e327] [cursor=pointer]:
+              - /url: /gemini-api/docs/feedback-policies
+              - generic [ref=e328]: 反馈信息
+    - button "隐藏侧边导航栏" [expanded] [ref=e329] [cursor=pointer]:
+      - generic [ref=e330]: chevron_left
+    - generic [ref=e331]:
+      - main [ref=e332]:
+        - generic [ref=e333]:
+          - article [ref=e334]:
+            - generic [ref=e337]:
+              - link "Gemini Deep Research" [ref=e338] [cursor=pointer]:
+                - /url: https://ai.google.dev/gemini-api/docs/deep-research?hl=zh-cn
+              - text: 现已推出预览版，支持协作规划、可视化、MCP 等功能。
+            - generic [ref=e340]:
+              - generic [ref=e342]: Google uses AI technology to translate content into your preferred language. AI translations can contain errors.
+              - button "Switch to English" [ref=e344] [cursor=pointer]
+            - navigation [ref=e345]:
+              - list "面包屑导航" [ref=e346]:
+                - listitem [ref=e347]:
+                  - link "首页" [ref=e348] [cursor=pointer]:
+                    - /url: https://ai.google.dev/?hl=zh-cn
+                - listitem [ref=e349]:
+                  - generic [ref=e350]: chevron_right
+                  - link "Gemini API" [ref=e351] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api?hl=zh-cn
+                - listitem [ref=e352]:
+                  - generic [ref=e353]: chevron_right
+                  - link "文档" [ref=e354] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api/docs?hl=zh-cn
+            - heading "Gemini Developer API 价格 LLM 工具" [level=1] [ref=e355]:
+              - text: Gemini Developer API 价格
+              - group "LLM 工具" [ref=e358]:
+                - button "将页面复制为 Markdown" [ref=e360] [cursor=pointer]:
+                  - generic [ref=e361]: content_copy
+                - button "更多 LLM 工具选项" [ref=e364] [cursor=pointer]: arrow_drop_down
+            - text: expand_more more_horiz
+            - generic [ref=e365]:
+              - paragraph
+              - paragraph
+              - complementary [ref=e366]:
+                - paragraph [ref=e367]:
+                  - text: 我们已更新
+                  - link "《服务条款》" [ref=e368] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                  - text: 。
+              - paragraph [ref=e369]: 免费开始构建，享受宽裕的限额，然后根据正式版应用的预付费和随用随付定价来扩容。
+              - generic [ref=e371]:
+                - generic [ref=e372]:
+                  - heading "免费 复制指向此部分的链接：免费" [level=3] [ref=e373]:
+                    - heading "免费" [level=3] [ref=e374]
+                    - button "复制指向此部分的链接：免费" [ref=e375] [cursor=pointer]: link
+                  - paragraph [ref=e376]: 面向刚开始使用 Gemini API 的开发者和小项目。
+                  - list [ref=e377]:
+                    - listitem [ref=e378]:
+                      - generic [ref=e379]: check_circle
+                      - text: 对某些模型的访问权限有限
+                    - listitem [ref=e380]:
+                      - generic [ref=e381]: check_circle
+                      - text: 免费输入和输出 token
+                    - listitem [ref=e382]:
+                      - generic [ref=e383]: check_circle
+                      - text: Google AI Studio 访问权限
+                    - listitem [ref=e384]:
+                      - generic [ref=e385]: check_circle
+                      - text: 用于改进我们产品的内容
+                      - link "*" [ref=e386] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                  - link "免费开始使用" [ref=e387] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?hl=zh-cn
+                - generic [ref=e388]:
+                  - heading "付费 复制指向此部分的链接：付费" [level=3] [ref=e389]:
+                    - heading "付费" [level=3] [ref=e390]
+                    - button "复制指向此部分的链接：付费" [ref=e391] [cursor=pointer]: link
+                  - paragraph [ref=e392]: 适用于需要更大量数据和高级功能的生产应用。
+                  - list [ref=e393]:
+                    - listitem [ref=e394]:
+                      - generic [ref=e395]: check_circle
+                      - text: 为生产部署放宽了速率限制
+                    - listitem [ref=e396]:
+                      - generic [ref=e397]: check_circle
+                      - text: 访问上下文缓存
+                    - listitem [ref=e398]:
+                      - generic [ref=e399]: check_circle
+                      - text: 批处理 API（成本降低 50%）
+                    - listitem [ref=e400]:
+                      - generic [ref=e401]: check_circle
+                      - text: 使用 Google 最先进的 AI 模型
+                    - listitem [ref=e402]:
+                      - generic [ref=e403]: check_circle
+                      - generic [ref=e404]:
+                        - text: 内容
+                        - strong [ref=e405]: 不会
+                        - text: 用于改进我们的产品
+                      - link "*" [ref=e406] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                  - link "升级为付费账号" [ref=e407] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/api-keys?hl=zh-cn
+                - generic [ref=e408]:
+                  - heading "企业" [level=3] [ref=e409]
+                  - paragraph [ref=e410]:
+                    - text: 适用于大规模部署，在安全性、支持和合规性方面有自定义需求，由
+                    - link "Gemini Enterprise Agent Platform" [ref=e411] [cursor=pointer]:
+                      - /url: https://cloud.google.com/gemini-enterprise-agent-platform?hl=zh-cn
+                    - text: 提供支持。
+                  - list [ref=e412]:
+                    - listitem [ref=e413]:
+                      - generic [ref=e414]: check_circle
+                      - text: 付费版中的所有功能，外加可选的以下功能：
+                    - listitem [ref=e415]:
+                      - generic [ref=e416]: check_circle
+                      - text: 专属支持渠道
+                    - listitem [ref=e417]:
+                      - generic [ref=e418]: check_circle
+                      - text: 高级安全与合规功能
+                    - listitem [ref=e419]:
+                      - generic [ref=e420]: check_circle
+                      - text: 预配的吞吐量
+                    - listitem [ref=e421]:
+                      - generic [ref=e422]: check_circle
+                      - text: 基于用量的折扣（基于使用情况）
+                    - listitem [ref=e423]:
+                      - generic [ref=e424]: check_circle
+                      - text: MLOps、Model Garden 等
+                  - link "与销售人员联系" [ref=e425] [cursor=pointer]:
+                    - /url: https://cloud.google.com/contact?hl=zh-cn
+              - generic [ref=e426]:
+                - generic [ref=e427]:
+                  - heading "Gemini 3.5 Flash" [level=2] [ref=e428]:
+                    - text: Gemini 3.
+                    - text: 5 Flash
+                  - emphasis [ref=e429]:
+                    - code [ref=e430]: gemini-3.5-flash
+                - paragraph [ref=e431]:
+                  - link "在 Google AI Studio 中试用" [ref=e432] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-3.5-flash&hl=zh-cn
+              - paragraph [ref=e433]: 我们最智能的模型，专为速度而生，将前沿智能与出色的搜索和事实依据相结合。
+              - generic [ref=e435]:
+                - tablist [ref=e436]:
+                  - generic [ref=e437]:
+                    - tab "标准" [selected] [ref=e438]:
+                      - button "标准" [expanded] [ref=e439] [cursor=pointer]
+                    - tab "批量" [ref=e440]:
+                      - button "批量" [ref=e441] [cursor=pointer]
+                    - tab "Flex" [ref=e442]:
+                      - button "Flex" [ref=e443] [cursor=pointer]
+                    - tab "优先级" [ref=e444]:
+                      - button "优先级" [ref=e445] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e446]:
+                  - table [ref=e448]:
+                    - rowgroup [ref=e453]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e454]:
+                        - columnheader [ref=e455]
+                        - columnheader "免费层级" [ref=e456]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e457]
+                    - rowgroup [ref=e458]:
+                      - row "输入价格 免费 $1.50" [ref=e459]:
+                        - cell "输入价格" [ref=e460]
+                        - cell "免费" [ref=e461]
+                        - cell "$1.50" [ref=e462]
+                      - row "输出价格（包括思考 token） 免费 9.00 美元" [ref=e463]:
+                        - cell "输出价格（包括思考 token）" [ref=e464]
+                        - cell "免费" [ref=e465]
+                        - cell "9.00 美元" [ref=e466]
+                      - row "上下文缓存价格 免费 $0.15 $1.00/1,000,000 个令牌/小时（存储价格）" [ref=e467]:
+                        - cell "上下文缓存价格" [ref=e468]
+                        - cell "免费" [ref=e469]
+                        - cell "$0.15 $1.00/1,000,000 个令牌/小时（存储价格）" [ref=e470]:
+                          - text: $0.15
+                          - text: $1.00/1,000,000 个令牌/小时（存储价格）
+                      - row "依托 Google 搜索进行接地* 不可用 每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e471]:
+                        - cell "依托 Google 搜索进行接地*" [ref=e472]:
+                          - text: 依托 Google 搜索进行接地
+                          - superscript [ref=e473]: "*"
+                        - cell "不可用" [ref=e474]
+                        - cell "每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e475]
+                      - row "依托 Google 地图进行接地 不可用 每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e476]:
+                        - cell "依托 Google 地图进行接地" [ref=e477]
+                        - cell "不可用" [ref=e478]
+                        - cell "每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e479]
+                      - row "用于改进我们的产品 是 否" [ref=e480]:
+                        - cell "用于改进我们的产品" [ref=e481]
+                        - cell "是" [ref=e482]:
+                          - link "是" [ref=e483] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e484]:
+                          - link "否" [ref=e485] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - paragraph [ref=e486]:
+                - superscript [ref=e487]: "*"
+                - text: 客户向 Gemini 提交的请求可能会导致系统向 Google 搜索发送一个或多个查询。您需要为每次单独的搜索查询付费。
+              - generic [ref=e488]:
+                - generic [ref=e489]:
+                  - heading "Gemini 3.1 Flash-Lite" [level=2] [ref=e490]
+                  - emphasis [ref=e491]:
+                    - code [ref=e492]: gemini-3.1-flash-lite
+                - paragraph [ref=e493]:
+                  - link "在 Google AI Studio 中试用" [ref=e494] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-lite&hl=zh-cn
+              - paragraph [ref=e495]: Google 旗下最具成本效益的模型，针对高容量智能体任务、翻译和简单的数据处理进行了优化。
+              - generic [ref=e497]:
+                - tablist [ref=e498]:
+                  - generic [ref=e499]:
+                    - tab "标准" [selected] [ref=e500]:
+                      - button "标准" [expanded] [ref=e501] [cursor=pointer]
+                    - tab "批量" [ref=e502]:
+                      - button "批量" [ref=e503] [cursor=pointer]
+                    - tab "Flex" [ref=e504]:
+                      - button "Flex" [ref=e505] [cursor=pointer]
+                    - tab "优先级" [ref=e506]:
+                      - button "优先级" [ref=e507] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e508]:
+                  - table [ref=e510]:
+                    - rowgroup [ref=e515]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e516]:
+                        - columnheader [ref=e517]
+                        - columnheader "免费层级" [ref=e518]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e519]
+                    - rowgroup [ref=e520]:
+                      - row "输入价格 免费 $0.25（文字 / 图片 / 视频） $0.50（音频）" [ref=e521]:
+                        - cell "输入价格" [ref=e522]
+                        - cell "免费" [ref=e523]
+                        - cell "$0.25（文字 / 图片 / 视频） $0.50（音频）" [ref=e524]:
+                          - text: $0.25（文字 / 图片 / 视频）
+                          - text: $0.50（音频）
+                      - row "输出价格（包括思考 token） 免费 $1.50" [ref=e525]:
+                        - cell "输出价格（包括思考 token）" [ref=e526]
+                        - cell "免费" [ref=e527]
+                        - cell "$1.50" [ref=e528]
+                      - row "上下文缓存价格 不可用 $0.025（文本/图片/视频） $0.05（音频） 每小时每 100 万个 token$1.00（存储价格）" [ref=e529]:
+                        - cell "上下文缓存价格" [ref=e530]
+                        - cell "不可用" [ref=e531]
+                        - cell "$0.025（文本/图片/视频） $0.05（音频） 每小时每 100 万个 token$1.00（存储价格）" [ref=e532]:
+                          - text: $0.025（文本/图片/视频）
+                          - text: $0.05（音频）
+                          - text: 每小时每 100 万个 token$1.00（存储价格）
+                      - row "依托 Google 搜索进行接地* 不可用 每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e533]:
+                        - cell "依托 Google 搜索进行接地*" [ref=e534]:
+                          - text: 依托 Google 搜索进行接地
+                          - superscript [ref=e535]: "*"
+                        - cell "不可用" [ref=e536]
+                        - cell "每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e537]
+                      - row "依托 Google 地图进行接地 不可用 每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e538]:
+                        - cell "依托 Google 地图进行接地" [ref=e539]
+                        - cell "不可用" [ref=e540]
+                        - cell "每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e541]
+                      - row "用于改进我们的产品 是 否" [ref=e542]:
+                        - cell "用于改进我们的产品" [ref=e543]
+                        - cell "是" [ref=e544]:
+                          - link "是" [ref=e545] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e546]:
+                          - link "否" [ref=e547] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - paragraph [ref=e548]:
+                - superscript [ref=e549]: "*"
+                - text: 客户向 Gemini 提交的请求可能会导致系统向 Google 搜索发送一个或多个查询。您需要为每次单独的搜索查询付费。
+              - generic [ref=e550]:
+                - generic [ref=e551]:
+                  - heading "Gemini 3 Pro 预览版" [level=2] [ref=e552]
+                  - emphasis [ref=e553]:
+                    - code [ref=e554]: gemini-3.1-pro-preview
+                    - text: 和
+                    - code [ref=e555]: gemini-3.1-pro-preview-customtools
+                - paragraph [ref=e556]:
+                  - link "在 Google AI Studio 中试用" [ref=e557] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-pro-preview&hl=zh-cn
+              - paragraph [ref=e558]: 在性能、智能性和易用性方面进行了最新改进，是全球领先的多模态理解、智能体功能和氛围编程模型系列。
+              - generic [ref=e560]:
+                - tablist [ref=e561]:
+                  - generic [ref=e562]:
+                    - tab "标准" [selected] [ref=e563]:
+                      - button "标准" [expanded] [ref=e564] [cursor=pointer]
+                    - tab "批量" [ref=e565]:
+                      - button "批量" [ref=e566] [cursor=pointer]
+                    - tab "Flex" [ref=e567]:
+                      - button "Flex" [ref=e568] [cursor=pointer]
+                    - tab "优先级" [ref=e569]:
+                      - button "优先级" [ref=e570] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e571]:
+                  - table [ref=e573]:
+                    - rowgroup [ref=e578]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e579]:
+                        - columnheader [ref=e580]
+                        - columnheader "免费层级" [ref=e581]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e582]
+                    - rowgroup [ref=e583]:
+                      - row "输入价格 不可用 2.00 美元，提示 <= 20 万个 token 4.00 美元，提示 > 20 万个 token" [ref=e584]:
+                        - cell "输入价格" [ref=e585]
+                        - cell "不可用" [ref=e586]
+                        - cell "2.00 美元，提示 <= 20 万个 token 4.00 美元，提示 > 20 万个 token" [ref=e587]:
+                          - text: 2.00 美元，提示 <= 20 万个 token
+                          - text: 4.00 美元，提示 > 20 万个 token
+                      - row "输出价格（包括思考 token） 不可用 12.00 美元，提示 <= 20 万个 token 18.00 美元，提示 > 20 万个 token" [ref=e588]:
+                        - cell "输出价格（包括思考 token）" [ref=e589]
+                        - cell "不可用" [ref=e590]
+                        - cell "12.00 美元，提示 <= 20 万个 token 18.00 美元，提示 > 20 万个 token" [ref=e591]:
+                          - text: 12.00 美元，提示 <= 20 万个 token
+                          - text: 18.00 美元，提示 > 20 万个 token
+                      - row "上下文缓存价格 不可用 $0.20，提示 <= 20 万个令牌 $0.40，提示 > 20 万个令牌 每小时每 100 万个令牌$4.50（存储价格）" [ref=e592]:
+                        - cell "上下文缓存价格" [ref=e593]
+                        - cell "不可用" [ref=e594]
+                        - cell "$0.20，提示 <= 20 万个令牌 $0.40，提示 > 20 万个令牌 每小时每 100 万个令牌$4.50（存储价格）" [ref=e595]:
+                          - text: $0.20，提示 <= 20 万个令牌
+                          - text: $0.40，提示 > 20 万个令牌
+                          - text: 每小时每 100 万个令牌$4.50（存储价格）
+                      - row "依托 Google 搜索进行接地* 不可用 每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e596]:
+                        - cell "依托 Google 搜索进行接地*" [ref=e597]:
+                          - text: 依托 Google 搜索进行接地
+                          - superscript [ref=e598]: "*"
+                        - cell "不可用" [ref=e599]
+                        - cell "每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e600]
+                      - row "依托 Google 地图进行接地 不可用 每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e601]:
+                        - cell "依托 Google 地图进行接地" [ref=e602]
+                        - cell "不可用" [ref=e603]
+                        - cell "每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e604]
+                      - row "用于改进我们的产品 是 否" [ref=e605]:
+                        - cell "用于改进我们的产品" [ref=e606]
+                        - cell "是" [ref=e607]:
+                          - link "是" [ref=e608] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e609]:
+                          - link "否" [ref=e610] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - paragraph [ref=e611]:
+                - superscript [ref=e612]: "*"
+                - text: 客户向 Gemini 提交的请求可能会导致系统向 Google 搜索发送一个或多个查询。您需要为每次单独的搜索查询付费。
+              - generic [ref=e613]:
+                - generic [ref=e614]:
+                  - heading "Gemini 3.1 Flash-Lite 预览版" [level=2] [ref=e615]
+                  - emphasis [ref=e616]:
+                    - code [ref=e617]: gemini-3.1-flash-lite-preview
+                - paragraph [ref=e618]:
+                  - link "在 Google AI Studio 中试用" [ref=e619] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-lite-preview&hl=zh-cn
+              - paragraph [ref=e620]: Google 旗下最具成本效益的模型，针对高容量智能体任务、翻译和简单的数据处理进行了优化。
+              - paragraph [ref=e621]: 预览版模型在成为稳定版之前可能会发生变化，并且速率限制更严格。
+              - generic [ref=e623]:
+                - tablist [ref=e624]:
+                  - generic [ref=e625]:
+                    - tab "标准" [selected] [ref=e626]:
+                      - button "标准" [expanded] [ref=e627] [cursor=pointer]
+                    - tab "批量" [ref=e628]:
+                      - button "批量" [ref=e629] [cursor=pointer]
+                    - tab "Flex" [ref=e630]:
+                      - button "Flex" [ref=e631] [cursor=pointer]
+                    - tab "优先级" [ref=e632]:
+                      - button "优先级" [ref=e633] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e634]:
+                  - table [ref=e636]:
+                    - rowgroup [ref=e641]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e642]:
+                        - columnheader [ref=e643]
+                        - columnheader "免费层级" [ref=e644]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e645]
+                    - rowgroup [ref=e646]:
+                      - row "输入价格 免费 $0.25（文字 / 图片 / 视频） $0.50（音频）" [ref=e647]:
+                        - cell "输入价格" [ref=e648]
+                        - cell "免费" [ref=e649]
+                        - cell "$0.25（文字 / 图片 / 视频） $0.50（音频）" [ref=e650]:
+                          - text: $0.25（文字 / 图片 / 视频）
+                          - text: $0.50（音频）
+                      - row "输出价格（包括思考 token） 免费 $1.50" [ref=e651]:
+                        - cell "输出价格（包括思考 token）" [ref=e652]
+                        - cell "免费" [ref=e653]
+                        - cell "$1.50" [ref=e654]
+                      - row "上下文缓存价格 不可用 $0.025（文本/图片/视频） $0.05（音频） 每小时每 100 万个 token$1.00（存储价格）" [ref=e655]:
+                        - cell "上下文缓存价格" [ref=e656]
+                        - cell "不可用" [ref=e657]
+                        - cell "$0.025（文本/图片/视频） $0.05（音频） 每小时每 100 万个 token$1.00（存储价格）" [ref=e658]:
+                          - text: $0.025（文本/图片/视频）
+                          - text: $0.05（音频）
+                          - text: 每小时每 100 万个 token$1.00（存储价格）
+                      - row "依托 Google 搜索进行接地* 不可用 每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e659]:
+                        - cell "依托 Google 搜索进行接地*" [ref=e660]:
+                          - text: 依托 Google 搜索进行接地
+                          - superscript [ref=e661]: "*"
+                        - cell "不可用" [ref=e662]
+                        - cell "每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e663]
+                      - row "依托 Google 地图进行接地 不可用 每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e664]:
+                        - cell "依托 Google 地图进行接地" [ref=e665]
+                        - cell "不可用" [ref=e666]
+                        - cell "每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e667]
+                      - row "用于改进我们的产品 是 否" [ref=e668]:
+                        - cell "用于改进我们的产品" [ref=e669]
+                        - cell "是" [ref=e670]:
+                          - link "是" [ref=e671] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e672]:
+                          - link "否" [ref=e673] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - paragraph [ref=e674]:
+                - superscript [ref=e675]: "*"
+                - text: 客户向 Gemini 提交的请求可能会导致系统向 Google 搜索发送一个或多个查询。您需要为每次单独的搜索查询付费。
+              - generic [ref=e676]:
+                - generic [ref=e677]:
+                  - heading "Gemini 3.1 Flash Live 预览版" [level=2] [ref=e678]
+                  - emphasis [ref=e679]:
+                    - code [ref=e680]: gemini-3.1-flash-live-preview
+                - paragraph [ref=e681]:
+                  - link "在 Google AI Studio 中试用" [ref=e682] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-live-preview&hl=zh-cn
+              - paragraph [ref=e683]: 我们的低延迟音频转音频模型经过优化，可进行实时对话，并能检测声音细微差别、实现数值精确度和多模态感知。
+              - table [ref=e685]:
+                - rowgroup [ref=e690]:
+                  - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e691]:
+                    - columnheader [ref=e692]
+                    - columnheader "免费层级" [ref=e693]
+                    - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e694]
+                - rowgroup [ref=e695]:
+                  - row "输入价格 免费 $0.75（文字） $3.00 或 $0.005/分钟（音频） $1.00 或 $0.002/分钟（图片/视频）" [ref=e696]:
+                    - cell "输入价格" [ref=e697]
+                    - cell "免费" [ref=e698]
+                    - cell "$0.75（文字） $3.00 或 $0.005/分钟（音频） $1.00 或 $0.002/分钟（图片/视频）" [ref=e699]:
+                      - text: $0.75（文字）
+                      - text: $3.00 或 $0.005/分钟（音频）
+                      - text: $1.00 或 $0.002/分钟（图片/视频）
+                  - row "输出价格（包括思考 token） 免费 $4.50（文字） $12.00 或 $0.018/分钟（音频）" [ref=e700]:
+                    - cell "输出价格（包括思考 token）" [ref=e701]
+                    - cell "免费" [ref=e702]
+                    - cell "$4.50（文字） $12.00 或 $0.018/分钟（音频）" [ref=e703]:
+                      - text: $4.50（文字）
+                      - text: $12.00 或 $0.018/分钟（音频）
+                  - row "依托 Google 搜索进行接地* 支持 每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e704]:
+                    - cell "依托 Google 搜索进行接地*" [ref=e705]:
+                      - text: 依托 Google 搜索进行接地
+                      - superscript [ref=e706]: "*"
+                    - cell "支持" [ref=e707]
+                    - cell "每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e708]
+                  - row "用于改进我们的产品 是 否" [ref=e709]:
+                    - cell "用于改进我们的产品" [ref=e710]
+                    - cell "是" [ref=e711]:
+                      - link "是" [ref=e712] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                    - cell "否" [ref=e713]:
+                      - link "否" [ref=e714] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - paragraph [ref=e715]:
+                - superscript [ref=e716]: "*"
+                - text: 客户向 Gemini 提交的请求可能会导致系统向 Google 搜索发送一个或多个查询。您需要为每次单独的搜索查询付费。
+              - generic [ref=e717]:
+                - generic [ref=e718]:
+                  - heading "Gemini 3.1 Flash Image 预览版 🍌" [level=2] [ref=e719]
+                  - emphasis [ref=e720]:
+                    - code [ref=e721]: gemini-3.1-flash-image-preview
+                - paragraph [ref=e722]:
+                  - link "在 Google AI Studio 中试用" [ref=e723] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-image-preview&hl=zh-cn
+              - paragraph [ref=e724]: Gemini 3.1 Flash Image 生成模型专为速度和效率而设计，可快速生成交互式响应，并实现高吞吐量。
+              - paragraph [ref=e725]: 预览版模型在成为稳定版之前可能会发生变化，并且速率限制更严格。
+              - generic [ref=e727]:
+                - tablist [ref=e728]:
+                  - generic [ref=e729]:
+                    - tab "标准" [selected] [ref=e730]:
+                      - button "标准" [expanded] [ref=e731] [cursor=pointer]
+                    - tab "批量" [ref=e732]:
+                      - button "批量" [ref=e733] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e734]:
+                  - table [ref=e736]:
+                    - rowgroup [ref=e741]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e742]:
+                        - columnheader [ref=e743]
+                        - columnheader "免费层级" [ref=e744]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e745]
+                    - rowgroup [ref=e746]:
+                      - row "输入价格 不可用 0.50 美元（文本/图片）" [ref=e747]:
+                        - cell "输入价格" [ref=e748]
+                        - cell "不可用" [ref=e749]
+                        - cell "0.50 美元（文本/图片）" [ref=e750]
+                      - row "输出价格 不可用 3 美元（文本和思考） 60.00 美元（图片） 相当于每 500 张图片 0.045 美元* 每 1,000 张图片 0.067 美元*、 每 2,000 张图片 0.101 美元*， 以及每 4,000 张图片 0.151 美元*。" [ref=e751]:
+                        - cell "输出价格" [ref=e752]
+                        - cell "不可用" [ref=e753]
+                        - cell "3 美元（文本和思考） 60.00 美元（图片） 相当于每 500 张图片 0.045 美元* 每 1,000 张图片 0.067 美元*、 每 2,000 张图片 0.101 美元*， 以及每 4,000 张图片 0.151 美元*。" [ref=e754]:
+                          - text: 3 美元（文本和思考）
+                          - text: 60.00 美元（图片）
+                          - text: 相当于每 500 张图片 0.045 美元
+                          - superscript [ref=e755]: "*"
+                          - text: 每 1,000 张图片 0.067 美元
+                          - superscript [ref=e756]: "*"
+                          - text: 、 每 2,000 张图片 0.101 美元
+                          - superscript [ref=e757]: "*"
+                          - text: ， 以及每 4,000 张图片 0.151 美元
+                          - superscript [ref=e758]: "*"
+                          - text: 。
+                      - row "依托 Google 搜索进行接地** 不可用 每月 5,000 次提示（免费，在 Gemini 3 中共享），然后对于基于文本和图片的接地，每 1,000 次搜索查询收费 14 美元。" [ref=e759]:
+                        - cell "依托 Google 搜索进行接地**" [ref=e760]:
+                          - text: 依托 Google 搜索进行接地
+                          - superscript [ref=e761]: "**"
+                        - cell "不可用" [ref=e762]
+                        - cell "每月 5,000 次提示（免费，在 Gemini 3 中共享），然后对于基于文本和图片的接地，每 1,000 次搜索查询收费 14 美元。" [ref=e763]
+                      - row "用于改进我们的产品 是 否" [ref=e764]:
+                        - cell "用于改进我们的产品" [ref=e765]
+                        - cell "是" [ref=e766]:
+                          - link "是" [ref=e767] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e768]:
+                          - link "否" [ref=e769] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - paragraph [ref=e770]:
+                - superscript [ref=e771]: "*"
+                - text: 图片输出的费用为每 100 万个 token 60 美元。 以 0.5K (512px) 分辨率输出图片会消耗 747 个 token，相当于每张图片 0.045 美元。以 1K (1024x1024 像素) 分辨率输出图片会消耗 1,120 个 token，相当于每张图片 $0.067。以 2K (2048x2048 像素) 分辨率输出图片会消耗 1,680 个 token，相当于每张图片 0.101 美元。以 4K (4096x4096 像素) 分辨率输出图片会消耗 2,520 个 token，相当于每张图片 $0.151。
+              - paragraph [ref=e772]:
+                - superscript [ref=e773]: "**"
+                - text: 客户向 Gemini 提交的请求可能会导致系统向 Google 搜索发送一个或多个查询。您需要为每次单独的搜索查询付费。通过“基于 Google 搜索进行接地”功能检索到的上下文（文本或图片）不会作为输入令牌收费。
+              - generic [ref=e774]:
+                - generic [ref=e775]:
+                  - heading "Gemini 3.1 Flash TTS 预览版" [level=2] [ref=e776]
+                  - emphasis [ref=e777]:
+                    - code [ref=e778]: gemini-3.1-flash-tts-preview
+                - paragraph [ref=e779]:
+                  - link "在 Google AI Studio 中试用" [ref=e780] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-tts-preview&hl=zh-cn
+              - paragraph [ref=e781]: 我们的 3.1 Flash 文字转语音音频模型经过优化，可实现高性价比、低延迟、可控的语音生成。
+              - paragraph [ref=e782]: 预览版模型在成为稳定版之前可能会发生变化，并且速率限制更严格。
+              - generic [ref=e784]:
+                - tablist [ref=e785]:
+                  - generic [ref=e786]:
+                    - tab "标准" [selected] [ref=e787]:
+                      - button "标准" [expanded] [ref=e788] [cursor=pointer]
+                    - tab "批量" [ref=e789]:
+                      - button "批量" [ref=e790] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e791]:
+                  - table [ref=e793]:
+                    - rowgroup [ref=e798]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e799]:
+                        - columnheader [ref=e800]
+                        - columnheader "免费层级" [ref=e801]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e802]
+                    - rowgroup [ref=e803]:
+                      - row "输入价格 免费 $1.00（文字）" [ref=e804]:
+                        - cell "输入价格" [ref=e805]
+                        - cell "免费" [ref=e806]
+                        - cell "$1.00（文字）" [ref=e807]
+                      - row "输出价格 免费 20.00 美元（音频）" [ref=e808]:
+                        - cell "输出价格" [ref=e809]
+                        - cell "免费" [ref=e810]
+                        - cell "20.00 美元（音频）" [ref=e811]
+                      - row "用于改进我们的产品 是 否" [ref=e812]:
+                        - cell "用于改进我们的产品" [ref=e813]
+                        - cell "是" [ref=e814]:
+                          - link "是" [ref=e815] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e816]:
+                          - link "否" [ref=e817] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - paragraph [ref=e818]:
+                - superscript [ref=e819]: "*"
+                - text: 音频 token 对应于每秒 25 个音频 token。
+              - generic [ref=e820]:
+                - generic [ref=e821]:
+                  - heading "Gemini 3 Flash 预览版" [level=2] [ref=e822]
+                  - emphasis [ref=e823]:
+                    - code [ref=e824]: gemini-3-flash-preview
+                - paragraph [ref=e825]:
+                  - link "在 Google AI Studio 中试用" [ref=e826] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-3-flash-preview&hl=zh-cn
+              - paragraph [ref=e827]: 我们最智能的模型，专为速度而生，将前沿智能与出色的搜索和事实依据相结合。
+              - generic [ref=e829]:
+                - tablist [ref=e830]:
+                  - generic [ref=e831]:
+                    - tab "标准" [selected] [ref=e832]:
+                      - button "标准" [expanded] [ref=e833] [cursor=pointer]
+                    - tab "批量" [ref=e834]:
+                      - button "批量" [ref=e835] [cursor=pointer]
+                    - tab "Flex" [ref=e836]:
+                      - button "Flex" [ref=e837] [cursor=pointer]
+                    - tab "优先级" [ref=e838]:
+                      - button "优先级" [ref=e839] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e840]:
+                  - table [ref=e842]:
+                    - rowgroup [ref=e847]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e848]:
+                        - columnheader [ref=e849]
+                        - columnheader "免费层级" [ref=e850]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e851]
+                    - rowgroup [ref=e852]:
+                      - row "输入价格 免费 0.50 美元（文字 / 图片 / 视频） 1.00 美元（音频）" [ref=e853]:
+                        - cell "输入价格" [ref=e854]
+                        - cell "免费" [ref=e855]
+                        - cell "0.50 美元（文字 / 图片 / 视频） 1.00 美元（音频）" [ref=e856]:
+                          - text: 0.50 美元（文字 / 图片 / 视频）
+                          - text: 1.00 美元（音频）
+                      - row "输出价格（包括思考 token） 免费 $3.00" [ref=e857]:
+                        - cell "输出价格（包括思考 token）" [ref=e858]
+                        - cell "免费" [ref=e859]
+                        - cell "$3.00" [ref=e860]
+                      - row "上下文缓存价格 免费 $0.05（文本/图片/视频） $0.10（音频） 每小时每 100 万个令牌$1.00（存储价格）" [ref=e861]:
+                        - cell "上下文缓存价格" [ref=e862]
+                        - cell "免费" [ref=e863]
+                        - cell "$0.05（文本/图片/视频） $0.10（音频） 每小时每 100 万个令牌$1.00（存储价格）" [ref=e864]:
+                          - text: $0.05（文本/图片/视频）
+                          - text: $0.10（音频）
+                          - text: 每小时每 100 万个令牌$1.00（存储价格）
+                      - row "依托 Google 搜索进行接地* 不可用 每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e865]:
+                        - cell "依托 Google 搜索进行接地*" [ref=e866]:
+                          - text: 依托 Google 搜索进行接地
+                          - superscript [ref=e867]: "*"
+                        - cell "不可用" [ref=e868]
+                        - cell "每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e869]
+                      - row "依托 Google 地图进行接地 不可用 每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e870]:
+                        - cell "依托 Google 地图进行接地" [ref=e871]
+                        - cell "不可用" [ref=e872]
+                        - cell "每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e873]
+                      - row "用于改进我们的产品 是 否" [ref=e874]:
+                        - cell "用于改进我们的产品" [ref=e875]
+                        - cell "是" [ref=e876]:
+                          - link "是" [ref=e877] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e878]:
+                          - link "否" [ref=e879] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - paragraph [ref=e880]:
+                - superscript [ref=e881]: "*"
+                - text: 客户向 Gemini 提交的请求可能会导致系统向 Google 搜索发送一个或多个查询。您需要为每次单独的搜索查询付费。
+              - generic [ref=e882]:
+                - generic [ref=e883]:
+                  - heading "Gemini 3 Pro Image 预览版 🍌" [level=2] [ref=e884]
+                  - emphasis [ref=e885]:
+                    - code [ref=e886]: gemini-3-pro-image-preview
+                - paragraph [ref=e887]:
+                  - link "在 Google AI Studio 中试用" [ref=e888] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-3-pro-image-preview&hl=zh-cn
+              - paragraph [ref=e889]:
+                - text: 我们的原生图片生成模型，在速度、灵活性和上下文理解方面经过优化。
+                - strong [ref=e890]: 文本输入和输出
+                - text: 的定价与
+                - link "Gemini 3.1 Pro" [ref=e891] [cursor=pointer]:
+                  - /url: "#gemini-3.1-pro-preview"
+                - text: 相同。
+              - paragraph [ref=e892]: 预览版模型在成为稳定版之前可能会发生变化，并且速率限制更严格。
+              - generic [ref=e894]:
+                - tablist [ref=e895]:
+                  - generic [ref=e896]:
+                    - tab "标准" [selected] [ref=e897]:
+                      - button "标准" [expanded] [ref=e898] [cursor=pointer]
+                    - tab "批量" [ref=e899]:
+                      - button "批量" [ref=e900] [cursor=pointer]
+                    - tab "Flex" [ref=e901]:
+                      - button "Flex" [ref=e902] [cursor=pointer]
+                    - tab "优先级" [ref=e903]:
+                      - button "优先级" [ref=e904] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e905]:
+                  - table [ref=e907]:
+                    - rowgroup [ref=e912]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e913]:
+                        - columnheader [ref=e914]
+                        - columnheader "免费层级" [ref=e915]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e916]
+                    - rowgroup [ref=e917]:
+                      - row "输入价格 不可用 $2.00（文字/图片）， 相当于每张图片 $0.0011*" [ref=e918]:
+                        - cell "输入价格" [ref=e919]
+                        - cell "不可用" [ref=e920]
+                        - cell "$2.00（文字/图片）， 相当于每张图片 $0.0011*" [ref=e921]:
+                          - text: $2.00（文字/图片），
+                          - text: 相当于每张图片 $0.0011
+                          - superscript [ref=e922]: "*"
+                      - row "输出价格 不可用 12.00 美元（文本和思考） 120.00 美元（图片） 相当于每张 1K/2K 图片 0.134 美元** 和每张 4K 图片 0.24 美元**" [ref=e923]:
+                        - cell "输出价格" [ref=e924]
+                        - cell "不可用" [ref=e925]
+                        - cell "12.00 美元（文本和思考） 120.00 美元（图片） 相当于每张 1K/2K 图片 0.134 美元** 和每张 4K 图片 0.24 美元**" [ref=e926]:
+                          - text: 12.00 美元（文本和思考）
+                          - text: 120.00 美元（图片）
+                          - text: 相当于每张 1K/2K 图片 0.134 美元
+                          - superscript [ref=e927]: "**"
+                          - text: 和每张 4K 图片 0.24 美元
+                          - superscript [ref=e928]: "**"
+                      - row "使用 Google 网页搜索和图片搜索建立依据*** 不可用 每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e929]:
+                        - cell "使用 Google 网页搜索和图片搜索建立依据***" [ref=e930]:
+                          - text: 使用 Google 网页搜索和图片搜索建立依据
+                          - superscript [ref=e931]: "***"
+                        - cell "不可用" [ref=e932]
+                        - cell "每月 5,000 次提示（免费，在 Gemini 3 中共享），之后每 1,000 次搜索查询收费 14 美元" [ref=e933]
+                      - row "用于改进我们的产品 是 否" [ref=e934]:
+                        - cell "用于改进我们的产品" [ref=e935]
+                        - cell "是" [ref=e936]:
+                          - link "是" [ref=e937] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e938]:
+                          - link "否" [ref=e939] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - paragraph [ref=e940]:
+                - superscript [ref=e941]: "*"
+                - text: 图片输入设置为每张图片 560 个 token 或 0.0011 美元。
+              - paragraph [ref=e942]:
+                - superscript [ref=e943]: "**"
+                - text: 图片输出的价格为每 100 万个 token 120 美元。输出 1024x1024 像素 (1K) 到 2048x2048 像素 (2K) 的图片会消耗 1,120 个 token，相当于每张图片 0.134 美元。输出尺寸最大为 4096x4096 像素 (4K) 的图片会消耗 2,000 个 token，相当于每张图片 0.24 美元。
+              - paragraph [ref=e944]:
+                - superscript [ref=e945]: "***"
+                - text: 客户向 Gemini 提交的请求可能会导致系统向 Google 搜索发送一个或多个查询。您需要为每次单独的搜索查询付费。
+              - generic [ref=e946]:
+                - generic [ref=e947]:
+                  - heading "Gemini 2.5 Pro" [level=2] [ref=e948]
+                  - emphasis [ref=e949]:
+                    - code [ref=e950]: gemini-2.5-pro
+                - paragraph [ref=e951]:
+                  - link "在 Google AI Studio 中试用" [ref=e952] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-2.5-pro&hl=zh-cn
+              - paragraph [ref=e953]: Google 旗下先进的多用途模型，擅长处理编码和复杂的推理任务。
+              - generic [ref=e955]:
+                - tablist [ref=e956]:
+                  - generic [ref=e957]:
+                    - tab "标准" [selected] [ref=e958]:
+                      - button "标准" [expanded] [ref=e959] [cursor=pointer]
+                    - tab "批量" [ref=e960]:
+                      - button "批量" [ref=e961] [cursor=pointer]
+                    - tab "Flex" [ref=e962]:
+                      - button "Flex" [ref=e963] [cursor=pointer]
+                    - tab "优先级" [ref=e964]:
+                      - button "优先级" [ref=e965] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e966]:
+                  - table [ref=e968]:
+                    - rowgroup [ref=e973]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e974]:
+                        - columnheader [ref=e975]
+                        - columnheader "免费层级" [ref=e976]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e977]
+                    - rowgroup [ref=e978]:
+                      - row "输入价格 免费 1.25 美元，提示 <= 20 万个 token 2.50 美元，提示 > 20 万个 token" [ref=e979]:
+                        - cell "输入价格" [ref=e980]
+                        - cell "免费" [ref=e981]
+                        - cell "1.25 美元，提示 <= 20 万个 token 2.50 美元，提示 > 20 万个 token" [ref=e982]:
+                          - text: 1.25 美元，提示 <= 20 万个 token
+                          - text: 2.50 美元，提示 > 20 万个 token
+                      - row "输出价格（包括思考 token） 免费 10.00 美元，提示不超过 20 万个 token 15.00 美元，提示超过 20 万个 token" [ref=e983]:
+                        - cell "输出价格（包括思考 token）" [ref=e984]
+                        - cell "免费" [ref=e985]
+                        - cell "10.00 美元，提示不超过 20 万个 token 15.00 美元，提示超过 20 万个 token" [ref=e986]:
+                          - text: 10.00 美元，提示不超过 20 万个 token
+                          - text: 15.00 美元，提示超过 20 万个 token
+                      - row "上下文缓存价格 不可用 $0.125，提示 <= 20 万个令牌 $0.25，提示 > 20 万个令牌 每小时每 100 万个令牌$4.50（存储价格）" [ref=e987]:
+                        - cell "上下文缓存价格" [ref=e988]
+                        - cell "不可用" [ref=e989]
+                        - cell "$0.125，提示 <= 20 万个令牌 $0.25，提示 > 20 万个令牌 每小时每 100 万个令牌$4.50（存储价格）" [ref=e990]:
+                          - text: $0.125，提示 <= 20 万个令牌
+                          - text: $0.25，提示 > 20 万个令牌
+                          - text: 每小时每 100 万个令牌$4.50（存储价格）
+                      - row "使用 Google 搜索建立依据 不可用 1,500 RPD（免费），之后每 1,000 个接地提示收费 35 美元" [ref=e991]:
+                        - cell "使用 Google 搜索建立依据" [ref=e992]
+                        - cell "不可用" [ref=e993]
+                        - cell "1,500 RPD（免费），之后每 1,000 个接地提示收费 35 美元" [ref=e994]
+                      - row "依托 Google 地图进行接地 不可用 10,000 次 RPD（免费），之后每 1,000 次接地提示收费 25 美元" [ref=e995]:
+                        - cell "依托 Google 地图进行接地" [ref=e996]
+                        - cell "不可用" [ref=e997]
+                        - cell "10,000 次 RPD（免费），之后每 1,000 次接地提示收费 25 美元" [ref=e998]
+                      - row "用于改进我们的产品 是 否" [ref=e999]:
+                        - cell "用于改进我们的产品" [ref=e1000]
+                        - cell "是" [ref=e1001]:
+                          - link "是" [ref=e1002] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e1003]:
+                          - link "否" [ref=e1004] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - generic [ref=e1005]:
+                - generic [ref=e1006]:
+                  - heading "Gemini 2.5 Flash" [level=2] [ref=e1007]
+                  - emphasis [ref=e1008]:
+                    - code [ref=e1009]: gemini-2.5-flash
+                - paragraph [ref=e1010]:
+                  - link "在 Google AI Studio 中试用" [ref=e1011] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-2.5-flash&hl=zh-cn
+              - paragraph [ref=e1012]: 我们的首个混合推理模型，支持 100 万个 token 的上下文窗口，并具有思考预算。
+              - generic [ref=e1014]:
+                - tablist [ref=e1015]:
+                  - generic [ref=e1016]:
+                    - tab "标准" [selected] [ref=e1017]:
+                      - button "标准" [expanded] [ref=e1018] [cursor=pointer]
+                    - tab "批量" [ref=e1019]:
+                      - button "批量" [ref=e1020] [cursor=pointer]
+                    - tab "Flex" [ref=e1021]:
+                      - button "Flex" [ref=e1022] [cursor=pointer]
+                    - tab "优先级" [ref=e1023]:
+                      - button "优先级" [ref=e1024] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e1025]:
+                  - table [ref=e1027]:
+                    - rowgroup [ref=e1032]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e1033]:
+                        - columnheader [ref=e1034]
+                        - columnheader "免费层级" [ref=e1035]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e1036]
+                    - rowgroup [ref=e1037]:
+                      - row "输入价格 免费 $0.30（文字 / 图片 / 视频） $1.00（音频）" [ref=e1038]:
+                        - cell "输入价格" [ref=e1039]
+                        - cell "免费" [ref=e1040]
+                        - cell "$0.30（文字 / 图片 / 视频） $1.00（音频）" [ref=e1041]:
+                          - text: $0.30（文字 / 图片 / 视频）
+                          - text: $1.00（音频）
+                      - row "输出价格（包括思考 token） 免费 $2.50" [ref=e1042]:
+                        - cell "输出价格（包括思考 token）" [ref=e1043]
+                        - cell "免费" [ref=e1044]
+                        - cell "$2.50" [ref=e1045]
+                      - row "上下文缓存价格 不可用 $0.03（文本/图片/视频） $0.1（音频） 每小时每 100 万个 token$1.00（存储价格）" [ref=e1046]:
+                        - cell "上下文缓存价格" [ref=e1047]
+                        - cell "不可用" [ref=e1048]
+                        - cell "$0.03（文本/图片/视频） $0.1（音频） 每小时每 100 万个 token$1.00（存储价格）" [ref=e1049]:
+                          - text: $0.03（文本/图片/视频）
+                          - text: $0.1（音频）
+                          - text: 每小时每 100 万个 token$1.00（存储价格）
+                      - row "使用 Google 搜索建立依据 免费，最多 500 个 RPD（与 Flash-Lite RPD 共用限额） 1,500 次 RPD（免费，与 Flash-Lite RPD 共用限额），之后每 1,000 次有事实依据的提示收费 35 美元" [ref=e1050]:
+                        - cell "使用 Google 搜索建立依据" [ref=e1051]
+                        - cell "免费，最多 500 个 RPD（与 Flash-Lite RPD 共用限额）" [ref=e1052]
+                        - cell "1,500 次 RPD（免费，与 Flash-Lite RPD 共用限额），之后每 1,000 次有事实依据的提示收费 35 美元" [ref=e1053]
+                      - row "依托 Google 地图进行接地 500 RPD 1,500 RPD（免费），之后每 1,000 个有事实依据的提示收费 25 美元" [ref=e1054]:
+                        - cell "依托 Google 地图进行接地" [ref=e1055]
+                        - cell "500 RPD" [ref=e1056]
+                        - cell "1,500 RPD（免费），之后每 1,000 个有事实依据的提示收费 25 美元" [ref=e1057]
+                      - row "用于改进我们的产品 是 否" [ref=e1058]:
+                        - cell "用于改进我们的产品" [ref=e1059]
+                        - cell "是" [ref=e1060]:
+                          - link "是" [ref=e1061] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e1062]:
+                          - link "否" [ref=e1063] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - generic [ref=e1064]:
+                - generic [ref=e1065]:
+                  - heading "Gemini 2.5 Flash-Lite" [level=2] [ref=e1066]
+                  - emphasis [ref=e1067]:
+                    - code [ref=e1068]: gemini-2.5-flash-lite
+                - paragraph [ref=e1069]:
+                  - link "在 Google AI Studio 中试用" [ref=e1070] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-2.5-flash-lite&hl=zh-cn
+              - paragraph [ref=e1071]: Google 旗下最小巧且最具成本效益的模型，专为大规模使用而打造。
+              - generic [ref=e1073]:
+                - tablist [ref=e1074]:
+                  - generic [ref=e1075]:
+                    - tab "标准" [selected] [ref=e1076]:
+                      - button "标准" [expanded] [ref=e1077] [cursor=pointer]
+                    - tab "批量" [ref=e1078]:
+                      - button "批量" [ref=e1079] [cursor=pointer]
+                    - tab "Flex" [ref=e1080]:
+                      - button "Flex" [ref=e1081] [cursor=pointer]
+                    - tab "优先级" [ref=e1082]:
+                      - button "优先级" [ref=e1083] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e1084]:
+                  - table [ref=e1086]:
+                    - rowgroup [ref=e1091]:
+                      - row "免费层级 付费层级，每 100 万个令牌（以美元为单位）" [ref=e1092]:
+                        - columnheader [ref=e1093]
+                        - columnheader "免费层级" [ref=e1094]
+                        - columnheader "付费层级，每 100 万个令牌（以美元为单位）" [ref=e1095]
+                    - rowgroup [ref=e1096]:
+                      - row "输入价格（文字、图片、视频） 免费 $0.10（文字 / 图片 / 视频） $0.30（音频）" [ref=e1097]:
+                        - cell "输入价格（文字、图片、视频）" [ref=e1098]
+                        - cell "免费" [ref=e1099]
+                        - cell "$0.10（文字 / 图片 / 视频） $0.30（音频）" [ref=e1100]:
+                          - text: $0.10（文字 / 图片 / 视频）
+                          - text: $0.30（音频）
+                      - row "输出价格（包括思考 token） 免费 $0.40" [ref=e1101]:
+                        - cell "输出价格（包括思考 token）" [ref=e1102]
+                        - cell "免费" [ref=e1103]
+                        - cell "$0.40" [ref=e1104]
+                      - row "上下文缓存价格 不可用 0.01 美元（文本/图片/视频） 0.03 美元（音频） 每小时每 100 万个 token 1.00 美元（存储价格）" [ref=e1105]:
+                        - cell "上下文缓存价格" [ref=e1106]
+                        - cell "不可用" [ref=e1107]
+                        - cell "0.01 美元（文本/图片/视频） 0.03 美元（音频） 每小时每 100 万个 token 1.00 美元（存储价格）" [ref=e1108]:
+                          - text: 0.01 美元（文本/图片/视频）
+                          - text: 0.03 美元（音频）
+                          - text: 每小时每 100 万个 token 1.00 美元（存储价格）
+                      - row "使用 Google 搜索建立依据 免费，最多 500 个 RPD（与 Flash RPD 共用限额） 1,500 RPD（免费，与 Flash RPD 共用限额），然后是 35 美元 / 1,000 个有事实依据的提示" [ref=e1109]:
+                        - cell "使用 Google 搜索建立依据" [ref=e1110]
+                        - cell "免费，最多 500 个 RPD（与 Flash RPD 共用限额）" [ref=e1111]
+                        - cell "1,500 RPD（免费，与 Flash RPD 共用限额），然后是 35 美元 / 1,000 个有事实依据的提示" [ref=e1112]
+                      - row "依托 Google 地图进行接地 500 RPD 1,500 RPD（免费），之后每 1,000 个有事实依据的提示收费 25 美元" [ref=e1113]:
+                        - cell "依托 Google 地图进行接地" [ref=e1114]
+                        - cell "500 RPD" [ref=e1115]
+                        - cell "1,500 RPD（免费），之后每 1,000 个有事实依据的提示收费 25 美元" [ref=e1116]
+                      - row "用于改进我们的产品 是 否" [ref=e1117]:
+                        - cell "用于改进我们的产品" [ref=e1118]
+                        - cell "是" [ref=e1119]:
+                          - link "是" [ref=e1120] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e1121]:
+                          - link "否" [ref=e1122] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - generic [ref=e1123]:
+                - generic [ref=e1124]:
+                  - heading "Gemini 2.5 Flash-Lite 预览版" [level=2] [ref=e1125]
+                  - emphasis [ref=e1126]:
+                    - code [ref=e1127]: gemini-2.5-flash-lite-preview-09-2025
+                - paragraph [ref=e1128]:
+                  - link "在 Google AI Studio 中试用" [ref=e1129] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-2.5-flash-lite-preview-09-2025&hl=zh-cn
+              - paragraph [ref=e1130]: 基于 Gemini 2.5 Flash Lite 的最新模型，经过优化，可实现高成本效益、高吞吐量和高质量。
+              - generic [ref=e1132]:
+                - tablist [ref=e1133]:
+                  - generic [ref=e1134]:
+                    - tab "标准" [selected] [ref=e1135]:
+                      - button "标准" [expanded] [ref=e1136] [cursor=pointer]
+                    - tab "批量" [ref=e1137]:
+                      - button "批量" [ref=e1138] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e1139]:
+                  - table [ref=e1141]:
+                    - rowgroup [ref=e1146]:
+                      - row "免费层级 付费层级，每 100 万个令牌（以美元为单位）" [ref=e1147]:
+                        - columnheader [ref=e1148]
+                        - columnheader "免费层级" [ref=e1149]
+                        - columnheader "付费层级，每 100 万个令牌（以美元为单位）" [ref=e1150]
+                    - rowgroup [ref=e1151]:
+                      - row "输入价格（文字、图片、视频） 免费 $0.10（文字 / 图片 / 视频） $0.30（音频）" [ref=e1152]:
+                        - cell "输入价格（文字、图片、视频）" [ref=e1153]
+                        - cell "免费" [ref=e1154]
+                        - cell "$0.10（文字 / 图片 / 视频） $0.30（音频）" [ref=e1155]:
+                          - text: $0.10（文字 / 图片 / 视频）
+                          - text: $0.30（音频）
+                      - row "输出价格（包括思考 token） 免费 $0.40" [ref=e1156]:
+                        - cell "输出价格（包括思考 token）" [ref=e1157]
+                        - cell "免费" [ref=e1158]
+                        - cell "$0.40" [ref=e1159]
+                      - row "上下文缓存价格 不可用 0.01 美元（文本/图片/视频） 0.03 美元（音频） 每小时每 100 万个 token 1.00 美元（存储价格）" [ref=e1160]:
+                        - cell "上下文缓存价格" [ref=e1161]
+                        - cell "不可用" [ref=e1162]
+                        - cell "0.01 美元（文本/图片/视频） 0.03 美元（音频） 每小时每 100 万个 token 1.00 美元（存储价格）" [ref=e1163]:
+                          - text: 0.01 美元（文本/图片/视频）
+                          - text: 0.03 美元（音频）
+                          - text: 每小时每 100 万个 token 1.00 美元（存储价格）
+                      - row "使用 Google 搜索建立依据 免费，最多 500 个 RPD（与 Flash RPD 共用限额） 1,500 RPD（免费，与 Flash RPD 共用限额），然后是 35 美元 / 1,000 个有事实依据的提示" [ref=e1164]:
+                        - cell "使用 Google 搜索建立依据" [ref=e1165]
+                        - cell "免费，最多 500 个 RPD（与 Flash RPD 共用限额）" [ref=e1166]
+                        - cell "1,500 RPD（免费，与 Flash RPD 共用限额），然后是 35 美元 / 1,000 个有事实依据的提示" [ref=e1167]
+                      - row "用于改进我们的产品 是 否" [ref=e1168]:
+                        - cell "用于改进我们的产品" [ref=e1169]
+                        - cell "是" [ref=e1170]:
+                          - link "是" [ref=e1171] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e1172]:
+                          - link "否" [ref=e1173] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - generic [ref=e1174]:
+                - generic [ref=e1175]:
+                  - heading "Gemini 2.5 Flash 原生音频 (Live API)" [level=2] [ref=e1176]
+                  - emphasis [ref=e1177]:
+                    - code [ref=e1178]: gemini-2.5-flash-native-audio-preview-12-2025
+                - paragraph [ref=e1179]:
+                  - link "在 Google AI Studio 中试用" [ref=e1180] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/app/live?hl=zh-cn#gemini-2.5-flash-native-audio-preview-12-2025
+              - paragraph [ref=e1181]:
+                - text: 我们的
+                - link "Live API" [ref=e1182] [cursor=pointer]:
+                  - /url: https://ai.google.dev/gemini-api/docs/live?hl=zh-cn
+                - text: 原生音频模型经过优化，可提供更高质量的音频输出，并能更好地控制语速、声音自然度、表达详略和情绪。
+              - paragraph [ref=e1183]: 预览版模型在成为稳定版之前可能会发生变化，并且速率限制更严格。
+              - table [ref=e1185]:
+                - rowgroup [ref=e1190]:
+                  - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e1191]:
+                    - columnheader [ref=e1192]
+                    - columnheader "免费层级" [ref=e1193]
+                    - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e1194]
+                - rowgroup [ref=e1195]:
+                  - row "输入价格 免费 $0.50（文字） $3.00（音频 / 视频）" [ref=e1196]:
+                    - cell "输入价格" [ref=e1197]
+                    - cell "免费" [ref=e1198]
+                    - cell "$0.50（文字） $3.00（音频 / 视频）" [ref=e1199]:
+                      - text: $0.50（文字）
+                      - text: $3.00（音频 / 视频）
+                  - row "输出价格（包括思考 token） 免费 $2.00（文本） $12.00（音频）" [ref=e1200]:
+                    - cell "输出价格（包括思考 token）" [ref=e1201]
+                    - cell "免费" [ref=e1202]
+                    - cell "$2.00（文本） $12.00（音频）" [ref=e1203]:
+                      - text: $2.00（文本）
+                      - text: $12.00（音频）
+                  - row "用于改进我们的产品 是 否" [ref=e1204]:
+                    - cell "用于改进我们的产品" [ref=e1205]
+                    - cell "是" [ref=e1206]:
+                      - link "是" [ref=e1207] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                    - cell "否" [ref=e1208]:
+                      - link "否" [ref=e1209] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - generic [ref=e1210]:
+                - generic [ref=e1211]:
+                  - heading "Gemini 2.5 Flash Image 🍌" [level=2] [ref=e1212]
+                  - emphasis [ref=e1213]:
+                    - code [ref=e1214]: gemini-2.5-flash-image
+                - paragraph [ref=e1215]:
+                  - link "在 Google AI Studio 中试用" [ref=e1216] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-2.5-flash-image&hl=zh-cn
+              - paragraph [ref=e1217]:
+                - text: 我们的原生图片生成模型，在速度、灵活性和上下文理解方面经过优化。文本输入和输出的定价与
+                - link "2.5 Flash" [ref=e1218] [cursor=pointer]:
+                  - /url: "#gemini-2.5-flash"
+                - text: 相同。
+              - paragraph [ref=e1219]: 预览版模型在成为稳定版之前可能会发生变化，并且速率限制更严格。
+              - generic [ref=e1221]:
+                - tablist [ref=e1222]:
+                  - generic [ref=e1223]:
+                    - tab "标准" [selected] [ref=e1224]:
+                      - button "标准" [expanded] [ref=e1225] [cursor=pointer]
+                    - tab "批量" [ref=e1226]:
+                      - button "批量" [ref=e1227] [cursor=pointer]
+                    - tab "Flex" [ref=e1228]:
+                      - button "Flex" [ref=e1229] [cursor=pointer]
+                    - tab "优先级" [ref=e1230]:
+                      - button "优先级" [ref=e1231] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e1232]:
+                  - table [ref=e1234]:
+                    - rowgroup [ref=e1239]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e1240]:
+                        - columnheader [ref=e1241]
+                        - columnheader "免费层级" [ref=e1242]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e1243]
+                    - rowgroup [ref=e1244]:
+                      - row "输入价格 不可用 $0.30（文本 / 图片）" [ref=e1245]:
+                        - cell "输入价格" [ref=e1246]
+                        - cell "不可用" [ref=e1247]
+                        - cell "$0.30（文本 / 图片）" [ref=e1248]
+                      - row "输出价格 不可用 每张图片 $0.039*" [ref=e1249]:
+                        - cell "输出价格" [ref=e1250]
+                        - cell "不可用" [ref=e1251]
+                        - cell "每张图片 $0.039*" [ref=e1252]
+                      - row "用于改进我们的产品 是 否" [ref=e1253]:
+                        - cell "用于改进我们的产品" [ref=e1254]
+                        - cell "是" [ref=e1255]:
+                          - link "是" [ref=e1256] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e1257]:
+                          - link "否" [ref=e1258] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - paragraph [ref=e1259]: "[*] 图片输出的费用为每 100 万个 token 30 美元。输出图片的最大尺寸为 1024x1024 像素，消耗 1290 个 token，相当于每张图片 $0.039。"
+              - generic [ref=e1260]:
+                - generic [ref=e1261]:
+                  - heading "Gemini 2.5 Flash 预览版 TTS" [level=2] [ref=e1262]
+                  - emphasis [ref=e1263]:
+                    - code [ref=e1264]: gemini-2.5-flash-preview-tts
+                - paragraph [ref=e1265]:
+                  - link "在 Google AI Studio 中试用" [ref=e1266] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/generate-speech?hl=zh-cn
+              - paragraph [ref=e1267]: 我们的 2.5 Flash 文字转语音音频模型经过优化，可实现高性价比、低延迟、可控的语音生成。
+              - paragraph [ref=e1268]: 预览版模型在成为稳定版之前可能会发生变化，并且速率限制更严格。
+              - generic [ref=e1270]:
+                - tablist [ref=e1271]:
+                  - generic [ref=e1272]:
+                    - tab "标准" [selected] [ref=e1273]:
+                      - button "标准" [expanded] [ref=e1274] [cursor=pointer]
+                    - tab "批量" [ref=e1275]:
+                      - button "批量" [ref=e1276] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e1277]:
+                  - table [ref=e1279]:
+                    - rowgroup [ref=e1284]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e1285]:
+                        - columnheader [ref=e1286]
+                        - columnheader "免费层级" [ref=e1287]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e1288]
+                    - rowgroup [ref=e1289]:
+                      - row "输入价格 免费 $0.50（文字）" [ref=e1290]:
+                        - cell "输入价格" [ref=e1291]
+                        - cell "免费" [ref=e1292]
+                        - cell "$0.50（文字）" [ref=e1293]
+                      - row "输出价格 免费 10.00 美元（有声读物）" [ref=e1294]:
+                        - cell "输出价格" [ref=e1295]
+                        - cell "免费" [ref=e1296]
+                        - cell "10.00 美元（有声读物）" [ref=e1297]
+                      - row "用于改进我们的产品 是 否" [ref=e1298]:
+                        - cell "用于改进我们的产品" [ref=e1299]
+                        - cell "是" [ref=e1300]:
+                          - link "是" [ref=e1301] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e1302]:
+                          - link "否" [ref=e1303] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - generic [ref=e1304]:
+                - generic [ref=e1305]:
+                  - heading "Gemini 2.5 Pro 预览版 TTS" [level=2] [ref=e1306]
+                  - emphasis [ref=e1307]:
+                    - code [ref=e1308]: gemini-2.5-pro-preview-tts
+                - paragraph [ref=e1309]:
+                  - link "在 Google AI Studio 中试用" [ref=e1310] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/generate-speech?hl=zh-cn
+              - paragraph [ref=e1311]: 我们的 2.5 Pro 文字转语音音频模型经过优化，可实现强大的低延迟语音生成，从而生成更自然的输出，并更轻松地引导提示。
+              - paragraph [ref=e1312]: 预览版模型在成为稳定版之前可能会发生变化，并且速率限制更严格。
+              - generic [ref=e1314]:
+                - tablist [ref=e1315]:
+                  - generic [ref=e1316]:
+                    - tab "标准" [selected] [ref=e1317]:
+                      - button "标准" [expanded] [ref=e1318] [cursor=pointer]
+                    - tab "批量" [ref=e1319]:
+                      - button "批量" [ref=e1320] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e1321]:
+                  - table [ref=e1323]:
+                    - rowgroup [ref=e1328]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e1329]:
+                        - columnheader [ref=e1330]
+                        - columnheader "免费层级" [ref=e1331]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e1332]
+                    - rowgroup [ref=e1333]:
+                      - row "输入价格 不可用 $1.00（文字）" [ref=e1334]:
+                        - cell "输入价格" [ref=e1335]
+                        - cell "不可用" [ref=e1336]
+                        - cell "$1.00（文字）" [ref=e1337]
+                      - row "输出价格 不可用 20.00 美元（音频）" [ref=e1338]:
+                        - cell "输出价格" [ref=e1339]
+                        - cell "不可用" [ref=e1340]
+                        - cell "20.00 美元（音频）" [ref=e1341]
+                      - row "用于改进我们的产品 是 否" [ref=e1342]:
+                        - cell "用于改进我们的产品" [ref=e1343]
+                        - cell "是" [ref=e1344]:
+                          - link "是" [ref=e1345] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e1346]:
+                          - link "否" [ref=e1347] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - generic [ref=e1349]:
+                - heading "Gemini 2.0 Flash" [level=2] [ref=e1350]
+                - emphasis [ref=e1351]:
+                  - code [ref=e1352]: gemini-2.0-flash
+              - complementary [ref=e1353]:
+                - text: warning 警告：Gemini 2.0 Flash 已
+                - link "弃用" [ref=e1354] [cursor=pointer]:
+                  - /url: https://ai.google.dev/gemini-api/docs/deprecations?hl=zh-cn
+                - text: ，并将于 2026 年 6 月 1 日停止服务。请迁移到
+                - link "较新的型号" [ref=e1355] [cursor=pointer]:
+                  - /url: https://ai.google.dev/gemini-api/docs/models?hl=zh-cn
+                - text: ，以免服务中断。
+              - generic [ref=e1357]:
+                - tablist [ref=e1358]:
+                  - generic [ref=e1359]:
+                    - tab "标准" [selected] [ref=e1360]:
+                      - button "标准" [expanded] [ref=e1361] [cursor=pointer]
+                    - tab "批量" [ref=e1362]:
+                      - button "批量" [ref=e1363] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e1364]:
+                  - table [ref=e1366]:
+                    - rowgroup [ref=e1371]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e1372]:
+                        - columnheader [ref=e1373]
+                        - columnheader "免费层级" [ref=e1374]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e1375]
+                    - rowgroup [ref=e1376]:
+                      - row "输入价格 免费 0.10 美元（文字 / 图片 / 视频） 0.70 美元（音频）" [ref=e1377]:
+                        - cell "输入价格" [ref=e1378]
+                        - cell "免费" [ref=e1379]
+                        - cell "0.10 美元（文字 / 图片 / 视频） 0.70 美元（音频）" [ref=e1380]:
+                          - text: 0.10 美元（文字 / 图片 / 视频）
+                          - text: 0.70 美元（音频）
+                      - row "输出价格 免费 $0.40" [ref=e1381]:
+                        - cell "输出价格" [ref=e1382]
+                        - cell "免费" [ref=e1383]
+                        - cell "$0.40" [ref=e1384]
+                      - row "上下文缓存价格 免费 0.025 美元 / 100 万个 token（文本/图片/视频） 0.175 美元 / 100 万个 token（音频）" [ref=e1385]:
+                        - cell "上下文缓存价格" [ref=e1386]
+                        - cell "免费" [ref=e1387]
+                        - cell "0.025 美元 / 100 万个 token（文本/图片/视频） 0.175 美元 / 100 万个 token（音频）" [ref=e1388]:
+                          - text: 0.025 美元 / 100 万个 token（文本/图片/视频）
+                          - text: 0.175 美元 / 100 万个 token（音频）
+                      - row "上下文缓存（存储） 不可用 每小时每 100 万个令牌 $1.00" [ref=e1389]:
+                        - cell "上下文缓存（存储）" [ref=e1390]
+                        - cell "不可用" [ref=e1391]
+                        - cell "每小时每 100 万个令牌 $1.00" [ref=e1392]
+                      - row "图片生成价格 不可用（已关闭） 不可用（已关闭）" [ref=e1393]:
+                        - cell "图片生成价格" [ref=e1394]
+                        - cell "不可用（已关闭）" [ref=e1395]:
+                          - text: 不可用（已
+                          - link "关闭" [ref=e1396] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/docs/deprecations?hl=zh-cn#gemini-2.0-models
+                          - text: ）
+                        - cell "不可用（已关闭）" [ref=e1397]:
+                          - text: 不可用（已
+                          - link "关闭" [ref=e1398] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/docs/deprecations?hl=zh-cn#gemini-2.0-models
+                          - text: ）
+                      - row "调整价格 不可用 不可用" [ref=e1399]:
+                        - cell "调整价格" [ref=e1400]
+                        - cell "不可用" [ref=e1401]
+                        - cell "不可用" [ref=e1402]
+                      - row "使用 Google 搜索建立依据 免费，最多 500 个 RPD 1,500 RPD（免费），之后每 1,000 个接地提示收费 35 美元" [ref=e1403]:
+                        - cell "使用 Google 搜索建立依据" [ref=e1404]
+                        - cell "免费，最多 500 个 RPD" [ref=e1405]
+                        - cell "1,500 RPD（免费），之后每 1,000 个接地提示收费 35 美元" [ref=e1406]
+                      - row "依托 Google 地图进行接地 500 RPD 1,500 RPD（免费），之后每 1,000 个有事实依据的提示收费 25 美元" [ref=e1407]:
+                        - cell "依托 Google 地图进行接地" [ref=e1408]
+                        - cell "500 RPD" [ref=e1409]
+                        - cell "1,500 RPD（免费），之后每 1,000 个有事实依据的提示收费 25 美元" [ref=e1410]
+                      - row "用于改进我们的产品 是 否" [ref=e1411]:
+                        - cell "用于改进我们的产品" [ref=e1412]
+                        - cell "是" [ref=e1413]:
+                          - link "是" [ref=e1414] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e1415]:
+                          - link "否" [ref=e1416] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - paragraph [ref=e1417]: "[*] 图片输出的费用为每 100 万个 token 30 美元。输出图片的最大尺寸为 1024x1024 像素，消耗 1290 个 token，相当于每张图片 $0.039。"
+              - generic [ref=e1419]:
+                - heading "Gemini 2.0 Flash-Lite" [level=2] [ref=e1420]
+                - emphasis [ref=e1421]:
+                  - code [ref=e1422]: gemini-2.0-flash-lite
+              - complementary [ref=e1423]:
+                - text: warning 警告：Gemini 2.0 Flash-Lite 已
+                - link "弃用" [ref=e1424] [cursor=pointer]:
+                  - /url: https://ai.google.dev/gemini-api/docs/deprecations?hl=zh-cn
+                - text: ，并将于 2026 年 6 月 1 日停止服务。请迁移到
+                - link "较新的型号" [ref=e1425] [cursor=pointer]:
+                  - /url: https://ai.google.dev/gemini-api/docs/models?hl=zh-cn
+                - text: ，以免服务中断。
+              - generic [ref=e1427]:
+                - tablist [ref=e1428]:
+                  - generic [ref=e1429]:
+                    - tab "标准" [selected] [ref=e1430]:
+                      - button "标准" [expanded] [ref=e1431] [cursor=pointer]
+                    - tab "批量" [ref=e1432]:
+                      - button "批量" [ref=e1433] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e1434]:
+                  - table [ref=e1436]:
+                    - rowgroup [ref=e1441]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e1442]:
+                        - columnheader [ref=e1443]
+                        - columnheader "免费层级" [ref=e1444]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e1445]
+                    - rowgroup [ref=e1446]:
+                      - row "输入价格 免费 $0.075" [ref=e1447]:
+                        - cell "输入价格" [ref=e1448]
+                        - cell "免费" [ref=e1449]
+                        - cell "$0.075" [ref=e1450]
+                      - row "输出价格 免费 $0.30" [ref=e1451]:
+                        - cell "输出价格" [ref=e1452]
+                        - cell "免费" [ref=e1453]
+                        - cell "$0.30" [ref=e1454]
+                      - row "上下文缓存价格 不可用 不可用" [ref=e1455]:
+                        - cell "上下文缓存价格" [ref=e1456]
+                        - cell "不可用" [ref=e1457]
+                        - cell "不可用" [ref=e1458]
+                      - row "上下文缓存（存储） 不可用 不可用" [ref=e1459]:
+                        - cell "上下文缓存（存储）" [ref=e1460]
+                        - cell "不可用" [ref=e1461]
+                        - cell "不可用" [ref=e1462]
+                      - row "调整价格 不可用 不可用" [ref=e1463]:
+                        - cell "调整价格" [ref=e1464]
+                        - cell "不可用" [ref=e1465]
+                        - cell "不可用" [ref=e1466]
+                      - row "使用 Google 搜索建立依据 不可用 不可用" [ref=e1467]:
+                        - cell "使用 Google 搜索建立依据" [ref=e1468]
+                        - cell "不可用" [ref=e1469]
+                        - cell "不可用" [ref=e1470]
+                      - row "用于改进我们的产品 是 否" [ref=e1471]:
+                        - cell "用于改进我们的产品" [ref=e1472]
+                        - cell "是" [ref=e1473]:
+                          - link "是" [ref=e1474] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e1475]:
+                          - link "否" [ref=e1476] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - generic [ref=e1477]:
+                - generic [ref=e1478]:
+                  - heading "Imagen 4" [level=2] [ref=e1479]
+                  - emphasis [ref=e1480]:
+                    - code [ref=e1481]: imagen-4.0-generate-001
+                    - text: 、
+                    - code [ref=e1482]: imagen-4.0-ultra-generate-001
+                    - text: 、
+                    - code [ref=e1483]: imagen-4.0-fast-generate-001
+                - paragraph [ref=e1484]:
+                  - link "在 Google AI Studio 中试用" [ref=e1485] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/generate-image?hl=zh-cn
+              - paragraph [ref=e1486]: 我们最新的图片生成模型，可显著提升文本渲染效果和整体图片质量。
+              - paragraph [ref=e1487]: 预览版模型在成为稳定版之前可能会发生变化，并且速率限制更严格。
+              - table [ref=e1489]:
+                - rowgroup [ref=e1494]:
+                  - row "免费层级 付费层级，每张图片的价格（美元）" [ref=e1495]:
+                    - columnheader [ref=e1496]
+                    - columnheader "免费层级" [ref=e1497]
+                    - columnheader "付费层级，每张图片的价格（美元）" [ref=e1498]
+                - rowgroup [ref=e1499]:
+                  - row "Imagen 4 Fast 图片价格 不可用 $0.02" [ref=e1500]:
+                    - cell "Imagen 4 Fast 图片价格" [ref=e1501]
+                    - cell "不可用" [ref=e1502]
+                    - cell "$0.02" [ref=e1503]
+                  - row "Imagen 4 标准图片价格 不可用 $0.04" [ref=e1504]:
+                    - cell "Imagen 4 标准图片价格" [ref=e1505]
+                    - cell "不可用" [ref=e1506]
+                    - cell "$0.04" [ref=e1507]
+                  - row "Imagen 4 Ultra 图片价格 不可用 $0.06" [ref=e1508]:
+                    - cell "Imagen 4 Ultra 图片价格" [ref=e1509]
+                    - cell "不可用" [ref=e1510]
+                    - cell "$0.06" [ref=e1511]
+                  - row "用于改进我们的产品 是 否" [ref=e1512]:
+                    - cell "用于改进我们的产品" [ref=e1513]
+                    - cell "是" [ref=e1514]:
+                      - link "是" [ref=e1515] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                    - cell "否" [ref=e1516]:
+                      - link "否" [ref=e1517] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - generic [ref=e1518]:
+                - generic [ref=e1519]:
+                  - heading "Veo 3.1" [level=2] [ref=e1520]
+                  - emphasis [ref=e1521]:
+                    - code [ref=e1522]: veo-3.1-generate-preview
+                    - text: 、
+                    - code [ref=e1523]: veo-3.1-fast-generate-preview
+                    - text: 、
+                    - code [ref=e1524]: veo-3.1-lite-generate-preview
+                - paragraph [ref=e1525]:
+                  - link "试用 Veo 3.1" [ref=e1526] [cursor=pointer]:
+                    - /url: https://deepmind.google/models/veo/?hl=zh-cn
+              - paragraph [ref=e1527]: 我们最新的视频生成模型，适用于 Gemini API 付费层级的开发者。
+              - paragraph [ref=e1528]: 预览版模型在成为稳定版之前可能会发生变化，并且速率限制更严格。
+              - table [ref=e1530]:
+                - rowgroup [ref=e1535]:
+                  - row "免费层级 付费层级，每秒价格（美元）" [ref=e1536]:
+                    - columnheader [ref=e1537]
+                    - columnheader "免费层级" [ref=e1538]
+                    - columnheader "付费层级，每秒价格（美元）" [ref=e1539]
+                - rowgroup [ref=e1540]:
+                  - row "Veo 3.1 标准视频（含音频）价格（默认） 不可用 0.40 美元（720p 和 1080p） 0.60 美元（4k）" [ref=e1541]:
+                    - cell "Veo 3.1 标准视频（含音频）价格（默认）" [ref=e1542]
+                    - cell "不可用" [ref=e1543]
+                    - cell "0.40 美元（720p 和 1080p） 0.60 美元（4k）" [ref=e1544]:
+                      - text: 0.40 美元（720p 和 1080p）
+                      - text: 0.60 美元（4k）
+                  - row "Veo 3.1 Fast 视频（含音频）价格（默认） 不可用 $0.10（720p） $0.12（1080p） $0.30（4k）" [ref=e1545]:
+                    - cell "Veo 3.1 Fast 视频（含音频）价格（默认）" [ref=e1546]
+                    - cell "不可用" [ref=e1547]
+                    - cell "$0.10（720p） $0.12（1080p） $0.30（4k）" [ref=e1548]:
+                      - text: $0.10（720p）
+                      - text: $0.12（1080p）
+                      - text: $0.30（4k）
+                  - row "Veo 3.1 Lite 含音频视频的价格（默认） 不可用 0.05 美元（720p） 0.08 美元（1080p） （不支持 4K 输出）" [ref=e1549]:
+                    - cell "Veo 3.1 Lite 含音频视频的价格（默认）" [ref=e1550]
+                    - cell "不可用" [ref=e1551]
+                    - cell "0.05 美元（720p） 0.08 美元（1080p） （不支持 4K 输出）" [ref=e1552]:
+                      - text: 0.05 美元（720p）
+                      - text: 0.08 美元（1080p）
+                      - text: （不支持 4K 输出）
+                  - row "用于改进我们的产品 是 否" [ref=e1553]:
+                    - cell "用于改进我们的产品" [ref=e1554]
+                    - cell "是" [ref=e1555]:
+                      - link "是" [ref=e1556] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                    - cell "否" [ref=e1557]:
+                      - link "否" [ref=e1558] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - complementary [ref=e1559]:
+                - strong [ref=e1560]: 注意
+                - text: ： 在某些情况下，音频处理问题可能会导致视频无法生成。只有在成功生成视频后，系统才会向您收取费用。
+              - generic [ref=e1561]:
+                - generic [ref=e1562]:
+                  - heading "Veo 3" [level=2] [ref=e1563]
+                  - emphasis [ref=e1564]:
+                    - code [ref=e1565]: veo-3.0-generate-001
+                    - text: 、
+                    - code [ref=e1566]: veo-3.0-fast-generate-001
+                - paragraph [ref=e1567]:
+                  - link "试用 Veo 3" [ref=e1568] [cursor=pointer]:
+                    - /url: https://deepmind.google/models/veo/?hl=zh-cn
+              - paragraph [ref=e1569]: 我们的稳定版视频生成模型，适用于 Gemini API 付费层级的开发者。
+              - table [ref=e1571]:
+                - rowgroup [ref=e1576]:
+                  - row "免费层级 付费层级，每秒价格（美元）" [ref=e1577]:
+                    - columnheader [ref=e1578]
+                    - columnheader "免费层级" [ref=e1579]
+                    - columnheader "付费层级，每秒价格（美元）" [ref=e1580]
+                - rowgroup [ref=e1581]:
+                  - row "Veo 3 标准有声视频价格（默认） 不可用 $0.40" [ref=e1582]:
+                    - cell "Veo 3 标准有声视频价格（默认）" [ref=e1583]
+                    - cell "不可用" [ref=e1584]
+                    - cell "$0.40" [ref=e1585]
+                  - row "Veo 3 Fast 有声视频价格（默认） 不可用 $0.10（720p） $0.12（1080p） $0.30（4k）" [ref=e1586]:
+                    - cell "Veo 3 Fast 有声视频价格（默认）" [ref=e1587]
+                    - cell "不可用" [ref=e1588]
+                    - cell "$0.10（720p） $0.12（1080p） $0.30（4k）" [ref=e1589]:
+                      - text: $0.10（720p）
+                      - text: $0.12（1080p）
+                      - text: $0.30（4k）
+                  - row "用于改进我们的产品 是 否" [ref=e1590]:
+                    - cell "用于改进我们的产品" [ref=e1591]
+                    - cell "是" [ref=e1592]:
+                      - link "是" [ref=e1593] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                    - cell "否" [ref=e1594]:
+                      - link "否" [ref=e1595] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - complementary [ref=e1596]:
+                - strong [ref=e1597]: 注意
+                - text: ： 在某些情况下，音频处理问题可能会导致视频无法生成。只有在成功生成视频后，系统才会向您收取费用。
+              - generic [ref=e1598]:
+                - generic [ref=e1599]:
+                  - heading "Veo 2" [level=2] [ref=e1600]
+                  - emphasis [ref=e1601]:
+                    - code [ref=e1602]: veo-2.0-generate-001
+                - paragraph [ref=e1603]:
+                  - link "试用 API" [ref=e1604] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api/docs/video?hl=zh-cn
+              - paragraph [ref=e1605]: Google 先进的视频生成模型，适用于 Gemini API 付费层级的开发者。
+              - table [ref=e1607]:
+                - rowgroup [ref=e1612]:
+                  - row "免费层级 付费层级，每秒价格（美元）" [ref=e1613]:
+                    - columnheader [ref=e1614]
+                    - columnheader "免费层级" [ref=e1615]
+                    - columnheader "付费层级，每秒价格（美元）" [ref=e1616]
+                - rowgroup [ref=e1617]:
+                  - row "视频价格 不可用 $0.35" [ref=e1618]:
+                    - cell "视频价格" [ref=e1619]
+                    - cell "不可用" [ref=e1620]
+                    - cell "$0.35" [ref=e1621]
+                  - row "用于改进我们的产品 是 否" [ref=e1622]:
+                    - cell "用于改进我们的产品" [ref=e1623]
+                    - cell "是" [ref=e1624]:
+                      - link "是" [ref=e1625] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                    - cell "否" [ref=e1626]:
+                      - link "否" [ref=e1627] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - generic [ref=e1629]:
+                - heading "Lyria 3" [level=2] [ref=e1630]
+                - emphasis [ref=e1631]:
+                  - code [ref=e1632]: lyria-3-clip-preview
+                  - text: 和
+                  - code [ref=e1633]: lyria-3-pro-preview
+              - paragraph [ref=e1634]: Google 的音乐创作模型系列。预览版模型在稳定之前可能会发生变化，并且速率限制更严格。
+              - table [ref=e1636]:
+                - rowgroup [ref=e1641]:
+                  - row "免费层级 付费层级，每次请求的费用（美元）" [ref=e1642]:
+                    - columnheader [ref=e1643]
+                    - columnheader "免费层级" [ref=e1644]
+                    - columnheader "付费层级，每次请求的费用（美元）" [ref=e1645]
+                - rowgroup [ref=e1646]:
+                  - row "Lyria 3 短片预览（30 秒） 不可用 每首歌曲 $0.04" [ref=e1647]:
+                    - cell "Lyria 3 短片预览（30 秒）" [ref=e1648]
+                    - cell "不可用" [ref=e1649]
+                    - cell "每首歌曲 $0.04" [ref=e1650]
+                  - row "Lyria 3 Pro 预览版（完整歌曲） 不可用 每首歌曲 $0.08" [ref=e1651]:
+                    - cell "Lyria 3 Pro 预览版（完整歌曲）" [ref=e1652]
+                    - cell "不可用" [ref=e1653]
+                    - cell "每首歌曲 $0.08" [ref=e1654]
+                  - row "用于改进我们的产品 是 否" [ref=e1655]:
+                    - cell "用于改进我们的产品" [ref=e1656]
+                    - cell "是" [ref=e1657]:
+                      - link "是" [ref=e1658] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                    - cell "否" [ref=e1659]:
+                      - link "否" [ref=e1660] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - generic [ref=e1661]:
+                - generic [ref=e1662]:
+                  - heading "Gemini Embedding 2" [level=2] [ref=e1663]
+                  - emphasis [ref=e1664]:
+                    - code [ref=e1665]: gemini-embedding-2
+                - paragraph [ref=e1666]:
+                  - link "试用 API" [ref=e1667] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api/docs/embeddings?hl=zh-cn
+              - paragraph [ref=e1668]: 我们的首个多模态嵌入模型，可将文本、图片、视频、音频和 PDF 映射到统一的嵌入空间中。
+              - generic [ref=e1670]:
+                - tablist [ref=e1671]:
+                  - generic [ref=e1672]:
+                    - tab "标准" [selected] [ref=e1673]:
+                      - button "标准" [expanded] [ref=e1674] [cursor=pointer]
+                    - tab "批量" [ref=e1675]:
+                      - button "批量" [ref=e1676] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e1677]:
+                  - table [ref=e1679]:
+                    - rowgroup [ref=e1684]:
+                      - row "免费层级 付费层级，每 100 万个令牌（以美元为单位）" [ref=e1685]:
+                        - columnheader [ref=e1686]
+                        - columnheader "免费层级" [ref=e1687]
+                        - columnheader "付费层级，每 100 万个令牌（以美元为单位）" [ref=e1688]
+                    - rowgroup [ref=e1689]:
+                      - row "文本输入价格 免费 $0.20" [ref=e1690]:
+                        - cell "文本输入价格" [ref=e1691]
+                        - cell "免费" [ref=e1692]
+                        - cell "$0.20" [ref=e1693]
+                      - row "图片输入价格 免费 0.45 美元（每张图片 0.00012 美元）" [ref=e1694]:
+                        - cell "图片输入价格" [ref=e1695]
+                        - cell "免费" [ref=e1696]
+                        - cell "0.45 美元（每张图片 0.00012 美元）" [ref=e1697]
+                      - row "音频输入价格 免费 6.50 美元（每秒 0.00016 美元）" [ref=e1698]:
+                        - cell "音频输入价格" [ref=e1699]
+                        - cell "免费" [ref=e1700]
+                        - cell "6.50 美元（每秒 0.00016 美元）" [ref=e1701]
+                      - row "视频输入价格 免费 12.00 美元（每帧 0.00079 美元）" [ref=e1702]:
+                        - cell "视频输入价格" [ref=e1703]
+                        - cell "免费" [ref=e1704]
+                        - cell "12.00 美元（每帧 0.00079 美元）" [ref=e1705]
+                      - row "用于改进我们的产品 是 否" [ref=e1706]:
+                        - cell "用于改进我们的产品" [ref=e1707]
+                        - cell "是" [ref=e1708]:
+                          - link "是" [ref=e1709] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e1710]:
+                          - link "否" [ref=e1711] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - generic [ref=e1712]:
+                - generic [ref=e1713]:
+                  - heading "Gemini Embedding" [level=2] [ref=e1714]
+                  - emphasis [ref=e1715]:
+                    - code [ref=e1716]: gemini-embedding-001
+                - paragraph [ref=e1717]:
+                  - link "试用 API" [ref=e1718] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api/docs/embeddings?hl=zh-cn
+              - paragraph [ref=e1719]: 我们的 Gemini Embeddings 模型，适用于纯文本用例，可供 Gemini API 的免费层级和付费层级的开发者使用。
+              - generic [ref=e1721]:
+                - tablist [ref=e1722]:
+                  - generic [ref=e1723]:
+                    - tab "标准" [selected] [ref=e1724]:
+                      - button "标准" [expanded] [ref=e1725] [cursor=pointer]
+                    - tab "批量" [ref=e1726]:
+                      - button "批量" [ref=e1727] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e1728]:
+                  - table [ref=e1730]:
+                    - rowgroup [ref=e1735]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e1736]:
+                        - columnheader [ref=e1737]
+                        - columnheader "免费层级" [ref=e1738]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e1739]
+                    - rowgroup [ref=e1740]:
+                      - row "输入价格 免费 $0.15" [ref=e1741]:
+                        - cell "输入价格" [ref=e1742]
+                        - cell "免费" [ref=e1743]
+                        - cell "$0.15" [ref=e1744]
+                      - row "用于改进我们的产品 是 否" [ref=e1745]:
+                        - cell "用于改进我们的产品" [ref=e1746]
+                        - cell "是" [ref=e1747]:
+                          - link "是" [ref=e1748] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e1749]:
+                          - link "否" [ref=e1750] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - generic [ref=e1751]:
+                - generic [ref=e1752]:
+                  - heading "Gemini Robotics-ER 1.6 预览版" [level=2] [ref=e1753]
+                  - emphasis [ref=e1754]:
+                    - code [ref=e1755]: gemini-robotics-er-1.6-preview
+                - paragraph [ref=e1756]:
+                  - link "在 Google AI Studio 中试用" [ref=e1757] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-robotics-er-1.6-preview&hl=zh-cn
+              - paragraph [ref=e1758]: Gemini Robotics-ER 是 Gemini Robotics-Embodied Reasoning 的简称，是一种思维模型，可增强机器人理解和与物理世界互动的能力。
+              - generic [ref=e1760]:
+                - tablist [ref=e1761]:
+                  - generic [ref=e1762]:
+                    - tab "标准" [selected] [ref=e1763]:
+                      - button "标准" [expanded] [ref=e1764] [cursor=pointer]
+                    - tab "批量" [ref=e1765]:
+                      - button "批量" [ref=e1766] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "标准" [ref=e1767]:
+                  - table [ref=e1769]:
+                    - rowgroup [ref=e1774]:
+                      - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e1775]:
+                        - columnheader [ref=e1776]
+                        - columnheader "免费层级" [ref=e1777]
+                        - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e1778]
+                    - rowgroup [ref=e1779]:
+                      - row "输入价格 免费 $1.00（文字 / 图片 / 视频） $2.00（音频）" [ref=e1780]:
+                        - cell "输入价格" [ref=e1781]
+                        - cell "免费" [ref=e1782]
+                        - cell "$1.00（文字 / 图片 / 视频） $2.00（音频）" [ref=e1783]:
+                          - text: $1.00（文字 / 图片 / 视频）
+                          - text: $2.00（音频）
+                      - row "输出价格（包括思考 token） 免费 5.00 美元" [ref=e1784]:
+                        - cell "输出价格（包括思考 token）" [ref=e1785]
+                        - cell "免费" [ref=e1786]
+                        - cell "5.00 美元" [ref=e1787]
+                      - row "使用 Google 搜索建立依据 不可用 每月 5,000 个提示（免费，与 Flash 共用限额），然后每 1,000 次搜索查询收费 14 美元，用于基于文本和图片的接地。" [ref=e1788]:
+                        - cell "使用 Google 搜索建立依据" [ref=e1789]
+                        - cell "不可用" [ref=e1790]
+                        - cell "每月 5,000 个提示（免费，与 Flash 共用限额），然后每 1,000 次搜索查询收费 14 美元，用于基于文本和图片的接地。" [ref=e1791]
+                      - row "用于改进我们的产品 是 否" [ref=e1792]:
+                        - cell "用于改进我们的产品" [ref=e1793]
+                        - cell "是" [ref=e1794]:
+                          - link "是" [ref=e1795] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                        - cell "否" [ref=e1796]:
+                          - link "否" [ref=e1797] [cursor=pointer]:
+                            - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - generic [ref=e1799]:
+                - heading "Gemini 2.5 Computer Use 预览版" [level=2] [ref=e1800]
+                - emphasis [ref=e1801]:
+                  - code [ref=e1802]: gemini-2.5-computer-use-preview-10-2025
+              - paragraph [ref=e1803]: 我们的“计算机使用”模型经过优化，可用于构建可自动执行任务的浏览器控制智能体。
+              - table [ref=e1805]:
+                - rowgroup [ref=e1810]:
+                  - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e1811]:
+                    - columnheader [ref=e1812]
+                    - columnheader "免费层级" [ref=e1813]
+                    - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e1814]
+                - rowgroup [ref=e1815]:
+                  - row "输入价格 不可用 1.25 美元，提示 <= 20 万个 token 2.50 美元，提示 > 20 万个 token" [ref=e1816]:
+                    - cell "输入价格" [ref=e1817]
+                    - cell "不可用" [ref=e1818]
+                    - cell "1.25 美元，提示 <= 20 万个 token 2.50 美元，提示 > 20 万个 token" [ref=e1819]:
+                      - text: 1.25 美元，提示 <= 20 万个 token
+                      - text: 2.50 美元，提示 > 20 万个 token
+                  - row "输出价格 不可用 10.00 美元，提示不超过 20 万个 token 15.00 美元，提示超过 20 万个 token" [ref=e1820]:
+                    - cell "输出价格" [ref=e1821]
+                    - cell "不可用" [ref=e1822]
+                    - cell "10.00 美元，提示不超过 20 万个 token 15.00 美元，提示超过 20 万个 token" [ref=e1823]:
+                      - text: 10.00 美元，提示不超过 20 万个 token
+                      - text: 15.00 美元，提示超过 20 万个 token
+                  - row "用于改进我们的产品 是 否" [ref=e1824]:
+                    - cell "用于改进我们的产品" [ref=e1825]
+                    - cell "是" [ref=e1826]:
+                      - link "是" [ref=e1827] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                    - cell "否" [ref=e1828]:
+                      - link "否" [ref=e1829] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - heading "Gemma 4" [level=2] [ref=e1831]
+              - paragraph [ref=e1832]: 我们基于 Gemini 模型所用的相同技术构建的先进轻量级开放模型。
+              - table [ref=e1834]:
+                - rowgroup [ref=e1839]:
+                  - row "免费层级 付费层级，每 100 万个令牌（美元）" [ref=e1840]:
+                    - columnheader [ref=e1841]
+                    - columnheader "免费层级" [ref=e1842]
+                    - columnheader "付费层级，每 100 万个令牌（美元）" [ref=e1843]
+                - rowgroup [ref=e1844]:
+                  - row "输入价格 免费 不可用" [ref=e1845]:
+                    - cell "输入价格" [ref=e1846]
+                    - cell "免费" [ref=e1847]
+                    - cell "不可用" [ref=e1848]
+                  - row "输出价格 免费 不可用" [ref=e1849]:
+                    - cell "输出价格" [ref=e1850]
+                    - cell "免费" [ref=e1851]
+                    - cell "不可用" [ref=e1852]
+                  - row "上下文缓存价格 免费 不可用" [ref=e1853]:
+                    - cell "上下文缓存价格" [ref=e1854]
+                    - cell "免费" [ref=e1855]
+                    - cell "不可用" [ref=e1856]
+                  - row "上下文缓存（存储） 免费 不可用" [ref=e1857]:
+                    - cell "上下文缓存（存储）" [ref=e1858]
+                    - cell "免费" [ref=e1859]
+                    - cell "不可用" [ref=e1860]
+                  - row "调整价格 不可用 不可用" [ref=e1861]:
+                    - cell "调整价格" [ref=e1862]
+                    - cell "不可用" [ref=e1863]
+                    - cell "不可用" [ref=e1864]
+                  - row "使用 Google 搜索建立依据 不可用 不可用" [ref=e1865]:
+                    - cell "使用 Google 搜索建立依据" [ref=e1866]
+                    - cell "不可用" [ref=e1867]
+                    - cell "不可用" [ref=e1868]
+                  - row "用于改进我们的产品 是 否" [ref=e1869]:
+                    - cell "用于改进我们的产品" [ref=e1870]
+                    - cell "是" [ref=e1871]:
+                      - link "是" [ref=e1872] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+                    - cell "否" [ref=e1873]:
+                      - link "否" [ref=e1874] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms?hl=zh-cn
+              - heading "工具价格" [level=2] [ref=e1875]
+              - paragraph [ref=e1876]:
+                - text: 工具的价格按其各自的费率计算，并应用于使用它们的模型。 如需了解每种模型可使用哪些工具，请查看
+                - link "模型" [ref=e1877] [cursor=pointer]:
+                  - /url: https://ai.google.dev/gemini-api/docs/models?hl=zh-cn
+                - text: 页面。
+              - table [ref=e1879]:
+                - rowgroup [ref=e1884]:
+                  - row "免费层级 付费层级，每 100 万个令牌（以美元为单位）" [ref=e1885]:
+                    - columnheader [ref=e1886]
+                    - columnheader "免费层级" [ref=e1887]
+                    - columnheader "付费层级，每 100 万个令牌（以美元为单位）" [ref=e1888]
+                - rowgroup [ref=e1889]:
+                  - row "Google 搜索 免费提供 500 RPD（Flash 和 Flash-Lite 共用此限额）。 不适用于 Pro。 Gemini 2.5 模型： 免费使用 1,500 RPD（Flash 和 Flash-Lite 共用此限额）。 之后，每 1,000 个接地提示收费 35 美元 Gemini 3 模型： 每月免费使用 5,000 个提示，之后每 1,000 次搜索查询收费 14 美元" [ref=e1890]:
+                    - cell "Google 搜索" [ref=e1891]:
+                      - link "Google 搜索" [ref=e1892] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/docs/google-search?hl=zh-cn#pricing
+                    - cell "免费提供 500 RPD（Flash 和 Flash-Lite 共用此限额）。 不适用于 Pro。" [ref=e1893]:
+                      - text: 免费提供 500 RPD（Flash 和 Flash-Lite 共用此限额）。
+                      - text: 不适用于 Pro。
+                    - cell "Gemini 2.5 模型： 免费使用 1,500 RPD（Flash 和 Flash-Lite 共用此限额）。 之后，每 1,000 个接地提示收费 35 美元 Gemini 3 模型： 每月免费使用 5,000 个提示，之后每 1,000 次搜索查询收费 14 美元" [ref=e1894]:
+                      - text: Gemini 2.5 模型：
+                      - text: 免费使用 1,500 RPD（Flash 和 Flash-Lite 共用此限额）。
+                      - text: 之后，每 1,000 个接地提示收费 35 美元
+                      - text: Gemini 3 模型：
+                      - text: 每月免费使用 5,000 个提示，之后每 1,000 次搜索查询收费 14 美元
+                  - row "Google 地图 500 RPD 不适用于专业版。 1,500 次 RPD（Flash 和 Flash-Lite 共用限额） Pro 版免费提供 10,000 次 RPD。 之后，每 1,000 次接地提示的价格为 25 美元" [ref=e1895]:
+                    - cell "Google 地图" [ref=e1896]:
+                      - link "Google 地图" [ref=e1897] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/docs/maps-grounding?hl=zh-cn#pricing_and_rate_limits
+                    - cell "500 RPD 不适用于专业版。" [ref=e1898]:
+                      - text: 500 RPD
+                      - text: 不适用于专业版。
+                    - cell "1,500 次 RPD（Flash 和 Flash-Lite 共用限额） Pro 版免费提供 10,000 次 RPD。 之后，每 1,000 次接地提示的价格为 25 美元" [ref=e1899]:
+                      - text: 1,500 次 RPD（Flash 和 Flash-Lite 共用限额）
+                      - text: Pro 版免费提供 10,000 次 RPD。
+                      - text: 之后，每 1,000 次接地提示的价格为 25 美元
+                  - row "代码执行 免费 代码执行按所选模型的标准 token 费率收费。 费用仅取决于工具的使用情况，会话运行时不会产生任何费用。生成的代码和执行结果在创建时按输出 token 计费，当模型在迭代推理过程中使用它们时，则按输入 token 计费。" [ref=e1900]:
+                    - cell "代码执行" [ref=e1901]:
+                      - link "代码执行" [ref=e1902] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/docs/code-execution?hl=zh-cn#billing
+                    - cell "免费" [ref=e1903]
+                    - cell "代码执行按所选模型的标准 token 费率收费。 费用仅取决于工具的使用情况，会话运行时不会产生任何费用。生成的代码和执行结果在创建时按输出 token 计费，当模型在迭代推理过程中使用它们时，则按输入 token 计费。" [ref=e1904]:
+                      - text: 代码执行按所选模型的标准 token 费率收费。 费用仅取决于工具的使用情况，会话运行时不会产生任何费用。生成的代码和执行结果在创建时按
+                      - strong [ref=e1905]: 输出 token
+                      - text: 计费，当模型在迭代推理过程中使用它们时，则按
+                      - strong [ref=e1906]: 输入 token
+                      - text: 计费。
+                  - row "网址上下文 免费 按每个模型的输入 token 数价格收费。" [ref=e1907]:
+                    - cell "网址上下文" [ref=e1908]:
+                      - link "网址上下文" [ref=e1909] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/docs/url-context?hl=zh-cn#limitations
+                    - cell "免费" [ref=e1910]
+                    - cell "按每个模型的输入 token 数价格收费。" [ref=e1911]
+                  - row "计算机使用 不可用 请参阅 Gemini 2.5 Computer Use 预览版价格表。" [ref=e1912]:
+                    - cell "计算机使用" [ref=e1913]:
+                      - link "计算机使用" [ref=e1914] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/docs/computer-use?hl=zh-cn
+                    - cell "不可用" [ref=e1915]
+                    - cell "请参阅 Gemini 2.5 Computer Use 预览版价格表。" [ref=e1916]:
+                      - text: 请参阅
+                      - link "Gemini 2.5 Computer Use 预览版" [ref=e1917] [cursor=pointer]:
+                        - /url: "#gemini-2.5-computer-use-preview-10-2025"
+                      - text: 价格表。
+                  - row "文件搜索 免费 嵌入费用为每 100 万个 token 0.15 美元。 检索到的文档 token 按相应模型的常规 token 价格计费。" [ref=e1918]:
+                    - cell "文件搜索" [ref=e1919]:
+                      - link "文件搜索" [ref=e1920] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/docs/file-search?hl=zh-cn#pricing
+                    - cell "免费" [ref=e1921]
+                    - cell "嵌入费用为每 100 万个 token 0.15 美元。 检索到的文档 token 按相应模型的常规 token 价格计费。" [ref=e1922]:
+                      - link "嵌入" [ref=e1923] [cursor=pointer]:
+                        - /url: "#gemini-embedding"
+                      - text: 费用为每 100 万个 token 0.15 美元。
+                      - text: 检索到的文档 token 按相应模型的常规 token 价格计费。
+                  - row "自定义工具端点（Gemini 3.1 Pro 预览版） 不可用 与 Gemini 3.1 Pro 预览版的价格相同" [ref=e1924]:
+                    - cell "自定义工具端点（Gemini 3.1 Pro 预览版）" [ref=e1925]:
+                      - link "自定义工具端点（Gemini 3.1 Pro 预览版）" [ref=e1926] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview?hl=zh-cn
+                    - cell "不可用" [ref=e1927]
+                    - cell "与 Gemini 3.1 Pro 预览版的价格相同" [ref=e1928]:
+                      - text: 与
+                      - link "Gemini 3.1 Pro 预览版" [ref=e1929] [cursor=pointer]:
+                        - /url: "#gemini-3.1-pro-preview"
+                      - text: 的价格相同
+              - heading "智能体的价格" [level=2] [ref=e1930]
+              - paragraph [ref=e1931]: 代理使用费用是根据基础令牌消耗量和工具使用情况计算的。
+              - table [ref=e1933]:
+                - rowgroup [ref=e1938]:
+                  - row "模型 工具" [ref=e1939]:
+                    - columnheader [ref=e1940]
+                    - columnheader "模型" [ref=e1941]
+                    - columnheader "工具" [ref=e1942]
+                - rowgroup [ref=e1943]:
+                  - row "Gemini Deep Research Agent 所有模型推理均按标准的 Gemini 目录价格计费，包括在智能体循环期间生成的输入、输出和中间输入 / 推理 token。 工具使用费将按现有价格结构收取，并保持搜索接地（不包括检索到的令牌）与 Url_context / 文件搜索（包括所有其他工具中检索到的令牌）之间的标准区别。" [ref=e1944]:
+                    - cell "Gemini Deep Research Agent" [ref=e1945]:
+                      - link "Gemini Deep Research Agent" [ref=e1946] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/docs/deep-research?hl=zh-cn
+                    - cell "所有模型推理均按标准的 Gemini 目录价格计费，包括在智能体循环期间生成的输入、输出和中间输入 / 推理 token。" [ref=e1947]
+                    - cell "工具使用费将按现有价格结构收取，并保持搜索接地（不包括检索到的令牌）与 Url_context / 文件搜索（包括所有其他工具中检索到的令牌）之间的标准区别。" [ref=e1948]
+                  - row "Gemini API 中的受管智能体 所有模型推理均按标准的 Gemini 目录价格计费，包括在智能体循环期间生成的输入、输出和中间输入 / 推理 token。（请参阅价格详情）。 在预览版期间，环境计算（CPU、内存、沙盒执行）不收费。" [ref=e1949]:
+                    - cell "Gemini API 中的受管智能体" [ref=e1950]:
+                      - link "Gemini API 中的受管智能体" [ref=e1951] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/docs/agents?hl=zh-cn
+                    - cell "所有模型推理均按标准的 Gemini 目录价格计费，包括在智能体循环期间生成的输入、输出和中间输入 / 推理 token。（请参阅价格详情）。" [ref=e1952]:
+                      - text: 所有模型推理均按标准的 Gemini 目录价格计费，包括在智能体循环期间生成的输入、输出和中间输入 / 推理 token。（请参阅
+                      - link "价格详情" [ref=e1953] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/docs/agents?hl=zh-cn#pricing
+                      - text: ）。
+                    - cell "在预览版期间，环境计算（CPU、内存、沙盒执行）不收费。" [ref=e1954]
+                  - row "Antigravity Agent 所有模型推理均按标准的 Gemini 目录价格计费，包括在智能体循环期间生成的输入、输出和中间输入 / 推理 token。（请参阅价格详情）。 在预览版期间，环境计算（CPU、内存、沙盒执行）不收费。" [ref=e1955]:
+                    - cell "Antigravity Agent" [ref=e1956]:
+                      - link "Antigravity Agent" [ref=e1957] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/docs/antigravity-agent?hl=zh-cn
+                    - cell "所有模型推理均按标准的 Gemini 目录价格计费，包括在智能体循环期间生成的输入、输出和中间输入 / 推理 token。（请参阅价格详情）。" [ref=e1958]:
+                      - text: 所有模型推理均按标准的 Gemini 目录价格计费，包括在智能体循环期间生成的输入、输出和中间输入 / 推理 token。（请参阅
+                      - link "价格详情" [ref=e1959] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/docs/agents?hl=zh-cn#pricing
+                      - text: ）。
+                    - cell "在预览版期间，环境计算（CPU、内存、沙盒执行）不收费。" [ref=e1960]
+              - heading "备注" [level=2] [ref=e1961]
+              - list [ref=e1962]:
+                - listitem [ref=e1963]:
+                  - strong [ref=e1964]: 文档 token 结算
+                  - text: ：
+                  - code [ref=e1965]: DOCUMENT
+                  - text: 模态（例如 PDF）的 token 按图片 token 费率结算。在 API 响应中，这些 token 会显示在
+                  - code [ref=e1966]: promptTokensDetails
+                  - text: 内的
+                  - code [ref=e1967]: DOCUMENT
+                  - text: 模态下。
+                - listitem [ref=e1968]:
+                  - text: 在所有
+                  - link "可用区域" [ref=e1969] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api/docs/available-regions?hl=zh-cn
+                  - text: ，Google AI Studio 均免费使用。如需了解详情，请参阅
+                  - link "结算常见问题解答" [ref=e1970] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api/docs/billing?hl=zh-cn
+                  - text: 。
+                - listitem [ref=e1971]:
+                  - text: 价格可能与此处列出的价格以及 Gemini Enterprise Agent Platform 上提供的价格有所不同。如需了解 Gemini Enterprise Agent Platform 的价格，请参阅
+                  - link "Gemini Enterprise Agent Platform 价格页面" [ref=e1972] [cursor=pointer]:
+                    - /url: https://cloud.google.com/products/gemini-enterprise-agent-platform?hl=zh-cn
+                  - text: 。
+                - listitem [ref=e1973]:
+                  - text: 如果您使用
+                  - link "动态检索" [ref=e1974] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api/docs/grounding?hl=zh-cn
+                  - text: 来优化费用，则仅当请求返回的结果中包含至少一个来自网络的接地支持网址时，才会针对依托 Google 搜索进行接地的请求收费。Gemini 始终会产生费用。速率限制可能会发生变化。
+          - generic [ref=e1975]:
+            - paragraph [ref=e1976]:
+              - text: 如未另行说明，那么本页面中的内容已根据
+              - link "知识共享署名 4.0 许可" [ref=e1977] [cursor=pointer]:
+                - /url: https://creativecommons.org/licenses/by/4.0/
+              - text: 获得了许可，并且代码示例已根据
+              - link "Apache 2.0 许可" [ref=e1978] [cursor=pointer]:
+                - /url: https://www.apache.org/licenses/LICENSE-2.0
+              - text: 获得了许可。有关详情，请参阅
+              - link "Google 开发者网站政策" [ref=e1979] [cursor=pointer]:
+                - /url: https://developers.google.com/site-policies?hl=zh-cn
+              - text: 。Java 是 Oracle 和/或其关联公司的注册商标。
+            - paragraph [ref=e1980]: 最后更新时间 (UTC)：2026-05-19。
+      - generic:
+        - navigation "页脚链接"
+      - navigation "实用程序链接" [ref=e1984]:
+        - list [ref=e1985]:
+          - listitem [ref=e1986]:
+            - link "条款" [ref=e1987] [cursor=pointer]:
+              - /url: //policies.google.com/terms?hl=zh-cn
+          - listitem [ref=e1988]:
+            - text: "|"
+            - link "隐私权政策" [ref=e1989] [cursor=pointer]:
+              - /url: //policies.google.com/privacy?hl=zh-cn
+          - text: "|"
+        - generic "选择您的语言偏好设置。" [ref=e1990]:
+          - button "Language" [ref=e1991] [cursor=pointer]:
+            - img
+            - generic [ref=e1992]: Language
+            - img

@@ -3,6 +3,7 @@ models:
     # 模型价格：https://platform.xiaomimimo.com/#/docs/pricing
     # 模型价格(md)：https://platform.xiaomimimo.com/docs/pricing.md
 
+    # MiMo-V2-Pro / Omni 将于 2026-06-01 起自动路由到 V2.5（按 V2.5 计价），2026-06-30 完全下线
     # ===================== MiMo-V2.5 系列 (当前) =====================
 
     # MiMo-V2.5-Pro - 旗舰模型，1M上下文（与mimo-v2-pro同价）

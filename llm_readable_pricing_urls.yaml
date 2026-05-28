@@ -18,8 +18,8 @@ providers:
 
   xAI:
     llms_txt: https://docs.x.ai/llms.txt
-    pricing_md: https://docs.x.ai/developers/models.md
-    notes: Clean markdown with pricing table in models page; /docs/models redirects to /developers/models
+    pricing_md: https://docs.x.ai/developers/pricing.md
+    notes: Dedicated pricing page with model, imagine, voice, tools, and batch pricing; per-model details at /developers/models/<model>.md
 
   Mistral:
     llms_txt:

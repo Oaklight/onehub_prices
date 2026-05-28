@@ -1,0 +1,2221 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner:
+      - generic:
+        - generic [ref=e6]:
+          - text: menu
+          - generic [ref=e7]:
+            - link "Gemini API" [ref=e8] [cursor=pointer]:
+              - /url: /
+              - img "Gemini API" [ref=e10]
+            - generic:
+              - list:
+                - listitem
+          - generic [ref=e15]:
+            - combobox "Search" [ref=e16]
+            - img [ref=e18]
+            - generic [ref=e21]: /
+          - generic [ref=e22]:
+            - button "Appearance:" [ref=e23] [cursor=pointer]: light_mode
+            - text: light_mode dark_mode brightness_medium
+          - generic "Select your language preference." [ref=e24]:
+            - button "Language" [ref=e25] [cursor=pointer]:
+              - img
+              - generic [ref=e26]: Language
+              - img
+          - link "Get API key" [ref=e27] [cursor=pointer]:
+            - /url: https://aistudio.google.com/apikey
+          - link "Cookbook" [ref=e28] [cursor=pointer]:
+            - /url: https://github.com/google-gemini/cookbook
+          - link "Community" [ref=e29] [cursor=pointer]:
+            - /url: https://discuss.ai.google.dev/c/gemini-api/
+        - navigation "Lower tabs" [ref=e35]:
+          - link "Docs, selected" [ref=e37] [cursor=pointer]:
+            - /url: https://ai.google.dev/gemini-api/docs
+            - text: Docs
+          - link "API reference" [ref=e39] [cursor=pointer]:
+            - /url: https://ai.google.dev/api
+          - text: arrow_drop_down
+    - generic [ref=e41]:
+      - text: filter_list close
+      - navigation "Side menu" [ref=e42]:
+        - text: arrow_back
+        - list [ref=e45]:
+          - listitem [ref=e46]:
+            - generic [ref=e48]: Get started
+          - listitem [ref=e49]:
+            - link "Overview" [ref=e50] [cursor=pointer]:
+              - /url: /gemini-api/docs
+              - generic [ref=e51]: Overview
+          - listitem [ref=e52]:
+            - link "Quickstart" [ref=e53] [cursor=pointer]:
+              - /url: /gemini-api/docs/quickstart
+              - generic [ref=e54]: Quickstart
+          - listitem [ref=e55]:
+            - link "API keys" [ref=e56] [cursor=pointer]:
+              - /url: /gemini-api/docs/api-key
+              - generic [ref=e57]: API keys
+          - listitem [ref=e58]:
+            - link "Libraries" [ref=e59] [cursor=pointer]:
+              - /url: /gemini-api/docs/libraries
+              - generic [ref=e60]: Libraries
+          - listitem [ref=e61]:
+            - link "Pricing" [ref=e62] [cursor=pointer]:
+              - /url: /gemini-api/docs/pricing
+              - generic [ref=e63]: Pricing
+          - listitem [ref=e64]:
+            - link "Interactions API" [ref=e65] [cursor=pointer]:
+              - /url: /gemini-api/docs/interactions
+              - generic [ref=e66]: Interactions API
+          - listitem [ref=e68]:
+            - link "Coding agent setup" [ref=e69] [cursor=pointer]:
+              - /url: /gemini-api/docs/coding-agents
+              - generic [ref=e70]: Coding agent setup
+          - listitem [ref=e71]:
+            - generic [ref=e73]: Models
+          - listitem [ref=e74]:
+            - link "All models" [ref=e75] [cursor=pointer]:
+              - /url: /gemini-api/docs/models
+              - generic [ref=e76]: All models
+          - listitem [ref=e77]:
+            - 'link "Current: Gemini 3.5" [ref=e78] [cursor=pointer]':
+              - /url: /gemini-api/docs/whats-new-gemini-3.5
+              - generic [ref=e79]:
+                - text: "Current: Gemini 3."
+                - text: "5"
+          - listitem [ref=e80]:
+            - link "Nano Banana" [ref=e81] [cursor=pointer]:
+              - /url: /gemini-api/docs/image-generation
+              - generic [ref=e82]: Nano Banana
+          - listitem [ref=e83]:
+            - link "Veo" [ref=e84] [cursor=pointer]:
+              - /url: /gemini-api/docs/video
+              - generic [ref=e85]: Veo
+          - listitem [ref=e86]:
+            - link "Lyria 3" [ref=e87] [cursor=pointer]:
+              - /url: /gemini-api/docs/music-generation
+              - generic [ref=e88]: Lyria 3
+          - listitem [ref=e90]:
+            - link "Lyria RealTime" [ref=e91] [cursor=pointer]:
+              - /url: /gemini-api/docs/realtime-music-generation
+              - generic [ref=e92]:
+                - text: Lyria Real
+                - text: Time
+          - listitem [ref=e93]:
+            - link "Imagen" [ref=e94] [cursor=pointer]:
+              - /url: /gemini-api/docs/imagen
+              - generic [ref=e95]: Imagen
+          - listitem [ref=e96]:
+            - link "Text-to-speech" [ref=e97] [cursor=pointer]:
+              - /url: /gemini-api/docs/speech-generation
+              - generic [ref=e98]: Text-to-speech
+          - listitem [ref=e99]:
+            - link "Embeddings" [ref=e100] [cursor=pointer]:
+              - /url: /gemini-api/docs/embeddings
+              - generic [ref=e101]: Embeddings
+          - listitem [ref=e102]:
+            - link "Robotics" [ref=e103] [cursor=pointer]:
+              - /url: /gemini-api/docs/robotics-overview
+              - generic [ref=e104]: Robotics
+          - listitem [ref=e106]:
+            - generic [ref=e108]: Core capabilities
+          - listitem [ref=e109]:
+            - link "Text" [ref=e110] [cursor=pointer]:
+              - /url: /gemini-api/docs/text-generation
+              - generic [ref=e111]: Text
+          - listitem [ref=e112]:
+            - generic [ref=e113]:
+              - text: arrow_drop_down
+              - button "Image " [ref=e114] [cursor=pointer]:
+                - generic [ref=e115]: Image
+                - text: 
+          - listitem [ref=e116]:
+            - generic [ref=e117]:
+              - text: arrow_drop_down
+              - button "Video " [ref=e118] [cursor=pointer]:
+                - generic [ref=e119]: Video
+                - text: 
+          - listitem [ref=e120]:
+            - link "Documents" [ref=e121] [cursor=pointer]:
+              - /url: /gemini-api/docs/document-processing
+              - generic [ref=e122]: Documents
+          - listitem [ref=e123]:
+            - generic [ref=e124]:
+              - text: arrow_drop_down
+              - button "Speech and audio " [ref=e125] [cursor=pointer]:
+                - generic [ref=e126]: Speech and audio
+                - text: 
+          - listitem [ref=e127]:
+            - generic [ref=e128]:
+              - text: arrow_drop_down
+              - button "Thinking " [ref=e129] [cursor=pointer]:
+                - generic [ref=e130]: Thinking
+                - text: 
+          - listitem [ref=e131]:
+            - link "Structured outputs" [ref=e132] [cursor=pointer]:
+              - /url: /gemini-api/docs/structured-output
+              - generic [ref=e133]: Structured outputs
+          - listitem [ref=e134]:
+            - link "Function calling" [ref=e135] [cursor=pointer]:
+              - /url: /gemini-api/docs/function-calling
+              - generic [ref=e136]: Function calling
+          - listitem [ref=e137]:
+            - link "Long context" [ref=e138] [cursor=pointer]:
+              - /url: /gemini-api/docs/long-context
+              - generic [ref=e139]: Long context
+          - listitem [ref=e140]:
+            - generic [ref=e142]: Agents
+          - listitem [ref=e143]:
+            - link "Overview" [ref=e144] [cursor=pointer]:
+              - /url: /gemini-api/docs/agents
+              - generic [ref=e145]: Overview
+          - listitem [ref=e146]:
+            - link "Quickstart" [ref=e147] [cursor=pointer]:
+              - /url: /gemini-api/docs/managed-agents-quickstart
+              - generic [ref=e148]: Quickstart
+          - listitem [ref=e149]:
+            - link "Antigravity Agent" [ref=e150] [cursor=pointer]:
+              - /url: /gemini-api/docs/antigravity-agent
+              - generic [ref=e151]: Antigravity Agent
+          - listitem [ref=e153]:
+            - link "Building managed agents" [ref=e154] [cursor=pointer]:
+              - /url: /gemini-api/docs/custom-agents
+              - generic [ref=e155]: Building managed agents
+          - listitem [ref=e156]:
+            - link "Environments" [ref=e157] [cursor=pointer]:
+              - /url: /gemini-api/docs/agent-environment
+              - generic [ref=e158]: Environments
+          - listitem [ref=e159]:
+            - link "Deep Research Agent" [ref=e160] [cursor=pointer]:
+              - /url: /gemini-api/docs/interactions/deep-research
+              - generic [ref=e161]: Deep Research Agent
+          - listitem [ref=e163]:
+            - generic [ref=e165]: Tools
+          - listitem [ref=e166]:
+            - link "Overview" [ref=e167] [cursor=pointer]:
+              - /url: /gemini-api/docs/tools
+              - generic [ref=e168]: Overview
+          - listitem [ref=e169]:
+            - link "Google Search" [ref=e170] [cursor=pointer]:
+              - /url: /gemini-api/docs/google-search
+              - generic [ref=e171]: Google Search
+          - listitem [ref=e172]:
+            - link "Google Maps" [ref=e173] [cursor=pointer]:
+              - /url: /gemini-api/docs/maps-grounding
+              - generic [ref=e174]: Google Maps
+          - listitem [ref=e175]:
+            - link "Code execution" [ref=e176] [cursor=pointer]:
+              - /url: /gemini-api/docs/code-execution
+              - generic [ref=e177]: Code execution
+          - listitem [ref=e178]:
+            - link "URL context" [ref=e179] [cursor=pointer]:
+              - /url: /gemini-api/docs/url-context
+              - generic [ref=e180]: URL context
+          - listitem [ref=e181]:
+            - link "Computer Use" [ref=e182] [cursor=pointer]:
+              - /url: /gemini-api/docs/computer-use
+              - generic [ref=e183]: Computer Use
+          - listitem [ref=e185]:
+            - link "File Search" [ref=e186] [cursor=pointer]:
+              - /url: /gemini-api/docs/file-search
+              - generic [ref=e187]: File Search
+          - listitem [ref=e188]:
+            - link "Combine Tools and Function calling" [ref=e189] [cursor=pointer]:
+              - /url: /gemini-api/docs/tool-combination
+              - generic [ref=e190]: Combine Tools and Function calling
+          - listitem [ref=e192]:
+            - generic [ref=e194]: Live API
+          - listitem [ref=e195]:
+            - link "Overview" [ref=e196] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api
+              - generic [ref=e197]: Overview
+          - listitem [ref=e198]:
+            - generic [ref=e199]:
+              - text: arrow_drop_down
+              - button "Get started " [ref=e200] [cursor=pointer]:
+                - generic [ref=e201]: Get started
+                - text: 
+          - listitem [ref=e202]:
+            - link "Capabilities" [ref=e203] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api/capabilities
+              - generic [ref=e204]: Capabilities
+          - listitem [ref=e205]:
+            - link "Tool use" [ref=e206] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api/tools
+              - generic [ref=e207]: Tool use
+          - listitem [ref=e208]:
+            - link "Session management" [ref=e209] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api/session-management
+              - generic [ref=e210]: Session management
+          - listitem [ref=e211]:
+            - link "Ephemeral tokens" [ref=e212] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api/ephemeral-tokens
+              - generic [ref=e213]: Ephemeral tokens
+          - listitem [ref=e214]:
+            - link "Best practices" [ref=e215] [cursor=pointer]:
+              - /url: /gemini-api/docs/live-api/best-practices
+              - generic [ref=e216]: Best practices
+          - listitem [ref=e217]:
+            - generic [ref=e219]: Optimization
+          - listitem [ref=e220]:
+            - link "Overview" [ref=e221] [cursor=pointer]:
+              - /url: /gemini-api/docs/optimization
+              - generic [ref=e222]: Overview
+          - listitem [ref=e223]:
+            - link "Batch API" [ref=e224] [cursor=pointer]:
+              - /url: /gemini-api/docs/batch-api
+              - generic [ref=e225]: Batch API
+          - listitem [ref=e226]:
+            - link "Webhooks" [ref=e227] [cursor=pointer]:
+              - /url: /gemini-api/docs/webhooks
+              - generic [ref=e228]: Webhooks
+          - listitem [ref=e230]:
+            - link "Flex inference" [ref=e231] [cursor=pointer]:
+              - /url: /gemini-api/docs/flex-inference
+              - generic [ref=e232]: Flex inference
+          - listitem [ref=e234]:
+            - link "Priority inference" [ref=e235] [cursor=pointer]:
+              - /url: /gemini-api/docs/priority-inference
+              - generic [ref=e236]: Priority inference
+          - listitem [ref=e238]:
+            - link "Context caching" [ref=e239] [cursor=pointer]:
+              - /url: /gemini-api/docs/caching
+              - generic [ref=e240]: Context caching
+          - listitem [ref=e241]:
+            - generic [ref=e243]: Guides
+          - listitem [ref=e244]:
+            - link "Streaming" [ref=e245] [cursor=pointer]:
+              - /url: /gemini-api/docs/interactions/streaming
+              - generic [ref=e246]: Streaming
+          - listitem [ref=e247]:
+            - generic [ref=e248]:
+              - text: arrow_drop_down
+              - button "File input " [ref=e249] [cursor=pointer]:
+                - generic [ref=e250]: File input
+                - text: 
+          - listitem [ref=e251]:
+            - link "OpenAI compatibility" [ref=e252] [cursor=pointer]:
+              - /url: /gemini-api/docs/openai
+              - generic [ref=e253]: OpenAI compatibility
+          - listitem [ref=e254]:
+            - link "Media resolution" [ref=e255] [cursor=pointer]:
+              - /url: /gemini-api/docs/media-resolution
+              - generic [ref=e256]: Media resolution
+          - listitem [ref=e257]:
+            - link "Token counting" [ref=e258] [cursor=pointer]:
+              - /url: /gemini-api/docs/tokens
+              - generic [ref=e259]: Token counting
+          - listitem [ref=e260]:
+            - link "Prompt engineering" [ref=e261] [cursor=pointer]:
+              - /url: /gemini-api/docs/prompting-strategies
+              - generic [ref=e262]: Prompt engineering
+          - listitem [ref=e263]:
+            - generic [ref=e264]:
+              - text: arrow_drop_down
+              - button "Logs and datasets " [ref=e265] [cursor=pointer]:
+                - generic [ref=e266]: Logs and datasets
+                - text: 
+          - listitem [ref=e267]:
+            - generic [ref=e268]:
+              - text: arrow_drop_down
+              - button "Safety " [ref=e269] [cursor=pointer]:
+                - generic [ref=e270]: Safety
+                - text: 
+          - listitem [ref=e271]:
+            - generic [ref=e272]:
+              - text: arrow_drop_down
+              - button "Frameworks " [ref=e273] [cursor=pointer]:
+                - generic [ref=e274]: Frameworks
+                - text: 
+          - listitem [ref=e275]:
+            - generic [ref=e277]: Resources
+          - listitem [ref=e278]:
+            - link "Release notes" [ref=e279] [cursor=pointer]:
+              - /url: /gemini-api/docs/changelog
+              - generic [ref=e280]: Release notes
+          - listitem [ref=e281]:
+            - link "Deprecations" [ref=e282] [cursor=pointer]:
+              - /url: /gemini-api/docs/deprecations
+              - generic [ref=e283]: Deprecations
+          - listitem [ref=e284]:
+            - generic [ref=e285]:
+              - text: arrow_drop_down
+              - button "Migration " [ref=e286] [cursor=pointer]:
+                - generic [ref=e287]: Migration
+                - text: 
+          - listitem [ref=e288]:
+            - link "Rate limits" [ref=e289] [cursor=pointer]:
+              - /url: /gemini-api/docs/rate-limits
+              - generic [ref=e290]: Rate limits
+          - listitem [ref=e291]:
+            - link "Billing info" [ref=e292] [cursor=pointer]:
+              - /url: /gemini-api/docs/billing
+              - generic [ref=e293]: Billing info
+          - listitem [ref=e294]:
+            - link "API troubleshooting" [ref=e295] [cursor=pointer]:
+              - /url: /gemini-api/docs/troubleshooting
+              - generic [ref=e296]: API troubleshooting
+          - listitem [ref=e297]:
+            - link "Status" [ref=e298] [cursor=pointer]:
+              - /url: https://aistudio.google.com/status
+              - generic [ref=e299]: Status
+              - generic [ref=e300]: open_in_new
+          - listitem [ref=e301]:
+            - link "Partner and library integrations" [ref=e302] [cursor=pointer]:
+              - /url: /gemini-api/docs/partner-integration
+              - generic [ref=e303]: Partner and library integrations
+          - listitem [ref=e304]:
+            - generic [ref=e305]:
+              - text: arrow_drop_down
+              - button "Google AI Studio " [ref=e306] [cursor=pointer]:
+                - generic [ref=e307]: Google AI Studio
+                - text: 
+          - listitem [ref=e308]:
+            - generic [ref=e309]:
+              - text: arrow_drop_down
+              - button "Google Cloud Platform " [ref=e310] [cursor=pointer]:
+                - generic [ref=e311]: Google Cloud Platform
+                - text: 
+          - listitem [ref=e312]:
+            - generic [ref=e314]: Policies
+          - listitem [ref=e315]:
+            - link "Terms of service" [ref=e316] [cursor=pointer]:
+              - /url: /gemini-api/terms
+              - generic [ref=e317]: Terms of service
+          - listitem [ref=e318]:
+            - link "Available regions" [ref=e319] [cursor=pointer]:
+              - /url: /gemini-api/docs/available-regions
+              - generic [ref=e320]: Available regions
+          - listitem [ref=e321]:
+            - link "Abuse monitoring" [ref=e322] [cursor=pointer]:
+              - /url: /gemini-api/docs/usage-policies
+              - generic [ref=e323]: Abuse monitoring
+          - listitem [ref=e324]:
+            - link "Feedback information" [ref=e325] [cursor=pointer]:
+              - /url: /gemini-api/docs/feedback-policies
+              - generic [ref=e326]: Feedback information
+    - button "Hide side navigation" [expanded] [ref=e327] [cursor=pointer]:
+      - generic [ref=e328]: chevron_left
+    - generic [ref=e329]:
+      - main [ref=e330]:
+        - generic [ref=e331]:
+          - article [ref=e332]:
+            - generic [ref=e335]:
+              - link "Gemini Deep Research" [ref=e336] [cursor=pointer]:
+                - /url: /gemini-api/docs/deep-research
+              - text: is now available in preview with collaborative planning, visualization, MCP support, and more.
+            - navigation [ref=e337]:
+              - list "Breadcrumb" [ref=e338]:
+                - listitem [ref=e339]:
+                  - link "Home" [ref=e340] [cursor=pointer]:
+                    - /url: https://ai.google.dev/
+                - listitem [ref=e341]:
+                  - generic [ref=e342]: chevron_right
+                  - link "Gemini API" [ref=e343] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api
+                - listitem [ref=e344]:
+                  - generic [ref=e345]: chevron_right
+                  - link "Docs" [ref=e346] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api/docs
+            - heading "Gemini Developer API pricing LLM Tools" [level=1] [ref=e347]:
+              - text: Gemini Developer API pricing
+              - group "LLM Tools" [ref=e350]:
+                - button "Copy page as markdown" [ref=e352] [cursor=pointer]:
+                  - generic [ref=e353]: content_copy
+                - button "More LLM Tools options" [ref=e356] [cursor=pointer]: arrow_drop_down
+            - text: expand_more more_horiz
+            - generic [ref=e357]:
+              - paragraph
+              - paragraph
+              - complementary [ref=e358]:
+                - paragraph [ref=e359]:
+                  - text: We have updated our
+                  - link "Terms of Service" [ref=e360] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api/terms
+                  - text: .
+              - paragraph [ref=e361]: Start building free of charge with generous limits, then scale up with prepaid then pay-as-you-go pricing for your production ready applications.
+              - generic [ref=e363]:
+                - generic [ref=e364]:
+                  - 'heading "Free Copy link to this section: Free" [level=3] [ref=e365]':
+                    - heading "Free" [level=3] [ref=e366]
+                    - 'button "Copy link to this section: Free" [ref=e367] [cursor=pointer]': link
+                  - paragraph [ref=e368]: For developers and small projects getting started with the Gemini API.
+                  - list [ref=e369]:
+                    - listitem [ref=e370]:
+                      - generic [ref=e371]: check_circle
+                      - text: Limited access to certain models
+                    - listitem [ref=e372]:
+                      - generic [ref=e373]: check_circle
+                      - text: Free input & output tokens
+                    - listitem [ref=e374]:
+                      - generic [ref=e375]: check_circle
+                      - text: Google AI Studio access
+                    - listitem [ref=e376]:
+                      - generic [ref=e377]: check_circle
+                      - text: Content used to improve our products
+                      - link "*" [ref=e378] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms
+                  - link "Get started for Free" [ref=e379] [cursor=pointer]:
+                    - /url: https://aistudio.google.com
+                - generic [ref=e380]:
+                  - 'heading "Paid Copy link to this section: Paid" [level=3] [ref=e381]':
+                    - heading "Paid" [level=3] [ref=e382]
+                    - 'button "Copy link to this section: Paid" [ref=e383] [cursor=pointer]': link
+                  - paragraph [ref=e384]: For production applications that require higher volumes and advanced features.
+                  - list [ref=e385]:
+                    - listitem [ref=e386]:
+                      - generic [ref=e387]: check_circle
+                      - text: Higher rate limits for production deployments
+                    - listitem [ref=e388]:
+                      - generic [ref=e389]: check_circle
+                      - text: Access to Context caching
+                    - listitem [ref=e390]:
+                      - generic [ref=e391]: check_circle
+                      - text: Batch API (50% cost reduction)
+                    - listitem [ref=e392]:
+                      - generic [ref=e393]: check_circle
+                      - text: Access to Google's most advanced models
+                    - listitem [ref=e394]:
+                      - generic [ref=e395]: check_circle
+                      - generic [ref=e396]:
+                        - text: Content
+                        - strong [ref=e397]: not
+                        - text: used to improve our products
+                      - link "*" [ref=e398] [cursor=pointer]:
+                        - /url: https://ai.google.dev/gemini-api/terms
+                  - link "Upgrade to Paid" [ref=e399] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/api-keys
+                - generic [ref=e400]:
+                  - heading "Enterprise" [level=3] [ref=e401]
+                  - paragraph [ref=e402]:
+                    - text: For large-scale deployments with custom needs for security, support, and compliance, powered by
+                    - link "Gemini Enterprise Agent Platform" [ref=e403] [cursor=pointer]:
+                      - /url: https://cloud.google.com/gemini-enterprise-agent-platform
+                    - text: .
+                  - list [ref=e404]:
+                    - listitem [ref=e405]:
+                      - generic [ref=e406]: check_circle
+                      - text: "All features in Paid, plus optional access to:"
+                    - listitem [ref=e407]:
+                      - generic [ref=e408]: check_circle
+                      - text: Dedicated support channels
+                    - listitem [ref=e409]:
+                      - generic [ref=e410]: check_circle
+                      - text: Advanced security & compliance
+                    - listitem [ref=e411]:
+                      - generic [ref=e412]: check_circle
+                      - text: Provisioned throughput
+                    - listitem [ref=e413]:
+                      - generic [ref=e414]: check_circle
+                      - text: Volume-based discounts (based on usage)
+                    - listitem [ref=e415]:
+                      - generic [ref=e416]: check_circle
+                      - text: ML ops, model garden and more
+                  - link "Contact Sales" [ref=e417] [cursor=pointer]:
+                    - /url: https://cloud.google.com/contact
+              - generic [ref=e418]:
+                - generic [ref=e419]:
+                  - heading "Gemini 3.5 Flash" [level=2] [ref=e420]
+                  - emphasis [ref=e421]:
+                    - code [ref=e422]: gemini-3.5-flash
+                - paragraph [ref=e423]:
+                  - link "Try it in Google AI Studio" [ref=e424] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-3.5-flash
+              - paragraph [ref=e425]: Our most intelligent model built for speed, combining frontier intelligence with superior search and grounding.
+              - generic [ref=e427]:
+                - tablist [ref=e428]:
+                  - generic [ref=e429]:
+                    - tab "Standard" [selected] [ref=e430]:
+                      - button "Standard" [expanded] [ref=e431] [cursor=pointer]
+                    - tab "Batch" [ref=e432]:
+                      - button "Batch" [ref=e433] [cursor=pointer]
+                    - tab "Flex" [ref=e434]:
+                      - button "Flex" [ref=e435] [cursor=pointer]
+                    - tab "Priority" [ref=e436]:
+                      - button "Priority" [ref=e437] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e438]:
+                  - table [ref=e440]:
+                    - rowgroup [ref=e445]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e446]:
+                        - columnheader [ref=e447]
+                        - columnheader "Free Tier" [ref=e448]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e449]
+                    - rowgroup [ref=e450]:
+                      - row "Input price Free of charge $1.50" [ref=e451]:
+                        - cell "Input price" [ref=e452]
+                        - cell "Free of charge" [ref=e453]
+                        - cell "$1.50" [ref=e454]
+                      - row "Output price (including thinking tokens) Free of charge $9.00" [ref=e455]:
+                        - cell "Output price (including thinking tokens)" [ref=e456]
+                        - cell "Free of charge" [ref=e457]
+                        - cell "$9.00" [ref=e458]
+                      - row "Context caching price Free of charge $0.15 $1.00 / 1,000,000 tokens per hour (storage price)" [ref=e459]:
+                        - cell "Context caching price" [ref=e460]
+                        - cell "Free of charge" [ref=e461]
+                        - cell "$0.15 $1.00 / 1,000,000 tokens per hour (storage price)" [ref=e462]:
+                          - text: $0.15
+                          - text: $1.00 / 1,000,000 tokens per hour (storage price)
+                      - row "Grounding with Google Search* Not available 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e463]:
+                        - cell "Grounding with Google Search*" [ref=e464]:
+                          - text: Grounding with Google Search
+                          - superscript [ref=e465]: "*"
+                        - cell "Not available" [ref=e466]
+                        - cell "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e467]
+                      - row "Grounding with Google Maps Not available 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e468]:
+                        - cell "Grounding with Google Maps" [ref=e469]
+                        - cell "Not available" [ref=e470]
+                        - cell "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e471]
+                      - row "Used to improve our products Yes No" [ref=e472]:
+                        - cell "Used to improve our products" [ref=e473]
+                        - cell "Yes" [ref=e474]:
+                          - link "Yes" [ref=e475] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e476]:
+                          - link "No" [ref=e477] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - paragraph [ref=e478]:
+                - superscript [ref=e479]: "*"
+                - text: A customer-submitted request to Gemini may result in one or more queries to Google Search. You will be charged for each individual search query performed.
+              - generic [ref=e480]:
+                - generic [ref=e481]:
+                  - heading "Gemini 3.1 Flash-Lite" [level=2] [ref=e482]
+                  - emphasis [ref=e483]:
+                    - code [ref=e484]: gemini-3.1-flash-lite
+                - paragraph [ref=e485]:
+                  - link "Try it in Google AI Studio" [ref=e486] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-lite
+              - paragraph [ref=e487]: Our most cost-efficient model, optimized for high-volume agentic tasks, translation, and simple data processing.
+              - generic [ref=e489]:
+                - tablist [ref=e490]:
+                  - generic [ref=e491]:
+                    - tab "Standard" [selected] [ref=e492]:
+                      - button "Standard" [expanded] [ref=e493] [cursor=pointer]
+                    - tab "Batch" [ref=e494]:
+                      - button "Batch" [ref=e495] [cursor=pointer]
+                    - tab "Flex" [ref=e496]:
+                      - button "Flex" [ref=e497] [cursor=pointer]
+                    - tab "Priority" [ref=e498]:
+                      - button "Priority" [ref=e499] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e500]:
+                  - table [ref=e502]:
+                    - rowgroup [ref=e507]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e508]:
+                        - columnheader [ref=e509]
+                        - columnheader "Free Tier" [ref=e510]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e511]
+                    - rowgroup [ref=e512]:
+                      - row "Input price Free of charge $0.25 (text / image / video) $0.50 (audio)" [ref=e513]:
+                        - cell "Input price" [ref=e514]
+                        - cell "Free of charge" [ref=e515]
+                        - cell "$0.25 (text / image / video) $0.50 (audio)" [ref=e516]:
+                          - text: $0.25 (text / image / video)
+                          - text: $0.50 (audio)
+                      - row "Output price (including thinking tokens) Free of charge $1.50" [ref=e517]:
+                        - cell "Output price (including thinking tokens)" [ref=e518]
+                        - cell "Free of charge" [ref=e519]
+                        - cell "$1.50" [ref=e520]
+                      - row "Context caching price Not available $0.025 (text / image / video) $0.05 (audio) $1.00 / 1,000,000 tokens per hour (storage price)" [ref=e521]:
+                        - cell "Context caching price" [ref=e522]
+                        - cell "Not available" [ref=e523]
+                        - cell "$0.025 (text / image / video) $0.05 (audio) $1.00 / 1,000,000 tokens per hour (storage price)" [ref=e524]:
+                          - text: $0.025 (text / image / video)
+                          - text: $0.05 (audio)
+                          - text: $1.00 / 1,000,000 tokens per hour (storage price)
+                      - row "Grounding with Google Search* Not available 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e525]:
+                        - cell "Grounding with Google Search*" [ref=e526]:
+                          - text: Grounding with Google Search
+                          - superscript [ref=e527]: "*"
+                        - cell "Not available" [ref=e528]
+                        - cell "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e529]
+                      - row "Grounding with Google Maps Not available 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e530]:
+                        - cell "Grounding with Google Maps" [ref=e531]
+                        - cell "Not available" [ref=e532]
+                        - cell "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e533]
+                      - row "Used to improve our products Yes No" [ref=e534]:
+                        - cell "Used to improve our products" [ref=e535]
+                        - cell "Yes" [ref=e536]:
+                          - link "Yes" [ref=e537] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e538]:
+                          - link "No" [ref=e539] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - paragraph [ref=e540]:
+                - superscript [ref=e541]: "*"
+                - text: A customer-submitted request to Gemini may result in one or more queries to Google Search. You will be charged for each individual search query performed.
+              - generic [ref=e542]:
+                - generic [ref=e543]:
+                  - heading "Gemini 3.1 Pro Preview" [level=2] [ref=e544]
+                  - emphasis [ref=e545]:
+                    - code [ref=e546]: gemini-3.1-pro-preview
+                    - text: and
+                    - code [ref=e547]: gemini-3.1-pro-preview-customtools
+                - paragraph [ref=e548]:
+                  - link "Try it in Google AI Studio" [ref=e549] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-pro-preview
+              - paragraph [ref=e550]: The latest performance, intelligence, and usability improvements to the best model family in the world for multimodal understanding, agentic capabilities, and vibe-coding.
+              - generic [ref=e552]:
+                - tablist [ref=e553]:
+                  - generic [ref=e554]:
+                    - tab "Standard" [selected] [ref=e555]:
+                      - button "Standard" [expanded] [ref=e556] [cursor=pointer]
+                    - tab "Batch" [ref=e557]:
+                      - button "Batch" [ref=e558] [cursor=pointer]
+                    - tab "Flex" [ref=e559]:
+                      - button "Flex" [ref=e560] [cursor=pointer]
+                    - tab "Priority" [ref=e561]:
+                      - button "Priority" [ref=e562] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e563]:
+                  - table [ref=e565]:
+                    - rowgroup [ref=e570]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e571]:
+                        - columnheader [ref=e572]
+                        - columnheader "Free Tier" [ref=e573]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e574]
+                    - rowgroup [ref=e575]:
+                      - row "Input price Not available $2.00, prompts <= 200k tokens $4.00, prompts > 200k tokens" [ref=e576]:
+                        - cell "Input price" [ref=e577]
+                        - cell "Not available" [ref=e578]
+                        - cell "$2.00, prompts <= 200k tokens $4.00, prompts > 200k tokens" [ref=e579]:
+                          - text: $2.00, prompts <= 200k tokens
+                          - text: $4.00, prompts > 200k tokens
+                      - row "Output price (including thinking tokens) Not available $12.00, prompts <= 200k tokens $18.00, prompts > 200k" [ref=e580]:
+                        - cell "Output price (including thinking tokens)" [ref=e581]
+                        - cell "Not available" [ref=e582]
+                        - cell "$12.00, prompts <= 200k tokens $18.00, prompts > 200k" [ref=e583]:
+                          - text: $12.00, prompts <= 200k tokens
+                          - text: $18.00, prompts > 200k
+                      - row "Context caching price Not available $0.20, prompts <= 200k tokens $0.40, prompts > 200k $4.50 / 1,000,000 tokens per hour (storage price)" [ref=e584]:
+                        - cell "Context caching price" [ref=e585]
+                        - cell "Not available" [ref=e586]
+                        - cell "$0.20, prompts <= 200k tokens $0.40, prompts > 200k $4.50 / 1,000,000 tokens per hour (storage price)" [ref=e587]:
+                          - text: $0.20, prompts <= 200k tokens
+                          - text: $0.40, prompts > 200k
+                          - text: $4.50 / 1,000,000 tokens per hour (storage price)
+                      - row "Grounding with Google Search* Not available 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e588]:
+                        - cell "Grounding with Google Search*" [ref=e589]:
+                          - text: Grounding with Google Search
+                          - superscript [ref=e590]: "*"
+                        - cell "Not available" [ref=e591]
+                        - cell "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e592]
+                      - row "Grounding with Google Maps Not available 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e593]:
+                        - cell "Grounding with Google Maps" [ref=e594]
+                        - cell "Not available" [ref=e595]
+                        - cell "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e596]
+                      - row "Used to improve our products Yes No" [ref=e597]:
+                        - cell "Used to improve our products" [ref=e598]
+                        - cell "Yes" [ref=e599]:
+                          - link "Yes" [ref=e600] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e601]:
+                          - link "No" [ref=e602] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - paragraph [ref=e603]:
+                - superscript [ref=e604]: "*"
+                - text: A customer-submitted request to Gemini may result in one or more queries to Google Search. You will be charged for each individual search query performed.
+              - generic [ref=e605]:
+                - generic [ref=e606]:
+                  - heading "Gemini 3.1 Flash-Lite Preview" [level=2] [ref=e607]
+                  - emphasis [ref=e608]:
+                    - code [ref=e609]: gemini-3.1-flash-lite-preview
+                - paragraph [ref=e610]:
+                  - link "Try it in Google AI Studio" [ref=e611] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-lite-preview
+              - paragraph [ref=e612]: Our most cost-efficient model, optimized for high-volume agentic tasks, translation, and simple data processing.
+              - paragraph [ref=e613]: Preview models may change before becoming stable and have more restrictive rate limits.
+              - generic [ref=e615]:
+                - tablist [ref=e616]:
+                  - generic [ref=e617]:
+                    - tab "Standard" [selected] [ref=e618]:
+                      - button "Standard" [expanded] [ref=e619] [cursor=pointer]
+                    - tab "Batch" [ref=e620]:
+                      - button "Batch" [ref=e621] [cursor=pointer]
+                    - tab "Flex" [ref=e622]:
+                      - button "Flex" [ref=e623] [cursor=pointer]
+                    - tab "Priority" [ref=e624]:
+                      - button "Priority" [ref=e625] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e626]:
+                  - table [ref=e628]:
+                    - rowgroup [ref=e633]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e634]:
+                        - columnheader [ref=e635]
+                        - columnheader "Free Tier" [ref=e636]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e637]
+                    - rowgroup [ref=e638]:
+                      - row "Input price Free of charge $0.25 (text / image / video) $0.50 (audio)" [ref=e639]:
+                        - cell "Input price" [ref=e640]
+                        - cell "Free of charge" [ref=e641]
+                        - cell "$0.25 (text / image / video) $0.50 (audio)" [ref=e642]:
+                          - text: $0.25 (text / image / video)
+                          - text: $0.50 (audio)
+                      - row "Output price (including thinking tokens) Free of charge $1.50" [ref=e643]:
+                        - cell "Output price (including thinking tokens)" [ref=e644]
+                        - cell "Free of charge" [ref=e645]
+                        - cell "$1.50" [ref=e646]
+                      - row "Context caching price Not available $0.025 (text / image / video) $0.05 (audio) $1.00 / 1,000,000 tokens per hour (storage price)" [ref=e647]:
+                        - cell "Context caching price" [ref=e648]
+                        - cell "Not available" [ref=e649]
+                        - cell "$0.025 (text / image / video) $0.05 (audio) $1.00 / 1,000,000 tokens per hour (storage price)" [ref=e650]:
+                          - text: $0.025 (text / image / video)
+                          - text: $0.05 (audio)
+                          - text: $1.00 / 1,000,000 tokens per hour (storage price)
+                      - row "Grounding with Google Search* Not available 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e651]:
+                        - cell "Grounding with Google Search*" [ref=e652]:
+                          - text: Grounding with Google Search
+                          - superscript [ref=e653]: "*"
+                        - cell "Not available" [ref=e654]
+                        - cell "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e655]
+                      - row "Grounding with Google Maps Not available 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e656]:
+                        - cell "Grounding with Google Maps" [ref=e657]
+                        - cell "Not available" [ref=e658]
+                        - cell "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e659]
+                      - row "Used to improve our products Yes No" [ref=e660]:
+                        - cell "Used to improve our products" [ref=e661]
+                        - cell "Yes" [ref=e662]:
+                          - link "Yes" [ref=e663] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e664]:
+                          - link "No" [ref=e665] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - paragraph [ref=e666]:
+                - superscript [ref=e667]: "*"
+                - text: A customer-submitted request to Gemini may result in one or more queries to Google Search. You will be charged for each individual search query performed.
+              - generic [ref=e668]:
+                - generic [ref=e669]:
+                  - heading "Gemini 3.1 Flash Live Preview" [level=2] [ref=e670]
+                  - emphasis [ref=e671]:
+                    - code [ref=e672]: gemini-3.1-flash-live-preview
+                - paragraph [ref=e673]:
+                  - link "Try it in Google AI Studio" [ref=e674] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-live-preview
+              - paragraph [ref=e675]: Our low-latency, audio-to-audio model optimized for real-time dialogue with acoustic nuance detection, numeric precision, and multimodal awareness.
+              - table [ref=e677]:
+                - rowgroup [ref=e682]:
+                  - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e683]:
+                    - columnheader [ref=e684]
+                    - columnheader "Free Tier" [ref=e685]
+                    - columnheader "Paid Tier, per 1M tokens in USD" [ref=e686]
+                - rowgroup [ref=e687]:
+                  - row "Input price Free of charge $0.75 (text) $3.00 or $0.005/min (audio) $1.00 or $0.002/min (image/video)" [ref=e688]:
+                    - cell "Input price" [ref=e689]
+                    - cell "Free of charge" [ref=e690]
+                    - cell "$0.75 (text) $3.00 or $0.005/min (audio) $1.00 or $0.002/min (image/video)" [ref=e691]:
+                      - text: $0.75 (text)
+                      - text: $3.00 or $0.005/min (audio)
+                      - text: $1.00 or $0.002/min (image/video)
+                  - row "Output price (including thinking tokens) Free of charge $4.50 (text) $12.00 or $0.018/min (audio)" [ref=e692]:
+                    - cell "Output price (including thinking tokens)" [ref=e693]
+                    - cell "Free of charge" [ref=e694]
+                    - cell "$4.50 (text) $12.00 or $0.018/min (audio)" [ref=e695]:
+                      - text: $4.50 (text)
+                      - text: $12.00 or $0.018/min (audio)
+                  - row "Grounding with Google Search* Supported 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e696]:
+                    - cell "Grounding with Google Search*" [ref=e697]:
+                      - text: Grounding with Google Search
+                      - superscript [ref=e698]: "*"
+                    - cell "Supported" [ref=e699]
+                    - cell "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e700]
+                  - row "Used to improve our products Yes No" [ref=e701]:
+                    - cell "Used to improve our products" [ref=e702]
+                    - cell "Yes" [ref=e703]:
+                      - link "Yes" [ref=e704] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+                    - cell "No" [ref=e705]:
+                      - link "No" [ref=e706] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+              - paragraph [ref=e707]:
+                - superscript [ref=e708]: "*"
+                - text: A customer-submitted request to Gemini may result in one or more queries to Google Search. You will be charged for each individual search query performed.
+              - generic [ref=e709]:
+                - generic [ref=e710]:
+                  - heading "Gemini 3.1 Flash Image Preview 🍌" [level=2] [ref=e711]
+                  - emphasis [ref=e712]:
+                    - code [ref=e713]: gemini-3.1-flash-image-preview
+                - paragraph [ref=e714]:
+                  - link "Try it in Google AI Studio" [ref=e715] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-image-preview
+              - paragraph [ref=e716]: Designed for speed and efficiency, the Gemini 3.1 Flash Image generation model is effective for quick, interactive responses and high throughput.
+              - paragraph [ref=e717]: Preview models may change before becoming stable and have more restrictive rate limits.
+              - generic [ref=e719]:
+                - tablist [ref=e720]:
+                  - generic [ref=e721]:
+                    - tab "Standard" [selected] [ref=e722]:
+                      - button "Standard" [expanded] [ref=e723] [cursor=pointer]
+                    - tab "Batch" [ref=e724]:
+                      - button "Batch" [ref=e725] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e726]:
+                  - table [ref=e728]:
+                    - rowgroup [ref=e733]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e734]:
+                        - columnheader [ref=e735]
+                        - columnheader "Free Tier" [ref=e736]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e737]
+                    - rowgroup [ref=e738]:
+                      - row "Input price Not available $0.50 (text/image)" [ref=e739]:
+                        - cell "Input price" [ref=e740]
+                        - cell "Not available" [ref=e741]
+                        - cell "$0.50 (text/image)" [ref=e742]
+                      - row "Output price Not available $3 (text and thinking) $60.00 (images) Equivalent to $0.045 per 0.5K image* $0.067 per 1K image*, $0.101 per 2K image*, and $0.151 per 4K image*." [ref=e743]:
+                        - cell "Output price" [ref=e744]
+                        - cell "Not available" [ref=e745]
+                        - cell "$3 (text and thinking) $60.00 (images) Equivalent to $0.045 per 0.5K image* $0.067 per 1K image*, $0.101 per 2K image*, and $0.151 per 4K image*." [ref=e746]:
+                          - text: $3 (text and thinking)
+                          - text: $60.00 (images)
+                          - text: Equivalent to $0.045 per 0.5K image
+                          - superscript [ref=e747]: "*"
+                          - text: $0.067 per 1K image
+                          - superscript [ref=e748]: "*"
+                          - text: ", $0.101 per 2K image"
+                          - superscript [ref=e749]: "*"
+                          - text: ", and $0.151 per 4K image"
+                          - superscript [ref=e750]: "*"
+                          - text: .
+                      - row "Grounding with Google Search** Not available 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries for text and image-based grounding." [ref=e751]:
+                        - cell "Grounding with Google Search**" [ref=e752]:
+                          - text: Grounding with Google Search
+                          - superscript [ref=e753]: "**"
+                        - cell "Not available" [ref=e754]
+                        - cell "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries for text and image-based grounding." [ref=e755]
+                      - row "Used to improve our products Yes No" [ref=e756]:
+                        - cell "Used to improve our products" [ref=e757]
+                        - cell "Yes" [ref=e758]:
+                          - link "Yes" [ref=e759] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e760]:
+                          - link "No" [ref=e761] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - paragraph [ref=e762]:
+                - superscript [ref=e763]: "*"
+                - text: Image output is priced at $60 per 1,000,000 tokens. Output images at 0.5K (512px) consume 747 tokens and are equivalent to $0.045 per image. Output images at 1K (1024x1024px) consume 1120 tokens and are equivalent to $0.067 per image. Output images at 2K (2048x2048px) consume 1680 tokens and are equivalent to $0.101 per image. Output images at 4K (4096x4096px) consume 2520 tokens and are equivalent to $0.151 per image.
+              - paragraph [ref=e764]:
+                - superscript [ref=e765]: "**"
+                - text: A customer-submitted request to Gemini may result in one or more queries to Google Search. You will be charged for each individual search query performed. Retrieved context (text or images) provided by Grounding with Google Search is not charged as input tokens.
+              - generic [ref=e766]:
+                - generic [ref=e767]:
+                  - heading "Gemini 3.1 Flash TTS Preview" [level=2] [ref=e768]
+                  - emphasis [ref=e769]:
+                    - code [ref=e770]: gemini-3.1-flash-tts-preview
+                - paragraph [ref=e771]:
+                  - link "Try it in Google AI Studio" [ref=e772] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-tts-preview
+              - paragraph [ref=e773]: Our 3.1 Flash Text-to-Speech audio model optimized for price-performant, low-latency, controllable speech generation.
+              - paragraph [ref=e774]: Preview models may change before becoming stable and have more restrictive rate limits.
+              - generic [ref=e776]:
+                - tablist [ref=e777]:
+                  - generic [ref=e778]:
+                    - tab "Standard" [selected] [ref=e779]:
+                      - button "Standard" [expanded] [ref=e780] [cursor=pointer]
+                    - tab "Batch" [ref=e781]:
+                      - button "Batch" [ref=e782] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e783]:
+                  - table [ref=e785]:
+                    - rowgroup [ref=e790]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e791]:
+                        - columnheader [ref=e792]
+                        - columnheader "Free Tier" [ref=e793]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e794]
+                    - rowgroup [ref=e795]:
+                      - row "Input price Free of charge $1.00 (text)" [ref=e796]:
+                        - cell "Input price" [ref=e797]
+                        - cell "Free of charge" [ref=e798]
+                        - cell "$1.00 (text)" [ref=e799]
+                      - row "Output price Free of charge $20.00 (audio)" [ref=e800]:
+                        - cell "Output price" [ref=e801]
+                        - cell "Free of charge" [ref=e802]
+                        - cell "$20.00 (audio)" [ref=e803]
+                      - row "Used to improve our products Yes No" [ref=e804]:
+                        - cell "Used to improve our products" [ref=e805]
+                        - cell "Yes" [ref=e806]:
+                          - link "Yes" [ref=e807] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e808]:
+                          - link "No" [ref=e809] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - paragraph [ref=e810]:
+                - superscript [ref=e811]: "*"
+                - text: Audio tokens correspond to 25 tokens per second of audio.
+              - generic [ref=e812]:
+                - generic [ref=e813]:
+                  - heading "Gemini 3 Flash Preview" [level=2] [ref=e814]
+                  - emphasis [ref=e815]:
+                    - code [ref=e816]: gemini-3-flash-preview
+                - paragraph [ref=e817]:
+                  - link "Try it in Google AI Studio" [ref=e818] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-3-flash-preview
+              - paragraph [ref=e819]: Our most intelligent model built for speed, combining frontier intelligence with superior search and grounding.
+              - generic [ref=e821]:
+                - tablist [ref=e822]:
+                  - generic [ref=e823]:
+                    - tab "Standard" [selected] [ref=e824]:
+                      - button "Standard" [expanded] [ref=e825] [cursor=pointer]
+                    - tab "Batch" [ref=e826]:
+                      - button "Batch" [ref=e827] [cursor=pointer]
+                    - tab "Flex" [ref=e828]:
+                      - button "Flex" [ref=e829] [cursor=pointer]
+                    - tab "Priority" [ref=e830]:
+                      - button "Priority" [ref=e831] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e832]:
+                  - table [ref=e834]:
+                    - rowgroup [ref=e839]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e840]:
+                        - columnheader [ref=e841]
+                        - columnheader "Free Tier" [ref=e842]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e843]
+                    - rowgroup [ref=e844]:
+                      - row "Input price Free of charge $0.50 (text / image / video) $1.00 (audio)" [ref=e845]:
+                        - cell "Input price" [ref=e846]
+                        - cell "Free of charge" [ref=e847]
+                        - cell "$0.50 (text / image / video) $1.00 (audio)" [ref=e848]:
+                          - text: $0.50 (text / image / video)
+                          - text: $1.00 (audio)
+                      - row "Output price (including thinking tokens) Free of charge $3.00" [ref=e849]:
+                        - cell "Output price (including thinking tokens)" [ref=e850]
+                        - cell "Free of charge" [ref=e851]
+                        - cell "$3.00" [ref=e852]
+                      - row "Context caching price Free of charge $0.05 (text / image / video) $0.10 (audio) $1.00 / 1,000,000 tokens per hour (storage price)" [ref=e853]:
+                        - cell "Context caching price" [ref=e854]
+                        - cell "Free of charge" [ref=e855]
+                        - cell "$0.05 (text / image / video) $0.10 (audio) $1.00 / 1,000,000 tokens per hour (storage price)" [ref=e856]:
+                          - text: $0.05 (text / image / video)
+                          - text: $0.10 (audio)
+                          - text: $1.00 / 1,000,000 tokens per hour (storage price)
+                      - row "Grounding with Google Search* Not available 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e857]:
+                        - cell "Grounding with Google Search*" [ref=e858]:
+                          - text: Grounding with Google Search
+                          - superscript [ref=e859]: "*"
+                        - cell "Not available" [ref=e860]
+                        - cell "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e861]
+                      - row "Grounding with Google Maps Not available 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e862]:
+                        - cell "Grounding with Google Maps" [ref=e863]
+                        - cell "Not available" [ref=e864]
+                        - cell "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e865]
+                      - row "Used to improve our products Yes No" [ref=e866]:
+                        - cell "Used to improve our products" [ref=e867]
+                        - cell "Yes" [ref=e868]:
+                          - link "Yes" [ref=e869] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e870]:
+                          - link "No" [ref=e871] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - paragraph [ref=e872]:
+                - superscript [ref=e873]: "*"
+                - text: A customer-submitted request to Gemini may result in one or more queries to Google Search. You will be charged for each individual search query performed.
+              - generic [ref=e874]:
+                - generic [ref=e875]:
+                  - heading "Gemini 3 Pro Image Preview 🍌" [level=2] [ref=e876]
+                  - emphasis [ref=e877]:
+                    - code [ref=e878]: gemini-3-pro-image-preview
+                - paragraph [ref=e879]:
+                  - link "Try it in Google AI Studio" [ref=e880] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-3-pro-image-preview
+              - paragraph [ref=e881]:
+                - text: Our native image generation model, optimized for speed, flexibility, and contextual understanding.
+                - strong [ref=e882]: Text input and output
+                - text: is priced the same as
+                - link "Gemini 3.1 Pro" [ref=e883] [cursor=pointer]:
+                  - /url: "#gemini-3.1-pro-preview"
+                - text: .
+              - paragraph [ref=e884]: Preview models may change before becoming stable and have more restrictive rate limits.
+              - generic [ref=e886]:
+                - tablist [ref=e887]:
+                  - generic [ref=e888]:
+                    - tab "Standard" [selected] [ref=e889]:
+                      - button "Standard" [expanded] [ref=e890] [cursor=pointer]
+                    - tab "Batch" [ref=e891]:
+                      - button "Batch" [ref=e892] [cursor=pointer]
+                    - tab "Flex" [ref=e893]:
+                      - button "Flex" [ref=e894] [cursor=pointer]
+                    - tab "Priority" [ref=e895]:
+                      - button "Priority" [ref=e896] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e897]:
+                  - table [ref=e899]:
+                    - rowgroup [ref=e904]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e905]:
+                        - columnheader [ref=e906]
+                        - columnheader "Free Tier" [ref=e907]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e908]
+                    - rowgroup [ref=e909]:
+                      - row "Input price Not available $2.00 (text/image), equivalent to $0.0011 per image*" [ref=e910]:
+                        - cell "Input price" [ref=e911]
+                        - cell "Not available" [ref=e912]
+                        - cell "$2.00 (text/image), equivalent to $0.0011 per image*" [ref=e913]:
+                          - text: $2.00 (text/image),
+                          - text: equivalent to $0.0011 per image
+                          - superscript [ref=e914]: "*"
+                      - row "Output price Not available $12.00 (text and thinking) $120.00 (images) Equivalent to $0.134 per 1K/2K image** and $0.24 per 4K image**" [ref=e915]:
+                        - cell "Output price" [ref=e916]
+                        - cell "Not available" [ref=e917]
+                        - cell "$12.00 (text and thinking) $120.00 (images) Equivalent to $0.134 per 1K/2K image** and $0.24 per 4K image**" [ref=e918]:
+                          - text: $12.00 (text and thinking)
+                          - text: $120.00 (images)
+                          - text: Equivalent to $0.134 per 1K/2K image
+                          - superscript [ref=e919]: "**"
+                          - text: and $0.24 per 4K image
+                          - superscript [ref=e920]: "**"
+                      - row "Grounding with Google Web and Image Search*** Not available 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e921]:
+                        - cell "Grounding with Google Web and Image Search***" [ref=e922]:
+                          - text: Grounding with Google Web and Image Search
+                          - superscript [ref=e923]: "***"
+                        - cell "Not available" [ref=e924]
+                        - cell "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries" [ref=e925]
+                      - row "Used to improve our products Yes No" [ref=e926]:
+                        - cell "Used to improve our products" [ref=e927]
+                        - cell "Yes" [ref=e928]:
+                          - link "Yes" [ref=e929] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e930]:
+                          - link "No" [ref=e931] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - paragraph [ref=e932]:
+                - superscript [ref=e933]: "*"
+                - text: Image input is set at 560 tokens or $0.0011 per image.
+              - paragraph [ref=e934]:
+                - superscript [ref=e935]: "**"
+                - text: Image output is priced at $120 per 1,000,000 tokens. Output images from 1024x1024px (1K) and up to 2048x2048px (2K) consume 1120 tokens and are equivalent to $0.134 per image. Output images up to 4096x4096px (4K) consume 2000 tokens and are equivalent to $0.24 per image.
+              - paragraph [ref=e936]:
+                - superscript [ref=e937]: "***"
+                - text: A customer-submitted request to Gemini may result in one or more queries to Google Search. You will be charged for each individual search query performed.
+              - generic [ref=e938]:
+                - generic [ref=e939]:
+                  - heading "Gemini 2.5 Pro" [level=2] [ref=e940]
+                  - emphasis [ref=e941]:
+                    - code [ref=e942]: gemini-2.5-pro
+                - paragraph [ref=e943]:
+                  - link "Try it in Google AI Studio" [ref=e944] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-2.5-pro
+              - paragraph [ref=e945]: Our state-of-the-art multipurpose model, which excels at coding and complex reasoning tasks.
+              - generic [ref=e947]:
+                - tablist [ref=e948]:
+                  - generic [ref=e949]:
+                    - tab "Standard" [selected] [ref=e950]:
+                      - button "Standard" [expanded] [ref=e951] [cursor=pointer]
+                    - tab "Batch" [ref=e952]:
+                      - button "Batch" [ref=e953] [cursor=pointer]
+                    - tab "Flex" [ref=e954]:
+                      - button "Flex" [ref=e955] [cursor=pointer]
+                    - tab "Priority" [ref=e956]:
+                      - button "Priority" [ref=e957] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e958]:
+                  - table [ref=e960]:
+                    - rowgroup [ref=e965]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e966]:
+                        - columnheader [ref=e967]
+                        - columnheader "Free Tier" [ref=e968]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e969]
+                    - rowgroup [ref=e970]:
+                      - row "Input price Free of charge $1.25, prompts <= 200k tokens $2.50, prompts > 200k tokens" [ref=e971]:
+                        - cell "Input price" [ref=e972]
+                        - cell "Free of charge" [ref=e973]
+                        - cell "$1.25, prompts <= 200k tokens $2.50, prompts > 200k tokens" [ref=e974]:
+                          - text: $1.25, prompts <= 200k tokens
+                          - text: $2.50, prompts > 200k tokens
+                      - row "Output price (including thinking tokens) Free of charge $10.00, prompts <= 200k tokens $15.00, prompts > 200k" [ref=e975]:
+                        - cell "Output price (including thinking tokens)" [ref=e976]
+                        - cell "Free of charge" [ref=e977]
+                        - cell "$10.00, prompts <= 200k tokens $15.00, prompts > 200k" [ref=e978]:
+                          - text: $10.00, prompts <= 200k tokens
+                          - text: $15.00, prompts > 200k
+                      - row "Context caching price Not available $0.125, prompts <= 200k tokens $0.25, prompts > 200k $4.50 / 1,000,000 tokens per hour (storage price)" [ref=e979]:
+                        - cell "Context caching price" [ref=e980]
+                        - cell "Not available" [ref=e981]
+                        - cell "$0.125, prompts <= 200k tokens $0.25, prompts > 200k $4.50 / 1,000,000 tokens per hour (storage price)" [ref=e982]:
+                          - text: $0.125, prompts <= 200k tokens
+                          - text: $0.25, prompts > 200k
+                          - text: $4.50 / 1,000,000 tokens per hour (storage price)
+                      - row "Grounding with Google Search Not available 1,500 RPD (free), then $35 / 1,000 grounded prompts" [ref=e983]:
+                        - cell "Grounding with Google Search" [ref=e984]
+                        - cell "Not available" [ref=e985]
+                        - cell "1,500 RPD (free), then $35 / 1,000 grounded prompts" [ref=e986]
+                      - row "Grounding with Google Maps Not available 10,000 RPD (free), then $25 / 1,000 grounded prompts" [ref=e987]:
+                        - cell "Grounding with Google Maps" [ref=e988]
+                        - cell "Not available" [ref=e989]
+                        - cell "10,000 RPD (free), then $25 / 1,000 grounded prompts" [ref=e990]
+                      - row "Used to improve our products Yes No" [ref=e991]:
+                        - cell "Used to improve our products" [ref=e992]
+                        - cell "Yes" [ref=e993]:
+                          - link "Yes" [ref=e994] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e995]:
+                          - link "No" [ref=e996] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - generic [ref=e997]:
+                - generic [ref=e998]:
+                  - heading "Gemini 2.5 Flash" [level=2] [ref=e999]
+                  - emphasis [ref=e1000]:
+                    - code [ref=e1001]: gemini-2.5-flash
+                - paragraph [ref=e1002]:
+                  - link "Try it in Google AI Studio" [ref=e1003] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-2.5-flash
+              - paragraph [ref=e1004]: Our first hybrid reasoning model which supports a 1M token context window and has thinking budgets.
+              - generic [ref=e1006]:
+                - tablist [ref=e1007]:
+                  - generic [ref=e1008]:
+                    - tab "Standard" [selected] [ref=e1009]:
+                      - button "Standard" [expanded] [ref=e1010] [cursor=pointer]
+                    - tab "Batch" [ref=e1011]:
+                      - button "Batch" [ref=e1012] [cursor=pointer]
+                    - tab "Flex" [ref=e1013]:
+                      - button "Flex" [ref=e1014] [cursor=pointer]
+                    - tab "Priority" [ref=e1015]:
+                      - button "Priority" [ref=e1016] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e1017]:
+                  - table [ref=e1019]:
+                    - rowgroup [ref=e1024]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e1025]:
+                        - columnheader [ref=e1026]
+                        - columnheader "Free Tier" [ref=e1027]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e1028]
+                    - rowgroup [ref=e1029]:
+                      - row "Input price Free of charge $0.30 (text / image / video) $1.00 (audio)" [ref=e1030]:
+                        - cell "Input price" [ref=e1031]
+                        - cell "Free of charge" [ref=e1032]
+                        - cell "$0.30 (text / image / video) $1.00 (audio)" [ref=e1033]:
+                          - text: $0.30 (text / image / video)
+                          - text: $1.00 (audio)
+                      - row "Output price (including thinking tokens) Free of charge $2.50" [ref=e1034]:
+                        - cell "Output price (including thinking tokens)" [ref=e1035]
+                        - cell "Free of charge" [ref=e1036]
+                        - cell "$2.50" [ref=e1037]
+                      - row "Context caching price Not available $0.03 (text / image / video) $0.1 (audio) $1.00 / 1,000,000 tokens per hour (storage price)" [ref=e1038]:
+                        - cell "Context caching price" [ref=e1039]
+                        - cell "Not available" [ref=e1040]
+                        - cell "$0.03 (text / image / video) $0.1 (audio) $1.00 / 1,000,000 tokens per hour (storage price)" [ref=e1041]:
+                          - text: $0.03 (text / image / video)
+                          - text: $0.1 (audio)
+                          - text: $1.00 / 1,000,000 tokens per hour (storage price)
+                      - row "Grounding with Google Search Free of charge, up to 500 RPD (limit shared with Flash-Lite RPD) 1,500 RPD (free, limit shared with Flash-Lite RPD), then $35 / 1,000 grounded prompts" [ref=e1042]:
+                        - cell "Grounding with Google Search" [ref=e1043]
+                        - cell "Free of charge, up to 500 RPD (limit shared with Flash-Lite RPD)" [ref=e1044]
+                        - cell "1,500 RPD (free, limit shared with Flash-Lite RPD), then $35 / 1,000 grounded prompts" [ref=e1045]
+                      - row "Grounding with Google Maps 500 RPD 1,500 RPD (free), then $25 / 1,000 grounded prompts" [ref=e1046]:
+                        - cell "Grounding with Google Maps" [ref=e1047]
+                        - cell "500 RPD" [ref=e1048]
+                        - cell "1,500 RPD (free), then $25 / 1,000 grounded prompts" [ref=e1049]
+                      - row "Used to improve our products Yes No" [ref=e1050]:
+                        - cell "Used to improve our products" [ref=e1051]
+                        - cell "Yes" [ref=e1052]:
+                          - link "Yes" [ref=e1053] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e1054]:
+                          - link "No" [ref=e1055] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - generic [ref=e1056]:
+                - generic [ref=e1057]:
+                  - heading "Gemini 2.5 Flash-Lite" [level=2] [ref=e1058]
+                  - emphasis [ref=e1059]:
+                    - code [ref=e1060]: gemini-2.5-flash-lite
+                - paragraph [ref=e1061]:
+                  - link "Try it in Google AI Studio" [ref=e1062] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-2.5-flash-lite
+              - paragraph [ref=e1063]: Our smallest and most cost effective model, built for at scale usage.
+              - generic [ref=e1065]:
+                - tablist [ref=e1066]:
+                  - generic [ref=e1067]:
+                    - tab "Standard" [selected] [ref=e1068]:
+                      - button "Standard" [expanded] [ref=e1069] [cursor=pointer]
+                    - tab "Batch" [ref=e1070]:
+                      - button "Batch" [ref=e1071] [cursor=pointer]
+                    - tab "Flex" [ref=e1072]:
+                      - button "Flex" [ref=e1073] [cursor=pointer]
+                    - tab "Priority" [ref=e1074]:
+                      - button "Priority" [ref=e1075] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e1076]:
+                  - table [ref=e1078]:
+                    - rowgroup [ref=e1083]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e1084]:
+                        - columnheader [ref=e1085]
+                        - columnheader "Free Tier" [ref=e1086]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e1087]
+                    - rowgroup [ref=e1088]:
+                      - row "Input price (text, image, video) Free of charge $0.10 (text / image / video) $0.30 (audio)" [ref=e1089]:
+                        - cell "Input price (text, image, video)" [ref=e1090]
+                        - cell "Free of charge" [ref=e1091]
+                        - cell "$0.10 (text / image / video) $0.30 (audio)" [ref=e1092]:
+                          - text: $0.10 (text / image / video)
+                          - text: $0.30 (audio)
+                      - row "Output price (including thinking tokens) Free of charge $0.40" [ref=e1093]:
+                        - cell "Output price (including thinking tokens)" [ref=e1094]
+                        - cell "Free of charge" [ref=e1095]
+                        - cell "$0.40" [ref=e1096]
+                      - row "Context caching price Not available $0.01 (text / image / video) $0.03 (audio) $1.00 / 1,000,000 tokens per hour (storage price)" [ref=e1097]:
+                        - cell "Context caching price" [ref=e1098]
+                        - cell "Not available" [ref=e1099]
+                        - cell "$0.01 (text / image / video) $0.03 (audio) $1.00 / 1,000,000 tokens per hour (storage price)" [ref=e1100]:
+                          - text: $0.01 (text / image / video)
+                          - text: $0.03 (audio)
+                          - text: $1.00 / 1,000,000 tokens per hour (storage price)
+                      - row "Grounding with Google Search Free of charge, up to 500 RPD (limit shared with Flash RPD) 1,500 RPD (free, limit shared with Flash RPD), then $35 / 1,000 grounded prompts" [ref=e1101]:
+                        - cell "Grounding with Google Search" [ref=e1102]
+                        - cell "Free of charge, up to 500 RPD (limit shared with Flash RPD)" [ref=e1103]
+                        - cell "1,500 RPD (free, limit shared with Flash RPD), then $35 / 1,000 grounded prompts" [ref=e1104]
+                      - row "Grounding with Google Maps 500 RPD 1,500 RPD (free), then $25 / 1,000 grounded prompts" [ref=e1105]:
+                        - cell "Grounding with Google Maps" [ref=e1106]
+                        - cell "500 RPD" [ref=e1107]
+                        - cell "1,500 RPD (free), then $25 / 1,000 grounded prompts" [ref=e1108]
+                      - row "Used to improve our products Yes No" [ref=e1109]:
+                        - cell "Used to improve our products" [ref=e1110]
+                        - cell "Yes" [ref=e1111]:
+                          - link "Yes" [ref=e1112] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e1113]:
+                          - link "No" [ref=e1114] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - generic [ref=e1115]:
+                - generic [ref=e1116]:
+                  - heading "Gemini 2.5 Flash-Lite Preview" [level=2] [ref=e1117]
+                  - emphasis [ref=e1118]:
+                    - code [ref=e1119]: gemini-2.5-flash-lite-preview-09-2025
+                - paragraph [ref=e1120]:
+                  - link "Try it in Google AI Studio" [ref=e1121] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-2.5-flash-lite-preview-09-2025
+              - paragraph [ref=e1122]: The latest model based on Gemini 2.5 Flash lite optimized for cost-efficiency, high throughput and high quality.
+              - generic [ref=e1124]:
+                - tablist [ref=e1125]:
+                  - generic [ref=e1126]:
+                    - tab "Standard" [selected] [ref=e1127]:
+                      - button "Standard" [expanded] [ref=e1128] [cursor=pointer]
+                    - tab "Batch" [ref=e1129]:
+                      - button "Batch" [ref=e1130] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e1131]:
+                  - table [ref=e1133]:
+                    - rowgroup [ref=e1138]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e1139]:
+                        - columnheader [ref=e1140]
+                        - columnheader "Free Tier" [ref=e1141]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e1142]
+                    - rowgroup [ref=e1143]:
+                      - row "Input price (text, image, video) Free of charge $0.10 (text / image / video) $0.30 (audio)" [ref=e1144]:
+                        - cell "Input price (text, image, video)" [ref=e1145]
+                        - cell "Free of charge" [ref=e1146]
+                        - cell "$0.10 (text / image / video) $0.30 (audio)" [ref=e1147]:
+                          - text: $0.10 (text / image / video)
+                          - text: $0.30 (audio)
+                      - row "Output price (including thinking tokens) Free of charge $0.40" [ref=e1148]:
+                        - cell "Output price (including thinking tokens)" [ref=e1149]
+                        - cell "Free of charge" [ref=e1150]
+                        - cell "$0.40" [ref=e1151]
+                      - row "Context caching price Not available $0.01 (text / image / video) $0.03 (audio) $1.00 / 1,000,000 tokens per hour (storage price)" [ref=e1152]:
+                        - cell "Context caching price" [ref=e1153]
+                        - cell "Not available" [ref=e1154]
+                        - cell "$0.01 (text / image / video) $0.03 (audio) $1.00 / 1,000,000 tokens per hour (storage price)" [ref=e1155]:
+                          - text: $0.01 (text / image / video)
+                          - text: $0.03 (audio)
+                          - text: $1.00 / 1,000,000 tokens per hour (storage price)
+                      - row "Grounding with Google Search Free of charge, up to 500 RPD (limit shared with Flash RPD) 1,500 RPD (free, limit shared with Flash RPD), then $35 / 1,000 grounded prompts" [ref=e1156]:
+                        - cell "Grounding with Google Search" [ref=e1157]
+                        - cell "Free of charge, up to 500 RPD (limit shared with Flash RPD)" [ref=e1158]
+                        - cell "1,500 RPD (free, limit shared with Flash RPD), then $35 / 1,000 grounded prompts" [ref=e1159]
+                      - row "Used to improve our products Yes No" [ref=e1160]:
+                        - cell "Used to improve our products" [ref=e1161]
+                        - cell "Yes" [ref=e1162]:
+                          - link "Yes" [ref=e1163] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e1164]:
+                          - link "No" [ref=e1165] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - generic [ref=e1166]:
+                - generic [ref=e1167]:
+                  - heading "Gemini 2.5 Flash Native Audio (Live API)" [level=2] [ref=e1168]
+                  - emphasis [ref=e1169]:
+                    - code [ref=e1170]: gemini-2.5-flash-native-audio-preview-12-2025
+                - paragraph [ref=e1171]:
+                  - link "Try it in Google AI Studio" [ref=e1172] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/app/live#gemini-2.5-flash-native-audio-preview-12-2025
+              - paragraph [ref=e1173]:
+                - text: Our
+                - link "Live API" [ref=e1174] [cursor=pointer]:
+                  - /url: /gemini-api/docs/live
+                - text: native audio models optimized for higher quality audio outputs with better pacing, voice naturalness, verbosity, and mood.
+              - paragraph [ref=e1175]: Preview models may change before becoming stable and have more restrictive rate limits.
+              - table [ref=e1177]:
+                - rowgroup [ref=e1182]:
+                  - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e1183]:
+                    - columnheader [ref=e1184]
+                    - columnheader "Free Tier" [ref=e1185]
+                    - columnheader "Paid Tier, per 1M tokens in USD" [ref=e1186]
+                - rowgroup [ref=e1187]:
+                  - row "Input price Free of charge $0.50 (text) $3.00 (audio / video)" [ref=e1188]:
+                    - cell "Input price" [ref=e1189]
+                    - cell "Free of charge" [ref=e1190]
+                    - cell "$0.50 (text) $3.00 (audio / video)" [ref=e1191]:
+                      - text: $0.50 (text)
+                      - text: $3.00 (audio / video)
+                  - row "Output price (including thinking tokens) Free of charge $2.00 (text) $12.00 (audio)" [ref=e1192]:
+                    - cell "Output price (including thinking tokens)" [ref=e1193]
+                    - cell "Free of charge" [ref=e1194]
+                    - cell "$2.00 (text) $12.00 (audio)" [ref=e1195]:
+                      - text: $2.00 (text)
+                      - text: $12.00 (audio)
+                  - row "Used to improve our products Yes No" [ref=e1196]:
+                    - cell "Used to improve our products" [ref=e1197]
+                    - cell "Yes" [ref=e1198]:
+                      - link "Yes" [ref=e1199] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+                    - cell "No" [ref=e1200]:
+                      - link "No" [ref=e1201] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+              - generic [ref=e1202]:
+                - generic [ref=e1203]:
+                  - heading "Gemini 2.5 Flash Image 🍌" [level=2] [ref=e1204]
+                  - emphasis [ref=e1205]:
+                    - code [ref=e1206]: gemini-2.5-flash-image
+                - paragraph [ref=e1207]:
+                  - link "Try it in Google AI Studio" [ref=e1208] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-2.5-flash-image
+              - paragraph [ref=e1209]:
+                - text: Our native image generation model, optimized for speed, flexibility, and contextual understanding. Text input and output is priced the same as
+                - link "2.5 Flash" [ref=e1210] [cursor=pointer]:
+                  - /url: "#gemini-2.5-flash"
+                - text: .
+              - paragraph [ref=e1211]: Preview models may change before becoming stable and have more restrictive rate limits.
+              - generic [ref=e1213]:
+                - tablist [ref=e1214]:
+                  - generic [ref=e1215]:
+                    - tab "Standard" [selected] [ref=e1216]:
+                      - button "Standard" [expanded] [ref=e1217] [cursor=pointer]
+                    - tab "Batch" [ref=e1218]:
+                      - button "Batch" [ref=e1219] [cursor=pointer]
+                    - tab "Flex" [ref=e1220]:
+                      - button "Flex" [ref=e1221] [cursor=pointer]
+                    - tab "Priority" [ref=e1222]:
+                      - button "Priority" [ref=e1223] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e1224]:
+                  - table [ref=e1226]:
+                    - rowgroup [ref=e1231]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e1232]:
+                        - columnheader [ref=e1233]
+                        - columnheader "Free Tier" [ref=e1234]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e1235]
+                    - rowgroup [ref=e1236]:
+                      - row "Input price Not available $0.30 (text / image)" [ref=e1237]:
+                        - cell "Input price" [ref=e1238]
+                        - cell "Not available" [ref=e1239]
+                        - cell "$0.30 (text / image)" [ref=e1240]
+                      - row "Output price Not available $0.039 per image*" [ref=e1241]:
+                        - cell "Output price" [ref=e1242]
+                        - cell "Not available" [ref=e1243]
+                        - cell "$0.039 per image*" [ref=e1244]
+                      - row "Used to improve our products Yes No" [ref=e1245]:
+                        - cell "Used to improve our products" [ref=e1246]
+                        - cell "Yes" [ref=e1247]:
+                          - link "Yes" [ref=e1248] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e1249]:
+                          - link "No" [ref=e1250] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - paragraph [ref=e1251]: "[*] Image output is priced at $30 per 1,000,000 tokens. Output images up to 1024x1024px consume 1290 tokens and are equivalent to $0.039 per image."
+              - generic [ref=e1252]:
+                - generic [ref=e1253]:
+                  - heading "Gemini 2.5 Flash Preview TTS" [level=2] [ref=e1254]
+                  - emphasis [ref=e1255]:
+                    - code [ref=e1256]: gemini-2.5-flash-preview-tts
+                - paragraph [ref=e1257]:
+                  - link "Try it in Google AI Studio" [ref=e1258] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/generate-speech
+              - paragraph [ref=e1259]: Our 2.5 Flash text-to-speech audio model optimized for price-performant, low-latency, controllable speech generation.
+              - paragraph [ref=e1260]: Preview models may change before becoming stable and have more restrictive rate limits.
+              - generic [ref=e1262]:
+                - tablist [ref=e1263]:
+                  - generic [ref=e1264]:
+                    - tab "Standard" [selected] [ref=e1265]:
+                      - button "Standard" [expanded] [ref=e1266] [cursor=pointer]
+                    - tab "Batch" [ref=e1267]:
+                      - button "Batch" [ref=e1268] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e1269]:
+                  - table [ref=e1271]:
+                    - rowgroup [ref=e1276]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e1277]:
+                        - columnheader [ref=e1278]
+                        - columnheader "Free Tier" [ref=e1279]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e1280]
+                    - rowgroup [ref=e1281]:
+                      - row "Input price Free of charge $0.50 (text)" [ref=e1282]:
+                        - cell "Input price" [ref=e1283]
+                        - cell "Free of charge" [ref=e1284]
+                        - cell "$0.50 (text)" [ref=e1285]
+                      - row "Output price Free of charge $10.00 (audio)" [ref=e1286]:
+                        - cell "Output price" [ref=e1287]
+                        - cell "Free of charge" [ref=e1288]
+                        - cell "$10.00 (audio)" [ref=e1289]
+                      - row "Used to improve our products Yes No" [ref=e1290]:
+                        - cell "Used to improve our products" [ref=e1291]
+                        - cell "Yes" [ref=e1292]:
+                          - link "Yes" [ref=e1293] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e1294]:
+                          - link "No" [ref=e1295] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - generic [ref=e1296]:
+                - generic [ref=e1297]:
+                  - heading "Gemini 2.5 Pro Preview TTS" [level=2] [ref=e1298]
+                  - emphasis [ref=e1299]:
+                    - code [ref=e1300]: gemini-2.5-pro-preview-tts
+                - paragraph [ref=e1301]:
+                  - link "Try it in Google AI Studio" [ref=e1302] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/generate-speech
+              - paragraph [ref=e1303]: Our 2.5 Pro text-to-speech audio model optimized for powerful, low-latency speech generation for more natural outputs and easier to steer prompts.
+              - paragraph [ref=e1304]: Preview models may change before becoming stable and have more restrictive rate limits.
+              - generic [ref=e1306]:
+                - tablist [ref=e1307]:
+                  - generic [ref=e1308]:
+                    - tab "Standard" [selected] [ref=e1309]:
+                      - button "Standard" [expanded] [ref=e1310] [cursor=pointer]
+                    - tab "Batch" [ref=e1311]:
+                      - button "Batch" [ref=e1312] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e1313]:
+                  - table [ref=e1315]:
+                    - rowgroup [ref=e1320]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e1321]:
+                        - columnheader [ref=e1322]
+                        - columnheader "Free Tier" [ref=e1323]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e1324]
+                    - rowgroup [ref=e1325]:
+                      - row "Input price Not available $1.00 (text)" [ref=e1326]:
+                        - cell "Input price" [ref=e1327]
+                        - cell "Not available" [ref=e1328]
+                        - cell "$1.00 (text)" [ref=e1329]
+                      - row "Output price Not available $20.00 (audio)" [ref=e1330]:
+                        - cell "Output price" [ref=e1331]
+                        - cell "Not available" [ref=e1332]
+                        - cell "$20.00 (audio)" [ref=e1333]
+                      - row "Used to improve our products Yes No" [ref=e1334]:
+                        - cell "Used to improve our products" [ref=e1335]
+                        - cell "Yes" [ref=e1336]:
+                          - link "Yes" [ref=e1337] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e1338]:
+                          - link "No" [ref=e1339] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - generic [ref=e1341]:
+                - heading "Gemini 2.0 Flash" [level=2] [ref=e1342]
+                - emphasis [ref=e1343]:
+                  - code [ref=e1344]: gemini-2.0-flash
+              - complementary [ref=e1345]:
+                - text: "warning Warning: Gemini 2.0 Flash is"
+                - link "deprecated" [ref=e1346] [cursor=pointer]:
+                  - /url: /gemini-api/docs/deprecations
+                - text: and will be shut down June 1, 2026. Migrate to
+                - link "a newer model" [ref=e1347] [cursor=pointer]:
+                  - /url: /gemini-api/docs/models
+                - text: to avoid service disruption.
+              - generic [ref=e1349]:
+                - tablist [ref=e1350]:
+                  - generic [ref=e1351]:
+                    - tab "Standard" [selected] [ref=e1352]:
+                      - button "Standard" [expanded] [ref=e1353] [cursor=pointer]
+                    - tab "Batch" [ref=e1354]:
+                      - button "Batch" [ref=e1355] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e1356]:
+                  - table [ref=e1358]:
+                    - rowgroup [ref=e1363]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e1364]:
+                        - columnheader [ref=e1365]
+                        - columnheader "Free Tier" [ref=e1366]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e1367]
+                    - rowgroup [ref=e1368]:
+                      - row "Input price Free of charge $0.10 (text / image / video) $0.70 (audio)" [ref=e1369]:
+                        - cell "Input price" [ref=e1370]
+                        - cell "Free of charge" [ref=e1371]
+                        - cell "$0.10 (text / image / video) $0.70 (audio)" [ref=e1372]:
+                          - text: $0.10 (text / image / video)
+                          - text: $0.70 (audio)
+                      - row "Output price Free of charge $0.40" [ref=e1373]:
+                        - cell "Output price" [ref=e1374]
+                        - cell "Free of charge" [ref=e1375]
+                        - cell "$0.40" [ref=e1376]
+                      - row "Context caching price Free of charge $0.025 / 1,000,000 tokens (text/image/video) $0.175 / 1,000,000 tokens (audio)" [ref=e1377]:
+                        - cell "Context caching price" [ref=e1378]
+                        - cell "Free of charge" [ref=e1379]
+                        - cell "$0.025 / 1,000,000 tokens (text/image/video) $0.175 / 1,000,000 tokens (audio)" [ref=e1380]:
+                          - text: $0.025 / 1,000,000 tokens (text/image/video)
+                          - text: $0.175 / 1,000,000 tokens (audio)
+                      - row "Context caching (storage) Not available $1.00 / 1,000,000 tokens per hour" [ref=e1381]:
+                        - cell "Context caching (storage)" [ref=e1382]
+                        - cell "Not available" [ref=e1383]
+                        - cell "$1.00 / 1,000,000 tokens per hour" [ref=e1384]
+                      - row "Image generation pricing Not available (shut down) Not available (shut down)" [ref=e1385]:
+                        - cell "Image generation pricing" [ref=e1386]
+                        - cell "Not available (shut down)" [ref=e1387]:
+                          - text: Not available (
+                          - link "shut down" [ref=e1388] [cursor=pointer]:
+                            - /url: /gemini-api/docs/deprecations#gemini-2.0-models
+                          - text: )
+                        - cell "Not available (shut down)" [ref=e1389]:
+                          - text: Not available (
+                          - link "shut down" [ref=e1390] [cursor=pointer]:
+                            - /url: /gemini-api/docs/deprecations#gemini-2.0-models
+                          - text: )
+                      - row "Tuning price Not available Not available" [ref=e1391]:
+                        - cell "Tuning price" [ref=e1392]
+                        - cell "Not available" [ref=e1393]
+                        - cell "Not available" [ref=e1394]
+                      - row "Grounding with Google Search Free of charge, up to 500 RPD 1,500 RPD (free), then $35 / 1,000 grounded prompts" [ref=e1395]:
+                        - cell "Grounding with Google Search" [ref=e1396]
+                        - cell "Free of charge, up to 500 RPD" [ref=e1397]
+                        - cell "1,500 RPD (free), then $35 / 1,000 grounded prompts" [ref=e1398]
+                      - row "Grounding with Google Maps 500 RPD 1,500 RPD (free), then $25 / 1,000 grounded prompts" [ref=e1399]:
+                        - cell "Grounding with Google Maps" [ref=e1400]
+                        - cell "500 RPD" [ref=e1401]
+                        - cell "1,500 RPD (free), then $25 / 1,000 grounded prompts" [ref=e1402]
+                      - row "Used to improve our products Yes No" [ref=e1403]:
+                        - cell "Used to improve our products" [ref=e1404]
+                        - cell "Yes" [ref=e1405]:
+                          - link "Yes" [ref=e1406] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e1407]:
+                          - link "No" [ref=e1408] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - paragraph [ref=e1409]: "[*] Image output is priced at $30 per 1,000,000 tokens. Output images up to 1024x1024px consume 1290 tokens and are equivalent to $0.039 per image."
+              - generic [ref=e1411]:
+                - heading "Gemini 2.0 Flash-Lite" [level=2] [ref=e1412]
+                - emphasis [ref=e1413]:
+                  - code [ref=e1414]: gemini-2.0-flash-lite
+              - complementary [ref=e1415]:
+                - text: "warning Warning: Gemini 2.0 Flash-Lite is"
+                - link "deprecated" [ref=e1416] [cursor=pointer]:
+                  - /url: /gemini-api/docs/deprecations
+                - text: and will be shut down June 1, 2026. Migrate to
+                - link "a newer model" [ref=e1417] [cursor=pointer]:
+                  - /url: /gemini-api/docs/models
+                - text: to avoid service disruption.
+              - generic [ref=e1419]:
+                - tablist [ref=e1420]:
+                  - generic [ref=e1421]:
+                    - tab "Standard" [selected] [ref=e1422]:
+                      - button "Standard" [expanded] [ref=e1423] [cursor=pointer]
+                    - tab "Batch" [ref=e1424]:
+                      - button "Batch" [ref=e1425] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e1426]:
+                  - table [ref=e1428]:
+                    - rowgroup [ref=e1433]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e1434]:
+                        - columnheader [ref=e1435]
+                        - columnheader "Free Tier" [ref=e1436]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e1437]
+                    - rowgroup [ref=e1438]:
+                      - row "Input price Free of charge $0.075" [ref=e1439]:
+                        - cell "Input price" [ref=e1440]
+                        - cell "Free of charge" [ref=e1441]
+                        - cell "$0.075" [ref=e1442]
+                      - row "Output price Free of charge $0.30" [ref=e1443]:
+                        - cell "Output price" [ref=e1444]
+                        - cell "Free of charge" [ref=e1445]
+                        - cell "$0.30" [ref=e1446]
+                      - row "Context caching price Not available Not available" [ref=e1447]:
+                        - cell "Context caching price" [ref=e1448]
+                        - cell "Not available" [ref=e1449]
+                        - cell "Not available" [ref=e1450]
+                      - row "Context caching (storage) Not available Not available" [ref=e1451]:
+                        - cell "Context caching (storage)" [ref=e1452]
+                        - cell "Not available" [ref=e1453]
+                        - cell "Not available" [ref=e1454]
+                      - row "Tuning price Not available Not available" [ref=e1455]:
+                        - cell "Tuning price" [ref=e1456]
+                        - cell "Not available" [ref=e1457]
+                        - cell "Not available" [ref=e1458]
+                      - row "Grounding with Google Search Not available Not available" [ref=e1459]:
+                        - cell "Grounding with Google Search" [ref=e1460]
+                        - cell "Not available" [ref=e1461]
+                        - cell "Not available" [ref=e1462]
+                      - row "Used to improve our products Yes No" [ref=e1463]:
+                        - cell "Used to improve our products" [ref=e1464]
+                        - cell "Yes" [ref=e1465]:
+                          - link "Yes" [ref=e1466] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e1467]:
+                          - link "No" [ref=e1468] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - generic [ref=e1469]:
+                - generic [ref=e1470]:
+                  - heading "Imagen 4" [level=2] [ref=e1471]
+                  - emphasis [ref=e1472]:
+                    - code [ref=e1473]: imagen-4.0-generate-001
+                    - text: ","
+                    - code [ref=e1474]: imagen-4.0-ultra-generate-001
+                    - text: ","
+                    - code [ref=e1475]: imagen-4.0-fast-generate-001
+                - paragraph [ref=e1476]:
+                  - link "Try it in Google AI Studio" [ref=e1477] [cursor=pointer]:
+                    - /url: https://aistudio.google.com/generate-image
+              - paragraph [ref=e1478]: Our latest image generation model, with significantly better text rendering and better overall image quality.
+              - paragraph [ref=e1479]: Preview models may change before becoming stable and have more restrictive rate limits.
+              - table [ref=e1481]:
+                - rowgroup [ref=e1486]:
+                  - row "Free Tier Paid Tier, per Image in USD" [ref=e1487]:
+                    - columnheader [ref=e1488]
+                    - columnheader "Free Tier" [ref=e1489]
+                    - columnheader "Paid Tier, per Image in USD" [ref=e1490]
+                - rowgroup [ref=e1491]:
+                  - row "Imagen 4 Fast image price Not available $0.02" [ref=e1492]:
+                    - cell "Imagen 4 Fast image price" [ref=e1493]
+                    - cell "Not available" [ref=e1494]
+                    - cell "$0.02" [ref=e1495]
+                  - row "Imagen 4 Standard image price Not available $0.04" [ref=e1496]:
+                    - cell "Imagen 4 Standard image price" [ref=e1497]
+                    - cell "Not available" [ref=e1498]
+                    - cell "$0.04" [ref=e1499]
+                  - row "Imagen 4 Ultra image price Not available $0.06" [ref=e1500]:
+                    - cell "Imagen 4 Ultra image price" [ref=e1501]
+                    - cell "Not available" [ref=e1502]
+                    - cell "$0.06" [ref=e1503]
+                  - row "Used to improve our products Yes No" [ref=e1504]:
+                    - cell "Used to improve our products" [ref=e1505]
+                    - cell "Yes" [ref=e1506]:
+                      - link "Yes" [ref=e1507] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+                    - cell "No" [ref=e1508]:
+                      - link "No" [ref=e1509] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+              - generic [ref=e1510]:
+                - generic [ref=e1511]:
+                  - heading "Veo 3.1" [level=2] [ref=e1512]
+                  - emphasis [ref=e1513]:
+                    - code [ref=e1514]: veo-3.1-generate-preview
+                    - text: ","
+                    - code [ref=e1515]: veo-3.1-fast-generate-preview
+                    - text: ","
+                    - code [ref=e1516]: veo-3.1-lite-generate-preview
+                - paragraph [ref=e1517]:
+                  - link "Try Veo 3.1" [ref=e1518] [cursor=pointer]:
+                    - /url: https://deepmind.google/models/veo/
+              - paragraph [ref=e1519]: Our latest video generation model, available to developers on the paid tier of the Gemini API.
+              - paragraph [ref=e1520]: Preview models may change before becoming stable and have more restrictive rate limits.
+              - table [ref=e1522]:
+                - rowgroup [ref=e1527]:
+                  - row "Free Tier Paid Tier, per second in USD" [ref=e1528]:
+                    - columnheader [ref=e1529]
+                    - columnheader "Free Tier" [ref=e1530]
+                    - columnheader "Paid Tier, per second in USD" [ref=e1531]
+                - rowgroup [ref=e1532]:
+                  - row "Veo 3.1 Standard video with audio price (default) Not available $0.40 (720p and 1080p) $0.60 (4k)" [ref=e1533]:
+                    - cell "Veo 3.1 Standard video with audio price (default)" [ref=e1534]
+                    - cell "Not available" [ref=e1535]
+                    - cell "$0.40 (720p and 1080p) $0.60 (4k)" [ref=e1536]:
+                      - text: $0.40 (720p and 1080p)
+                      - text: $0.60 (4k)
+                  - row "Veo 3.1 Fast video with audio price (default) Not available $0.10 (720p) $0.12 (1080p) $0.30 (4k)" [ref=e1537]:
+                    - cell "Veo 3.1 Fast video with audio price (default)" [ref=e1538]
+                    - cell "Not available" [ref=e1539]
+                    - cell "$0.10 (720p) $0.12 (1080p) $0.30 (4k)" [ref=e1540]:
+                      - text: $0.10 (720p)
+                      - text: $0.12 (1080p)
+                      - text: $0.30 (4k)
+                  - row "Veo 3.1 Lite video with audio price (default) Not available $0.05 (720p) $0.08 (1080p) (4k output not supported)" [ref=e1541]:
+                    - cell "Veo 3.1 Lite video with audio price (default)" [ref=e1542]
+                    - cell "Not available" [ref=e1543]
+                    - cell "$0.05 (720p) $0.08 (1080p) (4k output not supported)" [ref=e1544]:
+                      - text: $0.05 (720p)
+                      - text: $0.08 (1080p)
+                      - text: (4k output not supported)
+                  - row "Used to improve our products Yes No" [ref=e1545]:
+                    - cell "Used to improve our products" [ref=e1546]
+                    - cell "Yes" [ref=e1547]:
+                      - link "Yes" [ref=e1548] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+                    - cell "No" [ref=e1549]:
+                      - link "No" [ref=e1550] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+              - complementary [ref=e1551]:
+                - strong [ref=e1552]: "Note:"
+                - text: In some cases, an audio processing issue may prevent a video from being generated. You will only be charged if your video is successfully generated.
+              - generic [ref=e1553]:
+                - generic [ref=e1554]:
+                  - heading "Veo 3" [level=2] [ref=e1555]
+                  - emphasis [ref=e1556]:
+                    - code [ref=e1557]: veo-3.0-generate-001
+                    - text: ","
+                    - code [ref=e1558]: veo-3.0-fast-generate-001
+                - paragraph [ref=e1559]:
+                  - link "Try Veo 3" [ref=e1560] [cursor=pointer]:
+                    - /url: https://deepmind.google/models/veo/
+              - paragraph [ref=e1561]: Our stable video generation model, available to developers on the paid tier of the Gemini API.
+              - table [ref=e1563]:
+                - rowgroup [ref=e1568]:
+                  - row "Free Tier Paid Tier, per second in USD" [ref=e1569]:
+                    - columnheader [ref=e1570]
+                    - columnheader "Free Tier" [ref=e1571]
+                    - columnheader "Paid Tier, per second in USD" [ref=e1572]
+                - rowgroup [ref=e1573]:
+                  - row "Veo 3 Standard video with audio price (default) Not available $0.40" [ref=e1574]:
+                    - cell "Veo 3 Standard video with audio price (default)" [ref=e1575]
+                    - cell "Not available" [ref=e1576]
+                    - cell "$0.40" [ref=e1577]
+                  - row "Veo 3 Fast video with audio price (default) Not available $0.10 (720p) $0.12 (1080p) $0.30 (4k)" [ref=e1578]:
+                    - cell "Veo 3 Fast video with audio price (default)" [ref=e1579]
+                    - cell "Not available" [ref=e1580]
+                    - cell "$0.10 (720p) $0.12 (1080p) $0.30 (4k)" [ref=e1581]:
+                      - text: $0.10 (720p)
+                      - text: $0.12 (1080p)
+                      - text: $0.30 (4k)
+                  - row "Used to improve our products Yes No" [ref=e1582]:
+                    - cell "Used to improve our products" [ref=e1583]
+                    - cell "Yes" [ref=e1584]:
+                      - link "Yes" [ref=e1585] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+                    - cell "No" [ref=e1586]:
+                      - link "No" [ref=e1587] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+              - complementary [ref=e1588]:
+                - strong [ref=e1589]: "Note:"
+                - text: In some cases, an audio processing issue may prevent a video from being generated. You will only be charged if your video is successfully generated.
+              - generic [ref=e1590]:
+                - generic [ref=e1591]:
+                  - heading "Veo 2" [level=2] [ref=e1592]
+                  - emphasis [ref=e1593]:
+                    - code [ref=e1594]: veo-2.0-generate-001
+                - paragraph [ref=e1595]:
+                  - link "Try the API" [ref=e1596] [cursor=pointer]:
+                    - /url: /gemini-api/docs/video
+              - paragraph [ref=e1597]: Our state-of-the-art video generation model, available to developers on the paid tier of the Gemini API.
+              - table [ref=e1599]:
+                - rowgroup [ref=e1604]:
+                  - row "Free Tier Paid Tier, per second in USD" [ref=e1605]:
+                    - columnheader [ref=e1606]
+                    - columnheader "Free Tier" [ref=e1607]
+                    - columnheader "Paid Tier, per second in USD" [ref=e1608]
+                - rowgroup [ref=e1609]:
+                  - row "Video price Not available $0.35" [ref=e1610]:
+                    - cell "Video price" [ref=e1611]
+                    - cell "Not available" [ref=e1612]
+                    - cell "$0.35" [ref=e1613]
+                  - row "Used to improve our products Yes No" [ref=e1614]:
+                    - cell "Used to improve our products" [ref=e1615]
+                    - cell "Yes" [ref=e1616]:
+                      - link "Yes" [ref=e1617] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+                    - cell "No" [ref=e1618]:
+                      - link "No" [ref=e1619] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+              - generic [ref=e1621]:
+                - heading "Lyria 3" [level=2] [ref=e1622]
+                - emphasis [ref=e1623]:
+                  - code [ref=e1624]: lyria-3-clip-preview
+                  - text: and
+                  - code [ref=e1625]: lyria-3-pro-preview
+              - paragraph [ref=e1626]: Google's family of music generation models. Preview models may change before becoming stable and have more restrictive rate limits.
+              - table [ref=e1628]:
+                - rowgroup [ref=e1633]:
+                  - row "Free Tier Paid Tier, per request in USD" [ref=e1634]:
+                    - columnheader [ref=e1635]
+                    - columnheader "Free Tier" [ref=e1636]
+                    - columnheader "Paid Tier, per request in USD" [ref=e1637]
+                - rowgroup [ref=e1638]:
+                  - row "Lyria 3 Clip Preview (30s) Not available $0.04 per song" [ref=e1639]:
+                    - cell "Lyria 3 Clip Preview (30s)" [ref=e1640]
+                    - cell "Not available" [ref=e1641]
+                    - cell "$0.04 per song" [ref=e1642]
+                  - row "Lyria 3 Pro Preview (Full Song) Not available $0.08 per song" [ref=e1643]:
+                    - cell "Lyria 3 Pro Preview (Full Song)" [ref=e1644]
+                    - cell "Not available" [ref=e1645]
+                    - cell "$0.08 per song" [ref=e1646]
+                  - row "Used to improve our products Yes No" [ref=e1647]:
+                    - cell "Used to improve our products" [ref=e1648]
+                    - cell "Yes" [ref=e1649]:
+                      - link "Yes" [ref=e1650] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+                    - cell "No" [ref=e1651]:
+                      - link "No" [ref=e1652] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+              - generic [ref=e1653]:
+                - generic [ref=e1654]:
+                  - heading "Gemini Embedding 2" [level=2] [ref=e1655]
+                  - emphasis [ref=e1656]:
+                    - code [ref=e1657]: gemini-embedding-2
+                - paragraph [ref=e1658]:
+                  - link "Try the API" [ref=e1659] [cursor=pointer]:
+                    - /url: /gemini-api/docs/embeddings
+              - paragraph [ref=e1660]: Our first multimodal embedding model, mapping text, images, video, audio, and PDFs into a unified embedding space.
+              - generic [ref=e1662]:
+                - tablist [ref=e1663]:
+                  - generic [ref=e1664]:
+                    - tab "Standard" [selected] [ref=e1665]:
+                      - button "Standard" [expanded] [ref=e1666] [cursor=pointer]
+                    - tab "Batch" [ref=e1667]:
+                      - button "Batch" [ref=e1668] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e1669]:
+                  - table [ref=e1671]:
+                    - rowgroup [ref=e1676]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e1677]:
+                        - columnheader [ref=e1678]
+                        - columnheader "Free Tier" [ref=e1679]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e1680]
+                    - rowgroup [ref=e1681]:
+                      - row "Text input price Free of charge $0.20" [ref=e1682]:
+                        - cell "Text input price" [ref=e1683]
+                        - cell "Free of charge" [ref=e1684]
+                        - cell "$0.20" [ref=e1685]
+                      - row "Image input price Free of charge $0.45 ($0.00012 per image)" [ref=e1686]:
+                        - cell "Image input price" [ref=e1687]
+                        - cell "Free of charge" [ref=e1688]
+                        - cell "$0.45 ($0.00012 per image)" [ref=e1689]
+                      - row "Audio input price Free of charge $6.50 ($0.00016 per second)" [ref=e1690]:
+                        - cell "Audio input price" [ref=e1691]
+                        - cell "Free of charge" [ref=e1692]
+                        - cell "$6.50 ($0.00016 per second)" [ref=e1693]
+                      - row "Video input price Free of charge $12.00 ($0.00079 per frame)" [ref=e1694]:
+                        - cell "Video input price" [ref=e1695]
+                        - cell "Free of charge" [ref=e1696]
+                        - cell "$12.00 ($0.00079 per frame)" [ref=e1697]
+                      - row "Used to improve our products Yes No" [ref=e1698]:
+                        - cell "Used to improve our products" [ref=e1699]
+                        - cell "Yes" [ref=e1700]:
+                          - link "Yes" [ref=e1701] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e1702]:
+                          - link "No" [ref=e1703] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - generic [ref=e1704]:
+                - generic [ref=e1705]:
+                  - heading "Gemini Embedding" [level=2] [ref=e1706]
+                  - emphasis [ref=e1707]:
+                    - code [ref=e1708]: gemini-embedding-001
+                - paragraph [ref=e1709]:
+                  - link "Try the API" [ref=e1710] [cursor=pointer]:
+                    - /url: /gemini-api/docs/embeddings
+              - paragraph [ref=e1711]: Our Gemini Embeddings model for text-only use cases, available to developers on the free and paid tiers of the Gemini API.
+              - generic [ref=e1713]:
+                - tablist [ref=e1714]:
+                  - generic [ref=e1715]:
+                    - tab "Standard" [selected] [ref=e1716]:
+                      - button "Standard" [expanded] [ref=e1717] [cursor=pointer]
+                    - tab "Batch" [ref=e1718]:
+                      - button "Batch" [ref=e1719] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e1720]:
+                  - table [ref=e1722]:
+                    - rowgroup [ref=e1727]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e1728]:
+                        - columnheader [ref=e1729]
+                        - columnheader "Free Tier" [ref=e1730]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e1731]
+                    - rowgroup [ref=e1732]:
+                      - row "Input price Free of charge $0.15" [ref=e1733]:
+                        - cell "Input price" [ref=e1734]
+                        - cell "Free of charge" [ref=e1735]
+                        - cell "$0.15" [ref=e1736]
+                      - row "Used to improve our products Yes No" [ref=e1737]:
+                        - cell "Used to improve our products" [ref=e1738]
+                        - cell "Yes" [ref=e1739]:
+                          - link "Yes" [ref=e1740] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e1741]:
+                          - link "No" [ref=e1742] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - generic [ref=e1743]:
+                - generic [ref=e1744]:
+                  - heading "Gemini Robotics-ER 1.6 Preview" [level=2] [ref=e1745]
+                  - emphasis [ref=e1746]:
+                    - code [ref=e1747]: gemini-robotics-er-1.6-preview
+                - paragraph [ref=e1748]:
+                  - link "Try it in Google AI Studio" [ref=e1749] [cursor=pointer]:
+                    - /url: https://aistudio.google.com?model=gemini-robotics-er-1.6-preview
+              - paragraph [ref=e1750]: Gemini Robotics-ER, short for Gemini Robotics-Embodied Reasoning, is a thinking model that enhances robots' abilities to understand and interact with the physical world.
+              - generic [ref=e1752]:
+                - tablist [ref=e1753]:
+                  - generic [ref=e1754]:
+                    - tab "Standard" [selected] [ref=e1755]:
+                      - button "Standard" [expanded] [ref=e1756] [cursor=pointer]
+                    - tab "Batch" [ref=e1757]:
+                      - button "Batch" [ref=e1758] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Standard" [ref=e1759]:
+                  - table [ref=e1761]:
+                    - rowgroup [ref=e1766]:
+                      - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e1767]:
+                        - columnheader [ref=e1768]
+                        - columnheader "Free Tier" [ref=e1769]
+                        - columnheader "Paid Tier, per 1M tokens in USD" [ref=e1770]
+                    - rowgroup [ref=e1771]:
+                      - row "Input price Free of charge $1.00 (text / image / video) $2.00 (audio)" [ref=e1772]:
+                        - cell "Input price" [ref=e1773]
+                        - cell "Free of charge" [ref=e1774]
+                        - cell "$1.00 (text / image / video) $2.00 (audio)" [ref=e1775]:
+                          - text: $1.00 (text / image / video)
+                          - text: $2.00 (audio)
+                      - row "Output price (including thinking tokens) Free of charge $5.00" [ref=e1776]:
+                        - cell "Output price (including thinking tokens)" [ref=e1777]
+                        - cell "Free of charge" [ref=e1778]
+                        - cell "$5.00" [ref=e1779]
+                      - row "Grounding with Google Search Not available 5,000 prompts per month (free, limit shared with Flash), then $14 / 1,000 search queries for text and image-based grounding." [ref=e1780]:
+                        - cell "Grounding with Google Search" [ref=e1781]
+                        - cell "Not available" [ref=e1782]
+                        - cell "5,000 prompts per month (free, limit shared with Flash), then $14 / 1,000 search queries for text and image-based grounding." [ref=e1783]
+                      - row "Used to improve our products Yes No" [ref=e1784]:
+                        - cell "Used to improve our products" [ref=e1785]
+                        - cell "Yes" [ref=e1786]:
+                          - link "Yes" [ref=e1787] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+                        - cell "No" [ref=e1788]:
+                          - link "No" [ref=e1789] [cursor=pointer]:
+                            - /url: /gemini-api/terms
+              - generic [ref=e1791]:
+                - heading "Gemini 2.5 Computer Use Preview" [level=2] [ref=e1792]
+                - emphasis [ref=e1793]:
+                  - code [ref=e1794]: gemini-2.5-computer-use-preview-10-2025
+              - paragraph [ref=e1795]: Our Computer Use model optimized for building browser control agents that automate tasks.
+              - table [ref=e1797]:
+                - rowgroup [ref=e1802]:
+                  - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e1803]:
+                    - columnheader [ref=e1804]
+                    - columnheader "Free Tier" [ref=e1805]
+                    - columnheader "Paid Tier, per 1M tokens in USD" [ref=e1806]
+                - rowgroup [ref=e1807]:
+                  - row "Input price Not available $1.25, prompts <= 200k tokens $2.50, prompts > 200k token" [ref=e1808]:
+                    - cell "Input price" [ref=e1809]
+                    - cell "Not available" [ref=e1810]
+                    - cell "$1.25, prompts <= 200k tokens $2.50, prompts > 200k token" [ref=e1811]:
+                      - text: $1.25, prompts <= 200k tokens
+                      - text: $2.50, prompts > 200k token
+                  - row "Output price Not available $10.00, prompts <= 200k tokens $15.00, prompts > 200k" [ref=e1812]:
+                    - cell "Output price" [ref=e1813]
+                    - cell "Not available" [ref=e1814]
+                    - cell "$10.00, prompts <= 200k tokens $15.00, prompts > 200k" [ref=e1815]:
+                      - text: $10.00, prompts <= 200k tokens
+                      - text: $15.00, prompts > 200k
+                  - row "Used to improve our products Yes No" [ref=e1816]:
+                    - cell "Used to improve our products" [ref=e1817]
+                    - cell "Yes" [ref=e1818]:
+                      - link "Yes" [ref=e1819] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+                    - cell "No" [ref=e1820]:
+                      - link "No" [ref=e1821] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+              - heading "Gemma 4" [level=2] [ref=e1823]
+              - paragraph [ref=e1824]: Our lightweight, state-of the art, open model built from the same technology that powers our Gemini models.
+              - table [ref=e1826]:
+                - rowgroup [ref=e1831]:
+                  - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e1832]:
+                    - columnheader [ref=e1833]
+                    - columnheader "Free Tier" [ref=e1834]
+                    - columnheader "Paid Tier, per 1M tokens in USD" [ref=e1835]
+                - rowgroup [ref=e1836]:
+                  - row "Input price Free of charge Not available" [ref=e1837]:
+                    - cell "Input price" [ref=e1838]
+                    - cell "Free of charge" [ref=e1839]
+                    - cell "Not available" [ref=e1840]
+                  - row "Output price Free of charge Not available" [ref=e1841]:
+                    - cell "Output price" [ref=e1842]
+                    - cell "Free of charge" [ref=e1843]
+                    - cell "Not available" [ref=e1844]
+                  - row "Context caching price Free of charge Not available" [ref=e1845]:
+                    - cell "Context caching price" [ref=e1846]
+                    - cell "Free of charge" [ref=e1847]
+                    - cell "Not available" [ref=e1848]
+                  - row "Context caching (storage) Free of charge Not available" [ref=e1849]:
+                    - cell "Context caching (storage)" [ref=e1850]
+                    - cell "Free of charge" [ref=e1851]
+                    - cell "Not available" [ref=e1852]
+                  - row "Tuning price Not available Not available" [ref=e1853]:
+                    - cell "Tuning price" [ref=e1854]
+                    - cell "Not available" [ref=e1855]
+                    - cell "Not available" [ref=e1856]
+                  - row "Grounding with Google Search Not available Not available" [ref=e1857]:
+                    - cell "Grounding with Google Search" [ref=e1858]
+                    - cell "Not available" [ref=e1859]
+                    - cell "Not available" [ref=e1860]
+                  - row "Used to improve our products Yes No" [ref=e1861]:
+                    - cell "Used to improve our products" [ref=e1862]
+                    - cell "Yes" [ref=e1863]:
+                      - link "Yes" [ref=e1864] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+                    - cell "No" [ref=e1865]:
+                      - link "No" [ref=e1866] [cursor=pointer]:
+                        - /url: /gemini-api/terms
+              - heading "Pricing for tools" [level=2] [ref=e1867]
+              - paragraph [ref=e1868]:
+                - text: Tools are priced at their own rates, applied to the model using them. Check the
+                - link "Models" [ref=e1869] [cursor=pointer]:
+                  - /url: /gemini-api/docs/models
+                - text: page for which tools are available to each model.
+              - table [ref=e1871]:
+                - rowgroup [ref=e1876]:
+                  - row "Free Tier Paid Tier, per 1M tokens in USD" [ref=e1877]:
+                    - columnheader [ref=e1878]
+                    - columnheader "Free Tier" [ref=e1879]
+                    - columnheader "Paid Tier, per 1M tokens in USD" [ref=e1880]
+                - rowgroup [ref=e1881]:
+                  - 'row "Google Search 500 RPD free (limit shared for Flash and Flash-Lite). Not available for Pro. Gemini 2.5 models: 1,500 RPD free (limit shared for Flash and Flash-Lite). Then $35 / 1,000 grounded prompts Gemini 3 models: 5,000 prompts per month (free), then $14 / 1,000 search queries" [ref=e1882]':
+                    - cell "Google Search" [ref=e1883]:
+                      - link "Google Search" [ref=e1884] [cursor=pointer]:
+                        - /url: /gemini-api/docs/google-search#pricing
+                    - cell "500 RPD free (limit shared for Flash and Flash-Lite). Not available for Pro." [ref=e1885]:
+                      - text: 500 RPD free (limit shared for Flash and Flash-Lite).
+                      - text: Not available for Pro.
+                    - 'cell "Gemini 2.5 models: 1,500 RPD free (limit shared for Flash and Flash-Lite). Then $35 / 1,000 grounded prompts Gemini 3 models: 5,000 prompts per month (free), then $14 / 1,000 search queries" [ref=e1886]':
+                      - text: "Gemini 2.5 models:"
+                      - text: 1,500 RPD free (limit shared for Flash and Flash-Lite).
+                      - text: Then $35 / 1,000 grounded prompts
+                      - text: "Gemini 3 models:"
+                      - text: 5,000 prompts per month (free), then $14 / 1,000 search queries
+                  - row "Google Maps 500 RPD Not available for Pro. 1,500 RPD free (limit shared for Flash and Flash-Lite) 10,000 RPD free for Pro. Then $25 / 1,000 grounded prompts" [ref=e1887]:
+                    - cell "Google Maps" [ref=e1888]:
+                      - link "Google Maps" [ref=e1889] [cursor=pointer]:
+                        - /url: /gemini-api/docs/maps-grounding#pricing_and_rate_limits
+                    - cell "500 RPD Not available for Pro." [ref=e1890]:
+                      - text: 500 RPD
+                      - text: Not available for Pro.
+                    - cell "1,500 RPD free (limit shared for Flash and Flash-Lite) 10,000 RPD free for Pro. Then $25 / 1,000 grounded prompts" [ref=e1891]:
+                      - text: 1,500 RPD free (limit shared for Flash and Flash-Lite)
+                      - text: 10,000 RPD free for Pro.
+                      - text: Then $25 / 1,000 grounded prompts
+                  - row "Code execution Free of charge Code execution is billed at the standard token rates for the selected model. Costs are determined solely by the tool's usage, no charges are accrued for the session runtime. The generated code and execution results are billed as Output tokens when created, and as Input tokens when the model uses them as part of its iterative reasoning process." [ref=e1892]:
+                    - cell "Code execution" [ref=e1893]:
+                      - link "Code execution" [ref=e1894] [cursor=pointer]:
+                        - /url: /gemini-api/docs/code-execution#billing
+                    - cell "Free of charge" [ref=e1895]
+                    - cell "Code execution is billed at the standard token rates for the selected model. Costs are determined solely by the tool's usage, no charges are accrued for the session runtime. The generated code and execution results are billed as Output tokens when created, and as Input tokens when the model uses them as part of its iterative reasoning process." [ref=e1896]:
+                      - text: Code execution is billed at the standard token rates for the selected model. Costs are determined solely by the tool's usage, no charges are accrued for the session runtime. The generated code and execution results are billed as
+                      - strong [ref=e1897]: Output tokens
+                      - text: when created, and as
+                      - strong [ref=e1898]: Input tokens
+                      - text: when the model uses them as part of its iterative reasoning process.
+                  - row "URL context Free of charge Charged as input tokens per model pricing." [ref=e1899]:
+                    - cell "URL context" [ref=e1900]:
+                      - link "URL context" [ref=e1901] [cursor=pointer]:
+                        - /url: /gemini-api/docs/url-context#limitations
+                    - cell "Free of charge" [ref=e1902]
+                    - cell "Charged as input tokens per model pricing." [ref=e1903]
+                  - row "Computer use Not available See Gemini 2.5 Computer Use Preview pricing table." [ref=e1904]:
+                    - cell "Computer use" [ref=e1905]:
+                      - link "Computer use" [ref=e1906] [cursor=pointer]:
+                        - /url: /gemini-api/docs/computer-use
+                    - cell "Not available" [ref=e1907]
+                    - cell "See Gemini 2.5 Computer Use Preview pricing table." [ref=e1908]:
+                      - text: See
+                      - link "Gemini 2.5 Computer Use Preview" [ref=e1909] [cursor=pointer]:
+                        - /url: "#gemini-2.5-computer-use-preview-10-2025"
+                      - text: pricing table.
+                  - row "File search Free of charge Charged for embeddings at $0.15 / 1M tokens. Retrieved document tokens charged as regular tokens per model pricing." [ref=e1910]:
+                    - cell "File search" [ref=e1911]:
+                      - link "File search" [ref=e1912] [cursor=pointer]:
+                        - /url: /gemini-api/docs/file-search#pricing
+                    - cell "Free of charge" [ref=e1913]
+                    - cell "Charged for embeddings at $0.15 / 1M tokens. Retrieved document tokens charged as regular tokens per model pricing." [ref=e1914]:
+                      - text: Charged for
+                      - link "embeddings" [ref=e1915] [cursor=pointer]:
+                        - /url: "#gemini-embedding"
+                      - text: at $0.15 / 1M tokens.
+                      - text: Retrieved document tokens charged as regular tokens per model pricing.
+                  - row "Custom Tools endpoint (Gemini 3.1 Pro Preview) Not available Same as Gemini 3.1 Pro Preview pricing" [ref=e1916]:
+                    - cell "Custom Tools endpoint (Gemini 3.1 Pro Preview)" [ref=e1917]:
+                      - link "Custom Tools endpoint (Gemini 3.1 Pro Preview)" [ref=e1918] [cursor=pointer]:
+                        - /url: /gemini-api/docs/models/gemini-3.1-pro-preview
+                    - cell "Not available" [ref=e1919]
+                    - cell "Same as Gemini 3.1 Pro Preview pricing" [ref=e1920]:
+                      - text: Same as
+                      - link "Gemini 3.1 Pro Preview" [ref=e1921] [cursor=pointer]:
+                        - /url: "#gemini-3.1-pro-preview"
+                      - text: pricing
+              - heading "Pricing for agents" [level=2] [ref=e1922]
+              - paragraph [ref=e1923]: Agent usage costs are calculated based on the underlying token consumption and usage of the tools.
+              - table [ref=e1925]:
+                - rowgroup [ref=e1930]:
+                  - row "Model Tools" [ref=e1931]:
+                    - columnheader [ref=e1932]
+                    - columnheader "Model" [ref=e1933]
+                    - columnheader "Tools" [ref=e1934]
+                - rowgroup [ref=e1935]:
+                  - row "Gemini Deep Research Agent All model inference is charged at standard Gemini list rates, including input, output, and intermediate input / reasoning tokens generated during agentic loops. Tool usage fees apply per existing pricing structure, maintaining standard distinctions for Search Grounding (retrieved tokens excluded) versus Url_context / File Search (retrieved tokens included in all other tools)." [ref=e1936]:
+                    - cell "Gemini Deep Research Agent" [ref=e1937]:
+                      - link "Gemini Deep Research Agent" [ref=e1938] [cursor=pointer]:
+                        - /url: /gemini-api/docs/deep-research
+                    - cell "All model inference is charged at standard Gemini list rates, including input, output, and intermediate input / reasoning tokens generated during agentic loops." [ref=e1939]
+                    - cell "Tool usage fees apply per existing pricing structure, maintaining standard distinctions for Search Grounding (retrieved tokens excluded) versus Url_context / File Search (retrieved tokens included in all other tools)." [ref=e1940]
+                  - row "Managed agents in Gemini API All model inference is charged at standard Gemini list rates, including input, output, and intermediate input / reasoning tokens generated during agentic loops. (See pricing details). Environment compute (CPU, memory, sandbox execution) is not billed during the preview period." [ref=e1941]:
+                    - cell "Managed agents in Gemini API" [ref=e1942]:
+                      - link "Managed agents in Gemini API" [ref=e1943] [cursor=pointer]:
+                        - /url: /gemini-api/docs/agents
+                    - cell "All model inference is charged at standard Gemini list rates, including input, output, and intermediate input / reasoning tokens generated during agentic loops. (See pricing details)." [ref=e1944]:
+                      - text: All model inference is charged at standard Gemini list rates, including input, output, and intermediate input / reasoning tokens generated during agentic loops. (See
+                      - link "pricing details" [ref=e1945] [cursor=pointer]:
+                        - /url: /gemini-api/docs/agents#pricing
+                      - text: ).
+                    - cell "Environment compute (CPU, memory, sandbox execution) is not billed during the preview period." [ref=e1946]
+                  - row "Antigravity Agent All model inference is charged at standard Gemini list rates, including input, output, and intermediate input / reasoning tokens generated during agentic loops. (See pricing details). Environment compute (CPU, memory, sandbox execution) is not billed during the preview period." [ref=e1947]:
+                    - cell "Antigravity Agent" [ref=e1948]:
+                      - link "Antigravity Agent" [ref=e1949] [cursor=pointer]:
+                        - /url: /gemini-api/docs/antigravity-agent
+                    - cell "All model inference is charged at standard Gemini list rates, including input, output, and intermediate input / reasoning tokens generated during agentic loops. (See pricing details)." [ref=e1950]:
+                      - text: All model inference is charged at standard Gemini list rates, including input, output, and intermediate input / reasoning tokens generated during agentic loops. (See
+                      - link "pricing details" [ref=e1951] [cursor=pointer]:
+                        - /url: /gemini-api/docs/agents#pricing
+                      - text: ).
+                    - cell "Environment compute (CPU, memory, sandbox execution) is not billed during the preview period." [ref=e1952]
+              - heading "Notes" [level=2] [ref=e1953]
+              - list [ref=e1954]:
+                - listitem [ref=e1955]:
+                  - strong [ref=e1956]: "Document token billing:"
+                  - text: Tokens for the
+                  - code [ref=e1957]: DOCUMENT
+                  - text: modality (for example, PDFs) are billed at the image token rate. In API responses, these tokens appear under the
+                  - code [ref=e1958]: DOCUMENT
+                  - text: modality within
+                  - code [ref=e1959]: promptTokensDetails
+                  - text: .
+                - listitem [ref=e1960]:
+                  - text: Google AI Studio usage is free of charge in all
+                  - link "available regions" [ref=e1961] [cursor=pointer]:
+                    - /url: /gemini-api/docs/available-regions
+                  - text: . See
+                  - link "Billing FAQs" [ref=e1962] [cursor=pointer]:
+                    - /url: /gemini-api/docs/billing
+                  - text: for details.
+                - listitem [ref=e1963]:
+                  - text: Prices may differ from the prices listed here and the prices offered on Gemini Enterprise Agent Platform. For Gemini Enterprise Agent Platform prices, see the
+                  - link "Gemini Enterprise Agent Platform pricing page" [ref=e1964] [cursor=pointer]:
+                    - /url: https://cloud.google.com/products/gemini-enterprise-agent-platform
+                  - text: .
+                - listitem [ref=e1965]:
+                  - text: If you are using
+                  - link "dynamic retrieval" [ref=e1966] [cursor=pointer]:
+                    - /url: /gemini-api/docs/grounding
+                  - text: to optimize costs, only requests that contain at least one grounding support URL from the web in their response are charged for Grounding with Google Search. Costs for Gemini always apply. Rate limits are subject to change.
+          - generic [ref=e1967]:
+            - paragraph [ref=e1968]:
+              - text: Except as otherwise noted, the content of this page is licensed under the
+              - link "Creative Commons Attribution 4.0 License" [ref=e1969] [cursor=pointer]:
+                - /url: https://creativecommons.org/licenses/by/4.0/
+              - text: ", and code samples are licensed under the"
+              - link "Apache 2.0 License" [ref=e1970] [cursor=pointer]:
+                - /url: https://www.apache.org/licenses/LICENSE-2.0
+              - text: . For details, see the
+              - link "Google Developers Site Policies" [ref=e1971] [cursor=pointer]:
+                - /url: https://developers.google.com/site-policies
+              - text: . Java is a registered trademark of Oracle and/or its affiliates.
+            - paragraph [ref=e1972]: Last updated 2026-05-19 UTC.
+      - generic:
+        - navigation "Footer links"
+      - navigation "Utility links" [ref=e1976]:
+        - list [ref=e1977]:
+          - listitem [ref=e1978]:
+            - link "Terms" [ref=e1979] [cursor=pointer]:
+              - /url: //policies.google.com/terms
+          - listitem [ref=e1980]:
+            - text: "|"
+            - link "Privacy" [ref=e1981] [cursor=pointer]:
+              - /url: //policies.google.com/privacy
+          - text: "|"
+        - generic "Select your language preference." [ref=e1982]:
+          - button "Language" [ref=e1983] [cursor=pointer]:
+            - img
+            - generic [ref=e1984]: Language
+            - img
