@@ -162,6 +162,20 @@
       "output": 75.0
     },
     {
+      "model": "anthropic/claude-opus-4.8",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
+      "model": "anthropic/claude-opus-4.8-fast",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 5.0,
+      "output": 25.0
+    },
+    {
       "model": "anthropic/claude-sonnet-4",
       "type": "tokens",
       "channel_type": 20,
@@ -2465,5 +2479,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-05-28T15:29:54Z"
+  "updated_at": "2026-05-28T19:16:35Z"
 }
