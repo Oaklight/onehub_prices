@@ -1424,6 +1424,16 @@
       }
     },
     {
+      "model": "claude-4.8-opus*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "claude-haiku-4-5",
       "type": "tokens",
       "channel_type": 14,
@@ -1574,6 +1584,26 @@
       }
     },
     {
+      "model": "claude-opus-4-8",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-opus-4-8*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "claude-opus-4.1",
       "type": "tokens",
       "channel_type": 14,
@@ -1605,6 +1635,16 @@
     },
     {
       "model": "claude-opus-4.7*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-opus-4.8*",
       "type": "tokens",
       "channel_type": 14,
       "input": 2.5,
@@ -4654,13 +4694,6 @@
       "output": 0.205
     },
     {
-      "model": "deepseek/deepseek-v3.2-speciale",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1435,
-      "output": 0.2155
-    },
-    {
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
@@ -6430,6 +6463,13 @@
       "channel_type": 20,
       "input": 0.045,
       "output": 0.15
+    },
+    {
+      "model": "stepfun/step-3.7-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.575
     },
     {
       "model": "switchpoint/router",
@@ -11680,5 +11720,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-05-28T17:06:38Z"
+  "updated_at": "2026-05-29T14:44:26Z"
 }

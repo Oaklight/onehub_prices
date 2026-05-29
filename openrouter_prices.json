@@ -421,13 +421,6 @@
       "output": 0.205
     },
     {
-      "model": "deepseek/deepseek-v3.2-speciale",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1435,
-      "output": 0.2155
-    },
-    {
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
@@ -2199,6 +2192,13 @@
       "output": 0.15
     },
     {
+      "model": "stepfun/step-3.7-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.575
+    },
+    {
       "model": "switchpoint/router",
       "type": "tokens",
       "channel_type": 20,
@@ -2479,5 +2479,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-05-28T17:06:37Z"
+  "updated_at": "2026-05-29T14:44:26Z"
 }
