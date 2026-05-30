@@ -5639,13 +5639,6 @@
       "output": 5.0
     },
     {
-      "model": "openai/gpt-4o-audio-preview",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.25,
-      "output": 5.0
-    },
-    {
       "model": "openai/gpt-4o-mini",
       "type": "tokens",
       "channel_type": 20,
