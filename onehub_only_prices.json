@@ -4309,13 +4309,6 @@
       "output": 0.8
     },
     {
-      "model": "alfredpros/codellama-7b-instruct-solidity",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.4,
-      "output": 0.6
-    },
-    {
       "model": "allenai/olmo-3-32b-think",
       "type": "tokens",
       "channel_type": 20,
@@ -4510,20 +4503,6 @@
       "channel_type": 20,
       "input": 0.375,
       "output": 0.6
-    },
-    {
-      "model": "baidu/ernie-4.5-21b-a3b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.035,
-      "output": 0.14
-    },
-    {
-      "model": "baidu/ernie-4.5-21b-a3b-thinking",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.035,
-      "output": 0.14
     },
     {
       "model": "baidu/ernie-4.5-300b-a47b",
@@ -5175,13 +5154,6 @@
       "channel_type": 20,
       "input": 0.075,
       "output": 0.575
-    },
-    {
-      "model": "minimax/minimax-m2.5:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "minimax/minimax-m2.7",
@@ -6118,8 +6090,8 @@
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07475,
-      "output": 0.7475
+      "input": 0.05,
+      "output": 0.05
     },
     {
       "model": "qwen/qwen3-30b-a3b",
@@ -6512,13 +6484,6 @@
       "channel_type": 20,
       "input": 0.225,
       "output": 0.325
-    },
-    {
-      "model": "upstage/solar-pro-3",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
     },
     {
       "model": "writer/palmyra-x5",
