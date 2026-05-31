@@ -4680,13 +4680,6 @@
       "output": 0.0983
     },
     {
-      "model": "deepseek/deepseek-v4-flash:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
