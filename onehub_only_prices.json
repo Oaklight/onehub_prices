@@ -4942,8 +4942,8 @@
       "model": "inclusionai/ring-2.6-1t",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.3125
+      "input": 0.15,
+      "output": 1.25
     },
     {
       "model": "inflection/inflection-3-pi",
@@ -5177,20 +5177,6 @@
       "output": 1.0
     },
     {
-      "model": "mistralai/devstral-medium",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.2,
-      "output": 1.0
-    },
-    {
-      "model": "mistralai/devstral-small",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.05,
-      "output": 0.15
-    },
-    {
       "model": "mistralai/ministral-14b-2512",
       "type": "tokens",
       "channel_type": 20,
@@ -5220,13 +5206,6 @@
     },
     {
       "model": "mistralai/mistral-large-2407",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.0,
-      "output": 3.0
-    },
-    {
-      "model": "mistralai/mistral-large-2411",
       "type": "tokens",
       "channel_type": 20,
       "input": 1.0,
@@ -5304,13 +5283,6 @@
     },
     {
       "model": "mistralai/mixtral-8x22b-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.0,
-      "output": 3.0
-    },
-    {
-      "model": "mistralai/pixtral-large-2411",
       "type": "tokens",
       "channel_type": 20,
       "input": 1.0,
@@ -6526,20 +6498,6 @@
       "channel_type": 20,
       "input": 0.05,
       "output": 0.15
-    },
-    {
-      "model": "xiaomi/mimo-v2-omni",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.2,
-      "output": 1.0
-    },
-    {
-      "model": "xiaomi/mimo-v2-pro",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.5,
-      "output": 1.5
     },
     {
       "model": "xiaomi/mimo-v2.5",
