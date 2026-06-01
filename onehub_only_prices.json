@@ -6419,8 +6419,8 @@
       "model": "tencent/hy3-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0315,
-      "output": 0.105
+      "input": 0.033,
+      "output": 0.13
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -6588,7 +6588,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.3,
-      "output": 0.96
+      "output": 1.04
     },
     {
       "model": "z-ai/glm-5-turbo",
@@ -7514,6 +7514,16 @@
       "extra_ratios": {
         "cached_tokens": 0.1,
         "cached_write_tokens": 0.625
+      }
+    },
+    {
+      "model": "MiniMax-M3",
+      "type": "tokens",
+      "channel_type": 27,
+      "input": 0.3,
+      "output": 1.2,
+      "extra_ratios": {
+        "cached_tokens": 0.2
       }
     },
     {
