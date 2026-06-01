@@ -883,6 +883,13 @@
       "output": 0.6
     },
     {
+      "model": "minimax/minimax-m3",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 0.6
+    },
+    {
       "model": "mistralai/codestral-2508",
       "type": "tokens",
       "channel_type": 20,
@@ -2178,6 +2185,13 @@
       "output": 0.325
     },
     {
+      "model": "upstage/solar-pro-3",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.075,
+      "output": 0.3
+    },
+    {
       "model": "writer/palmyra-x5",
       "type": "tokens",
       "channel_type": 20,
@@ -2381,5 +2395,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-05-31T19:03:50Z"
+  "updated_at": "2026-06-01T02:47:00Z"
 }
