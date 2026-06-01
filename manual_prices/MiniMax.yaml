@@ -4,7 +4,20 @@ models:
     # 模型定价(md)：https://platform.minimaxi.com/docs/guides/pricing-paygo.md
     # 模型列表：https://platform.minimaxi.com/docs/api-reference/text
 
-    # M2.7系列 - 最新旗舰模型
+    # M3 系列 - 最新旗舰模型
+    # 阶梯计价（标准）：
+    #   ≤ 512k 输入: 4.20 元/M 输入, 16.80 元/M 输出, 0.84 元/M 缓存读取
+    #   > 512k 输入: 8.40 元/M 输入, 33.60 元/M 输出, 1.68 元/M 缓存读取（限时限量供应）
+    # 优先档（service_tier）：
+    #   ≤ 512k: 6.30/25.20/1.26   > 512k: 12.60/50.40/2.52
+    # 当前 7 天限时五折优惠：≤512k 标准档实付 2.10/8.40/0.42
+    MiniMax-M3:
+      input: 4.20 rmb / M # 取 ≤512k 标准档常规价（非限时五折），最为常见
+      output: 16.80 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.84 rmb / M
+
+    # M2.7系列 - 旗舰模型
     MiniMax-M2.7:
       input: 2.1 rmb / M
       output: 8.4 rmb / M
@@ -19,6 +32,8 @@ models:
       extra_ratios:
         - cached_tokens: 0.42 rmb / M
         - cached_write_tokens: 2.625 rmb / M
+
+    # =========================== 历史模型 ===========================
 
     # M2.5系列 - 上一代旗舰模型
     MiniMax-M2.5:
