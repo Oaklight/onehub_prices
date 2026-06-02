@@ -4914,8 +4914,8 @@
       "model": "inclusionai/ring-2.6-1t",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 1.25
+      "input": 0.0375,
+      "output": 0.3125
     },
     {
       "model": "inflection/inflection-3-pi",
