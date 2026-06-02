@@ -232,13 +232,6 @@
       "output": 0.6
     },
     {
-      "model": "baidu/ernie-4.5-300b-a47b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.14,
-      "output": 0.55
-    },
-    {
       "model": "baidu/ernie-4.5-vl-28b-a3b",
       "type": "tokens",
       "channel_type": 20,
@@ -2381,5 +2374,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-02T02:44:41Z"
+  "updated_at": "2026-06-02T10:05:19Z"
 }
