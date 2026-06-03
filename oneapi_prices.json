@@ -6304,6 +6304,13 @@
       "output": 1.875
     },
     {
+      "model": "qwen/qwen3.7-plus",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.2,
+      "output": 0.8
+    },
+    {
       "model": "rekaai/reka-edge",
       "type": "tokens",
       "channel_type": 20,
@@ -11632,5 +11639,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-03T10:43:46Z"
+  "updated_at": "2026-06-03T16:18:32Z"
 }
