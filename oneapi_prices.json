@@ -6567,7 +6567,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.3,
-      "output": 1.04
+      "output": 0.96
     },
     {
       "model": "z-ai/glm-5-turbo",
@@ -8897,6 +8897,13 @@
     },
     {
       "model": "netease-youdao/bce-reranker-base_v1",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "nex-agi/Nex-N2-Pro",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.0,
@@ -11625,5 +11632,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-03T02:53:07Z"
+  "updated_at": "2026-06-03T10:43:46Z"
 }
