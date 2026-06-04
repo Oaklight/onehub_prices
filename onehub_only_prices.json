@@ -5422,6 +5422,13 @@
       "output": 0.0
     },
     {
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.25,
+      "output": 1.25
+    },
+    {
       "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "type": "tokens",
       "channel_type": 20,
