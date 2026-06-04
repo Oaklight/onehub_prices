@@ -5478,13 +5478,6 @@
       "output": 30.0
     },
     {
-      "model": "openai/gpt-4-0314",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 15.0,
-      "output": 30.0
-    },
-    {
       "model": "openai/gpt-4-1106-preview",
       "type": "tokens",
       "channel_type": 20,
@@ -6055,8 +6048,8 @@
       "model": "qwen/qwen3-30b-a3b-instruct-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0214,
-      "output": 0.0858
+      "input": 0.02408,
+      "output": 0.09652
     },
     {
       "model": "qwen/qwen3-30b-a3b-thinking-2507",
