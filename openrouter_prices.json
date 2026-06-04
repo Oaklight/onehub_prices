@@ -1149,6 +1149,20 @@
       "output": 0.0
     },
     {
+      "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "nvidia/nemotron-3.5-content-safety:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "nvidia/nemotron-nano-12b-v2-vl:free",
       "type": "tokens",
       "channel_type": 20,
@@ -2374,5 +2388,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-04T09:43:34Z"
+  "updated_at": "2026-06-04T14:36:53Z"
 }
