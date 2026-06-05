@@ -719,7 +719,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.01,
-      "output": 0.025
+      "output": 0.015
     },
     {
       "model": "meta-llama/llama-3.2-11b-vision-instruct",
@@ -2395,5 +2395,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-04T19:54:39Z"
+  "updated_at": "2026-06-05T02:35:27Z"
 }
