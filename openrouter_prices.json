@@ -1065,13 +1065,6 @@
       "output": 0.25
     },
     {
-      "model": "nousresearch/hermes-2-pro-llama-3-8b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.07,
-      "output": 0.07
-    },
-    {
       "model": "nousresearch/hermes-3-llama-3.1-405b",
       "type": "tokens",
       "channel_type": 20,
@@ -2080,13 +2073,6 @@
       "output": 1.5
     },
     {
-      "model": "sao10k/l3-euryale-70b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.74,
-      "output": 0.74
-    },
-    {
       "model": "sao10k/l3-lunaris-8b",
       "type": "tokens",
       "channel_type": 20,
@@ -2395,5 +2381,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-05T09:31:57Z"
+  "updated_at": "2026-06-05T14:26:56Z"
 }
