@@ -4477,13 +4477,6 @@
       "output": 1.65
     },
     {
-      "model": "arcee-ai/spotlight",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.09,
-      "output": 0.09
-    },
-    {
       "model": "arcee-ai/trinity-large-thinking",
       "type": "tokens",
       "channel_type": 20,
@@ -4503,13 +4496,6 @@
       "channel_type": 20,
       "input": 0.375,
       "output": 0.6
-    },
-    {
-      "model": "baidu/ernie-4.5-vl-28b-a3b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.07,
-      "output": 0.28
     },
     {
       "model": "baidu/ernie-4.5-vl-424b-a47b",
@@ -4977,8 +4963,8 @@
       "model": "meta-llama/llama-3-8b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 0.02
+      "input": 0.07,
+      "output": 0.07
     },
     {
       "model": "meta-llama/llama-3.1-70b-instruct",
@@ -5490,13 +5476,6 @@
       "channel_type": 20,
       "input": 15.0,
       "output": 30.0
-    },
-    {
-      "model": "openai/gpt-4-1106-preview",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 5.0,
-      "output": 15.0
     },
     {
       "model": "openai/gpt-4-turbo",
