@@ -4788,8 +4788,8 @@
       "model": "google/gemma-3-12b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 0.065
+      "input": 0.025,
+      "output": 0.075
     },
     {
       "model": "google/gemma-3-27b-it",
@@ -4802,8 +4802,8 @@
       "model": "google/gemma-3-4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 0.04
+      "input": 0.025,
+      "output": 0.05
     },
     {
       "model": "google/gemma-3n-e4b-it",
@@ -4984,8 +4984,8 @@
       "model": "meta-llama/llama-3.2-11b-vision-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1225,
-      "output": 0.1225
+      "input": 0.1725,
+      "output": 0.1725
     },
     {
       "model": "meta-llama/llama-3.2-1b-instruct",
@@ -5033,7 +5033,7 @@
       "model": "meta-llama/llama-4-scout",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
+      "input": 0.05,
       "output": 0.15
     },
     {
@@ -5341,8 +5341,8 @@
       "model": "nousresearch/hermes-3-llama-3.1-70b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.15
+      "input": 0.35,
+      "output": 0.35
     },
     {
       "model": "nousresearch/hermes-4-405b",
@@ -5362,7 +5362,7 @@
       "model": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
+      "input": 0.2,
       "output": 0.2
     },
     {
@@ -6020,7 +6020,7 @@
       "model": "qwen/qwen3-235b-a22b-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0355,
+      "input": 0.045,
       "output": 0.05
     },
     {
@@ -6034,8 +6034,8 @@
       "model": "qwen/qwen3-30b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.225
+      "input": 0.06,
+      "output": 0.25
     },
     {
       "model": "qwen/qwen3-30b-a3b-instruct-2507",
@@ -6223,7 +6223,7 @@
       "model": "qwen/qwen3.5-9b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
+      "input": 0.05,
       "output": 0.075
     },
     {
