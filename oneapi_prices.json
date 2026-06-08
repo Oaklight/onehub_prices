@@ -5317,6 +5317,13 @@
       "output": 0.95
     },
     {
+      "model": "nex-agi/nex-n2-pro:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "nousresearch/hermes-3-llama-3.1-405b",
       "type": "tokens",
       "channel_type": 20,
@@ -11611,5 +11618,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-08T15:30:59Z"
+  "updated_at": "2026-06-08T20:02:06Z"
 }
