@@ -5317,13 +5317,6 @@
       "output": 0.95
     },
     {
-      "model": "nex-agi/deepseek-v3.1-nex-n1",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0675,
-      "output": 0.25
-    },
-    {
       "model": "nousresearch/hermes-3-llama-3.1-405b",
       "type": "tokens",
       "channel_type": 20,
