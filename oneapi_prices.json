@@ -7485,8 +7485,8 @@
       "model": "MiniMax-M3",
       "type": "tokens",
       "channel_type": 27,
-      "input": 0.3,
-      "output": 1.2,
+      "input": 0.15,
+      "output": 0.6,
       "extra_ratios": {
         "cached_tokens": 0.2
       }
@@ -7555,8 +7555,8 @@
       "model": "deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 28,
-      "input": 0.85714,
-      "output": 1.71429,
+      "input": 0.21429,
+      "output": 0.42857,
       "extra_ratios": {
         "cached_tokens": 0.00833
       }
@@ -10462,10 +10462,10 @@
     },
     {
       "model": "step-2x-large",
-      "type": "tokens",
+      "type": "times",
       "channel_type": 1005,
       "input": 0.0,
-      "output": 0.0
+      "output": 7.14286
     },
     {
       "model": "step-3",
@@ -10493,6 +10493,16 @@
       "channel_type": 1005,
       "input": 0.05,
       "output": 0.15,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "step-3.7-flash",
+      "type": "tokens",
+      "channel_type": 1005,
+      "input": 0.09643,
+      "output": 0.57857,
       "extra_ratios": {
         "cached_tokens": 0.2
       }
@@ -11618,5 +11628,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-09T02:11:59Z"
+  "updated_at": "2026-06-09T07:38:24Z"
 }

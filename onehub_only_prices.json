@@ -7485,8 +7485,8 @@
       "model": "MiniMax-M3",
       "type": "tokens",
       "channel_type": 27,
-      "input": 0.3,
-      "output": 1.2,
+      "input": 0.15,
+      "output": 0.6,
       "extra_ratios": {
         "cached_tokens": 0.2
       }
@@ -7555,8 +7555,8 @@
       "model": "deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 28,
-      "input": 0.85714,
-      "output": 1.71429,
+      "input": 0.21429,
+      "output": 0.42857,
       "extra_ratios": {
         "cached_tokens": 0.00833
       }
