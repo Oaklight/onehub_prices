@@ -4,6 +4,13 @@ models:
 
     # 缓存定价：https://platform.stepfun.com/docs/guide/prompt_cache#%E6%88%91%E6%98%AF%E5%90%A6%E9%9C%80%E8%A6%81%E4%B8%BA-prompt-%E7%BC%93%E5%AD%98%E9%A2%9D%E5%A4%96%E4%BB%98%E8%B4%B9
 
+    # 多模态推理大模型
+    step-3.7-flash:
+      input: 1.35 rmb / M
+      output: 8.1 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.27 rmb / M
+
     # 视觉理解大模型
     step-1o-turbo-vision:
       input: 2.5 rmb / M
@@ -113,9 +120,8 @@ models:
     step-1x-edit: # Model Lab 限免
       input: 0
       output: 0
-    step-2x-large: # Model Lab 限免
-      input: 0
-      output: 0
+    step-2x-large:
+      output: 0.1 rmb / image
 
     # Model Lab
     step-gui: # Model Lab
