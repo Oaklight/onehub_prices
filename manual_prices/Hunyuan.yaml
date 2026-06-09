@@ -12,32 +12,30 @@ models:
       extra_ratios:
         - cached_tokens: 0.8 rmb / M # ≤16K: 0.4, 16~32K: 0.6
 
-    # Tencent HY 2.0 系列 (将于 2026-06-10 下线)
+    # Tencent HY 2.0 系列 (将于 2026-06-22 下线)
     # 分段计费: ≤32K 标准价, 32K~128K 加价
     hunyuan-2.0-thinking:
-      deprecated: 2026-06-10
+      deprecated: 2026-06-22
       aliases:
         - hunyuan-2.0-thinking-202*
       input: 5.3 rmb / M # ≤32K: 3.975
       output: 21.2 rmb / M # ≤32K: 15.9
 
     hunyuan-2.0-instruct:
-      deprecated: 2026-06-10
+      deprecated: 2026-06-22
       aliases:
         - hunyuan-2.0-instruct-202*
       input: 4.505 rmb / M # ≤32K: 3.18
       output: 11.13 rmb / M # ≤32K: 7.95
 
-    # 通用文生文模型 (hunyuan-t1, hunyuan-turbos 将于 2026-06-10 下线)
+    # 通用文生文模型 (旧平台不再新增模型，TokenHub 为主)
     hunyuan-t1:
-      deprecated: 2026-06-10
       aliases:
         - hunyuan-t1-latest
       input: 1 rmb / M
       output: 4 rmb / M
 
     hunyuan-turbos:
-      deprecated: 2026-06-10
       aliases:
         - hunyuan-turbos-latest
       input: 0.8 rmb / M
