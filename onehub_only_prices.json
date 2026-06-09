@@ -4470,13 +4470,6 @@
       "output": 0.4
     },
     {
-      "model": "arcee-ai/maestro-reasoning",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.45,
-      "output": 1.65
-    },
-    {
       "model": "arcee-ai/trinity-large-thinking",
       "type": "tokens",
       "channel_type": 20,
@@ -5111,14 +5104,14 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.075,
-      "output": 0.575
+      "output": 0.45
     },
     {
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1395,
-      "output": 0.6
+      "input": 0.135,
+      "output": 0.54
     },
     {
       "model": "minimax/minimax-m3",
