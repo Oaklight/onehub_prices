@@ -5296,13 +5296,6 @@
       "output": 1.705
     },
     {
-      "model": "moonshotai/kimi-k2.6:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "morph/morph-v3-fast",
       "type": "tokens",
       "channel_type": 20,
