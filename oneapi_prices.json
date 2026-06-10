@@ -6486,13 +6486,6 @@
       "output": 0.435
     },
     {
-      "model": "z-ai/glm-4-32b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.05,
-      "output": 0.05
-    },
-    {
       "model": "z-ai/glm-4.5",
       "type": "tokens",
       "channel_type": 20,
@@ -6505,13 +6498,6 @@
       "channel_type": 20,
       "input": 0.0625,
       "output": 0.425
-    },
-    {
-      "model": "z-ai/glm-4.5-air:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "z-ai/glm-4.5v",
@@ -6568,13 +6554,6 @@
       "channel_type": 20,
       "input": 0.49,
       "output": 1.54
-    },
-    {
-      "model": "z-ai/glm-5v-turbo",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.6,
-      "output": 2.0
     },
     {
       "model": "~anthropic/claude-fable-latest",
@@ -11635,5 +11614,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-09T19:56:40Z"
+  "updated_at": "2026-06-10T02:35:27Z"
 }
