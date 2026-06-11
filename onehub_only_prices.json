@@ -5285,8 +5285,8 @@
       "model": "moonshotai/kimi-k2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.95
+      "input": 0.175,
+      "output": 0.945
     },
     {
       "model": "moonshotai/kimi-k2.6",
@@ -6251,7 +6251,7 @@
       "model": "qwen/qwen3.6-35b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
+      "input": 0.075,
       "output": 0.5
     },
     {
@@ -8413,32 +8413,11 @@
       "output": 0.21429
     },
     {
-      "model": "Pro/moonshotai/Kimi-K2.5",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.28571,
-      "output": 1.5
-    },
-    {
       "model": "Pro/moonshotai/Kimi-K2.6",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.46429,
       "output": 1.92857
-    },
-    {
-      "model": "Pro/zai-org/GLM-4.7",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.28571,
-      "output": 1.14286
-    },
-    {
-      "model": "Pro/zai-org/GLM-5",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.28571,
-      "output": 1.57143
     },
     {
       "model": "Pro/zai-org/GLM-5.1",
@@ -8852,20 +8831,6 @@
       "channel_type": 45,
       "input": 0.03571,
       "output": 0.14286
-    },
-    {
-      "model": "netease-youdao/bce-embedding-base_v1",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "netease-youdao/bce-reranker-base_v1",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "nex-agi/Nex-N2-Pro",
