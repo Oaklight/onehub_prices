@@ -4620,7 +4620,7 @@
       "model": "deepseek/deepseek-r1-distill-llama-70b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.35,
+      "input": 0.4,
       "output": 0.4
     },
     {
@@ -4831,7 +4831,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.06,
-      "output": 0.18
+      "output": 0.175
     },
     {
       "model": "google/gemma-4-31b-it:free",
@@ -5285,8 +5285,8 @@
       "model": "moonshotai/kimi-k2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.175,
-      "output": 0.945
+      "input": 0.2,
+      "output": 0.95
     },
     {
       "model": "moonshotai/kimi-k2.6",
@@ -5420,13 +5420,6 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
-    },
-    {
-      "model": "nvidia/nemotron-nano-9b-v2",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.02,
-      "output": 0.08
     },
     {
       "model": "nvidia/nemotron-nano-9b-v2:free",
@@ -6286,8 +6279,8 @@
       "model": "qwen/qwen3.7-plus",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.8
+      "input": 0.16,
+      "output": 0.64
     },
     {
       "model": "rekaai/reka-edge",
@@ -11572,5 +11565,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-11T10:07:34Z"
+  "updated_at": "2026-06-11T15:36:36Z"
 }
