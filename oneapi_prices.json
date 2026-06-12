@@ -4655,8 +4655,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04915,
-      "output": 0.0983
+      "input": 0.049,
+      "output": 0.098
     },
     {
       "model": "deepseek/deepseek-v4-pro",
@@ -5117,8 +5117,8 @@
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.135,
-      "output": 0.54
+      "input": 0.125,
+      "output": 0.5
     },
     {
       "model": "minimax/minimax-m3",
@@ -5985,8 +5985,8 @@
       "model": "qwen/qwen2.5-vl-72b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.375
+      "input": 0.4,
+      "output": 0.5
     },
     {
       "model": "qwen/qwen3-14b",
@@ -11565,5 +11565,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-11T20:09:50Z"
+  "updated_at": "2026-06-12T02:41:56Z"
 }
