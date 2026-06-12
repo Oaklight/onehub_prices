@@ -5037,13 +5037,6 @@
       "output": 0.15
     },
     {
-      "model": "meta-llama/llama-guard-3-8b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.242,
-      "output": 0.015
-    },
-    {
       "model": "meta-llama/llama-guard-4-12b",
       "type": "tokens",
       "channel_type": 20,
@@ -5285,15 +5278,22 @@
       "model": "moonshotai/kimi-k2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.175,
-      "output": 0.945
+      "input": 0.2,
+      "output": 0.95
     },
     {
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.335,
-      "output": 1.695
+      "input": 0.34,
+      "output": 1.705
+    },
+    {
+      "model": "moonshotai/kimi-k2.7-code",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.475,
+      "output": 2.0
     },
     {
       "model": "morph/morph-v3-fast",
@@ -6237,8 +6237,8 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1445,
-      "output": 1.2
+      "input": 0.14425,
+      "output": 1.585
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
@@ -6587,8 +6587,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.335,
-      "output": 1.695
+      "input": 0.34,
+      "output": 1.705
     },
     {
       "model": "~openai/gpt-latest",
@@ -11565,5 +11565,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-12T09:56:59Z"
+  "updated_at": "2026-06-12T14:36:30Z"
 }
