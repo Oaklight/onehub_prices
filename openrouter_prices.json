@@ -2202,7 +2202,7 @@
       "model": "z-ai/glm-4.5-air",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0625,
+      "input": 0.065,
       "output": 0.425
     },
     {
@@ -2325,5 +2325,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-16T10:54:59Z"
+  "updated_at": "2026-06-16T16:24:59Z"
 }
