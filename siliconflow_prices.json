@@ -547,6 +547,13 @@
       "output": 0.14286
     },
     {
+      "model": "moonshotai/Kimi-K2.7-Code",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.46429,
+      "output": 1.92857
+    },
+    {
       "model": "nex-agi/Nex-N2-Pro",
       "type": "tokens",
       "channel_type": 45,
@@ -589,5 +596,5 @@
       "output": 0.42857
     }
   ],
-  "updated_at": "2026-06-16T02:51:49Z"
+  "updated_at": "2026-06-16T10:54:59Z"
 }
