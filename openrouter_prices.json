@@ -1012,7 +1012,7 @@
       "model": "moonshotai/kimi-k2.7-code",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.375,
+      "input": 0.37,
       "output": 1.75
     },
     {
@@ -2262,6 +2262,13 @@
       "output": 1.54
     },
     {
+      "model": "z-ai/glm-5.2",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.7,
+      "output": 2.2
+    },
+    {
       "model": "~anthropic/claude-fable-latest",
       "type": "tokens",
       "channel_type": 20,
@@ -2325,5 +2332,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-16T16:24:59Z"
+  "updated_at": "2026-06-16T20:39:22Z"
 }
