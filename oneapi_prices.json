@@ -6454,13 +6454,6 @@
       "output": 1.0
     },
     {
-      "model": "xiaomi/mimo-v2-flash",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.05,
-      "output": 0.15
-    },
-    {
       "model": "xiaomi/mimo-v2.5",
       "type": "tokens",
       "channel_type": 20,
@@ -11589,5 +11582,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-17T14:52:12Z"
+  "updated_at": "2026-06-17T20:00:36Z"
 }
