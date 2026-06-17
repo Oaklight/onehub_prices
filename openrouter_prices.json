@@ -99,6 +99,13 @@
       "output": 2.0
     },
     {
+      "model": "anthropic/claude-fable-5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 5.0,
+      "output": 25.0
+    },
+    {
       "model": "anthropic/claude-haiku-4.5",
       "type": "tokens",
       "channel_type": 20,
@@ -195,13 +202,6 @@
       "channel_type": 20,
       "input": 0.25,
       "output": 0.4
-    },
-    {
-      "model": "arcee-ai/maestro-reasoning",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.45,
-      "output": 1.65
     },
     {
       "model": "arcee-ai/trinity-large-thinking",
@@ -347,15 +347,8 @@
       "model": "deepseek/deepseek-r1-distill-llama-70b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.35,
+      "input": 0.4,
       "output": 0.4
-    },
-    {
-      "model": "deepseek/deepseek-r1-distill-qwen-32b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.145,
-      "output": 0.145
     },
     {
       "model": "deepseek/deepseek-v3.1-terminus",
@@ -382,8 +375,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04915,
-      "output": 0.0983
+      "input": 0.045,
+      "output": 0.09
     },
     {
       "model": "deepseek/deepseek-v4-pro",
@@ -558,7 +551,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.06,
-      "output": 0.18
+      "output": 0.175
     },
     {
       "model": "google/gemma-4-31b-it:free",
@@ -764,13 +757,6 @@
       "output": 0.15
     },
     {
-      "model": "meta-llama/llama-guard-3-8b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.242,
-      "output": 0.015
-    },
-    {
       "model": "meta-llama/llama-guard-4-12b",
       "type": "tokens",
       "channel_type": 20,
@@ -838,14 +824,14 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.075,
-      "output": 0.575
+      "output": 0.45
     },
     {
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1395,
-      "output": 0.6
+      "input": 0.125,
+      "output": 0.5
     },
     {
       "model": "minimax/minimax-m3",
@@ -1012,8 +998,8 @@
       "model": "moonshotai/kimi-k2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.95
+      "input": 0.1875,
+      "output": 1.0125
     },
     {
       "model": "moonshotai/kimi-k2.6",
@@ -1023,11 +1009,11 @@
       "output": 1.705
     },
     {
-      "model": "moonshotai/kimi-k2.6:free",
+      "model": "moonshotai/kimi-k2.7-code",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.37,
+      "output": 1.75
     },
     {
       "model": "morph/morph-v3-fast",
@@ -1132,7 +1118,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.25,
-      "output": 1.25
+      "output": 1.1
     },
     {
       "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -1154,13 +1140,6 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
-    },
-    {
-      "model": "nvidia/nemotron-nano-9b-v2",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.02,
-      "output": 0.08
     },
     {
       "model": "nvidia/nemotron-nano-9b-v2:free",
@@ -1726,8 +1705,8 @@
       "model": "qwen/qwen2.5-vl-72b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.375
+      "input": 0.4,
+      "output": 0.5
     },
     {
       "model": "qwen/qwen3-14b",
@@ -1943,8 +1922,8 @@
       "model": "qwen/qwen3.5-397b-a17b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.195,
-      "output": 1.17
+      "input": 0.1925,
+      "output": 1.225
     },
     {
       "model": "qwen/qwen3.5-9b",
@@ -1978,14 +1957,14 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1445,
-      "output": 1.2
+      "input": 0.14425,
+      "output": 1.585
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
+      "input": 0.075,
       "output": 0.5
     },
     {
@@ -2020,8 +1999,8 @@
       "model": "qwen/qwen3.7-plus",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.8
+      "input": 0.16,
+      "output": 0.64
     },
     {
       "model": "rekaai/reka-edge",
@@ -2111,8 +2090,8 @@
       "model": "tencent/hy3-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0315,
-      "output": 0.105
+      "input": 0.033,
+      "output": 0.13
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -2174,8 +2153,8 @@
       "model": "x-ai/grok-4.20-multi-agent",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.0,
-      "output": 3.0
+      "input": 0.625,
+      "output": 1.25
     },
     {
       "model": "x-ai/grok-4.3",
@@ -2213,13 +2192,6 @@
       "output": 0.435
     },
     {
-      "model": "z-ai/glm-4-32b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.05,
-      "output": 0.05
-    },
-    {
       "model": "z-ai/glm-4.5",
       "type": "tokens",
       "channel_type": 20,
@@ -2230,15 +2202,8 @@
       "model": "z-ai/glm-4.5-air",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0625,
+      "input": 0.065,
       "output": 0.425
-    },
-    {
-      "model": "z-ai/glm-4.5-air:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "z-ai/glm-4.5v",
@@ -2297,11 +2262,18 @@
       "output": 1.54
     },
     {
-      "model": "z-ai/glm-5v-turbo",
+      "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.6,
-      "output": 2.0
+      "input": 0.7,
+      "output": 2.2
+    },
+    {
+      "model": "~anthropic/claude-fable-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 5.0,
+      "output": 25.0
     },
     {
       "model": "~anthropic/claude-haiku-latest",
@@ -2360,5 +2332,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-09T07:35:03Z"
+  "updated_at": "2026-06-17T04:22:05Z"
 }
