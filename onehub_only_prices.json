@@ -2704,6 +2704,16 @@
       }
     },
     {
+      "model": "glm-5.2",
+      "type": "tokens",
+      "channel_type": 16,
+      "input": 0.7,
+      "output": 2.2,
+      "extra_ratios": {
+        "cached_tokens": 0.18571
+      }
+    },
+    {
       "model": "glm-5v-turbo",
       "type": "tokens",
       "channel_type": 16,
