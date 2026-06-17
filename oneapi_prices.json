@@ -8885,6 +8885,13 @@
       "output": 0.42857
     },
     {
+      "model": "zai-org/GLM-5.2",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.42857,
+      "output": 2.0
+    },
+    {
       "model": "jina-*",
       "type": "tokens",
       "channel_type": 47,
@@ -11582,5 +11589,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-17T04:23:00Z"
+  "updated_at": "2026-06-17T10:26:24Z"
 }

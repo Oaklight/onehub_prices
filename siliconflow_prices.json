@@ -594,7 +594,14 @@
       "channel_type": 45,
       "input": 0.07143,
       "output": 0.42857
+    },
+    {
+      "model": "zai-org/GLM-5.2",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.42857,
+      "output": 2.0
     }
   ],
-  "updated_at": "2026-06-17T04:22:58Z"
+  "updated_at": "2026-06-17T10:26:22Z"
 }
