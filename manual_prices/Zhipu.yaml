@@ -6,6 +6,13 @@ models:
     # 模型列表(国际站)：https://docs.z.ai/guides/overview/model-list
     # llm
     # GLM-5 系列
+    glm-5.2:
+      # 国内定价（flat rate）：8元/M输入，28元/M输出，缓存2元/M
+      # 国际站USD定价（flat rate）：
+      input: 1.4 usd / M
+      output: 4.4 usd / M
+      extra_ratios:
+        - cached_tokens: 0.26 usd / M
     glm-5.1:
       # 国内阶梯计价：[0,32K): 6元/M输入，24元/M输出，缓存1.3元/M
       # [32K+): 8元/M输入，28元/M输出，缓存2元/M
