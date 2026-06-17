@@ -4648,8 +4648,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.049,
-      "output": 0.098
+      "input": 0.045,
+      "output": 0.09
     },
     {
       "model": "deepseek/deepseek-v4-pro",
@@ -5391,7 +5391,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.25,
-      "output": 1.25
+      "output": 1.1
     },
     {
       "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -11572,5 +11572,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-16T20:39:23Z"
+  "updated_at": "2026-06-17T02:48:57Z"
 }
