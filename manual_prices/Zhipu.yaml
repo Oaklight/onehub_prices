@@ -7,20 +7,20 @@ models:
     # llm
     # GLM-5 系列
     glm-5.2:
-      # 国内定价（flat rate）：8元/M输入，28元/M输出，缓存2元/M
-      # 国际站USD定价（flat rate）：
-      input: 1.4 usd / M
-      output: 4.4 usd / M
+      # 国内定价（flat rate，1M上下文）：8元/M输入，28元/M输出，缓存2元/M
+      # 国际站USD定价：$1.4/$4.4/$0.26
+      input: 8 rmb / M
+      output: 28 rmb / M
       extra_ratios:
-        - cached_tokens: 0.26 usd / M
+        - cached_tokens: 2 rmb / M
     glm-5.1:
       # 国内阶梯计价：[0,32K): 6元/M输入，24元/M输出，缓存1.3元/M
       # [32K+): 8元/M输入，28元/M输出，缓存2元/M
-      # 国际站USD定价（flat rate）：
-      input: 1.4 usd / M
-      output: 4.4 usd / M
+      # 国际站USD定价：$1.4/$4.4/$0.26
+      input: 8 rmb / M # 取32k+的价格，最为常用
+      output: 28 rmb / M
       extra_ratios:
-        - cached_tokens: 0.26 usd / M
+        - cached_tokens: 2 rmb / M
     glm-5-turbo:
       # 阶梯计价：[0,32K): 5元/M输入，22元/M输出，缓存1.2元/M
       # [32K+): 7元/M输入，26元/M输出，缓存1.8元/M
