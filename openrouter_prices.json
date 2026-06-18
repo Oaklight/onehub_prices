@@ -456,11 +456,25 @@
       "output": 1.5
     },
     {
+      "model": "google/gemini-3-pro-image",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 6.0
+    },
+    {
       "model": "google/gemini-3-pro-image-preview",
       "type": "tokens",
       "channel_type": 20,
       "input": 1.0,
       "output": 6.0
+    },
+    {
+      "model": "google/gemini-3.1-flash-image",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.25,
+      "output": 1.5
     },
     {
       "model": "google/gemini-3.1-flash-image-preview",
@@ -2332,5 +2346,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-18T02:44:14Z"
+  "updated_at": "2026-06-18T10:06:19Z"
 }
