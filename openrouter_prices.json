@@ -302,6 +302,13 @@
       "output": 0.075
     },
     {
+      "model": "cohere/north-mini-code:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "deepcogito/cogito-v2.1-671b",
       "type": "tokens",
       "channel_type": 20,
@@ -2325,5 +2332,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-17T21:46:19Z"
+  "updated_at": "2026-06-18T02:44:14Z"
 }
