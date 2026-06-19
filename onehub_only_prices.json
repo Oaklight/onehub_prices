@@ -5309,8 +5309,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.34,
-      "output": 1.705
+      "input": 0.335,
+      "output": 1.75
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -6577,7 +6577,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.6,
-      "output": 2.1
+      "output": 2.05
     },
     {
       "model": "~anthropic/claude-fable-latest",
@@ -6625,8 +6625,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.34,
-      "output": 1.705
+      "input": 0.335,
+      "output": 1.75
     },
     {
       "model": "~openai/gpt-latest",
