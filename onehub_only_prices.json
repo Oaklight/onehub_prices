@@ -5309,8 +5309,8 @@
       "model": "moonshotai/kimi-k2.7-code",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.37,
-      "output": 1.75
+      "input": 0.34,
+      "output": 1.705
     },
     {
       "model": "morph/morph-v3-fast",
