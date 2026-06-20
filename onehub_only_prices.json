@@ -4490,8 +4490,8 @@
       "model": "arcee-ai/trinity-large-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.11,
-      "output": 0.425
+      "input": 0.125,
+      "output": 0.4
     },
     {
       "model": "arcee-ai/trinity-mini",

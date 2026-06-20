@@ -207,8 +207,8 @@
       "model": "arcee-ai/trinity-large-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.11,
-      "output": 0.425
+      "input": 0.125,
+      "output": 0.4
     },
     {
       "model": "arcee-ai/trinity-mini",
@@ -2353,5 +2353,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-20T08:41:21Z"
+  "updated_at": "2026-06-20T13:29:34Z"
 }
