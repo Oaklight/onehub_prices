@@ -1019,7 +1019,7 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.335,
+      "input": 0.33,
       "output": 1.75
     },
     {
@@ -2118,8 +2118,8 @@
       "model": "tencent/hy3-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.033,
-      "output": 0.13
+      "input": 0.0315,
+      "output": 0.105
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -2335,7 +2335,7 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.335,
+      "input": 0.33,
       "output": 1.75
     },
     {
@@ -2353,5 +2353,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-20T02:33:52Z"
+  "updated_at": "2026-06-20T08:41:21Z"
 }
