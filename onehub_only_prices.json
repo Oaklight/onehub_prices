@@ -6569,8 +6569,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.6,
-      "output": 2.05
+      "input": 0.5,
+      "output": 2.0
     },
     {
       "model": "~anthropic/claude-fable-latest",
