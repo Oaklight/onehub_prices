@@ -1044,13 +1044,6 @@
       "output": 1.25
     },
     {
-      "model": "nex-agi/nex-n2-pro:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "nousresearch/hermes-3-llama-3.1-405b",
       "type": "tokens",
       "channel_type": 20,
@@ -2286,7 +2279,14 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5,
+      "input": 0.49,
+      "output": 1.54
+    },
+    {
+      "model": "z-ai/glm-5v-turbo",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.6,
       "output": 2.0
     },
     {
@@ -2353,5 +2353,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-22T11:35:41Z"
+  "updated_at": "2026-06-22T20:34:50Z"
 }
