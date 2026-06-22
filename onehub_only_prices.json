@@ -4375,13 +4375,6 @@
       "output": 0.625
     },
     {
-      "model": "anthropic/claude-3.5-haiku",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.4,
-      "output": 2.0
-    },
-    {
       "model": "anthropic/claude-fable-5",
       "type": "tokens",
       "channel_type": 20,
@@ -5325,6 +5318,13 @@
       "channel_type": 20,
       "input": 0.45,
       "output": 0.95
+    },
+    {
+      "model": "nex-agi/nex-n2-pro",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.25,
+      "output": 1.25
     },
     {
       "model": "nex-agi/nex-n2-pro:free",
