@@ -5296,7 +5296,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.33,
-      "output": 1.75
+      "output": 1.705
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -6619,7 +6619,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.33,
-      "output": 1.75
+      "output": 1.705
     },
     {
       "model": "~openai/gpt-latest",

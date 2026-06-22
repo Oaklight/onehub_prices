@@ -1013,7 +1013,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.33,
-      "output": 1.75
+      "output": 1.705
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -2336,7 +2336,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.33,
-      "output": 1.75
+      "output": 1.705
     },
     {
       "model": "~openai/gpt-latest",
@@ -2353,5 +2353,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-22T02:51:59Z"
+  "updated_at": "2026-06-22T11:35:41Z"
 }
