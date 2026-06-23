@@ -5957,13 +5957,6 @@
       "output": 0.0
     },
     {
-      "model": "prime-intellect/intellect-3",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.55
-    },
-    {
       "model": "qwen/qwen-2.5-72b-instruct",
       "type": "tokens",
       "channel_type": 20,
