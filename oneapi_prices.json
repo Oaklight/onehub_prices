@@ -4669,13 +4669,6 @@
       "output": 0.435
     },
     {
-      "model": "essentialai/rnj-1-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.075,
-      "output": 0.075
-    },
-    {
       "model": "google/gemini-2.5-flash",
       "type": "tokens",
       "channel_type": 20,
@@ -5057,7 +5050,7 @@
       "model": "microsoft/phi-4",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0325,
+      "input": 0.035,
       "output": 0.07
     },
     {
@@ -5120,8 +5113,8 @@
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.5
+      "input": 0.12,
+      "output": 0.48
     },
     {
       "model": "minimax/minimax-m3",
@@ -5302,8 +5295,8 @@
       "model": "moonshotai/kimi-k2.7-code",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.34,
-      "output": 1.705
+      "input": 0.37,
+      "output": 1.75
     },
     {
       "model": "morph/morph-v3-fast",
@@ -6401,8 +6394,8 @@
       "model": "thedrummer/rocinante-12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.085,
-      "output": 0.215
+      "input": 0.125,
+      "output": 0.25
     },
     {
       "model": "thedrummer/skyfall-36b-v2",
@@ -11603,5 +11596,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-23T14:29:12Z"
+  "updated_at": "2026-06-23T19:50:11Z"
 }
