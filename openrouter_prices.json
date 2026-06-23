@@ -1019,8 +1019,8 @@
       "model": "moonshotai/kimi-k2.7-code",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.306,
-      "output": 1.5345
+      "input": 0.34,
+      "output": 1.705
     },
     {
       "model": "morph/morph-v3-fast",
@@ -1040,8 +1040,8 @@
       "model": "nex-agi/nex-n2-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.25
+      "input": 0.125,
+      "output": 0.5
     },
     {
       "model": "nousresearch/hermes-3-llama-3.1-405b",
@@ -2353,5 +2353,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-23T02:27:25Z"
+  "updated_at": "2026-06-23T08:59:18Z"
 }
