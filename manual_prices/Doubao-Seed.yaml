@@ -3,7 +3,35 @@ models:
     # 模型定价：https://www.volcengine.com/docs/82379/1544106
     # 豆包大模型 @ 字节火山
 
-    # 豆包 Seed 2.0 系列 (最新)
+    # 豆包 Seed 2.1 系列 (最新，深度思考模型)
+    doubao-seed-2.1-pro*:
+      aliases:
+        - doubao-seed-2-1-pro*
+      # 面向 Coding 与 Agent 场景的旗舰模型，flat pricing（无阶梯）
+      input: 6 rmb / M
+      output: 30 rmb / M
+      extra_ratios:
+        - cached_tokens: 1.2 rmb / M
+
+    doubao-seed-2.1-turbo*:
+      aliases:
+        - doubao-seed-2-1-turbo*
+        - doubao-seed-2-1-trubo* # 官网拼写 typo
+      # 面向规模化生产场景，效果比肩 2.1-pro，成本减半
+      input: 3 rmb / M
+      output: 15 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.6 rmb / M
+
+    doubao-seed-evolving*:
+      # 面向 Agent 与 Coding 场景，动态迭代机制，每周至少更新一个版本
+      # 通过统一 Model ID doubao-seed-evolving 调用，始终获取最新版本
+      input: 6 rmb / M
+      output: 30 rmb / M
+      extra_ratios:
+        - cached_tokens: 1.2 rmb / M
+
+    # 豆包 Seed 2.0 系列
     doubao-seed-2.0-pro*:
       aliases:
         - doubao-seed-2-0-pro*
@@ -225,6 +253,14 @@ models:
       # 无视频输入: 37元/M, 有视频输入: 22元/M
       input: 37 rmb / M # 取无视频输入价格
       output: 37 rmb / M
+
+    doubao-seedance-2.0-mini*:
+      aliases:
+        - doubao-seedance-2-0-mini*
+      # 不支持1080p输出
+      # 无视频输入: 23元/M, 有视频输入: 14元/M
+      input: 23 rmb / M # 取无视频输入价格
+      output: 23 rmb / M
 
     # Seedance 1.5 系列
     doubao-seedance-1.5-pro*:

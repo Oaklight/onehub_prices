@@ -4375,13 +4375,6 @@
       "output": 0.625
     },
     {
-      "model": "anthropic/claude-3.5-haiku",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.4,
-      "output": 2.0
-    },
-    {
       "model": "anthropic/claude-fable-5",
       "type": "tokens",
       "channel_type": 20,
@@ -4490,8 +4483,8 @@
       "model": "arcee-ai/trinity-large-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.11,
-      "output": 0.425
+      "input": 0.125,
+      "output": 0.4
     },
     {
       "model": "arcee-ai/trinity-mini",
@@ -4583,6 +4576,13 @@
       "channel_type": 20,
       "input": 0.01875,
       "output": 0.075
+    },
+    {
+      "model": "cohere/north-mini-code:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "deepcogito/cogito-v2.1-671b",
@@ -4732,11 +4732,25 @@
       "output": 1.5
     },
     {
+      "model": "google/gemini-3-pro-image",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 6.0
+    },
+    {
       "model": "google/gemini-3-pro-image-preview",
       "type": "tokens",
       "channel_type": 20,
       "input": 1.0,
       "output": 6.0
+    },
+    {
+      "model": "google/gemini-3.1-flash-image",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.25,
+      "output": 1.5
     },
     {
       "model": "google/gemini-3.1-flash-image-preview",
@@ -4954,13 +4968,6 @@
       "channel_type": 20,
       "input": 0.375,
       "output": 0.5
-    },
-    {
-      "model": "meta-llama/llama-3-70b-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.255,
-      "output": 0.37
     },
     {
       "model": "meta-llama/llama-3-8b-instruct",
@@ -5288,15 +5295,15 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.34,
+      "input": 0.33,
       "output": 1.705
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.37,
-      "output": 1.75
+      "input": 0.34,
+      "output": 1.705
     },
     {
       "model": "morph/morph-v3-fast",
@@ -5313,11 +5320,11 @@
       "output": 0.95
     },
     {
-      "model": "nex-agi/nex-n2-pro:free",
+      "model": "nex-agi/nex-n2-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.25,
+      "output": 1.25
     },
     {
       "model": "nousresearch/hermes-3-llama-3.1-405b",
@@ -5922,11 +5929,25 @@
       "output": 4.0
     },
     {
+      "model": "poolside/laguna-m.1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.2
+    },
+    {
       "model": "poolside/laguna-m.1:free",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "poolside/laguna-xs.2",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.1
     },
     {
       "model": "poolside/laguna-xs.2:free",
@@ -6247,7 +6268,7 @@
       "model": "qwen/qwen3.6-35b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
+      "input": 0.07,
       "output": 0.5
     },
     {
@@ -6373,8 +6394,8 @@
       "model": "tencent/hy3-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.033,
-      "output": 0.13
+      "input": 0.0315,
+      "output": 0.105
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -6541,8 +6562,15 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.7,
-      "output": 2.2
+      "input": 0.49,
+      "output": 1.54
+    },
+    {
+      "model": "z-ai/glm-5v-turbo",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.6,
+      "output": 2.0
     },
     {
       "model": "~anthropic/claude-fable-latest",
@@ -6590,7 +6618,7 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.34,
+      "input": 0.33,
       "output": 1.705
     },
     {
