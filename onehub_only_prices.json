@@ -6321,6 +6321,13 @@
       "output": 1.5
     },
     {
+      "model": "sakana/fugu-ultra",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 2.5,
+      "output": 15.0
+    },
+    {
       "model": "sao10k/l3-lunaris-8b",
       "type": "tokens",
       "channel_type": 20,

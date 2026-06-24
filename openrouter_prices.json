@@ -2038,6 +2038,13 @@
       "output": 1.5
     },
     {
+      "model": "sakana/fugu-ultra",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 2.5,
+      "output": 15.0
+    },
+    {
       "model": "sao10k/l3-lunaris-8b",
       "type": "tokens",
       "channel_type": 20,
@@ -2339,5 +2346,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-24T02:28:45Z"
+  "updated_at": "2026-06-24T08:53:31Z"
 }
