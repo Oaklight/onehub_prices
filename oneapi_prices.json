@@ -6248,7 +6248,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.14425,
-      "output": 1.585
+      "output": 1.325
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
@@ -11603,5 +11603,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-26T14:04:26Z"
+  "updated_at": "2026-06-26T19:28:04Z"
 }
