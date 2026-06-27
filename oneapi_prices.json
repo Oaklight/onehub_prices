@@ -721,6 +721,16 @@
       }
     },
     {
+      "model": "gpt-5.5-cyber",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 6.25,
+      "output": 37.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "gpt-5.5-pro",
       "type": "tokens",
       "channel_type": 1,
@@ -4669,13 +4679,6 @@
       "output": 0.435
     },
     {
-      "model": "essentialai/rnj-1-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.075,
-      "output": 0.075
-    },
-    {
       "model": "google/gemini-2.5-flash",
       "type": "tokens",
       "channel_type": 20,
@@ -5057,7 +5060,7 @@
       "model": "microsoft/phi-4",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0325,
+      "input": 0.035,
       "output": 0.07
     },
     {
@@ -5113,15 +5116,15 @@
       "model": "minimax/minimax-m2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.45
+      "input": 0.06,
+      "output": 0.24
     },
     {
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.5
+      "input": 0.09,
+      "output": 0.36
     },
     {
       "model": "minimax/minimax-m3",
@@ -5302,8 +5305,8 @@
       "model": "moonshotai/kimi-k2.7-code",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.34,
-      "output": 1.705
+      "input": 0.37,
+      "output": 1.75
     },
     {
       "model": "morph/morph-v3-fast",
@@ -5323,8 +5326,8 @@
       "model": "nex-agi/nex-n2-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.25
+      "input": 0.125,
+      "output": 0.5
     },
     {
       "model": "nousresearch/hermes-3-llama-3.1-405b",
@@ -5393,8 +5396,8 @@
       "model": "nvidia/nemotron-3-super-120b-a12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.225
+      "input": 0.0425,
+      "output": 0.2
     },
     {
       "model": "nvidia/nemotron-3-super-120b-a12b:free",
@@ -5771,8 +5774,8 @@
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0195,
-      "output": 0.09
+      "input": 0.015,
+      "output": 0.075
     },
     {
       "model": "openai/gpt-oss-120b:free",
@@ -5955,13 +5958,6 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
-    },
-    {
-      "model": "prime-intellect/intellect-3",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.55
     },
     {
       "model": "qwen/qwen-2.5-72b-instruct",
@@ -6262,7 +6258,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.14425,
-      "output": 1.585
+      "output": 1.325
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
@@ -6333,6 +6329,13 @@
       "channel_type": 20,
       "input": 0.5,
       "output": 1.5
+    },
+    {
+      "model": "sakana/fugu-ultra",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 2.5,
+      "output": 15.0
     },
     {
       "model": "sao10k/l3-lunaris-8b",
@@ -6408,8 +6411,8 @@
       "model": "thedrummer/rocinante-12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.085,
-      "output": 0.215
+      "input": 0.125,
+      "output": 0.25
     },
     {
       "model": "thedrummer/skyfall-36b-v2",
@@ -6478,7 +6481,7 @@
       "model": "xiaomi/mimo-v2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
+      "input": 0.0525,
       "output": 0.14
     },
     {
@@ -6562,8 +6565,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.49,
-      "output": 1.54
+      "input": 0.475,
+      "output": 1.5
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -7643,6 +7646,26 @@
       "output": 1.92857,
       "extra_ratios": {
         "cached_tokens": 0.16923
+      }
+    },
+    {
+      "model": "kimi-k2.7-code",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 0.46429,
+      "output": 1.92857,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "kimi-k2.7-code-highspeed",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 0.92857,
+      "output": 3.85714,
+      "extra_ratios": {
+        "cached_tokens": 0.2
       }
     },
     {
@@ -8867,8 +8890,8 @@
       "model": "nex-agi/Nex-N2-Pro",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.125,
+      "output": 0.5
     },
     {
       "model": "stepfun-ai/Step-3.5-Flash",
@@ -11684,5 +11707,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-23T06:53:37Z"
+  "updated_at": "2026-06-27T09:43:56Z"
 }

@@ -3,6 +3,23 @@ models:
     # 模型定价：https://platform.kimi.com/docs/pricing/chat
     # llms.txt：https://platform.kimi.com/docs/llms.txt
 
+    # ====== 编程模型 ======
+
+    kimi-k2.7-code:
+      # 最强 Coding 模型，支持文本/图片/视频输入，仅支持思考模式
+      # 上下文窗口：262,144 tokens
+      input: 6.5 rmb / M
+      output: 27 rmb / M
+      extra_ratios:
+        - cached_tokens: 1.3 rmb / M
+    kimi-k2.7-code-highspeed:
+      # K2.7 Code 高速版，输出 ~180 tok/s，短上下文可达 260 tok/s
+      # 上下文窗口：262,144 tokens
+      input: 13 rmb / M
+      output: 54 rmb / M
+      extra_ratios:
+        - cached_tokens: 2.6 rmb / M
+
     # ====== 多模态模型 ======
 
     kimi-k2.6:

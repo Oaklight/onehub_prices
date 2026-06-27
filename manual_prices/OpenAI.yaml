@@ -129,6 +129,14 @@ models:
       input: 15 usd / M
       output: 120 usd / M
 
+    # Cyber models (Trusted Access for Cyber program)
+    gpt-5.5-cyber:
+      input: 12.5 usd / M
+      output: 75 usd / M
+      extra_ratios:
+        - cached_tokens: 1.25 usd / M
+    # gpt-5.4-cyber: TAC 限定访问，官方定价页未公开价格，暂不录入
+
     # GPT-4.1
     gpt-4.1:
       aliases:
