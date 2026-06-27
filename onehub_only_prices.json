@@ -721,6 +721,16 @@
       }
     },
     {
+      "model": "gpt-5.5-cyber",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 6.25,
+      "output": 37.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "gpt-5.5-pro",
       "type": "tokens",
       "channel_type": 1,
@@ -7636,6 +7646,26 @@
       "output": 1.92857,
       "extra_ratios": {
         "cached_tokens": 0.16923
+      }
+    },
+    {
+      "model": "kimi-k2.7-code",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 0.46429,
+      "output": 1.92857,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "kimi-k2.7-code-highspeed",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 0.92857,
+      "output": 3.85714,
+      "extra_ratios": {
+        "cached_tokens": 0.2
       }
     },
     {
