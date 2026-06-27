@@ -10003,6 +10003,36 @@
       }
     },
     {
+      "model": "doubao-seed-2-1-pro*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.42857,
+      "output": 2.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "doubao-seed-2-1-trubo*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.21429,
+      "output": 1.07143,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "doubao-seed-2-1-turbo*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.21429,
+      "output": 1.07143,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
       "model": "doubao-seed-2.0-code*",
       "type": "tokens",
       "channel_type": 1002,
@@ -10045,6 +10075,26 @@
       }
     },
     {
+      "model": "doubao-seed-2.1-pro*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.42857,
+      "output": 2.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "doubao-seed-2.1-turbo*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.21429,
+      "output": 1.07143,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
       "model": "doubao-seed-character*",
       "type": "tokens",
       "channel_type": 1002,
@@ -10082,6 +10132,16 @@
       "output": 0.85714,
       "extra_ratios": {
         "cached_tokens": 0.17143
+      }
+    },
+    {
+      "model": "doubao-seed-evolving*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.42857,
+      "output": 2.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.2
       }
     },
     {
@@ -10190,6 +10250,13 @@
       "output": 2.64286
     },
     {
+      "model": "doubao-seedance-2-0-mini*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 1.64286,
+      "output": 1.64286
+    },
+    {
       "model": "doubao-seedance-2.0*",
       "type": "tokens",
       "channel_type": 1002,
@@ -10202,6 +10269,13 @@
       "channel_type": 1002,
       "input": 2.64286,
       "output": 2.64286
+    },
+    {
+      "model": "doubao-seedance-2.0-mini*",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 1.64286,
+      "output": 1.64286
     },
     {
       "model": "doubao-seededit-3-0*",
@@ -11603,5 +11677,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-27T02:26:08Z"
+  "updated_at": "2026-06-27T08:07:00Z"
 }
