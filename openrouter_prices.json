@@ -134,13 +134,6 @@
       "output": 12.5
     },
     {
-      "model": "anthropic/claude-opus-4.6-fast",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 15.0,
-      "output": 75.0
-    },
-    {
       "model": "anthropic/claude-opus-4.7",
       "type": "tokens",
       "channel_type": 20,
@@ -2076,7 +2069,7 @@
       "model": "stepfun/step-3.5-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
+      "input": 0.05,
       "output": 0.15
     },
     {
@@ -2346,5 +2339,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-29T10:23:45Z"
+  "updated_at": "2026-06-29T15:31:34Z"
 }
