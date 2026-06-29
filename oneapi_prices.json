@@ -5298,8 +5298,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33,
-      "output": 1.705
+      "input": 0.275,
+      "output": 1.6
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -6621,8 +6621,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33,
-      "output": 1.705
+      "input": 0.275,
+      "output": 1.6
     },
     {
       "model": "~openai/gpt-latest",
@@ -11707,5 +11707,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-29T02:38:38Z"
+  "updated_at": "2026-06-29T10:23:46Z"
 }
