@@ -183,6 +183,13 @@
       "output": 7.5
     },
     {
+      "model": "anthropic/claude-sonnet-5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 5.0
+    },
+    {
       "model": "arcee-ai/coder-large",
       "type": "tokens",
       "channel_type": 20,
@@ -368,8 +375,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.09
+      "input": 0.049,
+      "output": 0.098
     },
     {
       "model": "deepseek/deepseek-v4-pro",
@@ -464,6 +471,13 @@
     },
     {
       "model": "google/gemini-3.1-flash-lite",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.125,
+      "output": 0.75
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite-image",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.125,
@@ -762,13 +776,6 @@
       "channel_type": 20,
       "input": 0.035,
       "output": 0.07
-    },
-    {
-      "model": "microsoft/phi-4-mini-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.04,
-      "output": 0.175
     },
     {
       "model": "microsoft/wizardlm-2-8x22b",
@@ -1726,8 +1733,8 @@
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.05
+      "input": 0.07475,
+      "output": 0.7475
     },
     {
       "model": "qwen/qwen3-30b-a3b",
@@ -2258,7 +2265,7 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.47,
+      "input": 0.465,
       "output": 1.5
     },
     {
@@ -2293,8 +2300,8 @@
       "model": "~anthropic/claude-sonnet-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.5,
-      "output": 7.5
+      "input": 1.0,
+      "output": 5.0
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -2332,5 +2339,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-06-30T13:57:54Z"
+  "updated_at": "2026-06-30T19:43:10Z"
 }
