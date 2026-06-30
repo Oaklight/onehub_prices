@@ -5876,13 +5876,6 @@
       "output": 0.0
     },
     {
-      "model": "openrouter/owl-alpha",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "perceptron/perceptron-mk1",
       "type": "tokens",
       "channel_type": 20,
@@ -6250,8 +6243,8 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1298,
-      "output": 1.1925
+      "input": 0.1425,
+      "output": 1.2
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
