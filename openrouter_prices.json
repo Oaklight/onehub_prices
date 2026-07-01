@@ -92,13 +92,6 @@
       "output": 0.625
     },
     {
-      "model": "anthropic/claude-fable-5",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 5.0,
-      "output": 25.0
-    },
-    {
       "model": "anthropic/claude-haiku-4.5",
       "type": "tokens",
       "channel_type": 20,
@@ -319,8 +312,8 @@
       "model": "deepseek/deepseek-chat-v3-0324",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.385
+      "input": 0.12,
+      "output": 0.45
     },
     {
       "model": "deepseek/deepseek-chat-v3.1",
@@ -375,8 +368,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.049,
-      "output": 0.098
+      "input": 0.045,
+      "output": 0.09
     },
     {
       "model": "deepseek/deepseek-v4-pro",
@@ -2276,13 +2269,6 @@
       "output": 2.0
     },
     {
-      "model": "~anthropic/claude-fable-latest",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 5.0,
-      "output": 25.0
-    },
-    {
       "model": "~anthropic/claude-haiku-latest",
       "type": "tokens",
       "channel_type": 20,
@@ -2339,5 +2325,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-07-01T14:10:17Z"
+  "updated_at": "2026-07-01T19:39:52Z"
 }
