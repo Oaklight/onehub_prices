@@ -1444,6 +1444,26 @@
       }
     },
     {
+      "model": "claude-fable-5",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 5.0,
+      "output": 25.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-fable-5*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 5.0,
+      "output": 25.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "claude-haiku-4-5",
       "type": "tokens",
       "channel_type": 14,
@@ -1469,6 +1489,26 @@
       "channel_type": 14,
       "input": 0.5,
       "output": 2.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-mythos-5",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 5.0,
+      "output": 25.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-mythos-5*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 5.0,
+      "output": 25.0,
       "extra_ratios": {
         "cached_tokens": 0.1
       }
@@ -1759,6 +1799,26 @@
       "channel_type": 14,
       "input": 1.5,
       "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-sonnet-5",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.0,
+      "output": 5.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-sonnet-5*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.0,
+      "output": 5.0,
       "extra_ratios": {
         "cached_tokens": 0.1
       }
