@@ -1444,6 +1444,26 @@
       }
     },
     {
+      "model": "claude-fable-5",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 5.0,
+      "output": 25.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-fable-5*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 5.0,
+      "output": 25.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "claude-haiku-4-5",
       "type": "tokens",
       "channel_type": 14,
@@ -1469,6 +1489,26 @@
       "channel_type": 14,
       "input": 0.5,
       "output": 2.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-mythos-5",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 5.0,
+      "output": 25.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-mythos-5*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 5.0,
+      "output": 25.0,
       "extra_ratios": {
         "cached_tokens": 0.1
       }
@@ -1759,6 +1799,26 @@
       "channel_type": 14,
       "input": 1.5,
       "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-sonnet-5",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.0,
+      "output": 5.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-sonnet-5*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 1.0,
+      "output": 5.0,
       "extra_ratios": {
         "cached_tokens": 0.1
       }
@@ -4427,13 +4487,6 @@
       "output": 12.5
     },
     {
-      "model": "anthropic/claude-opus-4.6-fast",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 15.0,
-      "output": 75.0
-    },
-    {
       "model": "anthropic/claude-opus-4.7",
       "type": "tokens",
       "channel_type": 20,
@@ -4481,6 +4534,13 @@
       "channel_type": 20,
       "input": 1.5,
       "output": 7.5
+    },
+    {
+      "model": "anthropic/claude-sonnet-5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 5.0
     },
     {
       "model": "arcee-ai/coder-large",
@@ -4668,8 +4728,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.09
+      "input": 0.049,
+      "output": 0.098
     },
     {
       "model": "deepseek/deepseek-v4-pro",
@@ -4764,6 +4824,13 @@
     },
     {
       "model": "google/gemini-3.1-flash-lite",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.125,
+      "output": 0.75
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite-image",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.125,
@@ -5064,13 +5131,6 @@
       "output": 0.07
     },
     {
-      "model": "microsoft/phi-4-mini-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.04,
-      "output": 0.175
-    },
-    {
       "model": "microsoft/wizardlm-2-8x22b",
       "type": "tokens",
       "channel_type": 20,
@@ -5298,8 +5358,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33,
-      "output": 1.705
+      "input": 0.275,
+      "output": 1.6
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -5883,13 +5943,6 @@
       "output": 0.0
     },
     {
-      "model": "openrouter/owl-alpha",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "perceptron/perceptron-mk1",
       "type": "tokens",
       "channel_type": 20,
@@ -6033,8 +6086,8 @@
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.05
+      "input": 0.07475,
+      "output": 0.7475
     },
     {
       "model": "qwen/qwen3-30b-a3b",
@@ -6257,8 +6310,8 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.14425,
-      "output": 1.325
+      "input": 0.1425,
+      "output": 1.2
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
@@ -6369,7 +6422,7 @@
       "model": "stepfun/step-3.5-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
+      "input": 0.05,
       "output": 0.15
     },
     {
@@ -6558,14 +6611,14 @@
       "model": "z-ai/glm-5.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.49,
-      "output": 1.54
+      "input": 0.4875,
+      "output": 2.15
     },
     {
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.475,
+      "input": 0.465,
       "output": 1.5
     },
     {
@@ -6600,8 +6653,8 @@
       "model": "~anthropic/claude-sonnet-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.5,
-      "output": 7.5
+      "input": 1.0,
+      "output": 5.0
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -6621,8 +6674,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33,
-      "output": 1.705
+      "input": 0.275,
+      "output": 1.6
     },
     {
       "model": "~openai/gpt-latest",
@@ -8878,6 +8931,13 @@
       "channel_type": 45,
       "input": 0.03571,
       "output": 0.14286
+    },
+    {
+      "model": "meituan-longcat/LongCat-2.0",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.35714,
+      "output": 1.42857
     },
     {
       "model": "moonshotai/Kimi-K2.7-Code",
@@ -11707,5 +11767,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-06-27T09:43:56Z"
+  "updated_at": "2026-07-01T09:08:02Z"
 }

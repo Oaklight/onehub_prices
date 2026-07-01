@@ -547,6 +547,13 @@
       "output": 0.14286
     },
     {
+      "model": "meituan-longcat/LongCat-2.0",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.35714,
+      "output": 1.42857
+    },
+    {
       "model": "moonshotai/Kimi-K2.7-Code",
       "type": "tokens",
       "channel_type": 45,
@@ -603,5 +610,5 @@
       "output": 2.0
     }
   ],
-  "updated_at": "2026-06-27T09:43:54Z"
+  "updated_at": "2026-07-01T09:07:59Z"
 }
