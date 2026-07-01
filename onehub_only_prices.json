@@ -5156,7 +5156,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.1275,
-      "output": 0.5
+      "output": 0.51
     },
     {
       "model": "minimax/minimax-m2-her",
@@ -5169,8 +5169,8 @@
       "model": "minimax/minimax-m2.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.145,
-      "output": 0.475
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "minimax/minimax-m2.5",
@@ -6107,8 +6107,8 @@
       "model": "qwen/qwen3-30b-a3b-thinking-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.2
+      "input": 0.065,
+      "output": 0.78
     },
     {
       "model": "qwen/qwen3-32b",
@@ -6121,8 +6121,8 @@
       "model": "qwen/qwen3-8b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.2
+      "input": 0.0585,
+      "output": 0.2275
     },
     {
       "model": "qwen/qwen3-coder",
