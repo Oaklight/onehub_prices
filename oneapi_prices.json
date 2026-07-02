@@ -4445,6 +4445,13 @@
       "output": 0.625
     },
     {
+      "model": "anthropic/claude-fable-5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 5.0,
+      "output": 25.0
+    },
+    {
       "model": "anthropic/claude-haiku-4.5",
       "type": "tokens",
       "channel_type": 20,
@@ -6620,6 +6627,13 @@
       "channel_type": 20,
       "input": 0.6,
       "output": 2.0
+    },
+    {
+      "model": "~anthropic/claude-fable-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 5.0,
+      "output": 25.0
     },
     {
       "model": "~anthropic/claude-haiku-latest",
@@ -11753,5 +11767,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-01T19:39:53Z"
+  "updated_at": "2026-07-02T02:28:36Z"
 }
