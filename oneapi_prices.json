@@ -5999,6 +5999,20 @@
       "output": 0.0
     },
     {
+      "model": "poolside/laguna-xs-2.1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.03,
+      "output": 0.06
+    },
+    {
+      "model": "poolside/laguna-xs-2.1:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "poolside/laguna-xs.2",
       "type": "tokens",
       "channel_type": 20,
@@ -11767,5 +11781,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-02T13:39:20Z"
+  "updated_at": "2026-07-02T19:10:15Z"
 }
