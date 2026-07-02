@@ -5358,8 +5358,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.275,
-      "output": 1.6
+      "input": 0.33,
+      "output": 1.705
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -6240,8 +6240,8 @@
       "model": "qwen/qwen3-vl-8b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.25
+      "input": 0.0585,
+      "output": 0.2275
     },
     {
       "model": "qwen/qwen3-vl-8b-thinking",
@@ -6674,8 +6674,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.275,
-      "output": 1.6
+      "input": 0.33,
+      "output": 1.705
     },
     {
       "model": "~openai/gpt-latest",
@@ -11767,5 +11767,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-02T08:42:26Z"
+  "updated_at": "2026-07-02T13:39:20Z"
 }
