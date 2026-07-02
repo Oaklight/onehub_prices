@@ -375,7 +375,7 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
+      "input": 0.0445,
       "output": 0.09
     },
     {
@@ -2339,5 +2339,5 @@
       "output": 2.25
     }
   ],
-  "updated_at": "2026-07-02T02:28:36Z"
+  "updated_at": "2026-07-02T08:42:25Z"
 }
