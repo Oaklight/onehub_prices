@@ -6461,11 +6461,25 @@
       "output": 0.285
     },
     {
+      "model": "tencent/hy3",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.07,
+      "output": 0.29
+    },
+    {
       "model": "tencent/hy3-preview",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0315,
       "output": 0.105
+    },
+    {
+      "model": "tencent/hy3:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
