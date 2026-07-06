@@ -5078,8 +5078,8 @@
       "model": "meta-llama/llama-3.2-3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02545,
-      "output": 0.1675
+      "input": 0.025,
+      "output": 0.165
     },
     {
       "model": "meta-llama/llama-3.2-3b-instruct:free",
@@ -5381,6 +5381,13 @@
       "channel_type": 20,
       "input": 0.45,
       "output": 0.95
+    },
+    {
+      "model": "nex-agi/nex-n2-mini",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0125,
+      "output": 0.05
     },
     {
       "model": "nex-agi/nex-n2-pro",
@@ -11795,5 +11802,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-06T15:13:13Z"
+  "updated_at": "2026-07-06T19:43:39Z"
 }
