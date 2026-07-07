@@ -4368,6 +4368,20 @@
       "output": 0.8
     },
     {
+      "model": "aion-labs/aion-3.0",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.5,
+      "output": 3.0
+    },
+    {
+      "model": "aion-labs/aion-3.0-mini",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.35,
+      "output": 0.7
+    },
+    {
       "model": "aion-labs/aion-rp-llama-3.1-8b",
       "type": "tokens",
       "channel_type": 20,
@@ -6639,8 +6653,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.45,
-      "output": 1.43
+      "input": 0.465,
+      "output": 1.5
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -11788,5 +11802,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-07T14:08:34Z"
+  "updated_at": "2026-07-07T19:42:16Z"
 }
