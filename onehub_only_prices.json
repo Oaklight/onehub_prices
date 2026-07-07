@@ -4361,20 +4361,6 @@
       "output": 4.0
     },
     {
-      "model": "aion-labs/aion-1.0",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 2.0,
-      "output": 4.0
-    },
-    {
-      "model": "aion-labs/aion-1.0-mini",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.35,
-      "output": 0.7
-    },
-    {
       "model": "aion-labs/aion-2.0",
       "type": "tokens",
       "channel_type": 20,
