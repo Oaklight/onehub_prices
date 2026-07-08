@@ -5358,7 +5358,7 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33,
+      "input": 0.325,
       "output": 1.705
     },
     {
@@ -6559,6 +6559,13 @@
       "output": 1.25
     },
     {
+      "model": "x-ai/grok-4.5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 3.0
+    },
+    {
       "model": "x-ai/grok-build-0.1",
       "type": "tokens",
       "channel_type": 20,
@@ -6653,8 +6660,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.465,
-      "output": 1.5
+      "input": 0.21,
+      "output": 0.66
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -6709,7 +6716,7 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33,
+      "input": 0.325,
       "output": 1.705
     },
     {
@@ -6725,6 +6732,13 @@
       "channel_type": 20,
       "input": 0.375,
       "output": 2.25
+    },
+    {
+      "model": "~x-ai/grok-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 3.0
     },
     {
       "model": "gemini-1.5-flash",
@@ -11802,5 +11816,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-08T13:42:21Z"
+  "updated_at": "2026-07-08T19:08:43Z"
 }
