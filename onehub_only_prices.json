@@ -6454,13 +6454,6 @@
       "output": 0.575
     },
     {
-      "model": "switchpoint/router",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.425,
-      "output": 1.7
-    },
-    {
       "model": "tencent/hunyuan-a13b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -6471,8 +6464,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.4
+      "input": 0.07,
+      "output": 0.29
     },
     {
       "model": "tencent/hy3-preview",
@@ -6660,8 +6653,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.21,
-      "output": 0.66
+      "input": 0.45,
+      "output": 1.54
     },
     {
       "model": "z-ai/glm-5v-turbo",
