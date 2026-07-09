@@ -659,13 +659,6 @@
       "output": 0.6
     },
     {
-      "model": "liquid/lfm-2-24b-a2b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.015,
-      "output": 0.06
-    },
-    {
       "model": "liquid/lfm-2.5-1.2b-instruct:free",
       "type": "tokens",
       "channel_type": 20,
@@ -2300,8 +2293,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.45,
-      "output": 1.54
+      "input": 0.465,
+      "output": 1.5
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2381,5 +2374,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-09T02:04:07Z"
+  "updated_at": "2026-07-09T09:27:04Z"
 }
