@@ -4557,13 +4557,6 @@
       "output": 0.4
     },
     {
-      "model": "arcee-ai/trinity-mini",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0225,
-      "output": 0.075
-    },
-    {
       "model": "arcee-ai/virtuoso-large",
       "type": "tokens",
       "channel_type": 20,
@@ -4735,8 +4728,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.09
+      "input": 0.042,
+      "output": 0.084
     },
     {
       "model": "deepseek/deepseek-v4-pro",
@@ -6674,8 +6667,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.35,
-      "output": 1.1
+      "input": 0.21,
+      "output": 0.66
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -11830,5 +11823,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-10T14:01:17Z"
+  "updated_at": "2026-07-10T19:16:24Z"
 }
