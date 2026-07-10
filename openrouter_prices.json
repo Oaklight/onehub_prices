@@ -260,6 +260,13 @@
       "output": 0.1
     },
     {
+      "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.45
+    },
+    {
       "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
       "type": "tokens",
       "channel_type": 20,
@@ -991,7 +998,7 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.325,
+      "input": 0.33,
       "output": 1.705
     },
     {
@@ -2314,8 +2321,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.27,
-      "output": 0.88
+      "input": 0.266,
+      "output": 0.836
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2370,7 +2377,7 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.325,
+      "input": 0.33,
       "output": 1.705
     },
     {
@@ -2395,5 +2402,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-09T19:23:00Z"
+  "updated_at": "2026-07-10T02:02:44Z"
 }
