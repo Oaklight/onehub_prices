@@ -1,0 +1,14 @@
+models:
+  Meta:
+    # 模型价格：https://developer.meta.com/ai/products/meta-model-api/
+    # Meta Model API - Muse 系列（Meta Superintelligence Labs）
+
+    # Muse Spark 系列 - 多模态推理 / Agent 模型
+    muse-spark-1.1:
+      aliases:
+        - muse-spark
+        - muse-spark-1.1-*
+      input: 1.25 usd / M
+      output: 4.25 usd / M
+      extra_ratios:
+        - cached_tokens: 0.15 usd / M

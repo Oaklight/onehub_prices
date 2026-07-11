@@ -4,6 +4,26 @@ models:
     # 模型价格(md)：https://developers.openai.com/api/docs/pricing.md
     # 模型列表：https://platform.openai.com/docs/models
 
+    # GPT-5.6 系列 (2026-07, multimodal flagship)
+    gpt-5.6-sol:
+      input: 5 usd / M
+      output: 30 usd / M
+      extra_ratios:
+        - cached_tokens: 0.5 usd / M
+        - input_image_tokens: 6.25 usd / M
+    gpt-5.6-terra:
+      input: 2.5 usd / M
+      output: 15 usd / M
+      extra_ratios:
+        - cached_tokens: 0.25 usd / M
+        - input_image_tokens: 3.125 usd / M
+    gpt-5.6-luna:
+      input: 1 usd / M
+      output: 6 usd / M
+      extra_ratios:
+        - cached_tokens: 0.1 usd / M
+        - input_image_tokens: 1.25 usd / M
+
     # GPT-5.5 (2026-04-23, 1M context)
     # <272K context: standard pricing; >272K context: 2x input, 2x cached, 1.5x output
     gpt-5.5:
