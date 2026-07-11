@@ -3,7 +3,17 @@ models:
     # model pricing: https://docs.x.ai/developers/pricing
     # pricing as markdown: https://docs.x.ai/developers/pricing.md
 
-    # Grok 4.3 (current flagship)
+    # Grok 4.5 (current flagship)
+    grok-4.5:
+      aliases:
+        - grok-4.5-latest
+        - grok-build-latest
+      input: 2.00 usd / M
+      output: 6.00 usd / M
+      extra_ratios:
+        - cached_tokens: 0.50 usd / M
+
+    # Grok 4.3
     grok-4.3:
       aliases:
         - grok-4.3-latest
@@ -13,8 +23,6 @@ models:
         - grok-3-*
         - grok-4
         - grok-4-*
-        - grok-code-fast
-        - grok-code-fast-*
       input: 1.25 usd / M
       output: 2.50 usd / M
       extra_ratios:
@@ -61,6 +69,18 @@ models:
       extra_ratios:
         - cached_tokens: 0.20 usd / M
 
+    # Code API
+    grok-build-0.1:
+      aliases:
+        - grok-code-fast
+        - grok-code-fast-*
+        - grok-code-fast-1
+        - grok-code-fast-1-0825
+      input: 1.00 usd / M
+      output: 2.00 usd / M
+      extra_ratios:
+        - cached_tokens: 0.20 usd / M
+
     # Image/Video generation
     grok-imagine-image-quality:
       aliases:
@@ -75,6 +95,9 @@ models:
         - grok-imagine-image-2026-03-02
       input: 0.002 usd / image
       output: 0.02 usd / image
+
+    grok-imagine-video-1.5:
+      output: 0.08 usd / s
 
     grok-imagine-video:
       input: 0.002 usd / image

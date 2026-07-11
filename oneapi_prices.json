@@ -738,6 +738,39 @@
       "output": 90.0
     },
     {
+      "model": "gpt-5.6-luna",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 0.5,
+      "output": 3.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1,
+        "input_image_tokens": 1.25
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 2.5,
+      "output": 15.0,
+      "extra_ratios": {
+        "cached_tokens": 0.1,
+        "input_image_tokens": 1.25
+      }
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "type": "tokens",
+      "channel_type": 1,
+      "input": 1.25,
+      "output": 7.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1,
+        "input_image_tokens": 1.25
+      }
+    },
+    {
       "model": "gpt-audio",
       "type": "tokens",
       "channel_type": 1,
@@ -8387,6 +8420,36 @@
       }
     },
     {
+      "model": "muse-spark",
+      "type": "tokens",
+      "channel_type": 43,
+      "input": 0.625,
+      "output": 2.125,
+      "extra_ratios": {
+        "cached_tokens": 0.12
+      }
+    },
+    {
+      "model": "muse-spark-1.1",
+      "type": "tokens",
+      "channel_type": 43,
+      "input": 0.625,
+      "output": 2.125,
+      "extra_ratios": {
+        "cached_tokens": 0.12
+      }
+    },
+    {
+      "model": "muse-spark-1.1-*",
+      "type": "tokens",
+      "channel_type": 43,
+      "input": 0.625,
+      "output": 2.125,
+      "extra_ratios": {
+        "cached_tokens": 0.12
+      }
+    },
+    {
       "model": "BAAI/bge-large-en-v1.5",
       "type": "tokens",
       "channel_type": 45,
@@ -9523,6 +9586,46 @@
       }
     },
     {
+      "model": "grok-4.5",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 3.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-4.5-latest",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 3.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-build-0.1",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.5,
+      "output": 1.0,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "grok-build-latest",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 3.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
       "model": "grok-code",
       "type": "tokens",
       "channel_type": 56,
@@ -9536,20 +9639,40 @@
       "model": "grok-code-fast",
       "type": "tokens",
       "channel_type": 56,
-      "input": 0.625,
-      "output": 1.25,
+      "input": 0.5,
+      "output": 1.0,
       "extra_ratios": {
-        "cached_tokens": 0.16
+        "cached_tokens": 0.2
       }
     },
     {
       "model": "grok-code-fast-*",
       "type": "tokens",
       "channel_type": 56,
-      "input": 0.625,
-      "output": 1.25,
+      "input": 0.5,
+      "output": 1.0,
       "extra_ratios": {
-        "cached_tokens": 0.16
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "grok-code-fast-1",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.5,
+      "output": 1.0,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "grok-code-fast-1-0825",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.5,
+      "output": 1.0,
+      "extra_ratios": {
+        "cached_tokens": 0.2
       }
     },
     {
@@ -9603,6 +9726,13 @@
       "extra_ratios": {
         "input_video_tokens": 5.0
       }
+    },
+    {
+      "model": "grok-imagine-video-1.5",
+      "type": "times",
+      "channel_type": 56,
+      "input": 0.0,
+      "output": 40.0
     },
     {
       "model": "grok-latest",
@@ -11767,5 +11897,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-01T09:08:02Z"
+  "updated_at": "2026-07-11T21:04:18Z"
 }
