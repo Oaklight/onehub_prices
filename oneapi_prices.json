@@ -5378,7 +5378,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.36,
-      "output": 1.745
+      "output": 1.75
     },
     {
       "model": "morph/morph-v3-fast",
@@ -11879,5 +11879,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-11T06:03:43Z"
+  "updated_at": "2026-07-11T07:40:52Z"
 }
