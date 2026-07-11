@@ -9635,6 +9635,46 @@
       }
     },
     {
+      "model": "grok-4.5",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 3.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-4.5-latest",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 3.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
+      "model": "grok-build-0.1",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.5,
+      "output": 1.0,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "grok-build-latest",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 3.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
       "model": "grok-code",
       "type": "tokens",
       "channel_type": 56,
@@ -9648,20 +9688,40 @@
       "model": "grok-code-fast",
       "type": "tokens",
       "channel_type": 56,
-      "input": 0.625,
-      "output": 1.25,
+      "input": 0.5,
+      "output": 1.0,
       "extra_ratios": {
-        "cached_tokens": 0.16
+        "cached_tokens": 0.2
       }
     },
     {
       "model": "grok-code-fast-*",
       "type": "tokens",
       "channel_type": 56,
-      "input": 0.625,
-      "output": 1.25,
+      "input": 0.5,
+      "output": 1.0,
       "extra_ratios": {
-        "cached_tokens": 0.16
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "grok-code-fast-1",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.5,
+      "output": 1.0,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "grok-code-fast-1-0825",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.5,
+      "output": 1.0,
+      "extra_ratios": {
+        "cached_tokens": 0.2
       }
     },
     {
@@ -9715,6 +9775,13 @@
       "extra_ratios": {
         "input_video_tokens": 5.0
       }
+    },
+    {
+      "model": "grok-imagine-video-1.5",
+      "type": "times",
+      "channel_type": 56,
+      "input": 0.0,
+      "output": 40.0
     },
     {
       "model": "grok-latest",
