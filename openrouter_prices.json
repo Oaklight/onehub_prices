@@ -992,7 +992,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.36,
-      "output": 1.745
+      "output": 1.75
     },
     {
       "model": "morph/morph-v3-fast",
@@ -2307,8 +2307,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.196,
-      "output": 0.616
+      "input": 0.175,
+      "output": 0.55
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2388,5 +2388,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-11T12:57:22Z"
+  "updated_at": "2026-07-11T18:46:16Z"
 }
