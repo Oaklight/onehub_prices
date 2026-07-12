@@ -732,8 +732,8 @@
       "model": "meta-llama/llama-4-maverick",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.1,
+      "output": 0.4
     },
     {
       "model": "meta-llama/llama-4-scout",
@@ -1755,7 +1755,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.045,
-      "output": 0.05
+      "output": 0.275
     },
     {
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -2259,7 +2259,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.215,
-      "output": 0.87
+      "output": 0.875
     },
     {
       "model": "z-ai/glm-4.6v",
@@ -2388,5 +2388,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-12T08:02:00Z"
+  "updated_at": "2026-07-12T12:58:21Z"
 }
