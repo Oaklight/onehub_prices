@@ -5377,8 +5377,8 @@
       "model": "moonshotai/kimi-k2.7-code",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.36,
-      "output": 1.75
+      "input": 0.3595,
+      "output": 1.745
     },
     {
       "model": "morph/morph-v3-fast",
@@ -6693,8 +6693,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.21,
-      "output": 0.66
+      "input": 0.465,
+      "output": 1.5
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -11946,5 +11946,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-13T01:54:51Z"
+  "updated_at": "2026-07-13T08:50:35Z"
 }
