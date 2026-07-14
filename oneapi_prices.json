@@ -6452,13 +6452,6 @@
       "output": 0.025
     },
     {
-      "model": "sao10k/l3.1-70b-hanami-x1",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.5,
-      "output": 1.5
-    },
-    {
       "model": "sao10k/l3.1-euryale-70b",
       "type": "tokens",
       "channel_type": 20,
@@ -6686,8 +6679,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4641,
-      "output": 1.4586
+      "input": 0.462,
+      "output": 1.452
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -11939,5 +11932,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-14T07:47:39Z"
+  "updated_at": "2026-07-14T13:10:53Z"
 }
