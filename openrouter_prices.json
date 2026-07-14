@@ -557,7 +557,7 @@
       "model": "google/gemma-4-31b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
+      "input": 0.03,
       "output": 0.175
     },
     {
@@ -645,11 +645,25 @@
       "output": 5.0
     },
     {
+      "model": "kwaipilot/kat-coder-air-v2.5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.075,
+      "output": 0.3
+    },
+    {
       "model": "kwaipilot/kat-coder-pro-v2",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.15,
       "output": 0.6
+    },
+    {
+      "model": "kwaipilot/kat-coder-pro-v2.5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.37,
+      "output": 1.48
     },
     {
       "model": "mancer/weaver",
@@ -2286,8 +2300,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.465,
-      "output": 1.5
+      "input": 0.4641,
+      "output": 1.4586
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2367,5 +2381,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-14T01:41:42Z"
+  "updated_at": "2026-07-14T07:47:38Z"
 }
