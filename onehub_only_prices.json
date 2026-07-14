@@ -5881,15 +5881,8 @@
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.018,
-      "output": 0.09
-    },
-    {
-      "model": "openai/gpt-oss-120b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
+      "input": 0.015,
+      "output": 0.075
     },
     {
       "model": "openai/gpt-oss-20b",
@@ -6357,7 +6350,7 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1425,
+      "input": 0.1445,
       "output": 1.2
     },
     {
