@@ -1,34 +1,44 @@
 models:
   LongCat:
     # LongCat API开放平台：https://api.longcat.chat
-    # LongCat API价格：https://longcat.chat/platform/docs/zh/#%E6%94%AF%E6%8C%81%E7%9A%84%E6%A8%A1%E5%9E%8B
-    # 免费模型服务，每日50万tokens免费额度，可申请提升至500万或更高
+    # LongCat API价格：https://longcat.chat/platform/docs/zh/Pricing/LongCat-2.0.html
 
-    # 高效轻量MoE模型
+    # LongCat-2.0 (1.6T MoE, 1M context, 128K max output, Agentic模型)
+    # 限时折扣价: 输入 ¥2, 缓存命中 ¥0.04, 输出 ¥8
+    LongCat-2.0:
+      input: 5 rmb / M
+      output: 20 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.1 rmb / M
+
+    # =========================== 已下线 ===========================
+    # 以下模型已于 2026-05-29 停止服务
+
     LongCat-Flash-Lite:
+      deprecated: 2026-05-29
       aliases:
         - longcat-flash-lite
-      input: 0 rmb / M
-      output: 0 rmb / M
+      input: 0
+      output: 0
 
-    # 高性能通用对话模型
     LongCat-Flash-Chat:
+      deprecated: 2026-05-29
       aliases:
         - longcat-flash-chat
         - LongCat-Flash-Chat-*
-      input: 0 rmb / M
-      output: 0 rmb / M
+      input: 0
+      output: 0
 
-    # 深度思考模型
     LongCat-Flash-Thinking:
+      deprecated: 2026-05-29
       aliases:
         - LongCat-Flash-Thinking-*
-      input: 0 rmb / M
-      output: 0 rmb / M
+      input: 0
+      output: 0
 
-    # 多模态模型
     LongCat-Flash-Omni:
+      deprecated: 2026-05-29
       aliases:
         - LongCat-Flash-Omni-*
-      input: 0 rmb / M
-      output: 0 rmb / M
+      input: 0
+      output: 0

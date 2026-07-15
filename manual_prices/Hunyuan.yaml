@@ -4,7 +4,16 @@ models:
   # 模型ID来源: https://cloud.tencent.com/document/product/1729/104753
   # TokenHub 模型列表: https://cloud.tencent.com/document/product/1823/130051
   Hunyuan:
-    # Hy3 preview (2026-04-23, 295B MoE, 21B active, 256K context)
+    # ============ TokenHub 语言模型 ============
+
+    # Hy3 (256K context, 深度思考/结构化输出/FC/Cache)
+    hy3:
+      input: 1 rmb / M
+      output: 4 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.25 rmb / M
+
+    # Hy3 preview (295B MoE, 21B active, 256K context)
     # 分段计费: 0~16K ¥1.2/¥4, 16~32K ¥1.6/¥6.4, 32~256K ¥2/¥8
     hy3-preview:
       input: 2 rmb / M # ≤16K: 1.2, 16~32K: 1.6
@@ -12,23 +21,25 @@ models:
       extra_ratios:
         - cached_tokens: 0.8 rmb / M # ≤16K: 0.4, 16~32K: 0.6
 
-    # Tencent HY 2.0 系列 (将于 2026-06-22 下线)
-    # 分段计费: ≤32K 标准价, 32K~128K 加价
-    hunyuan-2.0-thinking:
-      deprecated: 2026-06-22
-      aliases:
-        - hunyuan-2.0-thinking-202*
-      input: 5.3 rmb / M # ≤32K: 3.975
-      output: 21.2 rmb / M # ≤32K: 15.9
+    # ============ TokenHub 翻译模型 ============
 
-    hunyuan-2.0-instruct:
-      deprecated: 2026-06-22
-      aliases:
-        - hunyuan-2.0-instruct-202*
-      input: 4.505 rmb / M # ≤32K: 3.18
-      output: 11.13 rmb / M # ≤32K: 7.95
+    # Hy-MT2-Pro (混元翻译旗舰模型)
+    hy-mt2-pro:
+      input: 0.5 rmb / M
+      output: 2 rmb / M
 
-    # 通用文生文模型 (旧平台不再新增模型，TokenHub 为主)
+    # Hy-MT2-Plus (混元翻译模型)
+    hy-mt2-plus:
+      input: 0.5 rmb / M
+      output: 2 rmb / M
+
+    # Hy-MT2-Lite (混元翻译轻量级模型)
+    hy-mt2-lite:
+      input: 0.3 rmb / M
+      output: 1.2 rmb / M
+
+    # ============ 旧平台 通用文生文模型 ============
+
     hunyuan-t1:
       aliases:
         - hunyuan-t1-latest
@@ -49,7 +60,8 @@ models:
       input: 0
       output: 0
 
-    # 翻译模型
+    # ============ 旧平台 翻译模型 ============
+
     hunyuan-translation:
       input: 1.2 rmb / M
       output: 3.6 rmb / M
@@ -58,15 +70,23 @@ models:
       input: 1 rmb / M
       output: 3 rmb / M
 
-    # 角色扮演模型
+    # ============ 角色扮演模型 ============
+
     hunyuan-large-role:
       aliases:
         - hunyuan-large-role-latest
         - hunyuan-role-latest
+        - hy-role
       input: 2.4 rmb / M
       output: 9.6 rmb / M
 
-    # 多模态模型
+    # ============ 多模态理解模型 ============
+
+    # HY-Vision-2.0-Instruct (TokenHub 新增)
+    hy-vision-2.0-instruct:
+      input: 7.5 rmb / M
+      output: 17.5 rmb / M
+
     hunyuan-vision-1.5-instruct:
       input: 3 rmb / M
       output: 9 rmb / M
@@ -81,12 +101,68 @@ models:
       input: 3 rmb / M
       output: 9 rmb / M
 
+    # YT-VITA (视频/图片多模态理解)
+    youtu-vita:
+      input: 1.2 rmb / M
+      output: 3.5 rmb / M
+
     # 视频理解模型
     hunyuan-turbos-vision-video:
+      aliases:
+        - hunyuan-turbos-vision-video-20250728
       input: 3 rmb / M
       output: 9 rmb / M
 
-    # 向量模型
+    # ============ 图像生成模型 ============
+
+    hy-image-v3.0:
+      output: 0.2 rmb / image
+
+    hy-image-lite:
+      output: 0.099 rmb / image
+
+    # ============ 向量模型 ============
+
+    kinfra-text-embedding-0.6b:
+      input: 0.5 rmb / M
+      output: 0
+
+    kinfra-text-embedding-4b:
+      input: 0.6 rmb / M
+      output: 0
+
+    kinfra-vl-embedding-2b:
+      input: 0.5 rmb / M
+      output: 0
+      extra_ratios:
+        - input_image_tokens: 0.7 rmb / M
+        - input_video_tokens: 1.5 rmb / M
+
+    kinfra-vl-embedding-8b:
+      input: 0.6 rmb / M
+      output: 0
+      extra_ratios:
+        - input_image_tokens: 0.9 rmb / M
+        - input_video_tokens: 1.8 rmb / M
+
     hunyuan-embedding:
       input: 0.7 rmb / M
       output: 0.7 rmb / M
+
+    # =========================== 已下线 ===========================
+
+    # Tencent HY 2.0 系列 (已于 2026-06-22 下线)
+    # 分段计费: ≤32K 标准价, 32K~128K 加价
+    hunyuan-2.0-thinking:
+      deprecated: 2026-06-22
+      aliases:
+        - hunyuan-2.0-thinking-202*
+      input: 5.3 rmb / M # ≤32K: 3.975
+      output: 21.2 rmb / M # ≤32K: 15.9
+
+    hunyuan-2.0-instruct:
+      deprecated: 2026-06-22
+      aliases:
+        - hunyuan-2.0-instruct-202*
+      input: 4.505 rmb / M # ≤32K: 3.18
+      output: 11.13 rmb / M # ≤32K: 7.95
