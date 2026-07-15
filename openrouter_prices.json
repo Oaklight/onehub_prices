@@ -190,13 +190,6 @@
       "output": 5.0
     },
     {
-      "model": "arcee-ai/coder-large",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.25,
-      "output": 0.4
-    },
-    {
       "model": "arcee-ai/trinity-large-thinking",
       "type": "tokens",
       "channel_type": 20,
@@ -2013,8 +2006,8 @@
       "model": "qwen/qwen3.7-max",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.625,
-      "output": 1.875
+      "input": 0.7375,
+      "output": 2.2125
     },
     {
       "model": "qwen/qwen3.7-plus",
@@ -2293,8 +2286,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4347,
-      "output": 1.3662
+      "input": 0.4256,
+      "output": 1.3376
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2374,5 +2367,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-15T13:14:42Z"
+  "updated_at": "2026-07-15T18:56:02Z"
 }
