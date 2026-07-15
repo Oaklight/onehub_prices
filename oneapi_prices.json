@@ -3010,6 +3010,28 @@
       }
     },
     {
+      "model": "qwen-audio-3.0-realtime-flash",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.21429,
+      "output": 2.14286,
+      "extra_ratios": {
+        "input_audio_tokens": 10.0,
+        "output_audio_tokens": 3.33333
+      }
+    },
+    {
+      "model": "qwen-audio-3.0-realtime-plus",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.35714,
+      "output": 2.85714,
+      "extra_ratios": {
+        "input_audio_tokens": 8.0,
+        "output_audio_tokens": 3.75
+      }
+    },
+    {
       "model": "qwen-audio-asr",
       "type": "tokens",
       "channel_type": 17,
@@ -3195,6 +3217,13 @@
       "channel_type": 17,
       "input": 0.05,
       "output": 0.13929
+    },
+    {
+      "model": "qwen-mt-image",
+      "type": "times",
+      "channel_type": 17,
+      "input": 0.0,
+      "output": 0.21429
     },
     {
       "model": "qwen-mt-lite",
@@ -4109,6 +4138,16 @@
       }
     },
     {
+      "model": "qwen3-vl-rerank",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.05,
+      "output": 0.0,
+      "extra_ratios": {
+        "input_image_tokens": 2.57143
+      }
+    },
+    {
       "model": "qwen3.5-122b-a10b",
       "type": "tokens",
       "channel_type": 17,
@@ -4179,6 +4218,13 @@
         "input_image_tokens": 0.23571,
         "output_audio_tokens": 1.6
       }
+    },
+    {
+      "model": "qwen3.5-ocr",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.03571,
+      "output": 0.14286
     },
     {
       "model": "qwen3.5-omni-flash",
@@ -4317,6 +4363,36 @@
       }
     },
     {
+      "model": "qwen3.7-max-preview",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.85714,
+      "output": 2.57143,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "qwen3.7-plus",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.14286,
+      "output": 0.57143,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "qwen3.7-plus-2026*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.14286,
+      "output": 0.57143,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
       "model": "qwq-32b",
       "type": "tokens",
       "channel_type": 17,
@@ -4371,6 +4447,13 @@
       "channel_type": 17,
       "input": 0.03571,
       "output": 0.0
+    },
+    {
+      "model": "tongyi-intent-detect-v3",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.02857,
+      "output": 0.07143
     },
     {
       "model": "tongyi-xiaomi-analysis-flash",
@@ -12071,5 +12154,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-15T00:39:13Z"
+  "updated_at": "2026-07-15T00:44:34Z"
 }
