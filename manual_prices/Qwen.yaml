@@ -12,10 +12,22 @@ models:
     qwen3.7-max:
       aliases:
         - qwen3.7-max-2026*
+        - qwen3.7-max-preview
       # 支持思考和非思考模式，支持上下文缓存，支持Batch半价
       # 无阶梯计价：0<Token≤1M: 12元输入/36元输出 (per M)
       input: 12 rmb / M
       output: 36 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
+
+    qwen3.7-plus:
+      aliases:
+        - qwen3.7-plus-2026*
+      # 支持思考和非思考模式（思维链+回答同价），支持上下文缓存，支持Batch半价
+      # 阶梯计价：0<Token≤256K: 2元输入/8元输出 (per M)
+      # 256K<Token≤1M: 6元输入/24元输出
+      input: 2 rmb / M # 取0～256k价格
+      output: 8 rmb / M
       extra_ratios:
         - cached_tokens: 0.2
 
@@ -226,6 +238,11 @@ models:
         - input_image_tokens: 0.0003 rmb / K # 图像输入与文本输入同价
         - cached_tokens: 0.2
 
+    # Qwen3.5 OCR
+    qwen3.5-ocr:
+      input: 0.5 rmb / M
+      output: 2 rmb / M
+
     # 通义千问OCR (qwen-vl-ocr-2025-11-20 基于 Qwen3-VL 架构)
     qwen-vl-ocr:
       aliases: qwen-vl-ocr-*
@@ -306,6 +323,8 @@ models:
     qwen-mt-turbo:
       input: 0.0007 rmb / K
       output: 0.00195 rmb / K
+    qwen-mt-image:
+      output: 0.003 rmb / image
 
     # 数据挖掘模型 qwen-doc-turbo
     qwen-doc-turbo:
@@ -324,6 +343,11 @@ models:
     tongyi-xiaomi-analysis-pro:
       input: 0.001 rmb / K
       output: 0.0027 rmb / K
+
+    # 意图识别模型
+    tongyi-intent-detect-v3:
+      input: 0.4 rmb / M
+      output: 1 rmb / M
 
     # 界面交互模型
     gui-plus:
@@ -363,12 +387,32 @@ models:
       input: 0.0005 rmb / K
     text-embedding-v4:
       input: 0.0005 rmb / K
+    qwen3-vl-rerank:
+      input: 0.7 rmb / M # 文本输入
+      extra_ratios:
+        - input_image_tokens: 1.8 rmb / M
     qwen3-rerank:
       input: 0.0005 rmb / K
     gte-rerank-v2:
       input: 0.0008 rmb / K
 
     # audio, asr, tts
+
+    # Qwen-Audio 3.0 实时对话模型
+    qwen-audio-3.0-realtime-plus:
+      input: 5 rmb / M # 文本输入
+      output: 40 rmb / M # 文本输出
+      extra_ratios:
+        - input_audio_tokens: 40 rmb / M
+        - output_audio_tokens: 150 rmb / M
+
+    qwen-audio-3.0-realtime-flash:
+      input: 3 rmb / M # 文本输入
+      output: 30 rmb / M # 文本输出
+      extra_ratios:
+        - input_audio_tokens: 30 rmb / M
+        - output_audio_tokens: 100 rmb / M
+
     qwen-audio-turbo:
       aliases: qwen-audio-turbo-latest
       input: 0
