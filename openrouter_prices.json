@@ -557,7 +557,7 @@
       "model": "google/gemma-4-31b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
+      "input": 0.06,
       "output": 0.175
     },
     {
@@ -2293,8 +2293,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.455,
-      "output": 1.43
+      "input": 0.4543,
+      "output": 1.4278
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2374,5 +2374,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-14T19:03:34Z"
+  "updated_at": "2026-07-15T00:39:13Z"
 }

@@ -4943,7 +4943,7 @@
       "model": "google/gemma-4-31b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
+      "input": 0.06,
       "output": 0.175
     },
     {
@@ -6679,8 +6679,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.455,
-      "output": 1.43
+      "input": 0.4543,
+      "output": 1.4278
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -8438,11 +8438,77 @@
       "output": 0.64286
     },
     {
+      "model": "hunyuan-turbos-vision-video-20250728",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.21429,
+      "output": 0.64286
+    },
+    {
       "model": "hunyuan-vision-1.5-instruct",
       "type": "tokens",
       "channel_type": 40,
       "input": 0.21429,
       "output": 0.64286
+    },
+    {
+      "model": "hy-image-lite",
+      "type": "times",
+      "channel_type": 40,
+      "input": 0.0,
+      "output": 7.07143
+    },
+    {
+      "model": "hy-image-v3.0",
+      "type": "times",
+      "channel_type": 40,
+      "input": 0.0,
+      "output": 14.28571
+    },
+    {
+      "model": "hy-mt2-lite",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.02143,
+      "output": 0.08571
+    },
+    {
+      "model": "hy-mt2-plus",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.03571,
+      "output": 0.14286
+    },
+    {
+      "model": "hy-mt2-pro",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.03571,
+      "output": 0.14286
+    },
+    {
+      "model": "hy-role",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.17143,
+      "output": 0.68571
+    },
+    {
+      "model": "hy-vision-2.0-instruct",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.53571,
+      "output": 1.25
+    },
+    {
+      "model": "hy3",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.07143,
+      "output": 0.28571,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
     },
     {
       "model": "hy3-preview",
@@ -8453,6 +8519,49 @@
       "extra_ratios": {
         "cached_tokens": 0.4
       }
+    },
+    {
+      "model": "kinfra-text-embedding-0.6b",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.03571,
+      "output": 0.0
+    },
+    {
+      "model": "kinfra-text-embedding-4b",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.04286,
+      "output": 0.0
+    },
+    {
+      "model": "kinfra-vl-embedding-2b",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.03571,
+      "output": 0.0,
+      "extra_ratios": {
+        "input_image_tokens": 1.4,
+        "input_video_tokens": 3.0
+      }
+    },
+    {
+      "model": "kinfra-vl-embedding-8b",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.04286,
+      "output": 0.0,
+      "extra_ratios": {
+        "input_image_tokens": 1.5,
+        "input_video_tokens": 3.0
+      }
+    },
+    {
+      "model": "youtu-vita",
+      "type": "tokens",
+      "channel_type": 40,
+      "input": 0.08571,
+      "output": 0.25
     },
     {
       "model": "muse-spark",
@@ -11120,10 +11229,10 @@
       "model": "kat-coder-air-*",
       "type": "tokens",
       "channel_type": 1013,
-      "input": 0.0,
-      "output": 0.0,
+      "input": 0.07143,
+      "output": 0.28571,
       "extra_ratios": {
-        "cached_tokens": 0.0
+        "cached_tokens": 0.2
       }
     },
     {
@@ -11134,6 +11243,16 @@
       "output": 0.0,
       "extra_ratios": {
         "cached_tokens": 0.0
+      }
+    },
+    {
+      "model": "kat-coder-air-v2.5",
+      "type": "tokens",
+      "channel_type": 1013,
+      "input": 0.07143,
+      "output": 0.28571,
+      "extra_ratios": {
+        "cached_tokens": 0.2
       }
     },
     {
@@ -11150,8 +11269,8 @@
       "model": "kat-coder-pro-*",
       "type": "tokens",
       "channel_type": 1013,
-      "input": 0.15,
-      "output": 0.6,
+      "input": 0.35714,
+      "output": 1.42857,
       "extra_ratios": {
         "cached_tokens": 0.2
       }
@@ -11174,6 +11293,26 @@
       "output": 0.6,
       "extra_ratios": {
         "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "kat-coder-pro-v2.5",
+      "type": "tokens",
+      "channel_type": 1013,
+      "input": 0.35714,
+      "output": 1.42857,
+      "extra_ratios": {
+        "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "LongCat-2.0",
+      "type": "tokens",
+      "channel_type": 1014,
+      "input": 0.35714,
+      "output": 1.42857,
+      "extra_ratios": {
+        "cached_tokens": 0.02
       }
     },
     {
@@ -11932,5 +12071,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-14T19:03:35Z"
+  "updated_at": "2026-07-15T00:39:13Z"
 }
