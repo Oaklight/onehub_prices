@@ -6195,7 +6195,7 @@
       "model": "qwen/qwen3-14b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
+      "input": 0.05,
       "output": 0.12
     },
     {
@@ -6755,8 +6755,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4837,
-      "output": 1.5202
+      "input": 0.4732,
+      "output": 1.4872
     },
     {
       "model": "z-ai/glm-5v-turbo",
