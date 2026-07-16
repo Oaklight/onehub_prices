@@ -697,8 +697,8 @@
       "model": "meta-llama/llama-3.2-3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.165
+      "input": 0.02545,
+      "output": 0.1675
     },
     {
       "model": "meta-llama/llama-3.2-3b-instruct:free",
@@ -741,6 +741,13 @@
       "channel_type": 20,
       "input": 0.09,
       "output": 0.09
+    },
+    {
+      "model": "meta/muse-spark-1.1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.625,
+      "output": 2.125
     },
     {
       "model": "microsoft/phi-4",
@@ -893,8 +900,8 @@
       "model": "mistralai/mistral-nemo",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01,
-      "output": 0.02
+      "input": 0.0095,
+      "output": 0.015
     },
     {
       "model": "mistralai/mistral-saba",
@@ -984,8 +991,15 @@
       "model": "moonshotai/kimi-k2.7-code",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3595,
-      "output": 1.745
+      "input": 0.375,
+      "output": 1.75
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.5,
+      "output": 7.5
     },
     {
       "model": "morph/morph-v3-fast",
@@ -1726,7 +1740,7 @@
       "model": "qwen/qwen3-14b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
+      "input": 0.06,
       "output": 0.12
     },
     {
@@ -2258,7 +2272,7 @@
       "model": "z-ai/glm-4.7-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
+      "input": 0.03025,
       "output": 0.2
     },
     {
@@ -2286,8 +2300,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4732,
-      "output": 1.4872
+      "input": 0.4585,
+      "output": 1.441
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2342,8 +2356,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33,
-      "output": 1.705
+      "input": 1.5,
+      "output": 7.5
     },
     {
       "model": "~openai/gpt-latest",
@@ -2367,5 +2381,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-16T13:22:09Z"
+  "updated_at": "2026-07-16T18:56:41Z"
 }
