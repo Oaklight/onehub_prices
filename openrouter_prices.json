@@ -515,8 +515,8 @@
       "model": "google/gemma-3-27b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.225
+      "input": 0.05,
+      "output": 0.15
     },
     {
       "model": "google/gemma-3-4b-it",
@@ -809,8 +809,8 @@
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.125,
+      "output": 0.5
     },
     {
       "model": "minimax/minimax-m3",
@@ -1740,7 +1740,7 @@
       "model": "qwen/qwen3-14b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
+      "input": 0.05,
       "output": 0.12
     },
     {
@@ -1950,8 +1950,8 @@
       "model": "qwen/qwen3.5-397b-a17b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.225,
-      "output": 1.5
+      "input": 0.195,
+      "output": 1.17
     },
     {
       "model": "qwen/qwen3.5-9b",
@@ -2272,7 +2272,7 @@
       "model": "z-ai/glm-4.7-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03025,
+      "input": 0.03,
       "output": 0.2
     },
     {
@@ -2300,8 +2300,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4585,
-      "output": 1.441
+      "input": 0.4487,
+      "output": 1.4102
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2381,5 +2381,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-16T18:56:41Z"
+  "updated_at": "2026-07-17T01:51:36Z"
 }
