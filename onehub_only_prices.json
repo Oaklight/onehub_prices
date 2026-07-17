@@ -6769,8 +6769,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4487,
-      "output": 1.4102
+      "input": 0.609,
+      "output": 1.914
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -7877,6 +7877,16 @@
       "output": 3.85714,
       "extra_ratios": {
         "cached_tokens": 0.2
+      }
+    },
+    {
+      "model": "kimi-k3",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 1.42857,
+      "output": 7.14286,
+      "extra_ratios": {
+        "cached_tokens": 0.1
       }
     },
     {
