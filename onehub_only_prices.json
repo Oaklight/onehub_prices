@@ -5369,8 +5369,8 @@
       "model": "mistralai/mistral-nemo",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0095,
-      "output": 0.015
+      "input": 0.01,
+      "output": 0.02
     },
     {
       "model": "mistralai/mistral-saba",
@@ -6769,8 +6769,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.609,
-      "output": 1.914
+      "input": 0.4662,
+      "output": 1.4652
     },
     {
       "model": "z-ai/glm-5v-turbo",
