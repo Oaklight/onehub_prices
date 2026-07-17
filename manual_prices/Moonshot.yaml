@@ -3,6 +3,16 @@ models:
     # 模型定价：https://platform.kimi.com/docs/pricing/chat
     # llms.txt：https://platform.kimi.com/docs/llms.txt
 
+    # ====== 旗舰模型 ======
+
+    kimi-k3:
+      # 旗舰模型，面向长程编程与端到端知识工作，始终推理，1M token 上下文
+      # 上下文窗口：1,048,576 tokens
+      input: 20 rmb / M
+      output: 100 rmb / M
+      extra_ratios:
+        - cached_tokens: 2 rmb / M
+
     # ====== 编程模型 ======
 
     kimi-k2.7-code:
@@ -92,14 +102,16 @@ models:
       extra_ratios:
         - cached_tokens: 1 rmb / M
 
-    # v1
+    # v1 (预计 2026-08-31 全平台下线)
     moonshot-v1-8k:
+      deprecated: 2026-08-31
       aliases: moonshot-v1-8k-vision-preview
       input: 2 rmb / M
       output: 10 rmb / M
       extra_ratios:
         - cached_tokens: 0
     moonshot-v1-32k:
+      deprecated: 2026-08-31
       aliases:
         - moonshot-v1-auto
         - moonshot-v1-32k-vision-preview
@@ -108,6 +120,7 @@ models:
       extra_ratios:
         - cached_tokens: 0
     moonshot-v1-128k:
+      deprecated: 2026-08-31
       aliases: moonshot-v1-128k-vision-preview
       input: 10 rmb / M
       output: 30 rmb / M
