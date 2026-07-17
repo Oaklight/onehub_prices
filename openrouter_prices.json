@@ -680,13 +680,6 @@
       "output": 0.04
     },
     {
-      "model": "meta-llama/llama-3.2-11b-vision-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1725,
-      "output": 0.1725
-    },
-    {
       "model": "meta-llama/llama-3.2-1b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -900,8 +893,8 @@
       "model": "mistralai/mistral-nemo",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01,
-      "output": 0.02
+      "input": 0.0095,
+      "output": 0.015
     },
     {
       "model": "mistralai/mistral-saba",
@@ -1062,13 +1055,6 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.065,
-      "output": 0.2
-    },
-    {
-      "model": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.2,
       "output": 0.2
     },
     {
@@ -1740,7 +1726,7 @@
       "model": "qwen/qwen3-14b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
+      "input": 0.06,
       "output": 0.12
     },
     {
@@ -2300,8 +2286,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4662,
-      "output": 1.4652
+      "input": 0.4613,
+      "output": 1.4498
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2381,5 +2367,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-17T13:06:38Z"
+  "updated_at": "2026-07-17T18:53:34Z"
 }
