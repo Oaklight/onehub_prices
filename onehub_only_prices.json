@@ -6741,7 +6741,7 @@
       "model": "z-ai/glm-4.7-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
+      "input": 0.03025,
       "output": 0.2
     },
     {

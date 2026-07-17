@@ -2272,7 +2272,7 @@
       "model": "z-ai/glm-4.7-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
+      "input": 0.03025,
       "output": 0.2
     },
     {
@@ -2381,5 +2381,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-17T07:53:16Z"
+  "updated_at": "2026-07-17T13:06:38Z"
 }
