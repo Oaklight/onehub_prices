@@ -662,8 +662,8 @@
       "model": "mancer/weaver",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.375,
-      "output": 0.5
+      "input": 0.25,
+      "output": 0.375
     },
     {
       "model": "meta-llama/llama-3.1-70b-instruct",
@@ -984,8 +984,8 @@
       "model": "moonshotai/kimi-k2.7-code",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.375,
-      "output": 1.75
+      "input": 0.5,
+      "output": 2.2
     },
     {
       "model": "moonshotai/kimi-k3",
@@ -1754,8 +1754,8 @@
       "model": "qwen/qwen3-30b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
-      "output": 0.25
+      "input": 0.065,
+      "output": 0.26
     },
     {
       "model": "qwen/qwen3-30b-a3b-instruct-2507",
@@ -1922,8 +1922,8 @@
       "model": "qwen/qwen3.5-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0975,
-      "output": 0.78
+      "input": 0.13,
+      "output": 1.3
     },
     {
       "model": "qwen/qwen3.5-35b-a3b",
@@ -2143,6 +2143,13 @@
       "output": 0.2
     },
     {
+      "model": "thinkingmachines/inkling",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 2.025
+    },
+    {
       "model": "undi95/remm-slerp-l2-13b",
       "type": "tokens",
       "channel_type": 20,
@@ -2286,8 +2293,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4613,
-      "output": 1.4498
+      "input": 0.21,
+      "output": 0.66
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2367,5 +2374,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-17T18:53:34Z"
+  "updated_at": "2026-07-18T01:42:01Z"
 }
