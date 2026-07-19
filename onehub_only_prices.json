@@ -5551,8 +5551,8 @@
       "model": "nvidia/nemotron-3-super-120b-a12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.105,
-      "output": 0.2275
+      "input": 0.0425,
+      "output": 0.2
     },
     {
       "model": "nvidia/nemotron-3-super-120b-a12b:free",
@@ -6762,8 +6762,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1379,
-      "output": 0.4334
+      "input": 0.1295,
+      "output": 0.407
     },
     {
       "model": "z-ai/glm-5v-turbo",
