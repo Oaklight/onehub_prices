@@ -1719,8 +1719,8 @@
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07475,
-      "output": 0.7475
+      "input": 0.15,
+      "output": 1.5
     },
     {
       "model": "qwen/qwen3-30b-a3b",
@@ -2231,7 +2231,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.475,
-      "output": 1.575
+      "output": 1.275
     },
     {
       "model": "z-ai/glm-5-turbo",
@@ -2251,8 +2251,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1183,
-      "output": 0.3718
+      "input": 0.1358,
+      "output": 0.4268
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2332,5 +2332,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-19T18:52:16Z"
+  "updated_at": "2026-07-20T02:07:23Z"
 }
