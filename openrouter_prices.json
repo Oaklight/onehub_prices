@@ -1061,8 +1061,8 @@
       "model": "nvidia/nemotron-3-super-120b-a12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0425,
-      "output": 0.2
+      "input": 0.04,
+      "output": 0.225
     },
     {
       "model": "nvidia/nemotron-3-super-120b-a12b:free",
@@ -2062,8 +2062,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.4
+      "input": 0.07,
+      "output": 0.29
     },
     {
       "model": "tencent/hy3-preview",
@@ -2251,8 +2251,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4865,
-      "output": 1.529
+      "input": 0.4732,
+      "output": 1.4872
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2332,5 +2332,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-21T01:50:00Z"
+  "updated_at": "2026-07-21T07:48:41Z"
 }

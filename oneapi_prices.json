@@ -3032,6 +3032,20 @@
       }
     },
     {
+      "model": "qwen-audio-3.0-tts-flash",
+      "type": "times",
+      "channel_type": 17,
+      "input": 0.0,
+      "output": 71.42857
+    },
+    {
+      "model": "qwen-audio-3.0-tts-plus",
+      "type": "times",
+      "channel_type": 17,
+      "input": 0.0,
+      "output": 100.0
+    },
+    {
       "model": "qwen-audio-asr",
       "type": "tokens",
       "channel_type": 17,
@@ -3093,6 +3107,13 @@
       "channel_type": 17,
       "input": 3.85714,
       "output": 11.64286
+    },
+    {
+      "model": "qwen-deep-research-2025-12-15",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 5.64286,
+      "output": 16.85714
     },
     {
       "model": "qwen-doc-turbo",
@@ -4238,7 +4259,29 @@
       }
     },
     {
+      "model": "qwen3.5-omni-flash-2026*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.15714,
+      "output": 0.95,
+      "extra_ratios": {
+        "input_audio_tokens": 8.18182,
+        "output_audio_tokens": 5.41353
+      }
+    },
+    {
       "model": "qwen3.5-omni-flash-realtime",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.23571,
+      "output": 1.42857,
+      "extra_ratios": {
+        "input_audio_tokens": 8.18182,
+        "output_audio_tokens": 5.35
+      }
+    },
+    {
+      "model": "qwen3.5-omni-flash-realtime-2026*",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.23571,
@@ -4260,7 +4303,29 @@
       }
     },
     {
+      "model": "qwen3.5-omni-plus-2026*",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.5,
+      "output": 2.85714,
+      "extra_ratios": {
+        "input_audio_tokens": 7.57143,
+        "output_audio_tokens": 5.325
+      }
+    },
+    {
       "model": "qwen3.5-omni-plus-realtime",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.71429,
+      "output": 4.28571,
+      "extra_ratios": {
+        "input_audio_tokens": 8.0,
+        "output_audio_tokens": 5.0
+      }
+    },
+    {
+      "model": "qwen3.5-omni-plus-realtime-2026*",
       "type": "tokens",
       "channel_type": 17,
       "input": 0.71429,
@@ -5530,8 +5595,8 @@
       "model": "nvidia/nemotron-3-super-120b-a12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0425,
-      "output": 0.2
+      "input": 0.04,
+      "output": 0.225
     },
     {
       "model": "nvidia/nemotron-3-super-120b-a12b:free",
@@ -6531,8 +6596,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.4
+      "input": 0.07,
+      "output": 0.29
     },
     {
       "model": "tencent/hy3-preview",
@@ -6720,8 +6785,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4865,
-      "output": 1.529
+      "input": 0.4732,
+      "output": 1.4872
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -12122,5 +12187,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-21T01:50:01Z"
+  "updated_at": "2026-07-21T07:48:42Z"
 }
