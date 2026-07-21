@@ -6785,8 +6785,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4718,
-      "output": 1.4828
+      "input": 0.4165,
+      "output": 1.309
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -12187,5 +12187,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-21T08:08:47Z"
+  "updated_at": "2026-07-21T13:18:13Z"
 }
