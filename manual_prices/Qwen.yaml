@@ -150,6 +150,8 @@ models:
 
     # Qwen3.5 Omni 系列（新增 Plus 级别）
     qwen3.5-omni-plus:
+      aliases:
+        - qwen3.5-omni-plus-2026*
       # 多模态：文本/图片/视频输入 + 音频输入，文本+音频输出
       input: 7 rmb / M # 文本/图片/视频输入
       output: 40 rmb / M # 文本输出（含多模态输入场景）
@@ -158,6 +160,8 @@ models:
         - output_audio_tokens: 213 rmb / M
 
     qwen3.5-omni-flash:
+      aliases:
+        - qwen3.5-omni-flash-2026*
       # 多模态：文本/图片/视频输入 + 音频输入，文本+音频输出
       input: 2.2 rmb / M # 文本/图片/视频输入
       output: 13.3 rmb / M # 文本输出（含多模态输入场景）
@@ -166,6 +170,8 @@ models:
         - output_audio_tokens: 72 rmb / M
 
     qwen3.5-omni-plus-realtime:
+      aliases:
+        - qwen3.5-omni-plus-realtime-2026*
       # 多模态实时：文本/图片输入 + 音频输入（无视频），文本+音频输出
       input: 10 rmb / M # 文本/图片输入
       output: 60 rmb / M # 文本输出
@@ -174,6 +180,8 @@ models:
         - output_audio_tokens: 300 rmb / M
 
     qwen3.5-omni-flash-realtime:
+      aliases:
+        - qwen3.5-omni-flash-realtime-2026*
       # 多模态实时：文本/图片输入 + 音频输入（无视频），文本+音频输出
       input: 3.3 rmb / M # 文本/图片输入
       output: 20 rmb / M # 文本输出
@@ -333,8 +341,12 @@ models:
 
     # 深入研究模型 qwen-deep-research
     qwen-deep-research:
-      input: 0.054 rmb / K
-      output: 0.163 rmb / K
+      input: 54 rmb / M
+      output: 163 rmb / M
+    qwen-deep-research-2025-12-15:
+      # 旧版本快照，价格更高
+      input: 79 rmb / M
+      output: 236 rmb / M
 
     # 对话分析模型
     tongyi-xiaomi-analysis-flash:
@@ -469,6 +481,12 @@ models:
         - input_audio_tokens: 40 rmb / M
         - input_image_tokens: 3.3 rmb / M
         - output_audio_tokens: 160 rmb / M
+
+    # Qwen-Audio 3.0 TTS 语音合成
+    qwen-audio-3.0-tts-plus:
+      output: 1.4 rmb / 10K_chars # 按万字符计费
+    qwen-audio-3.0-tts-flash:
+      output: 1 rmb / 10K_chars # 按万字符计费
 
     # =================================== 开源模型，仅包含最新 ===================================
 
