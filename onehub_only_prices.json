@@ -5092,7 +5092,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.06,
-      "output": 0.185
+      "output": 0.175
     },
     {
       "model": "google/gemma-4-31b-it:free",
@@ -6813,8 +6813,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4102,
-      "output": 1.2892
+      "input": 0.3983,
+      "output": 1.2518
     },
     {
       "model": "z-ai/glm-5v-turbo",
