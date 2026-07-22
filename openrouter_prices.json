@@ -1845,8 +1845,8 @@
       "model": "qwen/qwen3-next-80b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04875,
-      "output": 0.39
+      "input": 0.05,
+      "output": 0.55
     },
     {
       "model": "qwen/qwen3-next-80b-a3b-thinking",
@@ -2279,8 +2279,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3955,
-      "output": 1.243
+      "input": 0.4123,
+      "output": 1.2958
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2360,5 +2360,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-21T19:04:15Z"
+  "updated_at": "2026-07-22T01:48:47Z"
 }
