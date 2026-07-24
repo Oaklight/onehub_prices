@@ -5091,7 +5091,7 @@
       "model": "google/gemma-4-31b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
+      "input": 0.05,
       "output": 0.175
     },
     {
@@ -5315,8 +5315,8 @@
       "model": "minimax/minimax-m2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1275,
-      "output": 0.51
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "minimax/minimax-m2-her",
@@ -5343,8 +5343,8 @@
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.5
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "minimax/minimax-m3",
@@ -6043,8 +6043,8 @@
       "model": "openai/gpt-oss-20b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.015,
-      "output": 0.065
+      "input": 0.0145,
+      "output": 0.07
     },
     {
       "model": "openai/gpt-oss-20b:free",
@@ -6337,8 +6337,8 @@
       "model": "qwen/qwen3-coder",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.5
+      "input": 0.19,
+      "output": 0.775
     },
     {
       "model": "qwen/qwen3-coder-30b-a3b-instruct",
@@ -6505,8 +6505,8 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 1.8
+      "input": 0.144,
+      "output": 1.2
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
@@ -6820,8 +6820,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4088,
-      "output": 1.2848
+      "input": 0.3913,
+      "output": 1.2298
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -12222,5 +12222,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-23T19:00:12Z"
+  "updated_at": "2026-07-24T01:51:49Z"
 }
