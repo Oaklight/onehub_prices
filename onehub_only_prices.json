@@ -4741,8 +4741,8 @@
       "model": "arcee-ai/trinity-large-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.4
+      "input": 0.11,
+      "output": 0.425
     },
     {
       "model": "arcee-ai/virtuoso-large",
@@ -6834,8 +6834,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3766,
-      "output": 1.1836
+      "input": 0.3598,
+      "output": 1.1308
     },
     {
       "model": "z-ai/glm-5v-turbo",
