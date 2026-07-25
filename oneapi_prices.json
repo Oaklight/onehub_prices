@@ -1737,6 +1737,26 @@
       }
     },
     {
+      "model": "claude-opus-5",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-opus-5*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "claude-sonnet-4",
       "type": "tokens",
       "channel_type": 14,
@@ -6834,8 +6854,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3598,
-      "output": 1.1308
+      "input": 0.3563,
+      "output": 1.1198
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -11921,6 +11941,20 @@
       "output": 0.0
     },
     {
+      "model": "argo:claude-4.6-opus",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-4.6-sonnet",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "argo:claude-haiku-3.5",
       "type": "tokens",
       "channel_type": 2002,
@@ -11956,6 +11990,34 @@
       "output": 0.0
     },
     {
+      "model": "argo:claude-opus-4.6",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-opus-4.7",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-opus-4.8",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-opus-5",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "argo:claude-sonnet-3.5-v2",
       "type": "tokens",
       "channel_type": 2002,
@@ -11978,6 +12040,20 @@
     },
     {
       "model": "argo:claude-sonnet-4.5",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-sonnet-4.6",
+      "type": "tokens",
+      "channel_type": 2002,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "argo:claude-sonnet-5",
       "type": "tokens",
       "channel_type": 2002,
       "input": 0.0,
@@ -12236,5 +12312,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-25T13:03:19Z"
+  "updated_at": "2026-07-25T15:02:27Z"
 }

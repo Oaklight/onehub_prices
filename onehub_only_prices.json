@@ -1737,6 +1737,26 @@
       }
     },
     {
+      "model": "claude-opus-5",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
+      "model": "claude-opus-5*",
+      "type": "tokens",
+      "channel_type": 14,
+      "input": 2.5,
+      "output": 12.5,
+      "extra_ratios": {
+        "cached_tokens": 0.1
+      }
+    },
+    {
       "model": "claude-sonnet-4",
       "type": "tokens",
       "channel_type": 14,
@@ -6834,8 +6854,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3598,
-      "output": 1.1308
+      "input": 0.3563,
+      "output": 1.1198
     },
     {
       "model": "z-ai/glm-5v-turbo",
