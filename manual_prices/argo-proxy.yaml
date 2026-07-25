@@ -72,6 +72,20 @@ models:
       output: 0
 
     # anthropic claude
+    argo:claude-opus-5:
+      input: 0
+      output: 0
+    argo:claude-opus-4.8:
+      input: 0
+      output: 0
+    argo:claude-opus-4.7:
+      input: 0
+      output: 0
+    argo:claude-opus-4.6:
+      aliases:
+        - argo:claude-4.6-opus
+      input: 0
+      output: 0
     argo:claude-4.5-opus:
       aliases:
         - argo:claude-opus-4.5
@@ -85,6 +99,14 @@ models:
     argo:claude-4-opus:
       aliases:
         - argo:claude-opus-4
+      input: 0
+      output: 0
+    argo:claude-sonnet-5:
+      input: 0
+      output: 0
+    argo:claude-sonnet-4.6:
+      aliases:
+        - argo:claude-4.6-sonnet
       input: 0
       output: 0
     argo:claude-4.5-sonnet:
