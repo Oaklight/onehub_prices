@@ -5559,7 +5559,7 @@
       "model": "moonshotai/kimi-k2.7-code",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.39,
+      "input": 0.375,
       "output": 1.75
     },
     {
@@ -6336,8 +6336,8 @@
       "model": "qwen/qwen3-30b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.065,
-      "output": 0.26
+      "input": 0.06,
+      "output": 0.25
     },
     {
       "model": "qwen/qwen3-30b-a3b-instruct-2507",
@@ -6854,8 +6854,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3598,
-      "output": 1.1308
+      "input": 0.3521,
+      "output": 1.1066
     },
     {
       "model": "z-ai/glm-5v-turbo",
