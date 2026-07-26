@@ -652,20 +652,6 @@
       "output": 0.3125
     },
     {
-      "model": "inflection/inflection-3-pi",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.25,
-      "output": 5.0
-    },
-    {
-      "model": "inflection/inflection-3-productivity",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.25,
-      "output": 5.0
-    },
-    {
       "model": "kwaipilot/kat-coder-air-v2.5",
       "type": "tokens",
       "channel_type": 20,
@@ -1005,7 +991,7 @@
       "model": "moonshotai/kimi-k2.7-code",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.375,
+      "input": 0.365,
       "output": 1.75
     },
     {
@@ -2300,8 +2286,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3367,
-      "output": 1.0582
+      "input": 0.3346,
+      "output": 1.0516
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2381,5 +2367,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-26T12:59:45Z"
+  "updated_at": "2026-07-26T18:57:35Z"
 }
