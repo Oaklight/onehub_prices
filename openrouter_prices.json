@@ -557,8 +557,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
-      "output": 0.175
+      "input": 0.07,
+      "output": 0.21
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -1240,13 +1240,6 @@
       "output": 0.3
     },
     {
-      "model": "openai/gpt-4o-search-preview",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.25,
-      "output": 5.0
-    },
-    {
       "model": "openai/gpt-5",
       "type": "tokens",
       "channel_type": 20,
@@ -1432,15 +1425,15 @@
       "model": "openai/gpt-5.6-luna",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5,
-      "output": 3.0
+      "input": 0.25,
+      "output": 1.5
     },
     {
       "model": "openai/gpt-5.6-luna-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5,
-      "output": 3.0
+      "input": 0.25,
+      "output": 1.5
     },
     {
       "model": "openai/gpt-5.6-sol",
@@ -1460,15 +1453,15 @@
       "model": "openai/gpt-5.6-terra",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.25,
-      "output": 7.5
+      "input": 0.625,
+      "output": 3.75
     },
     {
       "model": "openai/gpt-5.6-terra-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.25,
-      "output": 7.5
+      "input": 0.625,
+      "output": 3.75
     },
     {
       "model": "openai/gpt-audio",
@@ -2279,8 +2272,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3934,
-      "output": 1.2364
+      "input": 0.3822,
+      "output": 1.2012
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2360,5 +2353,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-27T14:11:21Z"
+  "updated_at": "2026-07-27T19:13:38Z"
 }
