@@ -557,8 +557,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
-      "output": 0.21
+      "input": 0.075,
+      "output": 0.225
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -1096,8 +1096,8 @@
       "model": "nvidia/nemotron-3-ultra-550b-a55b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 1.8
+      "input": 0.25,
+      "output": 1.1
     },
     {
       "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -1625,20 +1625,6 @@
       "output": 4.0
     },
     {
-      "model": "poolside/laguna-m.1",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.1,
-      "output": 0.2
-    },
-    {
-      "model": "poolside/laguna-m.1:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "poolside/laguna-s-2.1",
       "type": "tokens",
       "channel_type": 20,
@@ -1803,8 +1789,8 @@
       "model": "qwen/qwen3-coder-next",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.055,
-      "output": 0.4
+      "input": 0.09,
+      "output": 0.45
     },
     {
       "model": "qwen/qwen3-coder-plus",
@@ -2353,5 +2339,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-28T08:15:48Z"
+  "updated_at": "2026-07-28T13:41:27Z"
 }
