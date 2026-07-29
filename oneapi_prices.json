@@ -5237,8 +5237,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.035,
+      "output": 0.17
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -5251,8 +5251,8 @@
       "model": "google/gemma-4-31b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.17
+      "input": 0.07,
+      "output": 0.2
     },
     {
       "model": "google/gemma-4-31b-it:free",
@@ -6595,8 +6595,8 @@
       "model": "qwen/qwen3-vl-30b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.065,
+      "output": 0.26
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-thinking",
@@ -6644,7 +6644,7 @@
       "model": "qwen/qwen3.5-35b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
+      "input": 0.07,
       "output": 0.5
     },
     {
@@ -6707,8 +6707,8 @@
       "model": "qwen/qwen3.6-max-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.52,
-      "output": 3.12
+      "input": 0.5135,
+      "output": 3.081
     },
     {
       "model": "qwen/qwen3.6-plus",
@@ -6728,8 +6728,8 @@
       "model": "qwen/qwen3.7-max",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.625,
-      "output": 1.875
+      "input": 0.7375,
+      "output": 2.2125
     },
     {
       "model": "qwen/qwen3.7-plus",
@@ -7008,8 +7008,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3808,
-      "output": 1.1968
+      "input": 0.3752,
+      "output": 1.1792
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -12466,5 +12466,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-29T01:47:11Z"
+  "updated_at": "2026-07-29T08:21:58Z"
 }
