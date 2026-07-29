@@ -6539,8 +6539,8 @@
       "model": "qwen/qwen3-coder-next",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.09,
-      "output": 0.45
+      "input": 0.06,
+      "output": 0.4
     },
     {
       "model": "qwen/qwen3-coder-plus",
@@ -6595,8 +6595,8 @@
       "model": "qwen/qwen3-vl-30b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.065,
-      "output": 0.26
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-thinking",
@@ -7008,8 +7008,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3752,
-      "output": 1.1792
+      "input": 0.364,
+      "output": 1.144
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -12466,5 +12466,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-29T08:21:58Z"
+  "updated_at": "2026-07-29T13:47:17Z"
 }
