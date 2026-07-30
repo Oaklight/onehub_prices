@@ -5251,8 +5251,8 @@
       "model": "google/gemma-4-31b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
-      "output": 0.2
+      "input": 0.05,
+      "output": 0.17
     },
     {
       "model": "google/gemma-4-31b-it:free",
@@ -6413,8 +6413,8 @@
       "model": "qwen/qwen-2.5-7b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 0.05
+      "input": 0.05,
+      "output": 0.1
     },
     {
       "model": "qwen/qwen-2.5-coder-32b-instruct",
@@ -6595,8 +6595,8 @@
       "model": "qwen/qwen3-vl-30b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.065,
-      "output": 0.26
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-thinking",
@@ -7008,8 +7008,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3465,
-      "output": 1.089
+      "input": 0.3388,
+      "output": 1.0648
     },
     {
       "model": "z-ai/glm-5v-turbo",
