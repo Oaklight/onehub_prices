@@ -7008,8 +7008,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3388,
-      "output": 1.0648
+      "input": 0.33845,
+      "output": 1.0637
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -10075,7 +10075,7 @@
       "input": 1.0,
       "output": 3.0,
       "extra_ratios": {
-        "cached_tokens": 0.25
+        "cached_tokens": 0.15
       }
     },
     {
@@ -10085,7 +10085,7 @@
       "input": 1.0,
       "output": 3.0,
       "extra_ratios": {
-        "cached_tokens": 0.25
+        "cached_tokens": 0.15
       }
     },
     {
@@ -10105,7 +10105,7 @@
       "input": 1.0,
       "output": 3.0,
       "extra_ratios": {
-        "cached_tokens": 0.25
+        "cached_tokens": 0.15
       }
     },
     {
@@ -10232,7 +10232,7 @@
       "type": "tokens",
       "channel_type": 56,
       "input": 0.0,
-      "output": 0.025
+      "output": 0.04
     },
     {
       "model": "grok-voice-think-fast-1.0",
@@ -10240,6 +10240,13 @@
       "channel_type": 56,
       "input": 0.0,
       "output": 0.025
+    },
+    {
+      "model": "grok-voice-think-fast-2.0",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 0.0,
+      "output": 0.04
     }
   ]
 }
