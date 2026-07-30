@@ -5671,8 +5671,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.323,
-      "output": 1.36
+      "input": 0.475,
+      "output": 2.0
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -5934,13 +5934,6 @@
       "output": 5.0
     },
     {
-      "model": "openai/gpt-5-codex",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.625,
-      "output": 5.0
-    },
-    {
       "model": "openai/gpt-5-image",
       "type": "tokens",
       "channel_type": 20,
@@ -6161,15 +6154,15 @@
       "model": "openai/gpt-5.6-luna",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.5
+      "input": 0.05,
+      "output": 0.3
     },
     {
       "model": "openai/gpt-5.6-luna-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.5
+      "input": 0.05,
+      "output": 0.3
     },
     {
       "model": "openai/gpt-5.6-sol",
@@ -6189,15 +6182,15 @@
       "model": "openai/gpt-5.6-terra",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.625,
-      "output": 3.75
+      "input": 0.5,
+      "output": 3.0
     },
     {
       "model": "openai/gpt-5.6-terra-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.625,
-      "output": 3.75
+      "input": 0.5,
+      "output": 3.0
     },
     {
       "model": "openai/gpt-5:batch",
@@ -6277,13 +6270,6 @@
       "output": 4.0
     },
     {
-      "model": "openai/o3-deep-research",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 5.0,
-      "output": 20.0
-    },
-    {
       "model": "openai/o3-mini",
       "type": "tokens",
       "channel_type": 20,
@@ -6310,13 +6296,6 @@
       "channel_type": 20,
       "input": 0.55,
       "output": 2.2
-    },
-    {
-      "model": "openai/o4-mini-deep-research",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.0,
-      "output": 4.0
     },
     {
       "model": "openai/o4-mini-high",
@@ -7008,8 +6987,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.30765,
-      "output": 0.9669
+      "input": 0.483,
+      "output": 1.518
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -7065,7 +7044,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 1.45,
-      "output": 7.5
+      "output": 7.0
     },
     {
       "model": "~openai/gpt-latest",
@@ -12473,5 +12452,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-07-30T13:28:55Z"
+  "updated_at": "2026-07-30T19:10:29Z"
 }
