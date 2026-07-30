@@ -4929,8 +4929,8 @@
       "model": "deepseek/deepseek-chat",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1001,
-      "output": 0.40005
+      "input": 0.1287,
+      "output": 0.51435
     },
     {
       "model": "deepseek/deepseek-chat-v3-0324",
@@ -7008,8 +7008,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33845,
-      "output": 1.0637
+      "input": 0.34965,
+      "output": 1.0989
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -7064,7 +7064,7 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.5,
+      "input": 1.45,
       "output": 7.5
     },
     {
