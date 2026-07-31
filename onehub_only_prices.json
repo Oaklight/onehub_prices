@@ -6357,8 +6357,8 @@
       "model": "poolside/laguna-s-2.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.1
+      "input": 0.045,
+      "output": 0.09
     },
     {
       "model": "poolside/laguna-s-2.1:free",
