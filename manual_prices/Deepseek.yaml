@@ -3,7 +3,10 @@ models:
     # 模型定价：https://api-docs.deepseek.com/zh-cn/quick_start/pricing/
 
     # DeepSeek V4 系列 (1M context, max 384K output, 支持思考/非思考模式)
+    # 注意：即将实施峰谷定价，高峰时段(北京时间 9:00-12:00, 14:00-18:00)价格 2x，生效日期待官方公告
     deepseek-v4-flash:
+      aliases:
+        - deepseek-v4-flash-0731
       input: 1 rmb / M
       output: 2 rmb / M
       extra_ratios:
@@ -14,7 +17,8 @@ models:
       extra_ratios:
         - cached_tokens: 0.025 rmb / M
 
-    # DEPRECATED: deepseek-chat 和 deepseek-reasoner 将于 2026-07-24 弃用，分别对应 deepseek-v4-flash 的非思考/思考模式
+    # =========================== 已下线 ===========================
+    # deepseek-chat 和 deepseek-reasoner 已于 2026-07-24 弃用，分别对应 deepseek-v4-flash 的非思考/思考模式
     deepseek-chat:
       deprecated: 2026-07-24
       aliases:
