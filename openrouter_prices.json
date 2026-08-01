@@ -1096,8 +1096,8 @@
       "model": "nvidia/nemotron-3-ultra-550b-a55b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.1
+      "input": 0.3,
+      "output": 1.8
     },
     {
       "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -2237,8 +2237,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.38003,
-      "output": 1.19438
+      "input": 0.3584,
+      "output": 1.1264
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2274,6 +2274,13 @@
       "channel_type": 20,
       "input": 1.0,
       "output": 5.0
+    },
+    {
+      "model": "~deepseek/deepseek-v4-flash-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.045,
+      "output": 0.09
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -2318,5 +2325,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-08-01T12:58:05Z"
+  "updated_at": "2026-08-01T18:55:39Z"
 }
