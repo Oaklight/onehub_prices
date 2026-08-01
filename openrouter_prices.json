@@ -1475,7 +1475,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.015,
-      "output": 0.07
+      "output": 0.065
     },
     {
       "model": "openai/gpt-oss-20b:free",
@@ -2237,8 +2237,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.56,
-      "output": 1.76
+      "input": 0.38003,
+      "output": 1.19438
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2318,5 +2318,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-08-01T01:58:28Z"
+  "updated_at": "2026-08-01T08:04:50Z"
 }
