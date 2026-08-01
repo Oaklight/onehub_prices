@@ -984,8 +984,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2945,
-      "output": 1.24
+      "input": 0.3,
+      "output": 1.705
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -1748,7 +1748,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.035,
-      "output": 0.135
+      "output": 0.14
     },
     {
       "model": "qwen/qwen3-coder-flash",
@@ -2090,8 +2090,8 @@
       "model": "thinkingmachines/inkling-small",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.29,
-      "output": 0.72
+      "input": 0.25,
+      "output": 0.6
     },
     {
       "model": "undi95/remm-slerp-l2-13b",
@@ -2318,5 +2318,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-07-31T19:09:24Z"
+  "updated_at": "2026-08-01T01:58:28Z"
 }
