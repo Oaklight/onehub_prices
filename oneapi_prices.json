@@ -5410,8 +5410,8 @@
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.5
+      "input": 0.135,
+      "output": 0.54
     },
     {
       "model": "minimax/minimax-m3",
@@ -5529,8 +5529,8 @@
       "model": "mistralai/mistral-small-3.2-24b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.1
+      "input": 0.04688,
+      "output": 0.125
     },
     {
       "model": "mistralai/mixtral-8x22b-instruct",
@@ -12320,5 +12320,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-08-04T13:49:02Z"
+  "updated_at": "2026-08-04T19:18:31Z"
 }
