@@ -606,8 +606,8 @@
       "model": "gryphe/mythomax-l2-13b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
-      "output": 0.03
+      "input": 0.04,
+      "output": 0.055
     },
     {
       "model": "ibm-granite/granite-4.0-h-micro",
@@ -725,8 +725,8 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.065,
-      "output": 0.2
+      "input": 0.05,
+      "output": 0.16
     },
     {
       "model": "meta-llama/llama-4-maverick",
@@ -984,8 +984,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 1.705
+      "input": 0.2945,
+      "output": 1.24
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -1789,7 +1789,7 @@
       "model": "qwen/qwen3-next-80b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
+      "input": 0.045,
       "output": 0.55
     },
     {
@@ -2244,8 +2244,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3143,
-      "output": 0.9878
+      "input": 0.38,
+      "output": 1.21
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2332,5 +2332,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-08-03T19:19:49Z"
+  "updated_at": "2026-08-04T01:43:05Z"
 }
