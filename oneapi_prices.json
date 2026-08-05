@@ -5403,7 +5403,7 @@
       "model": "minimax/minimax-m2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
+      "input": 0.11,
       "output": 0.45
     },
     {
@@ -5585,7 +5585,7 @@
       "model": "moonshotai/kimi-k2.7-code",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.365,
+      "input": 0.35,
       "output": 1.75
     },
     {
@@ -6285,8 +6285,8 @@
       "model": "qwen/qwen3-235b-a22b-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07475,
-      "output": 0.299
+      "input": 0.045,
+      "output": 0.275
     },
     {
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -6831,8 +6831,8 @@
       "model": "z-ai/glm-5.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.483,
-      "output": 1.518
+      "input": 0.476,
+      "output": 1.496
     },
     {
       "model": "z-ai/glm-5.2",
@@ -12320,5 +12320,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-08-05T13:44:24Z"
+  "updated_at": "2026-08-05T19:15:36Z"
 }
