@@ -375,8 +375,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
-      "output": 0.14
+      "input": 0.0441,
+      "output": 0.0882
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -645,6 +645,13 @@
       "output": 0.015
     },
     {
+      "model": "inclusionai/ling-3.0-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0375,
+      "output": 0.11
+    },
+    {
       "model": "inclusionai/ling-3.0-flash:free",
       "type": "tokens",
       "channel_type": 20,
@@ -751,6 +758,13 @@
     },
     {
       "model": "meta/muse-spark-1.1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.625,
+      "output": 2.125
+    },
+    {
+      "model": "meta/muse-spark-1.2",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.625,
@@ -1810,8 +1824,8 @@
       "model": "qwen/qwen3-vl-235b-a22b-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 2.0
+      "input": 0.49,
+      "output": 1.975
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-instruct",
@@ -2332,5 +2346,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-08-05T19:15:35Z"
+  "updated_at": "2026-08-06T01:45:12Z"
 }
