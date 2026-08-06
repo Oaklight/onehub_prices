@@ -99,11 +99,25 @@
       "output": 25.0
     },
     {
+      "model": "anthropic/claude-fable-5:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
       "model": "anthropic/claude-haiku-4.5",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.5,
       "output": 2.5
+    },
+    {
+      "model": "anthropic/claude-haiku-4.5:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.25,
+      "output": 1.25
     },
     {
       "model": "anthropic/claude-opus-4",
@@ -120,6 +134,13 @@
       "output": 37.5
     },
     {
+      "model": "anthropic/claude-opus-4.1:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 3.75,
+      "output": 18.75
+    },
+    {
       "model": "anthropic/claude-opus-4.5",
       "type": "tokens",
       "channel_type": 20,
@@ -127,11 +148,25 @@
       "output": 12.5
     },
     {
+      "model": "anthropic/claude-opus-4.5:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.25,
+      "output": 6.25
+    },
+    {
       "model": "anthropic/claude-opus-4.6",
       "type": "tokens",
       "channel_type": 20,
       "input": 2.5,
       "output": 12.5
+    },
+    {
+      "model": "anthropic/claude-opus-4.6:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.25,
+      "output": 6.25
     },
     {
       "model": "anthropic/claude-opus-4.7",
@@ -148,6 +183,13 @@
       "output": 75.0
     },
     {
+      "model": "anthropic/claude-opus-4.7:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.25,
+      "output": 6.25
+    },
+    {
       "model": "anthropic/claude-opus-4.8",
       "type": "tokens",
       "channel_type": 20,
@@ -160,6 +202,13 @@
       "channel_type": 20,
       "input": 5.0,
       "output": 25.0
+    },
+    {
+      "model": "anthropic/claude-opus-4.8:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.25,
+      "output": 6.25
     },
     {
       "model": "anthropic/claude-opus-5",
@@ -176,6 +225,13 @@
       "output": 25.0
     },
     {
+      "model": "anthropic/claude-opus-5:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.25,
+      "output": 6.25
+    },
+    {
       "model": "anthropic/claude-sonnet-4",
       "type": "tokens",
       "channel_type": 20,
@@ -190,6 +246,13 @@
       "output": 7.5
     },
     {
+      "model": "anthropic/claude-sonnet-4.5:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.75,
+      "output": 3.75
+    },
+    {
       "model": "anthropic/claude-sonnet-4.6",
       "type": "tokens",
       "channel_type": 20,
@@ -197,11 +260,25 @@
       "output": 7.5
     },
     {
+      "model": "anthropic/claude-sonnet-4.6:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.75,
+      "output": 3.75
+    },
+    {
       "model": "anthropic/claude-sonnet-5",
       "type": "tokens",
       "channel_type": 20,
       "input": 1.0,
       "output": 5.0
+    },
+    {
+      "model": "anthropic/claude-sonnet-5:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 2.5
     },
     {
       "model": "arcee-ai/trinity-large-thinking",
@@ -414,6 +491,20 @@
       "output": 0.2
     },
     {
+      "model": "google/gemini-2.5-flash-lite:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.025,
+      "output": 0.1
+    },
+    {
+      "model": "google/gemini-2.5-flash:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.075,
+      "output": 0.625
+    },
+    {
       "model": "google/gemini-2.5-pro",
       "type": "tokens",
       "channel_type": 20,
@@ -435,11 +526,25 @@
       "output": 5.0
     },
     {
+      "model": "google/gemini-2.5-pro:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.3125,
+      "output": 2.5
+    },
+    {
       "model": "google/gemini-3-flash-preview",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.25,
       "output": 1.5
+    },
+    {
+      "model": "google/gemini-3-flash-preview:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.125,
+      "output": 0.75
     },
     {
       "model": "google/gemini-3-pro-image",
@@ -491,6 +596,13 @@
       "output": 0.75
     },
     {
+      "model": "google/gemini-3.1-flash-lite:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0625,
+      "output": 0.375
+    },
+    {
       "model": "google/gemini-3.1-pro-preview",
       "type": "tokens",
       "channel_type": 20,
@@ -503,6 +615,13 @@
       "channel_type": 20,
       "input": 1.0,
       "output": 6.0
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 3.0
     },
     {
       "model": "google/gemini-3.5-flash",
@@ -519,11 +638,32 @@
       "output": 1.25
     },
     {
+      "model": "google/gemini-3.5-flash-lite:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.075,
+      "output": 0.625
+    },
+    {
+      "model": "google/gemini-3.5-flash:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.375,
+      "output": 2.25
+    },
+    {
       "model": "google/gemini-3.6-flash",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.75,
       "output": 3.75
+    },
+    {
+      "model": "google/gemini-3.6-flash:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.375,
+      "output": 1.875
     },
     {
       "model": "google/gemma-2-27b-it",
@@ -841,6 +981,13 @@
       "output": 0.6
     },
     {
+      "model": "minimax/minimax-m3:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.075,
+      "output": 0.3
+    },
+    {
       "model": "mistralai/codestral-2508",
       "type": "tokens",
       "channel_type": 20,
@@ -998,8 +1145,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2945,
-      "output": 1.24
+      "input": 0.285,
+      "output": 1.2
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -1007,6 +1154,13 @@
       "channel_type": 20,
       "input": 0.35,
       "output": 1.75
+    },
+    {
+      "model": "moonshotai/kimi-k2.7-code:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.2375,
+      "output": 1.0
     },
     {
       "model": "moonshotai/kimi-k3",
@@ -1114,6 +1268,13 @@
       "output": 1.8
     },
     {
+      "model": "nvidia/nemotron-3-ultra-550b-a55b:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.15,
+      "output": 0.9
+    },
+    {
       "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "type": "tokens",
       "channel_type": 20,
@@ -1170,6 +1331,13 @@
       "output": 1.0
     },
     {
+      "model": "openai/gpt-3.5-turbo:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.125,
+      "output": 0.375
+    },
+    {
       "model": "openai/gpt-4",
       "type": "tokens",
       "channel_type": 20,
@@ -1191,6 +1359,13 @@
       "output": 15.0
     },
     {
+      "model": "openai/gpt-4-turbo:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 2.5,
+      "output": 7.5
+    },
+    {
       "model": "openai/gpt-4.1",
       "type": "tokens",
       "channel_type": 20,
@@ -1205,11 +1380,32 @@
       "output": 0.8
     },
     {
+      "model": "openai/gpt-4.1-mini:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.4
+    },
+    {
       "model": "openai/gpt-4.1-nano",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.05,
       "output": 0.2
+    },
+    {
+      "model": "openai/gpt-4.1-nano:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.025,
+      "output": 0.1
+    },
+    {
+      "model": "openai/gpt-4.1:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 2.0
     },
     {
       "model": "openai/gpt-4o",
@@ -1254,11 +1450,32 @@
       "output": 0.3
     },
     {
+      "model": "openai/gpt-4o-mini:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0375,
+      "output": 0.15
+    },
+    {
+      "model": "openai/gpt-4o:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.625,
+      "output": 2.5
+    },
+    {
       "model": "openai/gpt-5",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.625,
       "output": 5.0
+    },
+    {
+      "model": "openai/gpt-5-codex:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.3125,
+      "output": 2.5
     },
     {
       "model": "openai/gpt-5-image",
@@ -1282,6 +1499,13 @@
       "output": 1.0
     },
     {
+      "model": "openai/gpt-5-mini:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0625,
+      "output": 0.5
+    },
+    {
       "model": "openai/gpt-5-nano",
       "type": "tokens",
       "channel_type": 20,
@@ -1289,11 +1513,25 @@
       "output": 0.2
     },
     {
+      "model": "openai/gpt-5-nano:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0125,
+      "output": 0.1
+    },
+    {
       "model": "openai/gpt-5-pro",
       "type": "tokens",
       "channel_type": 20,
       "input": 7.5,
       "output": 60.0
+    },
+    {
+      "model": "openai/gpt-5-pro:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 3.75,
+      "output": 30.0
     },
     {
       "model": "openai/gpt-5.1",
@@ -1324,6 +1562,13 @@
       "output": 1.0
     },
     {
+      "model": "openai/gpt-5.1:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.3125,
+      "output": 2.5
+    },
+    {
       "model": "openai/gpt-5.2",
       "type": "tokens",
       "channel_type": 20,
@@ -1350,6 +1595,20 @@
       "channel_type": 20,
       "input": 10.5,
       "output": 84.0
+    },
+    {
+      "model": "openai/gpt-5.2-pro:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 5.25,
+      "output": 42.0
+    },
+    {
+      "model": "openai/gpt-5.2:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.4375,
+      "output": 3.5
     },
     {
       "model": "openai/gpt-5.3-chat",
@@ -1387,6 +1646,13 @@
       "output": 2.25
     },
     {
+      "model": "openai/gpt-5.4-mini:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1875,
+      "output": 1.125
+    },
+    {
       "model": "openai/gpt-5.4-nano",
       "type": "tokens",
       "channel_type": 20,
@@ -1394,11 +1660,32 @@
       "output": 0.625
     },
     {
+      "model": "openai/gpt-5.4-nano:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.3125
+    },
+    {
       "model": "openai/gpt-5.4-pro",
       "type": "tokens",
       "channel_type": 20,
       "input": 15.0,
       "output": 90.0
+    },
+    {
+      "model": "openai/gpt-5.4-pro:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 7.5,
+      "output": 45.0
+    },
+    {
+      "model": "openai/gpt-5.4:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.625,
+      "output": 3.75
     },
     {
       "model": "openai/gpt-5.5",
@@ -1415,6 +1702,20 @@
       "output": 90.0
     },
     {
+      "model": "openai/gpt-5.5-pro:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 7.5,
+      "output": 45.0
+    },
+    {
+      "model": "openai/gpt-5.5:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.25,
+      "output": 7.5
+    },
+    {
       "model": "openai/gpt-5.6-luna",
       "type": "tokens",
       "channel_type": 20,
@@ -1423,6 +1724,20 @@
     },
     {
       "model": "openai/gpt-5.6-luna-pro",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.3
+    },
+    {
+      "model": "openai/gpt-5.6-luna-pro:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.3
+    },
+    {
+      "model": "openai/gpt-5.6-luna:batch",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.05,
@@ -1443,6 +1758,20 @@
       "output": 15.0
     },
     {
+      "model": "openai/gpt-5.6-sol-pro:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.25,
+      "output": 7.5
+    },
+    {
+      "model": "openai/gpt-5.6-sol:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.25,
+      "output": 7.5
+    },
+    {
       "model": "openai/gpt-5.6-terra",
       "type": "tokens",
       "channel_type": 20,
@@ -1455,6 +1784,27 @@
       "channel_type": 20,
       "input": 0.5,
       "output": 3.0
+    },
+    {
+      "model": "openai/gpt-5.6-terra-pro:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 3.0
+    },
+    {
+      "model": "openai/gpt-5.6-terra:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 3.0
+    },
+    {
+      "model": "openai/gpt-5:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.3125,
+      "output": 2.5
     },
     {
       "model": "openai/gpt-audio",
@@ -1520,6 +1870,20 @@
       "output": 300.0
     },
     {
+      "model": "openai/o1-pro:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 37.5,
+      "output": 150.0
+    },
+    {
+      "model": "openai/o1:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 3.75,
+      "output": 15.0
+    },
+    {
       "model": "openai/o3",
       "type": "tokens",
       "channel_type": 20,
@@ -1541,11 +1905,39 @@
       "output": 2.2
     },
     {
+      "model": "openai/o3-mini-high:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.275,
+      "output": 1.1
+    },
+    {
+      "model": "openai/o3-mini:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.275,
+      "output": 1.1
+    },
+    {
       "model": "openai/o3-pro",
       "type": "tokens",
       "channel_type": 20,
       "input": 10.0,
       "output": 40.0
+    },
+    {
+      "model": "openai/o3-pro:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 5.0,
+      "output": 20.0
+    },
+    {
+      "model": "openai/o3:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 2.0
     },
     {
       "model": "openai/o4-mini",
@@ -1560,6 +1952,20 @@
       "channel_type": 20,
       "input": 0.55,
       "output": 2.2
+    },
+    {
+      "model": "openai/o4-mini-high:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.275,
+      "output": 1.1
+    },
+    {
+      "model": "openai/o4-mini:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.275,
+      "output": 1.1
     },
     {
       "model": "openrouter/free",
@@ -2115,6 +2521,13 @@
       "output": 0.6
     },
     {
+      "model": "thinkingmachines/inkling:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.25,
+      "output": 1.0125
+    },
+    {
       "model": "undi95/remm-slerp-l2-13b",
       "type": "tokens",
       "channel_type": 20,
@@ -2258,8 +2671,15 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.38,
-      "output": 1.21
+      "input": 0.28,
+      "output": 0.88
+    },
+    {
+      "model": "z-ai/glm-5.2:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.35,
+      "output": 1.1
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2346,5 +2766,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-08-06T08:16:29Z"
+  "updated_at": "2026-08-06T13:42:52Z"
 }
