@@ -5382,11 +5382,11 @@
       "model": "inclusionai/ling-3.0-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.11
+      "input": 0.0105,
+      "output": 0.0315
     },
     {
-      "model": "inclusionai/ling-3.0-flash:free",
+      "model": "inclusionai/ling-3.0-tiny:free",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0,
@@ -7265,8 +7265,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.28,
-      "output": 0.88
+      "input": 0.273,
+      "output": 0.858
     },
     {
       "model": "z-ai/glm-5.2:batch",
