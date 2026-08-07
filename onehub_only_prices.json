@@ -7265,8 +7265,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3423,
-      "output": 1.0758
+      "input": 0.38,
+      "output": 1.21
     },
     {
       "model": "z-ai/glm-5.2:batch",
