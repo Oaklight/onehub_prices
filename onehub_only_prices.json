@@ -5739,8 +5739,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.285,
-      "output": 1.2
+      "input": 0.2945,
+      "output": 1.24
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -7111,7 +7111,7 @@
       "model": "thinkingmachines/inkling-small",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
+      "input": 0.225,
       "output": 0.6
     },
     {
@@ -7265,8 +7265,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.273,
-      "output": 0.858
+      "input": 0.3423,
+      "output": 1.0758
     },
     {
       "model": "z-ai/glm-5.2:batch",
@@ -7335,7 +7335,7 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.45,
+      "input": 1.25,
       "output": 7.0
     },
     {
