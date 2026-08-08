@@ -438,8 +438,8 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1345,
-      "output": 0.2
+      "input": 0.13,
+      "output": 0.19
     },
     {
       "model": "deepseek/deepseek-v3.2-exp",
@@ -2510,7 +2510,7 @@
       "model": "thinkingmachines/inkling",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5,
+      "input": 0.475,
       "output": 2.025
     },
     {
@@ -2671,8 +2671,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2653,
-      "output": 0.8338
+      "input": 0.217,
+      "output": 0.682
     },
     {
       "model": "z-ai/glm-5.2:batch",
@@ -2766,5 +2766,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-08-07T18:40:39Z"
+  "updated_at": "2026-08-08T00:57:17Z"
 }
