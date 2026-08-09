@@ -746,8 +746,8 @@
       "model": "gryphe/mythomax-l2-13b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.055
+      "input": 0.03,
+      "output": 0.03
     },
     {
       "model": "ibm-granite/granite-4.0-h-micro",
@@ -2293,8 +2293,8 @@
       "model": "qwen/qwen3.5-397b-a17b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.195,
-      "output": 1.17
+      "input": 0.25,
+      "output": 1.8
     },
     {
       "model": "qwen/qwen3.5-9b",
@@ -2766,5 +2766,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-08-09T12:30:05Z"
+  "updated_at": "2026-08-09T18:26:12Z"
 }
