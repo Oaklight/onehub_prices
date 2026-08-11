@@ -466,8 +466,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2175,
-      "output": 0.435
+      "input": 0.32216,
+      "output": 0.64432
     },
     {
       "model": "google/gemini-2.5-flash",
@@ -897,6 +897,13 @@
       "output": 0.09
     },
     {
+      "model": "meta/muse-glimmer-30b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.175,
+      "output": 0.75
+    },
+    {
       "model": "meta/muse-spark-1.1",
       "type": "tokens",
       "channel_type": 20,
@@ -1145,8 +1152,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.28975,
-      "output": 1.22
+      "input": 0.475,
+      "output": 2.0
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -2161,7 +2168,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.035,
-      "output": 0.135
+      "output": 0.14
     },
     {
       "model": "qwen/qwen3-coder-flash",
@@ -2286,8 +2293,8 @@
       "model": "qwen/qwen3.5-397b-a17b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.195,
-      "output": 1.17
+      "input": 0.25,
+      "output": 1.8
     },
     {
       "model": "qwen/qwen3.5-9b",
@@ -2535,6 +2542,13 @@
       "output": 0.3
     },
     {
+      "model": "upstage/solar-pro4",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.015,
+      "output": 0.06
+    },
+    {
       "model": "writer/palmyra-x5",
       "type": "tokens",
       "channel_type": 20,
@@ -2657,15 +2671,15 @@
       "model": "z-ai/glm-5.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.476,
-      "output": 1.496
+      "input": 0.7,
+      "output": 2.2
     },
     {
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2723,
-      "output": 0.8558
+      "input": 0.38,
+      "output": 1.21
     },
     {
       "model": "z-ai/glm-5.2:batch",
@@ -2759,5 +2773,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-08-10T18:42:44Z"
+  "updated_at": "2026-08-11T01:01:34Z"
 }
