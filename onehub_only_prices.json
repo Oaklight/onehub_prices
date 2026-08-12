@@ -4910,6 +4910,13 @@
       "output": 0.15
     },
     {
+      "model": "bytedance-seed/seed-2-1-turbo",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.25,
+      "output": 1.25
+    },
+    {
       "model": "bytedance-seed/seed-2.0-code",
       "type": "tokens",
       "channel_type": 20,
@@ -5069,6 +5076,13 @@
       "channel_type": 20,
       "input": 0.584,
       "output": 1.168
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.2175,
+      "output": 0.435
     },
     {
       "model": "google/gemini-2.5-flash",
@@ -5428,13 +5442,6 @@
       "output": 1.48
     },
     {
-      "model": "liquid/lfm-2.5-2.6b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "mancer/weaver",
       "type": "tokens",
       "channel_type": 20,
@@ -5760,15 +5767,15 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.475,
-      "output": 2.0
+      "input": 0.28975,
+      "output": 1.22
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.35,
-      "output": 1.75
+      "input": 0.335,
+      "output": 1.7
     },
     {
       "model": "moonshotai/kimi-k2.7-code:batch",
@@ -7003,6 +7010,13 @@
       "output": 0.64
     },
     {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 3.0
+    },
+    {
       "model": "qwen/qwen3.8-max",
       "type": "tokens",
       "channel_type": 20,
@@ -7213,6 +7227,13 @@
       "output": 3.0
     },
     {
+      "model": "x-ai/grok-4.6",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 3.0
+    },
+    {
       "model": "x-ai/grok-build-0.1",
       "type": "tokens",
       "channel_type": 20,
@@ -7307,8 +7328,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.575
+      "input": 0.245,
+      "output": 0.77
     },
     {
       "model": "z-ai/glm-5.2:batch",
