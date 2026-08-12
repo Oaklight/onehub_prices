@@ -7307,8 +7307,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2793,
-      "output": 0.8778
+      "input": 0.25,
+      "output": 1.575
     },
     {
       "model": "z-ai/glm-5.2:batch",
@@ -7356,8 +7356,8 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.036,
-      "output": 0.072
+      "input": 0.04,
+      "output": 0.126
     },
     {
       "model": "~google/gemini-flash-latest",
