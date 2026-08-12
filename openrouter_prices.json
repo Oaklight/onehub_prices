@@ -473,8 +473,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.31584,
-      "output": 0.63168
+      "input": 0.584,
+      "output": 1.168
     },
     {
       "model": "google/gemini-2.5-flash",
@@ -2808,5 +2808,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-08-12T07:09:32Z"
+  "updated_at": "2026-08-12T12:45:42Z"
 }
