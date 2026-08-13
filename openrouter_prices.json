@@ -991,7 +991,7 @@
       "model": "minimax/minimax-m2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1125,
+      "input": 0.11,
       "output": 0.45
     },
     {
@@ -1173,8 +1173,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.475,
-      "output": 2.0
+      "input": 0.323,
+      "output": 1.36
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -2727,8 +2727,8 @@
       "model": "z-ai/glm-5.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.7,
-      "output": 2.2
+      "input": 0.476,
+      "output": 1.496
     },
     {
       "model": "z-ai/glm-5.2",
@@ -2829,5 +2829,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-08-13T12:48:05Z"
+  "updated_at": "2026-08-13T14:18:13Z"
 }

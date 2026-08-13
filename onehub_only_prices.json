@@ -5585,7 +5585,7 @@
       "model": "minimax/minimax-m2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1125,
+      "input": 0.11,
       "output": 0.45
     },
     {
@@ -5767,8 +5767,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.475,
-      "output": 2.0
+      "input": 0.323,
+      "output": 1.36
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -7321,8 +7321,8 @@
       "model": "z-ai/glm-5.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.7,
-      "output": 2.2
+      "input": 0.476,
+      "output": 1.496
     },
     {
       "model": "z-ai/glm-5.2",
@@ -8335,30 +8335,40 @@
       "model": "deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 28,
-      "input": 0.07143,
-      "output": 0.14286,
+      "input": 0.11,
+      "output": 0.33,
       "extra_ratios": {
-        "cached_tokens": 0.02
+        "cached_tokens": 0.03182
       }
     },
     {
       "model": "deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 28,
-      "input": 0.07143,
-      "output": 0.14286,
+      "input": 0.11,
+      "output": 0.33,
       "extra_ratios": {
-        "cached_tokens": 0.02
+        "cached_tokens": 0.03182
       }
     },
     {
       "model": "deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 28,
-      "input": 0.21429,
-      "output": 0.42857,
+      "input": 0.33,
+      "output": 0.99,
       "extra_ratios": {
-        "cached_tokens": 0.00833
+        "cached_tokens": 0.03333
+      }
+    },
+    {
+      "model": "deepseek-v4-pro-0813",
+      "type": "tokens",
+      "channel_type": 28,
+      "input": 0.33,
+      "output": 0.99,
+      "extra_ratios": {
+        "cached_tokens": 0.03333
       }
     },
     {
@@ -10433,6 +10443,16 @@
       }
     },
     {
+      "model": "grok-4.6",
+      "type": "tokens",
+      "channel_type": 56,
+      "input": 1.0,
+      "output": 3.0,
+      "extra_ratios": {
+        "cached_tokens": 0.25
+      }
+    },
+    {
       "model": "grok-build-0.1",
       "type": "tokens",
       "channel_type": 56,
@@ -10508,6 +10528,13 @@
       "channel_type": 56,
       "input": 1.0,
       "output": 10.0
+    },
+    {
+      "model": "grok-imagine-image-2.0",
+      "type": "times",
+      "channel_type": 56,
+      "input": 0.0,
+      "output": 20.0
     },
     {
       "model": "grok-imagine-image-2026-03-02",
