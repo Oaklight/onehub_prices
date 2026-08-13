@@ -5,6 +5,24 @@ models:
     # 模型价格锚点示例：https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro
     # 模型思考预算: https://ai.google.dev/gemini-api/docs/thinking?hl=zh-cn#thinking-levels
 
+    # Gemini 3.7 Flash (newest flagship Flash)
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-3.7-flash
+    # Promotional pricing through Dec 31, 2026; post-promo rates: $1.50/$7.50, cache $0.15
+    gemini-3.7-flash:
+      input: 0.75 usd / M
+      output: 3.75 usd / M # including thinking tokens
+      extra_ratios:
+        - cached_tokens: 0.075 usd / M
+
+    # Gemini 3.6 Flash
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-3.6-flash
+    # Promotional pricing through Dec 31, 2026; post-promo rates: $1.50/$7.50, cache $0.15
+    gemini-3.6-flash:
+      input: 0.75 usd / M
+      output: 3.75 usd / M # including thinking tokens
+      extra_ratios:
+        - cached_tokens: 0.075 usd / M
+
     # Gemini 3.5 Flash
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-3.5-flash
     gemini-3.5-flash:
@@ -12,6 +30,14 @@ models:
       output: 9 usd / M # including thinking tokens
       extra_ratios:
         - cached_tokens: 0.15 usd / M
+
+    # Gemini 3.5 Flash-Lite (GA, cost-efficient)
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-3.5-flash-lite
+    gemini-3.5-flash-lite:
+      input: 0.30 usd / M # text / image / video / audio
+      output: 2.50 usd / M
+      extra_ratios:
+        - cached_tokens: 0.03 usd / M
 
     # experimental models
     gemini-2.5-flash-exp-native-audio-thinking-dialog:
@@ -56,9 +82,11 @@ models:
         - input_audio_tokens: 0.5 usd / M
         - cached_tokens: 0.025 usd / M # 0.05 usd / M for audio
 
-    # Gemini 3.1 Flash Image Preview
-    # https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-image-preview
-    gemini-3.1-flash-image-preview:
+    # Gemini 3.1 Flash Image (Nano Banana 2)
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-image
+    gemini-3.1-flash-image:
+      aliases:
+        - gemini-3.1-flash-image-preview
       input: 0.5 usd / M # text/image
       output: 3 usd / M # text and thinking
       extra_ratios:
@@ -67,6 +95,15 @@ models:
         # $0.067 per 1K image (1120 tokens)
         # $0.101 per 2K image (1680 tokens)
         # $0.151 per 4K image (2520 tokens)
+
+    # Gemini 3.1 Flash-Lite Image (Nano Banana 2 Lite)
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-lite-image
+    gemini-3.1-flash-lite-image:
+      input: 0.25 usd / M # text/image/video
+      output: 1.50 usd / M # text and thinking
+      extra_ratios:
+        - output_image_tokens: 30 usd / M
+        # $0.0336 per 1K image (1120 tokens)
 
     # Gemini 3.1 Flash TTS Preview
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-tts-preview
@@ -101,11 +138,22 @@ models:
         - input_audio_tokens: 1 usd / M
         - cached_tokens: 0.05 usd / M # 0.05 usd / M for text/image/video cached, 0.1 usd / M for audio cached
 
-    # Gemini 3 Pro Image Preview
-    # https://ai.google.dev/gemini-api/docs/pricing#gemini-3-pro-image-preview
-    gemini-3-pro-image-preview:
-      input: 2 usd / M # Same as Gemini 3 Pro
-      output: 12 usd / M # Same as Gemini 3 Pro (text and thinking)
+    # Gemini Omni Flash (video generation and editing)
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-omni-flash
+    gemini-omni-flash:
+      input: 1.50 usd / M # text / image / video / audio
+      output: 9 usd / M # text
+      extra_ratios:
+        - output_video_tokens: 17.50 usd / M
+        # ~$0.10 per second of 720p video (5792 tokens/s)
+
+    # Gemini 3 Pro Image (Nano Banana Pro)
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-3-pro-image
+    gemini-3-pro-image:
+      aliases:
+        - gemini-3-pro-image-preview
+      input: 2 usd / M # Same as Gemini 3.1 Pro
+      output: 12 usd / M # Same as Gemini 3.1 Pro (text and thinking)
       extra_ratios:
         - input_image_tokens: 2 usd / M # Image input is set at 560 tokens or $0.0011 per image.
         - output_image_tokens: 120 usd / M # $120 per 1M tokens for images
@@ -215,7 +263,7 @@ models:
       input: 1 usd / M
       output: 20 usd / M
 
-    # Gemini 2.0 Flash (DEPRECATED - will be shut down June 1, 2026)
+    # Gemini 2.0 Flash (DEPRECATED - shut down June 1, 2026)
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.0-flash
     gemini-2.0-flash:
       input: 0.1 usd / M
@@ -246,13 +294,13 @@ models:
         - input_audio_tokens: 2.1 usd / M
         - output_audio_tokens: 8.5 usd / M
 
-    # Gemini 2.0 Flash-Lite (DEPRECATED - will be shut down June 1, 2026)
+    # Gemini 2.0 Flash-Lite (DEPRECATED - shut down June 1, 2026)
     # https://ai.google.dev/gemini-api/docs/pricing#gemini-2.0-flash-lite
     gemini-2.0-flash-lite:
       input: 0.075 usd / M
       output: 0.3 usd / M
 
-    # Imagen 4
+    # Imagen 4 (DEPRECATED - shut down August 17, 2026; migrate to Gemini 2.5 Flash Image)
     # https://ai.google.dev/gemini-api/docs/pricing#imagen-4
     imagen4:
       aliases:
@@ -372,7 +420,21 @@ models:
         - input_audio_tokens: 6.5 usd / M
         - input_video_tokens: 12 usd / M
 
-    # Gemini Robotics-ER 1.6 Preview
+    # Gemini Robotics-ER 2 Preview
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-robotics-er-2
+    gemini-robotics-er-2-preview:
+      input: 2 usd / M # text / image / video / audio
+      output: 10 usd / M
+      extra_ratios:
+        - cached_tokens: 0.20 usd / M
+
+    # Gemini Robotics-ER 2 Streaming (Live API, real-time)
+    # https://ai.google.dev/gemini-api/docs/pricing#gemini-robotics-er-2-streaming
+    gemini-robotics-er-2-streaming:
+      input: 2 usd / M # text / image / video / audio
+      output: 10 usd / M
+
+    # Gemini Robotics-ER 1.6 Preview (superseded by ER 2)
     gemini-robotics-er-1.6-preview:
       input: 1 usd / M # text / image / video
       output: 5 usd / M
