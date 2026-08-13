@@ -813,13 +813,6 @@
       "output": 0.0315
     },
     {
-      "model": "inclusionai/ling-3.0-tiny:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "inclusionai/ring-2.6-1t",
       "type": "tokens",
       "channel_type": 20,
@@ -998,7 +991,7 @@
       "model": "minimax/minimax-m2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.11,
+      "input": 0.1125,
       "output": 0.45
     },
     {
@@ -2251,7 +2244,7 @@
       "model": "qwen/qwen3-next-80b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
+      "input": 0.05,
       "output": 0.55
     },
     {
@@ -2741,8 +2734,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.575
+      "input": 0.315,
+      "output": 0.99
     },
     {
       "model": "z-ai/glm-5.2:batch",
@@ -2836,5 +2829,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-08-13T07:13:22Z"
+  "updated_at": "2026-08-13T12:48:05Z"
 }
