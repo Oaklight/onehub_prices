@@ -3,7 +3,15 @@ models:
     # model pricing: https://docs.x.ai/developers/pricing
     # pricing as markdown: https://docs.x.ai/developers/pricing.md
 
-    # Grok 4.5 (current flagship)
+    # Grok 4.6 (current flagship)
+    # 阶梯计价：<200k prompt: $2.00/$6.00, ≥200k prompt: $4.00/$12.00
+    grok-4.6:
+      input: 2.00 usd / M
+      output: 6.00 usd / M
+      extra_ratios:
+        - cached_tokens: 0.50 usd / M
+
+    # Grok 4.5
     # 阶梯计价：<200k prompt: $2.00/$6.00, ≥200k prompt: $4.00/$12.00
     grok-4.5:
       aliases:
@@ -101,6 +109,9 @@ models:
         - grok-imagine-image-2026-03-02
       input: 0.002 usd / image
       output: 0.02 usd / image
+
+    grok-imagine-image-2.0:
+      output: 0.04 usd / image
 
     grok-imagine-video-1.5:
       output: 0.08 usd / s
