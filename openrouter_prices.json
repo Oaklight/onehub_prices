@@ -466,8 +466,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03283,
-      "output": 0.06566
+      "input": 0.03213,
+      "output": 0.06426
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -2139,8 +2139,8 @@
       "model": "qwen/qwen-plus-2025-07-28:thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.6
+      "input": 0.13,
+      "output": 0.39
     },
     {
       "model": "qwen/qwen2.5-vl-72b-instruct",
@@ -2762,8 +2762,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.245,
-      "output": 0.77
+      "input": 0.231,
+      "output": 0.726
     },
     {
       "model": "z-ai/glm-5.2:batch",
@@ -2811,8 +2811,8 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03423,
-      "output": 0.06846
+      "input": 0.03375,
+      "output": 0.0675
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -2857,5 +2857,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-08-15T12:18:54Z"
+  "updated_at": "2026-08-15T18:15:04Z"
 }
