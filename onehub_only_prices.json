@@ -5060,8 +5060,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03773,
-      "output": 0.07546
+      "input": 0.03283,
+      "output": 0.06566
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -5788,8 +5788,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.325,
-      "output": 1.705
+      "input": 0.27075,
+      "output": 1.14
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -7146,8 +7146,8 @@
       "model": "tencent/hy3-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0315,
-      "output": 0.105
+      "input": 0.09,
+      "output": 0.3
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -7405,8 +7405,8 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03913,
-      "output": 0.07826
+      "input": 0.03423,
+      "output": 0.06846
     },
     {
       "model": "~google/gemini-flash-latest",
