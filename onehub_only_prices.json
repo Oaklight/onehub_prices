@@ -5788,8 +5788,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.27075,
-      "output": 1.14
+      "input": 0.325,
+      "output": 1.705
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -6978,8 +6978,8 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 1.8
+      "input": 0.15,
+      "output": 1.0
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
