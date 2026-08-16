@@ -5081,8 +5081,8 @@
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2175,
-      "output": 0.435
+      "input": 0.33,
+      "output": 0.99
     },
     {
       "model": "dots-studio/dots-3-note-preview:free",
@@ -5935,8 +5935,8 @@
       "model": "nvidia/nemotron-3.5-lightning",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.125
+      "input": 0.04,
+      "output": 0.1
     },
     {
       "model": "nvidia/nemotron-3.5-lightning:free",
@@ -6740,8 +6740,8 @@
       "model": "qwen/qwen2.5-vl-72b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.375
+      "input": 0.4,
+      "output": 0.5
     },
     {
       "model": "qwen/qwen3-14b",
@@ -6978,14 +6978,14 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 1.8
+      "input": 0.15,
+      "output": 1.0
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
+      "input": 0.07,
       "output": 0.5
     },
     {
@@ -7405,8 +7405,8 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0315,
-      "output": 0.063
+      "input": 0.03015,
+      "output": 0.0603
     },
     {
       "model": "~google/gemini-flash-latest",
