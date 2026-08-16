@@ -466,8 +466,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03213,
-      "output": 0.06426
+      "input": 0.03073,
+      "output": 0.06146
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -984,7 +984,7 @@
       "model": "minimax/minimax-m1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.275,
+      "input": 0.2,
       "output": 1.1
     },
     {
@@ -1194,8 +1194,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.325,
-      "output": 1.705
+      "input": 0.27075,
+      "output": 1.14
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -2181,8 +2181,8 @@
       "model": "qwen/qwen3-30b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
-      "output": 0.25
+      "input": 0.065,
+      "output": 0.26
     },
     {
       "model": "qwen/qwen3-30b-a3b-instruct-2507",
@@ -2762,8 +2762,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.231,
-      "output": 0.726
+      "input": 0.154,
+      "output": 0.484
     },
     {
       "model": "z-ai/glm-5.2:batch",
@@ -2811,8 +2811,8 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03375,
-      "output": 0.0675
+      "input": 0.03353,
+      "output": 0.06706
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -2857,5 +2857,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-08-16T00:44:16Z"
+  "updated_at": "2026-08-16T06:23:02Z"
 }
