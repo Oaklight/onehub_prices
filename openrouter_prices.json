@@ -480,15 +480,15 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.66,
-      "output": 1.98
+      "input": 0.33,
+      "output": 0.99
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.66,
-      "output": 1.98
+      "input": 0.33,
+      "output": 0.99
     },
     {
       "model": "dots-studio/dots-3-note-preview:free",
@@ -2377,8 +2377,8 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 1.8
+      "input": 0.1445,
+      "output": 1.2
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
@@ -2755,8 +2755,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.575
+      "input": 0.595,
+      "output": 1.87
     },
     {
       "model": "z-ai/glm-5.2:batch",
@@ -2764,13 +2764,6 @@
       "channel_type": 20,
       "input": 0.35,
       "output": 1.1
-    },
-    {
-      "model": "z-ai/glm-5.2:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -2857,5 +2850,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-08-18T06:26:41Z"
+  "updated_at": "2026-08-18T12:25:37Z"
 }
