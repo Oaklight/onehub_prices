@@ -5004,8 +5004,8 @@
       "model": "deepseek/deepseek-chat-v3-0324",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.135,
-      "output": 0.56
+      "input": 0.125,
+      "output": 0.5
     },
     {
       "model": "deepseek/deepseek-chat-v3.1",
@@ -5074,15 +5074,15 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.66,
-      "output": 1.98
+      "input": 0.72,
+      "output": 1.44
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.66,
-      "output": 1.98
+      "input": 0.33,
+      "output": 0.99
     },
     {
       "model": "dots-studio/dots-3-note-preview:free",
@@ -6936,8 +6936,8 @@
       "model": "qwen/qwen3.5-35b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1125,
-      "output": 0.9
+      "input": 0.125,
+      "output": 0.625
     },
     {
       "model": "qwen/qwen3.5-397b-a17b",
