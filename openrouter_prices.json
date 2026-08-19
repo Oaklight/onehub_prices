@@ -480,15 +480,15 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33,
-      "output": 0.99
+      "input": 0.66,
+      "output": 1.98
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33,
-      "output": 0.99
+      "input": 0.66,
+      "output": 1.98
     },
     {
       "model": "dots-studio/dots-3-note-preview:free",
@@ -2871,5 +2871,5 @@
       "output": 3.0
     }
   ],
-  "updated_at": "2026-08-19T00:42:04Z"
+  "updated_at": "2026-08-19T06:27:22Z"
 }
