@@ -1,13 +1,6 @@
 {
   "data": [
     {
-      "model": "ai21/jamba-large-1.7",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.0,
-      "output": 4.0
-    },
-    {
       "model": "aion-labs/aion-2.0",
       "type": "tokens",
       "channel_type": 20,
@@ -1012,7 +1005,7 @@
       "model": "minimax/minimax-m2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.11,
+      "input": 0.1125,
       "output": 0.45
     },
     {
@@ -1194,8 +1187,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.475,
-      "output": 2.0
+      "input": 0.28025,
+      "output": 1.18
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -2869,7 +2862,14 @@
       "channel_type": 20,
       "input": 1.0,
       "output": 3.0
+    },
+    {
+      "model": "~z-ai/glm-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.7,
+      "output": 2.2
     }
   ],
-  "updated_at": "2026-08-19T12:25:40Z"
+  "updated_at": "2026-08-19T18:19:58Z"
 }
