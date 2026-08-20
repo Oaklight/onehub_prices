@@ -480,8 +480,8 @@
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33,
-      "output": 0.99
+      "input": 0.528,
+      "output": 1.584
     },
     {
       "model": "dots-studio/dots-3-note-preview:free",
@@ -862,13 +862,6 @@
       "output": 0.0
     },
     {
-      "model": "mancer/weaver",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.25,
-      "output": 0.375
-    },
-    {
       "model": "meituan/longcat-2.0",
       "type": "tokens",
       "channel_type": 20,
@@ -1051,6 +1044,13 @@
       "output": 0.05
     },
     {
+      "model": "mistralai/ministral-8b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.055,
+      "output": 0.055
+    },
+    {
       "model": "mistralai/ministral-8b-2512",
       "type": "tokens",
       "channel_type": 20,
@@ -1187,8 +1187,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.28025,
-      "output": 1.18
+      "input": 0.475,
+      "output": 2.0
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -2818,8 +2818,8 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03825,
-      "output": 0.0765
+      "input": 0.035,
+      "output": 0.07
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -2871,5 +2871,5 @@
       "output": 2.2
     }
   ],
-  "updated_at": "2026-08-19T18:19:58Z"
+  "updated_at": "2026-08-20T00:41:46Z"
 }
