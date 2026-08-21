@@ -960,6 +960,13 @@
       "output": 2.125
     },
     {
+      "model": "meta/muse-spark-1.2-contributor",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.1
+    },
+    {
       "model": "microsoft/phi-4",
       "type": "tokens",
       "channel_type": 20,
@@ -1152,8 +1159,8 @@
       "model": "mistralai/mistral-small-3.2-24b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04688,
-      "output": 0.125
+      "input": 0.0375,
+      "output": 0.1
     },
     {
       "model": "mistralai/mixtral-8x22b-instruct",
@@ -1810,29 +1817,29 @@
       "model": "openai/gpt-5.6-sol",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.25,
-      "output": 7.5
+      "input": 1.0,
+      "output": 5.0
     },
     {
       "model": "openai/gpt-5.6-sol-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.25,
-      "output": 7.5
+      "input": 1.0,
+      "output": 5.0
     },
     {
       "model": "openai/gpt-5.6-sol-pro:batch",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.625,
-      "output": 3.75
+      "input": 0.5,
+      "output": 2.5
     },
     {
       "model": "openai/gpt-5.6-sol:batch",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.625,
-      "output": 3.75
+      "input": 0.5,
+      "output": 2.5
     },
     {
       "model": "openai/gpt-5.6-terra",
@@ -2626,11 +2633,25 @@
       "output": 0.6
     },
     {
+      "model": "thinkingmachines/inkling-small:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "thinkingmachines/inkling:batch",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.5,
       "output": 2.025
+    },
+    {
+      "model": "thinkingmachines/inkling:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "undi95/remm-slerp-l2-13b",
@@ -2881,8 +2902,8 @@
       "model": "~openai/gpt-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.25,
-      "output": 7.5
+      "input": 1.0,
+      "output": 5.0
     },
     {
       "model": "~openai/gpt-mini-latest",
@@ -2906,5 +2927,5 @@
       "output": 2.2
     }
   ],
-  "updated_at": "2026-08-21T18:22:58Z"
+  "updated_at": "2026-08-21T22:05:21Z"
 }
