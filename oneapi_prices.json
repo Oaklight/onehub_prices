@@ -5599,8 +5599,8 @@
       "model": "minimax/minimax-m2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1125,
-      "output": 0.45
+      "input": 0.135,
+      "output": 0.475
     },
     {
       "model": "minimax/minimax-m2.7",
@@ -6747,8 +6747,8 @@
       "model": "qwen/qwen3-14b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
-      "output": 0.12
+      "input": 0.11375,
+      "output": 0.455
     },
     {
       "model": "qwen/qwen3-235b-a22b",
@@ -7441,7 +7441,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0325,
-      "output": 0.07
+      "output": 0.09
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -13009,5 +13009,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-08-21T00:44:47Z"
+  "updated_at": "2026-08-21T06:29:25Z"
 }
