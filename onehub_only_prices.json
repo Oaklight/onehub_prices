@@ -5053,8 +5053,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0413,
-      "output": 0.0826
+      "input": 0.04053,
+      "output": 0.08106
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -5795,8 +5795,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.475,
-      "output": 2.0
+      "input": 0.28975,
+      "output": 1.22
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
