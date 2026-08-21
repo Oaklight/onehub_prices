@@ -20,6 +20,15 @@ models:
       extra_ratios:
         - cached_tokens: 0.022 usd / M
 
+    # DeepSeek V4 Flash Vision (实验性多模态视觉模型, 2026-08-21)
+    # 文本能力与 V4 Flash 持平，额外支持图片输入 (JPEG/PNG/GIF/WebP)
+    # 图片按 token 计费，每张上限 384 tokens，与文本 token 统一计价
+    deepseek-v4-flash-vision-exp:
+      input: 0.22 usd / M
+      output: 0.66 usd / M
+      extra_ratios:
+        - cached_tokens: 0.007 usd / M
+
     # =========================== 已下线 ===========================
     # deepseek-chat 和 deepseek-reasoner 已于 2026-07-24 弃用，分别对应 deepseek-v4-flash 的非思考/思考模式
     deepseek-chat:
