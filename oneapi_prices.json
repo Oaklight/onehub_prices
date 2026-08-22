@@ -5046,8 +5046,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03633,
-      "output": 0.07266
+      "input": 0.03213,
+      "output": 0.06426
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -5060,15 +5060,15 @@
       "model": "deepseek/deepseek-v4-flash-vision-exp",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.22,
-      "output": 0.66
+      "input": 0.11,
+      "output": 0.33
     },
     {
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.23229,
-      "output": 0.46458
+      "input": 0.20689,
+      "output": 0.41377
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -13033,5 +13033,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-08-22T06:23:00Z"
+  "updated_at": "2026-08-22T12:19:54Z"
 }
