@@ -4980,13 +4980,6 @@
       "output": 0.0
     },
     {
-      "model": "deepcogito/cogito-v2.1-671b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.625,
-      "output": 0.625
-    },
-    {
       "model": "deepseek/deepseek-chat",
       "type": "tokens",
       "channel_type": 20,
@@ -5004,8 +4997,8 @@
       "model": "deepseek/deepseek-chat-v3.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.475
+      "input": 0.275,
+      "output": 0.825
     },
     {
       "model": "deepseek/deepseek-r1",
@@ -5039,8 +5032,8 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1345,
-      "output": 0.2
+      "input": 0.13,
+      "output": 0.19
     },
     {
       "model": "deepseek/deepseek-v3.2-exp",
@@ -5053,8 +5046,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04053,
-      "output": 0.08106
+      "input": 0.03913,
+      "output": 0.07826
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -5074,8 +5067,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.8,
-      "output": 1.6
+      "input": 0.27448,
+      "output": 0.54897
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -5614,7 +5607,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.135,
-      "output": 0.475
+      "output": 0.54
     },
     {
       "model": "minimax/minimax-m2.7",
@@ -5802,8 +5795,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.28975,
-      "output": 1.22
+      "input": 0.28025,
+      "output": 1.18
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -6504,13 +6497,6 @@
       "channel_type": 20,
       "input": 0.015,
       "output": 0.065
-    },
-    {
-      "model": "openai/gpt-oss-20b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "openai/gpt-oss-safeguard-20b",
