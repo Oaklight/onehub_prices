@@ -5046,8 +5046,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02513,
-      "output": 0.05026
+      "input": 0.02443,
+      "output": 0.04886
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -7209,7 +7209,7 @@
       "model": "thinkingmachines/inkling",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5,
+      "input": 0.475,
       "output": 2.025
     },
     {
@@ -7462,7 +7462,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.02,
-      "output": 0.065
+      "output": 0.04
     },
     {
       "model": "~google/gemini-flash-latest",
