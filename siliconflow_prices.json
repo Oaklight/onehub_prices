@@ -435,13 +435,6 @@
       "output": 0.0
     },
     {
-      "model": "TeleAI/TeleSpeechASR",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "Tongyi-MAI/Z-Image",
       "type": "times",
       "channel_type": 45,
@@ -468,6 +461,34 @@
       "channel_type": 45,
       "input": 2.0,
       "output": 2.0
+    },
+    {
+      "model": "XingChenAGI/XingChenASR-Diarize-V3.0",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "XingChenAGI/XingChenASR-V3.2",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "XingChenAGI/XingChenASR-V3.2-Ultra",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "XingChenAGI/XingChenGSR-V1.0",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "baidu/ERNIE-Image-Turbo",
@@ -617,5 +638,5 @@
       "output": 2.0
     }
   ],
-  "updated_at": "2026-08-24T00:43:20Z"
+  "updated_at": "2026-08-24T06:37:14Z"
 }
