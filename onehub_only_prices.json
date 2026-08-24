@@ -5400,32 +5400,11 @@
       "output": 0.375
     },
     {
-      "model": "inclusionai/ling-2.6-1t",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.3125
-    },
-    {
-      "model": "inclusionai/ling-2.6-flash",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.005,
-      "output": 0.015
-    },
-    {
       "model": "inclusionai/ling-3.0-flash",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0105,
       "output": 0.0315
-    },
-    {
-      "model": "inclusionai/ring-2.6-1t",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.3125
     },
     {
       "model": "kwaipilot/kat-coder-air-v2.5",
@@ -7461,8 +7440,8 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0175,
-      "output": 0.065
+      "input": 0.02,
+      "output": 0.04
     },
     {
       "model": "~google/gemini-flash-latest",
