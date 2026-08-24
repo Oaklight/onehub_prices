@@ -452,15 +452,15 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0287,
-      "output": 0.0574
+      "input": 0.028,
+      "output": 0.056
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
-      "output": 0.14
+      "input": 0.0329,
+      "output": 0.0658
     },
     {
       "model": "deepseek/deepseek-v4-flash-vision-exp",
@@ -473,8 +473,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.26309,
-      "output": 0.52618
+      "input": 0.261,
+      "output": 0.522
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -998,8 +998,8 @@
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.12,
-      "output": 0.48
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "minimax/minimax-m3",
@@ -1021,6 +1021,13 @@
       "channel_type": 20,
       "input": 0.15,
       "output": 0.45
+    },
+    {
+      "model": "mistralai/devstral-2512",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.22,
+      "output": 1.1
     },
     {
       "model": "mistralai/ministral-14b-2512",
@@ -1173,8 +1180,8 @@
       "model": "moonshotai/kimi-k2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.225,
-      "output": 1.125
+      "input": 0.3,
+      "output": 1.5
     },
     {
       "model": "moonshotai/kimi-k2.6",
@@ -1268,13 +1275,6 @@
       "output": 0.1
     },
     {
-      "model": "nvidia/nemotron-3-nano-30b-a3b:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
       "type": "tokens",
       "channel_type": 20,
@@ -1332,20 +1332,6 @@
     },
     {
       "model": "nvidia/nemotron-3.5-lightning:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "nvidia/nemotron-nano-12b-v2-vl:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "nvidia/nemotron-nano-9b-v2:free",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0,
@@ -2899,5 +2885,5 @@
       "output": 2.2
     }
   ],
-  "updated_at": "2026-08-24T12:28:34Z"
+  "updated_at": "2026-08-24T18:26:05Z"
 }
