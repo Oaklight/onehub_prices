@@ -452,8 +452,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0413,
-      "output": 0.0826
+      "input": 0.0443,
+      "output": 0.08861
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -473,8 +473,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2864,
-      "output": 0.57281
+      "input": 0.39515,
+      "output": 0.79031
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -729,13 +729,6 @@
       "output": 0.05
     },
     {
-      "model": "google/gemma-3n-e4b-it",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.03,
-      "output": 0.06
-    },
-    {
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
@@ -886,8 +879,8 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.16
+      "input": 0.355,
+      "output": 0.355
     },
     {
       "model": "meta-llama/llama-4-maverick",
@@ -900,8 +893,8 @@
       "model": "meta-llama/llama-4-scout",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.15
+      "input": 0.055,
+      "output": 0.17
     },
     {
       "model": "meta-llama/llama-guard-4-12b",
@@ -2118,8 +2111,8 @@
       "model": "qwen/qwen2.5-vl-72b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4,
-      "output": 0.5
+      "input": 0.125,
+      "output": 0.375
     },
     {
       "model": "qwen/qwen3-14b",
@@ -2839,8 +2832,8 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0175,
-      "output": 0.05
+      "input": 0.02,
+      "output": 0.04
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -2860,8 +2853,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.4,
-      "output": 7.0
+      "input": 1.275,
+      "output": 6.375
     },
     {
       "model": "~openai/gpt-latest",
@@ -2892,5 +2885,5 @@
       "output": 2.2
     }
   ],
-  "updated_at": "2026-08-25T18:25:03Z"
+  "updated_at": "2026-08-26T00:44:02Z"
 }
