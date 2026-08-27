@@ -2132,8 +2132,8 @@
       "model": "qwen/qwen3-235b-a22b-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.275
+      "input": 0.04375,
+      "output": 0.175
     },
     {
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -2307,8 +2307,8 @@
       "model": "qwen/qwen3.5-35b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.625
+      "input": 0.1125,
+      "output": 0.9
     },
     {
       "model": "qwen/qwen3.5-397b-a17b",
@@ -2349,8 +2349,8 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.16,
-      "output": 1.6
+      "input": 0.3,
+      "output": 1.8
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
@@ -2414,6 +2414,13 @@
       "channel_type": 20,
       "input": 0.2125,
       "output": 1.275
+    },
+    {
+      "model": "qwen/qwen3.8-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.08,
+      "output": 0.235
     },
     {
       "model": "qwen/qwen3.8-max",
@@ -2531,8 +2538,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04125,
-      "output": 0.165
+      "input": 0.066,
+      "output": 0.264
     },
     {
       "model": "tencent/hy3-preview",
@@ -2713,8 +2720,8 @@
       "model": "z-ai/glm-4.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.0
+      "input": 0.215,
+      "output": 0.875
     },
     {
       "model": "z-ai/glm-4.6v",
@@ -2826,7 +2833,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.015,
-      "output": 0.0375
+      "output": 0.05
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -2878,5 +2885,5 @@
       "output": 2.2
     }
   ],
-  "updated_at": "2026-08-26T19:37:48Z"
+  "updated_at": "2026-08-27T05:54:05Z"
 }
