@@ -452,22 +452,22 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03899,
-      "output": 0.07798
+      "input": 0.0443,
+      "output": 0.08861
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.05
+      "input": 0.03,
+      "output": 0.06
     },
     {
       "model": "deepseek/deepseek-v4-flash-vision-exp",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.11,
-      "output": 0.33
+      "input": 0.22,
+      "output": 0.66
     },
     {
       "model": "deepseek/deepseek-v4-pro",
@@ -480,8 +480,8 @@
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.561,
-      "output": 1.683
+      "input": 0.66,
+      "output": 1.98
     },
     {
       "model": "dots-studio/dots-3-note-preview:free",
@@ -1058,13 +1058,6 @@
       "output": 0.05
     },
     {
-      "model": "mistralai/ministral-8b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.055,
-      "output": 0.055
-    },
-    {
       "model": "mistralai/ministral-8b-2512",
       "type": "tokens",
       "channel_type": 20,
@@ -1212,13 +1205,6 @@
       "output": 1.7
     },
     {
-      "model": "moonshotai/kimi-k2.7-code:batch",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.475,
-      "output": 2.0
-    },
-    {
       "model": "moonshotai/kimi-k3",
       "type": "tokens",
       "channel_type": 20,
@@ -1313,8 +1299,8 @@
       "model": "nvidia/nemotron-3-ultra-550b-a55b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 1.8
+      "input": 0.25,
+      "output": 1.1
     },
     {
       "model": "nvidia/nemotron-3-ultra-550b-a55b:batch",
@@ -1341,8 +1327,8 @@
       "model": "nvidia/nemotron-3.5-lightning",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.1
+      "input": 0.05,
+      "output": 0.125
     },
     {
       "model": "nvidia/nemotron-3.5-lightning:free",
@@ -2356,8 +2342,8 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 1.8
+      "input": 0.16,
+      "output": 1.6
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
@@ -2419,7 +2405,7 @@
       "model": "qwen/qwen3.8-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2125,
+      "input": 0.2,
       "output": 1.275
     },
     {
@@ -2545,8 +2531,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04125,
-      "output": 0.165
+      "input": 0.066,
+      "output": 0.264
     },
     {
       "model": "tencent/hy3-preview",
@@ -2560,13 +2546,6 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.15,
-      "output": 0.25
-    },
-    {
-      "model": "thedrummer/rocinante-12b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.125,
       "output": 0.25
     },
     {
@@ -2892,5 +2871,5 @@
       "output": 2.2
     }
   ],
-  "updated_at": "2026-08-27T17:08:14Z"
+  "updated_at": "2026-08-28T01:55:54Z"
 }
