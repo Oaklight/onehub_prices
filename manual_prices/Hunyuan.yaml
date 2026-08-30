@@ -6,6 +6,13 @@ models:
   Hunyuan:
     # ============ TokenHub 语言模型 ============
 
+    # Hy4 preview (新旗舰，256K context)
+    hy4-preview:
+      input: 6 rmb / M
+      output: 18 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.3 rmb / M
+
     # Hy3 (256K context, 深度思考/结构化输出/FC/Cache)
     hy3:
       input: 1 rmb / M
@@ -13,9 +20,10 @@ models:
       extra_ratios:
         - cached_tokens: 0.25 rmb / M
 
-    # Hy3 preview (295B MoE, 21B active, 256K context)
+    # Hy3 preview (295B MoE, 21B active, 256K context) — 2026-08-31 下线
     # 分段计费: 0~16K ¥1.2/¥4, 16~32K ¥1.6/¥6.4, 32~256K ¥2/¥8
     hy3-preview:
+      deprecated: 2026-08-31
       input: 2 rmb / M # ≤16K: 1.2, 16~32K: 1.6
       output: 8 rmb / M # ≤16K: 4, 16~32K: 6.4
       extra_ratios:
@@ -40,6 +48,12 @@ models:
 
     # ============ 旧平台 通用文生文模型 ============
 
+    # 旧平台模型已迁移至 TokenHub，价格来源更新
+    # https://cloud.tencent.com/document/product/1729/97731
+    hunyuan-a13b:
+      input: 0.5 rmb / M
+      output: 2 rmb / M
+
     hunyuan-t1:
       aliases:
         - hunyuan-t1-latest
@@ -50,10 +64,6 @@ models:
       aliases:
         - hunyuan-turbos-latest
       input: 0.8 rmb / M
-      output: 2 rmb / M
-
-    hunyuan-a13b:
-      input: 0.5 rmb / M
       output: 2 rmb / M
 
     hunyuan-lite:
@@ -82,10 +92,15 @@ models:
 
     # ============ 多模态理解模型 ============
 
-    # HY-Vision-2.0-Instruct (TokenHub 新增)
+    # HY-Vision-2.0-Instruct (TokenHub)
     hy-vision-2.0-instruct:
       input: 7.5 rmb / M
       output: 17.5 rmb / M
+
+    # HY-Vision-1.5-Thinking (TokenHub 新增)
+    hy-vision-1.5-thinking:
+      input: 3 rmb / M
+      output: 9 rmb / M
 
     hunyuan-vision-1.5-instruct:
       input: 3 rmb / M

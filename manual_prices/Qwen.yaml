@@ -8,7 +8,22 @@ models:
 
     # 大模型系列
 
-    # Qwen3.7 系列（2026年5月最新旗舰）
+    # Qwen3.8 系列（2026年8月最新旗舰）
+    qwen3.8-max-prime:
+      # 优速模式(Prime)，非思考和思考模式
+      # 无阶梯计价：0<Token≤1M: 24元输入/72元输出 (per M)
+      input: 24 rmb / M
+      output: 72 rmb / M
+
+    qwen3.8-max:
+      # 非思考和思考模式，支持Batch半价，支持上下文缓存
+      # 无阶梯计价：0<Token≤1M: 12元输入/36元输出 (per M)
+      input: 12 rmb / M
+      output: 36 rmb / M
+      extra_ratios:
+        - cached_tokens: 0.2
+
+    # Qwen3.7 系列
     qwen3.7-max:
       aliases:
         - qwen3.7-max-2026*
@@ -110,6 +125,18 @@ models:
       output: 0.002 rmb / K
       extra_ratios:
         - reasoning_tokens: 0.008 rmb / K # 思考模式输出价格
+        - cached_tokens: 0.2
+
+    # Qwen3.7 Flash - 支持思考和非思考模式，支持Batch半价，支持上下文缓存
+    qwen3.7-flash:
+      aliases:
+        - qwen3.7-flash-*
+      # 阶梯计价：0<Token≤32K: 0.2元输入/0.8元输出 (per M)
+      # 32K<Token≤256K: 0.6元输入/2.4元输出
+      # 256K<Token≤1M: 1.2元输入/4.8元输出
+      input: 0.6 rmb / M # 取32k~256k价格
+      output: 2.4 rmb / M
+      extra_ratios:
         - cached_tokens: 0.2
 
     # Qwen3.5 Flash - 默认开启思考模式
