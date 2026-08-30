@@ -2377,8 +2377,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -2738,5 +2738,5 @@
       "output": 2.09
     }
   ],
-  "updated_at": "2026-08-30T15:44:57Z"
+  "updated_at": "2026-08-30T20:18:41Z"
 }
