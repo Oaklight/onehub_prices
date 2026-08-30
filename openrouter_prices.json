@@ -270,8 +270,8 @@
       "model": "arcee-ai/trinity-large-thinking",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.11,
-      "output": 0.425
+      "input": 0.125,
+      "output": 0.4
     },
     {
       "model": "baidu/ernie-4.5-vl-424b-a47b",
@@ -424,8 +424,8 @@
       "model": "deepseek/deepseek-v3.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.13,
-      "output": 0.19
+      "input": 0.1345,
+      "output": 0.2
     },
     {
       "model": "deepseek/deepseek-v3.2-exp",
@@ -438,8 +438,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04046,
-      "output": 0.08092
+      "input": 0.04032,
+      "output": 0.08064
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -466,8 +466,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25421,
-      "output": 0.50843
+      "input": 0.2289,
+      "output": 0.45779
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -2686,7 +2686,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.015,
-      "output": 0.07
+      "output": 0.08
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -2738,5 +2738,5 @@
       "output": 2.09
     }
   ],
-  "updated_at": "2026-08-30T02:36:01Z"
+  "updated_at": "2026-08-30T08:13:11Z"
 }
