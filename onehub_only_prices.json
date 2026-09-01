@@ -4844,13 +4844,6 @@
       "output": 12.5
     },
     {
-      "model": "anthropic/claude-opus-4.7-fast",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 15.0,
-      "output": 75.0
-    },
-    {
       "model": "anthropic/claude-opus-4.7:batch",
       "type": "tokens",
       "channel_type": 20,
@@ -4865,13 +4858,6 @@
       "output": 12.5
     },
     {
-      "model": "anthropic/claude-opus-4.8-fast",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 5.0,
-      "output": 25.0
-    },
-    {
       "model": "anthropic/claude-opus-4.8:batch",
       "type": "tokens",
       "channel_type": 20,
@@ -4884,13 +4870,6 @@
       "channel_type": 20,
       "input": 2.5,
       "output": 12.5
-    },
-    {
-      "model": "anthropic/claude-opus-5-fast",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 5.0,
-      "output": 25.0
     },
     {
       "model": "anthropic/claude-opus-5:batch",
@@ -5120,8 +5099,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04046,
-      "output": 0.08092
+      "input": 0.03815,
+      "output": 0.0763
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -5493,6 +5472,13 @@
       "channel_type": 20,
       "input": 0.125,
       "output": 0.375
+    },
+    {
+      "model": "inception/mercury-2.5-preview",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.02,
+      "output": 0.075
     },
     {
       "model": "inclusionai/ling-3.0-flash",
@@ -7535,8 +7521,8 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.08
+      "input": 0.02499,
+      "output": 0.04998
     },
     {
       "model": "~google/gemini-flash-latest",
