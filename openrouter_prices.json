@@ -67,7 +67,7 @@
       "model": "anthracite-org/magnum-v4-72b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.5,
+      "input": 1.25,
       "output": 2.5
     },
     {
@@ -459,8 +459,8 @@
       "model": "deepseek/deepseek-v4-flash-vision-exp",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.22,
-      "output": 0.66
+      "input": 0.11,
+      "output": 0.33
     },
     {
       "model": "deepseek/deepseek-v4-pro",
@@ -473,8 +473,8 @@
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5577,
-      "output": 1.6731
+      "input": 0.33,
+      "output": 0.99
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813:batch",
@@ -781,8 +781,8 @@
       "model": "gryphe/mythomax-l2-13b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.3
+      "input": 0.03,
+      "output": 0.03
     },
     {
       "model": "ibm-granite/granite-4.0-h-micro",
@@ -851,7 +851,7 @@
       "model": "mancer/weaver",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
+      "input": 0.2,
       "output": 0.375
     },
     {
@@ -907,8 +907,8 @@
       "model": "meta-llama/llama-4-scout",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.055,
-      "output": 0.17
+      "input": 0.05,
+      "output": 0.15
     },
     {
       "model": "meta-llama/llama-guard-4-12b",
@@ -1051,13 +1051,6 @@
       "output": 0.45
     },
     {
-      "model": "mistralai/codestral-2508:batch",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.15,
-      "output": 0.45
-    },
-    {
       "model": "mistralai/devstral-2512",
       "type": "tokens",
       "channel_type": 20,
@@ -1086,13 +1079,6 @@
       "output": 0.075
     },
     {
-      "model": "mistralai/ministral-8b-2512:batch",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.075,
-      "output": 0.075
-    },
-    {
       "model": "mistralai/mistral-large",
       "type": "tokens",
       "channel_type": 20,
@@ -1108,13 +1094,6 @@
     },
     {
       "model": "mistralai/mistral-large-2512",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.25,
-      "output": 0.75
-    },
-    {
-      "model": "mistralai/mistral-large-2512:batch",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.25,
@@ -1149,13 +1128,6 @@
       "output": 1.0
     },
     {
-      "model": "mistralai/mistral-medium-3.1:batch",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.2,
-      "output": 1.0
-    },
-    {
       "model": "mistralai/mistral-nemo",
       "type": "tokens",
       "channel_type": 20,
@@ -1178,13 +1150,6 @@
     },
     {
       "model": "mistralai/mistral-small-2603",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
-    },
-    {
-      "model": "mistralai/mistral-small-2603:batch",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.075,
@@ -2160,8 +2125,8 @@
       "model": "qwen/qwen3-235b-a22b-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.275
+      "input": 0.04375,
+      "output": 0.175
     },
     {
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -2941,5 +2906,5 @@
       "output": 1.98
     }
   ],
-  "updated_at": "2026-09-01T02:44:47Z"
+  "updated_at": "2026-09-01T10:49:09Z"
 }
