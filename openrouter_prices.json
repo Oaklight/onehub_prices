@@ -85,6 +85,13 @@
       "output": 25.0
     },
     {
+      "model": "anthropic/claude-fable-5.1",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 5.0,
+      "output": 25.0
+    },
+    {
       "model": "anthropic/claude-fable-5:batch",
       "type": "tokens",
       "channel_type": 20,
@@ -417,8 +424,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03815,
-      "output": 0.0763
+      "input": 0.03584,
+      "output": 0.07168
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -445,8 +452,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.8,
-      "output": 1.6
+      "input": 0.51373,
+      "output": 1.02747
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -2531,8 +2538,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -2892,5 +2899,5 @@
       "output": 1.98
     }
   ],
-  "updated_at": "2026-09-01T15:47:12Z"
+  "updated_at": "2026-09-01T20:19:19Z"
 }
