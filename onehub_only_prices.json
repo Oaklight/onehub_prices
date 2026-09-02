@@ -4774,6 +4774,13 @@
       "output": 25.0
     },
     {
+      "model": "anthropic/claude-fable-5.1:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
       "model": "anthropic/claude-fable-5:batch",
       "type": "tokens",
       "channel_type": 20,
@@ -5127,8 +5134,8 @@
       "model": "deepseek/deepseek-v4-flash-vision-exp",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.22,
-      "output": 0.66
+      "input": 0.11,
+      "output": 0.33
     },
     {
       "model": "deepseek/deepseek-v4-pro",
