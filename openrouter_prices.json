@@ -431,8 +431,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04403,
-      "output": 0.08806
+      "input": 0.04389,
+      "output": 0.08778
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -459,8 +459,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.51112,
-      "output": 1.02225
+      "input": 0.50095,
+      "output": 1.00189
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -799,13 +799,6 @@
       "output": 0.056
     },
     {
-      "model": "ibm-granite/granite-4.1-8b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.025,
-      "output": 0.05
-    },
-    {
       "model": "ibm-granite/granite-4.2-8b",
       "type": "tokens",
       "channel_type": 20,
@@ -842,6 +835,13 @@
     },
     {
       "model": "inclusionai/ling-3.0-flash-fin:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "inclusionai/ling-3.0-flash-sante:free",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0,
@@ -2335,8 +2335,8 @@
       "model": "qwen/qwen3.5-35b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 0.625
+      "input": 0.04,
+      "output": 0.375
     },
     {
       "model": "qwen/qwen3.5-397b-a17b",
@@ -2384,8 +2384,8 @@
       "model": "qwen/qwen3.6-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 1.8
+      "input": 0.15,
+      "output": 1.0
     },
     {
       "model": "qwen/qwen3.6-35b-a3b",
@@ -2580,8 +2580,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -2955,5 +2955,5 @@
       "output": 1.75
     }
   ],
-  "updated_at": "2026-09-04T15:28:20Z"
+  "updated_at": "2026-09-04T20:03:29Z"
 }
