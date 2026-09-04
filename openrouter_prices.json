@@ -431,8 +431,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03969,
-      "output": 0.07938
+      "input": 0.0443,
+      "output": 0.08861
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -452,22 +452,22 @@
       "model": "deepseek/deepseek-v4-flash-vision-exp",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.11,
-      "output": 0.33
+      "input": 0.22,
+      "output": 0.66
     },
     {
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.51539,
-      "output": 1.03078
+      "input": 0.52113,
+      "output": 1.04226
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33,
-      "output": 0.99
+      "input": 0.5577,
+      "output": 1.6731
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813:batch",
@@ -1362,8 +1362,8 @@
       "model": "nvidia/nemotron-3-ultra-550b-a55b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 1.2
+      "input": 0.3125,
+      "output": 1.5625
     },
     {
       "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -1371,6 +1371,13 @@
       "channel_type": 20,
       "input": 0.0,
       "output": 0.0
+    },
+    {
+      "model": "nvidia/nemotron-3.5-content-safety",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.1
     },
     {
       "model": "nvidia/nemotron-3.5-content-safety:free",
@@ -2573,8 +2580,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04125,
-      "output": 0.165
+      "input": 0.066,
+      "output": 0.264
     },
     {
       "model": "tencent/hy3-preview",
@@ -2657,7 +2664,7 @@
       "model": "undi95/remm-slerp-l2-13b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.225,
+      "input": 0.175,
       "output": 0.325
     },
     {
@@ -2701,6 +2708,13 @@
       "channel_type": 20,
       "input": 0.625,
       "output": 1.25
+    },
+    {
+      "model": "x-ai/grok-4.3:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.5,
+      "output": 1.0
     },
     {
       "model": "x-ai/grok-4.5",
@@ -2930,16 +2944,16 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03563,
-      "output": 0.11875
+      "input": 0.0375,
+      "output": 0.125
     },
     {
       "model": "~z-ai/glm-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.574,
-      "output": 1.804
+      "input": 0.575,
+      "output": 1.75
     }
   ],
-  "updated_at": "2026-09-03T20:18:26Z"
+  "updated_at": "2026-09-04T02:07:08Z"
 }
