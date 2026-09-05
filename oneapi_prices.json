@@ -5113,8 +5113,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04389,
-      "output": 0.08778
+      "input": 0.04361,
+      "output": 0.08722
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -5141,15 +5141,15 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.50095,
-      "output": 1.00189
+      "input": 0.48572,
+      "output": 0.97144
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.28974,
-      "output": 0.86922
+      "input": 0.56034,
+      "output": 1.68102
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813:batch",
@@ -6573,6 +6573,34 @@
       "output": 2.5
     },
     {
+      "model": "openai/gpt-6-astra",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 5.0,
+      "output": 25.0
+    },
+    {
+      "model": "openai/gpt-6-astra-pro",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 5.0,
+      "output": 25.0
+    },
+    {
+      "model": "openai/gpt-6-astra-pro:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
+      "model": "openai/gpt-6-astra:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 2.5,
+      "output": 12.5
+    },
+    {
       "model": "openai/gpt-audio",
       "type": "tokens",
       "channel_type": 20,
@@ -6842,8 +6870,8 @@
       "model": "qwen/qwen3-235b-a22b-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04375,
-      "output": 0.175
+      "input": 0.045,
+      "output": 0.275
     },
     {
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -7262,8 +7290,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04125,
-      "output": 0.165
+      "input": 0.066,
+      "output": 0.264
     },
     {
       "model": "tencent/hy3-preview",
@@ -13208,5 +13236,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-09-04T20:03:30Z"
+  "updated_at": "2026-09-05T02:07:38Z"
 }
