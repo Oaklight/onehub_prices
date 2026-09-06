@@ -431,8 +431,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03997,
-      "output": 0.07994
+      "input": 0.03983,
+      "output": 0.07966
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -459,8 +459,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33364,
-      "output": 0.66729
+      "input": 0.31842,
+      "output": 0.63684
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -2370,8 +2370,8 @@
       "model": "qwen/qwen3.5-397b-a17b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.275,
-      "output": 1.75
+      "input": 0.195,
+      "output": 1.17
     },
     {
       "model": "qwen/qwen3.5-9b",
@@ -2608,8 +2608,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -2976,5 +2976,5 @@
       "output": 1.98
     }
   ],
-  "updated_at": "2026-09-06T14:39:45Z"
+  "updated_at": "2026-09-06T19:47:06Z"
 }
