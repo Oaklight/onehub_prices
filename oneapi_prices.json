@@ -5148,8 +5148,8 @@
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5247,
-      "output": 1.5741
+      "input": 0.33,
+      "output": 0.99
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813:batch",
@@ -7290,8 +7290,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -13229,5 +13229,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-09-07T11:05:47Z"
+  "updated_at": "2026-09-07T16:53:35Z"
 }
