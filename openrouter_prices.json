@@ -382,8 +382,8 @@
       "model": "deepseek/deepseek-chat-v3.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.275,
-      "output": 0.825
+      "input": 0.125,
+      "output": 0.475
     },
     {
       "model": "deepseek/deepseek-r1",
@@ -452,8 +452,8 @@
       "model": "deepseek/deepseek-v4-flash-vision-exp",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.11,
-      "output": 0.33
+      "input": 0.22,
+      "output": 0.66
     },
     {
       "model": "deepseek/deepseek-v4-pro",
@@ -466,8 +466,8 @@
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33,
-      "output": 0.99
+      "input": 0.5247,
+      "output": 1.5741
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813:batch",
@@ -1012,7 +1012,7 @@
       "model": "minimax/minimax-m1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.275,
+      "input": 0.2,
       "output": 1.1
     },
     {
@@ -1243,8 +1243,8 @@
       "model": "moonshotai/kimi-k2.7-code",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33,
-      "output": 1.7
+      "input": 0.355,
+      "output": 1.75
     },
     {
       "model": "moonshotai/kimi-k3",
@@ -2160,8 +2160,8 @@
       "model": "qwen/qwen3-14b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06,
-      "output": 0.12
+      "input": 0.11375,
+      "output": 0.455
     },
     {
       "model": "qwen/qwen3-235b-a22b",
@@ -2594,8 +2594,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04125,
-      "output": 0.165
+      "input": 0.066,
+      "output": 0.264
     },
     {
       "model": "tencent/hy3-preview",
@@ -2790,8 +2790,8 @@
       "model": "z-ai/glm-4.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.215,
-      "output": 0.875
+      "input": 0.275,
+      "output": 1.1
     },
     {
       "model": "z-ai/glm-4.6v",
@@ -2811,7 +2811,7 @@
       "model": "z-ai/glm-4.7-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
+      "input": 0.03025,
       "output": 0.2
     },
     {
@@ -2962,5 +2962,5 @@
       "output": 1.76
     }
   ],
-  "updated_at": "2026-09-07T20:55:30Z"
+  "updated_at": "2026-09-08T02:11:55Z"
 }
