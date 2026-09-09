@@ -473,8 +473,8 @@
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.28974,
-      "output": 0.86922
+      "input": 0.5247,
+      "output": 1.5741
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813:batch",
@@ -2181,8 +2181,8 @@
       "model": "qwen/qwen3-235b-a22b-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.275
+      "input": 0.11,
+      "output": 0.44
     },
     {
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -2983,5 +2983,5 @@
       "output": 1.749
     }
   ],
-  "updated_at": "2026-09-09T02:15:43Z"
+  "updated_at": "2026-09-09T10:26:40Z"
 }
