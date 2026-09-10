@@ -5166,6 +5166,13 @@
       "output": 0.99
     },
     {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.075,
+      "output": 0.3
+    },
+    {
       "model": "dots-studio/dots-3-note-preview:free",
       "type": "tokens",
       "channel_type": 20,
@@ -7577,8 +7584,8 @@
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.035,
-      "output": 0.11665
+      "input": 0.075,
+      "output": 0.25
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
@@ -7682,15 +7689,15 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.035,
-      "output": 0.11665
+      "input": 0.0375,
+      "output": 0.125
     },
     {
       "model": "~z-ai/glm-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5565,
-      "output": 1.749
+      "input": 0.5425,
+      "output": 1.705
     },
     {
       "model": "gemini-1.5-flash",
@@ -13264,5 +13271,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-09-10T02:14:04Z"
+  "updated_at": "2026-09-10T10:17:08Z"
 }
