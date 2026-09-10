@@ -414,6 +414,13 @@
       "output": 0.91429
     },
     {
+      "model": "Qwen/Qwen3.8-27B",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.12857,
+      "output": 1.02857
+    },
+    {
       "model": "THUDM/GLM-4-32B-0414",
       "type": "tokens",
       "channel_type": 45,
@@ -645,5 +652,5 @@
       "output": 2.0
     }
   ],
-  "updated_at": "2026-09-10T10:17:07Z"
+  "updated_at": "2026-09-10T15:32:01Z"
 }
