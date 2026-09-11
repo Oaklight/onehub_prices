@@ -431,8 +431,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0443,
-      "output": 0.08861
+      "input": 0.04326,
+      "output": 0.08652
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -466,15 +466,15 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.47763,
-      "output": 0.95526
+      "input": 0.47389,
+      "output": 0.94778
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33,
-      "output": 0.99
+      "input": 0.28974,
+      "output": 0.86922
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813:batch",
@@ -862,6 +862,13 @@
       "output": 0.0
     },
     {
+      "model": "inclusionai/ling-3.0-flash-vl",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.03,
+      "output": 0.09
+    },
+    {
       "model": "inclusionai/ling-3.0-flash-vl:free",
       "type": "tokens",
       "channel_type": 20,
@@ -1061,8 +1068,8 @@
       "model": "minimax/minimax-m2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.135,
+      "output": 0.54
     },
     {
       "model": "minimax/minimax-m2.7",
@@ -3004,11 +3011,18 @@
       "output": 5.85
     },
     {
-      "model": "~openai/gpt-latest",
+      "model": "~openai/gpt-astra-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.0,
-      "output": 5.0
+      "input": 5.0,
+      "output": 25.0
+    },
+    {
+      "model": "~openai/gpt-luna-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.1,
+      "output": 0.6
     },
     {
       "model": "~openai/gpt-mini-latest",
@@ -3016,6 +3030,20 @@
       "channel_type": 20,
       "input": 0.375,
       "output": 2.25
+    },
+    {
+      "model": "~openai/gpt-sol-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 5.0
+    },
+    {
+      "model": "~openai/gpt-terra-latest",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 6.0
     },
     {
       "model": "~x-ai/grok-latest",
@@ -3035,9 +3063,9 @@
       "model": "~z-ai/glm-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.485,
-      "output": 1.65385
+      "input": 0.35,
+      "output": 1.1
     }
   ],
-  "updated_at": "2026-09-11T10:16:12Z"
+  "updated_at": "2026-09-11T15:34:07Z"
 }
