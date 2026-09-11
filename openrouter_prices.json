@@ -375,8 +375,8 @@
       "model": "deepseek/deepseek-chat-v3-0324",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.145,
-      "output": 0.57
+      "input": 0.125,
+      "output": 0.5
     },
     {
       "model": "deepseek/deepseek-chat-v3.1",
@@ -473,8 +473,8 @@
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5247,
-      "output": 1.5741
+      "input": 0.33,
+      "output": 0.99
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813:batch",
@@ -487,8 +487,8 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "dots-studio/dots-3-note-preview:free",
@@ -907,8 +907,8 @@
       "model": "meta-llama/llama-3.1-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.36,
-      "output": 0.36
+      "input": 0.2,
+      "output": 0.2
     },
     {
       "model": "meta-llama/llama-3.1-8b-instruct",
@@ -2563,7 +2563,21 @@
       "output": 1.5
     },
     {
+      "model": "sakana/fugu-max",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.0,
+      "output": 3.0
+    },
+    {
       "model": "sakana/fugu-ultra",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 2.5,
+      "output": 15.0
+    },
+    {
+      "model": "sakana/fugu-ultra-v2",
       "type": "tokens",
       "channel_type": 20,
       "input": 2.5,
@@ -3021,9 +3035,9 @@
       "model": "~z-ai/glm-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5,
-      "output": 1.705
+      "input": 0.485,
+      "output": 1.65385
     }
   ],
-  "updated_at": "2026-09-11T02:10:17Z"
+  "updated_at": "2026-09-11T10:16:12Z"
 }
