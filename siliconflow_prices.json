@@ -596,13 +596,6 @@
       "output": 1.92857
     },
     {
-      "model": "nex-agi/Nex-N2-Pro",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.125,
-      "output": 0.5
-    },
-    {
       "model": "stepfun-ai/Step-3.5-Flash",
       "type": "tokens",
       "channel_type": 45,
@@ -652,5 +645,5 @@
       "output": 2.0
     }
   ],
-  "updated_at": "2026-09-10T20:14:39Z"
+  "updated_at": "2026-09-11T02:10:17Z"
 }
