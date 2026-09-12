@@ -431,8 +431,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03339,
-      "output": 0.06678
+      "input": 0.03318,
+      "output": 0.06636
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -466,15 +466,15 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.39959,
-      "output": 0.79918
+      "input": 0.37932,
+      "output": 0.75864
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.28908,
-      "output": 0.86724
+      "input": 0.28974,
+      "output": 0.86922
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813:batch",
@@ -1082,8 +1082,8 @@
       "model": "minimax/minimax-m2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.135,
+      "output": 0.54
     },
     {
       "model": "minimax/minimax-m2.7",
@@ -3081,5 +3081,5 @@
       "output": 1.68
     }
   ],
-  "updated_at": "2026-09-12T09:49:38Z"
+  "updated_at": "2026-09-12T14:40:23Z"
 }
