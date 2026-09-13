@@ -5113,8 +5113,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0245,
-      "output": 0.049
+      "input": 0.02422,
+      "output": 0.04844
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -5155,8 +5155,8 @@
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.28908,
-      "output": 0.86724
+      "input": 0.28974,
+      "output": 0.86922
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813:batch",
@@ -7626,8 +7626,8 @@
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.25
+      "input": 0.0375,
+      "output": 0.125
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
@@ -13320,5 +13320,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-09-13T10:49:40Z"
+  "updated_at": "2026-09-13T15:19:59Z"
 }
