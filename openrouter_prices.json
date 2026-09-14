@@ -431,8 +431,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04493,
-      "output": 0.08987
+      "input": 0.0443,
+      "output": 0.08861
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -473,8 +473,8 @@
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.52734,
-      "output": 1.58202
+      "input": 0.4917,
+      "output": 1.4751
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813:batch",
@@ -487,8 +487,8 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "dots-studio/dots-3-note-preview:free",
@@ -3077,9 +3077,9 @@
       "model": "~z-ai/glm-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.468,
-      "output": 1.584
+      "input": 0.46,
+      "output": 1.5686
     }
   ],
-  "updated_at": "2026-09-14T02:31:17Z"
+  "updated_at": "2026-09-14T11:17:48Z"
 }
