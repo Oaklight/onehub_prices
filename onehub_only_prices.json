@@ -5113,15 +5113,15 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02352,
-      "output": 0.04704
+      "input": 0.04493,
+      "output": 0.08987
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 0.04
+      "input": 0.03,
+      "output": 0.06
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731:batch",
@@ -5155,8 +5155,8 @@
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.28974,
-      "output": 0.86922
+      "input": 0.52734,
+      "output": 1.58202
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813:batch",
@@ -5169,8 +5169,8 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "dots-studio/dots-3-note-preview:free",
@@ -6100,8 +6100,8 @@
       "model": "nvidia/nemotron-3-ultra-550b-a55b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3125,
-      "output": 1.5625
+      "input": 0.3,
+      "output": 1.2
     },
     {
       "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -6912,8 +6912,8 @@
       "model": "qwen/qwen3-14b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.11375,
-      "output": 0.455
+      "input": 0.06,
+      "output": 0.12
     },
     {
       "model": "qwen/qwen3-235b-a22b",
@@ -7360,8 +7360,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04125,
-      "output": 0.165
+      "input": 0.066,
+      "output": 0.264
     },
     {
       "model": "tencent/hy3-preview",
@@ -7605,8 +7605,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 1.0
+      "input": 0.3416,
+      "output": 1.0736
     },
     {
       "model": "z-ai/glm-5.2:batch",
@@ -7619,15 +7619,15 @@
       "model": "z-ai/glm-5.3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.546,
-      "output": 1.716
+      "input": 0.7,
+      "output": 2.2
     },
     {
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.125
+      "input": 0.075,
+      "output": 0.25
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
