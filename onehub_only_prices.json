@@ -5113,8 +5113,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04354,
-      "output": 0.08708
+      "input": 0.03969,
+      "output": 0.07938
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -7346,8 +7346,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
