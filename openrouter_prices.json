@@ -431,8 +431,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04354,
-      "output": 0.08708
+      "input": 0.04046,
+      "output": 0.08092
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -1313,8 +1313,8 @@
       "model": "moonshotai/kimi-k3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.32407,
-      "output": 6.64136
+      "input": 1.5,
+      "output": 7.5
     },
     {
       "model": "moonshotai/kimi-k3:batch",
@@ -2657,8 +2657,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -3074,5 +3074,5 @@
       "output": 1.485
     }
   ],
-  "updated_at": "2026-09-16T15:48:24Z"
+  "updated_at": "2026-09-16T20:40:00Z"
 }
