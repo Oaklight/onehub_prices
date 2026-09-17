@@ -368,8 +368,8 @@
       "model": "deepseek/deepseek-chat",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1287,
-      "output": 0.51435
+      "input": 0.16,
+      "output": 0.445
     },
     {
       "model": "deepseek/deepseek-chat-v3-0324",
@@ -2514,6 +2514,13 @@
       "output": 1.275
     },
     {
+      "model": "qwen/qwen3.8-27b:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "qwen/qwen3.8-flash",
       "type": "tokens",
       "channel_type": 20,
@@ -2657,8 +2664,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -3074,5 +3081,5 @@
       "output": 1.485
     }
   ],
-  "updated_at": "2026-09-17T15:54:53Z"
+  "updated_at": "2026-09-17T20:46:26Z"
 }
