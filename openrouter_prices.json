@@ -473,8 +473,8 @@
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.66,
-      "output": 1.98
+      "input": 0.33,
+      "output": 0.99
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813:batch",
@@ -487,8 +487,8 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "dots-studio/dots-3-note-preview:free",
@@ -970,8 +970,8 @@
       "model": "meta/muse-glimmer-30b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.175,
-      "output": 0.75
+      "input": 0.15,
+      "output": 0.55
     },
     {
       "model": "meta/muse-glimmer-30b:batch",
@@ -2846,8 +2846,8 @@
       "model": "z-ai/glm-4.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.215,
-      "output": 0.875
+      "input": 0.25,
+      "output": 1.0
     },
     {
       "model": "z-ai/glm-4.6v",
@@ -2986,15 +2986,15 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.35,
-      "output": 1.48
+      "input": 0.33,
+      "output": 0.99
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 0.05
+      "input": 0.015,
+      "output": 0.065
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -3014,8 +3014,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.0,
-      "output": 5.6
+      "input": 1.05,
+      "output": 5.475
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -3070,9 +3070,9 @@
       "model": "~z-ai/glm-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4165,
-      "output": 1.309
+      "input": 0.43875,
+      "output": 1.485
     }
   ],
-  "updated_at": "2026-09-17T02:33:45Z"
+  "updated_at": "2026-09-17T10:41:07Z"
 }
