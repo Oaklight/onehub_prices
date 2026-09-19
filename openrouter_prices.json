@@ -431,15 +431,15 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02436,
-      "output": 0.04872
+      "input": 0.02422,
+      "output": 0.04844
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
-      "output": 0.06
+      "input": 0.025,
+      "output": 0.05
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731:batch",
@@ -473,8 +473,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.8,
-      "output": 1.6
+      "input": 0.33278,
+      "output": 0.66555
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -1313,8 +1313,8 @@
       "model": "moonshotai/kimi-k3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.975,
-      "output": 5.46
+      "input": 1.05,
+      "output": 5.475
     },
     {
       "model": "moonshotai/kimi-k3:batch",
@@ -1404,8 +1404,8 @@
       "model": "nvidia/nemotron-3-ultra-550b-a55b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3125,
-      "output": 1.5625
+      "input": 0.3,
+      "output": 1.2
     },
     {
       "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -1432,7 +1432,7 @@
       "model": "nvidia/nemotron-3.5-lightning",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
+      "input": 0.035,
       "output": 0.1
     },
     {
@@ -2349,8 +2349,8 @@
       "model": "qwen/qwen3-vl-30b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.065,
-      "output": 0.26
+      "input": 0.1,
+      "output": 0.35
     },
     {
       "model": "qwen/qwen3-vl-30b-a3b-thinking",
@@ -2664,8 +2664,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04125,
-      "output": 0.165
+      "input": 0.066,
+      "output": 0.264
     },
     {
       "model": "tencent/hy3-preview",
@@ -2993,8 +2993,8 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
-      "output": 0.21
+      "input": 0.0675,
+      "output": 0.27
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
@@ -3007,8 +3007,8 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0275,
-      "output": 0.0825
+      "input": 0.02486,
+      "output": 0.07458
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -3028,8 +3028,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.975,
-      "output": 5.46
+      "input": 1.05,
+      "output": 5.475
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -3088,5 +3088,5 @@
       "output": 1.4014
     }
   ],
-  "updated_at": "2026-09-18T20:10:30Z"
+  "updated_at": "2026-09-19T02:21:39Z"
 }
