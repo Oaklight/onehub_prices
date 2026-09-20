@@ -5113,8 +5113,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01988,
-      "output": 0.03976
+      "input": 0.01862,
+      "output": 0.03724
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -5162,8 +5162,8 @@
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.28908,
-      "output": 0.86724
+      "input": 0.33,
+      "output": 0.99
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813:batch",
@@ -7080,8 +7080,8 @@
       "model": "qwen/qwen3.5-35b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.08125,
-      "output": 0.65
+      "input": 0.15625,
+      "output": 0.625
     },
     {
       "model": "qwen/qwen3.5-397b-a17b",
@@ -7199,8 +7199,8 @@
       "model": "qwen/qwen3.8-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.107,
-      "output": 1.275
+      "input": 0.21,
+      "output": 1.5
     },
     {
       "model": "qwen/qwen3.8-27b:free",
@@ -7346,8 +7346,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04125,
-      "output": 0.165
+      "input": 0.066,
+      "output": 0.264
     },
     {
       "model": "tencent/hy3-preview",
@@ -7612,8 +7612,8 @@
       "model": "z-ai/glm-5.3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.455,
-      "output": 1.43
+      "input": 0.448,
+      "output": 1.408
     },
     {
       "model": "z-ai/glm-5.3-flash",
@@ -7689,8 +7689,8 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.28908,
-      "output": 0.86724
+      "input": 0.28842,
+      "output": 0.86526
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
@@ -13341,5 +13341,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-09-19T19:47:18Z"
+  "updated_at": "2026-09-20T02:31:02Z"
 }
