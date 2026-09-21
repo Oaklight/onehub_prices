@@ -5114,7 +5114,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.02,
-      "output": 0.08
+      "output": 0.16
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731:batch",
@@ -5141,15 +5141,15 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.46388,
-      "output": 0.92777
+      "input": 0.4504,
+      "output": 0.9008
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.28512,
-      "output": 0.85536
+      "input": 0.33,
+      "output": 0.99
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813:batch",
@@ -5761,13 +5761,6 @@
       "output": 0.6
     },
     {
-      "model": "minimax/minimax-m3:batch",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
-    },
-    {
       "model": "mistralai/codestral-2508",
       "type": "tokens",
       "channel_type": 20,
@@ -5981,13 +5974,6 @@
       "model": "moonshotai/kimi-k3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.85,
-      "output": 4.25
-    },
-    {
-      "model": "moonshotai/kimi-k3:batch",
-      "type": "tokens",
-      "channel_type": 20,
       "input": 1.5,
       "output": 7.5
     },
@@ -6044,8 +6030,8 @@
       "model": "nvidia/nemotron-3-nano-30b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
-      "output": 0.12
+      "input": 0.025,
+      "output": 0.1
     },
     {
       "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
@@ -6650,13 +6636,6 @@
       "output": 0.3
     },
     {
-      "model": "openai/gpt-oss-120b:batch",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
-    },
-    {
       "model": "openai/gpt-oss-20b",
       "type": "tokens",
       "channel_type": 20,
@@ -7084,13 +7063,6 @@
       "output": 0.075
     },
     {
-      "model": "qwen/qwen3.5-9b:batch",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.085,
-      "output": 0.125
-    },
-    {
       "model": "qwen/qwen3.5-flash-02-23",
       "type": "tokens",
       "channel_type": 20,
@@ -7169,13 +7141,6 @@
     },
     {
       "model": "qwen/qwen3.8-2.4t-a95b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.0,
-      "output": 3.0
-    },
-    {
-      "model": "qwen/qwen3.8-2.4t-a95b:batch",
       "type": "tokens",
       "channel_type": 20,
       "input": 1.0,
@@ -7392,13 +7357,6 @@
       "output": 0.0
     },
     {
-      "model": "thinkingmachines/inkling:batch",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.5,
-      "output": 2.025
-    },
-    {
       "model": "thinkingmachines/inkling:free",
       "type": "tokens",
       "channel_type": 20,
@@ -7511,6 +7469,27 @@
       "output": 0.435
     },
     {
+      "model": "xiaomi/mimo-v2.6-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.07,
+      "output": 0.14
+    },
+    {
+      "model": "xiaomi/mimo-v2.6-pro",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.2175,
+      "output": 0.435
+    },
+    {
+      "model": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 2.175,
+      "output": 4.35
+    },
+    {
       "model": "z-ai/glm-4.5",
       "type": "tokens",
       "channel_type": 20,
@@ -7612,8 +7591,8 @@
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.15
+      "input": 0.0375,
+      "output": 0.125
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
@@ -7682,15 +7661,15 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.28512,
-      "output": 0.85536
+      "input": 0.27324,
+      "output": 0.81972
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.02,
-      "output": 0.08
+      "output": 0.16
     },
     {
       "model": "~google/gemini-flash-latest",
