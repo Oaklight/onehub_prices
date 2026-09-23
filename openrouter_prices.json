@@ -22,6 +22,20 @@
       "output": 0.7
     },
     {
+      "model": "aion-labs/aion-3.5",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 1.5,
+      "output": 3.0
+    },
+    {
+      "model": "aion-labs/aion-3.5-mini",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.35,
+      "output": 0.7
+    },
+    {
       "model": "aion-labs/aion-rp-llama-3.1-8b",
       "type": "tokens",
       "channel_type": 20,
@@ -445,8 +459,8 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0443,
-      "output": 0.08861
+      "input": 0.04123,
+      "output": 0.08246
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
@@ -466,22 +480,22 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.47763,
-      "output": 0.95526
+      "input": 0.47659,
+      "output": 0.95317
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.24935,
-      "output": 0.74804
+      "input": 0.231,
+      "output": 0.693
     },
     {
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.05,
+      "output": 0.25
     },
     {
       "model": "deepseek/deepseek-v4.1-flash:batch",
@@ -1084,13 +1098,6 @@
       "channel_type": 20,
       "input": 0.075,
       "output": 0.225
-    },
-    {
-      "model": "mistralai/devstral-2512",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.2,
-      "output": 1.0
     },
     {
       "model": "mistralai/ministral-14b-2512",
@@ -2780,6 +2787,13 @@
       "output": 0.325
     },
     {
+      "model": "upstage/solar-mini4",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.025,
+      "output": 0.1
+    },
+    {
       "model": "upstage/solar-pro-3",
       "type": "tokens",
       "channel_type": 20,
@@ -3007,8 +3021,8 @@
       "model": "z-ai/glm-5.3:batch",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.36,
-      "output": 1.2
+      "input": 0.225,
+      "output": 1.0
     },
     {
       "model": "z-ai/glm-5v-turbo",
@@ -3056,8 +3070,8 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 2.15
+      "input": 0.19998,
+      "output": 0.59994
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
@@ -3140,9 +3154,9 @@
       "model": "~z-ai/glm-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.28125,
-      "output": 1.25
+      "input": 0.2807,
+      "output": 0.8822
     }
   ],
-  "updated_at": "2026-09-23T10:29:49Z"
+  "updated_at": "2026-09-23T15:48:51Z"
 }
