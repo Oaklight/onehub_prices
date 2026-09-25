@@ -5162,8 +5162,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.41403,
-      "output": 0.82807
+      "input": 0.3915,
+      "output": 0.783
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -5176,8 +5176,8 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "deepseek/deepseek-v4.1-flash:batch",
@@ -5988,8 +5988,8 @@
       "model": "moonshotai/kimi-k3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.44225,
-      "output": 5.2673
+      "input": 1.5,
+      "output": 7.5
     },
     {
       "model": "moonshotai/kimi-k3:batch",
@@ -7704,7 +7704,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0225,
-      "output": 0.3
+      "output": 0.07
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
@@ -7780,8 +7780,8 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1749,
-      "output": 0.5247
+      "input": 0.1264,
+      "output": 1.44
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
@@ -13432,5 +13432,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-09-25T02:37:19Z"
+  "updated_at": "2026-09-25T10:51:32Z"
 }
