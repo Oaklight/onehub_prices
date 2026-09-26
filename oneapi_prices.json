@@ -5169,8 +5169,8 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.0175,
+      "output": 0.145
     },
     {
       "model": "deepseek/deepseek-v4.1-flash:batch",
@@ -7395,8 +7395,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -7787,8 +7787,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.51505,
-      "output": 4.5215
+      "input": 0.5,
+      "output": 4.5
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -13411,5 +13411,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-09-26T15:24:42Z"
+  "updated_at": "2026-09-26T20:23:58Z"
 }
