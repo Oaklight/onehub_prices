@@ -5155,8 +5155,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.17905,
-      "output": 0.35809
+      "input": 0.174,
+      "output": 0.348
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -13411,5 +13411,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-09-26T10:32:11Z"
+  "updated_at": "2026-09-26T15:24:42Z"
 }
