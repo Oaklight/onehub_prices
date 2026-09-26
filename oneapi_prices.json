@@ -5155,8 +5155,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.20941,
-      "output": 0.41882
+      "input": 0.17905,
+      "output": 0.35809
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -5169,8 +5169,8 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07,
-      "output": 0.21
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "deepseek/deepseek-v4.1-flash:batch",
@@ -7675,8 +7675,8 @@
       "model": "z-ai/glm-5.3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.7,
-      "output": 2.2
+      "input": 0.1897,
+      "output": 0.5962
     },
     {
       "model": "z-ai/glm-5.3-flash",
@@ -7759,8 +7759,8 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
-      "output": 1.75
+      "input": 0.12474,
+      "output": 0.37422
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
@@ -7843,8 +7843,8 @@
       "model": "~z-ai/glm-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2373,
-      "output": 0.7458
+      "input": 0.1897,
+      "output": 0.5962
     },
     {
       "model": "gemini-1.5-flash",
@@ -13411,5 +13411,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-09-26T02:40:13Z"
+  "updated_at": "2026-09-26T10:32:11Z"
 }
