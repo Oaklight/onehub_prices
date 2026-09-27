@@ -5071,8 +5071,8 @@
       "model": "deepseek/deepseek-chat",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.16,
-      "output": 0.445
+      "input": 0.1287,
+      "output": 0.51435
     },
     {
       "model": "deepseek/deepseek-chat-v3-0324",
@@ -5722,8 +5722,8 @@
       "model": "minimax/minimax-m2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1275,
-      "output": 0.51
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "minimax/minimax-m2-her",
@@ -7787,8 +7787,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.5,
-      "output": 4.5
+      "input": 0.49375,
+      "output": 2.765
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -7843,7 +7843,7 @@
       "model": "~z-ai/glm-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.13685,
+      "input": 0.1516,
       "output": 1.287
     },
     {
@@ -13411,5 +13411,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-09-27T11:03:51Z"
+  "updated_at": "2026-09-27T16:04:05Z"
 }
