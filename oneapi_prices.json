@@ -5148,8 +5148,8 @@
       "model": "deepseek/deepseek-v4-flash-vision-exp",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.11,
-      "output": 0.33
+      "input": 0.1078,
+      "output": 0.3234
     },
     {
       "model": "deepseek/deepseek-v4-pro",
@@ -5162,8 +5162,8 @@
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.132,
-      "output": 0.396
+      "input": 0.12251,
+      "output": 1.75
     },
     {
       "model": "deepseek/deepseek-v4.1-flash",
@@ -5722,8 +5722,8 @@
       "model": "minimax/minimax-m2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.1275,
+      "output": 0.51
     },
     {
       "model": "minimax/minimax-m2-her",
@@ -5750,8 +5750,8 @@
       "model": "minimax/minimax-m2.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.105,
+      "output": 0.42
     },
     {
       "model": "minimax/minimax-m3",
@@ -7395,8 +7395,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04125,
-      "output": 0.165
+      "input": 0.066,
+      "output": 0.264
     },
     {
       "model": "tencent/hy3-preview",
@@ -7675,8 +7675,8 @@
       "model": "z-ai/glm-5.3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1897,
-      "output": 0.5962
+      "input": 0.119,
+      "output": 0.374
     },
     {
       "model": "z-ai/glm-5.3-flash",
@@ -7759,8 +7759,8 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.12474,
-      "output": 0.37422
+      "input": 0.1221,
+      "output": 0.3663
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
@@ -7843,8 +7843,8 @@
       "model": "~z-ai/glm-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1897,
-      "output": 0.5962
+      "input": 0.119,
+      "output": 0.374
     },
     {
       "model": "gemini-1.5-flash",
@@ -13411,5 +13411,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-09-26T20:23:58Z"
+  "updated_at": "2026-09-27T02:39:37Z"
 }
