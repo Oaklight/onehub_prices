@@ -5449,8 +5449,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.15
+      "input": 0.03825,
+      "output": 0.1275
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -7269,8 +7269,8 @@
       "model": "qwen/qwen3.8-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01245,
-      "output": 2.175
+      "input": 0.21,
+      "output": 1.5
     },
     {
       "model": "qwen/qwen3.8-27b:free",
@@ -7710,7 +7710,7 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
+      "input": 0.312,
       "output": 1.995
     },
     {
@@ -7829,8 +7829,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.145,
-      "output": 4.5
+      "input": 0.095,
+      "output": 5.5
     },
     {
       "model": "~openai/gpt-astra-latest",
