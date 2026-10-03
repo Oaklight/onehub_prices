@@ -473,7 +473,7 @@
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.00855,
+      "input": 0.0094,
       "output": 0.64
     },
     {
@@ -1299,8 +1299,8 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.21708,
-      "output": 0.914
+      "input": 0.475,
+      "output": 2.0
     },
     {
       "model": "moonshotai/kimi-k2.7-code",
@@ -2328,8 +2328,8 @@
       "model": "qwen/qwen3-30b-a3b-instruct-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.15
+      "input": 0.02408,
+      "output": 0.09652
     },
     {
       "model": "qwen/qwen3-30b-a3b-thinking-2507",
@@ -3119,22 +3119,22 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0075,
-      "output": 0.3385
+      "input": 0.01,
+      "output": 0.3
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.055,
-      "output": 1.35
+      "input": 0.06,
+      "output": 2.1
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.00191,
-      "output": 0.52179
+      "input": 0.0094,
+      "output": 0.64
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -3154,7 +3154,7 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.37,
+      "input": 0.49475,
       "output": 6.5
     },
     {
@@ -3203,8 +3203,8 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01312,
-      "output": 0.46437
+      "input": 0.0175,
+      "output": 0.25
     },
     {
       "model": "~z-ai/glm-latest",
@@ -3214,5 +3214,5 @@
       "output": 2.0
     }
   ],
-  "updated_at": "2026-10-03T03:01:17Z"
+  "updated_at": "2026-10-03T10:50:23Z"
 }
