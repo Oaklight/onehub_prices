@@ -5995,7 +5995,7 @@
       "model": "moonshotai/kimi-k3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.495,
+      "input": 0.37,
       "output": 6.5
     },
     {
@@ -7437,8 +7437,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -7451,8 +7451,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.417,
-      "output": 1.2505
+      "input": 0.3753,
+      "output": 1.12545
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -7724,8 +7724,8 @@
       "model": "z-ai/glm-5.3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.7,
-      "output": 2.2
+      "input": 0.11,
+      "output": 1.695
     },
     {
       "model": "z-ai/glm-5.3-flash",
@@ -7836,7 +7836,7 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.49475,
+      "input": 0.36975,
       "output": 6.5
     },
     {
@@ -7885,8 +7885,8 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0175,
-      "output": 0.25
+      "input": 0.017,
+      "output": 0.3
     },
     {
       "model": "~z-ai/glm-latest",
