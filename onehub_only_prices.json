@@ -5162,14 +5162,14 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.015,
+      "input": 0.0064,
       "output": 0.64
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.009,
+      "input": 0.00395,
       "output": 0.64
     },
     {
@@ -5183,15 +5183,15 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1044,
-      "output": 0.2088
+      "input": 0.47763,
+      "output": 0.95526
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33,
-      "output": 0.99
+      "input": 0.66,
+      "output": 1.98
     },
     {
       "model": "deepseek/deepseek-v4.1-flash",
@@ -5652,8 +5652,8 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.11,
-      "output": 0.25
+      "input": 0.05,
+      "output": 0.16
     },
     {
       "model": "meta-llama/llama-4-maverick",
@@ -6016,7 +6016,7 @@
       "model": "moonshotai/kimi-k3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
+      "input": 0.325,
       "output": 7.5
     },
     {
@@ -6079,8 +6079,8 @@
       "model": "nvidia/nemotron-3-nano-30b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.1
+      "input": 0.03,
+      "output": 0.12
     },
     {
       "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
@@ -6093,8 +6093,8 @@
       "model": "nvidia/nemotron-3-super-120b-a12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.225
+      "input": 0.0425,
+      "output": 0.2
     },
     {
       "model": "nvidia/nemotron-3-super-120b-a12b:free",
@@ -7108,8 +7108,8 @@
       "model": "qwen/qwen3-next-80b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.55
+      "input": 0.075,
+      "output": 0.75
     },
     {
       "model": "qwen/qwen3-next-80b-a3b-thinking",
@@ -7178,8 +7178,8 @@
       "model": "qwen/qwen3.5-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0975,
-      "output": 0.78
+      "input": 0.13,
+      "output": 1.3
     },
     {
       "model": "qwen/qwen3.5-35b-a3b",
@@ -7444,8 +7444,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04125,
-      "output": 0.165
+      "input": 0.066,
+      "output": 0.264
     },
     {
       "model": "tencent/hy3-preview",
@@ -7458,8 +7458,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3753,
-      "output": 1.12545
+      "input": 0.417,
+      "output": 1.2505
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -7725,13 +7725,13 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0855,
-      "output": 3.6
+      "output": 6.0
     },
     {
       "model": "z-ai/glm-5.3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.031,
+      "input": 0.0245,
       "output": 1.695
     },
     {
@@ -7808,22 +7808,22 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0095,
-      "output": 0.212
+      "input": 0.0092,
+      "output": 0.6
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1428,
+      "input": 0.08865,
       "output": 2.1
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.009,
-      "output": 0.64
+      "input": 0.00316,
+      "output": 0.768
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -7843,7 +7843,7 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.245,
+      "input": 0.32,
       "output": 6.5
     },
     {
@@ -7892,15 +7892,15 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 0.25
+      "input": 0.016,
+      "output": 0.33
     },
     {
       "model": "~z-ai/glm-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.031,
-      "output": 1.695
+      "input": 0.0196,
+      "output": 6.0
     },
     {
       "model": "gemini-1.5-flash",
