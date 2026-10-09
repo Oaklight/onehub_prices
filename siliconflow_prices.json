@@ -629,7 +629,14 @@
       "channel_type": 45,
       "input": 0.42857,
       "output": 2.0
+    },
+    {
+      "model": "zai-org/GLM-5.3-Flash",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
     }
   ],
-  "updated_at": "2026-10-09T03:46:10Z"
+  "updated_at": "2026-10-09T12:18:48Z"
 }
