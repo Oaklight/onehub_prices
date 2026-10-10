@@ -5155,14 +5155,14 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0095,
+      "input": 0.015,
       "output": 0.64
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.00515,
+      "input": 0.009,
       "output": 0.64
     },
     {
@@ -5176,8 +5176,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.47415,
-      "output": 0.9483
+      "input": 0.1044,
+      "output": 0.2088
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -5995,7 +5995,7 @@
       "model": "moonshotai/kimi-k2.6",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2325,
+      "input": 0.21785,
       "output": 1.225
     },
     {
@@ -6009,7 +6009,7 @@
       "model": "moonshotai/kimi-k3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.32,
+      "input": 0.25,
       "output": 6.75
     },
     {
@@ -7381,8 +7381,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -7395,8 +7395,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.417,
-      "output": 1.2505
+      "input": 0.3753,
+      "output": 1.12545
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -7752,14 +7752,14 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.11,
-      "output": 2.0
+      "input": 0.10956,
+      "output": 0.32868
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.00515,
+      "input": 0.009,
       "output": 0.64
     },
     {
@@ -7780,7 +7780,7 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.165,
+      "input": 0.155,
       "output": 7.445
     },
     {
@@ -13404,5 +13404,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-10-10T11:37:08Z"
+  "updated_at": "2026-10-10T16:38:05Z"
 }
