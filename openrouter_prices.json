@@ -1327,8 +1327,8 @@
       "model": "moonshotai/kimi-k3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.4,
-      "output": 5.0
+      "input": 0.365,
+      "output": 6.75
     },
     {
       "model": "moonshotai/kimi-k3:batch",
@@ -3070,8 +3070,8 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.10956,
-      "output": 0.32868
+      "input": 0.10494,
+      "output": 0.31482
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
@@ -3098,8 +3098,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.375,
-      "output": 7.45
+      "input": 0.365,
+      "output": 6.75
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -3158,5 +3158,5 @@
       "output": 2.4
     }
   ],
-  "updated_at": "2026-10-11T17:04:00Z"
+  "updated_at": "2026-10-11T21:15:55Z"
 }
