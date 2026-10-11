@@ -5162,7 +5162,7 @@
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.00605,
+      "input": 0.0074,
       "output": 0.64
     },
     {
@@ -6010,7 +6010,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.4,
-      "output": 6.0
+      "output": 5.0
     },
     {
       "model": "moonshotai/kimi-k3:batch",
@@ -6996,8 +6996,8 @@
       "model": "qwen/qwen3-14b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.11
+      "input": 0.06,
+      "output": 0.12
     },
     {
       "model": "qwen/qwen3-235b-a22b-2507",
@@ -7759,7 +7759,7 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.00605,
+      "input": 0.0074,
       "output": 0.64
     },
     {
@@ -8797,6 +8797,16 @@
       }
     },
     {
+      "model": "deepseek-flash",
+      "type": "tokens",
+      "channel_type": 28,
+      "input": 0.075,
+      "output": 0.3,
+      "extra_ratios": {
+        "cached_tokens": 0.02
+      }
+    },
+    {
       "model": "deepseek-reasoner",
       "type": "tokens",
       "channel_type": 28,
@@ -8840,30 +8850,30 @@
       "model": "deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 28,
-      "input": 0.11,
-      "output": 0.33,
+      "input": 0.075,
+      "output": 0.3,
       "extra_ratios": {
-        "cached_tokens": 0.03182
+        "cached_tokens": 0.02
       }
     },
     {
       "model": "deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 28,
-      "input": 0.11,
-      "output": 0.33,
+      "input": 0.075,
+      "output": 0.3,
       "extra_ratios": {
-        "cached_tokens": 0.03182
+        "cached_tokens": 0.02
       }
     },
     {
       "model": "deepseek-v4-flash-vision-exp",
       "type": "tokens",
       "channel_type": 28,
-      "input": 0.11,
-      "output": 0.33,
+      "input": 0.075,
+      "output": 0.3,
       "extra_ratios": {
-        "cached_tokens": 0.03182
+        "cached_tokens": 0.02
       }
     },
     {
@@ -13404,5 +13414,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-10-11T03:02:14Z"
+  "updated_at": "2026-10-11T05:10:45Z"
 }
