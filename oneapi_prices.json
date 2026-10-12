@@ -5155,7 +5155,7 @@
       "model": "deepseek/deepseek-v4-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.015,
+      "input": 0.00375,
       "output": 0.64
     },
     {
@@ -5176,8 +5176,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.22133,
-      "output": 0.44266
+      "input": 0.20619,
+      "output": 0.41238
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -5470,8 +5470,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.15
+      "input": 0.03825,
+      "output": 0.1275
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -5710,6 +5710,13 @@
       "channel_type": 20,
       "input": 0.05,
       "output": 0.1
+    },
+    {
+      "model": "meta/muse-wonder",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 2.0,
+      "output": 10.0
     },
     {
       "model": "microsoft/phi-4",
@@ -6758,8 +6765,8 @@
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0185,
-      "output": 0.085
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "openai/gpt-oss-120b:batch",
@@ -7381,8 +7388,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -7395,8 +7402,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.417,
-      "output": 1.2505
+      "input": 0.3753,
+      "output": 1.12545
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -7745,8 +7752,8 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01665,
-      "output": 0.0666
+      "input": 0.0168,
+      "output": 0.594
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
@@ -13414,5 +13421,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-10-12T13:56:57Z"
+  "updated_at": "2026-10-12T23:58:11Z"
 }
