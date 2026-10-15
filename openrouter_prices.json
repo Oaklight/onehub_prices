@@ -239,13 +239,6 @@
       "output": 6.25
     },
     {
-      "model": "anthropic/claude-sonnet-4",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 1.5,
-      "output": 7.5
-    },
-    {
       "model": "anthropic/claude-sonnet-4.5",
       "type": "tokens",
       "channel_type": 20,
@@ -487,8 +480,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.47763,
-      "output": 0.95526
+      "input": 0.21211,
+      "output": 0.42421
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -1271,8 +1264,8 @@
       "model": "mistralai/mistral-small-3.2-24b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.1
+      "input": 0.04688,
+      "output": 0.125
     },
     {
       "model": "mistralai/mixtral-8x22b-instruct",
@@ -1458,6 +1451,13 @@
     },
     {
       "model": "nvidia/nemotron-3.5-lightning:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "nvidia/nemotron-3.5-super-vl:free",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0,
@@ -3000,15 +3000,15 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01,
+      "input": 0.03,
       "output": 3.5
     },
     {
       "model": "z-ai/glm-5.3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.015,
-      "output": 2.4
+      "input": 0.2,
+      "output": 4.0
     },
     {
       "model": "z-ai/glm-5.3-flash",
@@ -3091,7 +3091,7 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1125,
+      "input": 0.06535,
       "output": 4.0
     },
     {
@@ -3119,8 +3119,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.145,
-      "output": 12.0
+      "input": 0.22,
+      "output": 7.0
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -3182,9 +3182,9 @@
       "model": "~z-ai/glm-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.012,
+      "input": 0.0304,
       "output": 2.2
     }
   ],
-  "updated_at": "2026-10-15T10:35:02Z"
+  "updated_at": "2026-10-15T15:59:41Z"
 }
