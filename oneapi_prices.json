@@ -5169,15 +5169,15 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.18583,
-      "output": 0.37166
+      "input": 0.47763,
+      "output": 0.95526
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.33,
-      "output": 0.99
+      "input": 0.66,
+      "output": 1.98
     },
     {
       "model": "deepseek/deepseek-v4.1-flash",
@@ -5491,8 +5491,8 @@
       "model": "google/gemma-4-31b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.17
+      "input": 0.1,
+      "output": 0.2
     },
     {
       "model": "google/gemma-4-31b-it:free",
@@ -5638,8 +5638,8 @@
       "model": "meta-llama/llama-3.2-3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.165
+      "input": 0.02545,
+      "output": 0.1675
     },
     {
       "model": "meta-llama/llama-3.3-70b-instruct",
@@ -5772,7 +5772,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.135,
-      "output": 0.54
+      "output": 0.475
     },
     {
       "model": "minimax/minimax-m2.7",
@@ -6016,7 +6016,7 @@
       "model": "moonshotai/kimi-k3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
+      "input": 0.195,
       "output": 7.5
     },
     {
@@ -6765,8 +6765,8 @@
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0185,
-      "output": 0.085
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "openai/gpt-oss-120b:batch",
@@ -7227,8 +7227,8 @@
       "model": "qwen/qwen3.8-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 1.15
+      "input": 0.12,
+      "output": 1.1
     },
     {
       "model": "qwen/qwen3.8-flash",
@@ -7402,8 +7402,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04125,
-      "output": 0.165
+      "input": 0.066,
+      "output": 0.264
     },
     {
       "model": "tencent/hy3-preview",
@@ -7416,8 +7416,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3753,
-      "output": 1.12545
+      "input": 0.417,
+      "output": 1.2505
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -7661,8 +7661,8 @@
       "model": "z-ai/glm-5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 0.96
+      "input": 0.5,
+      "output": 1.6
     },
     {
       "model": "z-ai/glm-5-turbo",
@@ -7675,14 +7675,14 @@
       "model": "z-ai/glm-5.1",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.665,
-      "output": 2.09
+      "input": 0.483,
+      "output": 1.518
     },
     {
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
+      "input": 0.0185,
       "output": 3.5
     },
     {
@@ -7696,8 +7696,8 @@
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.25
+      "input": 0.018,
+      "output": 0.45
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
@@ -7773,7 +7773,7 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.06535,
+      "input": 0.1125,
       "output": 4.0
     },
     {
@@ -7801,8 +7801,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.245,
-      "output": 7.45
+      "input": 0.175,
+      "output": 7.0
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -7864,7 +7864,7 @@
       "model": "~z-ai/glm-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0304,
+      "input": 0.03,
       "output": 2.2
     },
     {
@@ -13442,5 +13442,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-10-14T21:07:13Z"
+  "updated_at": "2026-10-15T02:27:51Z"
 }
