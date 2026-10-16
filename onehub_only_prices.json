@@ -5085,8 +5085,8 @@
       "model": "deepseek/deepseek-chat",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1287,
-      "output": 0.51435
+      "input": 0.16,
+      "output": 0.445
     },
     {
       "model": "deepseek/deepseek-chat-v3-0324",
@@ -5148,7 +5148,7 @@
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.00655,
+      "input": 0.0077,
       "output": 0.64
     },
     {
@@ -5162,8 +5162,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.18914,
-      "output": 0.37828
+      "input": 0.1486,
+      "output": 0.29719
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -5176,15 +5176,15 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.018,
+      "output": 0.32175
     },
     {
       "model": "deepseek/deepseek-v4.1-flash:batch",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.056,
-      "output": 0.168
+      "input": 0.025,
+      "output": 0.075
     },
     {
       "model": "dots-studio/dots-3-note-preview:free",
@@ -5470,8 +5470,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.15
+      "input": 0.03375,
+      "output": 0.1125
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -7437,8 +7437,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -7451,8 +7451,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.417,
-      "output": 1.2505
+      "input": 0.3753,
+      "output": 1.12545
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -7637,6 +7637,13 @@
       "output": 4.35
     },
     {
+      "model": "xingchen-agi/xing4.0-29b-a4b:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "z-ai/glm-4.5",
       "type": "tokens",
       "channel_type": 20,
@@ -7724,8 +7731,8 @@
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01,
-      "output": 0.37
+      "input": 0.0083,
+      "output": 0.3904
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
@@ -7794,8 +7801,8 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01785,
-      "output": 0.0714
+      "input": 0.018,
+      "output": 0.32175
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
@@ -7808,7 +7815,7 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0059,
+      "input": 0.00693,
       "output": 0.576
     },
     {
@@ -7885,8 +7892,8 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01,
-      "output": 0.37
+      "input": 0.0083,
+      "output": 0.3904
     },
     {
       "model": "~z-ai/glm-latest",
