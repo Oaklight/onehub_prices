@@ -466,7 +466,7 @@
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.009,
+      "input": 0.0026,
       "output": 0.64
     },
     {
@@ -2776,8 +2776,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -2790,8 +2790,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.417,
-      "output": 1.2505
+      "input": 0.3753,
+      "output": 1.12545
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -3021,8 +3021,8 @@
       "model": "z-ai/glm-4.7",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.27,
-      "output": 0.99
+      "input": 0.3,
+      "output": 1.1
     },
     {
       "model": "z-ai/glm-4.7-flash",
@@ -3140,8 +3140,8 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.25
+      "input": 0.045,
+      "output": 0.275
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
@@ -3154,7 +3154,7 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.009,
+      "input": 0.0026,
       "output": 0.64
     },
     {
@@ -3242,5 +3242,5 @@
       "output": 2.2
     }
   ],
-  "updated_at": "2026-10-17T14:41:24Z"
+  "updated_at": "2026-10-17T19:52:18Z"
 }
