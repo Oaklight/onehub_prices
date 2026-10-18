@@ -5148,8 +5148,8 @@
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.15
+      "input": 0.0043,
+      "output": 0.225
     },
     {
       "model": "deepseek/deepseek-v4-flash-vision-exp",
@@ -5176,7 +5176,7 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.036,
+      "input": 0.0324,
       "output": 0.072
     },
     {
@@ -7753,7 +7753,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0395,
-      "output": 1.6
+      "output": 1.25
     },
     {
       "model": "z-ai/glm-5.3-flash",
@@ -7829,8 +7829,8 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.25
+      "input": 0.025,
+      "output": 0.3
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
@@ -7843,8 +7843,8 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.00325,
-      "output": 0.64
+      "input": 0.0043,
+      "output": 0.225
     },
     {
       "model": "~google/gemini-flash-latest",
