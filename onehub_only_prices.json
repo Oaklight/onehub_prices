@@ -5155,8 +5155,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.47763,
-      "output": 0.95526
+      "input": 0.20358,
+      "output": 0.40716
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -5169,7 +5169,7 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
+      "input": 0.016,
       "output": 0.04
     },
     {
@@ -5551,6 +5551,13 @@
       "output": 0.075
     },
     {
+      "model": "inception/mercury-3",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.175
+    },
+    {
       "model": "inclusionai/ling-3.0-flash",
       "type": "tokens",
       "channel_type": 20,
@@ -5787,6 +5794,13 @@
       "channel_type": 20,
       "input": 0.15,
       "output": 0.6
+    },
+    {
+      "model": "minimax/minimax-m3.1-flash:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "mistralai/codestral-2508",
@@ -7437,8 +7451,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -7451,8 +7465,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.417,
-      "output": 1.2505
+      "input": 0.3753,
+      "output": 1.12545
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -7808,21 +7822,21 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.075
+      "input": 0.02,
+      "output": 0.3
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1125,
+      "input": 0.06535,
       "output": 4.0
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0026,
+      "input": 0.00344,
       "output": 0.06
     },
     {
@@ -7844,7 +7858,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.119,
-      "output": 6.5
+      "output": 8.0
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -7906,7 +7920,7 @@
       "model": "~z-ai/glm-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0235,
+      "input": 0.0295,
       "output": 3.0
     },
     {
