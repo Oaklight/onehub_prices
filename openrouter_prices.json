@@ -459,8 +459,8 @@
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.22,
-      "output": 0.66
+      "input": 0.0649,
+      "output": 0.1947
     },
     {
       "model": "deepseek/deepseek-v4-flash-vision-exp",
@@ -473,8 +473,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.47763,
-      "output": 0.95526
+      "input": 0.20532,
+      "output": 0.41064
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -487,7 +487,7 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.028,
+      "input": 0.01416,
       "output": 0.06
     },
     {
@@ -554,13 +554,6 @@
       "output": 0.1
     },
     {
-      "model": "google/gemini-2.5-flash:batch",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.075,
-      "output": 0.625
-    },
-    {
       "model": "google/gemini-2.5-pro",
       "type": "tokens",
       "channel_type": 20,
@@ -573,13 +566,6 @@
       "channel_type": 20,
       "input": 0.625,
       "output": 5.0
-    },
-    {
-      "model": "google/gemini-2.5-pro:batch",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.3125,
-      "output": 2.5
     },
     {
       "model": "google/gemini-3-flash-preview",
@@ -3035,8 +3021,8 @@
       "model": "z-ai/glm-5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
-      "output": 0.96
+      "input": 0.5,
+      "output": 1.6
     },
     {
       "model": "z-ai/glm-5-turbo",
@@ -3070,7 +3056,7 @@
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01874,
+      "input": 0.024,
       "output": 0.08
     },
     {
@@ -3147,14 +3133,14 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1125,
+      "input": 0.06535,
       "output": 4.0
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0026,
+      "input": 0.00456,
       "output": 0.06
     },
     {
@@ -3231,7 +3217,7 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01874,
+      "input": 0.024,
       "output": 0.08
     },
     {
@@ -3242,5 +3228,5 @@
       "output": 0.7
     }
   ],
-  "updated_at": "2026-10-20T10:41:03Z"
+  "updated_at": "2026-10-20T16:03:20Z"
 }
