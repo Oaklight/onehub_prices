@@ -5169,15 +5169,15 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0176,
-      "output": 0.0056
+      "input": 0.028,
+      "output": 0.06
     },
     {
       "model": "deepseek/deepseek-v4.1-flash-1017",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "deepseek/deepseek-v4.1-flash:batch",
@@ -5477,8 +5477,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03825,
-      "output": 0.1275
+      "input": 0.045,
+      "output": 0.15
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -7276,8 +7276,8 @@
       "model": "qwen/qwen3.8-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.12,
-      "output": 1.1
+      "input": 0.02,
+      "output": 0.675
     },
     {
       "model": "qwen/qwen3.8-flash",
@@ -7752,8 +7752,8 @@
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.25
+      "input": 0.01874,
+      "output": 0.08
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
@@ -7822,21 +7822,21 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.012
+      "input": 0.035,
+      "output": 0.25
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1008,
+      "input": 0.1125,
       "output": 4.0
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.00196,
+      "input": 0.0026,
       "output": 0.06
     },
     {
@@ -7913,7 +7913,7 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02954,
+      "input": 0.01874,
       "output": 0.08
     },
     {
