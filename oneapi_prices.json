@@ -5141,8 +5141,8 @@
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.22,
-      "output": 0.66
+      "input": 0.02222,
+      "output": 0.06666
     },
     {
       "model": "deepseek/deepseek-v4-flash-vision-exp",
@@ -5155,8 +5155,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.47763,
-      "output": 0.95526
+      "input": 0.21376,
+      "output": 0.42752
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -5169,7 +5169,7 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0245,
+      "input": 0.01197,
       "output": 0.1875
     },
     {
@@ -6107,8 +6107,8 @@
       "model": "nvidia/nemotron-3-super-120b-a12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 1.2
+      "input": 0.04,
+      "output": 0.225
     },
     {
       "model": "nvidia/nemotron-3-super-120b-a12b:free",
@@ -7437,8 +7437,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -7451,8 +7451,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.417,
-      "output": 1.2505
+      "input": 0.3753,
+      "output": 1.12545
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -7815,15 +7815,15 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1125,
+      "input": 0.06535,
       "output": 4.0
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02375,
-      "output": 0.0784
+      "input": 0.0211,
+      "output": 0.08645
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -13491,5 +13491,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-10-21T10:51:47Z"
+  "updated_at": "2026-10-21T16:20:14Z"
 }
