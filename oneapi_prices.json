@@ -5169,15 +5169,15 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.035,
-      "output": 0.25
+      "input": 0.0245,
+      "output": 0.1875
     },
     {
       "model": "deepseek/deepseek-v4.1-flash-1017",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "deepseek/deepseek-v4.1-flash:batch",
@@ -5463,8 +5463,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03825,
-      "output": 0.1275
+      "input": 0.045,
+      "output": 0.15
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -7738,8 +7738,8 @@
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.25
+      "input": 0.0206,
+      "output": 0.06
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
@@ -7808,8 +7808,8 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.035,
-      "output": 0.25
+      "input": 0.0245,
+      "output": 0.1875
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
@@ -7822,8 +7822,8 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0105,
-      "output": 0.264
+      "input": 0.02375,
+      "output": 0.0784
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -7844,7 +7844,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.119,
-      "output": 8.0
+      "output": 12.0
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -7899,8 +7899,8 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03692,
-      "output": 0.12307
+      "input": 0.0206,
+      "output": 0.06
     },
     {
       "model": "~z-ai/glm-latest",
@@ -13491,5 +13491,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-10-21T02:36:57Z"
+  "updated_at": "2026-10-21T10:51:47Z"
 }
