@@ -774,8 +774,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.15
+      "input": 0.03825,
+      "output": 0.1275
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -3162,7 +3162,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.119,
-      "output": 8.0
+      "output": 12.0
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -3228,5 +3228,5 @@
       "output": 0.7
     }
   ],
-  "updated_at": "2026-10-22T16:19:23Z"
+  "updated_at": "2026-10-22T20:59:37Z"
 }
