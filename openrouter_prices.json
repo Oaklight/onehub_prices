@@ -480,22 +480,22 @@
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.66,
-      "output": 1.98
+      "input": 0.33,
+      "output": 0.99
     },
     {
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0825,
-      "output": 0.33
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "deepseek/deepseek-v4.1-flash-1017",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "deepseek/deepseek-v4.1-flash:batch",
@@ -774,8 +774,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03825,
-      "output": 0.1275
+      "input": 0.045,
+      "output": 0.15
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -2482,8 +2482,8 @@
       "model": "qwen/qwen3.5-9b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04,
-      "output": 0.065
+      "input": 0.085,
+      "output": 0.125
     },
     {
       "model": "qwen/qwen3.5-flash-02-23",
@@ -2573,8 +2573,8 @@
       "model": "qwen/qwen3.8-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 0.675
+      "input": 0.1,
+      "output": 1.25
     },
     {
       "model": "qwen/qwen3.8-flash",
@@ -3133,7 +3133,7 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1125,
+      "input": 0.12825,
       "output": 4.0
     },
     {
@@ -3228,5 +3228,5 @@
       "output": 0.7
     }
   ],
-  "updated_at": "2026-10-23T02:38:53Z"
+  "updated_at": "2026-10-23T10:43:58Z"
 }
