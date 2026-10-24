@@ -473,8 +473,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.37166,
-      "output": 0.74333
+      "input": 0.32094,
+      "output": 0.64189
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -487,8 +487,8 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.01,
+      "output": 0.5
     },
     {
       "model": "deepseek/deepseek-v4.1-flash-1017",
@@ -2762,8 +2762,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04125,
-      "output": 0.165
+      "input": 0.066,
+      "output": 0.264
     },
     {
       "model": "tencent/hy3-preview",
@@ -2776,8 +2776,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3753,
-      "output": 1.12545
+      "input": 0.417,
+      "output": 1.2505
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -3133,8 +3133,8 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.035,
-      "output": 0.25
+      "input": 0.01,
+      "output": 0.5
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
@@ -3148,7 +3148,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0211,
-      "output": 0.08645
+      "output": 0.0847
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -3169,7 +3169,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.119,
-      "output": 12.0
+      "output": 8.0
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -3224,8 +3224,8 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0026,
-      "output": 0.09925
+      "input": 0.0152,
+      "output": 0.0426
     },
     {
       "model": "~z-ai/glm-latest",
@@ -3235,5 +3235,5 @@
       "output": 0.7
     }
   ],
-  "updated_at": "2026-10-23T20:48:51Z"
+  "updated_at": "2026-10-24T02:36:45Z"
 }
