@@ -5155,8 +5155,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.10805,
-      "output": 0.21611
+      "input": 0.1044,
+      "output": 0.2088
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -6174,13 +6174,6 @@
       "output": 0.0
     },
     {
-      "model": "openai/gpt-3.5-turbo",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.25,
-      "output": 0.75
-    },
-    {
       "model": "openai/gpt-3.5-turbo-0613",
       "type": "tokens",
       "channel_type": 20,
@@ -6193,20 +6186,6 @@
       "channel_type": 20,
       "input": 1.5,
       "output": 2.0
-    },
-    {
-      "model": "openai/gpt-3.5-turbo-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.75,
-      "output": 1.0
-    },
-    {
-      "model": "openai/gpt-3.5-turbo:batch",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.125,
-      "output": 0.375
     },
     {
       "model": "openai/gpt-4",
@@ -7444,8 +7423,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -7458,8 +7437,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.417,
-      "output": 1.2505
+      "input": 0.3753,
+      "output": 1.12545
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -7738,8 +7717,8 @@
       "model": "z-ai/glm-5.3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0395,
-      "output": 0.7
+      "input": 0.0454,
+      "output": 0.805
     },
     {
       "model": "z-ai/glm-5.3-flash",
@@ -7906,7 +7885,7 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02555,
+      "input": 0.02535,
       "output": 0.0351
     },
     {
@@ -13498,5 +13477,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-10-24T15:05:09Z"
+  "updated_at": "2026-10-24T19:59:42Z"
 }
