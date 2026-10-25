@@ -459,8 +459,8 @@
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0211,
-      "output": 0.0847
+      "input": 0.02222,
+      "output": 0.06666
     },
     {
       "model": "deepseek/deepseek-v4-flash-vision-exp",
@@ -3134,7 +3134,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0211,
-      "output": 0.0847
+      "output": 0.08815
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -3154,8 +3154,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.107,
-      "output": 8.0
+      "input": 0.10735,
+      "output": 4.05565
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -3221,5 +3221,5 @@
       "output": 2.19215
     }
   ],
-  "updated_at": "2026-10-25T10:25:42Z"
+  "updated_at": "2026-10-25T15:17:41Z"
 }
