@@ -295,13 +295,6 @@
       "output": 2.5
     },
     {
-      "model": "arcee-ai/trinity-large-thinking",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.125,
-      "output": 0.4
-    },
-    {
       "model": "bytedance-seed/seed-1.6",
       "type": "tokens",
       "channel_type": 20,
@@ -459,8 +452,8 @@
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.22,
-      "output": 0.66
+      "input": 0.02222,
+      "output": 0.06666
     },
     {
       "model": "deepseek/deepseek-v4-flash-vision-exp",
@@ -473,8 +466,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.47763,
-      "output": 0.95526
+      "input": 0.37688,
+      "output": 0.75377
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -1348,7 +1341,7 @@
       "model": "moonshotai/kimi-k3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.101,
+      "input": 0.0895,
       "output": 10.0
     },
     {
@@ -2748,8 +2741,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -2762,8 +2755,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.417,
-      "output": 1.2505
+      "input": 0.3753,
+      "output": 1.12545
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -3126,15 +3119,15 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.12825,
+      "input": 0.0594,
       "output": 4.0
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02375,
-      "output": 0.0784
+      "input": 0.0211,
+      "output": 0.0847
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -3154,8 +3147,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.09595,
-      "output": 3.8486
+      "input": 0.0895,
+      "output": 10.0
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -3221,5 +3214,5 @@
       "output": 0.7
     }
   ],
-  "updated_at": "2026-10-26T11:55:06Z"
+  "updated_at": "2026-10-26T17:57:58Z"
 }
