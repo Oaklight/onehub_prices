@@ -466,8 +466,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.44022,
-      "output": 0.88044
+      "input": 0.4377,
+      "output": 0.87539
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -767,8 +767,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.15
+      "input": 0.03825,
+      "output": 0.1275
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -1299,8 +1299,8 @@
       "model": "moonshotai/kimi-k3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 10.0
+      "input": 0.0845,
+      "output": 5.75
     },
     {
       "model": "moonshotai/kimi-k3.1-pro",
@@ -2269,6 +2269,13 @@
       "output": 0.25
     },
     {
+      "model": "prism-ml/ternary-bonsai-2-9b",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.04,
+      "output": 0.065
+    },
+    {
       "model": "qwen/qwen-2.5-72b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -3007,7 +3014,7 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01705,
+      "input": 0.01595,
       "output": 3.5
     },
     {
@@ -3091,8 +3098,8 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.011,
-      "output": 0.605
+      "input": 0.0091,
+      "output": 0.9
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
@@ -3126,8 +3133,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 10.0
+      "input": 0.08025,
+      "output": 4.47
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -3182,8 +3189,8 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02085,
-      "output": 0.037
+      "input": 0.0208,
+      "output": 0.0399
     },
     {
       "model": "~z-ai/glm-latest",
@@ -3193,5 +3200,5 @@
       "output": 0.7
     }
   ],
-  "updated_at": "2026-10-27T17:03:36Z"
+  "updated_at": "2026-10-27T21:36:46Z"
 }
