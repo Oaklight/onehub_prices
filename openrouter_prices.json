@@ -466,8 +466,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.47763,
-      "output": 0.95526
+      "input": 0.43265,
+      "output": 0.8653
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -1152,8 +1152,8 @@
       "model": "mistralai/mistral-large-4-0",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.68,
-      "output": 2.09
+      "input": 0.35,
+      "output": 1.05
     },
     {
       "model": "mistralai/mistral-medium-3",
@@ -2678,8 +2678,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -2692,8 +2692,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.417,
-      "output": 1.2505
+      "input": 0.3753,
+      "output": 1.12545
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -2771,13 +2771,6 @@
       "channel_type": 20,
       "input": 0.025,
       "output": 0.1
-    },
-    {
-      "model": "upstage/solar-pro-3",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
     },
     {
       "model": "upstage/solar-pro4",
@@ -2979,8 +2972,8 @@
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02285,
-      "output": 0.0371
+      "input": 0.075,
+      "output": 0.25
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
@@ -3049,8 +3042,8 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01165,
-      "output": 0.9
+      "input": 0.022,
+      "output": 0.1915
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
@@ -3063,8 +3056,8 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0285,
-      "output": 0.06705
+      "input": 0.02545,
+      "output": 0.07435
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -3140,8 +3133,8 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02285,
-      "output": 0.0371
+      "input": 0.02515,
+      "output": 0.0354
     },
     {
       "model": "~z-ai/glm-latest",
@@ -3151,5 +3144,5 @@
       "output": 0.7
     }
   ],
-  "updated_at": "2026-10-29T11:59:08Z"
+  "updated_at": "2026-10-29T18:09:01Z"
 }
