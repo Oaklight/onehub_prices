@@ -5771,8 +5771,8 @@
       "model": "minimax/minimax-m3.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.0375,
+      "output": 0.15
     },
     {
       "model": "mistralai/codestral-2508",
@@ -6874,34 +6874,6 @@
       "output": 4.0
     },
     {
-      "model": "poolside/laguna-s-2.1",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.045,
-      "output": 0.09
-    },
-    {
-      "model": "poolside/laguna-s-2.1:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "poolside/laguna-xs-2.1",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.03,
-      "output": 0.06
-    },
-    {
-      "model": "poolside/laguna-xs-2.1:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "prism-ml/ternary-bonsai-2-27b",
       "type": "tokens",
       "channel_type": 20,
@@ -7360,8 +7332,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -7374,8 +7346,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.417,
-      "output": 1.2505
+      "input": 0.3753,
+      "output": 1.12545
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -13407,5 +13379,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-10-31T11:26:42Z"
+  "updated_at": "2026-10-31T16:33:01Z"
 }
