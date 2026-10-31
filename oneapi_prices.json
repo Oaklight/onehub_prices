@@ -7178,8 +7178,8 @@
       "model": "qwen/qwen3.8-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.9375
+      "input": 0.02,
+      "output": 1.15
     },
     {
       "model": "qwen/qwen3.8-flash",
@@ -7641,7 +7641,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.003,
-      "output": 3.5
+      "output": 3.4
     },
     {
       "model": "z-ai/glm-5.3",
@@ -7654,8 +7654,8 @@
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0108,
-      "output": 0.0619
+      "input": 0.00815,
+      "output": 0.07395
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
@@ -7724,22 +7724,22 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.011,
-      "output": 0.096
+      "input": 0.00705,
+      "output": 0.072
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.05175,
-      "output": 2.0
+      "output": 4.0
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02145,
-      "output": 0.0716
+      "input": 0.02882,
+      "output": 0.08646
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -7759,8 +7759,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07695,
-      "output": 5.07445
+      "input": 0.07475,
+      "output": 3.575
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -7815,8 +7815,8 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0108,
-      "output": 0.0619
+      "input": 0.00815,
+      "output": 0.07395
     },
     {
       "model": "~z-ai/glm-latest",
@@ -13407,5 +13407,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-10-31T03:24:00Z"
+  "updated_at": "2026-10-31T11:26:42Z"
 }
