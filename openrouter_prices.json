@@ -2062,8 +2062,8 @@
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.0085,
+      "output": 0.032
     },
     {
       "model": "openai/gpt-oss-120b:batch",
@@ -2076,8 +2076,8 @@
       "model": "openai/gpt-oss-20b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.009,
-      "output": 0.045
+      "input": 0.015,
+      "output": 0.065
     },
     {
       "model": "openai/gpt-oss-20b:batch",
@@ -2937,15 +2937,15 @@
       "model": "z-ai/glm-5.3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03495,
-      "output": 0.7
+      "input": 0.04,
+      "output": 1.8
     },
     {
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.00745,
-      "output": 0.0897
+      "input": 0.01425,
+      "output": 0.04615
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
@@ -3014,8 +3014,8 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.00705,
-      "output": 0.072
+      "input": 0.0175,
+      "output": 0.25
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
@@ -3105,8 +3105,8 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.00745,
-      "output": 0.0897
+      "input": 0.01425,
+      "output": 0.04615
     },
     {
       "model": "~z-ai/glm-latest",
@@ -3116,5 +3116,5 @@
       "output": 0.7
     }
   ],
-  "updated_at": "2026-11-01T03:24:33Z"
+  "updated_at": "2026-11-01T12:21:36Z"
 }
