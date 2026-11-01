@@ -5771,8 +5771,8 @@
       "model": "minimax/minimax-m3.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.15
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "mistralai/codestral-2508",
@@ -7150,8 +7150,8 @@
       "model": "qwen/qwen3.8-27b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02,
-      "output": 1.15
+      "input": 0.075,
+      "output": 0.9375
     },
     {
       "model": "qwen/qwen3.8-flash",
@@ -7332,8 +7332,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04125,
-      "output": 0.165
+      "input": 0.066,
+      "output": 0.264
     },
     {
       "model": "tencent/hy3-preview",
@@ -7346,8 +7346,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3753,
-      "output": 1.12545
+      "input": 0.417,
+      "output": 1.2505
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -7626,8 +7626,8 @@
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.00815,
-      "output": 0.07395
+      "input": 0.00745,
+      "output": 0.0897
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
@@ -7696,8 +7696,8 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0085,
-      "output": 0.0655
+      "input": 0.00705,
+      "output": 0.072
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
@@ -7710,8 +7710,8 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02552,
-      "output": 0.07656
+      "input": 0.0217,
+      "output": 0.15
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -7787,8 +7787,8 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.00815,
-      "output": 0.07395
+      "input": 0.00745,
+      "output": 0.0897
     },
     {
       "model": "~z-ai/glm-latest",
