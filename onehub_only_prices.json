@@ -5169,8 +5169,8 @@
       "model": "deepseek/deepseek-v4.1-flash-1017",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "deepseek/deepseek-v4.1-flash:batch",
@@ -5449,8 +5449,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0115,
-      "output": 0.0345
+      "input": 0.0445,
+      "output": 0.134
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -6025,20 +6025,6 @@
       "channel_type": 20,
       "input": 0.0375,
       "output": 0.125
-    },
-    {
-      "model": "nousresearch/hermes-3-llama-3.1-405b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.5,
-      "output": 0.5
-    },
-    {
-      "model": "nousresearch/hermes-3-llama-3.1-70b",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.35,
-      "output": 0.35
     },
     {
       "model": "nousresearch/hermes-4-405b",
@@ -6758,8 +6744,8 @@
       "model": "openai/gpt-oss-20b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.009,
-      "output": 0.045
+      "input": 0.015,
+      "output": 0.065
     },
     {
       "model": "openai/gpt-oss-20b:batch",
@@ -6975,8 +6961,8 @@
       "model": "qwen/qwen3-coder-30b-a3b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.035,
+      "output": 0.14
     },
     {
       "model": "qwen/qwen3-coder-flash",
@@ -7638,6 +7624,13 @@
     },
     {
       "model": "z-ai/glm-5.3-flashx",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.185,
+      "output": 0.625
+    },
+    {
+      "model": "z-ai/glm-5.3-flashx-legal",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.185,
