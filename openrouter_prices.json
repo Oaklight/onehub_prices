@@ -767,8 +767,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
-      "output": 0.0895
+      "input": 0.036,
+      "output": 0.1085
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -1089,8 +1089,8 @@
       "model": "minimax/minimax-m3.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.0375,
+      "output": 0.15
     },
     {
       "model": "mistralai/codestral-2508",
@@ -1299,8 +1299,8 @@
       "model": "moonshotai/kimi-k3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.096,
-      "output": 7.5
+      "input": 0.138,
+      "output": 4.8
     },
     {
       "model": "moonshotai/kimi-k3.1-pro",
@@ -2048,8 +2048,8 @@
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.01,
+      "output": 0.0375
     },
     {
       "model": "openai/gpt-oss-120b:batch",
@@ -2062,8 +2062,8 @@
       "model": "openai/gpt-oss-20b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.015,
-      "output": 0.065
+      "input": 0.009,
+      "output": 0.045
     },
     {
       "model": "openai/gpt-oss-20b:batch",
@@ -2237,8 +2237,8 @@
       "model": "qwen/qwen3-235b-a22b-2507",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.275
+      "input": 0.07,
+      "output": 0.4
     },
     {
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -2584,6 +2584,13 @@
       "output": 0.0
     },
     {
+      "model": "stealth/crouton-alpha",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "stepfun/step-3.5-flash",
       "type": "tokens",
       "channel_type": 20,
@@ -2636,8 +2643,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -2650,8 +2657,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.417,
-      "output": 1.2505
+      "input": 0.3753,
+      "output": 1.12545
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -2787,11 +2794,25 @@
       "output": 3.0
     },
     {
+      "model": "x-ai/grok-4.6:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.8,
+      "output": 2.4
+    },
+    {
       "model": "x-ai/grok-4.7",
       "type": "tokens",
       "channel_type": 20,
       "input": 1.0,
       "output": 3.0
+    },
+    {
+      "model": "x-ai/grok-4.7:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.8,
+      "output": 2.4
     },
     {
       "model": "x-ai/grok-build-0.1",
@@ -3042,8 +3063,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0774,
-      "output": 4.6694
+      "input": 0.08075,
+      "output": 5.07755
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -3109,5 +3130,5 @@
       "output": 0.7
     }
   ],
-  "updated_at": "2026-11-03T13:17:54Z"
+  "updated_at": "2026-11-03T22:42:23Z"
 }
