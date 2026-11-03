@@ -5449,8 +5449,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0335,
-      "output": 0.1005
+      "input": 0.03,
+      "output": 0.0895
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -5596,8 +5596,8 @@
       "model": "meta-llama/llama-3.1-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2,
-      "output": 0.2
+      "input": 0.36,
+      "output": 0.36
     },
     {
       "model": "meta-llama/llama-3.1-8b-instruct",
@@ -5771,8 +5771,8 @@
       "model": "minimax/minimax-m3.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.15
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "mistralai/codestral-2508",
@@ -7612,8 +7612,8 @@
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01425,
-      "output": 0.04615
+      "input": 0.01565,
+      "output": 0.0423
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
@@ -7690,7 +7690,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0175,
-      "output": 0.25
+      "output": 0.1575
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
@@ -7724,8 +7724,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07475,
-      "output": 3.575
+      "input": 0.0774,
+      "output": 4.6694
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -7780,8 +7780,8 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01425,
-      "output": 0.04615
+      "input": 0.01565,
+      "output": 0.0423
     },
     {
       "model": "~z-ai/glm-latest",
@@ -9830,6 +9830,13 @@
     },
     {
       "model": "Kwai-Kolors/Kolors",
+      "type": "times",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "OpenMOSS-Team/MOSS-Image",
       "type": "times",
       "channel_type": 45,
       "input": 0.0,
