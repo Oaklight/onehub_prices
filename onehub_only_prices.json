@@ -5134,7 +5134,7 @@
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0283,
+      "input": 0.0217,
       "output": 0.15
     },
     {
@@ -5418,6 +5418,20 @@
       "output": 3.75
     },
     {
+      "model": "google/gemini-omni-1.1-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.75,
+      "output": 4.5
+    },
+    {
+      "model": "google/gemini-omni-1.2-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.75,
+      "output": 4.5
+    },
+    {
       "model": "google/gemma-2-27b-it",
       "type": "tokens",
       "channel_type": 20,
@@ -5449,8 +5463,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.033,
-      "output": 0.0985
+      "input": 0.03825,
+      "output": 0.1275
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -5631,8 +5645,8 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
-      "output": 0.26
+      "input": 0.295,
+      "output": 0.395
     },
     {
       "model": "meta-llama/llama-4-maverick",
@@ -5750,8 +5764,8 @@
       "model": "minimax/minimax-m3.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.0375,
+      "output": 0.15
     },
     {
       "model": "mistralai/codestral-2508",
@@ -7157,7 +7171,7 @@
       "model": "reflection/beam-1.0-501b-a23b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.125,
+      "input": 0.15,
       "output": 0.5
     },
     {
@@ -7311,8 +7325,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -7332,8 +7346,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.417,
-      "output": 1.2505
+      "input": 0.3753,
+      "output": 1.12545
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -7703,7 +7717,7 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0283,
+      "input": 0.0217,
       "output": 0.15
     },
     {
@@ -7725,7 +7739,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0912,
-      "output": 5.2724
+      "output": 5.07445
     },
     {
       "model": "~openai/gpt-astra-latest",
