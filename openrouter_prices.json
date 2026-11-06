@@ -396,8 +396,8 @@
       "model": "deepseek/deepseek-chat",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1287,
-      "output": 0.51435
+      "input": 0.16,
+      "output": 0.445
     },
     {
       "model": "deepseek/deepseek-chat-v3-0324",
@@ -466,22 +466,22 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.47763,
-      "output": 0.95526
+      "input": 0.44701,
+      "output": 0.89401
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0515,
-      "output": 2.055
+      "input": 0.05825,
+      "output": 2.33
     },
     {
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0225,
-      "output": 0.25
+      "input": 0.0255,
+      "output": 0.2835
     },
     {
       "model": "deepseek/deepseek-v4.1-flash-1017",
@@ -781,8 +781,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03825,
-      "output": 0.1275
+      "input": 0.045,
+      "output": 0.15
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -1362,8 +1362,8 @@
       "model": "nvidia/nemotron-3-super-120b-a12b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 1.2
+      "input": 0.0375,
+      "output": 0.2
     },
     {
       "model": "nvidia/nemotron-3-ultra-550b-a55b",
@@ -1385,13 +1385,6 @@
       "channel_type": 20,
       "input": 0.1,
       "output": 0.1
-    },
-    {
-      "model": "nvidia/nemotron-3.5-content-safety:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "nvidia/nemotron-3.5-lightning",
@@ -2041,8 +2034,8 @@
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0115,
-      "output": 0.0425
+      "input": 0.012,
+      "output": 0.045
     },
     {
       "model": "openai/gpt-oss-120b:batch",
@@ -3028,15 +3021,15 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04635,
+      "input": 0.04995,
       "output": 4.0
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0295,
-      "output": 0.15
+      "input": 0.02948,
+      "output": 0.08844
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -3056,7 +3049,7 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.07645,
+      "input": 0.0912,
       "output": 4.6694
     },
     {
@@ -3112,8 +3105,8 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01675,
-      "output": 0.0415
+      "input": 0.0142,
+      "output": 0.04615
     },
     {
       "model": "~z-ai/glm-latest",
@@ -3123,5 +3116,5 @@
       "output": 0.7
     }
   ],
-  "updated_at": "2026-11-06T04:20:08Z"
+  "updated_at": "2026-11-06T13:28:27Z"
 }
