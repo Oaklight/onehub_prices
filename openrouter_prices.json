@@ -473,8 +473,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.45,
-      "output": 0.75
+      "input": 0.13085,
+      "output": 0.2617
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -488,7 +488,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0255,
-      "output": 0.2835
+      "output": 0.205
     },
     {
       "model": "deepseek/deepseek-v4.1-flash-1017",
@@ -846,27 +846,6 @@
       "channel_type": 20,
       "input": 0.03,
       "output": 0.125
-    },
-    {
-      "model": "inception/mercury-2",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.125,
-      "output": 0.375
-    },
-    {
-      "model": "inception/mercury-2.5",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.02,
-      "output": 0.075
-    },
-    {
-      "model": "inception/mercury-3",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.05,
-      "output": 0.175
     },
     {
       "model": "inclusionai/ling-3.0-flash",
@@ -1348,7 +1327,7 @@
       "model": "moonshotai/kimi-k3:batch",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.542,
+      "input": 0.4985,
       "output": 3.0
     },
     {
@@ -2090,8 +2069,8 @@
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0125,
-      "output": 0.046
+      "input": 0.012,
+      "output": 0.045
     },
     {
       "model": "openai/gpt-oss-120b:batch",
@@ -3126,8 +3105,8 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0831,
-      "output": 5.0699
+      "input": 0.08025,
+      "output": 5.07915
     },
     {
       "model": "~openai/gpt-astra-latest",
@@ -3193,5 +3172,5 @@
       "output": 0.7
     }
   ],
-  "updated_at": "2026-11-08T03:30:48Z"
+  "updated_at": "2026-11-08T12:29:04Z"
 }
