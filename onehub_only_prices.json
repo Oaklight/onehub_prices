@@ -5183,8 +5183,8 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0255,
-      "output": 0.2835
+      "input": 0.003,
+      "output": 0.25
     },
     {
       "model": "deepseek/deepseek-v4.1-flash-1017",
@@ -5792,8 +5792,8 @@
       "model": "minimax/minimax-m3.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.15
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "minimax/minimax-m3:batch",
@@ -6067,6 +6067,13 @@
       "channel_type": 20,
       "input": 0.0375,
       "output": 0.125
+    },
+    {
+      "model": "nex-agi/nex-n2.6",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.06,
+      "output": 0.2
     },
     {
       "model": "nousresearch/hermes-4-405b",
@@ -7675,15 +7682,15 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.003,
+      "input": 0.005,
       "output": 3.4
     },
     {
       "model": "z-ai/glm-5.2:batch",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3115,
-      "output": 0.6355
+      "input": 0.2635,
+      "output": 0.5375
     },
     {
       "model": "z-ai/glm-5.3",
@@ -7696,8 +7703,8 @@
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.25
+      "input": 0.01995,
+      "output": 0.0392
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
@@ -7808,7 +7815,7 @@
       "model": "~moonshotai/kimi-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.08595,
+      "input": 0.0912,
       "output": 4.6694
     },
     {
@@ -7864,8 +7871,8 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01675,
-      "output": 0.0415
+      "input": 0.01995,
+      "output": 0.0392
     },
     {
       "model": "~z-ai/glm-latest",
@@ -9920,6 +9927,13 @@
       "output": 0.0
     },
     {
+      "model": "MiniMaxAI/MiniMax-H3",
+      "type": "times",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "OpenMOSS-Team/MOSS-Image",
       "type": "times",
       "channel_type": 45,
@@ -9988,13 +10002,6 @@
       "channel_type": 45,
       "input": 0.46429,
       "output": 1.92857
-    },
-    {
-      "model": "Pro/zai-org/GLM-5.1",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.42857,
-      "output": 2.0
     },
     {
       "model": "Qwen/Qwen-Image",
@@ -10303,20 +10310,6 @@
       "channel_type": 45,
       "input": 0.1,
       "output": 0.1
-    },
-    {
-      "model": "Wan-AI/Wan2.2-I2V-A14B",
-      "type": "times",
-      "channel_type": 45,
-      "input": 2.0,
-      "output": 2.0
-    },
-    {
-      "model": "Wan-AI/Wan2.2-T2V-A14B",
-      "type": "times",
-      "channel_type": 45,
-      "input": 2.0,
-      "output": 2.0
     },
     {
       "model": "XingChenAGI/Xing4.0-29B",
