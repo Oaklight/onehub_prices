@@ -5162,8 +5162,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.44701,
-      "output": 0.89401
+      "input": 0.47763,
+      "output": 0.95526
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -5485,7 +5485,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.04,
-      "output": 0.225
+      "output": 0.175
     },
     {
       "model": "google/gemma-3-4b-it",
@@ -5806,8 +5806,8 @@
       "model": "minimax/minimax-m3.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.0375,
+      "output": 0.15
     },
     {
       "model": "minimax/minimax-m3:batch",
@@ -7395,8 +7395,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -7416,8 +7416,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.417,
-      "output": 1.2505
+      "input": 0.3753,
+      "output": 1.12545
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -7470,6 +7470,13 @@
     },
     {
       "model": "unbiased/pareto-26.10",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.4,
+      "output": 1.6
+    },
+    {
+      "model": "unbiased/pareto-26.10-preview",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.4,
@@ -13463,5 +13470,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-11-11T13:14:32Z"
+  "updated_at": "2026-11-11T23:52:14Z"
 }
