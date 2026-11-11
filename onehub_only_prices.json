@@ -4991,11 +4991,11 @@
       "output": 2.5
     },
     {
-      "model": "baidu/ernie-5.5-flash-preview",
+      "model": "baidu/ernie-5.5-flash-preview:free",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.14,
-      "output": 0.565
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "baidu/ernie-light-dt-1.0-intl",
@@ -5005,32 +5005,11 @@
       "output": 1.97
     },
     {
-      "model": "bytedance-seed/seed-1.6",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.125,
-      "output": 1.0
-    },
-    {
-      "model": "bytedance-seed/seed-1.6-flash",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.15
-    },
-    {
       "model": "bytedance-seed/seed-2-1-turbo",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.25,
       "output": 1.25
-    },
-    {
-      "model": "bytedance-seed/seed-2.0-code",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.25,
-      "output": 1.5
     },
     {
       "model": "bytedance-seed/seed-2.0-lite",
@@ -5183,8 +5162,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.47763,
-      "output": 0.95526
+      "input": 0.44701,
+      "output": 0.89401
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -5806,8 +5785,8 @@
       "model": "minimax/minimax-m2.5",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.135,
+      "output": 0.54
     },
     {
       "model": "minimax/minimax-m2.7",
@@ -7738,7 +7717,7 @@
       "model": "z-ai/glm-5.3-flash:batch",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.021,
+      "input": 0.0235,
       "output": 0.0305
     },
     {
@@ -7844,7 +7823,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.0912,
-      "output": 4.6694
+      "output": 5.50275
     },
     {
       "model": "~openai/gpt-astra-latest",
