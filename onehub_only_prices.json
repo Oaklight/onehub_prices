@@ -5162,8 +5162,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.47763,
-      "output": 0.95526
+      "input": 0.44614,
+      "output": 0.89227
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -5176,8 +5176,8 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.011,
-      "output": 0.2
+      "input": 0.15,
+      "output": 0.6
     },
     {
       "model": "deepseek/deepseek-v4.1-flash-1017",
@@ -5190,8 +5190,8 @@
       "model": "deepseek/deepseek-v4.1-flash-1017:batch",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0055,
-      "output": 0.1
+      "input": 0.025,
+      "output": 0.075
     },
     {
       "model": "deepseek/deepseek-v4.1-flash:batch",
@@ -6030,8 +6030,15 @@
       "model": "moonshotai/kimi-k3.1-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 1.0,
-      "output": 5.0
+      "input": 0.11875,
+      "output": 4.3928
+    },
+    {
+      "model": "moonshotai/kimi-k3.1-pro:batch",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.35,
+      "output": 3.0
     },
     {
       "model": "moonshotai/kimi-k3:batch",
@@ -6968,8 +6975,8 @@
       "model": "qwen/qwen3-14b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.11
+      "input": 0.06,
+      "output": 0.12
     },
     {
       "model": "qwen/qwen3-235b-a22b-2507",
@@ -7101,8 +7108,8 @@
       "model": "qwen/qwen3.5-9b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.029,
-      "output": 0.0425
+      "input": 0.078,
+      "output": 0.1145
     },
     {
       "model": "qwen/qwen3.5-flash-02-23",
@@ -7703,8 +7710,8 @@
       "model": "z-ai/glm-5.2:batch",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.175,
-      "output": 0.5375
+      "input": 0.161,
+      "output": 0.4945
     },
     {
       "model": "z-ai/glm-5.3",
@@ -7752,8 +7759,8 @@
       "model": "z-ai/glm-5.3:batch",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.175,
-      "output": 0.5375
+      "input": 0.225,
+      "output": 1.0
     },
     {
       "model": "z-ai/glm-5v-turbo",
