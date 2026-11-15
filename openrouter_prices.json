@@ -424,8 +424,8 @@
       "model": "deepseek/deepseek-r1-0528",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2855,
-      "output": 1.143
+      "input": 0.25,
+      "output": 1.075
     },
     {
       "model": "deepseek/deepseek-v3.1-terminus",
@@ -459,8 +459,8 @@
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03,
-      "output": 0.09
+      "input": 0.0217,
+      "output": 0.15
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731:batch",
@@ -501,15 +501,15 @@
       "model": "deepseek/deepseek-v4.1-flash-1017",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.019,
-      "output": 0.25
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "deepseek/deepseek-v4.1-flash-1017:batch",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.024,
-      "output": 0.135
+      "input": 0.018,
+      "output": 0.159
     },
     {
       "model": "deepseek/deepseek-v4.1-flash:batch",
@@ -880,7 +880,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.03,
-      "output": 0.125
+      "output": 0.075
     },
     {
       "model": "inclusionai/ling-3.0-flash",
@@ -1355,15 +1355,15 @@
       "model": "moonshotai/kimi-k3.1-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.11875,
-      "output": 4.2057
+      "input": 0.12015,
+      "output": 4.20115
     },
     {
       "model": "moonshotai/kimi-k3.1-pro:batch",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.173,
-      "output": 2.205
+      "input": 0.1375,
+      "output": 2.0625
     },
     {
       "model": "moonshotai/kimi-k3:batch",
@@ -1496,7 +1496,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.075,
-      "output": 0.235
+      "output": 0.25
     },
     {
       "model": "nvidia/nemotron-3.5-super-vl:free",
@@ -2395,13 +2395,6 @@
       "output": 0.3
     },
     {
-      "model": "qwen/qwen3-vl-30b-a3b-thinking",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.145,
-      "output": 0.5
-    },
-    {
       "model": "qwen/qwen3-vl-8b-instruct",
       "type": "tokens",
       "channel_type": 20,
@@ -2440,8 +2433,8 @@
       "model": "qwen/qwen3.5-9b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0555,
-      "output": 0.0815
+      "input": 0.0115,
+      "output": 0.017
     },
     {
       "model": "qwen/qwen3.5-flash-02-23",
@@ -2682,13 +2675,6 @@
       "output": 0.0
     },
     {
-      "model": "stepfun/step-3.5-flash",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.05,
-      "output": 0.15
-    },
-    {
       "model": "stepfun/step-3.7-flash",
       "type": "tokens",
       "channel_type": 20,
@@ -2701,13 +2687,6 @@
       "channel_type": 20,
       "input": 0.5,
       "output": 1.35
-    },
-    {
-      "model": "tencent/hunyuan-a13b-instruct",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.07,
-      "output": 0.285
     },
     {
       "model": "tencent/hy-mt2-1.8b",
@@ -3133,8 +3112,8 @@
       "model": "~deepseek/deepseek-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.019,
-      "output": 0.25
+      "input": 0.01,
+      "output": 0.054
     },
     {
       "model": "~deepseek/deepseek-pro-latest",
@@ -3235,5 +3214,5 @@
       "output": 0.7
     }
   ],
-  "updated_at": "2026-11-15T03:55:58Z"
+  "updated_at": "2026-11-15T13:11:30Z"
 }
