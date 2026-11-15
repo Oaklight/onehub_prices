@@ -5183,15 +5183,15 @@
       "model": "deepseek/deepseek-v4.1-flash-1017",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.01,
+      "output": 0.054
     },
     {
       "model": "deepseek/deepseek-v4.1-flash-1017:batch",
       "type": "tokens",
       "channel_type": 20,
       "input": 0.018,
-      "output": 0.159
+      "output": 0.1595
     },
     {
       "model": "deepseek/deepseek-v4.1-flash:batch",
@@ -5813,8 +5813,8 @@
       "model": "minimax/minimax-m3.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.0375,
+      "output": 0.15
     },
     {
       "model": "minimax/minimax-m3:batch",
@@ -6037,15 +6037,15 @@
       "model": "moonshotai/kimi-k3.1-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.12015,
-      "output": 4.20115
+      "input": 1.0,
+      "output": 5.0
     },
     {
       "model": "moonshotai/kimi-k3.1-pro:batch",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1375,
-      "output": 2.0625
+      "input": 0.35,
+      "output": 3.0
     },
     {
       "model": "moonshotai/kimi-k3:batch",
@@ -6821,8 +6821,8 @@
       "model": "openai/gpt-oss-20b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.015,
-      "output": 0.065
+      "input": 0.0375,
+      "output": 0.15
     },
     {
       "model": "openai/gpt-oss-20b:batch",
@@ -7115,8 +7115,8 @@
       "model": "qwen/qwen3.5-9b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0115,
-      "output": 0.017
+      "input": 0.049,
+      "output": 0.072
     },
     {
       "model": "qwen/qwen3.5-flash-02-23",
@@ -7395,8 +7395,8 @@
       "model": "tencent/hy3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.066,
-      "output": 0.264
+      "input": 0.04125,
+      "output": 0.165
     },
     {
       "model": "tencent/hy3-preview",
@@ -7416,8 +7416,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.417,
-      "output": 1.2505
+      "input": 0.3753,
+      "output": 1.12545
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -7752,8 +7752,8 @@
       "model": "z-ai/glm-5.3:batch",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.161,
-      "output": 0.4945
+      "input": 0.225,
+      "output": 1.0
     },
     {
       "model": "z-ai/glm-5v-turbo",
