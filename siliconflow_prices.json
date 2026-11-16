@@ -302,13 +302,6 @@
       "output": 0.2
     },
     {
-      "model": "Qwen/Qwen3-VL-30B-A3B-Thinking",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.05,
-      "output": 0.2
-    },
-    {
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "type": "tokens",
       "channel_type": 45,
@@ -349,13 +342,6 @@
       "channel_type": 45,
       "input": 0.05,
       "output": 0.0
-    },
-    {
-      "model": "Qwen/Qwen3.5-122B-A10B",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.14286,
-      "output": 1.14286
     },
     {
       "model": "Qwen/Qwen3.5-27B",
@@ -554,13 +540,6 @@
       "output": 0.28571
     },
     {
-      "model": "inclusionAI/Ling-mini-2.0",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.03571,
-      "output": 0.14286
-    },
-    {
       "model": "meituan-longcat/LongCat-2.0",
       "type": "tokens",
       "channel_type": 45,
@@ -573,20 +552,6 @@
       "channel_type": 45,
       "input": 0.46429,
       "output": 1.92857
-    },
-    {
-      "model": "stepfun-ai/Step-3.5-Flash",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.05,
-      "output": 0.15
-    },
-    {
-      "model": "tencent/Hunyuan-A13B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.07143,
-      "output": 0.28571
     },
     {
       "model": "tencent/Hunyuan-MT-7B",
@@ -604,13 +569,6 @@
     },
     {
       "model": "zai-org/GLM-4.5-Air",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.07143,
-      "output": 0.42857
-    },
-    {
-      "model": "zai-org/GLM-4.5V",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.07143,
@@ -638,5 +596,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-11-16T03:56:08Z"
+  "updated_at": "2026-11-16T14:20:48Z"
 }
