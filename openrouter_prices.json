@@ -424,8 +424,8 @@
       "model": "deepseek/deepseek-r1-0528",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.25,
-      "output": 1.075
+      "input": 0.2855,
+      "output": 1.143
     },
     {
       "model": "deepseek/deepseek-v3.1-terminus",
@@ -494,8 +494,8 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0255,
-      "output": 0.2835
+      "input": 0.02535,
+      "output": 0.1014
     },
     {
       "model": "deepseek/deepseek-v4.1-flash-1017",
@@ -830,8 +830,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03825,
-      "output": 0.1275
+      "input": 0.045,
+      "output": 0.15
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -1131,8 +1131,8 @@
       "model": "minimax/minimax-m3.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.15
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "minimax/minimax-m3:batch",
@@ -1348,7 +1348,7 @@
       "model": "moonshotai/kimi-k3",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.1,
+      "input": 0.096,
       "output": 8.0
     },
     {
@@ -2489,8 +2489,8 @@
       "model": "qwen/qwen3.5-9b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.038,
-      "output": 0.056
+      "input": 0.085,
+      "output": 0.125
     },
     {
       "model": "qwen/qwen3.5-flash-02-23",
@@ -2993,8 +2993,8 @@
       "model": "xiaomi/mimo-v2.5-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.2175,
-      "output": 0.435
+      "input": 0.24,
+      "output": 0.9
     },
     {
       "model": "xiaomi/mimo-v2.6-flash",
@@ -3112,8 +3112,8 @@
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.01995,
-      "output": 0.0392
+      "input": 0.075,
+      "output": 0.25
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
@@ -3291,5 +3291,5 @@
       "output": 0.7
     }
   ],
-  "updated_at": "2026-11-18T00:14:17Z"
+  "updated_at": "2026-11-18T14:49:47Z"
 }
