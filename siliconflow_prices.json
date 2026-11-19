@@ -428,6 +428,13 @@
       "output": 0.1
     },
     {
+      "model": "XingChenAGI/Xing-Audio4.0-ASR-Preview",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "XingChenAGI/Xing4.0-29B",
       "type": "tokens",
       "channel_type": 45,
@@ -596,5 +603,5 @@
       "output": 0.0
     }
   ],
-  "updated_at": "2026-11-19T05:09:16Z"
+  "updated_at": "2026-11-19T14:56:30Z"
 }

@@ -459,7 +459,7 @@
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
+      "input": 0.031,
       "output": 0.15
     },
     {
@@ -494,8 +494,8 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.02535,
+      "output": 0.1014
     },
     {
       "model": "deepseek/deepseek-v4.1-flash-1017",
@@ -844,8 +844,8 @@
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.03825,
-      "output": 0.1275
+      "input": 0.045,
+      "output": 0.15
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -1355,7 +1355,7 @@
       "model": "moonshotai/kimi-k2.7-code",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3,
+      "input": 0.325,
       "output": 1.75
     },
     {
@@ -2503,8 +2503,8 @@
       "model": "qwen/qwen3.5-9b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.077,
-      "output": 0.113
+      "input": 0.085,
+      "output": 0.125
     },
     {
       "model": "qwen/qwen3.5-flash-02-23",
@@ -2857,13 +2857,6 @@
       "output": 0.5
     },
     {
-      "model": "thinkingmachines/inkling-2-small:free",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "thinkingmachines/inkling-small",
       "type": "tokens",
       "channel_type": 20,
@@ -3105,8 +3098,8 @@
       "model": "z-ai/glm-5.2",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0035,
-      "output": 3.4
+      "input": 0.31,
+      "output": 1.21
     },
     {
       "model": "z-ai/glm-5.2:batch",
@@ -3217,8 +3210,8 @@
       "model": "~deepseek/deepseek-v4-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.15
+      "input": 0.02332,
+      "output": 0.06996
     },
     {
       "model": "~google/gemini-flash-latest",
@@ -3305,5 +3298,5 @@
       "output": 0.7
     }
   ],
-  "updated_at": "2026-11-19T05:09:16Z"
+  "updated_at": "2026-11-19T14:56:31Z"
 }
