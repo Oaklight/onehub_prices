@@ -1117,8 +1117,8 @@
       "model": "minimax/minimax-m3.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.0375,
+      "output": 0.15
     },
     {
       "model": "minimax/minimax-m3:batch",
@@ -2188,8 +2188,8 @@
       "model": "openai/gpt-oss-20b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.15
+      "input": 0.015,
+      "output": 0.065
     },
     {
       "model": "openai/gpt-oss-20b:batch",
@@ -2797,8 +2797,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.417,
-      "output": 1.2505
+      "input": 0.3753,
+      "output": 1.12545
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -3098,8 +3098,8 @@
       "model": "z-ai/glm-5.3-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.021,
-      "output": 0.092
+      "input": 0.01995,
+      "output": 0.0392
     },
     {
       "model": "z-ai/glm-5.3-flash:batch",
@@ -3266,8 +3266,8 @@
       "model": "~z-ai/glm-flash-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.021,
-      "output": 0.092
+      "input": 0.01995,
+      "output": 0.0392
     },
     {
       "model": "~z-ai/glm-latest",
@@ -3277,5 +3277,5 @@
       "output": 0.7
     }
   ],
-  "updated_at": "2026-11-22T13:48:38Z"
+  "updated_at": "2026-11-22T22:59:21Z"
 }
