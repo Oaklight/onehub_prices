@@ -5134,8 +5134,8 @@
       "model": "deepseek/deepseek-v4-flash-0731",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02215,
-      "output": 0.15
+      "input": 0.0275,
+      "output": 0.1875
     },
     {
       "model": "deepseek/deepseek-v4-flash-0731:batch",
@@ -5192,6 +5192,13 @@
       "channel_type": 20,
       "input": 0.025,
       "output": 0.075
+    },
+    {
+      "model": "dots-studio/dots-3-note-preview:free",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "elorian/glimpse",
@@ -5499,7 +5506,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.04,
-      "output": 0.225
+      "output": 0.08
     },
     {
       "model": "google/gemma-3-4b-it",
@@ -5799,8 +5806,8 @@
       "model": "minimax/minimax-m3.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.0375,
-      "output": 0.15
+      "input": 0.075,
+      "output": 0.3
     },
     {
       "model": "minimax/minimax-m3:batch",
@@ -6856,8 +6863,8 @@
       "model": "openai/gpt-oss-120b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.18
+      "input": 0.025,
+      "output": 0.125
     },
     {
       "model": "openai/gpt-oss-120b:batch",
@@ -7199,8 +7206,8 @@
       "model": "qwen/qwen3.6-35b-a3b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.45
+      "input": 0.025,
+      "output": 0.35
     },
     {
       "model": "qwen/qwen3.6-flash",
@@ -7479,8 +7486,8 @@
       "model": "tencent/hy4-preview",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.3753,
-      "output": 1.12545
+      "input": 0.417,
+      "output": 1.2505
     },
     {
       "model": "thedrummer/cydonia-24b-v4.1",
@@ -7864,8 +7871,8 @@
       "model": "~deepseek/deepseek-pro-latest",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.04995,
-      "output": 4.0
+      "input": 0.0594,
+      "output": 2.5
     },
     {
       "model": "~deepseek/deepseek-v4-flash-latest",
