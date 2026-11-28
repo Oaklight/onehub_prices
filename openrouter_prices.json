@@ -473,8 +473,8 @@
       "model": "deepseek/deepseek-v4-pro",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.393,
-      "output": 0.7856
+      "input": 0.25104,
+      "output": 0.7508
     },
     {
       "model": "deepseek/deepseek-v4-pro-0813",
@@ -487,8 +487,8 @@
       "model": "deepseek/deepseek-v4.1-flash",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.02535,
-      "output": 0.1014
+      "input": 0.0255,
+      "output": 0.2835
     },
     {
       "model": "deepseek/deepseek-v4.1-flash-1017",
@@ -823,15 +823,15 @@
       "model": "google/gemma-3-4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.025,
-      "output": 0.05
+      "input": 0.02,
+      "output": 0.025
     },
     {
       "model": "google/gemma-4-26b-a4b-it",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.045,
-      "output": 0.15
+      "input": 0.03375,
+      "output": 0.1125
     },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -1503,7 +1503,7 @@
       "type": "tokens",
       "channel_type": 20,
       "input": 0.075,
-      "output": 0.235
+      "output": 0.225
     },
     {
       "model": "nvidia/nemotron-3.5-super-vl:free",
@@ -2381,13 +2381,6 @@
       "output": 0.4
     },
     {
-      "model": "qwen/qwen3-235b-a22b-thinking-2507",
-      "type": "tokens",
-      "channel_type": 20,
-      "input": 0.225,
-      "output": 1.75
-    },
-    {
       "model": "qwen/qwen3-30b-a3b",
       "type": "tokens",
       "channel_type": 20,
@@ -2496,8 +2489,8 @@
       "model": "qwen/qwen3.5-9b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.05,
-      "output": 0.125
+      "input": 0.0425,
+      "output": 0.0625
     },
     {
       "model": "qwen/qwen3.5-flash-02-23",
@@ -2657,7 +2650,7 @@
       "model": "reflection/beam-1.0-501b-a23b",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
+      "input": 0.125,
       "output": 0.5
     },
     {
@@ -2853,8 +2846,8 @@
       "model": "thinkingmachines/inkling-2-small",
       "type": "tokens",
       "channel_type": 20,
-      "input": 0.15,
-      "output": 0.5
+      "input": 0.075,
+      "output": 0.25
     },
     {
       "model": "thinkingmachines/inkling-small",
@@ -3277,5 +3270,5 @@
       "output": 0.7
     }
   ],
-  "updated_at": "2026-11-27T15:51:45Z"
+  "updated_at": "2026-11-28T00:52:07Z"
 }
